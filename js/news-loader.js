@@ -23,6 +23,11 @@ const CLOUD_META = {
   oci:   { name: 'OCI',   colorClass: 'oci',   icon: 'https://upload.wikimedia.org/wikipedia/commons/5/50/Oracle_logo.svg' },
 };
 
+// 各クラウドの全アイテムをキャッシュ
+ const cloudItems = {};
+const DEFAULT_COUNT = 6;
+const COUNT_OPTIONS = [6, 12, 20];
+
 /** HTML エスケープ */
 function escHtml(str) {
   if (!str) return '';
@@ -142,6 +147,62 @@ function renderLatestSummary(data) {
   grid.innerHTML = `<div class="latest-panel">${rows.join('')}</div>`;
 }
 
+/** 件数セレクターを構築する */
+function buildCountSelector(cloudId, totalAvailable) {
+  const el = document.getElementById(`${cloudId}-count`);
+  if (!el) return;
+  if (totalAvailable <= DEFAULT_COUNT) {
+    el.style.display = 'none';
+    return;
+  }
+  const buttons = COUNT_OPTIONS.map(n => {
+    const active = n === DEFAULT_COUNT ? ' active' : '';
+    return `<button class="count-btn${active}" data-count="${n}" data-cloud="${cloudId}">${n}件</button>`;
+  }).join('');
+  el.innerHTML = `<span class="count-label">表示件数:</span>${buttons}`;
+  el.addEventListener('click', e => {
+    const btn = e.target.closest('.count-btn');
+    if (!btn) return;
+    applyCount(btn.dataset.cloud, parseInt(btn.dataset.count));
+  });
+}
+
+/** 指定件数でグリッドを再描画し、フィルター状態も復元する */
+function applyCount(cloudId, count) {
+  const grid = document.getElementById(`${cloudId}-grid`);
+  if (!grid) return;
+
+  const slice = (cloudItems[cloudId] || []).slice(0, count);
+  grid.innerHTML = slice.map(item => renderCard(item)).join('');
+
+  // アクティブなカテゴリフィルターを再適用
+  const filterBar = document.getElementById(`${cloudId}-filter`);
+  if (filterBar) {
+    const activeBtn = filterBar.querySelector('.filter-btn.active');
+    if (activeBtn && activeBtn.dataset.cat !== 'all') {
+      const cat = activeBtn.dataset.cat;
+      grid.querySelectorAll('.news-card').forEach(card => {
+        card.style.display = card.dataset.category === cat ? '' : 'none';
+      });
+    }
+  }
+
+  // アニメーション
+  if (window._cardObserver) {
+    grid.querySelectorAll('.news-card').forEach(c => window._cardObserver.observe(c));
+  } else {
+    grid.querySelectorAll('.news-card').forEach(c => c.classList.add('visible'));
+  }
+
+  // 件数ボタンのアクティブ状態を更新
+  const countEl = document.getElementById(`${cloudId}-count`);
+  if (countEl) {
+    countEl.querySelectorAll('.count-btn').forEach(btn => {
+      btn.classList.toggle('active', parseInt(btn.dataset.count) === count);
+    });
+  }
+}
+
 /** メイン: JSON 読み込み → ソート → フィルターバー → カード描画 */
 async function loadNews() {
   const CLOUD_IDS = ['azure', 'aws', 'gcp', 'oci'];
@@ -178,18 +239,17 @@ async function loadNews() {
       // 公開日降順ソート（最新が先頭）
       items.sort((a, b) => (b.date_iso || '').localeCompare(a.date_iso || ''));
 
-      // フィルターバー構築
+      // 全アイテムをキャッシュ
+      cloudItems[cloudId] = items;
+
+      // フィルターバー構築（全件ベース）
       buildFilterBar(`${cloudId}-filter`, items, `${cloudId}-grid`);
 
-      // カード描画
-      grid.innerHTML = items.map(item => renderCard(item)).join('');
+      // 件数セレクター構築
+      buildCountSelector(cloudId, items.length);
 
-      // フェードインアニメーション
-      if (window._cardObserver) {
-        grid.querySelectorAll('.news-card').forEach(card => window._cardObserver.observe(card));
-      } else {
-        grid.querySelectorAll('.news-card').forEach(card => card.classList.add('visible'));
-      }
+      // 初期描画（デフォルト件数）
+      applyCount(cloudId, DEFAULT_COUNT);
     }
 
   } catch (err) {

@@ -19,7 +19,7 @@ import feedparser
 
 # ===== 設定 =====
 OUTPUT_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "news.json")
-MAX_ITEMS_PER_CLOUD = 6    # 1クラウドあたり表示件数
+MAX_ITEMS_PER_CLOUD = 20   # 1クラウドあたり保存件数（UI側で表示件数を制御）
 MAX_FETCH_ENTRIES = 100    # RSSから取得する最大エントリ数（日付降順ソート用）
 
 # RSS フィード定義（各クラウドの指定公式ページに対応するフィード）
