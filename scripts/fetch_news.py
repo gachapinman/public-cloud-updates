@@ -119,7 +119,8 @@ def fetch_feed(cloud_key: str, conf: dict) -> list[dict]:
             feed = feedparser.parse(url)
             if feed.bozo and not feed.entries:
                 continue  # 解析失敗
-            for entry in feed.entries[:MAX_ITEMS_PER_CLOUD]:
+            all_entries = []
+            for entry in feed.entries:
                 title   = clean_text(entry.get("title", "(タイトルなし)"), 120)
                 summary = clean_text(entry.get("summary", entry.get("description", "")), 200)
                 link    = entry.get("link", "")
@@ -127,7 +128,7 @@ def fetch_feed(cloud_key: str, conf: dict) -> list[dict]:
                 cat_tag   = detect_category(title, summary)
                 cat_label = detect_category_label(cat_tag)
 
-                items.append({
+                all_entries.append({
                     "title":      title,
                     "link":       link,
                     "summary":    summary,
@@ -137,6 +138,9 @@ def fetch_feed(cloud_key: str, conf: dict) -> list[dict]:
                     "cat_label":  cat_label,
                     "tag":        cloud_key.upper(),
                 })
+            # 公開日降順ソート → 最大件数取得
+            all_entries.sort(key=lambda x: x["date_iso"], reverse=True)
+            items = all_entries[:MAX_ITEMS_PER_CLOUD]
             if items:
                 print(f"  [{cloud_key}] {len(items)} 件取得 ({url})")
                 break

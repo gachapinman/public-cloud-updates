@@ -1,37 +1,21 @@
 /**
  * news-loader.js
- * data/news.json を取得して各クラウドのニュースグリッドを動的レンダリングする
+ * data/news.json を取得して各クラウドのニュースグリッドをアイコン付きで動的レンダリング。
+ * カテゴリフィルターバー付き（クリックでカテゴリ絞り込み）。
  */
 
-const TAG_CLASSES = {
-  'ai-tag':        'ai-tag',
-  'security-tag':  'security-tag',
-  'container-tag': 'container-tag',
-  'database-tag':  'database-tag',
-  'storage-tag':   'storage-tag',
-  'network-tag':   'network-tag',
-  'compute-tag':   'compute-tag',
+// カテゴリ設定（アイコン・ラベル・カラー）
+const TAG_CONFIG = {
+  'ai-tag':        { icon: '🤖', label: 'AI / ML' },
+  'security-tag':  { icon: '🔒', label: 'セキュリティ' },
+  'container-tag': { icon: '📦', label: 'コンテナ' },
+  'database-tag':  { icon: '🗄️', label: 'データベース' },
+  'storage-tag':   { icon: '💾', label: 'ストレージ' },
+  'network-tag':   { icon: '🌐', label: 'ネットワーク' },
+  'compute-tag':   { icon: '⚡', label: 'コンピューティング' },
 };
 
-function renderCard(item, isFeatured) {
-  const featuredClass = isFeatured ? ' featured' : '';
-  const tagClass = TAG_CLASSES[item.tag] || item.tag || 'compute-tag';
-
-  return `
-    <article class="news-card${featuredClass} fade-in">
-      <div class="news-category ${tagClass}">${item.cat_label}</div>
-      <h3 class="news-title">
-        <a href="${escHtml(item.link)}" target="_blank" rel="noopener noreferrer">${escHtml(item.title)}</a>
-      </h3>
-      <p class="news-summary">${escHtml(item.summary)}</p>
-      <div class="news-meta">
-        <time datetime="${escHtml(item.date_iso)}">${escHtml(item.date)}</time>
-        ${item.category ? `<span class="news-category-label">${escHtml(item.category)}</span>` : ''}
-        <a href="${escHtml(item.link)}" target="_blank" rel="noopener noreferrer" class="news-read-more">元記事を見る →</a>
-      </div>
-    </article>`;
-}
-
+/** HTML エスケープ */
 function escHtml(str) {
   if (!str) return '';
   return String(str)
@@ -42,6 +26,76 @@ function escHtml(str) {
     .replace(/'/g, '&#39;');
 }
 
+/** ニュースカード HTML を生成（featured 廃止 → 日付順で最新が先頭） */
+function renderCard(item) {
+  const cfg = TAG_CONFIG[item.category] || { icon: '☁️', label: item.cat_label || 'その他' };
+  const catClass = item.category || 'compute-tag';
+
+  return `
+    <article class="news-card fade-in" data-category="${escHtml(item.category)}">
+      <div class="news-category ${catClass}">
+        <span class="cat-icon">${cfg.icon}</span>${cfg.label}
+      </div>
+      <h3 class="news-title">
+        <a href="${escHtml(item.link)}" target="_blank" rel="noopener noreferrer">${escHtml(item.title)}</a>
+      </h3>
+      <p class="news-summary">${escHtml(item.summary)}</p>
+      <div class="news-meta">
+        <time datetime="${escHtml(item.date_iso)}">${escHtml(item.date)}</time>
+        <a href="${escHtml(item.link)}" target="_blank" rel="noopener noreferrer" class="news-read-more">元記事を見る →</a>
+      </div>
+    </article>`;
+}
+
+/**
+ * フィルターバーを構築してイベントを登録する。
+ * items に含まれるカテゴリを自動検出してボタンを生成。
+ */
+function buildFilterBar(filterId, items, gridId) {
+  const bar = document.getElementById(filterId);
+  if (!bar) return;
+
+  // このクラウドに存在するカテゴリを出現順で重複なし収集
+  const seen = new Set();
+  const cats = [];
+  for (const item of items) {
+    if (item.category && !seen.has(item.category)) {
+      seen.add(item.category);
+      cats.push(item.category);
+    }
+  }
+
+  // 「すべて」ボタン + カテゴリボタン生成
+  let html = `<button class="filter-btn active" data-cat="all" data-grid="${gridId}">すべて</button>`;
+  for (const cat of cats) {
+    const cfg = TAG_CONFIG[cat] || { icon: '☁️', label: cat };
+    html += `<button class="filter-btn ${cat}" data-cat="${cat}" data-grid="${gridId}">
+      <span class="filter-icon">${cfg.icon}</span>${cfg.label}
+    </button>`;
+  }
+  bar.innerHTML = html;
+
+  // クリックイベント（委譲）
+  bar.addEventListener('click', e => {
+    const btn = e.target.closest('.filter-btn');
+    if (!btn) return;
+
+    // アクティブ切り替え
+    bar.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+
+    const cat = btn.dataset.cat;
+    const grid = document.getElementById(btn.dataset.grid);
+    if (!grid) return;
+
+    grid.querySelectorAll('.news-card').forEach(card => {
+      const match = cat === 'all' || card.dataset.category === cat;
+      card.style.display = match ? '' : 'none';
+    });
+  });
+}
+
+/** メイン: JSON 読み込み → ソート → フィルターバー → カード描画 */
 async function loadNews() {
   const CLOUD_IDS = ['azure', 'aws', 'gcp', 'oci'];
 
@@ -50,53 +104,55 @@ async function loadNews() {
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
 
-    // 更新日時をヘッダーに反映
+    // ヘッダーの更新日時を反映
     const updateEl = document.getElementById('update-date');
     if (updateEl && data.updated) {
       updateEl.textContent = `最終更新: ${data.updated}`;
     }
 
-    // 各クラウドのグリッドにカードをレンダリング
     for (const cloudId of CLOUD_IDS) {
       const grid = document.getElementById(`${cloudId}-grid`);
       if (!grid) continue;
 
-      const items = data.clouds[cloudId];
-      if (!items || items.length === 0) {
+      let items = (data.clouds && data.clouds[cloudId]) ? [...data.clouds[cloudId]] : [];
+
+      if (items.length === 0) {
         grid.innerHTML = '<p class="grid-empty">現在、ニュースはありません。</p>';
         continue;
       }
 
-      grid.innerHTML = items.map((item, i) => renderCard(item, i === 0)).join('');
+      // 公開日降順ソート（最新が先頭）
+      items.sort((a, b) => (b.date_iso || '').localeCompare(a.date_iso || ''));
 
-      // IntersectionObserver でフェードインを適用
+      // フィルターバー構築
+      buildFilterBar(`${cloudId}-filter`, items, `${cloudId}-grid`);
+
+      // カード描画
+      grid.innerHTML = items.map(item => renderCard(item)).join('');
+
+      // フェードインアニメーション
       if (window._cardObserver) {
-        grid.querySelectorAll('.news-card').forEach(card => {
-          window._cardObserver.observe(card);
-        });
+        grid.querySelectorAll('.news-card').forEach(card => window._cardObserver.observe(card));
       } else {
-        // main.js の Observer がまだ未設定の場合は即表示
-        grid.querySelectorAll('.news-card').forEach(card => {
-          card.classList.add('visible');
-        });
+        grid.querySelectorAll('.news-card').forEach(card => card.classList.add('visible'));
       }
     }
 
   } catch (err) {
     console.error('ニュースデータの読み込みに失敗しました:', err);
-    // エラー時はすべてのグリッドにメッセージを表示
-    CLOUD_IDS.forEach(cloudId => {
+    ['azure', 'aws', 'gcp', 'oci'].forEach(cloudId => {
       const grid = document.getElementById(`${cloudId}-grid`);
-      if (grid && grid.querySelector('.grid-loading')) {
+      if (grid) {
         grid.innerHTML = '<p class="grid-error">データの読み込みに失敗しました。しばらくしてからページを更新してください。</p>';
       }
     });
   }
 }
 
-// DOM 読み込み後に実行
+// DOM 構築後に実行
 if (document.readyState === 'loading') {
   document.addEventListener('DOMContentLoaded', loadNews);
 } else {
   loadNews();
 }
+
