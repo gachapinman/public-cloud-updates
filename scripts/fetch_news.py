@@ -13,6 +13,7 @@ fetch_news.py
 import json
 import os
 import re
+import urllib.request
 from datetime import datetime, timezone, timedelta
 import feedparser
 
@@ -43,9 +44,9 @@ FEEDS = {
     },
     "oci": {
         "name": "Oracle Cloud Infrastructure",
-        # https://docs.oracle.com/en-us/iaas/releasenotes/ の公式フィード
-        "url": "https://docs.oracle.com/en-us/iaas/releasenotes/rss/whatsnew.xml",
-        "fallback_url": "https://blogs.oracle.com/cloud-infrastructure/rss",
+        # OCI には RSS フィードがないためウェブスクレイピングで取得
+        "url": "https://docs.oracle.com/en-us/iaas/releasenotes/",
+        "scrape": True,
     },
 }
 
@@ -186,6 +187,71 @@ def fetch_feed(cloud_key: str, conf: dict) -> list[dict]:
     return items
 
 
+def fetch_oci_from_web() -> list[dict]:
+    """OCI リリースノートページをスクレイピングして最新アイテムを返す（RSS 廃止対応）"""
+    url = "https://docs.oracle.com/en-us/iaas/releasenotes/"
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (compatible; cloud-news-fetcher/1.0)"})
+        with urllib.request.urlopen(req, timeout=25) as resp:
+            html = resp.read().decode("utf-8", errors="replace")
+    except Exception as e:
+        print(f"  [oci] ページ取得失敗: {e}")
+        return []
+
+    JST = timezone(timedelta(hours=9))
+    items = []
+
+    # h2 タグで区切り、各ブロックからタイトル・リンク・日付を抽出
+    blocks = re.split(r'<h2[^>]*>', html, flags=re.IGNORECASE)[1:]
+    for block in blocks[:60]:
+        # 最初の <a href> からタイトルとリンクを取得
+        link_match = re.search(r'<a\s+href="([^"]+)"[^>]*>([^<]+)</a>', block)
+        if not link_match:
+            continue
+        link = link_match.group(1).strip()
+        title = clean_text(link_match.group(2))
+        if not title or len(title) < 5 or '🔗' in title:
+            continue
+        # 相対 URL を絶対 URL に変換
+        if link.startswith("/"):
+            link = "https://docs.oracle.com" + link
+        elif not link.startswith("http"):
+            continue
+
+        # ブロック内から Release Date を抽出
+        date_match = re.search(r'Release Date[:\s]+([A-Za-z]+ \d+, \d{4})', block)
+        if not date_match:
+            continue
+        try:
+            dt = datetime.strptime(date_match.group(1), "%B %d, %Y")
+            date_iso = dt.strftime("%Y-%m-%d")
+            date_display = f"{dt.year}年{dt.month}月{dt.day}日"
+        except ValueError:
+            continue
+
+        cat_tag = detect_category(title, "")
+        cat_label = detect_category_label(cat_tag)
+        items.append({
+            "title":     title,
+            "link":      link,
+            "summary":   "",
+            "date":      date_display,
+            "date_iso":  date_iso,
+            "category":  cat_tag,
+            "cat_label": cat_label,
+            "tag":       "OCI",
+        })
+
+    # 日付降順ソートして上位 N 件を返す
+    items.sort(key=lambda x: x["date_iso"], reverse=True)
+    result = items[:MAX_ITEMS_PER_CLOUD]
+    if result:
+        print(f"  [oci] {len(result)} 件取得 (web scraping: {url})")
+    else:
+        print(f"  [oci] 0 件取得 (スクレイピング失敗またはアイテムなし)")
+    return result
+
+
 def main():
     JST = timezone(timedelta(hours=9))
     now_str = datetime.now(JST).strftime("%Y年%m月%d日 %H:%M JST")
@@ -196,7 +262,10 @@ def main():
 
     for cloud_key, conf in FEEDS.items():
         print(f"Fetching {conf['name']} ...")
-        items = fetch_feed(cloud_key, conf)
+        if conf.get("scrape"):
+            items = fetch_oci_from_web()
+        else:
+            items = fetch_feed(cloud_key, conf)
         news["clouds"][cloud_key] = items
 
     # 出力先ディレクトリを作成

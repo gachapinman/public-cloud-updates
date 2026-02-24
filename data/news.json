@@ -188,7 +188,66 @@
                                }
                            ],
                    "oci":  [
-
+                               {
+                                   "title":  "New Region in Casablanca, Morocco",
+                                   "link":  "https://docs.oracle.com/iaas/releasenotes/oci/new-region-casablanca-1.htm",
+                                   "summary":  "The Morocco West (Casablanca) region is now available. The region identifier is af-casablanca-1. The region key is LEJ.",
+                                   "date":  "2026年2月20日",
+                                   "date_iso":  "2026-02-20",
+                                   "category":  "compute-tag",
+                                   "cat_label":  "コンピューティング",
+                                   "tag":  "OCI"
+                               },
+                               {
+                                   "title":  "Virtual Cloud Network (VCN) PrivateIP Enhancements",
+                                   "link":  "https://docs.oracle.com/iaas/releasenotes/network/bulk-ip.htm",
+                                   "summary":  "Oracle Cloud Infrastructure virtual networking now supports the creation, updating, deletion, and detachment of up to 16 private IPs in a single API call for improved efficiency.",
+                                   "date":  "2026年2月19日",
+                                   "date_iso":  "2026-02-19",
+                                   "category":  "network-tag",
+                                   "cat_label":  "ネットワーク",
+                                   "tag":  "OCI"
+                               },
+                               {
+                                   "title":  "HeatWave: Near-Zero Downtime Maintenance",
+                                   "link":  "https://docs.oracle.com/iaas/releasenotes/mysql-database/TC-40089-near-zero-downtime-maintenance.htm",
+                                   "summary":  "HeatWave now supports near-zero downtime maintenance, which minimizes disruptions during system updates.",
+                                   "date":  "2026年2月18日",
+                                   "date_iso":  "2026-02-18",
+                                   "category":  "database-tag",
+                                   "cat_label":  "データベース",
+                                   "tag":  "OCI"
+                               },
+                               {
+                                   "title":  "ZPR Supports Traffic Between Peered VCNs",
+                                   "link":  "https://docs.oracle.com/iaas/releasenotes/multiple/zpr-cross-vcn-npa.htm",
+                                   "summary":  "Zero Trust Packet Routing (ZPR) policy syntax has been expanded to support secure communication across VCNs in the same tenancy.",
+                                   "date":  "2026年2月18日",
+                                   "date_iso":  "2026-02-18",
+                                   "category":  "security-tag",
+                                   "cat_label":  "セキュリティ",
+                                   "tag":  "OCI"
+                               },
+                               {
+                                   "title":  "HeatWave: Maintenance-Disabled Window",
+                                   "link":  "https://docs.oracle.com/iaas/releasenotes/mysql-database/TC-39549-maintenance-disabled-window.htm",
+                                   "summary":  "You can now enable a maintenance-disabled window during which any non-critical maintenance that imposes downtime is not performed.",
+                                   "date":  "2026年2月17日",
+                                   "date_iso":  "2026-02-17",
+                                   "category":  "database-tag",
+                                   "cat_label":  "データベース",
+                                   "tag":  "OCI"
+                               },
+                               {
+                                   "title":  "Oracle Data Safe Redwood Implementation",
+                                   "link":  "https://docs.oracle.com/iaas/releasenotes/data-safe/redwood.htm",
+                                   "summary":  "Oracle Data Safe now uses the OCI Redwood UI template. In addition to appearing differently, some functionality of Oracle Data Safe has been updated.",
+                                   "date":  "2026年2月17日",
+                                   "date_iso":  "2026-02-17",
+                                   "category":  "security-tag",
+                                   "cat_label":  "セキュリティ",
+                                   "tag":  "OCI"
+                               }
                            ]
                }
 }
