@@ -1,257 +1,70 @@
 {
-  "updated": "2026年02月24日 09:00 JST",
+  "updated": "2026年02月24日 19:00 JST",
   "clouds": {
-    "azure": [
-      {
-        "title": "Azure AI Foundry が GA — 企業向け AI 開発基盤",
-        "link": "https://azure.microsoft.com/ja-jp/products/ai-foundry/",
-        "summary": "Azure AI Studio から改称・進化した Azure AI Foundry が一般提供開始。OpenAI GPT-4o / o1 シリーズ、Phi-4、Llama 3 など多数のモデルをプロジェクト管理 UI で統合管理。RAG・エージェント開発ワークフローを大幅簡略化。",
-        "date": "2025年11月",
-        "date_iso": "2025-11-01",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AI Foundry",
-        "featured": true
-      },
-      {
-        "title": "Phi-4 および Phi-4 Multimodal が Azure AI Foundry で利用可能",
-        "link": "https://azure.microsoft.com/ja-jp/blog/",
-        "summary": "Microsoft 独自の小型言語モデル Phi-4 が Azure AI Foundry のモデルカタログに追加。14B パラメータながら GPT-4 級の推論能力を持ち、エッジデバイスへのデプロイも容易。",
-        "date": "2025年12月",
-        "date_iso": "2025-12-01",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "Phi-4"
-      },
-      {
-        "title": "Azure Cobalt 100 搭載 VM が全リージョンで GA",
-        "link": "https://azure.microsoft.com/ja-jp/blog/azure-cobalt-100-based-virtual-machines-are-now-generally-available/",
-        "summary": "Microsoft 独自 Arm64 チップ Cobalt 100 を搭載した Dpsv6 / Epsv6 シリーズが全主要リージョンで一般提供。Intel/AMD 比で最大 50% コスト削減を実現するユースケースも報告。",
-        "date": "2025年10月",
-        "date_iso": "2025-10-01",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "Virtual Machines"
-      },
-      {
-        "title": "Azure Kubernetes Service (AKS) — Automatic モード GA",
-        "link": "https://learn.microsoft.com/ja-jp/azure/aks/intro-aks-automatic",
-        "summary": "ノードプロビジョニング・スケーリング・アップグレードをフルマネージドで実施する AKS Automatic モードが GA。開発者は YAML デプロイに集中でき、インフラ管理コストを大幅削減。",
-        "date": "2025年9月",
-        "date_iso": "2025-09-01",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "AKS"
-      },
-      {
-        "title": "Microsoft Entra Suite による統合 Zero Trust アクセス",
-        "link": "https://www.microsoft.com/ja-jp/security/business/microsoft-entra/microsoft-entra-suite",
-        "summary": "Entra ID、Entra Private Access、Entra Internet Access を一元管理する Entra Suite が一般提供。ZTNA・CASB・SWG を統合し、ネットワーク境界のないセキュリティ基盤を提供。",
-        "date": "2025年8月",
-        "date_iso": "2025-08-01",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "Entra"
-      },
-      {
-        "title": "Azure Cosmos DB — Free Tier 容量拡大 & ベクター検索 GA",
-        "link": "https://azure.microsoft.com/ja-jp/products/cosmos-db/",
-        "summary": "無料枠が 25GB に拡大。DiskANN ベースのベクター検索機能が GA となり、RAG アプリケーションでの採用率が急増。MongoDB・Cassandra・Gremlin 互換も引き続き強化。",
-        "date": "2026年1月",
-        "date_iso": "2026-01-01",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "Cosmos DB"
-      }
-    ],
+    "azure": [],
     "aws": [
       {
-        "title": "Amazon Nova Premier & Trainium3 発表",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2025/12/",
-        "summary": "Amazon Nova Premier はマルチモーダル対応の最上位フラッグシップモデル。Trainium3 チップは前世代比 4 倍の学習効率を実現。AWS re:Invent 2025 で発表され、2026年初頭より段階的に提供開始。",
-        "date": "2025年12月",
-        "date_iso": "2025-12-01",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "Bedrock",
-        "featured": true
+        "title": "Amazon RDS が RDS Service API の VPC エンドポイント向けに IPv6 のサポートを開始",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/01/amazon-rds-ipv6-vpc-endpoints-service-apis",
+        "summary": "Amazon RDS は、パブリックエンドポイント向けの既存の Internet Protocol version 6 (IPv6) サポートに加えて、RDS Service API の VPC エンドポイント向けの IPv6 をサポートするようになりました。これにより、デュアルスタック (IPv4 と IPv6) の接続を設定して、インターネットを経由せずに VPC 内から RDS…",
+        "date": "2026年1月",
+        "date_iso": "2026-01-31",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
       },
       {
-        "title": "AWS Graviton4 搭載 C8g / M8g / R8g インスタンス GA",
-        "link": "https://aws.amazon.com/ec2/graviton/",
-        "summary": "Graviton4 は前世代比最大 30% 高性能。メモリ帯域幅の大幅改善により、データベース・分析ワークロードで高い費用対効果を実現。全主要リージョンで利用可能。",
-        "date": "2025年11月",
-        "date_iso": "2025-11-01",
+        "title": "Amazon SageMaker Unified Studio が AWS PrivateLink のサポートを開始",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/01/amazon-sagemaker-unified-studio-aws-privatelink/",
+        "summary": "本日、Amazon SageMaker は、顧客データのトラフィックを、パブリックインターネットを経由させることなく、Amazon Virtual Private Cloud (VPC) と Amazon SageMaker Unified Studio 間の接続を確立できる新機能を発表しました。標準のデータ転送プロトコル (HTTPS/TLS2) を超える必要があるお客様は、データ転送が…",
+        "date": "2026年1月",
+        "date_iso": "2026-01-31",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon ECS がコンテナのヘルスステータスを CloudWatch メトリクスとして公開",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/01/amazon-ecs-container-health-status-metric/",
+        "summary": "Amazon Elastic Container Service (Amazon ECS) では、コンテナのヘルスステータスが CloudWatch Container Insights の新しいメトリクスとして公開されるようになり、オブザーバビリティが強化されました。お客様は、専用の CloudWatch…",
+        "date": "2026年1月",
+        "date_iso": "2026-01-31",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "新機能 Partner Revenue Measurement により AWS サービスの使用状況の可視化が可能になる",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/01/new-partner-revenue-measurement",
+        "summary": "本日、AWS は Partner Revenue Measurement の開始を発表しました。これは、AWS パートナーが、自社のソリューションがパートナー管理アカウントと顧客管理アカウントの AWS サービスの消費にどのように影響するかを可視化できる新機能です。 Partner Revenue Measurement により、パートナーは AWS…",
+        "date": "2026年1月",
+        "date_iso": "2026-01-31",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "EC2"
+        "tag": "AWS"
       },
       {
-        "title": "Amazon S3 Express One Zone が低レイテンシを強化",
-        "link": "https://aws.amazon.com/s3/storage-classes/express-one-zone/",
-        "summary": "S3 Express One Zone のスループット上限を最大 2x に引き上げ。HPC・ML トレーニングのデータローディング用途での採用が急増。リクエスト料金を 20% 値下げ。",
-        "date": "2025年10月",
-        "date_iso": "2025-10-01",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
-        "tag": "S3"
-      },
-      {
-        "title": "AWS IAM Identity Center の MFA 強制ポリシー強化",
-        "link": "https://aws.amazon.com/iam/identity-center/",
-        "summary": "組織全体での FIDO2 パスキー対応 MFA 強制が容易になる新ポリシー管理 UI を提供。Zero Trust 移行を支援する新しい分析ダッシュボードも追加。",
-        "date": "2025年9月",
-        "date_iso": "2025-09-01",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "IAM"
-      },
-      {
-        "title": "Amazon Bedrock AgentCore 提供開始",
-        "link": "https://aws.amazon.com/bedrock/agents/",
-        "summary": "マルチエージェントオーケストレーションを簡素化するコントロールプレーン。AWS Lambda・ECS と密に統合し、エージェントのライフサイクル管理・監視・コスト分析を統合提供。",
+        "title": "Amazon RDS for Oracle が追加のストレージボリュームを使用したクロスリージョンレプリカのサポートを開始",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/01/rds-for-oracle-cross-region-replicas-additional-storage-volumes",
+        "summary": "Amazon RDS for Oracle で、追加のストレージボリュームを使用したクロスリージョンレプリカがサポートされるようになりました。追加のストレージボリュームを使用すると、お客様はデータベースインスタンスのプライマリストレージボリュームに加えて、それぞれ最大 64 TiB のストレージボリュームを最大 3…",
         "date": "2026年1月",
-        "date_iso": "2026-01-01",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "Bedrock"
+        "date_iso": "2026-01-31",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
       },
       {
-        "title": "AWS Direct Connect 400GbE 対応開始",
-        "link": "https://aws.amazon.com/directconnect/",
-        "summary": "エンタープライズ向け専用線接続が 400GbE に対応。大規模データ移行・ハイブリッドクラウド構成のスループットが大幅向上。東京リージョンでも利用可能。",
-        "date": "2025年8月",
-        "date_iso": "2025-08-01",
-        "category": "network-tag",
-        "cat_label": "ネットワーク",
-        "tag": "Direct Connect"
+        "title": "Amazon EC2 R8a インスタンスが欧州 (スペイン) と欧州 (フランクフルト) リージョンで利用可能に",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/01/amazon-ec2-r8a-instances-are-available-europe",
+        "summary": "本日より、Amazon EC2 R8a インスタンスが欧州 (スペイン) および欧州 (フランクフルト) リージョンで利用できるようになりました。これらのインスタンスは、最大周波数が 4.5 GHz の第 5 世代 AMD EPYC プロセッサ (旧コード名 Turin) を搭載しており、R7a インスタンスと比較してパフォーマンスが最大 30%、料金パフォーマンスが最大 19% 向上します。…",
+        "date": "2026年1月",
+        "date_iso": "2026-01-31",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
       }
     ],
-    "gcp": [
-      {
-        "title": "Gemini 2.0 Flash と Deep Research が Google Cloud で利用可能",
-        "link": "https://cloud.google.com/vertex-ai/generative-ai/docs/gemini-v2",
-        "summary": "Gemini 2.0 Flash は「エージェント時代」向けに最適化されたマルチモーダルモデル。リアルタイム音声・動画処理、ネイティブ画像生成、コード実行ツールを統合。Vertex AI から即利用可能。",
-        "date": "2026年2月",
-        "date_iso": "2026-02-01",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "Vertex AI",
-        "featured": true
-      },
-      {
-        "title": "Ironside VM (C4A) — Google Axion CPU で最大性能",
-        "link": "https://cloud.google.com/compute/docs/instances/axion-overview",
-        "summary": "Google 独自 Arm64 CPU「Axion」搭載の C4A (Ironside) インスタンスが一般提供。汎用ワークロードで最大 65% コスト効率改善。",
-        "date": "2025年11月",
-        "date_iso": "2025-11-01",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "Compute Engine"
-      },
-      {
-        "title": "Google TPU v6 (Trillium) が一般提供開始",
-        "link": "https://cloud.google.com/tpu/docs/v6e",
-        "summary": "第 6 世代 TPU「Trillium」は TPU v5e 比 4.7 倍の演算性能と 3 倍のメモリ帯域幅を実現。大規模 LLM のファインチューニング・推論コストを大幅削減。",
-        "date": "2025年11月",
-        "date_iso": "2025-11-01",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "Cloud TPU"
-      },
-      {
-        "title": "AlloyDB AI — ベクター検索と Gemini 統合が強化",
-        "link": "https://cloud.google.com/alloydb/docs/ai/work-with-embeddings",
-        "summary": "AlloyDB に ScaNN ベースのベクター検索とインライン Gemini 呼び出しを組み合わせた AlloyDB AI が強化。SQL クエリから直接 AI 推論を呼び出せる AI SQL 関数が新たに追加。",
-        "date": "2025年10月",
-        "date_iso": "2025-10-01",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AlloyDB"
-      },
-      {
-        "title": "GKE Autopilot — GPU ワークロード対応が大幅強化",
-        "link": "https://cloud.google.com/kubernetes-engine/docs/concepts/autopilot-overview",
-        "summary": "GKE Autopilot が NVIDIA H100 GPU ノードプールを自動プロビジョニングに対応。AI/ML ワークロードでのインフラ管理コストを削減しつつ、GPU リソースの効率的な利用を実現。",
-        "date": "2025年9月",
-        "date_iso": "2025-09-01",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "GKE"
-      },
-      {
-        "title": "Google Security Operations — AI 駆動 SIEM/SOAR 強化",
-        "link": "https://cloud.google.com/security/products/security-operations",
-        "summary": "旧 Chronicle が Google Security Operations として統合。Gemini AI によるインシデント要約・調査支援・プレイブック自動生成が GA。SIEM・SOAR・脅威インテリジェンスを一体提供。",
-        "date": "2025年8月",
-        "date_iso": "2025-08-01",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "Security"
-      }
-    ],
-    "oci": [
-      {
-        "title": "OCI Supercluster — NVIDIA H200 搭載 AI クラスター",
-        "link": "https://www.oracle.com/cloud/compute/gpu/supercluster/",
-        "summary": "最大 32,768 GPU を RoCE v2 ネットワークで超低レイテンシ接続する OCI Supercluster が強化。NVIDIA H200 SXM GPU を採用し、LLM 学習・推論用クラスターのコストパフォーマンスが競合比トップクラスと評価。",
-        "date": "2026年1月",
-        "date_iso": "2026-01-01",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "GPU Cluster",
-        "featured": true
-      },
-      {
-        "title": "OCI Generative AI — Llama 3.3 70B & Meta Llama 3.2 対応",
-        "link": "https://www.oracle.com/artificial-intelligence/generative-ai/generative-ai-service/",
-        "summary": "OCI Generative AI サービスのモデルカタログが拡充。Meta Llama 3.3 70B、Llama 3.2 マルチモーダルモデルに加え、Cohere Command R+ も追加。",
-        "date": "2025年12月",
-        "date_iso": "2025-12-01",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "Generative AI"
-      },
-      {
-        "title": "Oracle Database 23ai — AI Vector Search が本番対応",
-        "link": "https://www.oracle.com/database/ai-vector-search/",
-        "summary": "Oracle Database 23ai の AI Vector Search が OCI Autonomous Database・Base Database Service で完全 GA。SQL/JSON からベクター検索・LLM 統合を直接呼び出せる DBMS_VECTOR パッケージが充実。",
-        "date": "2025年11月",
-        "date_iso": "2025-11-01",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "Autonomous DB"
-      },
-      {
-        "title": "OCI Ampere A2 (Altra Max) インスタンス 一般提供",
-        "link": "https://www.oracle.com/cloud/compute/arm/",
-        "summary": "Ampere Altra Max 128 コア搭載 VM.Standard.A2 インスタンスが全主要リージョンで GA。コンテナ・Web サーバー・Jenkins などの CI/CD ワークロードで高い費用対効果。Free Tier でも利用可能。",
-        "date": "2025年10月",
-        "date_iso": "2025-10-01",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "Compute"
-      },
-      {
-        "title": "OCI Zero Trust Packet Routing (ZPR) が GA",
-        "link": "https://www.oracle.com/cloud/networking/zero-trust-packet-routing/",
-        "summary": "ネットワークルールをポリシー言語で宣言的に定義できる ZPR が一般提供。従来の VCN・セキュリティリスト・ルートテーブルを補完し、マイクロセグメンテーションを簡潔に実装可能。",
-        "date": "2025年9月",
-        "date_iso": "2025-09-01",
-        "category": "network-tag",
-        "cat_label": "ネットワーク",
-        "tag": "Networking"
-      },
-      {
-        "title": "MySQL HeatWave on AWS / Azure でマルチクラウド展開",
-        "link": "https://www.oracle.com/mysql/heatwave/",
-        "summary": "MySQL HeatWave が AWS・Azure 上でも直接利用可能に。クラウド間のデータ移行なしに OLTP/OLAP 統合処理と ML 機能を提供。マルチクラウド DB 戦略を取る企業に訴求。",
-        "date": "2025年8月",
-        "date_iso": "2025-08-01",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "MySQL HeatWave"
-      }
-    ]
+    "gcp": [],
+    "oci": []
   }
 }
