@@ -1,7 +1,13 @@
 #!/usr/bin/env python3
 """
 fetch_news.py
-各クラウドベンダーの RSS フィードを取得し、data/news.json を更新するスクリプト。
+各クラウドベンダーの公式ページ対応 RSS フィードを取得し、data/news.json を更新するスクリプト。
+
+対応ページ:
+  Azure : https://azure.microsoft.com/ja-jp/updates/
+  AWS   : https://aws.amazon.com/jp/new/
+  GCP   : https://docs.cloud.google.com/release-notes
+  OCI   : https://docs.oracle.com/en-us/iaas/releasenotes/
 """
 
 import json
@@ -15,31 +21,31 @@ OUTPUT_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "news.json")
 MAX_ITEMS_PER_CLOUD = 6    # 1クラウドあたり表示件数
 MAX_FETCH_ENTRIES = 100    # RSSから取得する最大エントリ数（日付降順ソート用）
 
-# RSS フィード定義（日本語公式ページ優先）
+# RSS フィード定義（各クラウドの指定公式ページに対応するフィード）
 FEEDS = {
     "azure": {
         "name": "Microsoft Azure",
-        # Azure Updates 日本語版
+        # https://azure.microsoft.com/ja-jp/updates/ の公式フィード
         "url": "https://azure.microsoft.com/ja-jp/updates/feed/",
         "fallback_url": "https://azurecomcdn.azureedge.net/ja-jp/updates/feed/",
     },
     "aws": {
         "name": "Amazon Web Services",
-        # AWS What's New 日本語版
+        # https://aws.amazon.com/jp/new/ の公式フィード
         "url": "https://aws.amazon.com/jp/new/feed/",
         "fallback_url": "https://aws.amazon.com/new/feed/",
     },
     "gcp": {
         "name": "Google Cloud Platform",
-        # Google Cloud Japan 公式ブログ
-        "url": "https://cloudblog.withgoogle.com/intl/ja-JP/rss/",
-        "fallback_url": "https://cloud.google.com/blog/ja/rss/",
+        # https://docs.cloud.google.com/release-notes の公式フィード
+        "url": "https://cloud.google.com/feeds/gcp-release-notes.xml",
+        "fallback_url": "https://cloudblog.withgoogle.com/products/gcp/rss/",
     },
     "oci": {
         "name": "Oracle Cloud Infrastructure",
-        # Oracle for Engineers 日本語ブログ
-        "url": "https://blogs.oracle.com/oracle4engineer/rss",
-        "fallback_url": "https://www.oracle.com/jp/corporate/blog/rss/",
+        # https://docs.oracle.com/en-us/iaas/releasenotes/ の公式フィード
+        "url": "https://docs.oracle.com/en-us/iaas/releasenotes/rss/whatsnew.xml",
+        "fallback_url": "https://blogs.oracle.com/cloud-infrastructure/rss",
     },
 }
 
@@ -113,16 +119,15 @@ def detect_category_label(tag: str) -> str:
 def parse_date(entry) -> tuple[str, str]:
     """
     フィードエントリから日付を解析し、
-    (display_str: "YYYY年M月", iso_str: "YYYY-MM-DD") を返す
+    (display_str: "YYYY年M月D日", iso_str: "YYYY-MM-DD") を返す
     """
     JST = timezone(timedelta(hours=9))
-    # feedparser が struct_time を published_parsed / updated_parsed に格納
     ts = getattr(entry, "published_parsed", None) or getattr(entry, "updated_parsed", None)
     if ts:
         dt = datetime(*ts[:6], tzinfo=timezone.utc).astimezone(JST)
     else:
         dt = datetime.now(JST)
-    return f"{dt.year}年{dt.month}月", dt.strftime("%Y-%m-%d")
+    return f"{dt.year}年{dt.month}月{dt.day}日", dt.strftime("%Y-%m-%d")
 
 
 def clean_text(text: str, max_len: int = 180) -> str:
