@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>パブリッククラウド最新情報まとめ | AWS / Azure / GCP / OCI</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- ヘッダー -->
+  <header class="site-header">
+    <div class="container">
+      <div class="header-inner">
+        <div class="logo">
+          <span class="logo-icon">☁</span>
+          <span class="logo-text">CloudWatch JP</span>
+          <span class="logo-sub">パブリッククラウド最新情報まとめ</span>
+        </div>
+        <nav class="main-nav">
+          <a href="#azure" class="nav-link azure">Azure</a>
+          <a href="#aws" class="nav-link aws">AWS</a>
+          <a href="#gcp" class="nav-link gcp">GCP</a>
+          <a href="#oci" class="nav-link oci">OCI</a>
+          <a href="#compare" class="nav-link compare">比較</a>
+        </nav>
+        <div class="header-meta">
+          <span class="update-date">最終更新: 2026年2月24日</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ヒーローセクション -->
+  <section class="hero">
+    <div class="container">
+      <h1 class="hero-title">パブリッククラウド<br /><span class="highlight">最新情報まとめ</span></h1>
+      <p class="hero-desc">AWS、Microsoft Azure、Google Cloud、Oracle Cloud Infrastructure (OCI) の最新アップデート・新サービスを一ヶ所でチェック。</p>
+      <div class="hero-badges">
+        <span class="badge aws-badge">AWS</span>
+        <span class="badge azure-badge">Azure</span>
+        <span class="badge gcp-badge">GCP</span>
+        <span class="badge oci-badge">OCI</span>
+      </div>
+    </div>
+    <div class="hero-bg-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+  </section>
+
+  <!-- サマリーカード -->
+  <section class="summary-section">
+    <div class="container">
+      <div class="summary-grid">
+        <div class="summary-card azure-card" onclick="scrollTo('azure')">
+          <div class="cloud-logo azure-logo">Azure</div>
+          <div class="summary-stats">
+            <div class="stat">
+              <span class="stat-num">200+</span>
+              <span class="stat-label">総サービス数</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">60+</span>
+              <span class="stat-label">リージョン</span>
+            </div>
+          </div>
+          <p class="summary-latest">最新: Azure AI Foundry GA、Phi-4 提供開始</p>
+          <span class="card-arrow">→</span>
+        </div>
+
+        <div class="summary-card aws-card" onclick="scrollTo('aws')">
+          <div class="cloud-logo aws-logo">AWS</div>
+          <div class="summary-stats">
+            <div class="stat">
+              <span class="stat-num">240+</span>
+              <span class="stat-label">総サービス数</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">36</span>
+              <span class="stat-label">リージョン</span>
+            </div>
+          </div>
+          <p class="summary-latest">最新: Amazon Nova Premier、Trainium3 発表</p>
+          <span class="card-arrow">→</span>
+        </div>
+
+        <div class="summary-card gcp-card" onclick="scrollTo('gcp')">
+          <div class="cloud-logo gcp-logo">GCP</div>
+          <div class="summary-stats">
+            <div class="stat">
+              <span class="stat-num">150+</span>
+              <span class="stat-label">総サービス数</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">40</span>
+              <span class="stat-label">リージョン</span>
+            </div>
+          </div>
+          <p class="summary-latest">最新: Gemini 2.0 Flash、Ironside VM 発表</p>
+          <span class="card-arrow">→</span>
+        </div>
+
+        <div class="summary-card oci-card" onclick="scrollTo('oci')">
+          <div class="cloud-logo oci-logo">OCI</div>
+          <div class="summary-stats">
+            <div class="stat">
+              <span class="stat-num">100+</span>
+              <span class="stat-label">総サービス数</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">48</span>
+              <span class="stat-label">リージョン</span>
+            </div>
+          </div>
+          <p class="summary-latest">最新: OCI Supercluster、AI Infrastructure 強化</p>
+          <span class="card-arrow">→</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- メインコンテンツ -->
+  <main class="main-content">
+    <div class="container">
+
+      <!-- Azure セクション -->
+      <section id="azure" class="cloud-section">
+        <div class="section-header azure-header">
+          <div class="section-title-wrap">
+            <span class="section-icon azure-icon">⬡</span>
+            <div>
+              <h2 class="section-title">Microsoft Azure</h2>
+              <p class="section-sub">企業向けクラウド最多リージョン。AI・ハイブリッド対応が強み</p>
+            </div>
+          </div>
+          <a href="https://azure.microsoft.com/ja-jp/updates/" target="_blank" class="official-link azure-link">公式 Updates →</a>
+        </div>
+
+        <div class="news-grid">
+          <article class="news-card featured">
+            <div class="news-category ai-tag">AI / ML</div>
+            <h3 class="news-title"><a href="https://azure.microsoft.com/ja-jp/products/ai-foundry/" target="_blank">Azure AI Foundry が GA — 企業向け AI 開発基盤</a></h3>
+            <p class="news-body">Azure AI Studio から改称・進化した Azure AI Foundry が一般提供開始。OpenAI GPT-4o / o1 シリーズ、Phi-4、Llama 3 など多数のモデルをプロジェクト管理 UI で統合管理。RAG・エージェント開発ワークフローを大幅簡略化。</p>
+            <div class="news-meta">
+              <span class="news-date">2025年11月</span>
+              <span class="news-tag">AI Foundry</span>
+              <a href="https://azure.microsoft.com/ja-jp/products/ai-foundry/" target="_blank" class="news-read-more">元記事を見る →</a>
+            </div>
+          </article>
+
+          <article class="news-card">
+            <div class="news-category ai-tag">AI / ML</div>
+            <h3 class="news-title"><a href="https://azure.microsoft.com/ja-jp/blog/" target="_blank">Phi-4 および Phi-4 Multimodal が Azure AI Foundry で利用可能</a></h3>
+            <p class="news-body">Microsoft 独自の小型言語モデル Phi-4 が Azure AI Foundry のモデルカタログに追加。14B パラメータながら GPT-4 級の推論能力を持ち、エッジデバイスへのデプロイも容易。</p>
+            <div class="news-meta">
+              <span class="news-date">2025年12月</span>
+              <span class="news-tag">Phi-4</span>
+              <a href="https://azure.microsoft.com/ja-jp/blog/" target="_blank" class="news-read-more">元記事を見る →</a>
+            </div>
+          </article>
+
+          <article class="news-card">
+            <div class="news-category compute-tag">コンピューティング</div>
+            <h3 class="news-title"><a href="https://azure.microsoft.com/ja-jp/blog/azure-cobalt-100-based-virtual-machines-are-now-generally-available/" target="_blank">Azure Cobalt 100 搭載 VM が全リージョンで GA</a></h3>
+            <p class="news-body">Microsoft 独自 Arm64 チップ Cobalt 100 を搭載した Dpsv6 / Epsv6 シリーズが全主要リージョンで一般提供。Intel/AMD 比で最大 50% コスト削減を実現するユースケースも報告。</p>
+            <div class="news-meta">
+              <span class="news-date">2025年10月</span>
+              <span class="news-tag">Virtual Machines</span>
+              <a href="https://azure.microsoft.com/ja-jp/blog/azure-cobalt-100-based-virtual-machines-are-now-generally-available/" target="_blank" class="news-read-more">元記事を見る →</a>
+            </div>
+          </article>
+
+          <article class="news-card">
+            <div class="news-category container-tag">コンテナ</div>
+            <h3 class="news-title"><a href="https://learn.microsoft.com/ja-jp/azure/aks/intro-aks-automatic" target="_blank">Azure Kubernetes Service (AKS) — Automatic モード GA</a></h3>
+            <p class="news-body">ノードプロビジョニング・スケーリング・アップグレードをフルマネージドで実施する AKS Automatic モードが GA。開発者は YAML デプロイに集中でき、インフラ管理コストを大幅削減。</p>
+            <div class="news-meta">
+              <span class="news-date">2025年9月</span>
+              <span class="news-tag">AKS</span>
+              <a href="https://learn.microsoft.com/ja-jp/azure/aks/intro-aks-automatic" target="_blank" class="news-read-more">元記事を見る →</a>
+            </div>
+          </article>
+
+          <article class="news-card">
+            <div class="news-category security-tag">セキュリティ</div>
+            <h3 class="news-title"><a href="https://www.microsoft.com/ja-jp/security/business/microsoft-entra/microsoft-entra-suite" target="_blank">Microsoft Entra Suite による統合 Zero Trust アクセス</a></h3>
+            <p class="news-body">Entra ID、Entra Private Access、Entra Internet Access を一元管理する Entra Suite が一般提供。ZTNA・CASB・SWG を統合し、ネットワーク境界のないセキュリティ基盤を提供。</p>
+            <div class="news-meta">
+              <span class="news-date">2025年8月</span>
+              <span class="news-tag">Entra</span>
+              <a href="https://www.microsoft.com/ja-jp/security/business/microsoft-entra/microsoft-entra-suite" target="_blank" class="news-read-more">元記事を見る →</a>
+            </div>
+          </article>
+
+          <article class="news-card">
+            <div class="news-category database-tag">データベース</div>
+            <h3 class="news-title"><a href="https://azure.microsoft.com/ja-jp/products/cosmos-db/" target="_blank">Azure Cosmos DB — Free Tier 容量拡大 & ベクター検索 GA</a></h3>
+            <p class="news-body">無料枠が 25GB に拡大。DiskANN ベースのベクター検索機能が GA となり、RAG アプリケーションでの採用率が急増。MongoDB・Cassandra・Gremlin 互換も引き続き強化。</p>
+            <div class="news-meta">
+              <span class="news-date">2026年1月</span>
+              <span class="news-tag">Cosmos DB</span>
+              <a href="https://azure.microsoft.com/ja-jp/products/cosmos-db/" target="_blank" class="news-read-more">元記事を見る →</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="key-services">
+          <h3 class="key-services-title">注目サービスカテゴリ</h3>
+          <div class="service-tags">
+            <span class="stag">Virtual Machines</span><span class="stag">AKS</span><span class="stag">App Service</span>
+            <span class="stag">Azure OpenAI</span><span class="stag">AI Foundry</span><span class="stag">Cosmos DB</span>
+            <span class="stag">Entra ID</span><span class="stag">Defender</span><span class="stag">Azure DevOps</span>
+            <span class="stag">Azure Arc</span><span class="stag">Fabric</span><span class="stag">Sentinel</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- AWS セクション -->
+      <section id="aws" class="cloud-section">
+        <div class="section-header aws-header">
+          <div class="section-title-wrap">
+            <span class="section-icon aws-icon">AWS</span>
+            <div>
+              <h2 class="section-title">Amazon Web Services</h2>
+              <p class="section-sub">クラウド最大手。業界最広のサービスポートフォリオ</p>
+            </div>
+          </div>
+          <a href="https://aws.amazon.com/jp/new/" target="_blank" class="official-link">公式 What's New →</a>
+        </div>
+
+        <div class="news-grid">
+          <article class="news-card featured">
+            <div class="news-category ai-tag">AI / ML</div>
+            <h3 class="news-title"><a href="https://aws.amazon.com/jp/about-aws/whats-new/2025/12/" target="_blank">Amazon Nova Premier & Trainium3 発表</a></h3>
+            <p class="news-body">Amazon Nova Premier はマルチモーダル対応の最上位フラッグシップモデル。Trainium3 チップは前世代比 4 倍の学習効率を実現。AWS re:Invent 2025 で発表され、2026年初頭より段階的に提供開始。</p>
+            <div class="news-meta">
+              <span class="news-date">2025年12月</span>
+              <span class="news-tag">Bedrock</span>
+              <a href="https://aws.amazon.com/jp/about-aws/whats-new/2025/12/" target="_blank" class="news-read-more">元記事を見る →</a>
+            </div>
+          </article>
+
+          <article class="news-card">
+            <div class="news-category compute-tag">コンピューティング</div>
+            <h3 class="news-title"><a href="https://aws.amazon.com/ec2/graviton/" target="_blank">AWS Graviton4 搭載 C8g / M8g / R8g インスタンス GA</a></h3>
+            <p class="news-body">Graviton4 は前世代比最大 30% 高性能。メモリ帯域幅の大幅改善により、データベース・分析ワークロードで高い費用対効果を実現。全主要リージョンで利用可能。</p>
+            <div class="news-meta">
+              <span class="news-date">2025年11月</span>
+              <span class="news-tag">EC2</span>
+              <a href="https://aws.amazon.com/ec2/graviton/" target="_blank" class="news-read-more">元記事を見る →</a>
+            </div>
+          </article>
+
+          <article class="news-card">
+            <div class="news-category storage-tag">ストレージ</div>
+            <h3 class="news-title"><a href="https://aws.amazon.com/s3/storage-classes/express-one-zone/" target="_blank">Amazon S3 Express One Zone が低レイテンシを強化</a></h3>
+            <p class="news-body">S3 Express One Zone のスループット上限を最大 2x に引き上げ。HPC・ML トレーニングのデータローディング用途での採用が急増。リクエスト料金を 20% 値下げ。</p>
+            <div class="news-meta">
+              <span class="news-date">2025年10月</span>
+              <span class="news-tag">S3</span>
+              <a href="https://aws.amazon.com/s3/storage-classes/express-one-zone/" target="_blank" class="news-read-more">元記事を見る →</a>
+            </div>
+          </article>
+
+          <article class="news-card">
+            <div class="news-category security-tag">セキュリティ</div>
+            <h3 class="news-title"><a href="https://aws.amazon.com/iam/identity-center/" target="_blank">AWS IAM Identity Center の MFA 強制ポリシー強化</a></h3>
+            <p class="news-body">組織全体での FIDO2 パスキー対応 MFA 強制が容易になる新ポリシー管理 UI を提供。Zero Trust 移行を支援する新しい分析ダッシュボードも追加。</p>
+            <div class="news-meta">
+              <span class="news-date">2025年9月</span>
+              <span class="news-tag">IAM</span>
+              <a href="https://aws.amazon.com/iam/identity-center/" target="_blank" class="news-read-more">元記事を見る →</a>
+            </div>
+          </article>
+
+          <article class="news-card">
+            <div class="news-category ai-tag">AI / ML</div>
+            <h3 class="news-title"><a href="https://aws.amazon.com/bedrock/agents/" target="_blank">Amazon Bedrock AgentCore 提供開始</a></h3>
+            <p class="news-body">マルチエージェントオーケストレーションを簡素化するコントロールプレーン。AWS Lambda・ECS と密に統合し、エージェントのライフサイクル管理・監視・コスト分析を統合提供。</p>
+            <div class="news-meta">
+              <span class="news-date">2026年1月</span>
+              <span class="news-tag">Bedrock</span>
+              <a href="https://aws.amazon.com/bedrock/agents/" target="_blank" class="news-read-more">元記事を見る →</a>
+            </div>
+          </article>
+
+          <article class="news-card">
+            <div class="news-category network-tag">ネットワーク</div>
+            <h3 class="news-title"><a href="https://aws.amazon.com/directconnect/" target="_blank">AWS Direct Connect 400GbE 対応開始</a></h3>
+            <p class="news-body">エンタープライズ向け専用線接続が 400GbE に対応。大規模データ移行・ハイブリッドクラウド構成のスループットが大幅向上。東京リージョンでも利用可能。</p>
+            <div class="news-meta">
+              <span class="news-date">2025年8月</span>
+              <span class="news-tag">Direct Connect</span>
+              <a href="https://aws.amazon.com/directconnect/" target="_blank" class="news-read-more">元記事を見る →</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="key-services">
+          <h3 class="key-services-title">注目サービスカテゴリ</h3>
+          <div class="service-tags">
+            <span class="stag">EC2</span><span class="stag">S3</span><span class="stag">Lambda</span>
+            <span class="stag">RDS</span><span class="stag">Bedrock</span><span class="stag">SageMaker</span>
+            <span class="stag">EKS</span><span class="stag">CloudFront</span><span class="stag">Route 53</span>
+            <span class="stag">IAM</span><span class="stag">GuardDuty</span><span class="stag">OpenSearch</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- GCP セクション -->
+      <section id="gcp" class="cloud-section">
+        <div class="section-header gcp-header">
+          <div class="section-title-wrap">
+            <span class="section-icon gcp-icon">◆</span>
+            <div>
+              <h2 class="section-title">Google Cloud Platform</h2>
+              <p class="section-sub">データ分析・AI/ML・Kubernetes の先駆者</p>
+            </div>
+          </div>
+          <a href="https://cloud.google.com/release-notes" target="_blank" class="official-link gcp-link">公式 Release Notes →</a>
+        </div>
+
+        <div class="news-grid">
+          <article class="news-card featured">
+            <div class="news-category ai-tag">AI / ML</div>
+            <h3 class="news-title"><a href="https://cloud.google.com/vertex-ai/generative-ai/docs/gemini-v2" target="_blank">Gemini 2.0 Flash と Deep Research が Google Cloud で利用可能</a></h3>
+            <p class="news-body">Gemini 2.0 Flash は「エージェント時代」向けに最適化されたマルチモーダルモデル。リアルタイム音声・動画処理、ネイティブ画像生成、コード実行ツールを統合。Vertex AI から即利用可能。Deep Research 機能はマルチステップの調査タスクを自律実行。</p>
+            <div class="news-meta">
+              <span class="news-date">2026年2月</span>
+              <span class="news-tag">Vertex AI</span>
+              <a href="https://cloud.google.com/vertex-ai/generative-ai/docs/gemini-v2" target="_blank" class="news-read-more">元記事を見る →</a>
+            </div>
+          </article>
+
+          <article class="news-card">
+            <div class="news-category compute-tag">コンピューティング</div>
+            <h3 class="news-title"><a href="https://cloud.google.com/compute/docs/instances/axion-overview" target="_blank">Ironside VM (C4A) — Google Axion CPU で最大性能</a></h3>
+            <p class="news-body">Google 独自 Arm64 CPU「Axion」搭載の C4A (Ironside) インスタンスが一般提供。汎用ワークロードで最大 65% コスト効率改善。Web サーバー・API サーバー・バッチ処理での検証結果が好評。</p>
+            <div class="news-meta">
+              <span class="news-date">2025年11月</span>
+              <span class="news-tag">Compute Engine</span>
+              <a href="https://cloud.google.com/compute/docs/instances/axion-overview" target="_blank" class="news-read-more">元記事を見る →</a>
+            </div>
+          </article>
+
+          <article class="news-card">
+            <div class="news-category ai-tag">AI / ML</div>
+            <h3 class="news-title"><a href="https://cloud.google.com/tpu/docs/v6e" target="_blank">Google TPU v6 (Trillium) が一般提供開始</a></h3>
+            <p class="news-body">第 6 世代 TPU「Trillium」は TPU v5e 比 4.7 倍の演算性能と 3 倍のメモリ帯域幅を実現。大規模 LLM のファインチューニング・推論コストを大幅削減。Cloud TPU として Vertex AI から利用可能。</p>
+            <div class="news-meta">
+              <span class="news-date">2025年11月</span>
+              <span class="news-tag">Cloud TPU</span>
+              <a href="https://cloud.google.com/tpu/docs/v6e" target="_blank" class="news-read-more">元記事を見る →</a>
+            </div>
+          </article>
+
+          <article class="news-card">
+            <div class="news-category database-tag">データベース</div>
+            <h3 class="news-title"><a href="https://cloud.google.com/alloydb/docs/ai/work-with-embeddings" target="_blank">AlloyDB AI — ベクター検索と Gemini 統合が強化</a></h3>
+            <p class="news-body">AlloyDB に ScaNN ベースのベクター検索とインライン Gemini 呼び出しを組み合わせた AlloyDB AI が強化。SQL クエリから直接 AI 推論を呼び出せる AI SQL 関数が新たに追加。</p>
+            <div class="news-meta">
+              <span class="news-date">2025年10月</span>
+              <span class="news-tag">AlloyDB</span>
+              <a href="https://cloud.google.com/alloydb/docs/ai/work-with-embeddings" target="_blank" class="news-read-more">元記事を見る →</a>
+            </div>
+          </article>
+
+          <article class="news-card">
+            <div class="news-category container-tag">コンテナ</div>
+            <h3 class="news-title"><a href="https://cloud.google.com/kubernetes-engine/docs/concepts/autopilot-overview" target="_blank">GKE Autopilot — GPU ワークロード対応が大幅強化</a></h3>
+            <p class="news-body">GKE Autopilot が NVIDIA H100 GPU ノードプールを自動プロビジョニングに対応。AI/ML ワークロードでのインフラ管理コストを削減しつつ、GPU リソースの効率的な利用を実現。</p>
+            <div class="news-meta">
+              <span class="news-date">2025年9月</span>
+              <span class="news-tag">GKE</span>
+              <a href="https://cloud.google.com/kubernetes-engine/docs/concepts/autopilot-overview" target="_blank" class="news-read-more">元記事を見る →</a>
+            </div>
+          </article>
+
+          <article class="news-card">
+            <div class="news-category security-tag">セキュリティ</div>
+            <h3 class="news-title"><a href="https://cloud.google.com/security/products/security-operations" target="_blank">Google Security Operations — AI 駆動 SIEM/SOAR 強化</a></h3>
+            <p class="news-body">旧 Chronicle が Google Security Operations として統合。Gemini AI によるインシデント要約・調査支援・プレイブック自動生成が GA。SIEM・SOAR・脅威インテリジェンスを一体提供。</p>
+            <div class="news-meta">
+              <span class="news-date">2025年8月</span>
+              <span class="news-tag">Security</span>
+              <a href="https://cloud.google.com/security/products/security-operations" target="_blank" class="news-read-more">元記事を見る →</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="key-services">
+          <h3 class="key-services-title">注目サービスカテゴリ</h3>
+          <div class="service-tags">
+            <span class="stag">Compute Engine</span><span class="stag">GKE</span><span class="stag">Cloud Run</span>
+            <span class="stag">Vertex AI</span><span class="stag">BigQuery</span><span class="stag">Cloud SQL</span>
+            <span class="stag">AlloyDB</span><span class="stag">Gemini</span><span class="stag">Cloud TPU</span>
+            <span class="stag">Looker</span><span class="stag">Pub/Sub</span><span class="stag">Spanner</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- OCI セクション -->
+      <section id="oci" class="cloud-section">
+        <div class="section-header oci-header">
+          <div class="section-title-wrap">
+            <span class="section-icon oci-icon">○</span>
+            <div>
+              <h2 class="section-title">Oracle Cloud Infrastructure</h2>
+              <p class="section-sub">高性能 AI インフラ・データベースクラウドのリーダー</p>
+            </div>
+          </div>
+          <a href="https://docs.oracle.com/en-us/iaas/releasenotes/" target="_blank" class="official-link oci-link">公式 Release Notes →</a>
+        </div>
+
+        <div class="news-grid">
+          <article class="news-card featured">
+            <div class="news-category compute-tag">コンピューティング</div>
+            <h3 class="news-title"><a href="https://www.oracle.com/cloud/compute/gpu/supercluster/" target="_blank">OCI Supercluster — NVIDIA H200 搭載 AI クラスター</a></h3>
+            <p class="news-body">最大 32,768 GPU を RoCE v2 ネットワークで超低レイテンシ接続する OCI Supercluster が強化。NVIDIA H200 SXM GPU を採用し、LLM 学習・推論用クラスターのコストパフォーマンスが競合比トップクラスと評価。</p>
+            <div class="news-meta">
+              <span class="news-date">2026年1月</span>
+              <span class="news-tag">GPU Cluster</span>
+              <a href="https://www.oracle.com/cloud/compute/gpu/supercluster/" target="_blank" class="news-read-more">元記事を見る →</a>
+            </div>
+          </article>
+
+          <article class="news-card">
+            <div class="news-category ai-tag">AI / ML</div>
+            <h3 class="news-title"><a href="https://www.oracle.com/artificial-intelligence/generative-ai/generative-ai-service/" target="_blank">OCI Generative AI — Llama 3.3 70B & Meta Llama 3.2 対応</a></h3>
+            <p class="news-body">OCI Generative AI サービスのモデルカタログが拡充。Meta Llama 3.3 70B、Llama 3.2 マルチモーダルモデルに加え、Cohere Command R+ も追加。専用クラスターでのホスティングも引き続き対応。</p>
+            <div class="news-meta">
+              <span class="news-date">2025年12月</span>
+              <span class="news-tag">Generative AI</span>
+              <a href="https://www.oracle.com/artificial-intelligence/generative-ai/generative-ai-service/" target="_blank" class="news-read-more">元記事を見る →</a>
+            </div>
+          </article>
+
+          <article class="news-card">
+            <div class="news-category database-tag">データベース</div>
+            <h3 class="news-title"><a href="https://www.oracle.com/database/ai-vector-search/" target="_blank">Oracle Database 23ai — AI Vector Search が本番対応</a></h3>
+            <p class="news-body">Oracle Database 23ai の AI Vector Search が OCI Autonomous Database・Base Database Service で完全 GA。SQL/JSON からベクター検索・LLM 統合を直接呼び出せる DBMS_VECTOR パッケージが充実。</p>
+            <div class="news-meta">
+              <span class="news-date">2025年11月</span>
+              <span class="news-tag">Autonomous DB</span>
+              <a href="https://www.oracle.com/database/ai-vector-search/" target="_blank" class="news-read-more">元記事を見る →</a>
+            </div>
+          </article>
+
+          <article class="news-card">
+            <div class="news-category compute-tag">コンピューティング</div>
+            <h3 class="news-title"><a href="https://www.oracle.com/cloud/compute/arm/" target="_blank">OCI Ampere A2 (Altra Max) インスタンス 一般提供</a></h3>
+            <p class="news-body">Ampere Altra Max 128 コア搭載 VM.Standard.A2 インスタンスが全主要リージョンで GA。コンテナ・Web サーバー・Jenkins などの CI/CD ワークロードで高い費用対効果。Free Tier でも利用可能。</p>
+            <div class="news-meta">
+              <span class="news-date">2025年10月</span>
+              <span class="news-tag">Compute</span>
+              <a href="https://www.oracle.com/cloud/compute/arm/" target="_blank" class="news-read-more">元記事を見る →</a>
+            </div>
+          </article>
+
+          <article class="news-card">
+            <div class="news-category network-tag">ネットワーク</div>
+            <h3 class="news-title"><a href="https://www.oracle.com/cloud/networking/zero-trust-packet-routing/" target="_blank">OCI Zero Trust Packet Routing (ZPR) が GA</a></h3>
+            <p class="news-body">ネットワークルールをポリシー言語で宣言的に定義できる ZPR が一般提供。従来の VCN・セキュリティリスト・ルートテーブルを補完し、マイクロセグメンテーションを簡潔に実装可能。</p>
+            <div class="news-meta">
+              <span class="news-date">2025年9月</span>
+              <span class="news-tag">Networking</span>
+              <a href="https://www.oracle.com/cloud/networking/zero-trust-packet-routing/" target="_blank" class="news-read-more">元記事を見る →</a>
+            </div>
+          </article>
+
+          <article class="news-card">
+            <div class="news-category database-tag">データベース</div>
+            <h3 class="news-title"><a href="https://www.oracle.com/mysql/heatwave/" target="_blank">MySQL HeatWave on AWS / Azure でマルチクラウド展開</a></h3>
+            <p class="news-body">MySQL HeatWave が AWS・Azure 上でも直接利用可能に。クラウド間のデータ移行なしに OLTP/OLAP 統合処理と ML 機能を提供。マルチクラウド DB 戦略を取る企業に訴求。</p>
+            <div class="news-meta">
+              <span class="news-date">2025年8月</span>
+              <span class="news-tag">MySQL HeatWave</span>
+              <a href="https://www.oracle.com/mysql/heatwave/" target="_blank" class="news-read-more">元記事を見る →</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="key-services">
+          <h3 class="key-services-title">注目サービスカテゴリ</h3>
+          <div class="service-tags">
+            <span class="stag">Compute</span><span class="stag">OKE</span><span class="stag">Autonomous DB</span>
+            <span class="stag">Generative AI</span><span class="stag">Object Storage</span><span class="stag">MySQL HeatWave</span>
+            <span class="stag">VCN</span><span class="stag">OCI Vault</span><span class="stag">Data Flow</span>
+            <span class="stag">Functions</span><span class="stag">API Gateway</span><span class="stag">Logging</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- 比較セクション -->
+      <section id="compare" class="compare-section">
+        <h2 class="compare-title">4大クラウド 主要スペック比較 (2026年2月現在)</h2>
+        <div class="table-wrap">
+          <table class="compare-table">
+            <thead>
+              <tr>
+                <th>項目</th>
+                <th class="aws-col">AWS</th>
+                <th class="azure-col">Azure</th>
+                <th class="gcp-col">GCP</th>
+                <th class="oci-col">OCI</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="row-label">市場シェア (2025 Q4)</td>
+                <td>約 31%</td>
+                <td>約 21%</td>
+                <td>約 12%</td>
+                <td>約 3%</td>
+              </tr>
+              <tr>
+                <td class="row-label">リージョン数</td>
+                <td>36</td>
+                <td>60+</td>
+                <td>40</td>
+                <td>48</td>
+              </tr>
+              <tr>
+                <td class="row-label">総サービス数</td>
+                <td>240+</td>
+                <td>200+</td>
+                <td>150+</td>
+                <td>100+</td>
+              </tr>
+              <tr>
+                <td class="row-label">独自 AI チップ</td>
+                <td>Trainium / Inferentia</td>
+                <td>Maia (学習用)</td>
+                <td>TPU v6 (Trillium)</td>
+                <td>—</td>
+              </tr>
+              <tr>
+                <td class="row-label">独自 CPU</td>
+                <td>Graviton 4</td>
+                <td>Cobalt 100</td>
+                <td>Axion (C4A)</td>
+                <td>Ampere A1/A2</td>
+              </tr>
+              <tr>
+                <td class="row-label">主要 AI/ML サービス</td>
+                <td>Bedrock / SageMaker</td>
+                <td>Azure AI Foundry</td>
+                <td>Vertex AI</td>
+                <td>OCI Generative AI</td>
+              </tr>
+              <tr>
+                <td class="row-label">マネージド Kubernetes</td>
+                <td>EKS</td>
+                <td>AKS</td>
+                <td>GKE</td>
+                <td>OKE</td>
+              </tr>
+              <tr>
+                <td class="row-label">オブジェクトストレージ</td>
+                <td>S3</td>
+                <td>Blob Storage</td>
+                <td>Cloud Storage</td>
+                <td>Object Storage</td>
+              </tr>
+              <tr>
+                <td class="row-label">グローバル DB</td>
+                <td>Aurora / DynamoDB</td>
+                <td>Cosmos DB</td>
+                <td>Spanner / AlloyDB</td>
+                <td>Autonomous DB</td>
+              </tr>
+              <tr>
+                <td class="row-label">無料枠</td>
+                <td>12 ヶ月 + 永続無料</td>
+                <td>12 ヶ月 + 永続無料</td>
+                <td>永続無料 $300 クレジット</td>
+                <td>永続無料 (VM 含む)</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- フッター -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <span class="logo-icon">☁</span>
+          <span class="logo-text">CloudWatch JP</span>
+        </div>
+        <p class="footer-desc">本サイトは各クラウドベンダーの公式情報をもとに作成した情報まとめサイトです。最新の正確な情報は各公式サイトをご確認ください。</p>
+        <div class="footer-links">
+          <a href="https://aws.amazon.com/jp/new/" target="_blank">AWS What's New</a>
+          <a href="https://azure.microsoft.com/ja-jp/updates/" target="_blank">Azure Updates</a>
+          <a href="https://cloud.google.com/release-notes" target="_blank">GCP Release Notes</a>
+          <a href="https://docs.oracle.com/en-us/iaas/releasenotes/" target="_blank">OCI Release Notes</a>
+        </div>
+        <p class="footer-copy">© 2026 CloudWatch JP. 情報は 2026年2月24日時点のものです。</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
