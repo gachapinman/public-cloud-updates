@@ -54,7 +54,11 @@ const cardObserver = new IntersectionObserver(
   { threshold: 0.08 }
 );
 
-document.querySelectorAll('.news-card, .summary-card').forEach(card => {
+// news-loaderからアクセスできるようグローバルに公開
+window._cardObserver = cardObserver;
+
+// 静的な .summary-card にフェードインを適用（news-cardは動的ロード後に適用）
+document.querySelectorAll('.summary-card').forEach(card => {
   card.classList.add('fade-in');
   cardObserver.observe(card);
 });

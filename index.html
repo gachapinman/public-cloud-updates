@@ -26,7 +26,7 @@
           <a href="#compare" class="nav-link compare">比較</a>
         </nav>
         <div class="header-meta">
-          <span class="update-date">最終更新: 2026年2月24日</span>
+          <span class="update-date" id="update-date">最終更新: 2026年2月24日</span>
         </div>
       </div>
     </div>
@@ -139,10 +139,8 @@
           <a href="https://azure.microsoft.com/ja-jp/updates/" target="_blank" class="official-link azure-link">公式 Updates →</a>
         </div>
 
-        <div class="news-grid">
-          <article class="news-card featured">
-            <div class="news-category ai-tag">AI / ML</div>
-            <h3 class="news-title"><a href="https://azure.microsoft.com/ja-jp/products/ai-foundry/" target="_blank">Azure AI Foundry が GA — 企業向け AI 開発基盤</a></h3>
+        <div class="news-grid" id="azure-grid">
+          <div class="grid-loading">最新情報を読み込み中...</div>
             <p class="news-body">Azure AI Studio から改称・進化した Azure AI Foundry が一般提供開始。OpenAI GPT-4o / o1 シリーズ、Phi-4、Llama 3 など多数のモデルをプロジェクト管理 UI で統合管理。RAG・エージェント開発ワークフローを大幅簡略化。</p>
             <div class="news-meta">
               <span class="news-date">2025年11月</span>
@@ -202,11 +200,6 @@
             <div class="news-meta">
               <span class="news-date">2026年1月</span>
               <span class="news-tag">Cosmos DB</span>
-              <a href="https://azure.microsoft.com/ja-jp/products/cosmos-db/" target="_blank" class="news-read-more">元記事を見る →</a>
-            </div>
-          </article>
-        </div>
-
         <div class="key-services">
           <h3 class="key-services-title">注目サービスカテゴリ</h3>
           <div class="service-tags">
@@ -231,10 +224,8 @@
           <a href="https://aws.amazon.com/jp/new/" target="_blank" class="official-link">公式 What's New →</a>
         </div>
 
-        <div class="news-grid">
-          <article class="news-card featured">
-            <div class="news-category ai-tag">AI / ML</div>
-            <h3 class="news-title"><a href="https://aws.amazon.com/jp/about-aws/whats-new/2025/12/" target="_blank">Amazon Nova Premier & Trainium3 発表</a></h3>
+        <div class="news-grid" id="aws-grid">
+          <div class="grid-loading">最新情報を読み込み中...</div>
             <p class="news-body">Amazon Nova Premier はマルチモーダル対応の最上位フラッグシップモデル。Trainium3 チップは前世代比 4 倍の学習効率を実現。AWS re:Invent 2025 で発表され、2026年初頭より段階的に提供開始。</p>
             <div class="news-meta">
               <span class="news-date">2025年12月</span>
@@ -294,11 +285,6 @@
             <div class="news-meta">
               <span class="news-date">2025年8月</span>
               <span class="news-tag">Direct Connect</span>
-              <a href="https://aws.amazon.com/directconnect/" target="_blank" class="news-read-more">元記事を見る →</a>
-            </div>
-          </article>
-        </div>
-
         <div class="key-services">
           <h3 class="key-services-title">注目サービスカテゴリ</h3>
           <div class="service-tags">
@@ -323,10 +309,8 @@
           <a href="https://cloud.google.com/release-notes" target="_blank" class="official-link gcp-link">公式 Release Notes →</a>
         </div>
 
-        <div class="news-grid">
-          <article class="news-card featured">
-            <div class="news-category ai-tag">AI / ML</div>
-            <h3 class="news-title"><a href="https://cloud.google.com/vertex-ai/generative-ai/docs/gemini-v2" target="_blank">Gemini 2.0 Flash と Deep Research が Google Cloud で利用可能</a></h3>
+        <div class="news-grid" id="gcp-grid">
+          <div class="grid-loading">最新情報を読み込み中...</div>
             <p class="news-body">Gemini 2.0 Flash は「エージェント時代」向けに最適化されたマルチモーダルモデル。リアルタイム音声・動画処理、ネイティブ画像生成、コード実行ツールを統合。Vertex AI から即利用可能。Deep Research 機能はマルチステップの調査タスクを自律実行。</p>
             <div class="news-meta">
               <span class="news-date">2026年2月</span>
@@ -386,11 +370,6 @@
             <div class="news-meta">
               <span class="news-date">2025年8月</span>
               <span class="news-tag">Security</span>
-              <a href="https://cloud.google.com/security/products/security-operations" target="_blank" class="news-read-more">元記事を見る →</a>
-            </div>
-          </article>
-        </div>
-
         <div class="key-services">
           <h3 class="key-services-title">注目サービスカテゴリ</h3>
           <div class="service-tags">
@@ -415,10 +394,8 @@
           <a href="https://docs.oracle.com/en-us/iaas/releasenotes/" target="_blank" class="official-link oci-link">公式 Release Notes →</a>
         </div>
 
-        <div class="news-grid">
-          <article class="news-card featured">
-            <div class="news-category compute-tag">コンピューティング</div>
-            <h3 class="news-title"><a href="https://www.oracle.com/cloud/compute/gpu/supercluster/" target="_blank">OCI Supercluster — NVIDIA H200 搭載 AI クラスター</a></h3>
+        <div class="news-grid" id="oci-grid">
+          <div class="grid-loading">最新情報を読み込み中...</div>
             <p class="news-body">最大 32,768 GPU を RoCE v2 ネットワークで超低レイテンシ接続する OCI Supercluster が強化。NVIDIA H200 SXM GPU を採用し、LLM 学習・推論用クラスターのコストパフォーマンスが競合比トップクラスと評価。</p>
             <div class="news-meta">
               <span class="news-date">2026年1月</span>
@@ -478,11 +455,6 @@
             <div class="news-meta">
               <span class="news-date">2025年8月</span>
               <span class="news-tag">MySQL HeatWave</span>
-              <a href="https://www.oracle.com/mysql/heatwave/" target="_blank" class="news-read-more">元記事を見る →</a>
-            </div>
-          </article>
-        </div>
-
         <div class="key-services">
           <h3 class="key-services-title">注目サービスカテゴリ</h3>
           <div class="service-tags">
@@ -608,5 +580,6 @@
   </footer>
 
   <script src="js/main.js"></script>
+  <script src="js/news-loader.js"></script>
 </body>
 </html>
