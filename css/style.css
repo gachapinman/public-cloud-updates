@@ -112,6 +112,16 @@ img { max-width: 100%; }
 .gcp-badge   { background: rgba(52,168,83,0.15); color: #34d399; border: 1px solid rgba(52,168,83,0.3); }
 .oci-badge   { background: rgba(248,0,0,0.12); color: #f87171; border: 1px solid rgba(248,0,0,0.3); }
 
+a.badge {
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.15s, filter 0.15s;
+}
+a.badge:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.25);
+}
+
 .hero-bg-shapes { position: absolute; inset: 0; pointer-events: none; z-index: -1; }
 .shape {
   position: absolute;
