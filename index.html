@@ -69,66 +69,34 @@
     <div class="container">
       <div class="summary-grid">
         <div class="summary-card azure-card" onclick="scrollTo('azure')">
-          <div class="cloud-logo azure-logo">Azure</div>
-          <div class="summary-stats">
-            <div class="stat">
-              <span class="stat-num">200+</span>
-              <span class="stat-label">総サービス数</span>
-            </div>
-            <div class="stat">
-              <span class="stat-num">60+</span>
-              <span class="stat-label">リージョン</span>
-            </div>
+          <div class="cloud-logo azure-logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a8/Microsoft_Azure_Logo.svg" alt="Microsoft Azure" class="cloud-logo-img" />
           </div>
-          <p class="summary-latest">最新: Azure AI Foundry GA、Phi-4 提供開始</p>
+          <p class="summary-latest" id="summary-latest-azure">読み込み中…</p>
           <span class="card-arrow">→</span>
         </div>
 
         <div class="summary-card aws-card" onclick="scrollTo('aws')">
-          <div class="cloud-logo aws-logo">AWS</div>
-          <div class="summary-stats">
-            <div class="stat">
-              <span class="stat-num">240+</span>
-              <span class="stat-label">総サービス数</span>
-            </div>
-            <div class="stat">
-              <span class="stat-num">36</span>
-              <span class="stat-label">リージョン</span>
-            </div>
+          <div class="cloud-logo aws-logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" alt="Amazon Web Services" class="cloud-logo-img" />
           </div>
-          <p class="summary-latest">最新: Amazon Nova Premier、Trainium3 発表</p>
+          <p class="summary-latest" id="summary-latest-aws">読み込み中…</p>
           <span class="card-arrow">→</span>
         </div>
 
         <div class="summary-card gcp-card" onclick="scrollTo('gcp')">
-          <div class="cloud-logo gcp-logo">GCP</div>
-          <div class="summary-stats">
-            <div class="stat">
-              <span class="stat-num">150+</span>
-              <span class="stat-label">総サービス数</span>
-            </div>
-            <div class="stat">
-              <span class="stat-num">40</span>
-              <span class="stat-label">リージョン</span>
-            </div>
+          <div class="cloud-logo gcp-logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Google_Cloud_logo.svg" alt="Google Cloud" class="cloud-logo-img" />
           </div>
-          <p class="summary-latest">最新: Gemini 2.0 Flash、Ironside VM 発表</p>
+          <p class="summary-latest" id="summary-latest-gcp">読み込み中…</p>
           <span class="card-arrow">→</span>
         </div>
 
         <div class="summary-card oci-card" onclick="scrollTo('oci')">
-          <div class="cloud-logo oci-logo">OCI</div>
-          <div class="summary-stats">
-            <div class="stat">
-              <span class="stat-num">100+</span>
-              <span class="stat-label">総サービス数</span>
-            </div>
-            <div class="stat">
-              <span class="stat-num">48</span>
-              <span class="stat-label">リージョン</span>
-            </div>
+          <div class="cloud-logo oci-logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/50/Oracle_logo.svg" alt="Oracle Cloud Infrastructure" class="cloud-logo-img" />
           </div>
-          <p class="summary-latest">最新: OCI Supercluster、AI Infrastructure 強化</p>
+          <p class="summary-latest" id="summary-latest-oci">読み込み中…</p>
           <span class="card-arrow">→</span>
         </div>
       </div>
@@ -143,7 +111,7 @@
       <section id="azure" class="cloud-section">
         <div class="section-header azure-header">
           <div class="section-title-wrap">
-            <span class="section-icon azure-icon"><img src="https://cdn.simpleicons.org/microsoftazure/4da6ff" alt="Azure" /></span>
+            <span class="section-icon azure-icon"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a8/Microsoft_Azure_Logo.svg" alt="Azure" /></span>
             <div>
               <h2 class="section-title">Microsoft Azure</h2>
             </div>
@@ -228,7 +196,7 @@
       <section id="aws" class="cloud-section">
         <div class="section-header aws-header">
           <div class="section-title-wrap">
-            <span class="section-icon aws-icon"><img src="https://cdn.simpleicons.org/amazonaws/ffaa33" alt="AWS" /></span>
+            <span class="section-icon aws-icon"><img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" alt="AWS" /></span>
             <div>
               <h2 class="section-title">Amazon Web Services</h2>
             </div>
@@ -313,7 +281,7 @@
       <section id="gcp" class="cloud-section">
         <div class="section-header gcp-header">
           <div class="section-title-wrap">
-            <span class="section-icon gcp-icon"><img src="https://cdn.simpleicons.org/googlecloud/4ade80" alt="GCP" /></span>
+            <span class="section-icon gcp-icon"><img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Google_Cloud_logo.svg" alt="GCP" /></span>
             <div>
               <h2 class="section-title">Google Cloud Platform</h2>
             </div>
@@ -398,7 +366,7 @@
       <section id="oci" class="cloud-section">
         <div class="section-header oci-header">
           <div class="section-title-wrap">
-            <span class="section-icon oci-icon"><img src="https://cdn.simpleicons.org/oracle/f87171" alt="OCI" /></span>
+            <span class="section-icon oci-icon"><img src="https://upload.wikimedia.org/wikipedia/commons/5/50/Oracle_logo.svg" alt="OCI" /></span>
             <div>
               <h2 class="section-title">Oracle Cloud Infrastructure</h2>
             </div>

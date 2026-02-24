@@ -12,53 +12,78 @@ import feedparser
 
 # ===== 設定 =====
 OUTPUT_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "news.json")
-MAX_ITEMS_PER_CLOUD = 6   # 1クラウドあたり最大件数
+MAX_ITEMS_PER_CLOUD = 6    # 1クラウドあたり表示件数
+MAX_FETCH_ENTRIES = 100    # RSSから取得する最大エントリ数（日付降順ソート用）
 
-# RSS フィード定義
+# RSS フィード定義（日本語公式ページ優先）
 FEEDS = {
     "azure": {
         "name": "Microsoft Azure",
-        "url": "https://azurecomcdn.azureedge.net/en-us/updates/feed/",
-        "fallback_url": "https://azure.microsoft.com/en-us/updates/feed/",
+        # Azure Updates 日本語版
+        "url": "https://azure.microsoft.com/ja-jp/updates/feed/",
+        "fallback_url": "https://azurecomcdn.azureedge.net/ja-jp/updates/feed/",
     },
     "aws": {
         "name": "Amazon Web Services",
-        "url": "https://aws.amazon.com/new/feed/",
-        "fallback_url": "https://aws.amazon.com/jp/new/feed/",
+        # AWS What's New 日本語版
+        "url": "https://aws.amazon.com/jp/new/feed/",
+        "fallback_url": "https://aws.amazon.com/new/feed/",
     },
     "gcp": {
         "name": "Google Cloud Platform",
-        "url": "https://cloud.google.com/feeds/gcp-release-notes.xml",
-        "fallback_url": "https://cloudblog.withgoogle.com/products/gcp/rss/",
+        # Google Cloud Japan 公式ブログ
+        "url": "https://cloudblog.withgoogle.com/intl/ja-JP/rss/",
+        "fallback_url": "https://cloud.google.com/blog/ja/rss/",
     },
     "oci": {
         "name": "Oracle Cloud Infrastructure",
-        "url": "https://docs.oracle.com/en-us/iaas/releasenotes/rss/whatsnew.xml",
-        "fallback_url": "https://blogs.oracle.com/cloud-infrastructure/rss",
+        # Oracle for Engineers 日本語ブログ
+        "url": "https://blogs.oracle.com/oracle4engineer/rss",
+        "fallback_url": "https://www.oracle.com/jp/corporate/blog/rss/",
     },
 }
 
-# カテゴリ判定キーワード (順番が優先順位)
+# カテゴリ判定キーワード (順番が優先順位) — 英語 + 日本語
 CATEGORY_RULES = [
     ("ai-tag",       ["ai", "ml", "machine learning", "generative", "llm", "bedrock",
                        "sagemaker", "vertex", "foundry", "openai", "gemini", "gpt",
-                       "phi", "llama", "diffusion", "inference", "training", "neural"]),
+                       "phi", "llama", "diffusion", "inference", "training", "neural",
+                       # 日本語
+                       "人工知能", "生成ai", "機械学習", "推論", "学習モデル", "エージェント",
+                       "チャット", "言語モデル", "ベクター検索", "ファインチューニング"]),
     ("security-tag", ["security", "iam", "identity", "auth", "mfa", "zero trust",
                        "compliance", "encryption", "kms", "vault", "sentinel",
-                       "defender", "guard", "waf", "shield", "entra"]),
+                       "defender", "guard", "waf", "shield", "entra",
+                       # 日本語
+                       "セキュリティ", "認証", "暗号化", "ゼロトラスト", "アイデンティティ",
+                       "コンプライアンス", "権限管理", "不正アクセス", "脆弱性", "脚威脅迫"]),
     ("container-tag",["kubernetes", "container", "eks", "aks", "gke", "oke",
-                       "docker", "helm", "fargate", "cloud run", "app service"]),
+                       "docker", "helm", "fargate", "cloud run", "app service",
+                       # 日本語
+                       "コンテナ", "クバネティス", "コンテナイメージ", "マイクロサービス"]),
     ("database-tag", ["database", "db", "rds", "aurora", "dynamo", "cosmos", "spanner",
                        "alloydb", "sql", "postgres", "mysql", "redis", "mongodb",
-                       "autonomous", "heatwave", "bigtable", "firestore"]),
+                       "autonomous", "heatwave", "bigtable", "firestore",
+                       # 日本語
+                       "データベース", "データウェアハウス", "データ分析", "データウェア",
+                       "ベクターデータベース", "ビッグクエリ", "ストリーミング分析"]),
     ("storage-tag",  ["storage", "s3", "blob", "bucket", "gcs", "object storage",
-                       "efs", "fsx", "archive", "backup"]),
+                       "efs", "fsx", "archive", "backup",
+                       # 日本語
+                       "ストレージ", "バックアップ", "アーカイブ", "オブジェクトストレージ",
+                       "ファイルストレージ", "ブロックストレージ"]),
     ("network-tag",  ["network", "vpc", "vnet", "subnet", "cdn", "cloudfront",
                        "load balancer", "dns", "route", "direct connect",
-                       "expressroute", "vpn", "firewall"]),
+                       "expressroute", "vpn", "firewall",
+                       # 日本語
+                       "ネットワーク", "ファイアウォール", "ロードバランサー",
+                       "コンテンツ配信", "専用線", "vpn接続", "サブネット"]),
     ("compute-tag",  ["compute", "ec2", "vm", "virtual machine", "instance",
                        "graviton", "cobalt", "axion", "ampere", "gpu", "tpu",
-                       "lambda", "functions", "serverless", "batch"]),
+                       "lambda", "functions", "serverless", "batch",
+                       # 日本語
+                       "仒想マシン", "コンピューティング", "サーバーレス", "バッチ処理",
+                       "高性能コンピューティング", "hpc", "インスタンス", "gpuクラスター"]),
 ]
 
 
@@ -120,7 +145,7 @@ def fetch_feed(cloud_key: str, conf: dict) -> list[dict]:
             if feed.bozo and not feed.entries:
                 continue  # 解析失敗
             all_entries = []
-            for entry in feed.entries:
+            for entry in feed.entries[:MAX_FETCH_ENTRIES]:
                 title   = clean_text(entry.get("title", "(タイトルなし)"), 120)
                 summary = clean_text(entry.get("summary", entry.get("description", "")), 200)
                 link    = entry.get("link", "")

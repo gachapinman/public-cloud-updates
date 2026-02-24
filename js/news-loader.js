@@ -15,12 +15,12 @@ const TAG_CONFIG = {
   'compute-tag':   { icon: '⚡', label: 'コンピューティング' },
 };
 
-// 各クラウドのメタ情報（公式SVGアイコン）
+// 各クラウドのメタ情報（Wikimedia Commons 公式SVGロゴ）
 const CLOUD_META = {
-  azure: { name: 'Azure', colorClass: 'azure', icon: 'https://cdn.simpleicons.org/microsoftazure/4da6ff' },
-  aws:   { name: 'AWS',   colorClass: 'aws',   icon: 'https://cdn.simpleicons.org/amazonaws/ffaa33' },
-  gcp:   { name: 'GCP',   colorClass: 'gcp',   icon: 'https://cdn.simpleicons.org/googlecloud/4ade80' },
-  oci:   { name: 'OCI',   colorClass: 'oci',   icon: 'https://cdn.simpleicons.org/oracle/f87171' },
+  azure: { name: 'Azure', colorClass: 'azure', icon: 'https://upload.wikimedia.org/wikipedia/commons/a/a8/Microsoft_Azure_Logo.svg' },
+  aws:   { name: 'AWS',   colorClass: 'aws',   icon: 'https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg' },
+  gcp:   { name: 'GCP',   colorClass: 'gcp',   icon: 'https://upload.wikimedia.org/wikipedia/commons/5/51/Google_Cloud_logo.svg' },
+  oci:   { name: 'OCI',   colorClass: 'oci',   icon: 'https://upload.wikimedia.org/wikipedia/commons/5/50/Oracle_logo.svg' },
 };
 
 /** HTML エスケープ */
@@ -116,6 +116,14 @@ function renderLatestSummary(data) {
     const sorted = rawItems.sort((a, b) => (b.date_iso || '').localeCompare(a.date_iso || ''));
     const latest = sorted[0];
     const cfg = TAG_CONFIG[latest.category] || { icon: '☁️', label: latest.cat_label || '' };
+
+    // サマリーカードのsummary-latestも連動更新
+    const summaryEl = document.getElementById(`summary-latest-${cloudId}`);
+    if (summaryEl) {
+      summaryEl.textContent = latest.title.length > 50
+        ? latest.title.slice(0, 50) + '…'
+        : latest.title;
+    }
 
     return `
       <div class="latest-card latest-${meta.colorClass}">

@@ -25,7 +25,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install feedparser requests
+          pip install feedparser requests lxml
 
       - name: Fetch latest cloud news
         run: python scripts/fetch_news.py
