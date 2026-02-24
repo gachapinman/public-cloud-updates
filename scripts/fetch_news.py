@@ -139,6 +139,11 @@ def clean_text(text: str, max_len: int = 180) -> str:
     return text
 
 
+def strip_azure_prefix(title: str) -> str:
+    """Azure RSS タイトルの '[Launched] ' '[In preview] ' などのプレフィックスを除去"""
+    return re.sub(r"^\[(Launched|In preview|In development|Retired)\]\s*", "", title).strip()
+
+
 def fetch_feed(cloud_key: str, conf: dict) -> list[dict]:
     """指定のクラウドの RSS を取得してニュースアイテムリストを返す"""
     items = []
@@ -152,6 +157,8 @@ def fetch_feed(cloud_key: str, conf: dict) -> list[dict]:
             all_entries = []
             for entry in feed.entries[:MAX_FETCH_ENTRIES]:
                 title   = clean_text(entry.get("title", "(タイトルなし)"), 120)
+                if cloud_key == "azure":
+                    title = strip_azure_prefix(title)
                 summary = clean_text(entry.get("summary", entry.get("description", "")), 200)
                 link    = entry.get("link", "")
                 date_display, date_iso = parse_date(entry)
