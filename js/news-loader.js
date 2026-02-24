@@ -103,28 +103,30 @@ function buildFilterBar(filterId, items, gridId) {
   });
 }
 
-/** 最新情報ハイライトセクションを描画する */
+/** 最新情報ハイライトセクションを描画する（全クラウド横断 上位3件）*/
 function renderLatestSummary(data) {
   const grid = document.getElementById('latest-updates-grid');
   if (!grid) return;
 
-  const cards = Object.entries(CLOUD_META).map(([cloudId, meta]) => {
-    const rawItems = (data.clouds && data.clouds[cloudId]) ? [...data.clouds[cloudId]] : [];
-    if (rawItems.length === 0) return '';
+  // 全クラウドのアイテムをフラットにまとめ、日付降順で上位3件を取得
+  const allItems = [];
+  Object.entries(CLOUD_META).forEach(([cloudId, meta]) => {
+    const rawItems = (data.clouds && data.clouds[cloudId]) ? data.clouds[cloudId] : [];
+    rawItems.forEach(item => allItems.push({ ...item, _cloudId: cloudId, _meta: meta }));
+  });
 
-    // 最新一件を取得
-    const sorted = rawItems.sort((a, b) => (b.date_iso || '').localeCompare(a.date_iso || ''));
-    const latest = sorted[0];
-    const cfg = TAG_CONFIG[latest.category] || { icon: '☁️', label: latest.cat_label || '' };
+  const top3 = allItems
+    .sort((a, b) => (b.date_iso || '').localeCompare(a.date_iso || ''))
+    .slice(0, 3);
 
-    // サマリーカードのsummary-latestも連動更新
-    const summaryEl = document.getElementById(`summary-latest-${cloudId}`);
-    if (summaryEl) {
-      summaryEl.textContent = latest.title.length > 50
-        ? latest.title.slice(0, 50) + '…'
-        : latest.title;
-    }
+  if (top3.length === 0) {
+    grid.innerHTML = '<p class="grid-loading">データがありません</p>';
+    return;
+  }
 
+  const cards = top3.map(item => {
+    const meta = item._meta;
+    const cfg = TAG_CONFIG[item.category] || { icon: '☁️', label: item.cat_label || '' };
     return `
       <div class="latest-card latest-${meta.colorClass}">
         <div class="latest-cloud-badge">
@@ -132,8 +134,8 @@ function renderLatestSummary(data) {
           <span class="latest-cloud-name">${meta.name}</span>
         </div>
         <div class="latest-cat">${cfg.icon} ${cfg.label}</div>
-        <a href="${escHtml(latest.link)}" target="_blank" rel="noopener noreferrer" class="latest-title">${escHtml(latest.title)}</a>
-        <div class="latest-date">${escHtml(latest.date)}</div>
+        <a href="${escHtml(item.link)}" target="_blank" rel="noopener noreferrer" class="latest-title">${escHtml(item.title)}</a>
+        <div class="latest-date">${escHtml(item.date)}</div>
       </div>`;
   });
 
