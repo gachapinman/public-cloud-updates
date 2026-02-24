@@ -1,8 +1,69 @@
-{
-  "updated": "GitHub Actions 実行待ち",
+﻿{
+  "updated": "2026年02月24日 19:00 JST",
   "clouds": {
     "azure": [],
-    "aws": [],
+    "aws": [
+      {
+        "title": "Amazon RDS が RDS Service API の VPC エンドポイント向けに IPv6 のサポートを開始",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/01/amazon-rds-ipv6-vpc-endpoints-service-apis",
+        "summary": "Amazon RDS は、パブリックエンドポイント向けの既存の Internet Protocol version 6 (IPv6) サポートに加えて、RDS Service API の VPC エンドポイント向けの IPv6 をサポートするようになりました。",
+        "date": "2026年1月31日",
+        "date_iso": "2026-01-31",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon SageMaker Unified Studio が AWS PrivateLink のサポートを開始",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/01/amazon-sagemaker-unified-studio-aws-privatelink/",
+        "summary": "Amazon SageMaker は、顧客データのトラフィックをパブリックインターネットを経由させることなく、VPC と Amazon SageMaker Unified Studio 間の接続を確立できる新機能を発表しました。",
+        "date": "2026年1月31日",
+        "date_iso": "2026-01-31",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon ECS がコンテナのヘルスステータスを CloudWatch メトリクスとして公開",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/01/amazon-ecs-container-health-status-metric/",
+        "summary": "Amazon Elastic Container Service (Amazon ECS) では、コンテナのヘルスステータスが CloudWatch Container Insights の新しいメトリクスとして公開されるようになりました。",
+        "date": "2026年1月31日",
+        "date_iso": "2026-01-31",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "AWS"
+      },
+      {
+        "title": "新機能 Partner Revenue Measurement により AWS サービスの使用状況の可視化が可能に",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/01/new-partner-revenue-measurement",
+        "summary": "AWS は Partner Revenue Measurement の開始を発表しました。AWS パートナーが自社のソリューションが AWS サービスの消費にどのように影響するかを可視化できる新機能です。",
+        "date": "2026年1月31日",
+        "date_iso": "2026-01-31",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon RDS for Oracle が追加のストレージボリュームを使用したクロスリージョンレプリカのサポートを開始",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/01/rds-for-oracle-cross-region-replicas-additional-storage-volumes",
+        "summary": "Amazon RDS for Oracle で、追加のストレージボリュームを使用したクロスリージョンレプリカがサポートされるようになりました。それぞれ最大 64 TiB のストレージボリュームを最大 3 つ追加できます。",
+        "date": "2026年1月31日",
+        "date_iso": "2026-01-31",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 R8a インスタンスが欧州 (スペイン) と欧州 (フランクフルト) リージョンで利用可能に",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/01/amazon-ec2-r8a-instances-are-available-europe",
+        "summary": "Amazon EC2 R8a インスタンスが欧州 (スペイン) および欧州 (フランクフルト) リージョンで利用できるようになりました。第 5 世代 AMD EPYC プロセッサ搭載で R7a 比最大 30% 性能向上。",
+        "date": "2026年1月31日",
+        "date_iso": "2026-01-31",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      }
+    ],
     "gcp": [],
     "oci": []
   }
