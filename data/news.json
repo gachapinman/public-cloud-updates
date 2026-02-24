@@ -1,73 +1,213 @@
-﻿{
-  "updated": "2026年02月24日 19:32 JST",
+{
+  "updated": "2026年02月24日 20:06 JST",
   "clouds": {
     "azure": [
       {
-        "category": "container-tag",
-        "date_iso": "2026-02-24",
-        "tag": "AZURE",
-        "link": "https://azure.microsoft.com/updates?id=557224",
-        "cat_label": "コンテナ",
         "title": "Retirement: Windows Server Annual Channel (preview)",
-        "summary": "Windows Server Annual Channel (Preview) on AKS will be retired on May 15, 2026, please transition to Long Term Servicing Channel (LTSC) by that date. We encourage you to transition...",
-        "date": "2026年2月24日"
-      },
-      {
-        "category": "security-tag",
+        "link": "https://azure.microsoft.com/updates?id=557224",
+        "summary": "Windows Server Annual Channel (Preview) on AKS will be retired on May 15, 2026, please transition to Long Term Servicing Channel (LTSC) by that date. We encourage you to transition to Long Term…",
+        "date": "2026年2月24日",
         "date_iso": "2026-02-24",
-        "tag": "AZURE",
-        "link": "https://azure.microsoft.com/updates?id=557416",
-        "cat_label": "セキュリティ",
-        "title": "Public Preview: WAF Insights for Application Gateway",
-        "summary": "Announcing the public preview of Application Gateway WAF Insights. Azure Application Gateway WAF now offers WAF Insights, providing an interactive view of logs and metrics. WAF Ins...",
-        "date": "2026年2月24日"
-      },
-      {
-        "category": "storage-tag",
-        "date_iso": "2026-02-21",
-        "tag": "AZURE",
-        "link": "https://azure.microsoft.com/updates?id=557623",
-        "cat_label": "ストレージ",
-        "title": "Generally Available: Azure Premium SSD v2 Disk is now available in Brazil Southeast, and in a third Availability Zone in Malaysia West and Indonesia Central",
-        "summary": "Azure Premium SSD v2 is now available in Brazil Southeast (a region without Availability Zone), and in a third Availability Zone in Malaysia West and Indonesia Central.",
-        "date": "2026年2月21日"
-      },
-      {
-        "category": "ai-tag",
-        "date_iso": "2026-02-19",
-        "tag": "AZURE",
-        "link": "https://azure.microsoft.com/updates?id=557595",
-        "cat_label": "AI / ML",
-        "title": "Generally Available: Anthropic Claude Sonnet 4.6 is now available on Azure Databricks",
-        "summary": "Azure Databricks now supports Anthropic Claude Sonnet 4.6 through Azure Databricks AI Model Serving. Claude Sonnet 4.6 delivers frontier-level performance on complex coding, agentic reasoning, and multimodal tasks.",
-        "date": "2026年2月19日"
-      },
-      {
         "category": "container-tag",
-        "date_iso": "2026-02-19",
-        "tag": "AZURE",
-        "link": "https://azure.microsoft.com/updates?id=557223",
         "cat_label": "コンテナ",
-        "title": "Public Preview: Unified tooling in the AKS MCP server",
-        "summary": "Managing AKS MCP servers can be affected by the number of tools and the amount of context required, which can increase latency and cost. The unified tooling for the AKS MCP Server reduces this overhead.",
-        "date": "2026年2月19日"
+        "tag": "AZURE"
       },
       {
+        "title": "Public Preview: WAF Insights for Application Gateway",
+        "link": "https://azure.microsoft.com/updates?id=557416",
+        "summary": "Announcing the public preview of Application Gateway WAF Insights. Azure Application Gateway WAF now offers WAF Insights, providing an interactive view of logs and metrics. WAF Insights enables quick…",
+        "date": "2026年2月24日",
+        "date_iso": "2026-02-24",
         "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Azure Premium SSD v2 Disk is now available in Brazil Southeast, and in a third…",
+        "link": "https://azure.microsoft.com/updates?id=557623",
+        "summary": "Azure Premium SSD v2 is now available in Brazil Southeast (a region without Availability Zone), and in a third Availability Zone in Malaysia West and Indonesia Central.Azure Premium SSD v2 disk, a…",
+        "date": "2026年2月21日",
+        "date_iso": "2026-02-21",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Anthropic Claude Sonnet 4.6 is now available on Azure Databricks",
+        "link": "https://azure.microsoft.com/updates?id=557595",
+        "summary": "Azure Databricks now supports Anthropic Claude Sonnet 4.6 through Azure Databricks AI Model Serving. Claude Sonnet 4.6 delivers frontier-level performance on complex coding, agentic workflows, and…",
+        "date": "2026年2月19日",
         "date_iso": "2026-02-19",
-        "tag": "AZURE",
-        "link": "https://azure.microsoft.com/updates?id=557218",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Unified tooling in the AKS MCP server",
+        "link": "https://azure.microsoft.com/updates?id=557223",
+        "summary": "Managing AKS MCP servers can be affected by the number of tools and the amount of context required, which can increase latency and cost. The unified tooling for the AKS MCP Server introduces two new…",
+        "date": "2026年2月19日",
+        "date_iso": "2026-02-19",
+        "category": "container-tag",
         "cat_label": "コンテナ",
+        "tag": "AZURE"
+      },
+      {
         "title": "Public Preview: Cluster mode for the agentic CLI for AKS",
-        "summary": "Users often face security and manageability challenges when diagnostic agents inherit broad user permissions, such as cluster-admin rights, and when each user must deploy their own agent.",
-        "date": "2026年2月19日"
+        "link": "https://azure.microsoft.com/updates?id=557218",
+        "summary": "Users often face security and manageability challenges when diagnostic agents inherit broad user permissions, such as cluster-admin rights, and when each user must deploy their own instance. Cluster…",
+        "date": "2026年2月19日",
+        "date_iso": "2026-02-19",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Quota and deployment troubleshooting tools for Azure Functions Flex Consumption",
+        "link": "https://azure.microsoft.com/updates?id=556008",
+        "summary": "Azure Functions Flex Consumption introduces new platform‑integrated tools that provide clearer insight into quota availability and deployment behavior. The quota troubleshooting experience surfaces…",
+        "date": "2026年2月19日",
+        "date_iso": "2026-02-19",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Azure Functions .NET 10 support",
+        "link": "https://azure.microsoft.com/updates?id=556003",
+        "summary": "Azure Functions support for .NET 10 is generally available, enabling production use of the latest .NET runtime for serverless applications. This support was introduced as part of the Azure Functions…",
+        "date": "2026年2月19日",
+        "date_iso": "2026-02-19",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Node auto-provisioning support in Azure government and private cloud",
+        "link": "https://azure.microsoft.com/updates?id=557208",
+        "summary": "Node auto‑provisioning removes the need for teams to manually size and manage compute resources for Kubernetes workloads. Azure Kubernetes Service (AKS) now provides general availability support for…",
+        "date": "2026年2月19日",
+        "date_iso": "2026-02-19",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Node auto-provisioning enabled clusters in AKS now support LocalDNS",
+        "link": "https://azure.microsoft.com/updates?id=557203",
+        "summary": "Customers previously could not enable LocalDNS on clusters that used Node auto‑provisioning in AKS, limiting their ability to use this feature in those environments. LocalDNS is now generally…",
+        "date": "2026年2月19日",
+        "date_iso": "2026-02-19",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Encryption at host & disk encryption sets support in node auto-provisioning",
+        "link": "https://azure.microsoft.com/updates?id=557213",
+        "summary": "Node auto-provisioning enabled clusters previously did not have support for Encryption at Host and disk encryption sets. This limited users with certain security requirements for their cluster to not…",
+        "date": "2026年2月19日",
+        "date_iso": "2026-02-19",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Instant access support for incremental snapshots of Azure Premium SSD v2 and Ultra Disk",
+        "link": "https://azure.microsoft.com/updates?id=545784",
+        "summary": "Announcing the General Availability of instant access support for incremental snapshots of Premium SSD v2 (Pv2) and Ultra Disk. This new capability enables you to restore new disks immediately after…",
+        "date": "2026年2月18日",
+        "date_iso": "2026-02-18",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: AKS support for Kubernetes version 1.34",
+        "link": "https://azure.microsoft.com/updates?id=548114",
+        "summary": "Kubernetes version 1.34 is now generally available for AKS. This release introduces 58 upstream enhancements, including 23 Stable features, 22 Beta features, and 13 Alpha features.These enhancements…",
+        "date": "2026年2月13日",
+        "date_iso": "2026-02-13",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Azure SQL updates for mid-February 2026",
+        "link": "https://azure.microsoft.com/updates?id=550159",
+        "summary": "In mid-February 2026, the following updates and enhancements were made to Azure SQL:Simplify SQL deployments from Visual Studio Code using the new SQL Projects Publish dialog.Connections Migration…",
+        "date": "2026年2月12日",
+        "date_iso": "2026-02-12",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Azure Front Door Premium now supports Azure Private Link origins in UAE North",
+        "link": "https://azure.microsoft.com/updates?id=556282",
+        "summary": "You can now set UAE North as a region for Azure Private Link-enabled origins in your Azure Front Door Premium profile. Azure Private Link-enabled origins in Azure Front Door allow you to deliver…",
+        "date": "2026年2月11日",
+        "date_iso": "2026-02-11",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Azure Databricks Supervisor Agent",
+        "link": "https://azure.microsoft.com/updates?id=557081",
+        "summary": "Introducing Supervisor Agent, now Generally Available in Azure Databricks. Supervisor Agent is part of the Azure Databricks Agent Bricks Platform. Supervisor Agent brings a breakthrough in agentic…",
+        "date": "2026年2月11日",
+        "date_iso": "2026-02-11",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Application Gateway for Containers - AKS managed add-on",
+        "link": "https://azure.microsoft.com/updates?id=555603",
+        "summary": "We're announcing public preview of an AKS managed add-on that simplifies the deployment and lifecycle management of Application Gateway for Containers and its ALB Controller. With the managed AKS…",
+        "date": "2026年2月10日",
+        "date_iso": "2026-02-10",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Private Preview: Vaulted Backups for Azure Disk",
+        "link": "https://azure.microsoft.com/updates?id=555184",
+        "summary": "Today, Azure Disk Backup protects data by taking regular, crash-consistent snapshots of Azure Disks. These snapshots are stored within your subscription and tenant in a resource group, referred to as…",
+        "date": "2026年2月7日",
+        "date_iso": "2026-02-07",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Azure Monitor pipeline transformations",
+        "link": "https://azure.microsoft.com/updates?id=555488",
+        "summary": "Azure Monitor pipeline transformations feature is now Public Preview! This feature enables users to shape telemetry before it’s ingested into Azure Monitor, helping them control ingestion costs,…",
+        "date": "2026年2月7日",
+        "date_iso": "2026-02-07",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AZURE"
+      },
+      {
+        "title": "​Generally Available: Claude Opus 4.6 now available on Azure Databricks",
+        "link": "https://azure.microsoft.com/updates?id=555981",
+        "summary": "Azure Databricks now supports Anthropic Claude Opus 4.6 through Mosaic AI Model serving. Claude Opus 4.6 is Anthropic's most advanced model, delivering state-of-the-art performance on agentic coding,…",
+        "date": "2026年2月7日",
+        "date_iso": "2026-02-07",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
       }
     ],
     "aws": [
       {
         "title": "Amazon RDS が RDS Service API の VPC エンドポイント向けに IPv6 のサポートを開始",
         "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/01/amazon-rds-ipv6-vpc-endpoints-service-apis",
-        "summary": "Amazon RDS は、パブリックエンドポイント向けの既存の Internet Protocol version 6 (IPv6) サポートに加えて、RDS Service API の VPC エンドポイント向けの IPv6 をサポートするようになりました。これにより、デュアルスタック (IPv4 と IPv6) の接続を設定して、インターネットを経由せずに VPC 内から RDS Ser…",
+        "summary": "Amazon RDS は、パブリックエンドポイント向けの既存の Internet Protocol version 6 (IPv6) サポートに加えて、RDS Service API の VPC エンドポイント向けの IPv6 をサポートするようになりました。これにより、デュアルスタック (IPv4 と IPv6) の接続を設定して、インターネットを経由せずに VPC 内から RDS…",
         "date": "2026年1月31日",
         "date_iso": "2026-01-31",
         "category": "database-tag",
@@ -77,7 +217,7 @@
       {
         "title": "Amazon SageMaker Unified Studio が AWS PrivateLink のサポートを開始",
         "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/01/amazon-sagemaker-unified-studio-aws-privatelink/",
-        "summary": "本日、Amazon SageMaker は、顧客データのトラフィックを、パブリックインターネットを経由させることなく、Amazon Virtual Private Cloud (VPC) と Amazon SageMaker Unified Studio 間の接続を確立できる新機能を発表しました。標準のデータ転送プロトコル (HTTPS/TLS2) を超える必要があるお客様は、データ転送が …",
+        "summary": "本日、Amazon SageMaker は、顧客データのトラフィックを、パブリックインターネットを経由させることなく、Amazon Virtual Private Cloud (VPC) と Amazon SageMaker Unified Studio 間の接続を確立できる新機能を発表しました。標準のデータ転送プロトコル (HTTPS/TLS2) を超える必要があるお客様は、データ転送が…",
         "date": "2026年1月31日",
         "date_iso": "2026-01-31",
         "category": "ai-tag",
@@ -87,7 +227,7 @@
       {
         "title": "Amazon ECS がコンテナのヘルスステータスを CloudWatch メトリクスとして公開",
         "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/01/amazon-ecs-container-health-status-metric/",
-        "summary": "Amazon Elastic Container Service (Amazon ECS) では、コンテナのヘルスステータスが CloudWatch Container Insights の新しいメトリクスとして公開されるようになり、オブザーバビリティが強化されました。お客様は、専用の CloudWatch メトリクスを通じてコンテナの運用状態を追跡し、異常のあるコンテナにプロアクティブに対…",
+        "summary": "Amazon Elastic Container Service (Amazon ECS) では、コンテナのヘルスステータスが CloudWatch Container Insights の新しいメトリクスとして公開されるようになり、オブザーバビリティが強化されました。お客様は、専用の CloudWatch…",
         "date": "2026年1月31日",
         "date_iso": "2026-01-31",
         "category": "ai-tag",
@@ -97,7 +237,7 @@
       {
         "title": "新機能 Partner Revenue Measurement により AWS サービスの使用状況の可視化が可能になる",
         "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/01/new-partner-revenue-measurement",
-        "summary": "本日、AWS は Partner Revenue Measurement の開始を発表しました。これは、AWS パートナーが、自社のソリューションがパートナー管理アカウントと顧客管理アカウントの AWS サービスの消費にどのように影響するかを可視化できる新機能です。 Partner Revenue Measurement により、パートナーは AWS の収益への影響と製品の消費パターンをより…",
+        "summary": "本日、AWS は Partner Revenue Measurement の開始を発表しました。これは、AWS パートナーが、自社のソリューションがパートナー管理アカウントと顧客管理アカウントの AWS サービスの消費にどのように影響するかを可視化できる新機能です。 Partner Revenue Measurement により、パートナーは AWS…",
         "date": "2026年1月31日",
         "date_iso": "2026-01-31",
         "category": "compute-tag",
@@ -107,7 +247,7 @@
       {
         "title": "Amazon RDS for Oracle が追加のストレージボリュームを使用したクロスリージョンレプリカのサポートを開始",
         "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/01/rds-for-oracle-cross-region-replicas-additional-storage-volumes",
-        "summary": "Amazon RDS for Oracle で、追加のストレージボリュームを使用したクロスリージョンレプリカがサポートされるようになりました。追加のストレージボリュームを使用すると、お客様はデータベースインスタンスのプライマリストレージボリュームに加えて、それぞれ最大 64 TiB のストレージボリュームを最大 3 つ追加できます。その結果、お客様はアプリケーションのダウンタイムを発生させる…",
+        "summary": "Amazon RDS for Oracle で、追加のストレージボリュームを使用したクロスリージョンレプリカがサポートされるようになりました。追加のストレージボリュームを使用すると、お客様はデータベースインスタンスのプライマリストレージボリュームに加えて、それぞれ最大 64 TiB のストレージボリュームを最大 3…",
         "date": "2026年1月31日",
         "date_iso": "2026-01-31",
         "category": "database-tag",
@@ -117,7 +257,7 @@
       {
         "title": "Amazon EC2 R8a インスタンスが欧州 (スペイン) と欧州 (フランクフルト) リージョンで利用可能に",
         "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/01/amazon-ec2-r8a-instances-are-available-europe",
-        "summary": "本日より、Amazon EC2 R8a インスタンスが欧州 (スペイン) および欧州 (フランクフルト) リージョンで利用できるようになりました。これらのインスタンスは、最大周波数が 4.5 GHz の第 5 世代 AMD EPYC プロセッサ (旧コード名 Turin) を搭載しており、R7a インスタンスと比較してパフォーマンスが最大 30%、料金パフォーマンスが最大 19% 向上します…",
+        "summary": "本日より、Amazon EC2 R8a インスタンスが欧州 (スペイン) および欧州 (フランクフルト) リージョンで利用できるようになりました。これらのインスタンスは、最大周波数が 4.5 GHz の第 5 世代 AMD EPYC プロセッサ (旧コード名 Turin) を搭載しており、R7a インスタンスと比較してパフォーマンスが最大 30%、料金パフォーマンスが最大 19% 向上します。…",
         "date": "2026年1月31日",
         "date_iso": "2026-01-31",
         "category": "compute-tag",
@@ -127,7 +267,7 @@
       {
         "title": "Amazon GameLift Streams がストリーミング機能を 6 つの新しいリージョンに拡大",
         "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/01/glstreams-new-regions",
-        "summary": "本日より、Amazon GameLift Streams では、eu-west-2 (ロンドン)、eu-north-1 (ストックホルム)、sa-east-1 (サンパウロ)、ap-south-1 (ムンバイ)、ap-northeast-2 (ソウル)、ap-southeast-2 (シドニー) の 6 つの新しい場所で、すべてのお客様にストリーミング機能が提供されます。 新しい場所のストリ…",
+        "summary": "本日より、Amazon GameLift Streams では、eu-west-2 (ロンドン)、eu-north-1 (ストックホルム)、sa-east-1 (サンパウロ)、ap-south-1 (ムンバイ)、ap-northeast-2 (ソウル)、ap-southeast-2 (シドニー) の 6 つの新しい場所で、すべてのお客様にストリーミング機能が提供されます。…",
         "date": "2026年1月31日",
         "date_iso": "2026-01-31",
         "category": "compute-tag",
@@ -137,7 +277,7 @@
       {
         "title": "Amazon EventBridge でサポートされるペイロードサイズが 1 MB に拡大",
         "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/01/amazon-eventbridge-increases-event-payload-size-256-kb-1-mb",
-        "summary": "Amazon EventBridge では、イベントペイロードのサイズが 256 KB から 1 MB に増えました。これにより、開発者はデータの分割、圧縮、外部化を行うことなく、イベント駆動型のワークロード用に、より豊富で複雑なペイロードを取り込むことができます。 Amazon EventBridge はサーバーレスのイベントルーターです。このサービスでは、お客様のアプリケーション、サード…",
+        "summary": "Amazon EventBridge では、イベントペイロードのサイズが 256 KB から 1 MB に増えました。これにより、開発者はデータの分割、圧縮、外部化を行うことなく、イベント駆動型のワークロード用に、より豊富で複雑なペイロードを取り込むことができます。 Amazon EventBridge…",
         "date": "2026年1月30日",
         "date_iso": "2026-01-30",
         "category": "compute-tag",
@@ -147,7 +287,7 @@
       {
         "title": "Amazon Bedrock が Responses API を使用するサーバーサイドのカスタムツールのサポートを開始",
         "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/01/amazon-bedrock-server-side-custom-tools-responses-api",
-        "summary": "Amazon Bedrock は、OpenAI API 互換のサービスエンドポイントを使用する Responses API のサーバーサイドツールをサポートするようになりました。Bedrock は 既に、Converse、Chat Completions、Responses の各 API でクライアントサイドツールの使用をサポートしています。今回、Responses API 用のサーバーサイ…",
+        "summary": "Amazon Bedrock は、OpenAI API 互換のサービスエンドポイントを使用する Responses API のサーバーサイドツールをサポートするようになりました。Bedrock は 既に、Converse、Chat Completions、Responses の各 API でクライアントサイドツールの使用をサポートしています。今回、Responses API…",
         "date": "2026年1月30日",
         "date_iso": "2026-01-30",
         "category": "ai-tag",
@@ -157,7 +297,7 @@
       {
         "title": "Amazon Cognito がインバウンドフェデレーション Lambda トリガーを導入",
         "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/01/amazon-cognito-inbound-federation-lambda-trigger/",
-        "summary": "Amazon Cognito により、認証プロセス中にフェデレーションユーザーの属性を変換およびカスタマイズできるインバウンドフェデレーション Lambda トリガーが導入されます。外部の SAML プロバイダーや OIDC プロバイダーからの応答を、ユーザープールに保存する前に変更できるようになりました。これにより、ID プロバイダーの設定を変更しなくても、フェデレーションフローを完全にプ…",
+        "summary": "Amazon Cognito により、認証プロセス中にフェデレーションユーザーの属性を変換およびカスタマイズできるインバウンドフェデレーション Lambda トリガーが導入されます。外部の SAML プロバイダーや OIDC プロバイダーからの応答を、ユーザープールに保存する前に変更できるようになりました。これにより、ID…",
         "date": "2026年1月30日",
         "date_iso": "2026-01-30",
         "category": "ai-tag",
@@ -167,7 +307,7 @@
       {
         "title": "Amazon Keyspaces (Apache Cassandra 向け) がテーブルに WarmThroughput による事前ウォーミングを導入",
         "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/01/amazon-keyspaces-apache-cassandra-pre-warming-warmthroughput-tables",
-        "summary": "Amazon Keyspaces (Apache Cassandra 向け) がテーブルの事前ウォーミングをサポートするようになったため、将来のトラフィック需要に合わせて新規テーブルと既存のテーブルの両方をプロアクティブに準備できます。この機能は、マルチリージョンのレプリケートされたテーブルを含む、プロビジョニングされたキャパシティモードとオンデマンドキャパシティモードのどちらのテーブルでも…",
+        "summary": "Amazon Keyspaces (Apache Cassandra 向け)…",
         "date": "2026年1月30日",
         "date_iso": "2026-01-30",
         "category": "compute-tag",
@@ -177,7 +317,7 @@
       {
         "title": "Amazon S3 オブジェクトのサーバー側の暗号化タイプの変更",
         "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/01/change-the-server-side-encryption-type-of-s3-objects",
-        "summary": "Amazon S3 の暗号化されたオブジェクトのサーバー側の暗号化タイプを、データを移動せずに変更できるようになりました。UpdateObjectEncryption API を使用すると、オブジェクトサイズやストレージクラスに関係なく、オブジェクトの暗号化キーをアトミックに変更できます。S3 バッチオペレーションでは、UpdateObjectEncryption を大規模に使用することで、…",
+        "summary": "Amazon S3 の暗号化されたオブジェクトのサーバー側の暗号化タイプを、データを移動せずに変更できるようになりました。UpdateObjectEncryption API を使用すると、オブジェクトサイズやストレージクラスに関係なく、オブジェクトの暗号化キーをアトミックに変更できます。S3 バッチオペレーションでは、UpdateObjectEncryption…",
         "date": "2026年1月29日",
         "date_iso": "2026-01-29",
         "category": "security-tag",
@@ -187,7 +327,7 @@
       {
         "title": "AWS が AWS MCP サーバーで Deployment Agent SOPs を発表 (プレビュー)",
         "link": "https://aws.amazon.com/jp/about-aws/whats-new/2025/01/aws-announces-deployment-agent-sops-in-aws-mcp-server-preview",
-        "summary": "AWS は、 AWS MCP サーバー で利用可能な標準作業手順 (SOP) のデプロイを発表しました。SOP は構造化された自然言語による指示であり、AI エージェントが複雑な複数ステップのタスクを実行できるように導き、一貫性があって信頼できる効率的な動作を保証します。これらの自動化された手順を使用すると、お客様は Kiro、Kiro CLI、Cursor、Claude Code など、任…",
+        "summary": "AWS は、 AWS MCP サーバー で利用可能な標準作業手順 (SOP) のデプロイを発表しました。SOP は構造化された自然言語による指示であり、AI エージェントが複雑な複数ステップのタスクを実行できるように導き、一貫性があって信頼できる効率的な動作を保証します。これらの自動化された手順を使用すると、お客様は Kiro、Kiro CLI、Cursor、Claude Code など、任意の…",
         "date": "2026年1月29日",
         "date_iso": "2026-01-29",
         "category": "ai-tag",
@@ -197,7 +337,7 @@
       {
         "title": "Amazon GameLift Servers がゼロインスタンスへの自動スケーリングとゼロインスタンスからの自動スケーリングのサポートを開始",
         "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/01/amazon-gamelift-servers-automatic-scaling",
-        "summary": "Amazon GameLift Servers で、ゼロインスタンスへの自動スケーリングとゼロインスタンスからの自動スケーリングが可能になり、ゲーム開発者にとってコスト最適化の重大な課題が解決されました。以前は、開発者はフリートの自動スケーリングをアクティブに保つために、アクティビティが少ない時間帯やアクティビティがない期間でもインスタンスの実行を維持する必要がありました。その結果、オフピー…",
+        "summary": "Amazon GameLift Servers…",
         "date": "2026年1月29日",
         "date_iso": "2026-01-29",
         "category": "compute-tag",
@@ -207,7 +347,7 @@
       {
         "title": "Amazon EKS および Amazon EKS Distro が Kubernetes バージョン 1.35 のサポートを開始",
         "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/01/amazon-eks-distro-kubernetes-version-1-35",
-        "summary": "Kubernetes バージョン 1.35 では、いくつかの新機能とバグ修正が導入されました。AWS は、 Amazon Elastic Kubernetes Service (EKS) と Amazon EKS Distro を使用して Kubernetes バージョン 1.35 を実行できるようになったことをお知らせします。本日より、EKS コンソール、eksctl コマンドラインインタ…",
+        "summary": "Kubernetes バージョン 1.35 では、いくつかの新機能とバグ修正が導入されました。AWS は、 Amazon Elastic Kubernetes Service (EKS) と Amazon EKS Distro を使用して Kubernetes バージョン 1.35 を実行できるようになったことをお知らせします。本日より、EKS コンソール、eksctl…",
         "date": "2026年1月29日",
         "date_iso": "2026-01-29",
         "category": "container-tag",
@@ -217,7 +357,7 @@
       {
         "title": "Amazon EC2 R7gd インスタンスが欧州 (パリ) リージョンで利用可能に",
         "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/01/r7gd-instances-available-in-paris",
-        "summary": "本日より、最大 3.8 TB のローカル NVMe ベースの SSD ブロックレベルストレージを備えた Amazon Elastic Compute Cloud (Amazon EC2) の R7gd インスタンスが欧州 (パリ) リージョンでご利用いただけるようになりました。 R7gd は、DDR5 メモリを備えた AWS Graviton3 プロセッサを搭載し、 AWS Nitro Sy…",
+        "summary": "本日より、最大 3.8 TB のローカル NVMe ベースの SSD ブロックレベルストレージを備えた Amazon Elastic Compute Cloud (Amazon EC2) の R7gd インスタンスが欧州 (パリ) リージョンでご利用いただけるようになりました。 R7gd は、DDR5 メモリを備えた AWS Graviton3 プロセッサを搭載し、 AWS Nitro…",
         "date": "2026年1月29日",
         "date_iso": "2026-01-29",
         "category": "storage-tag",
@@ -227,7 +367,7 @@
       {
         "title": "Amazon MSK Replicator がアジアパシフィック (ニュージーランド) で利用可能に",
         "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/01/amazon-msk-replicator-asia-pacific-new-zealand",
-        "summary": "アジアパシフィック (ニュージーランド) リージョンで、Amazon MSK Replicator を使用して、ストリーミングデータを Amazon Managed Streaming for Apache Kafka ( Amazon MSK ) クラスター間でレプリケートできるようになりました。 MSK Replicator は Amazon MSK の機能で、数回クリックするだけで、異…",
+        "summary": "アジアパシフィック (ニュージーランド) リージョンで、Amazon MSK Replicator を使用して、ストリーミングデータを Amazon Managed Streaming for Apache Kafka ( Amazon MSK ) クラスター間でレプリケートできるようになりました。 MSK Replicator は Amazon MSK…",
         "date": "2026年1月29日",
         "date_iso": "2026-01-29",
         "category": "compute-tag",
@@ -237,7 +377,7 @@
       {
         "title": "マルチリージョンの強固な一貫性を備えた Amazon DynamoDB グローバルテーブルが AWS フォールトインジェクションサービスによるアプリケーションの耐障害性テストをサポート開始",
         "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/01/amazon-dynamodb-global-tables-with-mrsc-fis/",
-        "summary": "Amazon DynamoDB のマルチリージョンの強固な一貫性 (MRSC) を備えたグローバルテーブルで、AWS Fault Injection Service (FIS) によるアプリケーション耐障害性テストのサポートを開始しました。FIS は、制御されたフォールトインジェクション実験を行ってアプリケーションのパフォーマンス、オブザーバビリティ、耐障害性を高めるためのフルマネージド型サ…",
+        "summary": "Amazon DynamoDB のマルチリージョンの強固な一貫性 (MRSC) を備えたグローバルテーブルで、AWS Fault Injection Service (FIS) によるアプリケーション耐障害性テストのサポートを開始しました。FIS…",
         "date": "2026年1月28日",
         "date_iso": "2026-01-28",
         "category": "database-tag",
@@ -247,7 +387,7 @@
       {
         "title": "AWS Deadline Cloud がジョブ名と説明の編集をサポート開始",
         "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/01/aws-deadline-cloud-editing-job-name-description/",
-        "summary": "AWS Deadline Cloud で、送信後のジョブ名と説明の編集がサポートされるようになりました。この新機能を利用すると、送信後に名前を更新したり、説明フィールドに役立つ追跡情報を追加したりすることで、ジョブの整理と識別が容易になります。 ジョブ名と説明は、ユーザーとプロジェクトを整理して理解するための重要なメタデータであり、多くの場合、システム間でショット番号やシーケンス番号などを追…",
+        "summary": "AWS Deadline Cloud で、送信後のジョブ名と説明の編集がサポートされるようになりました。この新機能を利用すると、送信後に名前を更新したり、説明フィールドに役立つ追跡情報を追加したりすることで、ジョブの整理と識別が容易になります。…",
         "date": "2026年1月28日",
         "date_iso": "2026-01-28",
         "category": "compute-tag",
@@ -257,7 +397,7 @@
       {
         "title": "AWS Network Firewall がウェブカテゴリベースのフィルタリングによる GenAI トラフィックの可視化と適用をサポート開始",
         "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/01/aws-network-firewall-web-category-based-filtering",
-        "summary": "AWS Network Firewall は、生成 AI (GenAI) アプリケーショントラフィックを可視化し、ウェブカテゴリに基づくトラフィックフィルタリングをサポートするようになりました。この新機能により、事前定義された URL カテゴリを使用して、GenAI サービス、ソーシャルメディアプラットフォーム、ストリーミングサイト、その他の Web カテゴリへのアクセスをファイアウォールル…",
+        "summary": "AWS Network Firewall は、生成 AI (GenAI) アプリケーショントラフィックを可視化し、ウェブカテゴリに基づくトラフィックフィルタリングをサポートするようになりました。この新機能により、事前定義された URL カテゴリを使用して、GenAI サービス、ソーシャルメディアプラットフォーム、ストリーミングサイト、その他の Web…",
         "date": "2026年1月28日",
         "date_iso": "2026-01-28",
         "category": "ai-tag",
@@ -325,69 +465,148 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
-      }
-    ],
-    "oci": [
-      {
-        "title": "New Region in Casablanca, Morocco",
-        "link": "https://docs.oracle.com/iaas/releasenotes/oci/new-region-casablanca-1.htm",
-        "summary": "The Morocco West (Casablanca) region is now available. The region identifier is af-casablanca-1. The region key is LEJ.",
-        "date": "2026年2月20日",
-        "date_iso": "2026-02-20",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
       },
       {
-        "title": "Virtual Cloud Network (VCN) PrivateIP Enhancements",
-        "link": "https://docs.oracle.com/iaas/releasenotes/network/bulk-ip.htm",
-        "summary": "Oracle Cloud Infrastructure virtual networking now supports the creation, updating, deletion, and detachment of up to 16 private IPs in a single API call for improved efficiency.",
-        "date": "2026年2月19日",
-        "date_iso": "2026-02-19",
+        "title": "February 17, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#February_17_2026",
+        "summary": "AlloyDB for PostgreSQL Feature AlloyDB performance snapshot and reports now support read pool instance nodes, providing deeper observability into read operations and replica-specific performance…",
+        "date": "2026年2月17日",
+        "date_iso": "2026-02-17",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "GCP"
+      },
+      {
+        "title": "February 16, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#February_16_2026",
+        "summary": "Cloud Composer Change New Airflow builds are available in Cloud Composer 3: composer-3-airflow-3.1.0-build.9 composer-3-airflow-2.10.5-build.26 (default) composer-3-airflow-2.9.3-build.46 Change New…",
+        "date": "2026年2月16日",
+        "date_iso": "2026-02-16",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
+        "title": "February 15, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#February_15_2026",
+        "summary": "Carbon Footprint Feature Methodology update : Starting with January 2026 data, we have updated our calculation model to align with the comprehensive AI energy/emissions framework detailed in…",
+        "date": "2026年2月15日",
+        "date_iso": "2026-02-15",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
+        "title": "February 14, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#February_14_2026",
+        "summary": "Google SecOps SIEM Announcement Release 6.3.75 is now available for all regions. Google SecOps SOAR Announcement Release 6.3.75 is now available for all regions.",
+        "date": "2026年2月14日",
+        "date_iso": "2026-02-14",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
+        "title": "February 13, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#February_13_2026",
+        "summary": "Apigee UI Change Updated the route for Operations Anomalies from apigee/analytics/operations-anomalies to apigee/aapi-ops/operations-anomalies . Announcement On February 13, 2026, we released an…",
+        "date": "2026年2月13日",
+        "date_iso": "2026-02-13",
         "category": "network-tag",
         "cat_label": "ネットワーク",
-        "tag": "OCI"
+        "tag": "GCP"
       },
       {
-        "title": "HeatWave: Near-Zero Downtime Maintenance",
-        "link": "https://docs.oracle.com/iaas/releasenotes/mysql-database/TC-40089-near-zero-downtime-maintenance.htm",
-        "summary": "HeatWave now supports near-zero downtime maintenance, which minimizes disruptions during system updates.",
-        "date": "2026年2月18日",
-        "date_iso": "2026-02-18",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "OCI"
+        "title": "February 12, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#February_12_2026",
+        "summary": "App Engine standard environment Go Feature Support for deploying your existing apps in the standard environment to Cloud Run using the gcloud beta app migrate-to-run command is in Preview . For more…",
+        "date": "2026年2月12日",
+        "date_iso": "2026-02-12",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "GCP"
       },
       {
-        "title": "ZPR Supports Traffic Between Peered VCNs",
-        "link": "https://docs.oracle.com/iaas/releasenotes/multiple/zpr-cross-vcn-npa.htm",
-        "summary": "Zero Trust Packet Routing (ZPR) policy syntax has been expanded to support secure communication across VCNs in the same tenancy.",
-        "date": "2026年2月18日",
-        "date_iso": "2026-02-18",
+        "title": "February 11, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#February_11_2026",
+        "summary": "BigQuery Feature You can now run pipelines with three distinct execution methods: running all tasks, running selected tasks, and running tasks with selected tags. For more information, see Run a…",
+        "date": "2026年2月11日",
+        "date_iso": "2026-02-11",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "GCP"
+      },
+      {
+        "title": "February 10, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#February_10_2026",
+        "summary": "Anthos Attached Clusters Announcement You can now launch clusters with the following Kubernetes versions. Click on the following links to see the release notes associated with these patches:…",
+        "date": "2026年2月10日",
+        "date_iso": "2026-02-10",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "GCP"
+      },
+      {
+        "title": "February 09, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#February_09_2026",
+        "summary": "AlloyDB for PostgreSQL Fixed We are announcing the release of support for the AlloyDB language connectors and Auth Proxy with Auto IAM Authentication and managed connection pooling. This feature and…",
+        "date": "2026年2月9日",
+        "date_iso": "2026-02-09",
         "category": "security-tag",
         "cat_label": "セキュリティ",
-        "tag": "OCI"
+        "tag": "GCP"
       },
       {
-        "title": "HeatWave: Maintenance-Disabled Window",
-        "link": "https://docs.oracle.com/iaas/releasenotes/mysql-database/TC-39549-maintenance-disabled-window.htm",
-        "summary": "You can now enable a maintenance-disabled window during which any non-critical maintenance that imposes downtime is not performed.",
-        "date": "2026年2月17日",
-        "date_iso": "2026-02-17",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "OCI"
+        "title": "February 08, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#February_08_2026",
+        "summary": "Google SecOps SIEM Announcement Release 6.3.75 is being rolled out to the first phase of regions as listed here . This release contains internal and customer bug fixes. Google SecOps SOAR…",
+        "date": "2026年2月8日",
+        "date_iso": "2026-02-08",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
       },
       {
-        "title": "Oracle Data Safe Redwood Implementation",
-        "link": "https://docs.oracle.com/iaas/releasenotes/data-safe/redwood.htm",
-        "summary": "Oracle Data Safe now uses the OCI Redwood UI template. In addition to appearing differently, some functionality of Oracle Data Safe has been updated.",
-        "date": "2026年2月17日",
-        "date_iso": "2026-02-17",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "OCI"
+        "title": "February 07, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#February_07_2026",
+        "summary": "Google SecOps SIEM Announcement Release 6.3.74 is now available for all regions. Google SecOps SOAR Announcement Release 6.3.74 is now available for all regions.",
+        "date": "2026年2月7日",
+        "date_iso": "2026-02-07",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
+        "title": "February 06, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#February_06_2026",
+        "summary": "Apigee X Announcement On February 6th, 2026, we released an updated version of Apigee. Note: Rollouts of this release began today and may take four or more business days to be completed across all…",
+        "date": "2026年2月6日",
+        "date_iso": "2026-02-06",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "GCP"
+      },
+      {
+        "title": "February 05, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#February_05_2026",
+        "summary": "Access Approval Feature Google Cloud Managed Lustre is generally available (GA) . Access Transparency Feature Google Cloud Managed Lustre is generally available (GA) . AlloyDB for PostgreSQL Feature…",
+        "date": "2026年2月5日",
+        "date_iso": "2026-02-05",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
+        "title": "February 04, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#February_04_2026",
+        "summary": "BigQuery Change Data transfers from the YouTube Channel and YouTube Content Owner data sources now support reach reports. For more information, see YouTube Channel report transformation and YouTube…",
+        "date": "2026年2月4日",
+        "date_iso": "2026-02-04",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "GCP"
       }
-    ]
+    ],
+    "oci": []
   }
 }
