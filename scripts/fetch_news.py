@@ -219,7 +219,8 @@ def fetch_oci_from_web() -> list[dict]:
             continue
 
         # ブロック内から Release Date を抽出
-        date_match = re.search(r'Release Date[:\s]+([A-Za-z]+ \d+, \d{4})', block)
+        # HTML構造: <span class="vl-relnotedate">February 20, 2026</span>
+        date_match = re.search(r'vl-relnotedate">([A-Za-z]+ \d+, \d{4})', block)
         if not date_match:
             continue
         try:

@@ -1,5 +1,5 @@
-{
-  "updated": "2026年02月24日 20:06 JST",
+﻿{
+  "updated": "2026年02月24日 20:15 JST",
   "clouds": {
     "azure": [
       {
@@ -607,6 +607,207 @@
         "tag": "GCP"
       }
     ],
-    "oci": []
+    "oci": [
+      {
+        "title": "New Region in Casablanca, Morroco",
+        "link": "https://docs.oracle.com/iaas/releasenotes/oci/new-region-casablanca-1.htm",
+        "summary": "The Morocco West (Casablanca) region is now available. The region identifier is af-casablanca-1 . The region key is LEJ. ...",
+        "date": "2026年2月20日",
+        "date_iso": "2026-02-20",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "HeatWave: Near-Zero Downtime Maintenance",
+        "link": "https://docs.oracle.com/iaas/releasenotes/mysql-database/TC-40089-near-zero-downtime-maintenance.htm",
+        "summary": "HeatWave now supports near-zero downtime maintenance, which minimizes disruptions during system updates. For more information, see Maintenance of a ...",
+        "date": "2026年2月18日",
+        "date_iso": "2026-02-18",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "ZPR Supports Traffic Between Peered VCNs",
+        "link": "https://docs.oracle.com/iaas/releasenotes/multiple/zpr-cross-vcn-npa.htm",
+        "summary": "Zero Trust Packet Routing (ZPR) policy syntax has been expanded to support secure communication across VCNs in the same ...",
+        "date": "2026年2月18日",
+        "date_iso": "2026-02-18",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
+        "tag": "OCI"
+      },
+      {
+        "title": "HeatWave: Maintenance-Disabled Window",
+        "link": "https://docs.oracle.com/iaas/releasenotes/mysql-database/TC-39549-maintenance-disabled-window.htm",
+        "summary": "You can now enable a maintenance-disabled window during which any non-critical maintenance that imposes downtime is not performed. For ...",
+        "date": "2026年2月17日",
+        "date_iso": "2026-02-17",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Oracle Data Safe Redwood Implementation",
+        "link": "https://docs.oracle.com/iaas/releasenotes/data-safe/redwood.htm",
+        "summary": "Oracle Data Safe now uses the OCI Redwood UI template. In addition to appearing differently, some functionality of Oracle ...",
+        "date": "2026年2月17日",
+        "date_iso": "2026-02-17",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "OCI"
+      },
+      {
+        "title": "Discover and Monitor Oracle Cloud Exadata Infrastructure",
+        "link": "https://docs.oracle.com/iaas/releasenotes/database-management/cloud-exadata-infrastructure.htm",
+        "summary": "You can now discover and monitor Exadata storage servers for the following Oracle Database cloud solutions:",
+        "date": "2026年2月17日",
+        "date_iso": "2026-02-17",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "OCI"
+      },
+      {
+        "title": "Use DB_NOTIFICATIONS view to see information on maintenance status notifications",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-dedicated/adbd-db-notifications.htm",
+        "summary": "On Oracle Public Cloud deployments, you can use DB_NOTIFICATIONS view to see information on maintenance status notifications.",
+        "date": "2026年2月17日",
+        "date_iso": "2026-02-17",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "DBMS_DCAT Package Support",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-dedicated/adbd-dbms-dcat.htm",
+        "summary": "With Oracle Autonomous AI Database on Dedicated Exadata Infrastructure deployments, you can use functions and procedures in the DBMS_DCAT ...",
+        "date": "2026年2月17日",
+        "date_iso": "2026-02-17",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "OCI"
+      },
+      {
+        "title": "Ability to choose Autonomous Recovery Service as the backup destination in Oracle Database@AWS",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-dedicated/adbd-ars-aws.htm",
+        "summary": "In Autonomous AI Database on Oracle Database@AWS, you can choose Autonomous Recovery Service as the backup destination while creating ...",
+        "date": "2026年2月17日",
+        "date_iso": "2026-02-17",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "OCI"
+      },
+      {
+        "title": "Translate text using Select AI",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-dedicated/adbd-selectai-translate.htm",
+        "summary": "The Translate feature of Select AI on Autonomous AI Database on Dedicated Exadata Infrastructure enables you to translate your ...",
+        "date": "2026年2月17日",
+        "date_iso": "2026-02-17",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Summarize text with Select AI",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-dedicated/adbd-selectai-summarize.htm",
+        "summary": "Select AI on Autonomous AI Database on Dedicated Exadata Infrastructure enables you to generate a summary of your text ...",
+        "date": "2026年2月17日",
+        "date_iso": "2026-02-17",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Interact with metadata to improve Select AI SQL query generation",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-dedicated/adbd-selectai-sqlquerygen.htm",
+        "summary": "",
+        "date": "2026年2月17日",
+        "date_iso": "2026-02-17",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Multifactor Authentication in Autonomous AI Database",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-02-multifactor-authentication.htm",
+        "summary": "",
+        "date": "2026年2月17日",
+        "date_iso": "2026-02-17",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Oracle GoldenGate 26ai is now available",
+        "link": "https://docs.oracle.com/iaas/releasenotes/goldengate/ogg26ai.htm",
+        "summary": "Oracle GoldenGate 26ai for Oracle Database is now available. Create or upgrade your deployment today.",
+        "date": "2026年2月13日",
+        "date_iso": "2026-02-13",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Updates to cross-region secret replication permissions",
+        "link": "https://docs.oracle.com/iaas/releasenotes/secret-management/secret-replication-permissions.htm",
+        "summary": "The permission requirements for cross-region secret replication in the Secret Management Service have been simplified as follows:",
+        "date": "2026年2月13日",
+        "date_iso": "2026-02-13",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Log Analytics: LoganAI for help in administration\n        activities",
+        "link": "https://docs.oracle.com/iaas/releasenotes/log-analytics/feb26-loganai-parser-efd.htm",
+        "summary": "You can now use LoganAI to perform the following two administrative functions in Log Analytics:",
+        "date": "2026年2月12日",
+        "date_iso": "2026-02-12",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Log Analytics: Threat Intelligence indicators for\n        threats detected in logs",
+        "link": "https://docs.oracle.com/iaas/releasenotes/log-analytics/feb26-ti-indicators.htm",
+        "summary": "Log Analytics now displays Threat Intelligence information through indicators such as Type, Overall confidence, Last reported, First reported, Most recently ...",
+        "date": "2026年2月12日",
+        "date_iso": "2026-02-12",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "OCI"
+      },
+      {
+        "title": "Resource Analytics - February 2026",
+        "link": "https://docs.oracle.com/iaas/releasenotes/resource-analytics/resource-analytics-v2-0.htm",
+        "summary": "",
+        "date": "2026年2月12日",
+        "date_iso": "2026-02-12",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "HeatWave: Flexible Configuration",
+        "link": "https://docs.oracle.com/iaas/releasenotes/mysql-database/TC-39969-flexible-config.htm",
+        "summary": "HeatWave now provides you with the flexibility to edit more user variables when you create or copy a configuration. ...",
+        "date": "2026年2月11日",
+        "date_iso": "2026-02-11",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "OCI"
+      },
+      {
+        "title": "New API Endpoint Added for Vulnerability Audit and Updated Existing API",
+        "link": "https://docs.oracle.com/iaas/releasenotes/changes/ba68a77e-99b4-46ef-99b6-a7dedf2a01a4/vulauditapi.htm",
+        "summary": "New ListVulnerabilities endpoint is added to get vulnerability details for affected and related vulnerabilities of a vulnerability audit. The ...",
+        "date": "2026年2月10日",
+        "date_iso": "2026-02-10",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      }
+    ]
   }
 }
