@@ -15,6 +15,14 @@ const TAG_CONFIG = {
   'compute-tag':   { icon: '⚡', label: 'コンピューティング' },
 };
 
+// 各クラウドのメタ情報（公式SVGアイコン）
+const CLOUD_META = {
+  azure: { name: 'Azure', colorClass: 'azure', icon: 'https://cdn.simpleicons.org/microsoftazure/4da6ff' },
+  aws:   { name: 'AWS',   colorClass: 'aws',   icon: 'https://cdn.simpleicons.org/amazonaws/ffaa33' },
+  gcp:   { name: 'GCP',   colorClass: 'gcp',   icon: 'https://cdn.simpleicons.org/googlecloud/4ade80' },
+  oci:   { name: 'OCI',   colorClass: 'oci',   icon: 'https://cdn.simpleicons.org/oracle/f87171' },
+};
+
 /** HTML エスケープ */
 function escHtml(str) {
   if (!str) return '';
@@ -95,6 +103,35 @@ function buildFilterBar(filterId, items, gridId) {
   });
 }
 
+/** 最新情報ハイライトセクションを描画する */
+function renderLatestSummary(data) {
+  const grid = document.getElementById('latest-updates-grid');
+  if (!grid) return;
+
+  const cards = Object.entries(CLOUD_META).map(([cloudId, meta]) => {
+    const rawItems = (data.clouds && data.clouds[cloudId]) ? [...data.clouds[cloudId]] : [];
+    if (rawItems.length === 0) return '';
+
+    // 最新一件を取得
+    const sorted = rawItems.sort((a, b) => (b.date_iso || '').localeCompare(a.date_iso || ''));
+    const latest = sorted[0];
+    const cfg = TAG_CONFIG[latest.category] || { icon: '☁️', label: latest.cat_label || '' };
+
+    return `
+      <div class="latest-card latest-${meta.colorClass}">
+        <div class="latest-cloud-badge">
+          <img src="${meta.icon}" alt="${meta.name}" class="latest-cloud-icon" />
+          <span class="latest-cloud-name">${meta.name}</span>
+        </div>
+        <div class="latest-cat">${cfg.icon} ${cfg.label}</div>
+        <a href="${escHtml(latest.link)}" target="_blank" rel="noopener noreferrer" class="latest-title">${escHtml(latest.title)}</a>
+        <div class="latest-date">${escHtml(latest.date)}</div>
+      </div>`;
+  });
+
+  grid.innerHTML = cards.join('');
+}
+
 /** メイン: JSON 読み込み → ソート → フィルターバー → カード描画 */
 async function loadNews() {
   const CLOUD_IDS = ['azure', 'aws', 'gcp', 'oci'];
@@ -109,6 +146,13 @@ async function loadNews() {
     if (updateEl && data.updated) {
       updateEl.textContent = `最終更新: ${data.updated}`;
     }
+    const latestSub = document.getElementById('latest-updated-at');
+    if (latestSub && data.updated) {
+      latestSub.textContent = `データ更新: ${data.updated}`;
+    }
+
+    // 最新情報ハイライトセクション
+    renderLatestSummary(data);
 
     for (const cloudId of CLOUD_IDS) {
       const grid = document.getElementById(`${cloudId}-grid`);
