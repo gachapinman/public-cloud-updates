@@ -103,43 +103,43 @@ function buildFilterBar(filterId, items, gridId) {
   });
 }
 
-/** 最新情報ハイライトセクションを描画する（全クラウド横断 上位3件）*/
+/** 最新情報ハイライトセクションを描画する（全クラウド横断 1枠6件リスト）*/
 function renderLatestSummary(data) {
   const grid = document.getElementById('latest-updates-grid');
   if (!grid) return;
 
-  // 全クラウドのアイテムをフラットにまとめ、日付降順で上位3件を取得
+  // 全クラウドのアイテムをフラットにまとめ、日付降順で上位6件を取得
   const allItems = [];
   Object.entries(CLOUD_META).forEach(([cloudId, meta]) => {
     const rawItems = (data.clouds && data.clouds[cloudId]) ? data.clouds[cloudId] : [];
     rawItems.forEach(item => allItems.push({ ...item, _cloudId: cloudId, _meta: meta }));
   });
 
-  const top3 = allItems
+  const top6 = allItems
     .sort((a, b) => (b.date_iso || '').localeCompare(a.date_iso || ''))
-    .slice(0, 3);
+    .slice(0, 6);
 
-  if (top3.length === 0) {
+  if (top6.length === 0) {
     grid.innerHTML = '<p class="grid-loading">データがありません</p>';
     return;
   }
 
-  const cards = top3.map(item => {
+  const rows = top6.map(item => {
     const meta = item._meta;
     const cfg = TAG_CONFIG[item.category] || { icon: '☁️', label: item.cat_label || '' };
     return `
-      <div class="latest-card latest-${meta.colorClass}">
-        <div class="latest-cloud-badge">
-          <img src="${meta.icon}" alt="${meta.name}" class="latest-cloud-icon" />
-          <span class="latest-cloud-name">${meta.name}</span>
+      <div class="latest-row latest-row-${meta.colorClass}">
+        <div class="latest-row-cloud">
+          <img src="${meta.icon}" alt="${meta.name}" class="latest-row-icon" />
+          <span class="latest-row-name">${meta.name}</span>
         </div>
-        <div class="latest-cat">${cfg.icon} ${cfg.label}</div>
-        <a href="${escHtml(item.link)}" target="_blank" rel="noopener noreferrer" class="latest-title">${escHtml(item.title)}</a>
-        <div class="latest-date">${escHtml(item.date)}</div>
+        <span class="latest-row-cat">${cfg.icon} ${cfg.label}</span>
+        <a href="${escHtml(item.link)}" target="_blank" rel="noopener noreferrer" class="latest-row-title">${escHtml(item.title)}</a>
+        <time class="latest-row-date">${escHtml(item.date)}</time>
       </div>`;
   });
 
-  grid.innerHTML = cards.join('');
+  grid.innerHTML = `<div class="latest-panel">${rows.join('')}</div>`;
 }
 
 /** メイン: JSON 読み込み → ソート → フィルターバー → カード描画 */
