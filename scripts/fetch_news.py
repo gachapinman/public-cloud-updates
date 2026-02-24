@@ -4,7 +4,7 @@ fetch_news.py
 各クラウドベンダーの公式ページ対応 RSS フィードを取得し、data/news.json を更新するスクリプト。
 
 対応ページ:
-  Azure : https://azure.microsoft.com/ja-jp/updates/
+  Azure : https://azure.microsoft.com/ja-jp/updates/  (RSS: https://www.microsoft.com/releasecommunications/api/v2/azure/rss)
   AWS   : https://aws.amazon.com/jp/new/
   GCP   : https://docs.cloud.google.com/release-notes
   OCI   : https://docs.oracle.com/en-us/iaas/releasenotes/
@@ -25,9 +25,9 @@ MAX_FETCH_ENTRIES = 100    # RSSから取得する最大エントリ数（日付
 FEEDS = {
     "azure": {
         "name": "Microsoft Azure",
-        # https://azure.microsoft.com/ja-jp/updates/ の公式フィード
-        "url": "https://azure.microsoft.com/ja-jp/updates/feed/",
-        "fallback_url": "https://azurecomcdn.azureedge.net/ja-jp/updates/feed/",
+        # https://azure.microsoft.com/ja-jp/updates/ の公式フィード（RSSボタンのリンク先）
+        "url": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+        "fallback_url": "https://azurecomcdn.azureedge.net/en-us/updates/feed/",
     },
     "aws": {
         "name": "Amazon Web Services",
