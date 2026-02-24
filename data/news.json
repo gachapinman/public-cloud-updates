@@ -1,5 +1,5 @@
 ﻿{
-    "updated":  "2026蟷ｴ02譛・24譌･ 19:32 JST",
+    "updated":  "2026年02月24日 19:32 JST",
     "clouds":  {
                    "azure":  [
                                  {
@@ -7,30 +7,30 @@
                                      "date_iso":  "2026-02-24",
                                      "tag":  "AZURE",
                                      "link":  "https://azure.microsoft.com/updates?id=557224",
-                                     "cat_label":  "繧ｳ繝ｳ繝・リ",
+                                     "cat_label":  "コンテナ",
                                      "title":  "Retirement: Windows Server Annual Channel (preview)",
                                      "summary":  "Windows Server Annual Channel (Preview) on AKS will be retired on May 15, 2026, please transition to Long Term Servicing Channel (LTSC) by that date. We encourage you to transition...",
-                                     "date":  "2026蟷ｴ2譛・(02/24/2026 03:15:17.Day)譌･"
+                                     "date":  "2026年2月24日"
                                  },
                                  {
                                      "category":  "security-tag",
                                      "date_iso":  "2026-02-24",
                                      "tag":  "AZURE",
                                      "link":  "https://azure.microsoft.com/updates?id=557416",
-                                     "cat_label":  "繧ｻ繧ｭ繝･繝ｪ繝・ぅ",
+                                     "cat_label":  "セキュリティ",
                                      "title":  "Public Preview: WAF Insights for Application Gateway",
                                      "summary":  "Announcing the public preview of Application Gateway WAF Insights. Azure Application Gateway WAF now offers WAF Insights, providing an interactive view of logs and metrics. WAF Ins...",
-                                     "date":  "2026蟷ｴ2譛・(02/24/2026 01:15:47.Day)譌･"
+                                     "date":  "2026年2月24日"
                                  },
                                  {
-                                     "category":  "security-tag",
+                                     "category":  "storage-tag",
                                      "date_iso":  "2026-02-21",
                                      "tag":  "AZURE",
                                      "link":  "https://azure.microsoft.com/updates?id=557623",
-                                     "cat_label":  "繧ｻ繧ｭ繝･繝ｪ繝・ぅ",
+                                     "cat_label":  "ストレージ",
                                      "title":  "Generally Available: Azure Premium SSD v2 Disk is now available in Brazil Southeast, and in a third Availability Zone in Malaysia West and Indonesia Central",
-                                     "summary":  "Azure Premium SSD v2 is now available in Brazil Southeast (a region without Availability Zone), and in a third Availability Zone in Malaysia West and Indonesia Central.Azure Premiu...",
-                                     "date":  "2026蟷ｴ2譛・(02/21/2026 04:00:04.Day)譌･"
+                                     "summary":  "Azure Premium SSD v2 is now available in Brazil Southeast (a region without Availability Zone), and in a third Availability Zone in Malaysia West and Indonesia Central.",
+                                     "date":  "2026年2月21日"
                                  },
                                  {
                                      "category":  "ai-tag",
@@ -39,28 +39,28 @@
                                      "link":  "https://azure.microsoft.com/updates?id=557595",
                                      "cat_label":  "AI / ML",
                                      "title":  "Generally Available: Anthropic Claude Sonnet 4.6 is now available on Azure Databricks",
-                                     "summary":  "Azure Databricks now supports Anthropic Claude Sonnet 4.6 through Azure Databricks AI Model Serving. Claude Sonnet 4.6 delivers frontier-level performance on complex coding, agenti...",
-                                     "date":  "2026蟷ｴ2譛・(02/19/2026 03:00:55.Day)譌･"
+                                     "summary":  "Azure Databricks now supports Anthropic Claude Sonnet 4.6 through Azure Databricks AI Model Serving. Claude Sonnet 4.6 delivers frontier-level performance on complex coding, agentic reasoning, and multimodal tasks.",
+                                     "date":  "2026年2月19日"
                                  },
                                  {
                                      "category":  "container-tag",
                                      "date_iso":  "2026-02-19",
                                      "tag":  "AZURE",
                                      "link":  "https://azure.microsoft.com/updates?id=557223",
-                                     "cat_label":  "繧ｳ繝ｳ繝・リ",
+                                     "cat_label":  "コンテナ",
                                      "title":  "Public Preview: Unified tooling in the AKS MCP server",
-                                     "summary":  "Managing AKS MCP servers can be affected by the number of tools and the amount of context required, which can increase latency and cost. The unified tooling for the AKS MCP Server...",
-                                     "date":  "2026蟷ｴ2譛・(02/19/2026 03:00:55.Day)譌･"
+                                     "summary":  "Managing AKS MCP servers can be affected by the number of tools and the amount of context required, which can increase latency and cost. The unified tooling for the AKS MCP Server reduces this overhead.",
+                                     "date":  "2026年2月19日"
                                  },
                                  {
                                      "category":  "security-tag",
                                      "date_iso":  "2026-02-19",
                                      "tag":  "AZURE",
                                      "link":  "https://azure.microsoft.com/updates?id=557218",
-                                     "cat_label":  "繧ｻ繧ｭ繝･繝ｪ繝・ぅ",
+                                     "cat_label":  "コンテナ",
                                      "title":  "Public Preview: Cluster mode for the agentic CLI for AKS",
-                                     "summary":  "Users often face security and manageability challenges when diagnostic agents inherit broad user permissions, such as cluster-admin rights, and when each user must deploy their own...",
-                                     "date":  "2026蟷ｴ2譛・(02/19/2026 03:00:55.Day)譌･"
+                                     "summary":  "Users often face security and manageability challenges when diagnostic agents inherit broad user permissions, such as cluster-admin rights, and when each user must deploy their own agent.",
+                                     "date":  "2026年2月19日"
                                  }
                              ],
                    "aws":  [
