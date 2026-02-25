@@ -1,5 +1,5 @@
 {
-  "updated": "2026年02月25日 09:40 JST",
+  "updated": "2026年02月25日 10:53 JST",
   "clouds": {
     "azure": [
       {
@@ -409,7 +409,7 @@
       {
         "title": "February 24, 2026",
         "link": "https://docs.cloud.google.com/release-notes#February_24_2026",
-        "summary": "BigQuery Feature You can now create and review custom glossary terms in BigQuery for a conversational analytics agent and you can review business glossary terms imported from Dataplex Universal…",
+        "summary": "Apigee X Announcement On February 24th, 2026, we released an updated version of Apigee (1-17-0-apigee-3). Note: Rollouts of this release began today and may take four or more business days to be…",
         "date": "2026年2月24日",
         "date_iso": "2026-02-24",
         "category": "compute-tag",
