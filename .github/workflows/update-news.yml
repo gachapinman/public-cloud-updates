@@ -2,10 +2,22 @@ name: Daily Cloud News Update
 
 on:
   schedule:
-    # 毎日 JST 9:00 (UTC 0:00) に実行
-    - cron: '0 0 * * *'
+    # GitHub Actions の cron は遅延・スキップが発生するため複数時刻で冗長化
+    - cron: '0 0 * * *'    # UTC 0:00 = JST 9:00（メイン）
+    - cron: '0 3 * * *'    # UTC 3:00 = JST 12:00（バックアップ1）
+    - cron: '0 9 * * *'    # UTC 9:00 = JST 18:00（バックアップ2）
   # 手動実行も可能
   workflow_dispatch:
+    inputs:
+      force:
+        description: '当日更新済みでも強制実行する'
+        type: boolean
+        default: false
+
+# 同時実行を防止（バックアップ cron が重複した場合のガード）
+concurrency:
+  group: daily-news-update
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -18,19 +30,57 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Check if already updated today
+        id: check
+        run: |
+          TODAY=$(TZ=Asia/Tokyo date +'%Y-%m-%d')
+          echo "today=$TODAY" >> "$GITHUB_OUTPUT"
+
+          # news.json の date_iso で最新日付を確認
+          if [ -f data/news.json ]; then
+            LAST_UPDATED=$(python3 -c "
+          import json, re
+          with open('data/news.json') as f:
+              data = json.load(f)
+          updated = data.get('updated', '')
+          # 'YYYY年MM月DD日' 形式から日付を抽出
+          m = re.search(r'(\d{4})年(\d{2})月(\d{2})日', updated)
+          if m:
+              print(f'{m.group(1)}-{m.group(2)}-{m.group(3)}')
+          else:
+              print('unknown')
+          " 2>/dev/null || echo "unknown")
+            echo "last_updated=$LAST_UPDATED" >> "$GITHUB_OUTPUT"
+
+            if [ "$LAST_UPDATED" = "$TODAY" ]; then
+              echo "skip=true" >> "$GITHUB_OUTPUT"
+              echo "✓ 本日 ($TODAY) は既に更新済みです (最終更新: $LAST_UPDATED)"
+            else
+              echo "skip=false" >> "$GITHUB_OUTPUT"
+              echo "→ 更新が必要です (本日: $TODAY, 最終更新: $LAST_UPDATED)"
+            fi
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+            echo "→ news.json が存在しません。新規作成します。"
+          fi
+
       - name: Set up Python
+        if: steps.check.outputs.skip != 'true' || github.event.inputs.force == 'true'
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
       - name: Install dependencies
+        if: steps.check.outputs.skip != 'true' || github.event.inputs.force == 'true'
         run: |
           pip install feedparser requests lxml
 
       - name: Fetch latest cloud news
+        if: steps.check.outputs.skip != 'true' || github.event.inputs.force == 'true'
         run: python scripts/fetch_news.py
 
       - name: Commit and push if changed
+        if: steps.check.outputs.skip != 'true' || github.event.inputs.force == 'true'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -38,6 +88,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "chore: update cloud news $(date +'%Y-%m-%d')"
+            git commit -m "chore: update cloud news $(date -u +'%Y-%m-%d')"
             git push
           fi
