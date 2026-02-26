@@ -2,10 +2,10 @@ name: Daily Cloud News Update
 
 on:
   schedule:
-    # GitHub Actions の cron は遅延・スキップが発生するため複数時刻で冗長化
-    - cron: '0 0 * * *'    # UTC 0:00 = JST 9:00（メイン）
-    - cron: '0 3 * * *'    # UTC 3:00 = JST 12:00（バックアップ1）
-    - cron: '0 9 * * *'    # UTC 9:00 = JST 18:00（バックアップ2）
+    # GitHub Actions の cron は毎時0分が混雑しドロップされやすいため、分をずらして冗長化
+    - cron: '17 0 * * *'   # UTC 0:17 = JST 9:17（メイン）
+    - cron: '37 3 * * *'   # UTC 3:37 = JST 12:37（バックアップ1）
+    - cron: '47 9 * * *'   # UTC 9:47 = JST 18:47（バックアップ2）
   # 手動実行も可能
   workflow_dispatch:
 
