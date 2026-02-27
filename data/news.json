@@ -1,5 +1,5 @@
 {
-  "updated": "2026年02月27日 14:03 JST",
+  "updated": "2026年02月27日 19:22 JST",
   "clouds": {
     "azure": [
       {
@@ -639,16 +639,6 @@
         "tag": "OCI"
       },
       {
-        "title": "Unified Database Security Monitoring",
-        "link": "https://docs.oracle.com/iaas/releasenotes/database-management/users-new.htm",
-        "summary": "",
-        "date": "2026年2月24日",
-        "date_iso": "2026-02-24",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "OCI"
-      },
-      {
         "title": "HeatWave: DB System and Replication Channel Status",
         "link": "https://docs.oracle.com/iaas/releasenotes/mysql-database/TC-39968-dbsystem-status.htm",
         "summary": "",
@@ -656,6 +646,16 @@
         "date_iso": "2026-02-24",
         "category": "database-tag",
         "cat_label": "データベース",
+        "tag": "OCI"
+      },
+      {
+        "title": "Unified Database Security Monitoring",
+        "link": "https://docs.oracle.com/iaas/releasenotes/database-management/users-new.htm",
+        "summary": "",
+        "date": "2026年2月24日",
+        "date_iso": "2026-02-24",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
         "tag": "OCI"
       },
       {
@@ -699,6 +699,16 @@
         "tag": "OCI"
       },
       {
+        "title": "HeatWave: Maintenance-Disabled Window",
+        "link": "https://docs.oracle.com/iaas/releasenotes/mysql-database/TC-39549-maintenance-disabled-window.htm",
+        "summary": "",
+        "date": "2026年2月17日",
+        "date_iso": "2026-02-17",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
         "title": "Oracle Data Safe Redwood Implementation",
         "link": "https://docs.oracle.com/iaas/releasenotes/data-safe/redwood.htm",
         "summary": "",
@@ -716,16 +726,6 @@
         "date_iso": "2026-02-17",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "HeatWave: Maintenance-Disabled Window",
-        "link": "https://docs.oracle.com/iaas/releasenotes/mysql-database/TC-39549-maintenance-disabled-window.htm",
-        "summary": "",
-        "date": "2026年2月17日",
-        "date_iso": "2026-02-17",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "OCI"
       },
       {
