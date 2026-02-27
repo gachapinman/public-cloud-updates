@@ -1,7 +1,17 @@
 {
-  "updated": "2026年02月26日 10:19 JST",
+  "updated": "2026年02月27日 12:09 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Public Preview: Restrict usage of user delegation SAS to an Entra ID identity",
+        "link": "https://azure.microsoft.com/updates?id=557694",
+        "summary": "We’re excited to announce the addition of enhanced secure authentication in Azure Storage that combines the flexibility of user-delegation shared access signature (SAS) with the user-bound access of…",
+        "date": "2026年2月27日",
+        "date_iso": "2026-02-27",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AZURE"
+      },
       {
         "title": "Public Preview: Secure ingestion and pod placement for Azure Monitor pipeline",
         "link": "https://azure.microsoft.com/updates?id=552808",
@@ -190,16 +200,6 @@
         "date_iso": "2026-02-11",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Azure Databricks Supervisor Agent",
-        "link": "https://azure.microsoft.com/updates?id=557081",
-        "summary": "Introducing Supervisor Agent, now Generally Available in Azure Databricks. Supervisor Agent is part of the Azure Databricks Agent Bricks Platform. Supervisor Agent brings a breakthrough in agentic…",
-        "date": "2026年2月11日",
-        "date_iso": "2026-02-11",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "AZURE"
       }
     ],
@@ -407,13 +407,23 @@
     ],
     "gcp": [
       {
+        "title": "February 26, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#February_26_2026",
+        "summary": "Cloud Trace Feature For organizations, folders, and projects, you can now configure default settings for observability buckets. Default settings let you specify the following for new observability…",
+        "date": "2026年2月26日",
+        "date_iso": "2026-02-26",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
+        "tag": "GCP"
+      },
+      {
         "title": "February 25, 2026",
         "link": "https://docs.cloud.google.com/release-notes#February_25_2026",
-        "summary": "Cloud NGFW Feature You can use network contexts to meet your security goals by using fewer firewall policy rules more efficiently. For more information, see Network contexts . This feature is…",
+        "summary": "Access Approval Feature Vertex AI Agent Engine is generally available (GA) . BigQuery Change Effective June 1, 2026 , BigQuery will limit legacy SQL use. This depends on whether your organization or…",
         "date": "2026年2月25日",
         "date_iso": "2026-02-25",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "GCP"
       },
       {
@@ -549,11 +559,11 @@
       {
         "title": "February 11, 2026",
         "link": "https://docs.cloud.google.com/release-notes#February_11_2026",
-        "summary": "Buildpacks Feature Support for osonly24 runtime is in General Availability . The OS only runtime lets you deploy binaries such as Dart and Go. For more information, see Configure the OS only runtime…",
+        "summary": "BigQuery Feature You can now run pipelines with three distinct execution methods: running all tasks, running selected tasks, and running tasks with selected tags. For more information, see Run a…",
         "date": "2026年2月11日",
         "date_iso": "2026-02-11",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "GCP"
       },
       {
@@ -595,19 +605,19 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
-      },
-      {
-        "title": "February 06, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#February_06_2026",
-        "summary": "Apigee X Announcement On February 6th, 2026, we released an updated version of Apigee. Note: Rollouts of this release began today and may take four or more business days to be completed across all…",
-        "date": "2026年2月6日",
-        "date_iso": "2026-02-06",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "GCP"
       }
     ],
     "oci": [
+      {
+        "title": "Add AI Guardrails to OCI Generative AI Dedicated AI Cluster Endpoints",
+        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/ai-guardrails-dedicated-endpoints.htm",
+        "summary": "",
+        "date": "2026年2月26日",
+        "date_iso": "2026-02-26",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
       {
         "title": "Kubernetes Engine support for enabling instant failover for network load balancers",
         "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-NLB-instant-failover-release-note.htm",
@@ -646,6 +656,16 @@
         "date_iso": "2026-02-24",
         "category": "database-tag",
         "cat_label": "データベース",
+        "tag": "OCI"
+      },
+      {
+        "title": "Data Transforms Enhancements",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-02-datatransforms-enhancements.htm",
+        "summary": "",
+        "date": "2026年2月24日",
+        "date_iso": "2026-02-24",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "OCI"
       },
       {
@@ -784,26 +804,6 @@
         "summary": "",
         "date": "2026年2月13日",
         "date_iso": "2026-02-13",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Updates to cross-region secret replication permissions",
-        "link": "https://docs.oracle.com/iaas/releasenotes/secret-management/secret-replication-permissions.htm",
-        "summary": "",
-        "date": "2026年2月13日",
-        "date_iso": "2026-02-13",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Log Analytics: LoganAI for help in administration activities",
-        "link": "https://docs.oracle.com/iaas/releasenotes/log-analytics/feb26-loganai-parser-efd.htm",
-        "summary": "",
-        "date": "2026年2月12日",
-        "date_iso": "2026-02-12",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "OCI"
