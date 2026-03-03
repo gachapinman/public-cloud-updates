@@ -1,7 +1,37 @@
 {
-  "updated": "2026年03月02日 19:30 JST",
+  "updated": "2026年03月03日 12:14 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Generally Available: Draft & Deploy on Azure Firewall",
+        "link": "https://azure.microsoft.com/updates?id=558072",
+        "summary": "The new Draft & Deploy feature for Azure Firewall Policy introduces a streamlined, two-phase approach to managing firewall policies, significantly reducing deployment time and disruption.…",
+        "date": "2026年3月3日",
+        "date_iso": "2026-03-03",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Azure Databricks update workspace network configuration",
+        "link": "https://azure.microsoft.com/updates?id=558060",
+        "summary": "Azure Databricks workspaces have two network configurations – Azure Databricks-managed VNet and VNet Injection. The ability to update the Network Configuration of your workspace is now generally…",
+        "date": "2026年3月3日",
+        "date_iso": "2026-03-03",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Azure Databricks Lakebase",
+        "link": "https://azure.microsoft.com/updates?id=557991",
+        "summary": "Today we’re announcing the General Availability of Azure Databricks Lakebase, a managed PostgreSQL environment with next generation separation of storage and compute for OLTP, providing instant…",
+        "date": "2026年3月3日",
+        "date_iso": "2026-03-03",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Generally available: Azure Premium SSD v2 Disk Storage is now available in a third Availability Zone in New…",
         "link": "https://azure.microsoft.com/updates?id=558078",
@@ -166,36 +196,6 @@
         "title": "Generally Available: Azure Functions .NET 10 support",
         "link": "https://azure.microsoft.com/updates?id=556003",
         "summary": "Azure Functions support for .NET 10 is generally available, enabling production use of the latest .NET runtime for serverless applications. This support was introduced as part of the Azure Functions…",
-        "date": "2026年2月19日",
-        "date_iso": "2026-02-19",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Node auto-provisioning support in Sovereign Cloud",
-        "link": "https://azure.microsoft.com/updates?id=557208",
-        "summary": "Node auto‑provisioning removes the need for teams to manually size and manage compute resources for Kubernetes workloads. Azure Kubernetes Service (AKS) now provides general availability support for…",
-        "date": "2026年2月19日",
-        "date_iso": "2026-02-19",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Node auto-provisioning enabled clusters in AKS now support LocalDNS",
-        "link": "https://azure.microsoft.com/updates?id=557203",
-        "summary": "Customers previously could not enable LocalDNS on clusters that used Node auto‑provisioning in AKS, limiting their ability to use this feature in those environments. LocalDNS is now generally…",
-        "date": "2026年2月19日",
-        "date_iso": "2026-02-19",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Encryption at host & disk encryption sets support in node auto-provisioning",
-        "link": "https://azure.microsoft.com/updates?id=557213",
-        "summary": "Node auto-provisioning enabled clusters previously did not have support for Encryption at Host and disk encryption sets. This limited users with certain security requirements for their cluster to not…",
         "date": "2026年2月19日",
         "date_iso": "2026-02-19",
         "category": "ai-tag",
@@ -407,9 +407,39 @@
     ],
     "gcp": [
       {
+        "title": "March 02, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#March_02_2026",
+        "summary": "AI Hypercomputer Feature Generally available : You can apply compact placement policies to standalone Flex-start VMs. These policies let you colocate your standalone Flex-start VMs in adjacent blocks…",
+        "date": "2026年3月2日",
+        "date_iso": "2026-03-02",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
+        "title": "March 01, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#March_01_2026",
+        "summary": "Google SecOps SIEM Announcement Release 6.3.78 is being rolled out to the first phase of regions as listed here . This release contains internal and customer bug fixes. Google SecOps SOAR…",
+        "date": "2026年3月1日",
+        "date_iso": "2026-03-01",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
+        "title": "February 28, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#February_28_2026",
+        "summary": "Google SecOps SIEM Announcement Release 6.3.77 is now available for all regions. Google SecOps SOAR Announcement Release 6.3.77 is now available for all regions.",
+        "date": "2026年2月28日",
+        "date_iso": "2026-02-28",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "February 27, 2026",
         "link": "https://docs.cloud.google.com/release-notes#February_27_2026",
-        "summary": "Cortex Framework Fixed Airflow v3 support : All Composer DAGs generated by new deployments are now compatible with Airflow v3. Airflow v2 is still supported. However, consider planning for migration…",
+        "summary": "App Engine flexible environment PHP Feature Support for the PHP 8.5 runtime is in General Availability . App Engine standard environment PHP Feature Support for the PHP 8.5 runtime is in General…",
         "date": "2026年2月27日",
         "date_iso": "2026-02-27",
         "category": "ai-tag",
@@ -479,7 +509,7 @@
       {
         "title": "February 20, 2026",
         "link": "https://docs.cloud.google.com/release-notes#February_20_2026",
-        "summary": "Confidential Space Announcement A new Confidential Space image (260100) is available. Container Optimized OS Change cos-beta-129-19506-0-17 Kernel Docker Containerd GPU Drivers COS-6.12.67 v27.5.1…",
+        "summary": "Cloud Composer Deprecated The following Cloud Composer versions and builds have reached their end of support period : composer-3-airflow-2.9.3-build.16 and composer-2.11.3-*. Change The…",
         "date": "2026年2月20日",
         "date_iso": "2026-02-20",
         "category": "ai-tag",
@@ -574,36 +604,6 @@
         "date_iso": "2026-02-11",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "GCP"
-      },
-      {
-        "title": "February 10, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#February_10_2026",
-        "summary": "Anthos Attached Clusters Announcement You can now launch clusters with the following Kubernetes versions. Click on the following links to see the release notes associated with these patches:…",
-        "date": "2026年2月10日",
-        "date_iso": "2026-02-10",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "GCP"
-      },
-      {
-        "title": "February 09, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#February_09_2026",
-        "summary": "AlloyDB for PostgreSQL Fixed We are announcing the release of support for the AlloyDB language connectors and Auth Proxy with Auto IAM Authentication and managed connection pooling. This feature and…",
-        "date": "2026年2月9日",
-        "date_iso": "2026-02-09",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "GCP"
-      },
-      {
-        "title": "February 08, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#February_08_2026",
-        "summary": "Google SecOps SIEM Announcement Release 6.3.75 is being rolled out to the first phase of regions as listed here . This release contains internal and customer bug fixes. Google SecOps SOAR…",
-        "date": "2026年2月8日",
-        "date_iso": "2026-02-08",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "GCP"
       }
     ],
