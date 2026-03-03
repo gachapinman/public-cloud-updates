@@ -1,5 +1,5 @@
 {
-  "updated": "2026年03月03日 14:04 JST",
+  "updated": "2026年03月03日 19:24 JST",
   "clouds": {
     "azure": [
       {
@@ -205,6 +205,156 @@
     ],
     "aws": [
       {
+        "title": "MediaConvert が動画用の新しい Probe API と UI を導入",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/aws-mediaconvert-introduces-video-probe/",
+        "summary": "",
+        "date": "2026年2月24日",
+        "date_iso": "2026-02-24",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Trusted Advisor が AWS Compute Optimizer を活用して未使用の NAT ゲートウェイのチェック精度を向上",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/trusted-advisor-unused-nat-gateway-check/",
+        "summary": "",
+        "date": "2026年2月24日",
+        "date_iso": "2026-02-24",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon がリソースとコストのデータを可視化する Amazon Q Developer の生成 AI ベースのアーティファクトを発表",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/generative-ai-based-Amazon-Q-artifacts/",
+        "summary": "",
+        "date": "2026年2月24日",
+        "date_iso": "2026-02-24",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS IAM Policy Autopilot が Kiro power として利用可能に",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/aws-iam-policy-autopilot-kiro-power/",
+        "summary": "",
+        "date": "2026年2月24日",
+        "date_iso": "2026-02-24",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Elemental メディアサービスがアジアパシフィック (マレーシア) リージョンで利用可能に",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/elemental-Malaysia/",
+        "summary": "",
+        "date": "2026年2月24日",
+        "date_iso": "2026-02-24",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Redshift Serverless に 3 年間のサーバーレス予約が導入",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-redshift-serverless-three-year-reservations/",
+        "summary": "",
+        "date": "2026年2月24日",
+        "date_iso": "2026-02-24",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon S3 Tables が AWS GovCloud (米国) リージョンで利用可能に",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-s3-tables-aws-govcloud-us/",
+        "summary": "",
+        "date": "2026年2月23日",
+        "date_iso": "2026-02-23",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon RDS for Oracle が 2026 年 1 月リリースアップデートと Spatial Patch Bundle のサポートを開始",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-rd-for-oracle-jan-release-update-spatial-patch-bundle/",
+        "summary": "",
+        "date": "2026年2月20日",
+        "date_iso": "2026-02-20",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS IAM アイデンティティセンターがアジアパシフィック (ニュージーランド) AWS リージョンで利用可能に",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/aws-iam-identity-center-asia-pacific-new-zealand-region/",
+        "summary": "",
+        "date": "2026年2月20日",
+        "date_iso": "2026-02-20",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "アジアパシフィック (東京) リージョンで Amazon EC2 G7e インスタンスの提供を開始",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-ec2-g7e-instances-tokyo-region/",
+        "summary": "",
+        "date": "2026年2月20日",
+        "date_iso": "2026-02-20",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Aurora DSQL が IAM 認証を簡素化する新しい Go、Python、Node.js コネクタを発表",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/aurora-dsql-launches-go-python-nodejs-connectors",
+        "summary": "",
+        "date": "2026年2月20日",
+        "date_iso": "2026-02-20",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon MQ で ActiveMQ Minor バージョン 5.19 のサポートを開始",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-mq-activemq-5-19/",
+        "summary": "",
+        "date": "2026年2月20日",
+        "date_iso": "2026-02-20",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon SNS が追加の AWS リージョンでの SMS 送信のサポートを開始",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-sns-sms-region-expansion",
+        "summary": "",
+        "date": "2026年2月20日",
+        "date_iso": "2026-02-20",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 M8i-flex インスタンスが追加の AWS リージョンで利用可能に",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-ec2-m8i-flex-instances-FRA-ICN-KUL-NRT-SIN-YUL-region/",
+        "summary": "",
+        "date": "2026年2月19日",
+        "date_iso": "2026-02-19",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Certificate Manager が新しいガイドラインに準拠するためにデフォルトの証明書の有効期限を更新",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/aws-certificate-manager-updates-default/",
+        "summary": "",
+        "date": "2026年2月19日",
+        "date_iso": "2026-02-19",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon Aurora DSQL が Kiro Powers と AI エージェントスキルに統合される",
         "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-aurora-dsql-integrates-with-kiro-powers-and-agent-skills",
         "summary": "",
@@ -250,156 +400,6 @@
         "summary": "",
         "date": "2026年2月18日",
         "date_iso": "2026-02-18",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon OpenSearch Service でストレージ最適化 I7i インスタンスのサポートを開始",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-opensearch-service-supports-i7i-instances",
-        "summary": "",
-        "date": "2026年2月18日",
-        "date_iso": "2026-02-18",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 R8i および R8i-flex インスタンスが欧州 (アイルランド) リージョンで利用可能に",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-ec2-r8i-r8i-flex-instances-DUB-region/",
-        "summary": "",
-        "date": "2026年2月18日",
-        "date_iso": "2026-02-18",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Bedrock の強化学習によるファインチューニングが OpenAI 互換 API を備えたオープンウェイトモデルのサポートを追加",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-bedrock-reinforcement-fine-tuning-openai",
-        "summary": "",
-        "date": "2026年2月18日",
-        "date_iso": "2026-02-18",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "MySQL 8.0.44 と互換性のある Amazon Aurora MySQL 3.12 の一般提供を開始",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-aurora-mysql-312-available/",
-        "summary": "",
-        "date": "2026年2月18日",
-        "date_iso": "2026-02-18",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Connect のドラフトスケジュールでエージェントの休暇リクエストが利用可能に",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2025/02/amazon-connect-time-off-draft-schedules",
-        "summary": "",
-        "date": "2026年2月18日",
-        "date_iso": "2026-02-18",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Connect がケーステンプレートでの複数行のテキストフィールドのサポートを開始",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-connect-cases-multiline-text-fields/",
-        "summary": "",
-        "date": "2026年2月18日",
-        "date_iso": "2026-02-18",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 C8a インスタンスが欧州 (フランクフルト) および欧州 (アイルランド) リージョンで利用可能に",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-ec2-c8a-instances-europe-frankfurt-europe-ireland-regions",
-        "summary": "",
-        "date": "2026年2月18日",
-        "date_iso": "2026-02-18",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon MSK が既存のクラスターでデュアルスタック (IPv4 と IPv6) 接続のサポートを開始",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/aws-msk-dual-stack-ipv4-and-ipv6",
-        "summary": "",
-        "date": "2026年2月18日",
-        "date_iso": "2026-02-18",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Claude Sonnet 4.6 が Amazon Bedrock で利用可能に",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/claude-sonnet-4.6-available-in-amazon-bedrock/",
-        "summary": "",
-        "date": "2026年2月18日",
-        "date_iso": "2026-02-18",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS HealthImaging がデータストアをモニタリングするための追加メトリクスの提供を開始",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/aws-healthimaging-additional-metrics/",
-        "summary": "",
-        "date": "2026年2月17日",
-        "date_iso": "2026-02-17",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "新しいハイパフォーマンスコンピューティング Amazon EC2 Hpc8a インスタンスの発表",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/announcing-amazon-ec2-hpc8a-instances/",
-        "summary": "",
-        "date": "2026年2月17日",
-        "date_iso": "2026-02-17",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon DocumentDB 5.0 の長期サポート (LTS) を発表",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/announcing-amazon-documentdb-5-0-long-term-support",
-        "summary": "",
-        "date": "2026年2月17日",
-        "date_iso": "2026-02-17",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Backup が SAP HANA on AWS 向けの PrivateLink サポートを発表",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/aws-backup-announces-privatelink-sap-hana-aws/",
-        "summary": "",
-        "date": "2026年2月17日",
-        "date_iso": "2026-02-17",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 M7i インスタンスがイスラエル (テルアビブ) リージョンで利用可能に",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-ec2-m7i-israel-tel-aviv-regions",
-        "summary": "",
-        "date": "2026年2月17日",
-        "date_iso": "2026-02-17",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Glue 5.1 が新たに 18 のリージョンで利用可能に",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/aws-glue-5-1-eighteen-additional-regions",
-        "summary": "",
-        "date": "2026年2月17日",
-        "date_iso": "2026-02-17",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "AWS"
