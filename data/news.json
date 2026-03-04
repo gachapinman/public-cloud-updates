@@ -1,5 +1,5 @@
 {
-  "updated": "2026年03月04日 11:50 JST",
+  "updated": "2026年03月04日 13:55 JST",
   "clouds": {
     "azure": [
       {
@@ -459,11 +459,11 @@
       {
         "title": "February 26, 2026",
         "link": "https://docs.cloud.google.com/release-notes#February_26_2026",
-        "summary": "Cloud Trace Feature For organizations, folders, and projects, you can now configure default settings for observability buckets. Default settings let you specify the following for new observability…",
+        "summary": "Anthos Config Management Change Addressed multiple Common Vulnerabilities and Exposures (CVEs) by updating dependencies. Cloud Trace Feature For organizations, folders, and projects, you can now…",
         "date": "2026年2月26日",
         "date_iso": "2026-02-26",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "GCP"
       },
       {
