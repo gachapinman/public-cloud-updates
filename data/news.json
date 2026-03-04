@@ -1,5 +1,5 @@
 {
-  "updated": "2026年03月03日 19:24 JST",
+  "updated": "2026年03月04日 11:50 JST",
   "clouds": {
     "azure": [
       {
@@ -33,7 +33,7 @@
         "tag": "AZURE"
       },
       {
-        "title": "Generally available: Azure Premium SSD v2 Disk Storage is now available in a third Availability Zone in New…",
+        "title": "Generally Available: Azure Premium SSD v2 Disk Storage is now available in a third Availability Zone in New…",
         "link": "https://azure.microsoft.com/updates?id=558078",
         "summary": "Azure Premium SSD v2 is now available in a third Availability Zone in New Zealand North. Azure Premium SSD v2 disk, a next-generation general-purpose block storage option for Azure virtual machines,…",
         "date": "2026年2月28日",
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "March 03, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#March_03_2026",
+        "summary": "AlloyDB for PostgreSQL Feature The following AlloyDB AI features are now generally available ( GA ): Auto vector embeddings provide a scalable, automated solution for managing the lifecycle of vector…",
+        "date": "2026年3月3日",
+        "date_iso": "2026-03-03",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "March 02, 2026",
         "link": "https://docs.cloud.google.com/release-notes#March_02_2026",
         "summary": "AI Hypercomputer Feature Generally available : You can apply compact placement policies to standalone Flex-start VMs. These policies let you colocate your standalone Flex-start VMs in adjacent blocks…",
@@ -479,7 +489,7 @@
       {
         "title": "February 23, 2026",
         "link": "https://docs.cloud.google.com/release-notes#February_23_2026",
-        "summary": "AlloyDB for PostgreSQL Feature Gemini Cloud Assist investigation capabilities are now supported in AlloyDB ( Preview ). For more information, see Troubleshoot slow queries with AI assistance . Apigee…",
+        "summary": "Access Approval Feature Secure Web Proxy is generally available (GA) . Access Transparency Feature Secure Web Proxy is generally available (GA) . AlloyDB for PostgreSQL Feature Gemini Cloud Assist…",
         "date": "2026年2月23日",
         "date_iso": "2026-02-23",
         "category": "ai-tag",
@@ -595,19 +605,19 @@
         "category": "container-tag",
         "cat_label": "コンテナ",
         "tag": "GCP"
-      },
-      {
-        "title": "February 11, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#February_11_2026",
-        "summary": "BigQuery Feature You can now run pipelines with three distinct execution methods: running all tasks, running selected tasks, and running tasks with selected tags. For more information, see Run a…",
-        "date": "2026年2月11日",
-        "date_iso": "2026-02-11",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "GCP"
       }
     ],
     "oci": [
+      {
+        "title": "Kubernetes Engine support for deploying the AMD GPU Plugin as a cluster add-on",
+        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-AMD-GPU-device-plugin-addon.htm",
+        "summary": "",
+        "date": "2026年3月3日",
+        "date_iso": "2026-03-03",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "OCI"
+      },
       {
         "title": "Add AI Guardrails to OCI Generative AI Dedicated AI Cluster Endpoints",
         "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/ai-guardrails-dedicated-endpoints.htm",
@@ -639,16 +649,6 @@
         "tag": "OCI"
       },
       {
-        "title": "HeatWave: DB System and Replication Channel Status",
-        "link": "https://docs.oracle.com/iaas/releasenotes/mysql-database/TC-39968-dbsystem-status.htm",
-        "summary": "",
-        "date": "2026年2月24日",
-        "date_iso": "2026-02-24",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "OCI"
-      },
-      {
         "title": "Unified Database Security Monitoring",
         "link": "https://docs.oracle.com/iaas/releasenotes/database-management/users-new.htm",
         "summary": "",
@@ -656,6 +656,16 @@
         "date_iso": "2026-02-24",
         "category": "security-tag",
         "cat_label": "セキュリティ",
+        "tag": "OCI"
+      },
+      {
+        "title": "HeatWave: DB System and Replication Channel Status",
+        "link": "https://docs.oracle.com/iaas/releasenotes/mysql-database/TC-39968-dbsystem-status.htm",
+        "summary": "",
+        "date": "2026年2月24日",
+        "date_iso": "2026-02-24",
+        "category": "database-tag",
+        "cat_label": "データベース",
         "tag": "OCI"
       },
       {
@@ -699,16 +709,6 @@
         "tag": "OCI"
       },
       {
-        "title": "HeatWave: Maintenance-Disabled Window",
-        "link": "https://docs.oracle.com/iaas/releasenotes/mysql-database/TC-39549-maintenance-disabled-window.htm",
-        "summary": "",
-        "date": "2026年2月17日",
-        "date_iso": "2026-02-17",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
         "title": "Oracle Data Safe Redwood Implementation",
         "link": "https://docs.oracle.com/iaas/releasenotes/data-safe/redwood.htm",
         "summary": "",
@@ -726,6 +726,16 @@
         "date_iso": "2026-02-17",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "HeatWave: Maintenance-Disabled Window",
+        "link": "https://docs.oracle.com/iaas/releasenotes/mysql-database/TC-39549-maintenance-disabled-window.htm",
+        "summary": "",
+        "date": "2026年2月17日",
+        "date_iso": "2026-02-17",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "OCI"
       },
       {
@@ -794,16 +804,6 @@
         "summary": "",
         "date": "2026年2月17日",
         "date_iso": "2026-02-17",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Oracle GoldenGate 26ai is now available",
-        "link": "https://docs.oracle.com/iaas/releasenotes/goldengate/ogg26ai.htm",
-        "summary": "",
-        "date": "2026年2月13日",
-        "date_iso": "2026-02-13",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "OCI"
