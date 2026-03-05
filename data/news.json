@@ -1,7 +1,17 @@
 {
-  "updated": "2026年03月04日 19:21 JST",
+  "updated": "2026年03月05日 12:09 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Retirement: Azure Policy faster enforcement and retirement of login/logout workaround",
+        "link": "https://azure.microsoft.com/updates?id=558102",
+        "summary": "Over the years, we’ve made significant investments to improve the responsiveness of the Azure Policy service. As a result, policy assignment creation and updates for Resource Manager mode policies…",
+        "date": "2026年3月5日",
+        "date_iso": "2026-03-05",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AZURE"
+      },
       {
         "title": "Generally Available: Draft & Deploy on Azure Firewall",
         "link": "https://azure.microsoft.com/updates?id=558072",
@@ -186,16 +196,6 @@
         "title": "Generally Available: Quota and deployment troubleshooting tools for Azure Functions Flex Consumption",
         "link": "https://azure.microsoft.com/updates?id=556008",
         "summary": "Azure Functions Flex Consumption introduces new platform‑integrated tools that provide clearer insight into quota availability and deployment behavior. The quota troubleshooting experience surfaces…",
-        "date": "2026年2月19日",
-        "date_iso": "2026-02-19",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Azure Functions .NET 10 support",
-        "link": "https://azure.microsoft.com/updates?id=556003",
-        "summary": "Azure Functions support for .NET 10 is generally available, enabling production use of the latest .NET runtime for serverless applications. This support was introduced as part of the Azure Functions…",
         "date": "2026年2月19日",
         "date_iso": "2026-02-19",
         "category": "ai-tag",
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "March 04, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#March_04_2026",
+        "summary": "BigQuery Feature Monitor dataset replication latency and network egress bytes in Cloud Monitoring for BigQuery cross-region replication and managed disaster recovery . These metrics are generally…",
+        "date": "2026年3月4日",
+        "date_iso": "2026-03-04",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
+        "tag": "GCP"
+      },
+      {
         "title": "March 03, 2026",
         "link": "https://docs.cloud.google.com/release-notes#March_03_2026",
         "summary": "AlloyDB for PostgreSQL Feature The following AlloyDB AI features are now generally available ( GA ): Auto vector embeddings provide a scalable, automated solution for managing the lifecycle of vector…",
@@ -594,16 +604,6 @@
         "date_iso": "2026-02-13",
         "category": "network-tag",
         "cat_label": "ネットワーク",
-        "tag": "GCP"
-      },
-      {
-        "title": "February 12, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#February_12_2026",
-        "summary": "App Engine standard environment Go Feature Support for deploying your existing apps in the standard environment to Cloud Run using the gcloud beta app migrate-to-run command is in Preview . For more…",
-        "date": "2026年2月12日",
-        "date_iso": "2026-02-12",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
         "tag": "GCP"
       }
     ],
