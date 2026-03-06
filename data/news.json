@@ -1,5 +1,5 @@
 {
-  "updated": "2026年03月05日 19:24 JST",
+  "updated": "2026年03月06日 12:08 JST",
   "clouds": {
     "azure": [
       {
@@ -205,6 +205,126 @@
     ],
     "aws": [
       {
+        "title": "AWS Compute Optimizer では、自動化処理中に作成された EBS スナップショットに AWS が生成したタグが付与されるようになりました",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/aws-compute-optimizer-applies-tags-ebs-snapshots/",
+        "summary": "",
+        "date": "2026年2月25日",
+        "date_iso": "2026-02-25",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Observability が Kiro Power として利用可能になりました",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/aws-observability-kiro-power/",
+        "summary": "",
+        "date": "2026年2月25日",
+        "date_iso": "2026-02-25",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Elemental Inference の発表",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/aws-elemental-inference-generally-avail/",
+        "summary": "",
+        "date": "2026年2月25日",
+        "date_iso": "2026-02-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon RDS スナップショットの S3 へのエクスポートが AWS GovCloud (米国) リージョンで利用可能に",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/rds-exports-s3-available-gov-cloud/",
+        "summary": "",
+        "date": "2026年2月25日",
+        "date_iso": "2026-02-25",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Deadline Cloud では、タスクをまとめてチャンクで実行可能に",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/aws-deadline-cloud-running-tasks-together-in/",
+        "summary": "",
+        "date": "2026年2月25日",
+        "date_iso": "2026-02-25",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 C8i および C8i-flex インスタンスがアジアパシフィック (マレーシア) および南米 (サンパウロ) リージョンで利用可能に",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-ec2-c8i-c8i-flex-instances-asia-pacific-malaysia-south-america-sao--paulo-regions/",
+        "summary": "",
+        "date": "2026年2月25日",
+        "date_iso": "2026-02-25",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 R7a インスタンスがアジアパシフィック (ハイデラバード) リージョンで利用可能に",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-ec2-r7a-instances-asia-pacific-hyderabad-regions/",
+        "summary": "",
+        "date": "2026年2月25日",
+        "date_iso": "2026-02-25",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS AppConfig が New Relic と統合され、自動ロールバックが可能に",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/aws-appconfig-new-relic-for-automated-rollback/",
+        "summary": "",
+        "date": "2026年2月25日",
+        "date_iso": "2026-02-25",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 M8a インスタンスが AWS 欧州 (フランクフルト) リージョンで利用可能に",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-ec2-m8a-instances-europe-frankfurt/",
+        "summary": "",
+        "date": "2026年2月25日",
+        "date_iso": "2026-02-25",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 I7ie インスタンスが AWS アフリカ (ケープタウン) リージョンで利用可能に",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-ec-i-ie-instances-available-aws-africa/",
+        "summary": "",
+        "date": "2026年2月25日",
+        "date_iso": "2026-02-25",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EKS ノードモニタリングエージェントがオープンソースとして利用可能に",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-eks-node-monitoring-agent-open-source/",
+        "summary": "",
+        "date": "2026年2月25日",
+        "date_iso": "2026-02-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon RDS Custom で Microsoft SQL Server の最新の GDR 更新プログラムのサポートを開始",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-rds-custom-supports-latest-gdr-updates-for-microsoft-sql-server/",
+        "summary": "",
+        "date": "2026年2月24日",
+        "date_iso": "2026-02-24",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
         "title": "MediaConvert が動画用の新しい Probe API と UI を導入",
         "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/aws-mediaconvert-introduces-video-probe/",
         "summary": "",
@@ -225,7 +345,7 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon がリソースとコストのデータを可視化する Amazon Q Developer の生成 AI ベースのアーティファクトを発表",
+        "title": "Amazon、リソースとコストデータを視覚化する生成 AI ベースのアーティファクトを Amazon Q Developer で発表",
         "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/generative-ai-based-Amazon-Q-artifacts/",
         "summary": "",
         "date": "2026年2月24日",
@@ -265,6 +385,16 @@
         "tag": "AWS"
       },
       {
+        "title": "自動推論ポリシーにソースドキュメントへの参照が含まれるようになりました",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/automated-reasoning-policies-include-references/",
+        "summary": "",
+        "date": "2026年2月23日",
+        "date_iso": "2026-02-23",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon S3 Tables が AWS GovCloud (米国) リージョンで利用可能に",
         "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-s3-tables-aws-govcloud-us/",
         "summary": "",
@@ -273,147 +403,27 @@
         "category": "storage-tag",
         "cat_label": "ストレージ",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon RDS for Oracle が 2026 年 1 月リリースアップデートと Spatial Patch Bundle のサポートを開始",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-rd-for-oracle-jan-release-update-spatial-patch-bundle/",
-        "summary": "",
-        "date": "2026年2月20日",
-        "date_iso": "2026-02-20",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS IAM アイデンティティセンターがアジアパシフィック (ニュージーランド) AWS リージョンで利用可能に",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/aws-iam-identity-center-asia-pacific-new-zealand-region/",
-        "summary": "",
-        "date": "2026年2月20日",
-        "date_iso": "2026-02-20",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "アジアパシフィック (東京) リージョンで Amazon EC2 G7e インスタンスの提供を開始",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-ec2-g7e-instances-tokyo-region/",
-        "summary": "",
-        "date": "2026年2月20日",
-        "date_iso": "2026-02-20",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Aurora DSQL が IAM 認証を簡素化する新しい Go、Python、Node.js コネクタを発表",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/aurora-dsql-launches-go-python-nodejs-connectors",
-        "summary": "",
-        "date": "2026年2月20日",
-        "date_iso": "2026-02-20",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon MQ で ActiveMQ Minor バージョン 5.19 のサポートを開始",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-mq-activemq-5-19/",
-        "summary": "",
-        "date": "2026年2月20日",
-        "date_iso": "2026-02-20",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SNS が追加の AWS リージョンでの SMS 送信のサポートを開始",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-sns-sms-region-expansion",
-        "summary": "",
-        "date": "2026年2月20日",
-        "date_iso": "2026-02-20",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 M8i-flex インスタンスが追加の AWS リージョンで利用可能に",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-ec2-m8i-flex-instances-FRA-ICN-KUL-NRT-SIN-YUL-region/",
-        "summary": "",
-        "date": "2026年2月19日",
-        "date_iso": "2026-02-19",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Certificate Manager が新しいガイドラインに準拠するためにデフォルトの証明書の有効期限を更新",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/aws-certificate-manager-updates-default/",
-        "summary": "",
-        "date": "2026年2月19日",
-        "date_iso": "2026-02-19",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Aurora DSQL が Kiro Powers と AI エージェントスキルに統合される",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-aurora-dsql-integrates-with-kiro-powers-and-agent-skills",
-        "summary": "",
-        "date": "2026年2月19日",
-        "date_iso": "2026-02-19",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Connect Cases が AWS Service Quotas のサポートを開始",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-connect-cases-aws-service-quotas",
-        "summary": "",
-        "date": "2026年2月19日",
-        "date_iso": "2026-02-19",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Managed Grafana が AWS KMS カスタマーマネージドキーのサポートを開始",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-managed-grafana-customer-managed-keys",
-        "summary": "",
-        "date": "2026年2月19日",
-        "date_iso": "2026-02-19",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Clean Rooms がリモート Apache Iceberg REST カタログのサポートを発表",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/aws-clean-rooms-remote-iceberg-catalogs",
-        "summary": "",
-        "date": "2026年2月18日",
-        "date_iso": "2026-02-18",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon OpenSearch Service が Graviton4 (c8g、m8g、r8g) インスタンスのサポートを拡大",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-opensearch-service-expands-support-graviton4-based-instances",
-        "summary": "",
-        "date": "2026年2月18日",
-        "date_iso": "2026-02-18",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
       }
     ],
     "gcp": [
       {
+        "title": "March 05, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#March_05_2026",
+        "summary": "AlloyDB for PostgreSQL Feature AlloyDB enhanced backups are generally available ( GA ). You can now select the Enhanced tier during cluster creation, manage your project-level backups with tiered…",
+        "date": "2026年3月5日",
+        "date_iso": "2026-03-05",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "March 04, 2026",
         "link": "https://docs.cloud.google.com/release-notes#March_04_2026",
-        "summary": "BigQuery Feature Monitor dataset replication latency and network egress bytes in Cloud Monitoring for BigQuery cross-region replication and managed disaster recovery . These metrics are generally…",
+        "summary": "Apigee API hub Feature gcloud CLI support for API hub The gcloud CLI now supports Apigee API hub, allowing you to manage your organization's API catalog, versions, and lifecycle metadata directly…",
         "date": "2026年3月4日",
         "date_iso": "2026-03-04",
-        "category": "network-tag",
-        "cat_label": "ネットワーク",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "GCP"
       },
       {
@@ -439,7 +449,7 @@
       {
         "title": "March 01, 2026",
         "link": "https://docs.cloud.google.com/release-notes#March_01_2026",
-        "summary": "Google SecOps SIEM Announcement Release 6.3.78 is being rolled out to the first phase of regions as listed here . This release contains internal and customer bug fixes. Google SecOps SOAR…",
+        "summary": "Google SecOps SOAR Announcement Release 6.3.78 is being rolled out to the first phase of regions as listed here . This release contains internal and customer bug fixes.",
         "date": "2026年3月1日",
         "date_iso": "2026-03-01",
         "category": "ai-tag",
@@ -449,7 +459,7 @@
       {
         "title": "February 28, 2026",
         "link": "https://docs.cloud.google.com/release-notes#February_28_2026",
-        "summary": "Google SecOps SIEM Announcement Release 6.3.77 is now available for all regions. Google SecOps SOAR Announcement Release 6.3.77 is now available for all regions.",
+        "summary": "Google SecOps SOAR Announcement Release 6.3.77 is now available for all regions.",
         "date": "2026年2月28日",
         "date_iso": "2026-02-28",
         "category": "ai-tag",
@@ -509,7 +519,7 @@
       {
         "title": "February 22, 2026",
         "link": "https://docs.cloud.google.com/release-notes#February_22_2026",
-        "summary": "Google SecOps Change Publisher Agent Version 2.6.4 removes support for Python 3.7 from the remote agent. Google SecOps SIEM Change Publisher Agent Version 2.6.4 removes support for Python 3.7 from…",
+        "summary": "Google SecOps Change Publisher Agent Version 2.6.4 removes support for Python 3.7 from the remote agent. Google SecOps SOAR Announcement Release 6.3.77 is being rolled out to the first phase of…",
         "date": "2026年2月22日",
         "date_iso": "2026-02-22",
         "category": "compute-tag",
@@ -519,7 +529,7 @@
       {
         "title": "February 21, 2026",
         "link": "https://docs.cloud.google.com/release-notes#February_21_2026",
-        "summary": "Google SecOps SIEM Announcement Release 6.3.76 is now available for all regions. Google SecOps SOAR Announcement Release 6.3.76 is now available for all regions.",
+        "summary": "Google SecOps SOAR Announcement Release 6.3.76 is now available for all regions.",
         "date": "2026年2月21日",
         "date_iso": "2026-02-21",
         "category": "ai-tag",
@@ -589,25 +599,25 @@
       {
         "title": "February 14, 2026",
         "link": "https://docs.cloud.google.com/release-notes#February_14_2026",
-        "summary": "Google SecOps SIEM Announcement Release 6.3.75 is now available for all regions. Google SecOps SOAR Announcement Release 6.3.75 is now available for all regions.",
+        "summary": "Google SecOps SOAR Announcement Release 6.3.75 is now available for all regions.",
         "date": "2026年2月14日",
         "date_iso": "2026-02-14",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
-      },
-      {
-        "title": "February 13, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#February_13_2026",
-        "summary": "Apigee UI Change Updated the route for Operations Anomalies from apigee/analytics/operations-anomalies to apigee/aapi-ops/operations-anomalies . Announcement On February 13, 2026, we released an…",
-        "date": "2026年2月13日",
-        "date_iso": "2026-02-13",
-        "category": "network-tag",
-        "cat_label": "ネットワーク",
-        "tag": "GCP"
       }
     ],
     "oci": [
+      {
+        "title": "New Regions for OpenAI gpt-oss Models in OCI Generative AI",
+        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/gpt-oss-regions.htm",
+        "summary": "",
+        "date": "2026年3月4日",
+        "date_iso": "2026-03-04",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
       {
         "title": "Kubernetes Engine support for deploying the AMD GPU Plugin as a cluster add-on",
         "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-AMD-GPU-device-plugin-addon.htm",
@@ -616,6 +626,26 @@
         "date_iso": "2026-03-03",
         "category": "container-tag",
         "cat_label": "コンテナ",
+        "tag": "OCI"
+      },
+      {
+        "title": "Private Endpoints Available in EU Sovereign Central (Frankfurt) Region for OCI Generative AI",
+        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/private-endpoint-OC19.htm",
+        "summary": "",
+        "date": "2026年2月26日",
+        "date_iso": "2026-02-26",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Private Endpoints Available in UK Gov South (London) Region for OCI Generative AI",
+        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/private-endpoint-OC4.htm",
+        "summary": "",
+        "date": "2026年2月26日",
+        "date_iso": "2026-02-26",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "OCI"
       },
       {
@@ -771,36 +801,6 @@
       {
         "title": "Translate text using Select AI",
         "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-dedicated/adbd-selectai-translate.htm",
-        "summary": "",
-        "date": "2026年2月17日",
-        "date_iso": "2026-02-17",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Summarize text with Select AI",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-dedicated/adbd-selectai-summarize.htm",
-        "summary": "",
-        "date": "2026年2月17日",
-        "date_iso": "2026-02-17",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Interact with metadata to improve Select AI SQL query generation",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-dedicated/adbd-selectai-sqlquerygen.htm",
-        "summary": "",
-        "date": "2026年2月17日",
-        "date_iso": "2026-02-17",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Multifactor Authentication in Autonomous AI Database",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-02-multifactor-authentication.htm",
         "summary": "",
         "date": "2026年2月17日",
         "date_iso": "2026-02-17",
