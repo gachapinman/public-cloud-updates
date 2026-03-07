@@ -1,5 +1,5 @@
 {
-  "updated": "2026年03月06日 19:19 JST",
+  "updated": "2026年03月07日 11:44 JST",
   "clouds": {
     "azure": [
       {
@@ -275,6 +275,16 @@
         "tag": "AWS"
       },
       {
+        "title": "AWS AppConfig が New Relic と統合され、自動ロールバックが可能に",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/aws-appconfig-new-relic-for-automated-rollback/",
+        "summary": "",
+        "date": "2026年2月25日",
+        "date_iso": "2026-02-25",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon EC2 M8a インスタンスが AWS 欧州 (フランクフルト) リージョンで利用可能に",
         "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-ec2-m8a-instances-europe-frankfurt/",
         "summary": "",
@@ -287,16 +297,6 @@
       {
         "title": "Amazon EC2 I7ie インスタンスが AWS アフリカ (ケープタウン) リージョンで利用可能に",
         "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-ec-i-ie-instances-available-aws-africa/",
-        "summary": "",
-        "date": "2026年2月25日",
-        "date_iso": "2026-02-25",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS AppConfig が New Relic と統合され、自動ロールバックが可能に",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/aws-appconfig-new-relic-for-automated-rollback/",
         "summary": "",
         "date": "2026年2月25日",
         "date_iso": "2026-02-25",
@@ -406,6 +406,16 @@
       }
     ],
     "gcp": [
+      {
+        "title": "March 06, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#March_06_2026",
+        "summary": "BigQuery Feature You can create a remote model based on the Vertex AI gemini-embedding-001 model, or a remote model based on an open embedding model from Vertex Model Garden or Hugging Face that is…",
+        "date": "2026年3月6日",
+        "date_iso": "2026-03-06",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
       {
         "title": "March 05, 2026",
         "link": "https://docs.cloud.google.com/release-notes#March_05_2026",
@@ -592,16 +602,6 @@
         "summary": "Carbon Footprint Feature Methodology update : Starting with January 2026 data, we have updated our calculation model to align with the comprehensive AI energy/emissions framework detailed in…",
         "date": "2026年2月15日",
         "date_iso": "2026-02-15",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "February 14, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#February_14_2026",
-        "summary": "Google SecOps SOAR Announcement Release 6.3.75 is now available for all regions.",
-        "date": "2026年2月14日",
-        "date_iso": "2026-02-14",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
