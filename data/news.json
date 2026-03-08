@@ -1,5 +1,5 @@
 {
-  "updated": "2026年03月08日 12:12 JST",
+  "updated": "2026年03月08日 13:58 JST",
   "clouds": {
     "azure": [
       {
@@ -569,7 +569,7 @@
       {
         "title": "February 18, 2026",
         "link": "https://docs.cloud.google.com/release-notes#February_18_2026",
-        "summary": "App Engine flexible environment .NET Feature Support for .NET 10 runtime is in General Availability . Bigtable Announcement New best practices are available for securing generative AI agents using…",
+        "summary": "App Engine flexible environment .NET Feature Support for .NET 10 runtime is in General Availability . Cloud Run Feature Support for .NET 10 runtime is in General Availability . Cloud Run functions…",
         "date": "2026年2月18日",
         "date_iso": "2026-02-18",
         "category": "ai-tag",
