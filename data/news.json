@@ -1,5 +1,5 @@
 {
-  "updated": "2026年03月08日 18:59 JST",
+  "updated": "2026年03月09日 12:15 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,26 @@
     ],
     "gcp": [
       {
+        "title": "March 08, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#March_08_2026",
+        "summary": "Google SecOps SOAR Announcement Release 6.3.79 is being rolled out to the first phase of regions as listed here . This release contains internal and customer bug fixes.",
+        "date": "2026年3月8日",
+        "date_iso": "2026-03-08",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
+        "title": "March 07, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#March_07_2026",
+        "summary": "Google SecOps SOAR Announcement Release 6.3.78 is now available for all regions.",
+        "date": "2026年3月7日",
+        "date_iso": "2026-03-07",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "March 06, 2026",
         "link": "https://docs.cloud.google.com/release-notes#March_06_2026",
         "summary": "BigQuery Feature You can create a remote model based on the Vertex AI gemini-embedding-001 model, or a remote model based on an open embedding model from Vertex Model Garden or Hugging Face that is…",
@@ -584,26 +604,6 @@
         "date_iso": "2026-02-17",
         "category": "database-tag",
         "cat_label": "データベース",
-        "tag": "GCP"
-      },
-      {
-        "title": "February 16, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#February_16_2026",
-        "summary": "Cloud Composer Change New Airflow builds are available in Cloud Composer 3: composer-3-airflow-3.1.0-build.9 composer-3-airflow-2.10.5-build.26 (default) composer-3-airflow-2.9.3-build.46 Change New…",
-        "date": "2026年2月16日",
-        "date_iso": "2026-02-16",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "February 15, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#February_15_2026",
-        "summary": "Carbon Footprint Feature Methodology update : Starting with January 2026 data, we have updated our calculation model to align with the comprehensive AI energy/emissions framework detailed in…",
-        "date": "2026年2月15日",
-        "date_iso": "2026-02-15",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "GCP"
       }
     ],
