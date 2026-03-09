@@ -1,5 +1,5 @@
 {
-  "updated": "2026年03月09日 14:09 JST",
+  "updated": "2026年03月09日 19:30 JST",
   "clouds": {
     "azure": [
       {
@@ -275,6 +275,16 @@
         "tag": "AWS"
       },
       {
+        "title": "Amazon EC2 M8a インスタンスが AWS 欧州 (フランクフルト) リージョンで利用可能に",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-ec2-m8a-instances-europe-frankfurt/",
+        "summary": "",
+        "date": "2026年2月25日",
+        "date_iso": "2026-02-25",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon EC2 I7ie インスタンスが AWS アフリカ (ケープタウン) リージョンで利用可能に",
         "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-ec-i-ie-instances-available-aws-africa/",
         "summary": "",
@@ -287,16 +297,6 @@
       {
         "title": "AWS AppConfig が New Relic と統合され、自動ロールバックが可能に",
         "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/aws-appconfig-new-relic-for-automated-rollback/",
-        "summary": "",
-        "date": "2026年2月25日",
-        "date_iso": "2026-02-25",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 M8a インスタンスが AWS 欧州 (フランクフルト) リージョンで利用可能に",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-ec2-m8a-instances-europe-frankfurt/",
         "summary": "",
         "date": "2026年2月25日",
         "date_iso": "2026-02-25",
