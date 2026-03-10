@@ -1,5 +1,5 @@
 {
-  "updated": "2026年03月09日 19:30 JST",
+  "updated": "2026年03月10日 11:49 JST",
   "clouds": {
     "azure": [
       {
@@ -275,16 +275,6 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon EC2 M8a インスタンスが AWS 欧州 (フランクフルト) リージョンで利用可能に",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-ec2-m8a-instances-europe-frankfurt/",
-        "summary": "",
-        "date": "2026年2月25日",
-        "date_iso": "2026-02-25",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
         "title": "Amazon EC2 I7ie インスタンスが AWS アフリカ (ケープタウン) リージョンで利用可能に",
         "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-ec-i-ie-instances-available-aws-africa/",
         "summary": "",
@@ -297,6 +287,16 @@
       {
         "title": "AWS AppConfig が New Relic と統合され、自動ロールバックが可能に",
         "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/aws-appconfig-new-relic-for-automated-rollback/",
+        "summary": "",
+        "date": "2026年2月25日",
+        "date_iso": "2026-02-25",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 M8a インスタンスが AWS 欧州 (フランクフルト) リージョンで利用可能に",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-ec2-m8a-instances-europe-frankfurt/",
         "summary": "",
         "date": "2026年2月25日",
         "date_iso": "2026-02-25",
@@ -406,6 +406,16 @@
       }
     ],
     "gcp": [
+      {
+        "title": "March 09, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#March_09_2026",
+        "summary": "BigQuery Feature Updates to conversational analytics include the following improvements: ObjectRef support: BigQuery conversational analytics now integrates with Google Cloud Storage through…",
+        "date": "2026年3月9日",
+        "date_iso": "2026-03-09",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
+        "tag": "GCP"
+      },
       {
         "title": "March 08, 2026",
         "link": "https://docs.cloud.google.com/release-notes#March_08_2026",
@@ -594,16 +604,6 @@
         "date_iso": "2026-02-18",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "February 17, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#February_17_2026",
-        "summary": "AlloyDB for PostgreSQL Feature AlloyDB performance snapshot and reports now support read pool instance nodes, providing deeper observability into read operations and replica-specific performance…",
-        "date": "2026年2月17日",
-        "date_iso": "2026-02-17",
-        "category": "database-tag",
-        "cat_label": "データベース",
         "tag": "GCP"
       }
     ],
