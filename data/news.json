@@ -1,5 +1,5 @@
 {
-  "updated": "2026年03月11日 11:49 JST",
+  "updated": "2026年03月11日 13:58 JST",
   "clouds": {
     "azure": [
       {
@@ -439,7 +439,7 @@
       {
         "title": "March 07, 2026",
         "link": "https://docs.cloud.google.com/release-notes#March_07_2026",
-        "summary": "Google SecOps SOAR Announcement Release 6.3.78 is now available for all regions.",
+        "summary": "Google SecOps SOAR Announcement Release 6.3.78 is now available for all regions. Sensitive Data Protection Feature You can configure Sensitive Data Protection to detect specific metadata labels in…",
         "date": "2026年3月7日",
         "date_iso": "2026-03-07",
         "category": "ai-tag",
