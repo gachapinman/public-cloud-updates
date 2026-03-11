@@ -1,5 +1,5 @@
 {
-  "updated": "2026年03月10日 19:24 JST",
+  "updated": "2026年03月11日 11:49 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "March 10, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#March_10_2026",
+        "summary": "Cloud Composer Announcement Cloud Composer 2 environments can no longer be created in Turin (europe-west12). We're switching this region to supporting only Cloud Composer 3 environments. Cloud…",
+        "date": "2026年3月10日",
+        "date_iso": "2026-03-10",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "GCP"
+      },
+      {
         "title": "March 09, 2026",
         "link": "https://docs.cloud.google.com/release-notes#March_09_2026",
         "summary": "BigQuery Feature Updates to conversational analytics include the following improvements: ObjectRef support: BigQuery conversational analytics now integrates with Google Cloud Storage through…",
@@ -419,17 +429,17 @@
       {
         "title": "March 08, 2026",
         "link": "https://docs.cloud.google.com/release-notes#March_08_2026",
-        "summary": "Google SecOps SOAR Announcement Release 6.3.79 is being rolled out to the first phase of regions as listed here . This release contains internal and customer bug fixes.",
+        "summary": "Dataproc Fixed Fixed CVEs CVE-2025-58057, CVE-2025-53864, CVE-2025-68161, CVE-2025-48924 (partial), and CVE-2025-33042. Upgraded hms-proxy to v0.0.78 to fix CVEs. Announcement New Dataproc on Compute…",
         "date": "2026年3月8日",
         "date_iso": "2026-03-08",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "GCP"
       },
       {
         "title": "March 07, 2026",
         "link": "https://docs.cloud.google.com/release-notes#March_07_2026",
-        "summary": "Google SecOps SOAR Announcement Release 6.3.78 is now available for all regions. Sensitive Data Protection Feature You can configure Sensitive Data Protection to detect specific metadata labels in…",
+        "summary": "Google SecOps SOAR Announcement Release 6.3.78 is now available for all regions.",
         "date": "2026年3月7日",
         "date_iso": "2026-03-07",
         "category": "ai-tag",
@@ -595,16 +605,6 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
-      },
-      {
-        "title": "February 18, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#February_18_2026",
-        "summary": "App Engine flexible environment .NET Feature Support for .NET 10 runtime is in General Availability . Bigtable Announcement New best practices are available for securing generative AI agents using…",
-        "date": "2026年2月18日",
-        "date_iso": "2026-02-18",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
       }
     ],
     "oci": [
@@ -739,6 +739,16 @@
         "tag": "OCI"
       },
       {
+        "title": "Version 5.1 of oci-fss-utils for File Storage In-Transit Encryption Is Available",
+        "link": "https://docs.oracle.com/iaas/releasenotes/filestorage/oci-fss-utils-v-5_1.htm",
+        "summary": "",
+        "date": "2026年2月17日",
+        "date_iso": "2026-02-17",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
         "title": "Oracle Data Safe Redwood Implementation",
         "link": "https://docs.oracle.com/iaas/releasenotes/data-safe/redwood.htm",
         "summary": "",
@@ -796,16 +806,6 @@
         "date_iso": "2026-02-17",
         "category": "database-tag",
         "cat_label": "データベース",
-        "tag": "OCI"
-      },
-      {
-        "title": "Translate text using Select AI",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-dedicated/adbd-selectai-translate.htm",
-        "summary": "",
-        "date": "2026年2月17日",
-        "date_iso": "2026-02-17",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "OCI"
       }
     ]
