@@ -1,7 +1,57 @@
 {
-  "updated": "2026年03月11日 19:24 JST",
+  "updated": "2026年03月12日 12:12 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Generally Available: Terraform, Bicep, Ansible support for elastic clusters on Azure Database for PostgreSQL",
+        "link": "https://azure.microsoft.com/updates?id=558145",
+        "summary": "You can now provision and manage Azure Database for PostgreSQL elastic clusters using Terraform, Bicep, and Ansible, with full General Availability support. With native infrastructure-as-code…",
+        "date": "2026年3月12日",
+        "date_iso": "2026-03-12",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Azure Database for PostgreSQL dashboards with Grafana",
+        "link": "https://azure.microsoft.com/updates?id=558140",
+        "summary": "You can now monitor your Azure Database for PostgreSQL with rich, built-in Grafana dashboards—right from the Azure portal. This native integration with Azure Monitor means you no longer need to set…",
+        "date": "2026年3月12日",
+        "date_iso": "2026-03-12",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Customer‑managed encryption keys now supported on Premium SSD v2 disks for Azure Database…",
+        "link": "https://azure.microsoft.com/updates?id=557527",
+        "summary": "You can now enhance data security for your Azure Database for PostgreSQL workloads by using customer managed keys (CMKs) with Premium SSD v2 disks. Available in public preview, this update gives you…",
+        "date": "2026年3月12日",
+        "date_iso": "2026-03-12",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Azure SRE Agent with new capabilities",
+        "link": "https://azure.microsoft.com/updates?id=558321",
+        "summary": "Azure SRE Agent is now generally available. This AI-powered operations agent helps teams improve uptime, reduce incident impact, and cut operational toil by accelerating diagnosis and automating…",
+        "date": "2026年3月12日",
+        "date_iso": "2026-03-12",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Query Profiler in MSSQL extension for Visual Studio Code",
+        "link": "https://azure.microsoft.com/updates?id=558164",
+        "summary": "The MSSQL extension for Visual Studio Code now introduces Query Profiler in public preview, bringing real-time insight into your database activity directly inside Visual Studio Code. With Query…",
+        "date": "2026年3月12日",
+        "date_iso": "2026-03-12",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AZURE"
+      },
       {
         "title": "Retirement: Azure Policy faster enforcement and retirement of login/logout workaround",
         "link": "https://azure.microsoft.com/updates?id=558102",
@@ -150,56 +200,6 @@
         "date_iso": "2026-02-24",
         "category": "security-tag",
         "cat_label": "セキュリティ",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Azure Premium SSD v2 Disk is now available in Brazil Southeast, and in a third…",
-        "link": "https://azure.microsoft.com/updates?id=557623",
-        "summary": "Azure Premium SSD v2 is now available in Brazil Southeast (a region without Availability Zone), and in a third Availability Zone in Malaysia West and Indonesia Central.Azure Premium SSD v2 disk, a…",
-        "date": "2026年2月21日",
-        "date_iso": "2026-02-21",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Anthropic Claude Sonnet 4.6 is now available on Azure Databricks",
-        "link": "https://azure.microsoft.com/updates?id=557595",
-        "summary": "Azure Databricks now supports Anthropic Claude Sonnet 4.6 through Azure Databricks AI Model Serving. Claude Sonnet 4.6 delivers frontier-level performance on complex coding, agentic workflows, and…",
-        "date": "2026年2月19日",
-        "date_iso": "2026-02-19",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Unified tooling in the AKS MCP server",
-        "link": "https://azure.microsoft.com/updates?id=557223",
-        "summary": "Managing AKS MCP servers can be affected by the number of tools and the amount of context required, which can increase latency and cost. The unified tooling for the AKS MCP Server introduces two new…",
-        "date": "2026年2月19日",
-        "date_iso": "2026-02-19",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Cluster mode for the agentic CLI for AKS",
-        "link": "https://azure.microsoft.com/updates?id=557218",
-        "summary": "Users often face security and manageability challenges when diagnostic agents inherit broad user permissions, such as cluster-admin rights, and when each user must deploy their own instance. Cluster…",
-        "date": "2026年2月19日",
-        "date_iso": "2026-02-19",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Quota and deployment troubleshooting tools for Azure Functions Flex Consumption",
-        "link": "https://azure.microsoft.com/updates?id=556008",
-        "summary": "Azure Functions Flex Consumption introduces new platform‑integrated tools that provide clearer insight into quota availability and deployment behavior. The quota troubleshooting experience surfaces…",
-        "date": "2026年2月19日",
-        "date_iso": "2026-02-19",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "AZURE"
       }
     ],
@@ -407,13 +407,23 @@
     ],
     "gcp": [
       {
+        "title": "March 11, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#March_11_2026",
+        "summary": "Apigee hybrid Security Bug ID Description 471502899, 471173561 Security fixes for apigee-synchronizer . This addresses the following vulnerabilities: CVE-2025-48924 CVE-2025-67735 471502752,…",
+        "date": "2026年3月11日",
+        "date_iso": "2026-03-11",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "GCP"
+      },
+      {
         "title": "March 10, 2026",
         "link": "https://docs.cloud.google.com/release-notes#March_10_2026",
-        "summary": "Cloud Composer Announcement Cloud Composer 2 environments can no longer be created in Turin (europe-west12). We're switching this region to supporting only Cloud Composer 3 environments. Cloud…",
+        "summary": "Apigee API hub Feature Security monitoring condition support in Advanced API Security for multi-gateway projects Advanced API Security's multi-gateway Risk Assessment feature (available through API…",
         "date": "2026年3月10日",
         "date_iso": "2026-03-10",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "GCP"
       },
       {
@@ -429,11 +439,11 @@
       {
         "title": "March 08, 2026",
         "link": "https://docs.cloud.google.com/release-notes#March_08_2026",
-        "summary": "Dataproc Fixed Fixed CVEs CVE-2025-58057, CVE-2025-53864, CVE-2025-68161, CVE-2025-48924 (partial), and CVE-2025-33042. Upgraded hms-proxy to v0.0.78 to fix CVEs. Announcement New Dataproc on Compute…",
+        "summary": "Container Optimized OS Change cos-125-19216-220-43 Kernel Docker Containerd GPU Drivers COS-6.12.68 v27.5.1 v2.1.5 See List Change Updated cos-gpu-installer to v2.6.0. Change Runtime sysctl changes:…",
         "date": "2026年3月8日",
         "date_iso": "2026-03-08",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "GCP"
       },
       {
@@ -595,19 +605,29 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
-      },
-      {
-        "title": "February 19, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#February_19_2026",
-        "summary": "Access Approval Feature Unified Maintenance is generally available (GA) . Access Transparency Feature Unified Maintenance is generally available (GA) . AlloyDB for PostgreSQL Feature AlloyDB now…",
-        "date": "2026年2月19日",
-        "date_iso": "2026-02-19",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
       }
     ],
     "oci": [
+      {
+        "title": "Import NVIDIA Nemotron 3 Super into OCI Generative AI",
+        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/nvidia-nemotron-3-super.htm",
+        "summary": "",
+        "date": "2026年3月11日",
+        "date_iso": "2026-03-11",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Import Qwen 3 Embedding models into OCI Generative AI",
+        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/qwen-3-embedding.htm",
+        "summary": "",
+        "date": "2026年3月11日",
+        "date_iso": "2026-03-11",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
       {
         "title": "New Regions for OpenAI gpt-oss Models in OCI Generative AI",
         "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/gpt-oss-regions.htm",
@@ -689,6 +709,16 @@
         "tag": "OCI"
       },
       {
+        "title": "Data Flow now Supports Logging For SQL Endpoints",
+        "link": "https://docs.oracle.com/iaas/releasenotes/data-flow/logging.htm",
+        "summary": "",
+        "date": "2026年2月24日",
+        "date_iso": "2026-02-24",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "OCI"
+      },
+      {
         "title": "HeatWave: DB System and Replication Channel Status",
         "link": "https://docs.oracle.com/iaas/releasenotes/mysql-database/TC-39968-dbsystem-status.htm",
         "summary": "",
@@ -739,16 +769,6 @@
         "tag": "OCI"
       },
       {
-        "title": "Version 5.1 of oci-fss-utils for File Storage In-Transit Encryption Is Available",
-        "link": "https://docs.oracle.com/iaas/releasenotes/filestorage/oci-fss-utils-v-5_1.htm",
-        "summary": "",
-        "date": "2026年2月17日",
-        "date_iso": "2026-02-17",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
         "title": "Oracle Data Safe Redwood Implementation",
         "link": "https://docs.oracle.com/iaas/releasenotes/data-safe/redwood.htm",
         "summary": "",
@@ -779,33 +799,13 @@
         "tag": "OCI"
       },
       {
-        "title": "Use DB_NOTIFICATIONS view to see information on maintenance status notifications",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-dedicated/adbd-db-notifications.htm",
+        "title": "Version 5.1 of oci-fss-utils for File Storage In-Transit Encryption Is Available",
+        "link": "https://docs.oracle.com/iaas/releasenotes/filestorage/oci-fss-utils-v-5_1.htm",
         "summary": "",
         "date": "2026年2月17日",
         "date_iso": "2026-02-17",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "DBMS_DCAT Package Support",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-dedicated/adbd-dbms-dcat.htm",
-        "summary": "",
-        "date": "2026年2月17日",
-        "date_iso": "2026-02-17",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "OCI"
-      },
-      {
-        "title": "Ability to choose Autonomous Recovery Service as the backup destination in Oracle Database@AWS",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-dedicated/adbd-ars-aws.htm",
-        "summary": "",
-        "date": "2026年2月17日",
-        "date_iso": "2026-02-17",
-        "category": "database-tag",
-        "cat_label": "データベース",
         "tag": "OCI"
       }
     ]
