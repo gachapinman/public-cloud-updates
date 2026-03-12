@@ -1,5 +1,5 @@
 {
-  "updated": "2026年03月12日 12:12 JST",
+  "updated": "2026年03月12日 14:04 JST",
   "clouds": {
     "azure": [
       {
@@ -439,11 +439,11 @@
       {
         "title": "March 08, 2026",
         "link": "https://docs.cloud.google.com/release-notes#March_08_2026",
-        "summary": "Container Optimized OS Change cos-125-19216-220-43 Kernel Docker Containerd GPU Drivers COS-6.12.68 v27.5.1 v2.1.5 See List Change Updated cos-gpu-installer to v2.6.0. Change Runtime sysctl changes:…",
+        "summary": "Dataproc Fixed Fixed CVEs CVE-2025-58057, CVE-2025-53864, CVE-2025-68161, CVE-2025-48924 (partial), and CVE-2025-33042. Upgraded hms-proxy to v0.0.78 to fix CVEs. Announcement New Dataproc on Compute…",
         "date": "2026年3月8日",
         "date_iso": "2026-03-08",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "GCP"
       },
       {
