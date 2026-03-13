@@ -1,7 +1,27 @@
 {
-  "updated": "2026年03月12日 19:24 JST",
+  "updated": "2026年03月13日 12:09 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Generally Available: Summary rules in Log Analytics workspace now support manual “Retry bin”",
+        "link": "https://azure.microsoft.com/updates?id=558656",
+        "summary": "Summary rules run batch aggregation inside your Log Analytics workspace and re-ingest the summarized results into a custom destination table. When a bin fails, that can create gaps in your summarized…",
+        "date": "2026年3月13日",
+        "date_iso": "2026-03-13",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Azure Storage Mover enables private data transfers from AWS S3 to Azure Blob",
+        "link": "https://azure.microsoft.com/updates?id=558651",
+        "summary": "Azure Storage Mover now enables direct, secure data migration from AWS S3 data in Virtual Private Cloud to Azure Blob Storage with private networking. This update removes the need for manual…",
+        "date": "2026年3月13日",
+        "date_iso": "2026-03-13",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
+        "tag": "AZURE"
+      },
       {
         "title": "Generally Available: Terraform, Bicep, Ansible support for elastic clusters on Azure Database for PostgreSQL",
         "link": "https://azure.microsoft.com/updates?id=558145",
@@ -181,26 +201,6 @@
         "category": "database-tag",
         "cat_label": "データベース",
         "tag": "AZURE"
-      },
-      {
-        "title": "Retirement: Windows Server Annual Channel (preview)",
-        "link": "https://azure.microsoft.com/updates?id=557224",
-        "summary": "Windows Server Annual Channel (Preview) on AKS will be retired on May 15, 2026, please transition to Long Term Servicing Channel (LTSC) by that date. We encourage you to transition to Long Term…",
-        "date": "2026年2月24日",
-        "date_iso": "2026-02-24",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: WAF Insights for Application Gateway",
-        "link": "https://azure.microsoft.com/updates?id=557416",
-        "summary": "Announcing the public preview of Application Gateway WAF Insights. Azure Application Gateway WAF now offers WAF Insights, providing an interactive view of logs and metrics. WAF Insights enables quick…",
-        "date": "2026年2月24日",
-        "date_iso": "2026-02-24",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AZURE"
       }
     ],
     "aws": [
@@ -275,6 +275,16 @@
         "tag": "AWS"
       },
       {
+        "title": "Amazon EC2 I7ie インスタンスが AWS アフリカ (ケープタウン) リージョンで利用可能に",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-ec-i-ie-instances-available-aws-africa/",
+        "summary": "",
+        "date": "2026年2月25日",
+        "date_iso": "2026-02-25",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
         "title": "AWS AppConfig が New Relic と統合され、自動ロールバックが可能に",
         "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/aws-appconfig-new-relic-for-automated-rollback/",
         "summary": "",
@@ -287,16 +297,6 @@
       {
         "title": "Amazon EC2 M8a インスタンスが AWS 欧州 (フランクフルト) リージョンで利用可能に",
         "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-ec2-m8a-instances-europe-frankfurt/",
-        "summary": "",
-        "date": "2026年2月25日",
-        "date_iso": "2026-02-25",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 I7ie インスタンスが AWS アフリカ (ケープタウン) リージョンで利用可能に",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-ec-i-ie-instances-available-aws-africa/",
         "summary": "",
         "date": "2026年2月25日",
         "date_iso": "2026-02-25",
@@ -407,13 +407,23 @@
     ],
     "gcp": [
       {
-        "title": "March 11, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#March_11_2026",
-        "summary": "Apigee hybrid Security Bug ID Description 471502899, 471173561 Security fixes for apigee-synchronizer . This addresses the following vulnerabilities: CVE-2025-48924 CVE-2025-67735 471502752,…",
-        "date": "2026年3月11日",
-        "date_iso": "2026-03-11",
+        "title": "March 12, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#March_12_2026",
+        "summary": "Apigee hybrid Fixed Fixed in this release Bug ID Description 490308770 Fixed malformed http_proxy and https_proxy strings in Helm templates that occurred when using authenticated outbound proxy…",
+        "date": "2026年3月12日",
+        "date_iso": "2026-03-12",
         "category": "security-tag",
         "cat_label": "セキュリティ",
+        "tag": "GCP"
+      },
+      {
+        "title": "March 11, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#March_11_2026",
+        "summary": "Apigee hybrid Announcement hybrid v1.15.2 On March 11, 2026 we released an updated version of the Apigee hybrid software, v1.15.2. For information on upgrading, see Upgrading Apigee hybrid to version…",
+        "date": "2026年3月11日",
+        "date_iso": "2026-03-11",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "GCP"
       },
       {
@@ -439,11 +449,11 @@
       {
         "title": "March 08, 2026",
         "link": "https://docs.cloud.google.com/release-notes#March_08_2026",
-        "summary": "Dataproc Fixed Fixed CVEs CVE-2025-58057, CVE-2025-53864, CVE-2025-68161, CVE-2025-48924 (partial), and CVE-2025-33042. Upgraded hms-proxy to v0.0.78 to fix CVEs. Announcement New Dataproc on Compute…",
+        "summary": "Container Optimized OS Change cos-125-19216-220-43 Kernel Docker Containerd GPU Drivers COS-6.12.68 v27.5.1 v2.1.5 See List Fixed Upgraded app-admin/node-problem-detector to v0.8.25. Change Runtime…",
         "date": "2026年3月8日",
         "date_iso": "2026-03-08",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "GCP"
       },
       {
@@ -579,7 +589,7 @@
       {
         "title": "February 22, 2026",
         "link": "https://docs.cloud.google.com/release-notes#February_22_2026",
-        "summary": "Google SecOps Change Publisher Agent Version 2.6.4 removes support for Python 3.7 from the remote agent. Google SecOps SOAR Announcement Release 6.3.77 is being rolled out to the first phase of…",
+        "summary": "Google SecOps Change Publisher Agent Version 2.6.4 removes support for Python 3.7 from the remote agent. Google SecOps SOAR Change Publisher Agent Version 2.6.4 removes support for Python 3.7 from…",
         "date": "2026年2月22日",
         "date_iso": "2026-02-22",
         "category": "compute-tag",
@@ -592,16 +602,6 @@
         "summary": "Google SecOps SOAR Announcement Release 6.3.76 is now available for all regions.",
         "date": "2026年2月21日",
         "date_iso": "2026-02-21",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "February 20, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#February_20_2026",
-        "summary": "Cloud Composer Deprecated The following Cloud Composer versions and builds have reached their end of support period : composer-3-airflow-2.9.3-build.16 and composer-2.11.3-*. Change The…",
-        "date": "2026年2月20日",
-        "date_iso": "2026-02-20",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
