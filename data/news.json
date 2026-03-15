@@ -1,5 +1,5 @@
 {
-  "updated": "2026年03月14日 19:01 JST",
+  "updated": "2026年03月15日 12:31 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "March 14, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#March_14_2026",
+        "summary": "Google SecOps SOAR Announcement Release 6.3.79 is now available for all regions.",
+        "date": "2026年3月14日",
+        "date_iso": "2026-03-14",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "March 13, 2026",
         "link": "https://docs.cloud.google.com/release-notes#March_13_2026",
         "summary": "Apigee UI Feature Manage environment-scoped Key Value Maps in the Apigee UI You can now view, add, edit, and delete environment-scoped Key Value Map (KVM) entries in the Apigee UI. For more…",
@@ -459,11 +469,11 @@
       {
         "title": "March 08, 2026",
         "link": "https://docs.cloud.google.com/release-notes#March_08_2026",
-        "summary": "Dataproc Announcement New Dataproc on Compute Engine subminor image versions : 2.1.110-debian11, 2.1.110-rocky8, 2.1.110-ubuntu20, 2.1.110-ubuntu20-arm 2.2.78-debian12, 2.2.78-rocky9,…",
+        "summary": "Container Optimized OS Change cos-125-19216-220-43 Kernel Docker Containerd GPU Drivers COS-6.12.68 v27.5.1 v2.1.5 See List Fixed Upgraded app-admin/node-problem-detector to v0.8.25. Change Runtime…",
         "date": "2026年3月8日",
         "date_iso": "2026-03-08",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "GCP"
       },
       {
@@ -594,16 +604,6 @@
         "date_iso": "2026-02-23",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "February 22, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#February_22_2026",
-        "summary": "Google SecOps Change Publisher Agent Version 2.6.4 removes support for Python 3.7 from the remote agent. Google SecOps SOAR Change Publisher Agent Version 2.6.4 removes support for Python 3.7 from…",
-        "date": "2026年2月22日",
-        "date_iso": "2026-02-22",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
         "tag": "GCP"
       }
     ],
