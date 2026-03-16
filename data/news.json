@@ -1,5 +1,5 @@
 {
-  "updated": "2026年03月15日 19:02 JST",
+  "updated": "2026年03月16日 12:34 JST",
   "clouds": {
     "azure": [
       {
@@ -407,9 +407,19 @@
     ],
     "gcp": [
       {
+        "title": "March 15, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#March_15_2026",
+        "summary": "Google SecOps SOAR Announcement Release 6.3.80 is being rolled out to the first phase of regions as listed here . This release contains internal and customer bug fixes.",
+        "date": "2026年3月15日",
+        "date_iso": "2026-03-15",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "March 14, 2026",
         "link": "https://docs.cloud.google.com/release-notes#March_14_2026",
-        "summary": "Google SecOps SOAR Announcement Release 6.3.79 is now available for all regions.",
+        "summary": "Google Cloud Contact Center as a Service Feature Advanced reporting is available in French Canadian Advanced reporting dashboards are now available in French Canadian. For more information about…",
         "date": "2026年3月14日",
         "date_iso": "2026-03-14",
         "category": "ai-tag",
@@ -594,16 +604,6 @@
         "date_iso": "2026-02-24",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "GCP"
-      },
-      {
-        "title": "February 23, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#February_23_2026",
-        "summary": "Access Approval Feature Secure Web Proxy is generally available (GA) . Access Transparency Feature Secure Web Proxy is generally available (GA) . AlloyDB for PostgreSQL Feature Gemini Cloud Assist…",
-        "date": "2026年2月23日",
-        "date_iso": "2026-02-23",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "GCP"
       }
     ],
