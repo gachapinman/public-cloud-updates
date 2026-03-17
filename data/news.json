@@ -1,7 +1,57 @@
 {
-  "updated": "2026年03月16日 19:39 JST",
+  "updated": "2026年03月17日 12:13 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Retirement: Support for Windows Server 2016 Marketplace images on Azure Batch pools will end on January 12, 2027",
+        "link": "https://azure.microsoft.com/updates?id=549077",
+        "summary": "Azure Batch periodically retires support for operating systems that reach end-of-life status. Support for Windows Server 2016 concluded on January 11, 2022, with extended support scheduled to end on…",
+        "date": "2026年3月17日",
+        "date_iso": "2026-03-17",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Retirement: Migration of Azure Batch Low-Priority VMs to Spot VMs in early March",
+        "link": "https://azure.microsoft.com/updates?id=543279",
+        "summary": "Azure Batch had retired Low-Priority VMs on September 30, 2025 and will begin a system-initiated migration to Spot VMs beginning March 1, 2026. This change aligns Batch with the broader Azure Spot…",
+        "date": "2026年3月17日",
+        "date_iso": "2026-03-17",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Entra ID-Based Access for Azure Blob Storage SFTP",
+        "link": "https://azure.microsoft.com/updates?id=558662",
+        "summary": "Microsoft Entra ID-based access for Azure Blob Storage SFTP is now in public preview. This new capability empowers you to use Microsoft Entra ID identities (including guest users via Entra External…",
+        "date": "2026年3月17日",
+        "date_iso": "2026-03-17",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Retirement: End of life reminder of NVv3 and NVv4-series Azure virtual machine in Azure Batch pools",
+        "link": "https://azure.microsoft.com/updates?id=516070",
+        "summary": "Microsoft Azure will retire support for NVv3 or NVv4-series VMs on September 30th, 2026, including NVv3 Series (NVIDIA Tesla M60 GPU): Standard_NV12s_v3, Standard_NV12hs_v3, Standard_NV24s_v3,…",
+        "date": "2026年3月17日",
+        "date_iso": "2026-03-17",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Retirement: Flatcar Container Linux for AKS (preview)",
+        "link": "https://azure.microsoft.com/updates?id=557929",
+        "summary": "Azure Kubernetes Service support for Flatcar Container Linux for AKS (preview) will be retired on June 8, 2026, transition to a supported alternative by that date. From now to June 7, 2026, you can…",
+        "date": "2026年3月17日",
+        "date_iso": "2026-03-17",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Generally Available: Summary rules in Log Analytics workspace now support manual “Retry bin”",
         "link": "https://azure.microsoft.com/updates?id=558656",
@@ -150,56 +200,6 @@
         "date_iso": "2026-02-28",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Restrict usage of user delegation SAS to an Entra ID identity",
-        "link": "https://azure.microsoft.com/updates?id=557694",
-        "summary": "We’re excited to announce the addition of enhanced secure authentication in Azure Storage that combines the flexibility of user-delegation shared access signature (SAS) with the user-bound access of…",
-        "date": "2026年2月27日",
-        "date_iso": "2026-02-27",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Secure ingestion and pod placement for Azure Monitor pipeline",
-        "link": "https://azure.microsoft.com/updates?id=552808",
-        "summary": "We are announcing several capabilities in public preview with Azure Monitor pipeline. Secure Ingress to Azure Monitor pipeline from external endpoints (TLS/mTLS) with Bring Your Own Certificates:…",
-        "date": "2026年2月26日",
-        "date_iso": "2026-02-26",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Azure SQL updates for late-February 2026",
-        "link": "https://azure.microsoft.com/updates?id=557517",
-        "summary": "In late-February 2026, the following updates and enhancements were made to Azure SQL: Introducing Search Database Objects in the MSSQL extension for Visual Studio Code. Instantly find tables, views,…",
-        "date": "2026年2月26日",
-        "date_iso": "2026-02-26",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Azure SQL updates for late-February 2026",
-        "link": "https://azure.microsoft.com/updates?id=557522",
-        "summary": "In late-February 2026, the following updates and enhancements were made to Azure SQL: Manage your databases directly from the dialog using actions such as Name, Rename, and Drop. Import a flat file…",
-        "date": "2026年2月26日",
-        "date_iso": "2026-02-26",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Geo‑redundant backups for Premium SSD v2 in Azure Database for PostgreSQL",
-        "link": "https://azure.microsoft.com/updates?id=557532",
-        "summary": "You can now configure geo‑redundant backups with Premium SSD v2 disks for Azure Database for PostgreSQL, giving you an additional layer of disaster recovery for mission‑critical workloads. With this…",
-        "date": "2026年2月26日",
-        "date_iso": "2026-02-26",
-        "category": "database-tag",
-        "cat_label": "データベース",
         "tag": "AZURE"
       }
     ],
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "March 16, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#March_16_2026",
+        "summary": "BigQuery Feature BigQuery now lets you configure a global default location . This setting is used if the location isn't set or can't be inferred from the request. You can set the default location at…",
+        "date": "2026年3月16日",
+        "date_iso": "2026-03-16",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "GCP"
+      },
+      {
         "title": "March 15, 2026",
         "link": "https://docs.cloud.google.com/release-notes#March_15_2026",
         "summary": "Google SecOps SOAR Announcement Release 6.3.80 is being rolled out to the first phase of regions as listed here . This release contains internal and customer bug fixes.",
@@ -595,16 +605,6 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
-      },
-      {
-        "title": "February 24, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#February_24_2026",
-        "summary": "Apigee X Announcement On February 24th, 2026, we released an updated version of Apigee (1-17-0-apigee-3). Note: Rollouts of this release began today and may take four or more business days to be…",
-        "date": "2026年2月24日",
-        "date_iso": "2026-02-24",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "GCP"
       }
     ],
     "oci": [
@@ -624,6 +624,36 @@
         "summary": "",
         "date": "2026年3月11日",
         "date_iso": "2026-03-11",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Single Sign-On Support for all Autonomous AI Database Tools",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-03-singlesignon-support.htm",
+        "summary": "",
+        "date": "2026年3月10日",
+        "date_iso": "2026-03-10",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Select AI for Property Graphs",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-03-SelectAI-for-PropertyGraphs.htm",
+        "summary": "",
+        "date": "2026年3月10日",
+        "date_iso": "2026-03-10",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Clone ADMIN Privileges in Autonomous AI Database",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-03-clone-admin-privileges.htm",
+        "summary": "",
+        "date": "2026年3月10日",
+        "date_iso": "2026-03-10",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "OCI"
@@ -699,6 +729,16 @@
         "tag": "OCI"
       },
       {
+        "title": "Data Transforms Enhancements",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-02-datatransforms-enhancements.htm",
+        "summary": "",
+        "date": "2026年2月24日",
+        "date_iso": "2026-02-24",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
         "title": "Unified Database Security Monitoring",
         "link": "https://docs.oracle.com/iaas/releasenotes/database-management/users-new.htm",
         "summary": "",
@@ -726,16 +766,6 @@
         "date_iso": "2026-02-24",
         "category": "database-tag",
         "cat_label": "データベース",
-        "tag": "OCI"
-      },
-      {
-        "title": "Data Transforms Enhancements",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-02-datatransforms-enhancements.htm",
-        "summary": "",
-        "date": "2026年2月24日",
-        "date_iso": "2026-02-24",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
         "tag": "OCI"
       },
       {
@@ -769,38 +799,8 @@
         "tag": "OCI"
       },
       {
-        "title": "Oracle Data Safe Redwood Implementation",
-        "link": "https://docs.oracle.com/iaas/releasenotes/data-safe/redwood.htm",
-        "summary": "",
-        "date": "2026年2月17日",
-        "date_iso": "2026-02-17",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Discover and Monitor Oracle Cloud Exadata Infrastructure",
-        "link": "https://docs.oracle.com/iaas/releasenotes/database-management/cloud-exadata-infrastructure.htm",
-        "summary": "",
-        "date": "2026年2月17日",
-        "date_iso": "2026-02-17",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "HeatWave: Maintenance-Disabled Window",
-        "link": "https://docs.oracle.com/iaas/releasenotes/mysql-database/TC-39549-maintenance-disabled-window.htm",
-        "summary": "",
-        "date": "2026年2月17日",
-        "date_iso": "2026-02-17",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Version 5.1 of oci-fss-utils for File Storage In-Transit Encryption Is Available",
-        "link": "https://docs.oracle.com/iaas/releasenotes/filestorage/oci-fss-utils-v-5_1.htm",
+        "title": "Multifactor Authentication in Autonomous AI Database",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-02-multifactor-authentication.htm",
         "summary": "",
         "date": "2026年2月17日",
         "date_iso": "2026-02-17",
