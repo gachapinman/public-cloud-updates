@@ -1,5 +1,5 @@
 {
-  "updated": "2026年03月17日 12:13 JST",
+  "updated": "2026年03月17日 14:10 JST",
   "clouds": {
     "azure": [
       {
@@ -429,7 +429,7 @@
       {
         "title": "March 14, 2026",
         "link": "https://docs.cloud.google.com/release-notes#March_14_2026",
-        "summary": "Google Cloud Contact Center as a Service Feature Advanced reporting is available in French Canadian Advanced reporting dashboards are now available in French Canadian. For more information about…",
+        "summary": "Google SecOps SOAR Announcement Release 6.3.79 is now available for all regions.",
         "date": "2026年3月14日",
         "date_iso": "2026-03-14",
         "category": "ai-tag",
@@ -439,7 +439,7 @@
       {
         "title": "March 13, 2026",
         "link": "https://docs.cloud.google.com/release-notes#March_13_2026",
-        "summary": "Apigee UI Feature Manage environment-scoped Key Value Maps in the Apigee UI You can now view, add, edit, and delete environment-scoped Key Value Map (KVM) entries in the Apigee UI. For more…",
+        "summary": "Apigee UI Announcement On March 13, 2026, we released an updated version of the Apigee UI. Feature Manage environment-scoped Key Value Maps in the Apigee UI You can now view, add, edit, and delete…",
         "date": "2026年3月13日",
         "date_iso": "2026-03-13",
         "category": "compute-tag",
@@ -449,21 +449,21 @@
       {
         "title": "March 12, 2026",
         "link": "https://docs.cloud.google.com/release-notes#March_12_2026",
-        "summary": "Apigee hybrid Fixed Fixed in this release Bug ID Description 490308770 Fixed malformed http_proxy and https_proxy strings in Helm templates that occurred when using authenticated outbound proxy…",
+        "summary": "Apigee hybrid Announcement hybrid 1.16.0-hotfix.1 On March 12, 2026 we released an update to Apigee hybrid 1.16.0-hotfix.1. Important: If your installation is already on Apigee hybrid v1.16.0, use…",
         "date": "2026年3月12日",
         "date_iso": "2026-03-12",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "GCP"
       },
       {
         "title": "March 11, 2026",
         "link": "https://docs.cloud.google.com/release-notes#March_11_2026",
-        "summary": "Apigee hybrid Announcement hybrid v1.15.2 On March 11, 2026 we released an updated version of the Apigee hybrid software, v1.15.2. For information on upgrading, see Upgrading Apigee hybrid to version…",
+        "summary": "Apigee hybrid Security Bug ID Description 471502899, 471173561 Security fixes for apigee-synchronizer . This addresses the following vulnerabilities: CVE-2025-48924 CVE-2025-67735 471502752,…",
         "date": "2026年3月11日",
         "date_iso": "2026-03-11",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
         "tag": "GCP"
       },
       {
@@ -489,7 +489,7 @@
       {
         "title": "March 08, 2026",
         "link": "https://docs.cloud.google.com/release-notes#March_08_2026",
-        "summary": "Container Optimized OS Change cos-125-19216-220-43 Kernel Docker Containerd GPU Drivers COS-6.12.68 v27.5.1 v2.1.5 See List Fixed Upgraded app-admin/node-problem-detector to v0.8.25. Change Runtime…",
+        "summary": "Container Optimized OS Change cos-125-19216-220-43 Kernel Docker Containerd GPU Drivers COS-6.12.68 v27.5.1 v2.1.5 See List Change Updated cos-gpu-installer to v2.6.0. Change Runtime sysctl changes:…",
         "date": "2026年3月8日",
         "date_iso": "2026-03-08",
         "category": "ai-tag",
@@ -499,7 +499,7 @@
       {
         "title": "March 07, 2026",
         "link": "https://docs.cloud.google.com/release-notes#March_07_2026",
-        "summary": "Google SecOps SOAR Announcement Release 6.3.78 is now available for all regions. Sensitive Data Protection Feature You can configure Sensitive Data Protection to detect specific metadata labels in…",
+        "summary": "Google SecOps SOAR Announcement Release 6.3.78 is now available for all regions.",
         "date": "2026年3月7日",
         "date_iso": "2026-03-07",
         "category": "ai-tag",
@@ -519,11 +519,11 @@
       {
         "title": "March 05, 2026",
         "link": "https://docs.cloud.google.com/release-notes#March_05_2026",
-        "summary": "AlloyDB for PostgreSQL Feature AlloyDB enhanced backups are generally available ( GA ). You can now select the Enhanced tier during cluster creation, manage your project-level backups with tiered…",
+        "summary": "Apigee Integrated Portal Announcement On March 5, 2026 we released a new version of the Apigee integrated portal. Feature You can now publish APIs using AsyncAPI documents to render documentation for…",
         "date": "2026年3月5日",
         "date_iso": "2026-03-05",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "GCP"
       },
       {
@@ -539,11 +539,11 @@
       {
         "title": "March 03, 2026",
         "link": "https://docs.cloud.google.com/release-notes#March_03_2026",
-        "summary": "AlloyDB for PostgreSQL Feature The following AlloyDB AI features are now generally available ( GA ): Auto vector embeddings provide a scalable, automated solution for managing the lifecycle of vector…",
+        "summary": "App Engine flexible environment Ruby Feature Support for Ruby 4.0 runtime is in Preview . App Engine standard environment Ruby Feature Support for Ruby 4.0 runtime is in Preview . Cloud Build Fixed…",
         "date": "2026年3月3日",
         "date_iso": "2026-03-03",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "GCP"
       },
       {
@@ -589,11 +589,11 @@
       {
         "title": "February 26, 2026",
         "link": "https://docs.cloud.google.com/release-notes#February_26_2026",
-        "summary": "Anthos Config Management Change Addressed multiple Common Vulnerabilities and Exposures (CVEs) by updating dependencies. Cloud Trace Feature For organizations, folders, and projects, you can now…",
+        "summary": "Cloud Trace Feature For organizations, folders, and projects, you can now configure default settings for observability buckets. Default settings let you specify the following for new observability…",
         "date": "2026年2月26日",
         "date_iso": "2026-02-26",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
         "tag": "GCP"
       },
       {
