@@ -1,5 +1,5 @@
 {
-  "updated": "2026年03月18日 12:21 JST",
+  "updated": "2026年03月18日 14:14 JST",
   "clouds": {
     "azure": [
       {
@@ -419,11 +419,11 @@
       {
         "title": "March 16, 2026",
         "link": "https://docs.cloud.google.com/release-notes#March_16_2026",
-        "summary": "BigQuery Feature BigQuery now lets you configure a global default location . This setting is used if the location isn't set or can't be inferred from the request. You can set the default location at…",
+        "summary": "AlloyDB for PostgreSQL Feature AlloyDB now supports the 2 vCPU C4A machine type ( c4a-highmem-2-lssd ), which is powered by Google Axion, Google's custom Arm-based processor. This expansion provides…",
         "date": "2026年3月16日",
         "date_iso": "2026-03-16",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
+        "category": "database-tag",
+        "cat_label": "データベース",
         "tag": "GCP"
       },
       {
