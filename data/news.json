@@ -1,7 +1,37 @@
 {
-  "updated": "2026年03月17日 19:35 JST",
+  "updated": "2026年03月18日 12:21 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Generally Available: Default Rule Set 2.2 and updates to ruleset support policy",
+        "link": "https://azure.microsoft.com/updates?id=558016",
+        "summary": "We are updating the managed ruleset support policy for Azure Web Application Firewall (WAF) following the general availability of Default Rule Set (DRS) 2.2 on Azure Application Gateway and Azure…",
+        "date": "2026年3月18日",
+        "date_iso": "2026-03-18",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Foundry Agent Service",
+        "link": "https://azure.microsoft.com/updates?id=557141",
+        "summary": "Announcing general availability (GA) of the next-gen Foundry Agent Service—a redesigned API format and runtime experience designed to help teams build and operate agents that can move from prototype…",
+        "date": "2026年3月18日",
+        "date_iso": "2026-03-18",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Retirement: Azure VMware Solution AV36P and AV52 node retirement on June 30, 2029",
+        "link": "https://azure.microsoft.com/updates?id=557094",
+        "summary": "Microsoft is announcing the retirement of the AV36P and AV52 Nodes on June 30, 2029. The terms of your current AV36P and AV52 Reserved Instance (RI) are not affected by this announcement. At this…",
+        "date": "2026年3月18日",
+        "date_iso": "2026-03-18",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AZURE"
+      },
       {
         "title": "Retirement: Support for Windows Server 2016 Marketplace images on Azure Batch pools will end on January 12, 2027",
         "link": "https://azure.microsoft.com/updates?id=549077",
@@ -171,36 +201,6 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: DCesv6, DCedsv6, ECesv6, and ECedsv6 confidential VMs",
-        "link": "https://azure.microsoft.com/updates?id=558051",
-        "summary": "The DCesv6, DCedsv6, ECesv6, and ECedsv6 series are Azure’s next generation of confidential Virtual Machines (VMs) based on 5th Gen Intel® Xeon® processors with Intel® Trust Domain Extensions (Intel®…",
-        "date": "2026年2月28日",
-        "date_iso": "2026-02-28",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Retirement: Managed NGINX Ingress with Application Routing Add-on Retiring November 2026",
-        "link": "https://azure.microsoft.com/updates?id=555839",
-        "summary": "The upstream Ingress-NGINX project is being deprecated and will stop receiving updates after March 2026. Microsoft will continue providing critical security patches through 30 November 2026, after…",
-        "date": "2026年2月28日",
-        "date_iso": "2026-02-28",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Azure Red Hat OpenShift is now available in Malaysia West, New Zealand North, and…",
-        "link": "https://azure.microsoft.com/updates?id=557897",
-        "summary": "Azure Red Hat OpenShift is now generally available in three additional Azure regions: Malaysia West, New Zealand North, and Mexico Central. This expansion strengthens Azure Red Hat OpenShift’s…",
-        "date": "2026年2月28日",
-        "date_iso": "2026-02-28",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
@@ -275,16 +275,6 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon EC2 I7ie インスタンスが AWS アフリカ (ケープタウン) リージョンで利用可能に",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-ec-i-ie-instances-available-aws-africa/",
-        "summary": "",
-        "date": "2026年2月25日",
-        "date_iso": "2026-02-25",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
         "title": "AWS AppConfig が New Relic と統合され、自動ロールバックが可能に",
         "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/aws-appconfig-new-relic-for-automated-rollback/",
         "summary": "",
@@ -297,6 +287,16 @@
       {
         "title": "Amazon EC2 M8a インスタンスが AWS 欧州 (フランクフルト) リージョンで利用可能に",
         "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-ec2-m8a-instances-europe-frankfurt/",
+        "summary": "",
+        "date": "2026年2月25日",
+        "date_iso": "2026-02-25",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 I7ie インスタンスが AWS アフリカ (ケープタウン) リージョンで利用可能に",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-ec-i-ie-instances-available-aws-africa/",
         "summary": "",
         "date": "2026年2月25日",
         "date_iso": "2026-02-25",
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "March 17, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#March_17_2026",
+        "summary": "Apigee Advanced API Security Announcement On March 17, 2026 we released an updated version of Advanced API Security abuse detection Feature VPC-SC support in abuse detection This release includes…",
+        "date": "2026年3月17日",
+        "date_iso": "2026-03-17",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "GCP"
+      },
+      {
         "title": "March 16, 2026",
         "link": "https://docs.cloud.google.com/release-notes#March_16_2026",
         "summary": "BigQuery Feature BigQuery now lets you configure a global default location . This setting is used if the location isn't set or can't be inferred from the request. You can set the default location at…",
@@ -429,7 +439,7 @@
       {
         "title": "March 14, 2026",
         "link": "https://docs.cloud.google.com/release-notes#March_14_2026",
-        "summary": "Google SecOps SOAR Announcement Release 6.3.79 is now available for all regions.",
+        "summary": "Google Cloud Contact Center as a Service Feature Advanced reporting is available in French Canadian Advanced reporting dashboards are now available in French Canadian. For more information about…",
         "date": "2026年3月14日",
         "date_iso": "2026-03-14",
         "category": "ai-tag",
@@ -439,7 +449,7 @@
       {
         "title": "March 13, 2026",
         "link": "https://docs.cloud.google.com/release-notes#March_13_2026",
-        "summary": "Apigee UI Announcement On March 13, 2026, we released an updated version of the Apigee UI. Feature Manage environment-scoped Key Value Maps in the Apigee UI You can now view, add, edit, and delete…",
+        "summary": "Apigee UI Feature Manage environment-scoped Key Value Maps in the Apigee UI You can now view, add, edit, and delete environment-scoped Key Value Map (KVM) entries in the Apigee UI. For more…",
         "date": "2026年3月13日",
         "date_iso": "2026-03-13",
         "category": "compute-tag",
@@ -449,21 +459,21 @@
       {
         "title": "March 12, 2026",
         "link": "https://docs.cloud.google.com/release-notes#March_12_2026",
-        "summary": "Apigee hybrid Announcement hybrid 1.16.0-hotfix.1 On March 12, 2026 we released an update to Apigee hybrid 1.16.0-hotfix.1. Important: If your installation is already on Apigee hybrid v1.16.0, use…",
+        "summary": "Apigee hybrid Fixed Fixed in this release Bug ID Description 490308770 Fixed malformed http_proxy and https_proxy strings in Helm templates that occurred when using authenticated outbound proxy…",
         "date": "2026年3月12日",
         "date_iso": "2026-03-12",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
         "tag": "GCP"
       },
       {
         "title": "March 11, 2026",
         "link": "https://docs.cloud.google.com/release-notes#March_11_2026",
-        "summary": "Apigee hybrid Security Bug ID Description 471502899, 471173561 Security fixes for apigee-synchronizer . This addresses the following vulnerabilities: CVE-2025-48924 CVE-2025-67735 471502752,…",
+        "summary": "Apigee hybrid Announcement hybrid v1.15.2 On March 11, 2026 we released an updated version of the Apigee hybrid software, v1.15.2. For information on upgrading, see Upgrading Apigee hybrid to version…",
         "date": "2026年3月11日",
         "date_iso": "2026-03-11",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "GCP"
       },
       {
@@ -489,7 +499,7 @@
       {
         "title": "March 08, 2026",
         "link": "https://docs.cloud.google.com/release-notes#March_08_2026",
-        "summary": "Container Optimized OS Change cos-125-19216-220-43 Kernel Docker Containerd GPU Drivers COS-6.12.68 v27.5.1 v2.1.5 See List Change Updated cos-gpu-installer to v2.6.0. Change Runtime sysctl changes:…",
+        "summary": "Container Optimized OS Change cos-125-19216-220-43 Kernel Docker Containerd GPU Drivers COS-6.12.68 v27.5.1 v2.1.5 See List Fixed Upgraded app-admin/node-problem-detector to v0.8.25. Change Runtime…",
         "date": "2026年3月8日",
         "date_iso": "2026-03-08",
         "category": "ai-tag",
@@ -499,7 +509,7 @@
       {
         "title": "March 07, 2026",
         "link": "https://docs.cloud.google.com/release-notes#March_07_2026",
-        "summary": "Google SecOps SOAR Announcement Release 6.3.78 is now available for all regions.",
+        "summary": "Google SecOps SOAR Announcement Release 6.3.78 is now available for all regions. Sensitive Data Protection Feature You can configure Sensitive Data Protection to detect specific metadata labels in…",
         "date": "2026年3月7日",
         "date_iso": "2026-03-07",
         "category": "ai-tag",
@@ -519,11 +529,11 @@
       {
         "title": "March 05, 2026",
         "link": "https://docs.cloud.google.com/release-notes#March_05_2026",
-        "summary": "Apigee Integrated Portal Announcement On March 5, 2026 we released a new version of the Apigee integrated portal. Feature You can now publish APIs using AsyncAPI documents to render documentation for…",
+        "summary": "AlloyDB for PostgreSQL Feature AlloyDB enhanced backups are generally available ( GA ). You can now select the Enhanced tier during cluster creation, manage your project-level backups with tiered…",
         "date": "2026年3月5日",
         "date_iso": "2026-03-05",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "GCP"
       },
       {
@@ -539,11 +549,11 @@
       {
         "title": "March 03, 2026",
         "link": "https://docs.cloud.google.com/release-notes#March_03_2026",
-        "summary": "App Engine flexible environment Ruby Feature Support for Ruby 4.0 runtime is in Preview . App Engine standard environment Ruby Feature Support for Ruby 4.0 runtime is in Preview . Cloud Build Fixed…",
+        "summary": "AlloyDB for PostgreSQL Feature The following AlloyDB AI features are now generally available ( GA ): Auto vector embeddings provide a scalable, automated solution for managing the lifecycle of vector…",
         "date": "2026年3月3日",
         "date_iso": "2026-03-03",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "GCP"
       },
       {
@@ -589,25 +599,55 @@
       {
         "title": "February 26, 2026",
         "link": "https://docs.cloud.google.com/release-notes#February_26_2026",
-        "summary": "Cloud Trace Feature For organizations, folders, and projects, you can now configure default settings for observability buckets. Default settings let you specify the following for new observability…",
+        "summary": "Anthos Config Management Change Addressed multiple Common Vulnerabilities and Exposures (CVEs) by updating dependencies. Cloud Trace Feature For organizations, folders, and projects, you can now…",
         "date": "2026年2月26日",
         "date_iso": "2026-02-26",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
-        "tag": "GCP"
-      },
-      {
-        "title": "February 25, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#February_25_2026",
-        "summary": "Access Approval Feature Vertex AI Agent Engine is generally available (GA) . BigQuery Change Effective June 1, 2026 , BigQuery will limit legacy SQL use. This depends on whether your organization or…",
-        "date": "2026年2月25日",
-        "date_iso": "2026-02-25",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "GCP"
       }
     ],
     "oci": [
+      {
+        "title": "Support for Kubernetes version 1.35.0 in a preview release of Kubernetes Engine",
+        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-K8s-1-35-0-preview-support-Release-Note.htm",
+        "summary": "",
+        "date": "2026年3月17日",
+        "date_iso": "2026-03-17",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "OCI"
+      },
+      {
+        "title": "Oracle JDK 26 - Released March 17, 2026",
+        "link": "https://docs.oracle.com/iaas/releasenotes/java-management/jdk-26-release-note.htm",
+        "summary": "",
+        "date": "2026年3月17日",
+        "date_iso": "2026-03-17",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Exadata Cost Management in Ops Insights",
+        "link": "https://docs.oracle.com/iaas/releasenotes/operations-insights/exadata-cost-management.htm",
+        "summary": "",
+        "date": "2026年3月16日",
+        "date_iso": "2026-03-16",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Oracle Autonomous AI Database on Dedicated Exadata Infrastructure on Oracle Database@Azure",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-dedicated/adbd-adb-in-azure.htm",
+        "summary": "",
+        "date": "2026年3月12日",
+        "date_iso": "2026-03-12",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
       {
         "title": "Import NVIDIA Nemotron 3 Super into OCI Generative AI",
         "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/nvidia-nemotron-3-super.htm",
@@ -624,6 +664,16 @@
         "summary": "",
         "date": "2026年3月11日",
         "date_iso": "2026-03-11",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Integrate generative AI capabilities into Python workflows",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-dedicated/adbd-genai-pythonworkflow.htm",
+        "summary": "",
+        "date": "2026年3月10日",
+        "date_iso": "2026-03-10",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "OCI"
@@ -679,6 +729,16 @@
         "tag": "OCI"
       },
       {
+        "title": "DBMS_CLOUD_FUNCTION Package, with support for External Procedures",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-dedicated/adbd-extproc-dbmscloud.htm",
+        "summary": "",
+        "date": "2026年3月3日",
+        "date_iso": "2026-03-03",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "OCI"
+      },
+      {
         "title": "Private Endpoints Available in EU Sovereign Central (Frankfurt) Region for OCI Generative AI",
         "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/private-endpoint-OC19.htm",
         "summary": "",
@@ -729,16 +789,6 @@
         "tag": "OCI"
       },
       {
-        "title": "Data Transforms Enhancements",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-02-datatransforms-enhancements.htm",
-        "summary": "",
-        "date": "2026年2月24日",
-        "date_iso": "2026-02-24",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
         "title": "Unified Database Security Monitoring",
         "link": "https://docs.oracle.com/iaas/releasenotes/database-management/users-new.htm",
         "summary": "",
@@ -756,56 +806,6 @@
         "date_iso": "2026-02-24",
         "category": "database-tag",
         "cat_label": "データベース",
-        "tag": "OCI"
-      },
-      {
-        "title": "HeatWave: DB System and Replication Channel Status",
-        "link": "https://docs.oracle.com/iaas/releasenotes/mysql-database/TC-39968-dbsystem-status.htm",
-        "summary": "",
-        "date": "2026年2月24日",
-        "date_iso": "2026-02-24",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "OCI"
-      },
-      {
-        "title": "New Region in Casablanca, Morroco",
-        "link": "https://docs.oracle.com/iaas/releasenotes/oci/new-region-casablanca-1.htm",
-        "summary": "",
-        "date": "2026年2月20日",
-        "date_iso": "2026-02-20",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "HeatWave: Near-Zero Downtime Maintenance",
-        "link": "https://docs.oracle.com/iaas/releasenotes/mysql-database/TC-40089-near-zero-downtime-maintenance.htm",
-        "summary": "",
-        "date": "2026年2月18日",
-        "date_iso": "2026-02-18",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "ZPR Supports Traffic Between Peered VCNs",
-        "link": "https://docs.oracle.com/iaas/releasenotes/multiple/zpr-cross-vcn-npa.htm",
-        "summary": "",
-        "date": "2026年2月18日",
-        "date_iso": "2026-02-18",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Multifactor Authentication in Autonomous AI Database",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-02-multifactor-authentication.htm",
-        "summary": "",
-        "date": "2026年2月17日",
-        "date_iso": "2026-02-17",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "OCI"
       }
     ]
