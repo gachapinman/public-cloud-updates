@@ -1,7 +1,47 @@
 {
-  "updated": "2026年03月19日 19:25 JST",
+  "updated": "2026年03月20日 12:10 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Public Preview: Azure Databricks OneLake Catalog Federation",
+        "link": "https://azure.microsoft.com/updates?id=558927",
+        "summary": "You can now enable OneLake catalog federation in Azure Databricks to query Microsoft Fabric OneLake data without copying or moving it. By connecting Unity Catalog to a OneLake catalog, Azure…",
+        "date": "2026年3月20日",
+        "date_iso": "2026-03-20",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Retirement: HC-series Azure Virtual Machines will be retired on May 31, 2027",
+        "link": "https://azure.microsoft.com/updates?id=548543",
+        "summary": "On May 31, 2027, Microsoft Azure will retire the following HC-series virtual machine (VMs) sizes: Standard_HC44rs, Standard_HC44-16rs, and Standard_HC44-32rs. To ensure continuity and improved…",
+        "date": "2026年3月20日",
+        "date_iso": "2026-03-20",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Retirement: HBv2-series Azure Virtual Machines will be retired on May 31, 2027",
+        "link": "https://azure.microsoft.com/updates?id=548525",
+        "summary": "On May 31, 2027, Microsoft Azure will retire the following HBv2-series virtual machine (VMs) sizes: Standard_HB120rs_v2, Standard_HB120-96rs_v2, Standard_HB120-64rs_v2, Standard_HB120-32rs_v2, and…",
+        "date": "2026年3月20日",
+        "date_iso": "2026-03-20",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Retirement: NP-series Azure Virtual Machines will be retired on May 31, 2027",
+        "link": "https://azure.microsoft.com/updates?id=548497",
+        "summary": "On May 31, 2027, Microsoft Azure will retire the follow NP-series virtual machine (VMs) sizes: Standard_NP10s, Standard_NP20s, and Standard_NP40s. To ensure continuity and optimal performance, we…",
+        "date": "2026年3月20日",
+        "date_iso": "2026-03-20",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AZURE"
+      },
       {
         "title": "Retirement: Emissions Impact Dashboard for Azure",
         "link": "https://azure.microsoft.com/updates?id=558278",
@@ -161,46 +201,6 @@
         "category": "security-tag",
         "cat_label": "セキュリティ",
         "tag": "AZURE"
-      },
-      {
-        "title": "Retirement: End of life reminder of NVv3 and NVv4-series Azure virtual machine in Azure Batch pools",
-        "link": "https://azure.microsoft.com/updates?id=516070",
-        "summary": "Microsoft Azure will retire support for NVv3 or NVv4-series VMs on September 30th, 2026, including NVv3 Series (NVIDIA Tesla M60 GPU): Standard_NV12s_v3, Standard_NV12hs_v3, Standard_NV24s_v3,…",
-        "date": "2026年3月17日",
-        "date_iso": "2026-03-17",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Retirement: Flatcar Container Linux for AKS (preview)",
-        "link": "https://azure.microsoft.com/updates?id=557929",
-        "summary": "Azure Kubernetes Service support for Flatcar Container Linux for AKS (preview) will be retired on June 8, 2026, transition to a supported alternative by that date. From now to June 7, 2026, you can…",
-        "date": "2026年3月17日",
-        "date_iso": "2026-03-17",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Summary rules in Log Analytics workspace now support manual “Retry bin”",
-        "link": "https://azure.microsoft.com/updates?id=558656",
-        "summary": "Summary rules run batch aggregation inside your Log Analytics workspace and re-ingest the summarized results into a custom destination table. When a bin fails, that can create gaps in your summarized…",
-        "date": "2026年3月13日",
-        "date_iso": "2026-03-13",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Azure Storage Mover enables private data transfers from AWS S3 to Azure Blob",
-        "link": "https://azure.microsoft.com/updates?id=558651",
-        "summary": "Azure Storage Mover now enables direct, secure data migration from AWS S3 data in Virtual Private Cloud to Azure Blob Storage with private networking. This update removes the need for manual…",
-        "date": "2026年3月13日",
-        "date_iso": "2026-03-13",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
-        "tag": "AZURE"
       }
     ],
     "aws": [
@@ -275,6 +275,16 @@
         "tag": "AWS"
       },
       {
+        "title": "Amazon EC2 I7ie インスタンスが AWS アフリカ (ケープタウン) リージョンで利用可能に",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-ec-i-ie-instances-available-aws-africa/",
+        "summary": "",
+        "date": "2026年2月25日",
+        "date_iso": "2026-02-25",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
         "title": "AWS AppConfig が New Relic と統合され、自動ロールバックが可能に",
         "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/aws-appconfig-new-relic-for-automated-rollback/",
         "summary": "",
@@ -287,16 +297,6 @@
       {
         "title": "Amazon EC2 M8a インスタンスが AWS 欧州 (フランクフルト) リージョンで利用可能に",
         "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-ec2-m8a-instances-europe-frankfurt/",
-        "summary": "",
-        "date": "2026年2月25日",
-        "date_iso": "2026-02-25",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 I7ie インスタンスが AWS アフリカ (ケープタウン) リージョンで利用可能に",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-ec-i-ie-instances-available-aws-africa/",
         "summary": "",
         "date": "2026年2月25日",
         "date_iso": "2026-02-25",
@@ -609,6 +609,16 @@
     ],
     "oci": [
       {
+        "title": "Kubernetes Engine support for provisioning a PVC on a new Lustre file system",
+        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-Storage-on-new-Lustre-filesystem.htm",
+        "summary": "",
+        "date": "2026年3月19日",
+        "date_iso": "2026-03-19",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "OCI"
+      },
+      {
         "title": "Oracle Cloud VMware Solution Supports Broadcom’s BYOL Model",
         "link": "https://docs.oracle.com/iaas/releasenotes/oracle-cloud-vmware-solution/byol.htm",
         "summary": "",
@@ -796,16 +806,6 @@
         "date_iso": "2026-02-25",
         "category": "container-tag",
         "cat_label": "コンテナ",
-        "tag": "OCI"
-      },
-      {
-        "title": "Unified Database Security Monitoring",
-        "link": "https://docs.oracle.com/iaas/releasenotes/database-management/users-new.htm",
-        "summary": "",
-        "date": "2026年2月24日",
-        "date_iso": "2026-02-24",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
         "tag": "OCI"
       }
     ]
