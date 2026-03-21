@@ -1,7 +1,37 @@
 {
-  "updated": "2026年03月20日 19:22 JST",
+  "updated": "2026年03月21日 11:48 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Public Preview: Azure SQL updates for mid-March 2026",
+        "link": "https://azure.microsoft.com/updates?id=558116",
+        "summary": "In mid-March 2026, the following updates and enhancements were made to Azure SQL: Reduce the consumption of storage space, I/O, and memory and improve performance without investing time and effort…",
+        "date": "2026年3月21日",
+        "date_iso": "2026-03-21",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Retirement: Azure SQL Elastic query - Shard_Map_Manager mode",
+        "link": "https://azure.microsoft.com/updates?id=558086",
+        "summary": "Starting March 31, 2027 Elastic query using Shard_Map_Manager external data source type reaches end of support.Existing workloads can continue to run using Azure SQL Elastic query - Shard_Map_Manager…",
+        "date": "2026年3月21日",
+        "date_iso": "2026-03-21",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Retirement: Azure Sphere will be retired on July 31, 2031",
+        "link": "https://azure.microsoft.com/updates?id=557123",
+        "summary": "The Azure Sphere service is retiring and will stop supporting all customer application, OS, bug and security updates, along with DAA certificate issuance, on July 31, 2031. Why is this happening?…",
+        "date": "2026年3月21日",
+        "date_iso": "2026-03-21",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AZURE"
+      },
       {
         "title": "Public Preview: Azure Databricks OneLake Catalog Federation",
         "link": "https://azure.microsoft.com/updates?id=558927",
@@ -171,36 +201,6 @@
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "AZURE"
-      },
-      {
-        "title": "Retirement: Support for Windows Server 2016 Marketplace images on Azure Batch pools will end on January 12, 2027",
-        "link": "https://azure.microsoft.com/updates?id=549077",
-        "summary": "Azure Batch periodically retires support for operating systems that reach end-of-life status. Support for Windows Server 2016 concluded on January 11, 2022, with extended support scheduled to end on…",
-        "date": "2026年3月17日",
-        "date_iso": "2026-03-17",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Retirement: Migration of Azure Batch Low-Priority VMs to Spot VMs in early March",
-        "link": "https://azure.microsoft.com/updates?id=543279",
-        "summary": "Azure Batch had retired Low-Priority VMs on September 30, 2025 and will begin a system-initiated migration to Spot VMs beginning March 1, 2026. This change aligns Batch with the broader Azure Spot…",
-        "date": "2026年3月17日",
-        "date_iso": "2026-03-17",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Entra ID-Based Access for Azure Blob Storage SFTP",
-        "link": "https://azure.microsoft.com/updates?id=558662",
-        "summary": "Microsoft Entra ID-based access for Azure Blob Storage SFTP is now in public preview. This new capability empowers you to use Microsoft Entra ID identities (including guest users via Entra External…",
-        "date": "2026年3月17日",
-        "date_iso": "2026-03-17",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AZURE"
       }
     ],
     "aws": [
@@ -275,16 +275,6 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon EC2 I7ie インスタンスが AWS アフリカ (ケープタウン) リージョンで利用可能に",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-ec-i-ie-instances-available-aws-africa/",
-        "summary": "",
-        "date": "2026年2月25日",
-        "date_iso": "2026-02-25",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
         "title": "AWS AppConfig が New Relic と統合され、自動ロールバックが可能に",
         "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/aws-appconfig-new-relic-for-automated-rollback/",
         "summary": "",
@@ -297,6 +287,16 @@
       {
         "title": "Amazon EC2 M8a インスタンスが AWS 欧州 (フランクフルト) リージョンで利用可能に",
         "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-ec2-m8a-instances-europe-frankfurt/",
+        "summary": "",
+        "date": "2026年2月25日",
+        "date_iso": "2026-02-25",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 I7ie インスタンスが AWS アフリカ (ケープタウン) リージョンで利用可能に",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-ec-i-ie-instances-available-aws-africa/",
         "summary": "",
         "date": "2026年2月25日",
         "date_iso": "2026-02-25",
@@ -406,6 +406,26 @@
       }
     ],
     "gcp": [
+      {
+        "title": "March 20, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#March_20_2026",
+        "summary": "Dataproc Announcement New Serverless for Apache Spark runtime versions : 1.2.76 2.2.76 2.3.29 3.0.12 Google SecOps Feature View Triage and Investigation Agent (TIN) results in the Case Summary This…",
+        "date": "2026年3月20日",
+        "date_iso": "2026-03-20",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "GCP"
+      },
+      {
+        "title": "March 19, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#March_19_2026",
+        "summary": "Apigee X Announcement On March 19th, 2026, we began maintenance updates of Apigee instances configured for maintenance windows . If you set a preferred window for maintenance for your instance, and…",
+        "date": "2026年3月19日",
+        "date_iso": "2026-03-19",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
       {
         "title": "March 18, 2026",
         "link": "https://docs.cloud.google.com/release-notes#March_18_2026",
@@ -519,7 +539,7 @@
       {
         "title": "March 07, 2026",
         "link": "https://docs.cloud.google.com/release-notes#March_07_2026",
-        "summary": "Google SecOps SOAR Announcement Release 6.3.78 is now available for all regions. Sensitive Data Protection Feature You can configure Sensitive Data Protection to detect specific metadata labels in…",
+        "summary": "Container Optimized OS Change cos-125-19216-220-39 Kernel Docker Containerd GPU Drivers COS-6.12.68 v27.5.1 v2.1.5 See List Fixed Fixed a kernel bug which could cause traffic drops after NIC resets.…",
         "date": "2026年3月7日",
         "date_iso": "2026-03-07",
         "category": "ai-tag",
@@ -582,26 +602,6 @@
         "summary": "Google SecOps SOAR Announcement Release 6.3.78 is being rolled out to the first phase of regions as listed here . This release contains internal and customer bug fixes.",
         "date": "2026年3月1日",
         "date_iso": "2026-03-01",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "February 28, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#February_28_2026",
-        "summary": "Google SecOps SOAR Announcement Release 6.3.77 is now available for all regions.",
-        "date": "2026年2月28日",
-        "date_iso": "2026-02-28",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "February 27, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#February_27_2026",
-        "summary": "App Engine flexible environment PHP Feature Support for the PHP 8.5 runtime is in General Availability . App Engine standard environment PHP Feature Support for the PHP 8.5 runtime is in General…",
-        "date": "2026年2月27日",
-        "date_iso": "2026-02-27",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
@@ -684,6 +684,16 @@
         "summary": "",
         "date": "2026年3月11日",
         "date_iso": "2026-03-11",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Version 5.3 of oci-fss-utils for File Storage In-Transit Encryption Is Available",
+        "link": "https://docs.oracle.com/iaas/releasenotes/filestorage/oci-fss-utils-v-5_3.htm",
+        "summary": "",
+        "date": "2026年3月10日",
+        "date_iso": "2026-03-10",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "OCI"
@@ -796,16 +806,6 @@
         "date_iso": "2026-02-25",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Kubernetes Engine support for frontend SSL certificate management using the OCI Certificates service",
-        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-LB-OCI-Certificates-service-integration-Release-Note.htm",
-        "summary": "",
-        "date": "2026年2月25日",
-        "date_iso": "2026-02-25",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
         "tag": "OCI"
       }
     ]
