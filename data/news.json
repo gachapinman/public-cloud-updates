@@ -1,5 +1,5 @@
 {
-  "updated": "2026年03月23日 19:37 JST",
+  "updated": "2026年03月24日 12:14 JST",
   "clouds": {
     "azure": [
       {
@@ -275,6 +275,16 @@
         "tag": "AWS"
       },
       {
+        "title": "Amazon EC2 I7ie インスタンスが AWS アフリカ (ケープタウン) リージョンで利用可能に",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-ec-i-ie-instances-available-aws-africa/",
+        "summary": "",
+        "date": "2026年2月25日",
+        "date_iso": "2026-02-25",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
         "title": "AWS AppConfig が New Relic と統合され、自動ロールバックが可能に",
         "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/aws-appconfig-new-relic-for-automated-rollback/",
         "summary": "",
@@ -287,16 +297,6 @@
       {
         "title": "Amazon EC2 M8a インスタンスが AWS 欧州 (フランクフルト) リージョンで利用可能に",
         "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-ec2-m8a-instances-europe-frankfurt/",
-        "summary": "",
-        "date": "2026年2月25日",
-        "date_iso": "2026-02-25",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 I7ie インスタンスが AWS アフリカ (ケープタウン) リージョンで利用可能に",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-ec-i-ie-instances-available-aws-africa/",
         "summary": "",
         "date": "2026年2月25日",
         "date_iso": "2026-02-25",
@@ -407,9 +407,19 @@
     ],
     "gcp": [
       {
+        "title": "March 23, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#March_23_2026",
+        "summary": "BigQuery Feature You can clean, transform, and enrich data from files in Cloud Storage and Google Drive in your BigQuery data preparations. For more information, see Prepare data with Gemini . This…",
+        "date": "2026年3月23日",
+        "date_iso": "2026-03-23",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "March 20, 2026",
         "link": "https://docs.cloud.google.com/release-notes#March_20_2026",
-        "summary": "Dataproc Announcement New Serverless for Apache Spark runtime versions : 1.2.76 2.2.76 2.3.29 3.0.12 Google SecOps Feature View Triage and Investigation Agent (TIN) results in the Case Summary This…",
+        "summary": "Dataproc Announcement New Serverless for Apache Spark runtime versions : 1.2.76 2.2.76 2.3.29 3.0.12 Google Distributed Cloud (software only) for VMware Change Important: Mandatory flag for admin…",
         "date": "2026年3月20日",
         "date_iso": "2026-03-20",
         "category": "compute-tag",
@@ -595,16 +605,6 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
-      },
-      {
-        "title": "March 01, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#March_01_2026",
-        "summary": "Google SecOps SOAR Announcement Release 6.3.78 is being rolled out to the first phase of regions as listed here . This release contains internal and customer bug fixes.",
-        "date": "2026年3月1日",
-        "date_iso": "2026-03-01",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
       }
     ],
     "oci": [
@@ -616,6 +616,16 @@
         "date_iso": "2026-03-19",
         "category": "container-tag",
         "cat_label": "コンテナ",
+        "tag": "OCI"
+      },
+      {
+        "title": "VCN-Native Pod Networking CNI plugin version 3.2.0 now available",
+        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-VCN-native-CNI-v320-Release-Notes.htm",
+        "summary": "",
+        "date": "2026年3月18日",
+        "date_iso": "2026-03-18",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "OCI"
       },
       {
@@ -794,16 +804,6 @@
         "summary": "",
         "date": "2026年2月26日",
         "date_iso": "2026-02-26",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Kubernetes Engine support for enabling instant failover for network load balancers",
-        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-NLB-instant-failover-release-note.htm",
-        "summary": "",
-        "date": "2026年2月25日",
-        "date_iso": "2026-02-25",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "OCI"
