@@ -1,5 +1,5 @@
 {
-  "updated": "2026年03月24日 12:14 JST",
+  "updated": "2026年03月24日 14:12 JST",
   "clouds": {
     "azure": [
       {
@@ -419,11 +419,11 @@
       {
         "title": "March 20, 2026",
         "link": "https://docs.cloud.google.com/release-notes#March_20_2026",
-        "summary": "Dataproc Announcement New Serverless for Apache Spark runtime versions : 1.2.76 2.2.76 2.3.29 3.0.12 Google Distributed Cloud (software only) for VMware Change Important: Mandatory flag for admin…",
+        "summary": "AlloyDB for PostgreSQL Feature AlloyDB lets you monitor node-level metrics in Google Cloud console and Metrics Explorer to provide detailed troubleshooting guidance for read pools and to identify…",
         "date": "2026年3月20日",
         "date_iso": "2026-03-20",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "GCP"
       },
       {
