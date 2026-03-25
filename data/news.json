@@ -1,7 +1,107 @@
 {
-  "updated": "2026年03月24日 19:36 JST",
+  "updated": "2026年03月25日 12:19 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Generally Available: Container network metrics filtering for AKS",
+        "link": "https://azure.microsoft.com/updates?id=557902",
+        "summary": "Network observability can generate large volumes of metrics, making it difficult for teams to focus on data that is operationally relevant. Container network metrics filtering in Azure Container…",
+        "date": "2026年3月25日",
+        "date_iso": "2026-03-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: AI Agent for container networking troubleshooting",
+        "link": "https://azure.microsoft.com/updates?id=557887",
+        "summary": "Troubleshooting Kubernetes networking issues is often slowed by logs and metrics scattered across multiple tools, forcing engineers to manually correlate signals during incidents. The container…",
+        "date": "2026年3月25日",
+        "date_iso": "2026-03-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: AKS managed GPU metrics in Azure Monitor",
+        "link": "https://azure.microsoft.com/updates?id=557882",
+        "summary": "Teams running GPU‑backed workloads often lack integrated visibility into GPU utilization alongside Kubernetes metrics. AKS managed GPU metrics automatically expose performance and utilization data…",
+        "date": "2026年3月25日",
+        "date_iso": "2026-03-25",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Cross-cluster networking in Azure Kubernetes Fleet Manager",
+        "link": "https://azure.microsoft.com/updates?id=557877",
+        "summary": "Organizations running applications across multiple Kubernetes clusters often face challenges with performance, global service discovery, and observability due to the complexity of distributed…",
+        "date": "2026年3月25日",
+        "date_iso": "2026-03-25",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Azure Container Storage v2.1.0 now with Elastic SAN integration and on demand…",
+        "link": "https://azure.microsoft.com/updates?id=557912",
+        "summary": "Containerized workloads often require higher and more consistent storage performance without managing large numbers of individual disks. Azure Container Storage integration with Elastic SAN allows…",
+        "date": "2026年3月25日",
+        "date_iso": "2026-03-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Container network logs in AKS",
+        "link": "https://azure.microsoft.com/updates?id=557892",
+        "summary": "Networking issues in Kubernetes environments can be difficult to diagnose due to limited visibility into traffic flows and insufficient context around failures. Container network logs in Azure…",
+        "date": "2026年3月25日",
+        "date_iso": "2026-03-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Azure Monitor Prometheus community recommended alerts for Azure Arc-enabled Kubernetes",
+        "link": "https://azure.microsoft.com/updates?id=558825",
+        "summary": "Azure Monitor now offers one-click enablement of Prometheus recommended alerts directly in the Azure Portal for Azure Arc-enabled Kubernetes clusters. These alerts, based on enhanced Prometheus…",
+        "date": "2026年3月25日",
+        "date_iso": "2026-03-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Application routing with meshless Istio in AKS",
+        "link": "https://azure.microsoft.com/updates?id=557927",
+        "summary": "Following the deprecation of ingress‑nginx, Kubernetes operators need a supported, standards‑aligned migration path for ingress without the complexity of a full service mesh. Application Routing with…",
+        "date": "2026年3月25日",
+        "date_iso": "2026-03-25",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Microsoft Azure Kubernetes Application Network",
+        "link": "https://azure.microsoft.com/updates?id=557922",
+        "summary": "As Kubernetes environments scale across regions and clusters, IP‑based networking becomes difficult to manage and provides limited application‑level visibility and security controls. Azure Kubernetes…",
+        "date": "2026年3月25日",
+        "date_iso": "2026-03-25",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Ingest OTLP data into Azure Monitor with the OpenTelemetry Collector",
+        "link": "https://azure.microsoft.com/updates?id=559273",
+        "summary": "Azure Monitor now supports native ingestion of OpenTelemetry Protocol (OTLP) signals, enabling you to send telemetry data directly from OpenTelemetry-instrumented applications and platforms to Azure…",
+        "date": "2026年3月25日",
+        "date_iso": "2026-03-25",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AZURE"
+      },
       {
         "title": "Public Preview: Azure SQL updates for mid-March 2026",
         "link": "https://azure.microsoft.com/updates?id=558116",
@@ -101,106 +201,6 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Public preview: GitHub Copilot integration in Schema Designer for the MSSQL extension",
-        "link": "https://azure.microsoft.com/updates?id=558169",
-        "summary": "The MSSQL extension for Visual Studio Code now introduces GitHub Copilot integration in Schema Designer, expanding the visual schema design experience with AI-assisted capabilities. Based on…",
-        "date": "2026年3月19日",
-        "date_iso": "2026-03-19",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Database DevOps in SSMS powered by SQL projects",
-        "link": "https://azure.microsoft.com/updates?id=558155",
-        "summary": "Bring the benefits of schema-as-code to your database development workflow. SQL database projects enable you to source control your database schema, perform reliable deployments to any environment,…",
-        "date": "2026年3月19日",
-        "date_iso": "2026-03-19",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: SQL MCP Server",
-        "link": "https://azure.microsoft.com/updates?id=558150",
-        "summary": "Announcing SQL MCP Server, our Model Context Protocol (MCP) connector for production databases. SQL MCP Server is a feature rich component of data API builder (DAB) that gives you a simple,…",
-        "date": "2026年3月19日",
-        "date_iso": "2026-03-19",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: GitHub Copilot in SQL Server Management Studio 22",
-        "link": "https://azure.microsoft.com/updates?id=558134",
-        "summary": "GitHub Copilot is now generally available in SQL Server Management Studio (SSMS) 22, bringing AI‑powered assistance directly into the application that you use every day. With GitHub Copilot in SSMS,…",
-        "date": "2026年3月19日",
-        "date_iso": "2026-03-19",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Lakeflow Connect Free Tier now available in Azure Databricks",
-        "link": "https://azure.microsoft.com/updates?id=558810",
-        "summary": "Azure Databricks now offers a Lakeflow Connect Free Tier that gives each workspace 100 free DBUs per workspace per day for ingestion from SaaS applications and databases. This allows you to bring…",
-        "date": "2026年3月19日",
-        "date_iso": "2026-03-19",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Versionless key support for transparent data encryption in Azure SQL Database",
-        "link": "https://azure.microsoft.com/updates?id=558183",
-        "summary": "Azure SQL Database now supports versionless keys for transparent data encryption (TDE), giving you a simpler and more reliable way to manage your own encryption keys. You no longer need to reference…",
-        "date": "2026年3月19日",
-        "date_iso": "2026-03-19",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Data API builder with built-in GitHub Copilot in MSSQL extension",
-        "link": "https://azure.microsoft.com/updates?id=558178",
-        "summary": "The MSSQL extension for Visual Studio Code now introduces Data API builder in public preview with built-in GitHub Copilot integration, bringing a guided back-end generation experience directly into…",
-        "date": "2026年3月19日",
-        "date_iso": "2026-03-19",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Default Rule Set 2.2 and updates to ruleset support policy",
-        "link": "https://azure.microsoft.com/updates?id=558016",
-        "summary": "We are updating the managed ruleset support policy for Azure Web Application Firewall (WAF) following the general availability of Default Rule Set (DRS) 2.2 on Azure Application Gateway and Azure…",
-        "date": "2026年3月18日",
-        "date_iso": "2026-03-18",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Foundry Agent Service",
-        "link": "https://azure.microsoft.com/updates?id=557141",
-        "summary": "Announcing general availability (GA) of the next-gen Foundry Agent Service—a redesigned API format and runtime experience designed to help teams build and operate agents that can move from prototype…",
-        "date": "2026年3月18日",
-        "date_iso": "2026-03-18",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Retirement: Azure VMware Solution AV36P and AV52 node retirement on June 30, 2029",
-        "link": "https://azure.microsoft.com/updates?id=557094",
-        "summary": "Microsoft is announcing the retirement of the AV36P and AV52 Nodes on June 30, 2029. The terms of your current AV36P and AV52 Reserved Instance (RI) are not affected by this announcement. At this…",
-        "date": "2026年3月18日",
-        "date_iso": "2026-03-18",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AZURE"
       }
     ],
     "aws": [
@@ -275,6 +275,16 @@
         "tag": "AWS"
       },
       {
+        "title": "Amazon EC2 I7ie インスタンスが AWS アフリカ (ケープタウン) リージョンで利用可能に",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-ec-i-ie-instances-available-aws-africa/",
+        "summary": "",
+        "date": "2026年2月25日",
+        "date_iso": "2026-02-25",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
         "title": "AWS AppConfig が New Relic と統合され、自動ロールバックが可能に",
         "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/aws-appconfig-new-relic-for-automated-rollback/",
         "summary": "",
@@ -287,16 +297,6 @@
       {
         "title": "Amazon EC2 M8a インスタンスが AWS 欧州 (フランクフルト) リージョンで利用可能に",
         "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-ec2-m8a-instances-europe-frankfurt/",
-        "summary": "",
-        "date": "2026年2月25日",
-        "date_iso": "2026-02-25",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 I7ie インスタンスが AWS アフリカ (ケープタウン) リージョンで利用可能に",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-ec-i-ie-instances-available-aws-africa/",
         "summary": "",
         "date": "2026年2月25日",
         "date_iso": "2026-02-25",
@@ -407,9 +407,19 @@
     ],
     "gcp": [
       {
+        "title": "March 24, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#March_24_2026",
+        "summary": "BigQuery Feature You can now use the BigQuery Data Transfer Service remote MCP server to enable AI agents to create, manage, and run data transfers. This feature is in Preview . Cloud Monitoring…",
+        "date": "2026年3月24日",
+        "date_iso": "2026-03-24",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "March 23, 2026",
         "link": "https://docs.cloud.google.com/release-notes#March_23_2026",
-        "summary": "BigQuery Feature You can clean, transform, and enrich data from files in Cloud Storage and Google Drive in your BigQuery data preparations. For more information, see Prepare data with Gemini . This…",
+        "summary": "Agent Assist Feature Agent Assist offers Gemini Enterprise for Customer Experience tools for AI coach in GA. These tools enable virtual agents to connect with external systems to retrieve, update,…",
         "date": "2026年3月23日",
         "date_iso": "2026-03-23",
         "category": "ai-tag",
@@ -595,19 +605,19 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
-      },
-      {
-        "title": "March 02, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#March_02_2026",
-        "summary": "AI Hypercomputer Feature Generally available : You can apply compact placement policies to standalone Flex-start VMs. These policies let you colocate your standalone Flex-start VMs in adjacent blocks…",
-        "date": "2026年3月2日",
-        "date_iso": "2026-03-02",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
       }
     ],
     "oci": [
+      {
+        "title": "Kubernetes Engine support for observation of the health and resource usage of worker nodes and key Kubernetes add-ons",
+        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-Cluster-Observability-Release-Note.htm",
+        "summary": "",
+        "date": "2026年3月24日",
+        "date_iso": "2026-03-24",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "OCI"
+      },
       {
         "title": "Kubernetes Engine support for provisioning a PVC on a new Lustre file system",
         "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-Storage-on-new-Lustre-filesystem.htm",
@@ -791,16 +801,6 @@
       {
         "title": "Private Endpoints Available in EU Sovereign Central (Frankfurt) Region for OCI Generative AI",
         "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/private-endpoint-OC19.htm",
-        "summary": "",
-        "date": "2026年2月26日",
-        "date_iso": "2026-02-26",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Private Endpoints Available in UK Gov South (London) Region for OCI Generative AI",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/private-endpoint-OC4.htm",
         "summary": "",
         "date": "2026年2月26日",
         "date_iso": "2026-02-26",
