@@ -1,7 +1,87 @@
 {
-  "updated": "2026年03月25日 19:34 JST",
+  "updated": "2026年03月26日 12:28 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Generally Available: Cosmos DB Mirroring in Microsoft Fabric with private endpoints",
+        "link": "https://azure.microsoft.com/updates?id=558836",
+        "summary": "We're excited to announce that private endpoint support for Azure Cosmos DB Mirroring in Microsoft Fabric is now generally available. You can now unlock powerful analytics on your operational data…",
+        "date": "2026年3月26日",
+        "date_iso": "2026-03-26",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Blue-green agent pool upgrade in AKS",
+        "link": "https://azure.microsoft.com/updates?id=557862",
+        "summary": "In‑place node pool upgrades can introduce risk by applying changes directly to running environments. Blue‑green agent pool upgrades create a parallel node pool with the new configuration, allowing…",
+        "date": "2026年3月26日",
+        "date_iso": "2026-03-26",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Fabric Mirroring integration for Azure Database for MySQL",
+        "link": "https://azure.microsoft.com/updates?id=558841",
+        "summary": "We are excited to announce the public preview of Fabric Mirroring integration for Azure Database for MySQL – Flexible Server. You can now replicate MySQL operational data into Microsoft Fabric in…",
+        "date": "2026年3月26日",
+        "date_iso": "2026-03-26",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Azure SQL Managed Instance change event streaming",
+        "link": "https://azure.microsoft.com/updates?id=558884",
+        "summary": "You can now stream row‑level data changes—inserts, updates, and deletes—from Azure SQL Managed Instance to Azure Event Hubs in near real time with change event streaming (CES). SQL publishes changes…",
+        "date": "2026年3月26日",
+        "date_iso": "2026-03-26",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Custom time zone support for pg_cron via cron.timezone in Azure Database for PostgreSQL",
+        "link": "https://azure.microsoft.com/updates?id=558870",
+        "summary": "You can now modify the cron.timezone server parameter in Azure Database for PostgreSQL. This parameter controls the time zone used by pg_cron when evaluating scheduled jobs. By configuring…",
+        "date": "2026年3月26日",
+        "date_iso": "2026-03-26",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: PostgreSQL migration service supports compatible EDB workloads into Azure Database for…",
+        "link": "https://azure.microsoft.com/updates?id=558865",
+        "summary": "We’re excited to announce that EDB PostgreSQL is now supported as a source for migration into Azure Database for PostgreSQL. You can migrate and consolidate PostgreSQL estates from EDB Postgres…",
+        "date": "2026年3月26日",
+        "date_iso": "2026-03-26",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: PostgreSQL migration service supports for Google AlloyDB into Azure Database for…",
+        "link": "https://azure.microsoft.com/updates?id=558851",
+        "summary": "We’re excited to announce that Google AlloyDB is now supported as a source for migration into Azure Database for PostgreSQL. You can migrate and consolidate PostgreSQL estates from Google AlloyDB to…",
+        "date": "2026年3月26日",
+        "date_iso": "2026-03-26",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Online migration now uses the pgoutput plugin",
+        "link": "https://azure.microsoft.com/updates?id=558846",
+        "summary": "You can now leverage pgoutput for online (minimal-downtime) migrations with improved reliability and performance. By aligning with PostgreSQL’s native logical replication framework, this update…",
+        "date": "2026年3月26日",
+        "date_iso": "2026-03-26",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Generally Available: Container network metrics filtering for AKS",
         "link": "https://azure.microsoft.com/updates?id=557902",
@@ -120,86 +200,6 @@
         "date_iso": "2026-03-21",
         "category": "database-tag",
         "cat_label": "データベース",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Retirement: Azure Sphere will be retired on July 31, 2031",
-        "link": "https://azure.microsoft.com/updates?id=557123",
-        "summary": "The Azure Sphere service is retiring and will stop supporting all customer application, OS, bug and security updates, along with DAA certificate issuance, on July 31, 2031. Why is this happening?…",
-        "date": "2026年3月21日",
-        "date_iso": "2026-03-21",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Azure Databricks OneLake Catalog Federation",
-        "link": "https://azure.microsoft.com/updates?id=558927",
-        "summary": "You can now enable OneLake catalog federation in Azure Databricks to query Microsoft Fabric OneLake data without copying or moving it. By connecting Unity Catalog to a OneLake catalog, Azure…",
-        "date": "2026年3月20日",
-        "date_iso": "2026-03-20",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Retirement: HC-series Azure Virtual Machines will be retired on May 31, 2027",
-        "link": "https://azure.microsoft.com/updates?id=548543",
-        "summary": "On May 31, 2027, Microsoft Azure will retire the following HC-series virtual machine (VMs) sizes: Standard_HC44rs, Standard_HC44-16rs, and Standard_HC44-32rs. To ensure continuity and improved…",
-        "date": "2026年3月20日",
-        "date_iso": "2026-03-20",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Retirement: HBv2-series Azure Virtual Machines will be retired on May 31, 2027",
-        "link": "https://azure.microsoft.com/updates?id=548525",
-        "summary": "On May 31, 2027, Microsoft Azure will retire the following HBv2-series virtual machine (VMs) sizes: Standard_HB120rs_v2, Standard_HB120-96rs_v2, Standard_HB120-64rs_v2, Standard_HB120-32rs_v2, and…",
-        "date": "2026年3月20日",
-        "date_iso": "2026-03-20",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Retirement: NP-series Azure Virtual Machines will be retired on May 31, 2027",
-        "link": "https://azure.microsoft.com/updates?id=548497",
-        "summary": "On May 31, 2027, Microsoft Azure will retire the follow NP-series virtual machine (VMs) sizes: Standard_NP10s, Standard_NP20s, and Standard_NP40s. To ensure continuity and optimal performance, we…",
-        "date": "2026年3月20日",
-        "date_iso": "2026-03-20",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Retirement: Emissions Impact Dashboard for Azure",
-        "link": "https://azure.microsoft.com/updates?id=558278",
-        "summary": "Effective March 31, 2027, the Emissions Impact Dashboard for Azure hosted by Power BI will be retired. After this date, the dashboard will no longer be accessible and technical support will be…",
-        "date": "2026年3月19日",
-        "date_iso": "2026-03-19",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AZURE"
-      },
-      {
-        "title": "General availability: Azure SQL updates for mid-March 2026",
-        "link": "https://azure.microsoft.com/updates?id=558121",
-        "summary": "In mid-March 2026, the following updates and enhancements were made to Azure SQL: Publish SQL database projects directly from Visual Studio Code to streamline database deployment workflows. View and…",
-        "date": "2026年3月19日",
-        "date_iso": "2026-03-19",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Azure Red Hat OpenShift Managed Identity and Workload Identity",
-        "link": "https://azure.microsoft.com/updates?id=557917",
-        "summary": "Azure Red Hat OpenShift now supports managed identities and workload identities as a generally available capability, enabling you to run OpenShift clusters and applications on Azure without long…",
-        "date": "2026年3月19日",
-        "date_iso": "2026-03-19",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "AZURE"
       }
     ],
@@ -407,9 +407,19 @@
     ],
     "gcp": [
       {
+        "title": "March 25, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#March_25_2026",
+        "summary": "AlloyDB for PostgreSQL Feature Database server compatibility with PostgreSQL version 18 is now generally available ( GA ): You can create AlloyDB clusters with PostgreSQL 18 compatibility. You can…",
+        "date": "2026年3月25日",
+        "date_iso": "2026-03-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "March 24, 2026",
         "link": "https://docs.cloud.google.com/release-notes#March_24_2026",
-        "summary": "BigQuery Feature You can now use the BigQuery Data Transfer Service remote MCP server to enable AI agents to create, manage, and run data transfers. This feature is in Preview . Cloud Monitoring…",
+        "summary": "BigQuery Feature You can now use the BigQuery Data Transfer Service remote MCP server to enable AI agents to create, manage, and run data transfers. This feature is in Preview . Bigtable Feature You…",
         "date": "2026年3月24日",
         "date_iso": "2026-03-24",
         "category": "ai-tag",
@@ -595,19 +605,19 @@
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "GCP"
-      },
-      {
-        "title": "March 03, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#March_03_2026",
-        "summary": "AlloyDB for PostgreSQL Feature The following AlloyDB AI features are now generally available ( GA ): Auto vector embeddings provide a scalable, automated solution for managing the lifecycle of vector…",
-        "date": "2026年3月3日",
-        "date_iso": "2026-03-03",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
       }
     ],
     "oci": [
+      {
+        "title": "Generate and Edit Images with Imported Models in OCI Generative AI",
+        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/qwen-image.htm",
+        "summary": "",
+        "date": "2026年3月25日",
+        "date_iso": "2026-03-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
       {
         "title": "Kubernetes Engine support for observation of the health and resource usage of worker nodes and key Kubernetes add-ons",
         "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-Cluster-Observability-Release-Note.htm",
@@ -796,16 +806,6 @@
         "date_iso": "2026-03-03",
         "category": "database-tag",
         "cat_label": "データベース",
-        "tag": "OCI"
-      },
-      {
-        "title": "Private Endpoints Available in EU Sovereign Central (Frankfurt) Region for OCI Generative AI",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/private-endpoint-OC19.htm",
-        "summary": "",
-        "date": "2026年2月26日",
-        "date_iso": "2026-02-26",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "OCI"
       }
     ]
