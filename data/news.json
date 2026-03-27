@@ -1,7 +1,17 @@
 {
-  "updated": "2026年03月26日 19:36 JST",
+  "updated": "2026年03月27日 12:30 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Generally Available: Azure SQL updates for late-March 2026",
+        "link": "https://azure.microsoft.com/updates?id=558879",
+        "summary": "In late-March 2026, the following updates and enhancements were made to Azure SQL: Configure built-in SQL code analysis rules and severity settings without editing project XML. Use Fabric…",
+        "date": "2026年3月27日",
+        "date_iso": "2026-03-27",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Generally Available: Cosmos DB Mirroring in Microsoft Fabric with private endpoints",
         "link": "https://azure.microsoft.com/updates?id=558836",
@@ -191,16 +201,6 @@
         "category": "database-tag",
         "cat_label": "データベース",
         "tag": "AZURE"
-      },
-      {
-        "title": "Retirement: Azure SQL Elastic query - Shard_Map_Manager mode",
-        "link": "https://azure.microsoft.com/updates?id=558086",
-        "summary": "Starting March 31, 2027 Elastic query using Shard_Map_Manager external data source type reaches end of support.Existing workloads can continue to run using Azure SQL Elastic query - Shard_Map_Manager…",
-        "date": "2026年3月21日",
-        "date_iso": "2026-03-21",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AZURE"
       }
     ],
     "aws": [
@@ -275,6 +275,16 @@
         "tag": "AWS"
       },
       {
+        "title": "Amazon EC2 I7ie インスタンスが AWS アフリカ (ケープタウン) リージョンで利用可能に",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-ec-i-ie-instances-available-aws-africa/",
+        "summary": "",
+        "date": "2026年2月25日",
+        "date_iso": "2026-02-25",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
         "title": "AWS AppConfig が New Relic と統合され、自動ロールバックが可能に",
         "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/aws-appconfig-new-relic-for-automated-rollback/",
         "summary": "",
@@ -287,16 +297,6 @@
       {
         "title": "Amazon EC2 M8a インスタンスが AWS 欧州 (フランクフルト) リージョンで利用可能に",
         "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-ec2-m8a-instances-europe-frankfurt/",
-        "summary": "",
-        "date": "2026年2月25日",
-        "date_iso": "2026-02-25",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 I7ie インスタンスが AWS アフリカ (ケープタウン) リージョンで利用可能に",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-ec-i-ie-instances-available-aws-africa/",
         "summary": "",
         "date": "2026年2月25日",
         "date_iso": "2026-02-25",
@@ -406,6 +406,16 @@
       }
     ],
     "gcp": [
+      {
+        "title": "March 26, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#March_26_2026",
+        "summary": "Apigee X Announcement On March 26th, 2026, we released an updated version of Apigee (1-17-0-apigee-6). Note: Rollouts of this release began today and may take four or more business days to be…",
+        "date": "2026年3月26日",
+        "date_iso": "2026-03-26",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "GCP"
+      },
       {
         "title": "March 25, 2026",
         "link": "https://docs.cloud.google.com/release-notes#March_25_2026",
@@ -594,16 +604,6 @@
         "date_iso": "2026-03-05",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "March 04, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#March_04_2026",
-        "summary": "Apigee API hub Feature gcloud CLI support for API hub The gcloud CLI now supports Apigee API hub, allowing you to manage your organization's API catalog, versions, and lifecycle metadata directly…",
-        "date": "2026年3月4日",
-        "date_iso": "2026-03-04",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
         "tag": "GCP"
       }
     ],
