@@ -1,5 +1,5 @@
 {
-  "updated": "2026年03月29日 19:17 JST",
+  "updated": "2026年03月30日 12:43 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "March 29, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#March_29_2026",
+        "summary": "Google SecOps SOAR Announcement Release 6.3.81 is being rolled out to the first phase of regions as listed here . This release contains internal and customer bug fixes.",
+        "date": "2026年3月29日",
+        "date_iso": "2026-03-29",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "March 28, 2026",
         "link": "https://docs.cloud.google.com/release-notes#March_28_2026",
         "summary": "Google SecOps SOAR Announcement Release 6.3.80 is now available for all regions.",
@@ -592,16 +602,6 @@
         "summary": "Container Optimized OS Change cos-125-19216-220-43 Kernel Docker Containerd GPU Drivers COS-6.12.68 v27.5.1 v2.1.5 See List Fixed Upgraded app-admin/node-problem-detector to v0.8.25. Change Runtime…",
         "date": "2026年3月8日",
         "date_iso": "2026-03-08",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "March 07, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#March_07_2026",
-        "summary": "Container Optimized OS Change cos-125-19216-220-39 Kernel Docker Containerd GPU Drivers COS-6.12.68 v27.5.1 v2.1.5 See List Fixed Fixed a kernel bug which could cause traffic drops after NIC resets.…",
-        "date": "2026年3月7日",
-        "date_iso": "2026-03-07",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
