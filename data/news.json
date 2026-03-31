@@ -1,7 +1,57 @@
 {
-  "updated": "2026年03月30日 19:48 JST",
+  "updated": "2026年03月31日 12:30 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Public Preview: Ephemeral OS Disk with full caching for VM/VMSS",
+        "link": "https://azure.microsoft.com/updates?id=559322",
+        "summary": "Ephemeral OS Disk with full caching is now available in public preview for Azure VM/VMSS, bringing significantly faster and more reliable OS disk performance to your workloads. By caching the entire…",
+        "date": "2026年3月31日",
+        "date_iso": "2026-03-31",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Azure Red Hat OpenShift in Indonesia Central",
+        "link": "https://azure.microsoft.com/updates?id=559552",
+        "summary": "Azure Red Hat OpenShift (ARO) is now generally available in the Indonesia Central Azure region, expanding regional availability for customers running mission‑critical OpenShift workloads on Azure.…",
+        "date": "2026年3月31日",
+        "date_iso": "2026-03-31",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Retirement: Deprecation of sidecar for remote-write for Azure Monitor managed service for Prometheus",
+        "link": "https://azure.microsoft.com/updates?id=550519",
+        "summary": "On March 31, 2027 Azure Monitor will be deprecating the sidecar for remote-write of Prometheus metrics to Azure Monitor Workspace. This is as part of our ongoing efforts to improve reliability and…",
+        "date": "2026年3月31日",
+        "date_iso": "2026-03-31",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Retirement: Azure Cosmos DB for PostgreSQL will retire on March 31, 2029",
+        "link": "https://azure.microsoft.com/updates?id=556085",
+        "summary": "On March 31, 2029, Azure Cosmos DB for PostgreSQL will be retired, and you'll need to migrate to Azure Database for PostgreSQL Elastic Cluster by that date. Azure Database for PostgreSQL Elastic…",
+        "date": "2026年3月31日",
+        "date_iso": "2026-03-31",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Azure Premium SSD v2 Disk is now available in South India",
+        "link": "https://azure.microsoft.com/updates?id=559526",
+        "summary": "Azure Premium SSD v2 is now available in South India (a region without Availability Zone).Azure Premium SSD v2 disk, a next-generation general-purpose block storage option for Azure virtual machines,…",
+        "date": "2026年3月31日",
+        "date_iso": "2026-03-31",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Generally Available: Azure SQL updates for late-March 2026",
         "link": "https://azure.microsoft.com/updates?id=558879",
@@ -151,56 +201,6 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Azure Monitor Prometheus community recommended alerts for Azure Arc-enabled Kubernetes",
-        "link": "https://azure.microsoft.com/updates?id=558825",
-        "summary": "Azure Monitor now offers one-click enablement of Prometheus recommended alerts directly in the Azure Portal for Azure Arc-enabled Kubernetes clusters. These alerts, based on enhanced Prometheus…",
-        "date": "2026年3月25日",
-        "date_iso": "2026-03-25",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Application routing with meshless Istio in AKS",
-        "link": "https://azure.microsoft.com/updates?id=557927",
-        "summary": "Following the deprecation of ingress‑nginx, Kubernetes operators need a supported, standards‑aligned migration path for ingress without the complexity of a full service mesh. Application Routing with…",
-        "date": "2026年3月25日",
-        "date_iso": "2026-03-25",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Microsoft Azure Kubernetes Application Network",
-        "link": "https://azure.microsoft.com/updates?id=557922",
-        "summary": "As Kubernetes environments scale across regions and clusters, IP‑based networking becomes difficult to manage and provides limited application‑level visibility and security controls. Azure Kubernetes…",
-        "date": "2026年3月25日",
-        "date_iso": "2026-03-25",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Ingest OTLP data into Azure Monitor with the OpenTelemetry Collector",
-        "link": "https://azure.microsoft.com/updates?id=559273",
-        "summary": "Azure Monitor now supports native ingestion of OpenTelemetry Protocol (OTLP) signals, enabling you to send telemetry data directly from OpenTelemetry-instrumented applications and platforms to Azure…",
-        "date": "2026年3月25日",
-        "date_iso": "2026-03-25",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Azure SQL updates for mid-March 2026",
-        "link": "https://azure.microsoft.com/updates?id=558116",
-        "summary": "In mid-March 2026, the following updates and enhancements were made to Azure SQL: Reduce the consumption of storage space, I/O, and memory and improve performance without investing time and effort…",
-        "date": "2026年3月21日",
-        "date_iso": "2026-03-21",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AZURE"
       }
     ],
     "aws": [
@@ -275,6 +275,16 @@
         "tag": "AWS"
       },
       {
+        "title": "Amazon EC2 I7ie インスタンスが AWS アフリカ (ケープタウン) リージョンで利用可能に",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-ec-i-ie-instances-available-aws-africa/",
+        "summary": "",
+        "date": "2026年2月25日",
+        "date_iso": "2026-02-25",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
         "title": "AWS AppConfig が New Relic と統合され、自動ロールバックが可能に",
         "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/aws-appconfig-new-relic-for-automated-rollback/",
         "summary": "",
@@ -287,16 +297,6 @@
       {
         "title": "Amazon EC2 M8a インスタンスが AWS 欧州 (フランクフルト) リージョンで利用可能に",
         "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-ec2-m8a-instances-europe-frankfurt/",
-        "summary": "",
-        "date": "2026年2月25日",
-        "date_iso": "2026-02-25",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 I7ie インスタンスが AWS アフリカ (ケープタウン) リージョンで利用可能に",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-ec-i-ie-instances-available-aws-africa/",
         "summary": "",
         "date": "2026年2月25日",
         "date_iso": "2026-02-25",
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "March 30, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#March_30_2026",
+        "summary": "AlloyDB for PostgreSQL Feature AlloyDB now offers conversational analytics, which lets users query their operational data using natural language. This feature is powered by the Conversational…",
+        "date": "2026年3月30日",
+        "date_iso": "2026-03-30",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "GCP"
+      },
+      {
         "title": "March 29, 2026",
         "link": "https://docs.cloud.google.com/release-notes#March_29_2026",
         "summary": "Google SecOps SOAR Announcement Release 6.3.81 is being rolled out to the first phase of regions as listed here . This release contains internal and customer bug fixes.",
@@ -429,7 +439,7 @@
       {
         "title": "March 27, 2026",
         "link": "https://docs.cloud.google.com/release-notes#March_27_2026",
-        "summary": "Cloud Composer Announcement Cloud Composer 2 environments can no longer be created in Melbourne (australia-southeast2). We're switching this region to supporting only Cloud Composer 3 environments.…",
+        "summary": "Cloud Composer Announcement A new Cloud Composer release has started on March 27, 2026 . Get ready for upcoming changes and features as we roll out the new release to all regions. This release is in…",
         "date": "2026年3月27日",
         "date_iso": "2026-03-27",
         "category": "compute-tag",
@@ -595,29 +605,9 @@
         "category": "storage-tag",
         "cat_label": "ストレージ",
         "tag": "GCP"
-      },
-      {
-        "title": "March 08, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#March_08_2026",
-        "summary": "Container Optimized OS Change cos-125-19216-220-43 Kernel Docker Containerd GPU Drivers COS-6.12.68 v27.5.1 v2.1.5 See List Fixed Upgraded app-admin/node-problem-detector to v0.8.25. Change Runtime…",
-        "date": "2026年3月8日",
-        "date_iso": "2026-03-08",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
       }
     ],
     "oci": [
-      {
-        "title": "Resource Analytics - March 2026",
-        "link": "https://docs.oracle.com/iaas/releasenotes/resource-analytics/resource-analytics-v2-2.htm",
-        "summary": "",
-        "date": "2026年3月27日",
-        "date_iso": "2026-03-27",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
       {
         "title": "User-defined maintenance schedules",
         "link": "https://docs.oracle.com/iaas/releasenotes/lustre/lfs-user-maint-sched.htm",
@@ -626,6 +616,16 @@
         "date_iso": "2026-03-27",
         "category": "ai-tag",
         "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Resource Analytics - March 2026",
+        "link": "https://docs.oracle.com/iaas/releasenotes/resource-analytics/resource-analytics-v2-2.htm",
+        "summary": "",
+        "date": "2026年3月27日",
+        "date_iso": "2026-03-27",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "OCI"
       },
       {
