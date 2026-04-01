@@ -1,7 +1,87 @@
 {
-  "updated": "2026年03月31日 19:39 JST",
+  "updated": "2026年04月01日 12:45 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Retirement: External Data Import & Data Connections in Azure Machine Learning will be retired on September 30, 2026",
+        "link": "https://azure.microsoft.com/updates?id=557406",
+        "summary": "Import data from external sources (Preview) – S3, Snowflake, Azure SQL Db along with external Data Connections (Preview) in Azure Machine Learning are being deprecated. These features will no longer…",
+        "date": "2026年4月1日",
+        "date_iso": "2026-04-01",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Azure DevOps March 2026 updates",
+        "link": "https://azure.microsoft.com/updates?id=559660",
+        "summary": "The following updates were made to Azure DevOps in March 2026. The Remote MCP Server entered public preview, enabling seamless AI-powered integration with Azure DevOps without requiring a local…",
+        "date": "2026年4月1日",
+        "date_iso": "2026-04-01",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Azure Event Grid provides new capabilities for smarter, more secure event-driven…",
+        "link": "https://azure.microsoft.com/updates?id=559695",
+        "summary": "Azure Event Grid offers a variety of features in Public Preview – intended to help you better manage large-scale, distributed systems with improved interoperability and control. Public Preview…",
+        "date": "2026年4月1日",
+        "date_iso": "2026-04-01",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: User delegation SAS for Azure Tables, Azure Files, and Azure Queues",
+        "link": "https://azure.microsoft.com/updates?id=559535",
+        "summary": "User delegation SAS for Azure Tables, Azure Files, and Azure Queues is now generally available. User delegation SAS allows users to create a more secure SAS token than account or service SAS by tying…",
+        "date": "2026年4月1日",
+        "date_iso": "2026-04-01",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Azure Event Grid provides new capabilities for smarter, more secure event-driven…",
+        "link": "https://azure.microsoft.com/updates?id=492542",
+        "summary": "Azure Event Grid now offers a variety of new features intended to help you better manage large-scale, distributed systems with improved interoperability and control. Generally Available features:…",
+        "date": "2026年4月1日",
+        "date_iso": "2026-04-01",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Microsoft Azure now available from new cloud region in Denmark",
+        "link": "https://azure.microsoft.com/updates?id=559406",
+        "summary": "Microsoft announces the opening of its cloud region in Denmark to accelerate digital transformation and AI innovation. The Denmark East region provides Danish customers with local, secure cloud…",
+        "date": "2026年4月1日",
+        "date_iso": "2026-04-01",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Retirement: Manually registered Azure VPN Clients for ​Azure Government and ​Microsoft Azure operated by 21Vianet…",
+        "link": "https://azure.microsoft.com/updates?id=557395",
+        "summary": "On March 31, 2029, we’ll be retiring manually registered Azure VPN clients for point-to-site connections with Microsoft Entra ID authentication for ​Azure Government and ​Microsoft Azure operated by…",
+        "date": "2026年4月1日",
+        "date_iso": "2026-04-01",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Azure Premium SSD v2 Disk is now available in US Gov Arizona",
+        "link": "https://azure.microsoft.com/updates?id=559677",
+        "summary": "Azure Premium SSD v2 is now available in US Gov Arizona (a region without Availability Zone). Azure Premium SSD v2 disk, a next-generation general-purpose block storage option for Azure virtual…",
+        "date": "2026年4月1日",
+        "date_iso": "2026-04-01",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Public Preview: Ephemeral OS Disk with full caching for VM/VMSS",
         "link": "https://azure.microsoft.com/updates?id=559322",
@@ -118,86 +198,6 @@
         "summary": "We’re excited to announce that EDB PostgreSQL is now supported as a source for migration into Azure Database for PostgreSQL. You can migrate and consolidate PostgreSQL estates from EDB Postgres…",
         "date": "2026年3月26日",
         "date_iso": "2026-03-26",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: PostgreSQL migration service supports for Google AlloyDB into Azure Database for…",
-        "link": "https://azure.microsoft.com/updates?id=558851",
-        "summary": "We’re excited to announce that Google AlloyDB is now supported as a source for migration into Azure Database for PostgreSQL. You can migrate and consolidate PostgreSQL estates from Google AlloyDB to…",
-        "date": "2026年3月26日",
-        "date_iso": "2026-03-26",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Online migration now uses the pgoutput plugin",
-        "link": "https://azure.microsoft.com/updates?id=558846",
-        "summary": "You can now leverage pgoutput for online (minimal-downtime) migrations with improved reliability and performance. By aligning with PostgreSQL’s native logical replication framework, this update…",
-        "date": "2026年3月26日",
-        "date_iso": "2026-03-26",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Container network metrics filtering for AKS",
-        "link": "https://azure.microsoft.com/updates?id=557902",
-        "summary": "Network observability can generate large volumes of metrics, making it difficult for teams to focus on data that is operationally relevant. Container network metrics filtering in Azure Container…",
-        "date": "2026年3月25日",
-        "date_iso": "2026-03-25",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: AI Agent for container networking troubleshooting",
-        "link": "https://azure.microsoft.com/updates?id=557887",
-        "summary": "Troubleshooting Kubernetes networking issues is often slowed by logs and metrics scattered across multiple tools, forcing engineers to manually correlate signals during incidents. The container…",
-        "date": "2026年3月25日",
-        "date_iso": "2026-03-25",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: AKS managed GPU metrics in Azure Monitor",
-        "link": "https://azure.microsoft.com/updates?id=557882",
-        "summary": "Teams running GPU‑backed workloads often lack integrated visibility into GPU utilization alongside Kubernetes metrics. AKS managed GPU metrics automatically expose performance and utilization data…",
-        "date": "2026年3月25日",
-        "date_iso": "2026-03-25",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Cross-cluster networking in Azure Kubernetes Fleet Manager",
-        "link": "https://azure.microsoft.com/updates?id=557877",
-        "summary": "Organizations running applications across multiple Kubernetes clusters often face challenges with performance, global service discovery, and observability due to the complexity of distributed…",
-        "date": "2026年3月25日",
-        "date_iso": "2026-03-25",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Azure Container Storage v2.1.0 now with Elastic SAN integration and on demand…",
-        "link": "https://azure.microsoft.com/updates?id=557912",
-        "summary": "Containerized workloads often require higher and more consistent storage performance without managing large numbers of individual disks. Azure Container Storage integration with Elastic SAN allows…",
-        "date": "2026年3月25日",
-        "date_iso": "2026-03-25",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Container network logs in AKS",
-        "link": "https://azure.microsoft.com/updates?id=557892",
-        "summary": "Networking issues in Kubernetes environments can be difficult to diagnose due to limited visibility into traffic flows and insufficient context around failures. Container network logs in Azure…",
-        "date": "2026年3月25日",
-        "date_iso": "2026-03-25",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "March 31, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#March_31_2026",
+        "summary": "AlloyDB for PostgreSQL Feature Hot standby enhances the AlloyDB high availability (HA) architecture to improve failover times and to ensure consistent performance after failover. AlloyDB continuously…",
+        "date": "2026年3月31日",
+        "date_iso": "2026-03-31",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "March 30, 2026",
         "link": "https://docs.cloud.google.com/release-notes#March_30_2026",
         "summary": "AlloyDB for PostgreSQL Feature AlloyDB now offers conversational analytics, which lets users query their operational data using natural language. This feature is powered by the Conversational…",
@@ -539,7 +549,7 @@
       {
         "title": "March 15, 2026",
         "link": "https://docs.cloud.google.com/release-notes#March_15_2026",
-        "summary": "Google SecOps SOAR Announcement Release 6.3.80 is being rolled out to the first phase of regions as listed here . This release contains internal and customer bug fixes.",
+        "summary": "Cloud DNS Feature The filter query parameter for resourceRecordSets.list is generally available ( GA ). You can filter records to match a specified domain using the API. Google SecOps SOAR…",
         "date": "2026年3月15日",
         "date_iso": "2026-03-15",
         "category": "ai-tag",
@@ -549,7 +559,7 @@
       {
         "title": "March 14, 2026",
         "link": "https://docs.cloud.google.com/release-notes#March_14_2026",
-        "summary": "Container Optimized OS Change cos-125-19216-220-57 Kernel Docker Containerd GPU Drivers COS-6.12.68 v27.5.1 v2.1.5 See List Change Fixed the \"CrackArmor\" vulnerability in the Linux kernel. Fixed…",
+        "summary": "Google Cloud Contact Center as a Service Feature Advanced reporting is available in French Canadian Advanced reporting dashboards are now available in French Canadian. For more information about…",
         "date": "2026年3月14日",
         "date_iso": "2026-03-14",
         "category": "ai-tag",
@@ -595,22 +605,72 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
-      },
-      {
-        "title": "March 09, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#March_09_2026",
-        "summary": "BigQuery Feature Updates to conversational analytics include the following improvements: ObjectRef support: BigQuery conversational analytics now integrates with Google Cloud Storage through…",
-        "date": "2026年3月9日",
-        "date_iso": "2026-03-09",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
-        "tag": "GCP"
       }
     ],
     "oci": [
       {
+        "title": "New experience in Oracle Cloud Console",
+        "link": "https://docs.oracle.com/iaas/releasenotes/lustre/redwood.htm",
+        "summary": "",
+        "date": "2026年3月31日",
+        "date_iso": "2026-03-31",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "New Oracle Cloud Console experience for Usage Statements",
+        "link": "https://docs.oracle.com/iaas/releasenotes/billing/new_oracle_cloud_console_experience_for_usage_statements.htm",
+        "summary": "",
+        "date": "2026年3月31日",
+        "date_iso": "2026-03-31",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "New Experience in Oracle Cloud Console for Events",
+        "link": "https://docs.oracle.com/iaas/releasenotes/events/events-redwood-updates.htm",
+        "summary": "",
+        "date": "2026年3月31日",
+        "date_iso": "2026-03-31",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Enterprise AI Agents are in General Availability in OCI Generative AI",
+        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/enterprise-ai.htm",
+        "summary": "",
+        "date": "2026年3月31日",
+        "date_iso": "2026-03-31",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Oracle GoldenGate 26ai for non-Oracle databases and Big Data is now available",
+        "link": "https://docs.oracle.com/iaas/releasenotes/goldengate/non-oracle26ai.htm",
+        "summary": "",
+        "date": "2026年3月30日",
+        "date_iso": "2026-03-30",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
         "title": "User-defined maintenance schedules",
         "link": "https://docs.oracle.com/iaas/releasenotes/lustre/lfs-user-maint-sched.htm",
+        "summary": "",
+        "date": "2026年3月27日",
+        "date_iso": "2026-03-27",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Add ZPR Security Attributes to OCI Generative AI Private Endpoints",
+        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/zpr.htm",
         "summary": "",
         "date": "2026年3月27日",
         "date_iso": "2026-03-27",
@@ -744,66 +804,6 @@
         "summary": "",
         "date": "2026年3月12日",
         "date_iso": "2026-03-12",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Import NVIDIA Nemotron 3 Super into OCI Generative AI",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/nvidia-nemotron-3-super.htm",
-        "summary": "",
-        "date": "2026年3月11日",
-        "date_iso": "2026-03-11",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Import Qwen 3 Embedding models into OCI Generative AI",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/qwen-3-embedding.htm",
-        "summary": "",
-        "date": "2026年3月11日",
-        "date_iso": "2026-03-11",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Version 5.3 of oci-fss-utils for File Storage In-Transit Encryption Is Available",
-        "link": "https://docs.oracle.com/iaas/releasenotes/filestorage/oci-fss-utils-v-5_3.htm",
-        "summary": "",
-        "date": "2026年3月10日",
-        "date_iso": "2026-03-10",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Integrate generative AI capabilities into Python workflows",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-dedicated/adbd-genai-pythonworkflow.htm",
-        "summary": "",
-        "date": "2026年3月10日",
-        "date_iso": "2026-03-10",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Single Sign-On Support for all Autonomous AI Database Tools",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-03-singlesignon-support.htm",
-        "summary": "",
-        "date": "2026年3月10日",
-        "date_iso": "2026-03-10",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Select AI for Property Graphs",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-03-SelectAI-for-PropertyGraphs.htm",
-        "summary": "",
-        "date": "2026年3月10日",
-        "date_iso": "2026-03-10",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "OCI"
