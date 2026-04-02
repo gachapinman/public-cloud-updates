@@ -1,7 +1,77 @@
 {
-  "updated": "2026年04月01日 19:41 JST",
+  "updated": "2026年04月02日 12:26 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Retirement: Service Fabric support for Windows Server 2022 ends on March 31, 2027 - upgrade to Windows Server 2025",
+        "link": "https://azure.microsoft.com/updates?id=558247",
+        "summary": "Service Fabric will end support for all clusters running on Windows Server 2022 on March 31, 2027. Customers must upgrade to Windows Server 2025 by this date to remain in a supported state. This…",
+        "date": "2026年4月2日",
+        "date_iso": "2026-04-02",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Retirement: Service Fabric support for Windows Server 2019 ends on March 31, 2027 - upgrade to Windows Server 2025",
+        "link": "https://azure.microsoft.com/updates?id=558246",
+        "summary": "Service Fabric will end support for all clusters running on Windows Server 2019 on March 31, 2027. Customers must upgrade to Windows Server 2025 by this date to remain in a supported state. This…",
+        "date": "2026年4月2日",
+        "date_iso": "2026-04-02",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Unlock Client-Side Configuration at Scale with Azure App Configuration and Azure Front Door",
+        "link": "https://azure.microsoft.com/updates?id=537234",
+        "summary": "You can now deliver dynamic configuration directly to client-side applications—securely and at CDN scale—thanks to Azure App Configuration’s integration with Azure Front Door. This delivers new…",
+        "date": "2026年4月2日",
+        "date_iso": "2026-04-02",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Azure Data Box enhances compliance with automatic Secure Erasure Certificates",
+        "link": "https://azure.microsoft.com/updates?id=559772",
+        "summary": "Azure Data Box now automatically generates a downloadable Secure Erasure Certificate for every completed order, providing verification that all data on the device has been securely erased in…",
+        "date": "2026年4月2日",
+        "date_iso": "2026-04-02",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Azure Data Box now supports Azure Files Provisioned v2",
+        "link": "https://azure.microsoft.com/updates?id=559767",
+        "summary": "Azure Data Box now supports ingestion of data into Azure Files Provisioned v2 storage accounts. Azure Files Provisioned v2 is a billing model where customers provision and pay for specific capacity,…",
+        "date": "2026年4月2日",
+        "date_iso": "2026-04-02",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Azure NetApp Files storage with cool access enhancement",
+        "link": "https://azure.microsoft.com/updates?id=559504",
+        "summary": "QoS update with cool access enabled on Premium and Ultra service levels improves how Azure NetApp Files balances performance and cost for mixed hot and cool workloads. Throughput automatically…",
+        "date": "2026年4月2日",
+        "date_iso": "2026-04-02",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Retirement: Select Azure AI Language Features",
+        "link": "https://azure.microsoft.com/updates?id=557394",
+        "summary": "On March 20, 2027, Microsoft will retire the following eight Azure AI Language features: Key Phrase ExtractionSentiment Analysis and Opinion MiningCustom Text ClassificationConversational Language…",
+        "date": "2026年4月2日",
+        "date_iso": "2026-04-02",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Retirement: External Data Import & Data Connections in Azure Machine Learning will be retired on September 30, 2026",
         "link": "https://azure.microsoft.com/updates?id=557406",
@@ -131,76 +201,6 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Azure SQL updates for late-March 2026",
-        "link": "https://azure.microsoft.com/updates?id=558879",
-        "summary": "In late-March 2026, the following updates and enhancements were made to Azure SQL: Configure built-in SQL code analysis rules and severity settings without editing project XML. Use Fabric…",
-        "date": "2026年3月27日",
-        "date_iso": "2026-03-27",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Cosmos DB Mirroring in Microsoft Fabric with private endpoints",
-        "link": "https://azure.microsoft.com/updates?id=558836",
-        "summary": "We're excited to announce that private endpoint support for Azure Cosmos DB Mirroring in Microsoft Fabric is now generally available. You can now unlock powerful analytics on your operational data…",
-        "date": "2026年3月26日",
-        "date_iso": "2026-03-26",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Blue-green agent pool upgrade in AKS",
-        "link": "https://azure.microsoft.com/updates?id=557862",
-        "summary": "In‑place node pool upgrades can introduce risk by applying changes directly to running environments. Blue‑green agent pool upgrades create a parallel node pool with the new configuration, allowing…",
-        "date": "2026年3月26日",
-        "date_iso": "2026-03-26",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Fabric Mirroring integration for Azure Database for MySQL",
-        "link": "https://azure.microsoft.com/updates?id=558841",
-        "summary": "We are excited to announce the public preview of Fabric Mirroring integration for Azure Database for MySQL – Flexible Server. You can now replicate MySQL operational data into Microsoft Fabric in…",
-        "date": "2026年3月26日",
-        "date_iso": "2026-03-26",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Azure SQL Managed Instance change event streaming",
-        "link": "https://azure.microsoft.com/updates?id=558884",
-        "summary": "You can now stream row‑level data changes—inserts, updates, and deletes—from Azure SQL Managed Instance to Azure Event Hubs in near real time with change event streaming (CES). SQL publishes changes…",
-        "date": "2026年3月26日",
-        "date_iso": "2026-03-26",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Custom time zone support for pg_cron via cron.timezone in Azure Database for PostgreSQL",
-        "link": "https://azure.microsoft.com/updates?id=558870",
-        "summary": "You can now modify the cron.timezone server parameter in Azure Database for PostgreSQL. This parameter controls the time zone used by pg_cron when evaluating scheduled jobs. By configuring…",
-        "date": "2026年3月26日",
-        "date_iso": "2026-03-26",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: PostgreSQL migration service supports compatible EDB workloads into Azure Database for…",
-        "link": "https://azure.microsoft.com/updates?id=558865",
-        "summary": "We’re excited to announce that EDB PostgreSQL is now supported as a source for migration into Azure Database for PostgreSQL. You can migrate and consolidate PostgreSQL estates from EDB Postgres…",
-        "date": "2026年3月26日",
-        "date_iso": "2026-03-26",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
@@ -275,16 +275,6 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon EC2 I7ie インスタンスが AWS アフリカ (ケープタウン) リージョンで利用可能に",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-ec-i-ie-instances-available-aws-africa/",
-        "summary": "",
-        "date": "2026年2月25日",
-        "date_iso": "2026-02-25",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
         "title": "AWS AppConfig が New Relic と統合され、自動ロールバックが可能に",
         "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/aws-appconfig-new-relic-for-automated-rollback/",
         "summary": "",
@@ -297,6 +287,16 @@
       {
         "title": "Amazon EC2 M8a インスタンスが AWS 欧州 (フランクフルト) リージョンで利用可能に",
         "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-ec2-m8a-instances-europe-frankfurt/",
+        "summary": "",
+        "date": "2026年2月25日",
+        "date_iso": "2026-02-25",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 I7ie インスタンスが AWS アフリカ (ケープタウン) リージョンで利用可能に",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-ec-i-ie-instances-available-aws-africa/",
         "summary": "",
         "date": "2026年2月25日",
         "date_iso": "2026-02-25",
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "April 01, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#April_01_2026",
+        "summary": "Cloud Database Migration Service Feature You can use the Database Migration Service MCP server to enable agents and AI applications to view and manage running migration jobs. This feature is in…",
+        "date": "2026年4月1日",
+        "date_iso": "2026-04-01",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "March 31, 2026",
         "link": "https://docs.cloud.google.com/release-notes#March_31_2026",
         "summary": "AlloyDB for PostgreSQL Feature Hot standby enhances the AlloyDB high availability (HA) architecture to improve failover times and to ensure consistent performance after failover. AlloyDB continuously…",
@@ -439,7 +449,7 @@
       {
         "title": "March 28, 2026",
         "link": "https://docs.cloud.google.com/release-notes#March_28_2026",
-        "summary": "Google SecOps SOAR Announcement Release 6.3.80 is now available for all regions.",
+        "summary": "Google SecOps SOAR Announcement Release 6.3.80 is now available for all regions. Sensitive Data Protection Feature You can configure Sensitive Data Protection to detect specific client-provided…",
         "date": "2026年3月28日",
         "date_iso": "2026-03-28",
         "category": "ai-tag",
@@ -595,29 +605,9 @@
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "GCP"
-      },
-      {
-        "title": "March 10, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#March_10_2026",
-        "summary": "Apigee API hub Feature Security monitoring condition support in Advanced API Security for multi-gateway projects Advanced API Security's multi-gateway Risk Assessment feature (available through API…",
-        "date": "2026年3月10日",
-        "date_iso": "2026-03-10",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
       }
     ],
     "oci": [
-      {
-        "title": "New experience in Oracle Cloud Console",
-        "link": "https://docs.oracle.com/iaas/releasenotes/lustre/redwood.htm",
-        "summary": "",
-        "date": "2026年3月31日",
-        "date_iso": "2026-03-31",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
       {
         "title": "New Oracle Cloud Console experience for Usage Statements",
         "link": "https://docs.oracle.com/iaas/releasenotes/billing/new_oracle_cloud_console_experience_for_usage_statements.htm",
@@ -649,6 +639,26 @@
         "tag": "OCI"
       },
       {
+        "title": "New Experience in Oracle Cloud Console for Web Application Firewall",
+        "link": "https://docs.oracle.com/iaas/releasenotes/web-application-firewall/redwood-announcment.htm",
+        "summary": "",
+        "date": "2026年3月31日",
+        "date_iso": "2026-03-31",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
+        "tag": "OCI"
+      },
+      {
+        "title": "New experience in Oracle Cloud Console",
+        "link": "https://docs.oracle.com/iaas/releasenotes/lustre/redwood.htm",
+        "summary": "",
+        "date": "2026年3月31日",
+        "date_iso": "2026-03-31",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
         "title": "Oracle GoldenGate 26ai for non-Oracle databases and Big Data is now available",
         "link": "https://docs.oracle.com/iaas/releasenotes/goldengate/non-oracle26ai.htm",
         "summary": "",
@@ -659,8 +669,8 @@
         "tag": "OCI"
       },
       {
-        "title": "User-defined maintenance schedules",
-        "link": "https://docs.oracle.com/iaas/releasenotes/lustre/lfs-user-maint-sched.htm",
+        "title": "Add ZPR Security Attributes to OCI Generative AI Private Endpoints",
+        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/zpr.htm",
         "summary": "",
         "date": "2026年3月27日",
         "date_iso": "2026-03-27",
@@ -669,8 +679,8 @@
         "tag": "OCI"
       },
       {
-        "title": "Add ZPR Security Attributes to OCI Generative AI Private Endpoints",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/zpr.htm",
+        "title": "User-defined maintenance schedules",
+        "link": "https://docs.oracle.com/iaas/releasenotes/lustre/lfs-user-maint-sched.htm",
         "summary": "",
         "date": "2026年3月27日",
         "date_iso": "2026-03-27",
@@ -796,16 +806,6 @@
         "date_iso": "2026-03-16",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Oracle Autonomous AI Database on Dedicated Exadata Infrastructure on Oracle Database@Azure",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-dedicated/adbd-adb-in-azure.htm",
-        "summary": "",
-        "date": "2026年3月12日",
-        "date_iso": "2026-03-12",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "OCI"
       }
     ]
