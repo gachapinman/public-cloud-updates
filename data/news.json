@@ -1,7 +1,27 @@
 {
-  "updated": "2026年04月02日 19:37 JST",
+  "updated": "2026年04月03日 12:28 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Retirement: Python support for Azure App Service and Azure Functions on Windows will be retired on March 31, 2027",
+        "link": "https://azure.microsoft.com/updates?id=558027",
+        "summary": "Starting March 31, 2027, Python applications hosted on Azure App Service on Windows and Azure Functions on Windows will no longer run. After this date: Your application configuration and content will…",
+        "date": "2026年4月3日",
+        "date_iso": "2026-04-03",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Retirement: AzureDnsEndpoints for Azure storage accounts will be retired March 2027",
+        "link": "https://azure.microsoft.com/updates?id=558276",
+        "summary": "AzureDnsZone endpoints (preview) for Azure Blob storage accounts will enter retirement in March 2027. Customers leveraging AzureDnsZone endpoints (preview) should transition to Standard endpoints for…",
+        "date": "2026年4月3日",
+        "date_iso": "2026-04-03",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
+        "tag": "AZURE"
+      },
       {
         "title": "Retirement: Service Fabric support for Windows Server 2022 ends on March 31, 2027 - upgrade to Windows Server 2025",
         "link": "https://azure.microsoft.com/updates?id=558247",
@@ -180,26 +200,6 @@
         "date_iso": "2026-03-31",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Retirement: Azure Cosmos DB for PostgreSQL will retire on March 31, 2029",
-        "link": "https://azure.microsoft.com/updates?id=556085",
-        "summary": "On March 31, 2029, Azure Cosmos DB for PostgreSQL will be retired, and you'll need to migrate to Azure Database for PostgreSQL Elastic Cluster by that date. Azure Database for PostgreSQL Elastic…",
-        "date": "2026年3月31日",
-        "date_iso": "2026-03-31",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Azure Premium SSD v2 Disk is now available in South India",
-        "link": "https://azure.microsoft.com/updates?id=559526",
-        "summary": "Azure Premium SSD v2 is now available in South India (a region without Availability Zone).Azure Premium SSD v2 disk, a next-generation general-purpose block storage option for Azure virtual machines,…",
-        "date": "2026年3月31日",
-        "date_iso": "2026-03-31",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "AZURE"
       }
     ],
@@ -407,9 +407,19 @@
     ],
     "gcp": [
       {
+        "title": "April 02, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#April_02_2026",
+        "summary": "AlloyDB for PostgreSQL Change You can now enable Advanced Query Insights on primary clusters which have secondary clusters configured. Advanced Query Insights is not supported on secondary clusters.…",
+        "date": "2026年4月2日",
+        "date_iso": "2026-04-02",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "GCP"
+      },
+      {
         "title": "April 01, 2026",
         "link": "https://docs.cloud.google.com/release-notes#April_01_2026",
-        "summary": "Cloud Database Migration Service Feature You can use the Database Migration Service MCP server to enable agents and AI applications to view and manage running migration jobs. This feature is in…",
+        "summary": "Gemini Enterprise Feature Gemini Enterprise: Data connector request count metric Monitor the total number of requests to your Gemini Enterprise data connectors or data stores using the Gemini…",
         "date": "2026年4月1日",
         "date_iso": "2026-04-01",
         "category": "ai-tag",
@@ -595,19 +605,19 @@
         "category": "security-tag",
         "cat_label": "セキュリティ",
         "tag": "GCP"
-      },
-      {
-        "title": "March 11, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#March_11_2026",
-        "summary": "Apigee hybrid Announcement hybrid v1.15.2 On March 11, 2026 we released an updated version of the Apigee hybrid software, v1.15.2. For information on upgrading, see Upgrading Apigee hybrid to version…",
-        "date": "2026年3月11日",
-        "date_iso": "2026-03-11",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "GCP"
       }
     ],
     "oci": [
+      {
+        "title": "File Storage supports custom certificates",
+        "link": "https://docs.oracle.com/iaas/releasenotes/filestorage/file-custom-cert.htm",
+        "summary": "",
+        "date": "2026年3月31日",
+        "date_iso": "2026-03-31",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
+        "tag": "OCI"
+      },
       {
         "title": "New Oracle Cloud Console experience for Usage Statements",
         "link": "https://docs.oracle.com/iaas/releasenotes/billing/new_oracle_cloud_console_experience_for_usage_statements.htm",
@@ -796,16 +806,6 @@
         "date_iso": "2026-03-17",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Exadata Cost Management in Ops Insights",
-        "link": "https://docs.oracle.com/iaas/releasenotes/operations-insights/exadata-cost-management.htm",
-        "summary": "",
-        "date": "2026年3月16日",
-        "date_iso": "2026-03-16",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
         "tag": "OCI"
       }
     ]
