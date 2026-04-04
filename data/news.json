@@ -1,5 +1,5 @@
 {
-  "updated": "2026年04月03日 19:29 JST",
+  "updated": "2026年04月04日 12:16 JST",
   "clouds": {
     "azure": [
       {
@@ -85,7 +85,7 @@
       {
         "title": "Retirement: Select Azure AI Language Features",
         "link": "https://azure.microsoft.com/updates?id=557394",
-        "summary": "On March 20, 2027, Microsoft will retire the following eight Azure AI Language features: Key Phrase ExtractionSentiment Analysis and Opinion MiningCustom Text ClassificationConversational Language…",
+        "summary": "On March 20, 2029, Microsoft will retire the following eight Azure AI Language features: Key Phrase ExtractionSentiment Analysis and Opinion MiningCustom Text ClassificationConversational Language…",
         "date": "2026年4月2日",
         "date_iso": "2026-04-02",
         "category": "ai-tag",
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "April 03, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#April_03_2026",
+        "summary": "AlloyDB for PostgreSQL Feature The gcloud beta alloydb connect command is now available in Preview . This command provides a simplified way to connect securely to AlloyDB instances by using the…",
+        "date": "2026年4月3日",
+        "date_iso": "2026-04-03",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "April 02, 2026",
         "link": "https://docs.cloud.google.com/release-notes#April_02_2026",
         "summary": "AlloyDB for PostgreSQL Change You can now enable Advanced Query Insights on primary clusters which have secondary clusters configured. Advanced Query Insights is not supported on secondary clusters.…",
@@ -419,7 +429,7 @@
       {
         "title": "April 01, 2026",
         "link": "https://docs.cloud.google.com/release-notes#April_01_2026",
-        "summary": "Gemini Enterprise Feature Gemini Enterprise: Data connector request count metric Monitor the total number of requests to your Gemini Enterprise data connectors or data stores using the Gemini…",
+        "summary": "Container Optimized OS Change cos-beta-129-19506-0-115 Kernel Docker Containerd GPU Drivers COS-6.12.67 v27.5.1 v2.2.2 See List Change cos-dev-133-19672-0-0 Kernel Docker Containerd GPU Drivers…",
         "date": "2026年4月1日",
         "date_iso": "2026-04-01",
         "category": "ai-tag",
@@ -594,16 +604,6 @@
         "date_iso": "2026-03-13",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "GCP"
-      },
-      {
-        "title": "March 12, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#March_12_2026",
-        "summary": "Apigee hybrid Fixed Fixed in this release Bug ID Description 490308770 Fixed malformed http_proxy and https_proxy strings in Helm templates that occurred when using authenticated outbound proxy…",
-        "date": "2026年3月12日",
-        "date_iso": "2026-03-12",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
         "tag": "GCP"
       }
     ],
