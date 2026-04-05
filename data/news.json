@@ -1,5 +1,5 @@
 {
-  "updated": "2026年04月04日 19:18 JST",
+  "updated": "2026年04月05日 12:38 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "April 04, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#April_04_2026",
+        "summary": "Google SecOps Feature Playbook Condition and Multi-Choice Question Flows The maximum number of branches supported in Playbook Conditions and Multiple Choice Questions has been increased from 6 to 20.…",
+        "date": "2026年4月4日",
+        "date_iso": "2026-04-04",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "GCP"
+      },
+      {
         "title": "April 03, 2026",
         "link": "https://docs.cloud.google.com/release-notes#April_03_2026",
         "summary": "AlloyDB for PostgreSQL Feature The gcloud beta alloydb connect command is now available in Preview . This command provides a simplified way to connect securely to AlloyDB instances by using the…",
@@ -594,16 +604,6 @@
         "date_iso": "2026-03-14",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "March 13, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#March_13_2026",
-        "summary": "Apigee UI Feature Manage environment-scoped Key Value Maps in the Apigee UI You can now view, add, edit, and delete environment-scoped Key Value Map (KVM) entries in the Apigee UI. For more…",
-        "date": "2026年3月13日",
-        "date_iso": "2026-03-13",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
         "tag": "GCP"
       }
     ],
