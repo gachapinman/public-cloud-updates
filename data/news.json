@@ -1,5 +1,5 @@
 {
-  "updated": "2026年04月06日 14:38 JST",
+  "updated": "2026年04月06日 19:42 JST",
   "clouds": {
     "azure": [
       {
@@ -609,13 +609,13 @@
     ],
     "oci": [
       {
-        "title": "File Storage supports custom certificates",
-        "link": "https://docs.oracle.com/iaas/releasenotes/filestorage/file-custom-cert.htm",
+        "title": "HeatWave: Controlled Upgrade",
+        "link": "https://docs.oracle.com/iaas/releasenotes/mysql-database/TC-39129-controlled-upgrade.htm",
         "summary": "",
         "date": "2026年3月31日",
         "date_iso": "2026-03-31",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
+        "category": "database-tag",
+        "cat_label": "データベース",
         "tag": "OCI"
       },
       {
@@ -656,6 +656,16 @@
         "date_iso": "2026-03-31",
         "category": "network-tag",
         "cat_label": "ネットワーク",
+        "tag": "OCI"
+      },
+      {
+        "title": "File Storage supports custom certificates",
+        "link": "https://docs.oracle.com/iaas/releasenotes/filestorage/file-custom-cert.htm",
+        "summary": "",
+        "date": "2026年3月31日",
+        "date_iso": "2026-03-31",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
         "tag": "OCI"
       },
       {
@@ -796,16 +806,6 @@
         "date_iso": "2026-03-17",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Internet of Things (IoT) monitoring for digital twin resources is now available",
-        "link": "https://docs.oracle.com/iaas/releasenotes/internet-of-things/update-03172026.htm",
-        "summary": "",
-        "date": "2026年3月17日",
-        "date_iso": "2026-03-17",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "OCI"
       }
     ]
