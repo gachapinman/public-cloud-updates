@@ -1,5 +1,5 @@
 {
-  "updated": "2026年04月05日 19:18 JST",
+  "updated": "2026年04月06日 12:41 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "April 05, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#April_05_2026",
+        "summary": "Google SecOps SOAR Feature Playbook Condition and Multi-Choice Question Flows The maximum number of branches supported in Playbook Conditions and Multiple Choice Questions has been increased from 6…",
+        "date": "2026年4月5日",
+        "date_iso": "2026-04-05",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "GCP"
+      },
+      {
         "title": "April 04, 2026",
         "link": "https://docs.cloud.google.com/release-notes#April_04_2026",
         "summary": "Google SecOps Feature Playbook Condition and Multi-Choice Question Flows The maximum number of branches supported in Playbook Conditions and Multiple Choice Questions has been increased from 6 to 20.…",
@@ -592,16 +602,6 @@
         "summary": "Cloud DNS Feature The filter query parameter for resourceRecordSets.list is generally available ( GA ). You can filter records to match a specified domain using the API. Google SecOps SOAR…",
         "date": "2026年3月15日",
         "date_iso": "2026-03-15",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "March 14, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#March_14_2026",
-        "summary": "Container Optimized OS Change cos-125-19216-220-57 Kernel Docker Containerd GPU Drivers COS-6.12.68 v27.5.1 v2.1.5 See List Change Fixed the \"CrackArmor\" vulnerability in the Linux kernel. Fixed…",
-        "date": "2026年3月14日",
-        "date_iso": "2026-03-14",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
