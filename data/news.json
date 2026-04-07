@@ -1,7 +1,27 @@
 {
-  "updated": "2026年04月06日 19:42 JST",
+  "updated": "2026年04月07日 12:31 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Generally Available: Network Security Perimeter for Azure Service Bus",
+        "link": "https://azure.microsoft.com/updates?id=559899",
+        "summary": "Network Security Perimeter (NSP) support for Azure Service Bus is now generally available. Network Security Perimeter creates a logical network boundary around your Service Bus namespaces and other…",
+        "date": "2026年4月7日",
+        "date_iso": "2026-04-07",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Rule impact analysis on Azure Network Watcher",
+        "link": "https://azure.microsoft.com/updates?id=559876",
+        "summary": "Rule impact analysis on Azure Network Watcher enables you to preview the impact of security admin rules before applying them to your environment. This feature helps you validate rule behavior,…",
+        "date": "2026年4月7日",
+        "date_iso": "2026-04-07",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AZURE"
+      },
       {
         "title": "Retirement: Python support for Azure App Service and Azure Functions on Windows will be retired on March 31, 2027",
         "link": "https://azure.microsoft.com/updates?id=558027",
@@ -180,26 +200,6 @@
         "date_iso": "2026-03-31",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Azure Red Hat OpenShift in Indonesia Central",
-        "link": "https://azure.microsoft.com/updates?id=559552",
-        "summary": "Azure Red Hat OpenShift (ARO) is now generally available in the Indonesia Central Azure region, expanding regional availability for customers running mission‑critical OpenShift workloads on Azure.…",
-        "date": "2026年3月31日",
-        "date_iso": "2026-03-31",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Retirement: Deprecation of sidecar for remote-write for Azure Monitor managed service for Prometheus",
-        "link": "https://azure.microsoft.com/updates?id=550519",
-        "summary": "On March 31, 2027 Azure Monitor will be deprecating the sidecar for remote-write of Prometheus metrics to Azure Monitor Workspace. This is as part of our ongoing efforts to improve reliability and…",
-        "date": "2026年3月31日",
-        "date_iso": "2026-03-31",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
         "tag": "AZURE"
       }
     ],
@@ -407,13 +407,23 @@
     ],
     "gcp": [
       {
+        "title": "April 06, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#April_06_2026",
+        "summary": "AlloyDB for PostgreSQL Feature Context sets (previously known as data agents) enable you to interact with the data in your database using conversational language and are used by tools like QueryData…",
+        "date": "2026年4月6日",
+        "date_iso": "2026-04-06",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "GCP"
+      },
+      {
         "title": "April 05, 2026",
         "link": "https://docs.cloud.google.com/release-notes#April_05_2026",
-        "summary": "Google SecOps SOAR Feature Playbook Condition and Multi-Choice Question Flows The maximum number of branches supported in Playbook Conditions and Multiple Choice Questions has been increased from 6…",
+        "summary": "Cloud Load Balancing Feature Certificate Manager certificates are available in Google Cloud console while provisioning a load balancer. You can select a certificate map for the following load…",
         "date": "2026年4月5日",
         "date_iso": "2026-04-05",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "GCP"
       },
       {
@@ -499,11 +509,11 @@
       {
         "title": "March 27, 2026",
         "link": "https://docs.cloud.google.com/release-notes#March_27_2026",
-        "summary": "Cloud Composer Announcement A new Cloud Composer release has started on March 27, 2026 . Get ready for upcoming changes and features as we roll out the new release to all regions. This release is in…",
+        "summary": "Assured Workloads Feature The Data Boundary for IRS 1075 supports the following products: AI Protection Artifact Analysis AutoML Tables Backup and DR Service Certificate Manager Cloud Domains Cloud…",
         "date": "2026年3月27日",
         "date_iso": "2026-03-27",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "GCP"
       },
       {
@@ -594,16 +604,6 @@
         "date_iso": "2026-03-16",
         "category": "database-tag",
         "cat_label": "データベース",
-        "tag": "GCP"
-      },
-      {
-        "title": "March 15, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#March_15_2026",
-        "summary": "Cloud DNS Feature The filter query parameter for resourceRecordSets.list is generally available ( GA ). You can filter records to match a specified domain using the API. Google SecOps SOAR…",
-        "date": "2026年3月15日",
-        "date_iso": "2026-03-15",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "GCP"
       }
     ],
