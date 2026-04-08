@@ -1,7 +1,47 @@
 {
-  "updated": "2026年04月07日 19:42 JST",
+  "updated": "2026年04月08日 12:32 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Generally Available: Azure Red Hat OpenShift adds NVIDIA H100 and H200 GPU support",
+        "link": "https://azure.microsoft.com/updates?id=559547",
+        "summary": "Azure Red Hat OpenShift (ARO) now supports NVIDIA H100 and H200 GPU-based Azure Virtual Machine SKUs, enabling customers to run large-scale AI, machine learning, and high-performance computing (HPC)…",
+        "date": "2026年4月8日",
+        "date_iso": "2026-04-08",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Disable HTTP proxy in AKS",
+        "link": "https://azure.microsoft.com/updates?id=557857",
+        "summary": "Organizations that use HTTP proxies to control outbound traffic often need to change or remove those settings as network requirements evolve, which can be disruptive in running clusters. Azure…",
+        "date": "2026年4月8日",
+        "date_iso": "2026-04-08",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Azure Functions now supports MCP resource triggers",
+        "link": "https://azure.microsoft.com/updates?id=559981",
+        "summary": "Developers building MCP servers on Azure Functions can expose tools but not resources. Now, Azure Functions supports MCP resource triggers, enabling developers to expose resources directly from an…",
+        "date": "2026年4月8日",
+        "date_iso": "2026-04-08",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Pod CIDR expansion in AKS",
+        "link": "https://azure.microsoft.com/updates?id=557907",
+        "summary": "When clusters exhaust available pod IP addresses, teams have historically been forced to rebuild environments to restore capacity, creating operational disruption. Pod CIDR expansion allows…",
+        "date": "2026年4月8日",
+        "date_iso": "2026-04-08",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Generally Available: Network Security Perimeter for Azure Service Bus",
         "link": "https://azure.microsoft.com/updates?id=559899",
@@ -161,46 +201,6 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Microsoft Azure now available from new cloud region in Denmark",
-        "link": "https://azure.microsoft.com/updates?id=559406",
-        "summary": "Microsoft announces the opening of its cloud region in Denmark to accelerate digital transformation and AI innovation. The Denmark East region provides Danish customers with local, secure cloud…",
-        "date": "2026年4月1日",
-        "date_iso": "2026-04-01",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Retirement: Manually registered Azure VPN Clients for ​Azure Government and ​Microsoft Azure operated by 21Vianet…",
-        "link": "https://azure.microsoft.com/updates?id=557395",
-        "summary": "On March 31, 2029, we’ll be retiring manually registered Azure VPN clients for point-to-site connections with Microsoft Entra ID authentication for ​Azure Government and ​Microsoft Azure operated by…",
-        "date": "2026年4月1日",
-        "date_iso": "2026-04-01",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Azure Premium SSD v2 Disk is now available in US Gov Arizona",
-        "link": "https://azure.microsoft.com/updates?id=559677",
-        "summary": "Azure Premium SSD v2 is now available in US Gov Arizona (a region without Availability Zone). Azure Premium SSD v2 disk, a next-generation general-purpose block storage option for Azure virtual…",
-        "date": "2026年4月1日",
-        "date_iso": "2026-04-01",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Ephemeral OS Disk with full caching for VM/VMSS",
-        "link": "https://azure.microsoft.com/updates?id=559322",
-        "summary": "Ephemeral OS Disk with full caching is now available in public preview for Azure VM/VMSS, bringing significantly faster and more reliable OS disk performance to your workloads. By caching the entire…",
-        "date": "2026年3月31日",
-        "date_iso": "2026-03-31",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
@@ -275,6 +275,16 @@
         "tag": "AWS"
       },
       {
+        "title": "Amazon EC2 I7ie インスタンスが AWS アフリカ (ケープタウン) リージョンで利用可能に",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-ec-i-ie-instances-available-aws-africa/",
+        "summary": "",
+        "date": "2026年2月25日",
+        "date_iso": "2026-02-25",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
         "title": "AWS AppConfig が New Relic と統合され、自動ロールバックが可能に",
         "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/aws-appconfig-new-relic-for-automated-rollback/",
         "summary": "",
@@ -287,16 +297,6 @@
       {
         "title": "Amazon EC2 M8a インスタンスが AWS 欧州 (フランクフルト) リージョンで利用可能に",
         "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-ec2-m8a-instances-europe-frankfurt/",
-        "summary": "",
-        "date": "2026年2月25日",
-        "date_iso": "2026-02-25",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 I7ie インスタンスが AWS アフリカ (ケープタウン) リージョンで利用可能に",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/02/amazon-ec-i-ie-instances-available-aws-africa/",
         "summary": "",
         "date": "2026年2月25日",
         "date_iso": "2026-02-25",
@@ -406,6 +406,16 @@
       }
     ],
     "gcp": [
+      {
+        "title": "April 07, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#April_07_2026",
+        "summary": "BigQuery Feature The BigQuery Data Transfer Service now supports incremental data transfers for the following data source connectors: MySQL Oracle PostgreSQL ServiceNow These features are supported…",
+        "date": "2026年4月7日",
+        "date_iso": "2026-04-07",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "GCP"
+      },
       {
         "title": "April 06, 2026",
         "link": "https://docs.cloud.google.com/release-notes#April_06_2026",
@@ -595,25 +605,15 @@
         "category": "security-tag",
         "cat_label": "セキュリティ",
         "tag": "GCP"
-      },
-      {
-        "title": "March 16, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#March_16_2026",
-        "summary": "AlloyDB for PostgreSQL Feature AlloyDB now supports the 2 vCPU C4A machine type ( c4a-highmem-2-lssd ), which is powered by Google Axion, Google's custom Arm-based processor. This expansion provides…",
-        "date": "2026年3月16日",
-        "date_iso": "2026-03-16",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "GCP"
       }
     ],
     "oci": [
       {
-        "title": "HeatWave: Controlled Upgrade",
-        "link": "https://docs.oracle.com/iaas/releasenotes/mysql-database/TC-39129-controlled-upgrade.htm",
+        "title": "Database Migration introduces support for the Assessment feature",
+        "link": "https://docs.oracle.com/iaas/releasenotes/database-migration/april-2026.htm",
         "summary": "",
-        "date": "2026年3月31日",
-        "date_iso": "2026-03-31",
+        "date": "2026年4月7日",
+        "date_iso": "2026-04-07",
         "category": "database-tag",
         "cat_label": "データベース",
         "tag": "OCI"
@@ -646,6 +646,16 @@
         "date_iso": "2026-03-31",
         "category": "ai-tag",
         "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "HeatWave: Controlled Upgrade",
+        "link": "https://docs.oracle.com/iaas/releasenotes/mysql-database/TC-39129-controlled-upgrade.htm",
+        "summary": "",
+        "date": "2026年3月31日",
+        "date_iso": "2026-03-31",
+        "category": "database-tag",
+        "cat_label": "データベース",
         "tag": "OCI"
       },
       {
@@ -796,16 +806,6 @@
         "date_iso": "2026-03-17",
         "category": "container-tag",
         "cat_label": "コンテナ",
-        "tag": "OCI"
-      },
-      {
-        "title": "Oracle JDK 26 - Released March 17, 2026",
-        "link": "https://docs.oracle.com/iaas/releasenotes/java-management/jdk-26-release-note.htm",
-        "summary": "",
-        "date": "2026年3月17日",
-        "date_iso": "2026-03-17",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
         "tag": "OCI"
       }
     ]
