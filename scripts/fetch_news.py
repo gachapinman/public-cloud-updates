@@ -5,7 +5,7 @@ fetch_news.py
 
 対応ページ:
   Azure : https://azure.microsoft.com/ja-jp/updates/  (RSS: https://www.microsoft.com/releasecommunications/api/v2/azure/rss)
-  AWS   : https://aws.amazon.com/jp/new/
+  AWS   : https://aws.amazon.com/new/
   GCP   : https://docs.cloud.google.com/release-notes
   OCI   : https://docs.oracle.com/en-us/iaas/releasenotes/
 """
@@ -32,9 +32,9 @@ FEEDS = {
     },
     "aws": {
         "name": "Amazon Web Services",
-        # https://aws.amazon.com/jp/new/ の公式フィード
-        "url": "https://aws.amazon.com/jp/new/feed/",
-        "fallback_url": "https://aws.amazon.com/new/feed/",
+        # https://aws.amazon.com/new/ の公式フィード
+        "url": "https://aws.amazon.com/new/feed/",
+        "fallback_url": "https://aws.amazon.com/jp/new/feed/",
     },
     "gcp": {
         "name": "Google Cloud Platform",
