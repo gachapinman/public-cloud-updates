@@ -1,7 +1,47 @@
 {
-  "updated": "2026年04月08日 19:44 JST",
+  "updated": "2026年04月09日 12:29 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Generally Available: Enhancements to maintenance notifications in Azure Service Health",
+        "link": "https://azure.microsoft.com/updates?id=559628",
+        "summary": "We’re introducing regional level consolidated maintenance notifications for Azure Database for PostgreSQL to simplify how you stay informed about upcoming maintenance. Instead of one notification per…",
+        "date": "2026年4月9日",
+        "date_iso": "2026-04-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: PgBouncer 1.25.1 support in Azure Database for PostgreSQL – Flexible Server",
+        "link": "https://azure.microsoft.com/updates?id=559623",
+        "summary": "PgBouncer 1.25.1 is now generally available in Azure Database for PostgreSQL. As a built-in connection pooling feature, PgBouncer helps you scale to thousands of connections with low overhead by…",
+        "date": "2026年4月9日",
+        "date_iso": "2026-04-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Observability in AKS Namespace and Workload Views",
+        "link": "https://azure.microsoft.com/updates?id=560039",
+        "summary": "AKS now surfaces observability data powered by Azure Monitor managed service for Prometheus directly within Namespace and Workload views, making it easier to:Monitor cluster and workload…",
+        "date": "2026年4月9日",
+        "date_iso": "2026-04-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Azure Files assessments are now available using Azure Migrate",
+        "link": "https://azure.microsoft.com/updates?id=560025",
+        "summary": "Azure Migrate now supports assessments for Azure Files, allowing customers and partners to efficiently plan migrations of on-premises SMB and NFS file shares (Windows and Linux) to Azure Files. This…",
+        "date": "2026年4月9日",
+        "date_iso": "2026-04-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Generally Available: Azure Red Hat OpenShift adds NVIDIA H100 and H200 GPU support",
         "link": "https://azure.microsoft.com/updates?id=559547",
@@ -161,49 +201,79 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Azure DevOps March 2026 updates",
-        "link": "https://azure.microsoft.com/updates?id=559660",
-        "summary": "The following updates were made to Azure DevOps in March 2026. The Remote MCP Server entered public preview, enabling seamless AI-powered integration with Azure DevOps without requiring a local…",
-        "date": "2026年4月1日",
-        "date_iso": "2026-04-01",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Azure Event Grid provides new capabilities for smarter, more secure event-driven…",
-        "link": "https://azure.microsoft.com/updates?id=559695",
-        "summary": "Azure Event Grid offers a variety of features in Public Preview – intended to help you better manage large-scale, distributed systems with improved interoperability and control. Public Preview…",
-        "date": "2026年4月1日",
-        "date_iso": "2026-04-01",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: User delegation SAS for Azure Tables, Azure Files, and Azure Queues",
-        "link": "https://azure.microsoft.com/updates?id=559535",
-        "summary": "User delegation SAS for Azure Tables, Azure Files, and Azure Queues is now generally available. User delegation SAS allows users to create a more secure SAS token than account or service SAS by tying…",
-        "date": "2026年4月1日",
-        "date_iso": "2026-04-01",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Azure Event Grid provides new capabilities for smarter, more secure event-driven…",
-        "link": "https://azure.microsoft.com/updates?id=492542",
-        "summary": "Azure Event Grid now offers a variety of new features intended to help you better manage large-scale, distributed systems with improved interoperability and control. Generally Available features:…",
-        "date": "2026年4月1日",
-        "date_iso": "2026-04-01",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "SageMaker HyperPod now supports gang scheduling for distributed training workloads",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/sagemaker-hyperpod-gang-scheduling/",
+        "summary": "Amazon SageMaker HyperPod task governance now supports gang scheduling, which ensures all pods required for a distributed training job are ready before training begins. Administrators can configure…",
+        "date": "2026年4月9日",
+        "date_iso": "2026-04-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon IVS Real-Time Streaming now supports redundant ingest",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ivs-real-time-streaming-redundant-ingest/",
+        "summary": "Amazon Interactive Video Service (Amazon IVS) Real-Time Streaming now supports redundant ingest, helping protect your live streams against source encoder failures and first-mile network issues. With…",
+        "date": "2026年4月9日",
+        "date_iso": "2026-04-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EKS managed node groups now support EC2 Auto Scaling warm pools",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-eks-managed-node-groups-ec2-warm-pools/",
+        "summary": "Amazon Elastic Kubernetes Service (Amazon EKS) managed node groups now support Auto Scaling warm pools , enabling you to maintain pre-initialized EC2 instances ready for rapid scale-out. This reduces…",
+        "date": "2026年4月9日",
+        "date_iso": "2026-04-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Bedrock AgentCore Browser adds OS-level interaction capabilities",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/agentcore-browser-os-actions/",
+        "summary": "Amazon Bedrock AgentCore Browser now supports OS-level interaction capabilities, enabling automation of browser workflows that require direct operating system control beyond Chrome DevTools Protocol…",
+        "date": "2026年4月9日",
+        "date_iso": "2026-04-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon WorkSpaces Advisor now available for AI-powered troubleshooting",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/workspaces-advisor-ai-troubleshooting/",
+        "summary": "Amazon WorkSpaces Advisor is a new AI-powered tool that helps administrators quickly troubleshoot and resolve issues with Amazon WorkSpaces Personal. Using generative AI capabilities, it analyzes…",
+        "date": "2026年4月9日",
+        "date_iso": "2026-04-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon OpenSearch Service now supports Graviton4 based i8ge instances",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/4/amazon-opensearch-service-supports-i8ge/",
+        "summary": "Amazon OpenSearch Service now supports i8ge instances, which is the latest generation of storage optimized instances offering the best performance for storage-intensive workloads. Powered by AWS…",
+        "date": "2026年4月9日",
+        "date_iso": "2026-04-09",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Oracle Database@AWS is now available in twelve AWS Regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/oracle-database-aws-available-twelve-regions/",
+        "summary": "Oracle Database@AWS is now generally available in five additional AWS Regions: EU-West-1 (Dublin), EU-West-2 (London), AP-South-1 (Mumbai), AP-South-2 (Hyderabad), and AP-Northeast-2 (Seoul). Oracle…",
+        "date": "2026年4月8日",
+        "date_iso": "2026-04-08",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
       {
         "title": "AWS Lambda expands response streaming support to all commercial AWS Regions",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-lambda-response-streaming/",
@@ -333,79 +403,19 @@
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon WorkSpaces Personal now supports unique DNS names for PrivateLink",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-workspaces-personal-privatelink/",
-        "summary": "Amazon WorkSpaces Personal now provides unique, publicly resolvable Domain Name System (DNS) names for each AWS PrivateLink Virtual Private Cloud (VPC) endpoint, enabling enterprise customers to…",
-        "date": "2026年4月7日",
-        "date_iso": "2026-04-07",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon FSx for OpenZFS is now available in the AWS Asia Pacific (Melbourne) Region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-fsx-openzfs-melbourne-region/",
-        "summary": "Customers can now create Amazon FSx for OpenZFS file systems in the AWS Asia Pacific (Melbourne) Region, providing fully managed shared file storage built on the OpenZFS file system. Amazon FSx makes…",
-        "date": "2026年4月7日",
-        "date_iso": "2026-04-07",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS announces general availability of Smithy-Java client framework",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/smithy-java-client-framework/",
-        "summary": "AWS today announced the general availability of Smithy-Java, an open-source Java framework for generating type-safe clients and standalone classes from Smithy models. Smithy-Java addresses one of the…",
-        "date": "2026年4月7日",
-        "date_iso": "2026-04-07",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS IoT Greengrass component SDK for C, C++, and Rust applications",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/iot-greengrass-component-sdk/",
-        "summary": "We're excited to announce the launch of a new&nbsp; Greengrass component SDK&nbsp; for AWS IoT Greengrass applications. This new SDK addresses the challenge of deploying sophisticated applications on…",
-        "date": "2026年4月7日",
-        "date_iso": "2026-04-07",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon S3 starts rolling out new security best practice to new and existing buckets by default",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/s3-default-bucket-security-setting/",
-        "summary": "As announced on November 19, 2025 , Amazon S3 is now deploying a new default bucket security setting which will automatically disable server-side encryption with customer-provided keys (SSE-C) for…",
-        "date": "2026年4月6日",
-        "date_iso": "2026-04-06",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon RDS for Oracle now supports Oracle Management Agent version 24.1.0.0.v1 for Oracle Enterprise Manager Cloud…",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-rds-oracle-supports-oracle-management-agent-version-for-oracle-enterprise-manager=cloud-control/",
-        "summary": "Amazon Relational Database Service (Amazon RDS) for Oracle now supports Oracle Management Agent (OMA) version 24.1.0.0.v1 for Oracle Enterprise Manager (OEM) Cloud Control 24ai Release 1. OEM 24ai…",
-        "date": "2026年4月6日",
-        "date_iso": "2026-04-06",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Apache Spark troubleshooting and upgrade agents now available as Kiro powers",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-emr-spark-troubleshooting-upgrade-kiro-power/",
-        "summary": "The Apache Spark troubleshooting agent and upgrade agent for Amazon EMR are now available as Kiro powers, bringing one-click access to AI-assisted Spark operations directly in Kiro. With these…",
-        "date": "2026年4月4日",
-        "date_iso": "2026-04-04",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "April 08, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#April_08_2026",
+        "summary": "BigQuery Feature The BigQuery Data Transfer Service now supports incremental data transfers when transferring data from Microsoft SQL Server to BigQuery. This feature is supported in Preview .…",
+        "date": "2026年4月8日",
+        "date_iso": "2026-04-08",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "GCP"
+      },
       {
         "title": "April 07, 2026",
         "link": "https://docs.cloud.google.com/release-notes#April_07_2026",
@@ -469,7 +479,7 @@
       {
         "title": "April 01, 2026",
         "link": "https://docs.cloud.google.com/release-notes#April_01_2026",
-        "summary": "Container Optimized OS Change cos-beta-129-19506-0-115 Kernel Docker Containerd GPU Drivers COS-6.12.67 v27.5.1 v2.2.2 See List Change cos-dev-133-19672-0-0 Kernel Docker Containerd GPU Drivers…",
+        "summary": "Cloud Composer Change New images are available in Cloud Composer 2: composer-2.16.10-airflow-2.11.1 composer-2.16.10-airflow-2.10.5 (default) composer-2.16.10-airflow-2.9.3 Feature Airflow 2.11.1 is…",
         "date": "2026年4月1日",
         "date_iso": "2026-04-01",
         "category": "ai-tag",
@@ -595,19 +605,19 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
-      },
-      {
-        "title": "March 17, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#March_17_2026",
-        "summary": "Apigee Advanced API Security Announcement On March 17, 2026 we released an updated version of Advanced API Security abuse detection Feature VPC-SC support in abuse detection This release includes…",
-        "date": "2026年3月17日",
-        "date_iso": "2026-03-17",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "GCP"
       }
     ],
     "oci": [
+      {
+        "title": "Malaysia West 2 (Kulai) region availability",
+        "link": "https://docs.oracle.com/iaas/releasenotes/lustre/malaysia-west-2.htm",
+        "summary": "",
+        "date": "2026年4月7日",
+        "date_iso": "2026-04-07",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
       {
         "title": "Database Migration introduces support for the Assessment feature",
         "link": "https://docs.oracle.com/iaas/releasenotes/database-migration/april-2026.htm",
@@ -616,6 +626,26 @@
         "date_iso": "2026-04-07",
         "category": "database-tag",
         "cat_label": "データベース",
+        "tag": "OCI"
+      },
+      {
+        "title": "New Experience in Oracle Cloud Console",
+        "link": "https://docs.oracle.com/iaas/releasenotes/registry/mar31-cloud-console-release-note.htm",
+        "summary": "",
+        "date": "2026年4月7日",
+        "date_iso": "2026-04-07",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "New experience in Oracle Cloud Console",
+        "link": "https://docs.oracle.com/iaas/releasenotes/lustre/redwood.htm",
+        "summary": "",
+        "date": "2026年3月31日",
+        "date_iso": "2026-03-31",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "OCI"
       },
       {
@@ -679,16 +709,6 @@
         "tag": "OCI"
       },
       {
-        "title": "New experience in Oracle Cloud Console",
-        "link": "https://docs.oracle.com/iaas/releasenotes/lustre/redwood.htm",
-        "summary": "",
-        "date": "2026年3月31日",
-        "date_iso": "2026-03-31",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
         "title": "Oracle GoldenGate 26ai for non-Oracle databases and Big Data is now available",
         "link": "https://docs.oracle.com/iaas/releasenotes/goldengate/non-oracle26ai.htm",
         "summary": "",
@@ -699,8 +719,8 @@
         "tag": "OCI"
       },
       {
-        "title": "Add ZPR Security Attributes to OCI Generative AI Private Endpoints",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/zpr.htm",
+        "title": "User-defined maintenance schedules",
+        "link": "https://docs.oracle.com/iaas/releasenotes/lustre/lfs-user-maint-sched.htm",
         "summary": "",
         "date": "2026年3月27日",
         "date_iso": "2026-03-27",
@@ -709,8 +729,8 @@
         "tag": "OCI"
       },
       {
-        "title": "User-defined maintenance schedules",
-        "link": "https://docs.oracle.com/iaas/releasenotes/lustre/lfs-user-maint-sched.htm",
+        "title": "Add ZPR Security Attributes to OCI Generative AI Private Endpoints",
+        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/zpr.htm",
         "summary": "",
         "date": "2026年3月27日",
         "date_iso": "2026-03-27",
@@ -786,26 +806,6 @@
         "date_iso": "2026-03-18",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Oracle Cloud VMware Solution Supports Broadcom’s BYOL Model",
-        "link": "https://docs.oracle.com/iaas/releasenotes/oracle-cloud-vmware-solution/byol.htm",
-        "summary": "",
-        "date": "2026年3月18日",
-        "date_iso": "2026-03-18",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Support for Kubernetes version 1.35.0 in a preview release of Kubernetes Engine",
-        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-K8s-1-35-0-preview-support-Release-Note.htm",
-        "summary": "",
-        "date": "2026年3月17日",
-        "date_iso": "2026-03-17",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
         "tag": "OCI"
       }
     ]
