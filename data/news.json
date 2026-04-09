@@ -1,5 +1,5 @@
 {
-  "updated": "2026年04月09日 14:28 JST",
+  "updated": "2026年04月09日 19:47 JST",
   "clouds": {
     "azure": [
       {
@@ -429,7 +429,7 @@
       {
         "title": "April 06, 2026",
         "link": "https://docs.cloud.google.com/release-notes#April_06_2026",
-        "summary": "AlloyDB for PostgreSQL Feature Context sets (previously known as data agents) enable you to interact with the data in your database using conversational language and are used by tools like QueryData…",
+        "summary": "AlloyDB for PostgreSQL Feature The QueryData tool lets you to query with the data in your database using conversational language and build data agents. For more information, see QueryData tool…",
         "date": "2026年4月6日",
         "date_iso": "2026-04-06",
         "category": "database-tag",
@@ -609,13 +609,13 @@
     ],
     "oci": [
       {
-        "title": "Malaysia West 2 (Kulai) region availability",
-        "link": "https://docs.oracle.com/iaas/releasenotes/lustre/malaysia-west-2.htm",
+        "title": "Valkey 8.1 cache engine version",
+        "link": "https://docs.oracle.com/iaas/releasenotes/oci-cache/apr2026-valkey-8-1.htm",
         "summary": "",
-        "date": "2026年4月7日",
-        "date_iso": "2026-04-07",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
+        "date": "2026年4月9日",
+        "date_iso": "2026-04-09",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "OCI"
       },
       {
@@ -639,13 +639,13 @@
         "tag": "OCI"
       },
       {
-        "title": "New experience in Oracle Cloud Console",
-        "link": "https://docs.oracle.com/iaas/releasenotes/lustre/redwood.htm",
+        "title": "Malaysia West 2 (Kulai) region availability",
+        "link": "https://docs.oracle.com/iaas/releasenotes/lustre/malaysia-west-2.htm",
         "summary": "",
-        "date": "2026年3月31日",
-        "date_iso": "2026-03-31",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
+        "date": "2026年4月7日",
+        "date_iso": "2026-04-07",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "OCI"
       },
       {
@@ -709,6 +709,16 @@
         "tag": "OCI"
       },
       {
+        "title": "New experience in Oracle Cloud Console",
+        "link": "https://docs.oracle.com/iaas/releasenotes/lustre/redwood.htm",
+        "summary": "",
+        "date": "2026年3月31日",
+        "date_iso": "2026-03-31",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
         "title": "Oracle GoldenGate 26ai for non-Oracle databases and Big Data is now available",
         "link": "https://docs.oracle.com/iaas/releasenotes/goldengate/non-oracle26ai.htm",
         "summary": "",
@@ -719,8 +729,8 @@
         "tag": "OCI"
       },
       {
-        "title": "User-defined maintenance schedules",
-        "link": "https://docs.oracle.com/iaas/releasenotes/lustre/lfs-user-maint-sched.htm",
+        "title": "Add ZPR Security Attributes to OCI Generative AI Private Endpoints",
+        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/zpr.htm",
         "summary": "",
         "date": "2026年3月27日",
         "date_iso": "2026-03-27",
@@ -729,8 +739,8 @@
         "tag": "OCI"
       },
       {
-        "title": "Add ZPR Security Attributes to OCI Generative AI Private Endpoints",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/zpr.htm",
+        "title": "User-defined maintenance schedules",
+        "link": "https://docs.oracle.com/iaas/releasenotes/lustre/lfs-user-maint-sched.htm",
         "summary": "",
         "date": "2026年3月27日",
         "date_iso": "2026-03-27",
@@ -796,16 +806,6 @@
         "date_iso": "2026-03-19",
         "category": "container-tag",
         "cat_label": "コンテナ",
-        "tag": "OCI"
-      },
-      {
-        "title": "VCN-Native Pod Networking CNI plugin version 3.2.0 now available",
-        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-VCN-native-CNI-v320-Release-Notes.htm",
-        "summary": "",
-        "date": "2026年3月18日",
-        "date_iso": "2026-03-18",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "OCI"
       }
     ]
