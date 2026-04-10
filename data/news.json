@@ -1,5 +1,5 @@
 {
-  "updated": "2026年04月10日 14:38 JST",
+  "updated": "2026年04月10日 19:39 JST",
   "clouds": {
     "azure": [
       {
@@ -609,16 +609,6 @@
     ],
     "oci": [
       {
-        "title": "Kubernetes Engine support for Karpenter Provider for OCI (KPO)",
-        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-Karpenter-Support-Release-Note.htm",
-        "summary": "",
-        "date": "2026年4月9日",
-        "date_iso": "2026-04-09",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "OCI"
-      },
-      {
         "title": "Valkey 8.1 cache engine version",
         "link": "https://docs.oracle.com/iaas/releasenotes/oci-cache/apr2026-valkey-8-1.htm",
         "summary": "",
@@ -626,6 +616,16 @@
         "date_iso": "2026-04-09",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Kubernetes Engine support for Karpenter Provider for OCI (KPO)",
+        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-Karpenter-Support-Release-Note.htm",
+        "summary": "",
+        "date": "2026年4月9日",
+        "date_iso": "2026-04-09",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
         "tag": "OCI"
       },
       {
