@@ -1,5 +1,5 @@
 {
-  "updated": "2026年04月10日 12:42 JST",
+  "updated": "2026年04月10日 14:38 JST",
   "clouds": {
     "azure": [
       {
@@ -489,7 +489,7 @@
       {
         "title": "April 01, 2026",
         "link": "https://docs.cloud.google.com/release-notes#April_01_2026",
-        "summary": "Cloud Composer Feature Airflow 2.11.1 is available in Cloud Composer 3 and Cloud Composer 2. Change New Airflow builds are available in Cloud Composer 3: composer-3-airflow-2.11.1-build.0…",
+        "summary": "Container Optimized OS Change cos-beta-129-19506-0-115 Kernel Docker Containerd GPU Drivers COS-6.12.67 v27.5.1 v2.2.2 See List Change cos-dev-133-19672-0-0 Kernel Docker Containerd GPU Drivers…",
         "date": "2026年4月1日",
         "date_iso": "2026-04-01",
         "category": "ai-tag",
