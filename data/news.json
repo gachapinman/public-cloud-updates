@@ -1,5 +1,5 @@
 {
-  "updated": "2026年04月09日 19:47 JST",
+  "updated": "2026年04月10日 12:42 JST",
   "clouds": {
     "azure": [
       {
@@ -205,6 +205,96 @@
     ],
     "aws": [
       {
+        "title": "Amazon Timestream for InfluxDB Now Supports Customer-Defined Maintenance Windows",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/timestream-influxdb-maintenance-windows/",
+        "summary": "Amazon Timestream for InfluxDB now supports customer-defined maintenance windows, giving you control over when routine maintenance is performed on your InfluxDB databases. This feature is available…",
+        "date": "2026年4月10日",
+        "date_iso": "2026-04-10",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Bedrock now supports cost allocation by IAM user and role",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/bedrock-iam-cost-allocation/",
+        "summary": "Amazon Bedrock now supports cost allocation by IAM principal, such as IAM users and IAM roles, in AWS Cost and Usage Report 2.0 (CUR 2.0) and Cost Explorer. This enables customers to understand and…",
+        "date": "2026年4月10日",
+        "date_iso": "2026-04-10",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon OpenSearch Service supports Managed Prometheus and agent tracing",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/opensearch-managed-prometheus-agent-tracing/",
+        "summary": "Amazon OpenSearch Service now provides a unified observability experience that brings together metrics, logs, traces, and AI agent tracing in a single interface. This release introduces native…",
+        "date": "2026年4月10日",
+        "date_iso": "2026-04-10",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon S3 Lifecycle pauses actions on objects that are unable to replicate",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/s3-lifecycle-pauses-actions-on-objects/",
+        "summary": "Amazon S3 Lifecycle now prevents expiration and transition actions on objects that failed replication, helping you to coordinate replication configuration or permissions changes with actions defined…",
+        "date": "2026年4月10日",
+        "date_iso": "2026-04-10",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon RDS Blue/Green Deployments now supports Amazon RDS Proxy",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/rds-proxy-blue-green/",
+        "summary": "Amazon RDS Blue/Green Deployments now supports Amazon RDS Proxy, enabling faster application recovery during switchover by eliminating DNS propagation delays. Blue/Green Deployments create a fully…",
+        "date": "2026年4月10日",
+        "date_iso": "2026-04-10",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Marketplace announces the Discovery API for programmatic access to catalog data",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-marketplace-discovery-api/",
+        "summary": "Today, AWS Marketplace announces the Discovery API, giving you programmatic access to product and pricing information across the AWS Marketplace catalog — including SaaS, AI agents and tools, AMI,…",
+        "date": "2026年4月10日",
+        "date_iso": "2026-04-10",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Agent Registry for centralized agent discovery and governance is now available in Preview",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-agent-registry-in-agentcore-preview/",
+        "summary": "AWS Agent Registry, available through Amazon Bedrock AgentCore, is now in preview — a private, governed catalog and discovery layer for agents, tools, skills, MCP servers, and custom resources within…",
+        "date": "2026年4月10日",
+        "date_iso": "2026-04-10",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon OpenSearch Serverless now supports Zstandard (zstd) codec for index compression",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-opensearch-serverless-supports-zstandard-index-compression/",
+        "summary": "Amazon OpenSearch Serverless now supports Zstandard codecs for index storage, giving customers greater control over the trade-off between storage costs and query performance. With this launch,…",
+        "date": "2026年4月10日",
+        "date_iso": "2026-04-10",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 Capacity Manager now supports tag-based dimensions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-capacity-manager-tag-based-dimensions/",
+        "summary": "Starting today, Amazon EC2 Capacity Manager supports tag-based dimensions, enabling you to use tags from your EC2 resources to group and filter capacity metrics. EC2 Capacity Manager helps you…",
+        "date": "2026年4月9日",
+        "date_iso": "2026-04-09",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
         "title": "SageMaker HyperPod now supports gang scheduling for distributed training workloads",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/sagemaker-hyperpod-gang-scheduling/",
         "summary": "Amazon SageMaker HyperPod task governance now supports gang scheduling, which ensures all pods required for a distributed training job are ready before training begins. Administrators can configure…",
@@ -313,99 +403,19 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon SageMaker adds serverless workflows to Identity Center domains",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-sagemaker-serverless-workflows/",
-        "summary": "Amazon SageMaker Unified Studio now supports Serverless Workflows in Identity Center domains. &nbsp;With this launch, customers using Identity Center domains can orchestrate data processing tasks…",
-        "date": "2026年4月8日",
-        "date_iso": "2026-04-08",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Announcing Amazon S3 Files, making S3 buckets accessible as file systems",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-s3-files/",
-        "summary": "S3 Files delivers a shared file system that connects any AWS&nbsp;compute&nbsp;resource directly with your data in Amazon S3. With S3 Files, Amazon S3 is the first and only cloud object store that…",
-        "date": "2026年4月7日",
-        "date_iso": "2026-04-07",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon RDS for Oracle now supports M8i and R8i instances",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-rds-oracle-8th-gen-instances/",
-        "summary": "Amazon RDS for Oracle now supports M8i and R8i instances. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and fastest memory…",
-        "date": "2026年4月7日",
-        "date_iso": "2026-04-07",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Braket adds support for Rigetti's 108-qubit Cepheus QPU",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-braket-rigetti-cepheus/",
-        "summary": "Amazon Braket, the quantum computing service from AWS, now offers access to Rigetti's Cepheus-1-108Q device, the first 100+ qubit superconducting quantum processing unit (QPU) available on Amazon…",
-        "date": "2026年4月7日",
-        "date_iso": "2026-04-07",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Transfer Family now supports IPv6 for connectors and web apps",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-transfer-family-ipv6-connectors-web-apps/",
-        "summary": "AWS Transfer Family announces Internet Protocol version 6 (IPv6) support for SFTP connectors, AS2 connectors, and Transfer Family web apps. This enhancement enables your connectors to reach remote…",
-        "date": "2026年4月7日",
-        "date_iso": "2026-04-07",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Aurora now supports PostgreSQL 17.9, 16.13, 15.17, and 14.22",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-aurora-postgresql-17-9-16-13-15-17-14-22/",
-        "summary": "Amazon Aurora PostgreSQL-Compatible Edition now supports PostgreSQL versions 17.9, 16.13, 15.17, and 14.22 that includes bug fixes from the PostgreSQL community and Aurora-specific enhancements. We…",
-        "date": "2026年4月7日",
-        "date_iso": "2026-04-07",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Certificate Manager now supports native certificate search",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-certificate-manager-search/",
-        "summary": "AWS Certificate Manager (ACM) now provides a search bar in the console that customers can use to find certificates using one or more certificate parameters such as domain name, certificate ARN,…",
-        "date": "2026年4月7日",
-        "date_iso": "2026-04-07",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SageMaker Unified Studio adds notebook import/export and developer acceleration features",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-sagemaker-unified-studio/",
-        "summary": "Amazon SageMaker Unified Studio notebooks now support&nbsp;import/export capabilities, enabling migration from JupyterLab and other notebook platforms. This release also introduces developer…",
-        "date": "2026年4月7日",
-        "date_iso": "2026-04-07",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Verified Permissions now supports policy store aliases and named policies and policy templates",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-verified-permissions-policy-store/",
-        "summary": "Today, AWS announces support for policy store aliases and named policies and policy templates in Amazon Verified Permissions, simplifying multi-tenant deployments and day-to-day policy management.…",
-        "date": "2026年4月7日",
-        "date_iso": "2026-04-07",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "April 09, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#April_09_2026",
+        "summary": "Apigee X Change Relaxed limitation on header name for Client IP resolution The client IP can now be resolved from any header, not just the X-Forwarded-For header. The most common headers are…",
+        "date": "2026年4月9日",
+        "date_iso": "2026-04-09",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "GCP"
+      },
       {
         "title": "April 08, 2026",
         "link": "https://docs.cloud.google.com/release-notes#April_08_2026",
@@ -429,7 +439,7 @@
       {
         "title": "April 06, 2026",
         "link": "https://docs.cloud.google.com/release-notes#April_06_2026",
-        "summary": "AlloyDB for PostgreSQL Feature The QueryData tool lets you to query with the data in your database using conversational language and build data agents. For more information, see QueryData tool…",
+        "summary": "AlloyDB for PostgreSQL Feature The QueryData tool lets you to query the data in your database using conversational language and build data agents. For more information, see QueryData tool overview .…",
         "date": "2026年4月6日",
         "date_iso": "2026-04-06",
         "category": "database-tag",
@@ -479,7 +489,7 @@
       {
         "title": "April 01, 2026",
         "link": "https://docs.cloud.google.com/release-notes#April_01_2026",
-        "summary": "Cloud Composer Change New images are available in Cloud Composer 2: composer-2.16.10-airflow-2.11.1 composer-2.16.10-airflow-2.10.5 (default) composer-2.16.10-airflow-2.9.3 Feature Airflow 2.11.1 is…",
+        "summary": "Cloud Composer Feature Airflow 2.11.1 is available in Cloud Composer 3 and Cloud Composer 2. Change New Airflow builds are available in Cloud Composer 3: composer-3-airflow-2.11.1-build.0…",
         "date": "2026年4月1日",
         "date_iso": "2026-04-01",
         "category": "ai-tag",
@@ -595,19 +605,19 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
-      },
-      {
-        "title": "March 18, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#March_18_2026",
-        "summary": "Cloud Database Migration Service Announcement Database Migration Service for heterogeneous SQL Server migrations now supports failback migration jobs in Preview . Failback migrations let you push CDC…",
-        "date": "2026年3月18日",
-        "date_iso": "2026-03-18",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
       }
     ],
     "oci": [
+      {
+        "title": "Kubernetes Engine support for Karpenter Provider for OCI (KPO)",
+        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-Karpenter-Support-Release-Note.htm",
+        "summary": "",
+        "date": "2026年4月9日",
+        "date_iso": "2026-04-09",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "OCI"
+      },
       {
         "title": "Valkey 8.1 cache engine version",
         "link": "https://docs.oracle.com/iaas/releasenotes/oci-cache/apr2026-valkey-8-1.htm",
@@ -794,16 +804,6 @@
         "summary": "",
         "date": "2026年3月24日",
         "date_iso": "2026-03-24",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "OCI"
-      },
-      {
-        "title": "Kubernetes Engine support for provisioning a PVC on a new Lustre file system",
-        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-Storage-on-new-Lustre-filesystem.htm",
-        "summary": "",
-        "date": "2026年3月19日",
-        "date_iso": "2026-03-19",
         "category": "container-tag",
         "cat_label": "コンテナ",
         "tag": "OCI"
