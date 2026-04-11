@@ -1,7 +1,17 @@
 {
-  "updated": "2026年04月10日 19:39 JST",
+  "updated": "2026年04月11日 12:20 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Public Preview: Event Grid as a destination for Stripe events now in Public Preview",
+        "link": "https://azure.microsoft.com/updates?id=559836",
+        "summary": "Developers can now route Stripe events directly into Azure Event Grid and build scalable, event-driven architectures without managing webhook infrastructure or custom brokers.This means that Event…",
+        "date": "2026年4月11日",
+        "date_iso": "2026-04-11",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "AZURE"
+      },
       {
         "title": "Generally Available: Enhancements to maintenance notifications in Azure Service Health",
         "link": "https://azure.microsoft.com/updates?id=559628",
@@ -191,19 +201,99 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Retirement: External Data Import & Data Connections in Azure Machine Learning will be retired on September 30, 2026",
-        "link": "https://azure.microsoft.com/updates?id=557406",
-        "summary": "Import data from external sources (Preview) – S3, Snowflake, Azure SQL Db along with external Data Connections (Preview) in Azure Machine Learning are being deprecated. These features will no longer…",
-        "date": "2026年4月1日",
-        "date_iso": "2026-04-01",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Amazon EC2 X8i instances are now available in Europe (Paris)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ec2-x8i-instances-CDG-region/",
+        "summary": "Amazon Web Services (AWS) is announcing the general availability of Amazon EC2 X8i instances, next-generation memory optimized instances powered by custom Intel Xeon 6 processors available only on…",
+        "date": "2026年4月11日",
+        "date_iso": "2026-04-11",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon CloudWatch pipelines now supports drop and conditional processing",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-cloudwatch-pipelines-conditional/",
+        "summary": "Amazon CloudWatch pipelines now supports conditional processing and a new drop events processor, giving you more control over how your log data is transformed. CloudWatch pipelines is a fully managed…",
+        "date": "2026年4月11日",
+        "date_iso": "2026-04-11",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Deadline Cloud supports monitor creation in multiple regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/deadline-cloud-monitor-creation/",
+        "summary": "Today, AWS Deadline Cloud announces support for creating monitors in multiple AWS Regions without additional configuration of your IAM Identity Center instance. AWS Deadline Cloud is a fully managed…",
+        "date": "2026年4月11日",
+        "date_iso": "2026-04-11",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon CloudWatch pipelines introduces new compliance and governance capabilities",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/cloudwatch-pipelines-compliance-governance/",
+        "summary": "Amazon CloudWatch pipelines now includes new compliance and governance capabilities to help you maintain data integrity and control access when processing logs. CloudWatch pipelines is a fully…",
+        "date": "2026年4月11日",
+        "date_iso": "2026-04-11",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Second-generation Amazon FSx for NetApp ONTAP is now available in four additional AWS commercial and AWS GovCloud (US)…",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/second-gen-amazon-fsx-ontap-regions/",
+        "summary": "Amazon FSx for NetApp ONTAP second-generation file systems are now available in 4 additional AWS Regions: Europe (London), Asia Pacific (Hyderabad), South America (Sao Paulo), and&nbsp;AWS GovCloud…",
+        "date": "2026年4月11日",
+        "date_iso": "2026-04-11",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Billing and Cost Management Dashboards Now Supports Scheduled Email Delivery",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-billing-and-cost-management-dashboards-scheduled-email-delivery/",
+        "summary": "AWS Billing and Cost Management Dashboards now support scheduled email delivery for your reports. You can now automate report distribution on flexible recurring schedules, eliminating manual…",
+        "date": "2026年4月11日",
+        "date_iso": "2026-04-11",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS RTB Fabric supports health checks for real-time bidding workloads",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-rtb-fabric-health-checks/",
+        "summary": "AWS RTB Fabric now supports health checks for real-time bidding workloads that use EC2 Auto Scaling groups (AGS). Health checks in AWS RTB Fabric continuously monitors and automatically routes…",
+        "date": "2026年4月10日",
+        "date_iso": "2026-04-10",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Backup extends Amazon FSx support to 5 additional AWS Regions and expands cross-Region and cross-account copy to 14…",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/backup-extends-fsx-support/",
+        "summary": "AWS Backup is expanding support for Amazon FSx for Windows File Server, Amazon FSx for OpenZFS, and Amazon FSx for Lustre with two regional enhancements. First, AWS Backup now supports backup and…",
+        "date": "2026年4月10日",
+        "date_iso": "2026-04-10",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon RDS now supports the latest CU and GDR updates for Microsoft SQL Server",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-rds-supports-latest-cu-gdr-updates-microsoft-sq-server/",
+        "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports the latest Cumulative Updates (CU) and General Distribution Release (GDR) updates for Microsoft SQL Server. This release…",
+        "date": "2026年4月10日",
+        "date_iso": "2026-04-10",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
       {
         "title": "Amazon Timestream for InfluxDB Now Supports Customer-Defined Maintenance Windows",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/timestream-influxdb-maintenance-windows/",
@@ -285,6 +375,16 @@
         "tag": "AWS"
       },
       {
+        "title": "AWS Private CA now supports customer managed permissions for cross-account sharing",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-private-ca-customer-managed-permissions/",
+        "summary": "AWS Private Certificate Authority (AWS Private CA) now supports customer managed permissions in AWS Resource Access Manager (AWS RAM). AWS Private CA lets you share certificate authorities (CAs)…",
+        "date": "2026年4月9日",
+        "date_iso": "2026-04-09",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon EC2 Capacity Manager now supports tag-based dimensions",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-capacity-manager-tag-based-dimensions/",
         "summary": "Starting today, Amazon EC2 Capacity Manager supports tag-based dimensions, enabling you to use tags from your EC2 resources to group and filter capacity metrics. EC2 Capacity Manager helps you…",
@@ -295,117 +395,27 @@
         "tag": "AWS"
       },
       {
-        "title": "SageMaker HyperPod now supports gang scheduling for distributed training workloads",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/sagemaker-hyperpod-gang-scheduling/",
-        "summary": "Amazon SageMaker HyperPod task governance now supports gang scheduling, which ensures all pods required for a distributed training job are ready before training begins. Administrators can configure…",
+        "title": "Amazon Route 53 Resolver endpoints now support DNS delegation for private hosted zones in AWS GovCloud (US) Regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/route-53-resolver-endpoints/",
+        "summary": "Starting today, domain name system (DNS) delegation for private hosted zone subdomains can be used with Route 53 inbound and outbound Resolver endpoints in AWS GovCloud (US) Regions. This allows you…",
         "date": "2026年4月9日",
         "date_iso": "2026-04-09",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon IVS Real-Time Streaming now supports redundant ingest",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ivs-real-time-streaming-redundant-ingest/",
-        "summary": "Amazon Interactive Video Service (Amazon IVS) Real-Time Streaming now supports redundant ingest, helping protect your live streams against source encoder failures and first-mile network issues. With…",
-        "date": "2026年4月9日",
-        "date_iso": "2026-04-09",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EKS managed node groups now support EC2 Auto Scaling warm pools",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-eks-managed-node-groups-ec2-warm-pools/",
-        "summary": "Amazon Elastic Kubernetes Service (Amazon EKS) managed node groups now support Auto Scaling warm pools , enabling you to maintain pre-initialized EC2 instances ready for rapid scale-out. This reduces…",
-        "date": "2026年4月9日",
-        "date_iso": "2026-04-09",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Bedrock AgentCore Browser adds OS-level interaction capabilities",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/agentcore-browser-os-actions/",
-        "summary": "Amazon Bedrock AgentCore Browser now supports OS-level interaction capabilities, enabling automation of browser workflows that require direct operating system control beyond Chrome DevTools Protocol…",
-        "date": "2026年4月9日",
-        "date_iso": "2026-04-09",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon WorkSpaces Advisor now available for AI-powered troubleshooting",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/workspaces-advisor-ai-troubleshooting/",
-        "summary": "Amazon WorkSpaces Advisor is a new AI-powered tool that helps administrators quickly troubleshoot and resolve issues with Amazon WorkSpaces Personal. Using generative AI capabilities, it analyzes…",
-        "date": "2026年4月9日",
-        "date_iso": "2026-04-09",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon OpenSearch Service now supports Graviton4 based i8ge instances",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/4/amazon-opensearch-service-supports-i8ge/",
-        "summary": "Amazon OpenSearch Service now supports i8ge instances, which is the latest generation of storage optimized instances offering the best performance for storage-intensive workloads. Powered by AWS…",
-        "date": "2026年4月9日",
-        "date_iso": "2026-04-09",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Oracle Database@AWS is now available in twelve AWS Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/oracle-database-aws-available-twelve-regions/",
-        "summary": "Oracle Database@AWS is now generally available in five additional AWS Regions: EU-West-1 (Dublin), EU-West-2 (London), AP-South-1 (Mumbai), AP-South-2 (Hyderabad), and AP-Northeast-2 (Seoul). Oracle…",
-        "date": "2026年4月8日",
-        "date_iso": "2026-04-08",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Lambda expands response streaming support to all commercial AWS Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-lambda-response-streaming/",
-        "summary": "AWS Lambda response streaming is now available in all commercial AWS Regions, bringing full regional parity for this capability. Customers in newly supported Regions can use the…",
-        "date": "2026年4月8日",
-        "date_iso": "2026-04-08",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Cost Explorer launches Natural Language Query capabilities powered by Amazon Q",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-cost-explorer-natural-language-query/",
-        "summary": "AWS Cost Explorer now brings Amazon Q Developer's generative AI capabilities directly into your cost analysis workflows. You can now use natural language queries to ask Amazon Q questions about your…",
-        "date": "2026年4月8日",
-        "date_iso": "2026-04-08",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Lightsail is now available in the Asia Pacific (Malaysia) Region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-lightsail-malaysia/",
-        "summary": "Starting today, Amazon Lightsail is available in the Asia Pacific (Malaysia) Region. This expansion brings the power and simplicity of Lightsail to customers in Malaysia and surrounding regions. With…",
-        "date": "2026年4月8日",
-        "date_iso": "2026-04-08",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Bedrock now offers Claude Mythos Preview (Gated Research Preview)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-bedrock-claude-mythos/",
-        "summary": "Amazon Bedrock, the platform for building generative AI applications and agents at production scale, now offers Claude Mythos Preview in gated research preview as part of Project Glasswing. Claude…",
-        "date": "2026年4月8日",
-        "date_iso": "2026-04-08",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "April 10, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#April_10_2026",
+        "summary": "BigQuery Feature SQL cells in BigQuery notebooks are now generally available (GA). Cloud Load Balancing Feature Published service backends let you configure supported load balancers or regional Cloud…",
+        "date": "2026年4月10日",
+        "date_iso": "2026-04-10",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
       {
         "title": "April 09, 2026",
         "link": "https://docs.cloud.google.com/release-notes#April_09_2026",
@@ -489,7 +499,7 @@
       {
         "title": "April 01, 2026",
         "link": "https://docs.cloud.google.com/release-notes#April_01_2026",
-        "summary": "Container Optimized OS Change cos-beta-129-19506-0-115 Kernel Docker Containerd GPU Drivers COS-6.12.67 v27.5.1 v2.2.2 See List Change cos-dev-133-19672-0-0 Kernel Docker Containerd GPU Drivers…",
+        "summary": "Cloud Composer Feature Airflow 2.11.1 is available in Cloud Composer 3 and Cloud Composer 2. Change New Airflow builds are available in Cloud Composer 3: composer-3-airflow-2.11.1-build.0…",
         "date": "2026年4月1日",
         "date_iso": "2026-04-01",
         "category": "ai-tag",
@@ -595,29 +605,9 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
-      },
-      {
-        "title": "March 19, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#March_19_2026",
-        "summary": "Access Approval Feature Flow Analyzer is generally available (GA) . Access Transparency Feature Flow Analyzer is generally available (GA) . Apigee X Announcement On March 19th, 2026, we began…",
-        "date": "2026年3月19日",
-        "date_iso": "2026-03-19",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
       }
     ],
     "oci": [
-      {
-        "title": "Valkey 8.1 cache engine version",
-        "link": "https://docs.oracle.com/iaas/releasenotes/oci-cache/apr2026-valkey-8-1.htm",
-        "summary": "",
-        "date": "2026年4月9日",
-        "date_iso": "2026-04-09",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
       {
         "title": "Kubernetes Engine support for Karpenter Provider for OCI (KPO)",
         "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-Karpenter-Support-Release-Note.htm",
@@ -626,6 +616,16 @@
         "date_iso": "2026-04-09",
         "category": "container-tag",
         "cat_label": "コンテナ",
+        "tag": "OCI"
+      },
+      {
+        "title": "Valkey 8.1 cache engine version",
+        "link": "https://docs.oracle.com/iaas/releasenotes/oci-cache/apr2026-valkey-8-1.htm",
+        "summary": "",
+        "date": "2026年4月9日",
+        "date_iso": "2026-04-09",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "OCI"
       },
       {
@@ -654,6 +654,16 @@
         "summary": "",
         "date": "2026年4月7日",
         "date_iso": "2026-04-07",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Internet of Things (IoT) digital twin resources are now available in the console",
+        "link": "https://docs.oracle.com/iaas/releasenotes/internet-of-things/update-03312026.htm",
+        "summary": "",
+        "date": "2026年3月31日",
+        "date_iso": "2026-03-31",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "OCI"
@@ -796,16 +806,6 @@
         "date_iso": "2026-03-25",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Kubernetes Engine support for observation of the health and resource usage of worker nodes and key Kubernetes add-ons",
-        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-Cluster-Observability-Release-Note.htm",
-        "summary": "",
-        "date": "2026年3月24日",
-        "date_iso": "2026-03-24",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
         "tag": "OCI"
       }
     ]
