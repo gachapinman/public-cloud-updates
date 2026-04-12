@@ -1,5 +1,5 @@
 {
-  "updated": "2026年04月11日 19:18 JST",
+  "updated": "2026年04月12日 12:46 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "April 11, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#April_11_2026",
+        "summary": "Google SecOps SOAR Announcement Release 6.3.82 is now available for all regions.",
+        "date": "2026年4月11日",
+        "date_iso": "2026-04-11",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "April 10, 2026",
         "link": "https://docs.cloud.google.com/release-notes#April_10_2026",
         "summary": "BigQuery Feature SQL cells in BigQuery notebooks are now generally available (GA). Cloud Load Balancing Feature Published service backends let you configure supported load balancers or regional Cloud…",
@@ -592,16 +602,6 @@
         "summary": "Agent Assist Feature Agent Assist offers Gemini Enterprise for Customer Experience tools for AI coach in GA. These tools enable virtual agents to connect with external systems to retrieve, update,…",
         "date": "2026年3月23日",
         "date_iso": "2026-03-23",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "March 20, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#March_20_2026",
-        "summary": "AlloyDB for PostgreSQL Feature AlloyDB lets you monitor node-level metrics in Google Cloud console and Metrics Explorer to provide detailed troubleshooting guidance for read pools and to identify…",
-        "date": "2026年3月20日",
-        "date_iso": "2026-03-20",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
