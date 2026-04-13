@@ -1,5 +1,5 @@
 {
-  "updated": "2026年04月12日 19:24 JST",
+  "updated": "2026年04月13日 12:53 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "April 12, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#April_12_2026",
+        "summary": "Google SecOps SOAR Announcement Release 6.3.83 is being rolled out to the first phase of regions as listed here . This release contains internal and customer bug fixes.",
+        "date": "2026年4月12日",
+        "date_iso": "2026-04-12",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "April 11, 2026",
         "link": "https://docs.cloud.google.com/release-notes#April_11_2026",
         "summary": "Google SecOps SOAR Announcement Release 6.3.82 is now available for all regions.",
@@ -592,16 +602,6 @@
         "summary": "BigQuery Feature You can now use the BigQuery Data Transfer Service remote MCP server to enable AI agents to create, manage, and run data transfers. This feature is in Preview . Bigtable Feature You…",
         "date": "2026年3月24日",
         "date_iso": "2026-03-24",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "March 23, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#March_23_2026",
-        "summary": "Agent Assist Feature Agent Assist offers Gemini Enterprise for Customer Experience tools for AI coach in GA. These tools enable virtual agents to connect with external systems to retrieve, update,…",
-        "date": "2026年3月23日",
-        "date_iso": "2026-03-23",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
