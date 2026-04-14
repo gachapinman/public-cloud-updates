@@ -1,7 +1,77 @@
 {
-  "updated": "2026年04月13日 20:05 JST",
+  "updated": "2026年04月14日 12:43 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Generally Available: Azure File Sync in Belgium Central, Malaysia West, and Indonesia Central",
+        "link": "https://azure.microsoft.com/updates?id=557828",
+        "summary": "Azure File Sync enables seamless tiering of data from on-premises Windows Servers to Azure Files for hybrid use cases and simplified migration. It also enables you to leverage the performance,…",
+        "date": "2026年4月14日",
+        "date_iso": "2026-04-14",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Managed identity support for graphical session recording",
+        "link": "https://azure.microsoft.com/updates?id=560162",
+        "summary": "Today, we are announcing Azure Bastion now supports managed identities for graphical session recording. Azure Bastion graphical session recording now supports write access to storage accounts using…",
+        "date": "2026年4月14日",
+        "date_iso": "2026-04-14",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Azure Storage Mover now available in Azure Government (US)",
+        "link": "https://azure.microsoft.com/updates?id=560198",
+        "summary": "Azure Storage Mover is now available in Azure Government (US), enabling U.S. government customers and partners to securely migrate large‑scale file data to Azure Government cloud environments using a…",
+        "date": "2026年4月14日",
+        "date_iso": "2026-04-14",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Monitor AKS applications with OpenTelemetry and Azure Monitor",
+        "link": "https://azure.microsoft.com/updates?id=560119",
+        "summary": "Azure Monitor now supports monitoring applications that run on Azure Kubernetes Service (AKS) by using OpenTelemetry for instrumentation and data collection.Leverage autoinstrumentation to deploy the…",
+        "date": "2026年4月14日",
+        "date_iso": "2026-04-14",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Granular Encryption-in-Transit Controls for SMB and NFS on Azure Files",
+        "link": "https://azure.microsoft.com/updates?id=560001",
+        "summary": "Azure Files now supports independent configuration of encryption-in-transit settings for SMB and NFS protocols at the storage account level. Customers can now define protocol-specific security…",
+        "date": "2026年4月14日",
+        "date_iso": "2026-04-14",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Retirement: Azure Managed Grafana Essential SKU will retire on March 30, 2027",
+        "link": "https://azure.microsoft.com/updates?id=559395",
+        "summary": "Azure Managed Grafana Essential SKU will be retired on March 30, 2027.Customers using the Essential SKU are encouraged to transition to Azure Managed Grafana Standard SKU or Azure Monitor Dashboards…",
+        "date": "2026年4月14日",
+        "date_iso": "2026-04-14",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: StandardV2 NAT Gateway as an outbound type for AKS",
+        "link": "https://azure.microsoft.com/updates?id=560207",
+        "summary": "AKS now supports managed and user-assigned StandardV2 NAT Gateway as an outbound type for your AKS managed or BYO VNets. This unlocks zone-redundant outbound connectivity, up to 100 Gbps outbound…",
+        "date": "2026年4月14日",
+        "date_iso": "2026-04-14",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "AZURE"
+      },
       {
         "title": "Public Preview: Event Grid as a destination for Stripe events now in Public Preview",
         "link": "https://azure.microsoft.com/updates?id=559836",
@@ -105,7 +175,7 @@
       {
         "title": "Public Preview: Rule impact analysis on Azure Network Watcher",
         "link": "https://azure.microsoft.com/updates?id=559876",
-        "summary": "Rule impact analysis on Azure Network Watcher enables you to preview the impact of security admin rules before applying them to your environment. This feature helps you validate rule behavior,…",
+        "summary": "Rule impact analysis on Azure Network Watcher enables you to preview the impact of security admin rules and network security group (NSG) rules before applying them to your environment. This feature…",
         "date": "2026年4月7日",
         "date_iso": "2026-04-07",
         "category": "security-tag",
@@ -131,79 +201,99 @@
         "category": "storage-tag",
         "cat_label": "ストレージ",
         "tag": "AZURE"
-      },
-      {
-        "title": "Retirement: Service Fabric support for Windows Server 2022 ends on March 31, 2027 - upgrade to Windows Server 2025",
-        "link": "https://azure.microsoft.com/updates?id=558247",
-        "summary": "Service Fabric will end support for all clusters running on Windows Server 2022 on March 31, 2027. Customers must upgrade to Windows Server 2025 by this date to remain in a supported state. This…",
-        "date": "2026年4月2日",
-        "date_iso": "2026-04-02",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Retirement: Service Fabric support for Windows Server 2019 ends on March 31, 2027 - upgrade to Windows Server 2025",
-        "link": "https://azure.microsoft.com/updates?id=558246",
-        "summary": "Service Fabric will end support for all clusters running on Windows Server 2019 on March 31, 2027. Customers must upgrade to Windows Server 2025 by this date to remain in a supported state. This…",
-        "date": "2026年4月2日",
-        "date_iso": "2026-04-02",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Unlock Client-Side Configuration at Scale with Azure App Configuration and Azure Front Door",
-        "link": "https://azure.microsoft.com/updates?id=537234",
-        "summary": "You can now deliver dynamic configuration directly to client-side applications—securely and at CDN scale—thanks to Azure App Configuration’s integration with Azure Front Door. This delivers new…",
-        "date": "2026年4月2日",
-        "date_iso": "2026-04-02",
-        "category": "network-tag",
-        "cat_label": "ネットワーク",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Azure Data Box enhances compliance with automatic Secure Erasure Certificates",
-        "link": "https://azure.microsoft.com/updates?id=559772",
-        "summary": "Azure Data Box now automatically generates a downloadable Secure Erasure Certificate for every completed order, providing verification that all data on the device has been securely erased in…",
-        "date": "2026年4月2日",
-        "date_iso": "2026-04-02",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Azure Data Box now supports Azure Files Provisioned v2",
-        "link": "https://azure.microsoft.com/updates?id=559767",
-        "summary": "Azure Data Box now supports ingestion of data into Azure Files Provisioned v2 storage accounts. Azure Files Provisioned v2 is a billing model where customers provision and pay for specific capacity,…",
-        "date": "2026年4月2日",
-        "date_iso": "2026-04-02",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Azure NetApp Files storage with cool access enhancement",
-        "link": "https://azure.microsoft.com/updates?id=559504",
-        "summary": "QoS update with cool access enabled on Premium and Ultra service levels improves how Azure NetApp Files balances performance and cost for mixed hot and cool workloads. Throughput automatically…",
-        "date": "2026年4月2日",
-        "date_iso": "2026-04-02",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Retirement: Select Azure AI Language Features",
-        "link": "https://azure.microsoft.com/updates?id=557394",
-        "summary": "On March 20, 2029, Microsoft will retire the following eight Azure AI Language features: Key Phrase ExtractionSentiment Analysis and Opinion MiningCustom Text ClassificationConversational Language…",
-        "date": "2026年4月2日",
-        "date_iso": "2026-04-02",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Amazon OpenSearch Serverless now supports Derived Source for storage optimization",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-opensearch-serverless-supports-derived-source/",
+        "summary": "Amazon OpenSearch Serverless introduces support for Derived Source, a new feature that can help reduce the amount of storage required for your OpenSearch Service collections. With derived source…",
+        "date": "2026年4月14日",
+        "date_iso": "2026-04-14",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Redshift introduces key performance optimization for Top-K queries",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-redshift-topk-optimization/",
+        "summary": "Amazon Redshift further optimizes the processing of top-k queries (queries with ORDER BY and LIMIT clauses) by intelligently skipping irrelevant data blocks to return results faster, dramatically…",
+        "date": "2026年4月14日",
+        "date_iso": "2026-04-14",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Aurora DSQL launches connector that simplifies building PHP applications",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aurora-dsql-connector-for-php/",
+        "summary": "Today we are announcing the release of the Aurora DSQL Connector for PHP (PDO_PGSQL) that makes it easy to build PHP applications on Aurora DSQL. The PHP Connector streamlines authentication and…",
+        "date": "2026年4月14日",
+        "date_iso": "2026-04-14",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 M8i and M8i-flex instances are now available in AWS GovCloud (US-West) Region",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-m8i-flex-govcloud-us-west/",
+        "summary": "Starting today, Amazon EC2 M8i and M8i-flex instances are now available in AWS GovCloud (US-West) Region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS,…",
+        "date": "2026年4月14日",
+        "date_iso": "2026-04-14",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon CloudWatch Logs Insights now supports saved queries with parameters",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/cloudwatch-logs-insights-query-params/",
+        "summary": "Amazon CloudWatch Logs Insights saved queries now support parameters, allowing you to pass values to reusable query templates with placeholders. This eliminates the need to maintain multiple copies…",
+        "date": "2026年4月14日",
+        "date_iso": "2026-04-14",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 R8i and R8i-flex instances are now available in AWS GovCloud (US-West) Region",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-r8i-instances-govcloud-us-west/",
+        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8i and R8i-flex instances are available in the AWS GovCloud (US-West) Region. These instances are powered by custom Intel Xeon 6 processors,…",
+        "date": "2026年4月14日",
+        "date_iso": "2026-04-14",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS IoT is now available in Israel (Tel Aviv) and Europe (Milan) AWS Regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-iot-israel-tel-aviv-europe-milan/",
+        "summary": "AWS IoT Core and AWS IoT Device Management services are now available in the Israel (Tel Aviv) and Europe (Milan) AWS Regions. With this expansion, organizations operating in these regions can better…",
+        "date": "2026年4月14日",
+        "date_iso": "2026-04-14",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon FSx now supports copying file system backups across AWS opt-in Regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-fsx-copying-backups-opt-in-regions/",
+        "summary": "Amazon&nbsp;FSx&nbsp;now supports copying file system backups across&nbsp; opt-in Regions &nbsp;(AWS Regions that are disabled by default) for Amazon&nbsp;FSx&nbsp;for Windows File Server,…",
+        "date": "2026年4月14日",
+        "date_iso": "2026-04-14",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Elastic Disaster Recovery now supports IPv6",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-elastic-disaster-recovery-ipv6/",
+        "summary": "AWS Elastic Disaster Recovery (AWS DRS) now supports IPv6 for both data replication and control plane connections. Customers operating in IPv6-only or dual-stack network environments can now…",
+        "date": "2026年4月14日",
+        "date_iso": "2026-04-14",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
+        "tag": "AWS"
+      },
       {
         "title": "Amazon EC2 X8i instances are now available in Europe (Paris)",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ec2-x8i-instances-CDG-region/",
@@ -313,99 +403,19 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon OpenSearch Service supports Managed Prometheus and agent tracing",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/opensearch-managed-prometheus-agent-tracing/",
-        "summary": "Amazon OpenSearch Service now provides a unified observability experience that brings together metrics, logs, traces, and AI agent tracing in a single interface. This release introduces native…",
-        "date": "2026年4月10日",
-        "date_iso": "2026-04-10",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon S3 Lifecycle pauses actions on objects that are unable to replicate",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/s3-lifecycle-pauses-actions-on-objects/",
-        "summary": "Amazon S3 Lifecycle now prevents expiration and transition actions on objects that failed replication, helping you to coordinate replication configuration or permissions changes with actions defined…",
-        "date": "2026年4月10日",
-        "date_iso": "2026-04-10",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon RDS Blue/Green Deployments now supports Amazon RDS Proxy",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/rds-proxy-blue-green/",
-        "summary": "Amazon RDS Blue/Green Deployments now supports Amazon RDS Proxy, enabling faster application recovery during switchover by eliminating DNS propagation delays. Blue/Green Deployments create a fully…",
-        "date": "2026年4月10日",
-        "date_iso": "2026-04-10",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Marketplace announces the Discovery API for programmatic access to catalog data",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-marketplace-discovery-api/",
-        "summary": "Today, AWS Marketplace announces the Discovery API, giving you programmatic access to product and pricing information across the AWS Marketplace catalog — including SaaS, AI agents and tools, AMI,…",
-        "date": "2026年4月10日",
-        "date_iso": "2026-04-10",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Agent Registry for centralized agent discovery and governance is now available in Preview",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-agent-registry-in-agentcore-preview/",
-        "summary": "AWS Agent Registry, available through Amazon Bedrock AgentCore, is now in preview — a private, governed catalog and discovery layer for agents, tools, skills, MCP servers, and custom resources within…",
-        "date": "2026年4月10日",
-        "date_iso": "2026-04-10",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon OpenSearch Serverless now supports Zstandard (zstd) codec for index compression",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-opensearch-serverless-supports-zstandard-index-compression/",
-        "summary": "Amazon OpenSearch Serverless now supports Zstandard codecs for index storage, giving customers greater control over the trade-off between storage costs and query performance. With this launch,…",
-        "date": "2026年4月10日",
-        "date_iso": "2026-04-10",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Private CA now supports customer managed permissions for cross-account sharing",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-private-ca-customer-managed-permissions/",
-        "summary": "AWS Private Certificate Authority (AWS Private CA) now supports customer managed permissions in AWS Resource Access Manager (AWS RAM). AWS Private CA lets you share certificate authorities (CAs)…",
-        "date": "2026年4月9日",
-        "date_iso": "2026-04-09",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 Capacity Manager now supports tag-based dimensions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-capacity-manager-tag-based-dimensions/",
-        "summary": "Starting today, Amazon EC2 Capacity Manager supports tag-based dimensions, enabling you to use tags from your EC2 resources to group and filter capacity metrics. EC2 Capacity Manager helps you…",
-        "date": "2026年4月9日",
-        "date_iso": "2026-04-09",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Route 53 Resolver endpoints now support DNS delegation for private hosted zones in AWS GovCloud (US) Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/route-53-resolver-endpoints/",
-        "summary": "Starting today, domain name system (DNS) delegation for private hosted zone subdomains can be used with Route 53 inbound and outbound Resolver endpoints in AWS GovCloud (US) Regions. This allows you…",
-        "date": "2026年4月9日",
-        "date_iso": "2026-04-09",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "April 13, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#April_13_2026",
+        "summary": "BigQuery Feature Support for the AI.AGG function preview has been temporarily disabled. We are working to restore this feature as soon as possible. Feature To reduce LLM token consumption and query…",
+        "date": "2026年4月13日",
+        "date_iso": "2026-04-13",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
       {
         "title": "April 12, 2026",
         "link": "https://docs.cloud.google.com/release-notes#April_12_2026",
@@ -595,19 +605,19 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
-      },
-      {
-        "title": "March 24, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#March_24_2026",
-        "summary": "BigQuery Feature You can now use the BigQuery Data Transfer Service remote MCP server to enable AI agents to create, manage, and run data transfers. This feature is in Preview . Bigtable Feature You…",
-        "date": "2026年3月24日",
-        "date_iso": "2026-03-24",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
       }
     ],
     "oci": [
+      {
+        "title": "OCI Kubernetes Engine (OKE) support for configuring cookie-based session persistence for managed load balancers",
+        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-cookie-based-session-persistence.htm",
+        "summary": "",
+        "date": "2026年4月13日",
+        "date_iso": "2026-04-13",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "OCI"
+      },
       {
         "title": "Kubernetes Engine support for Karpenter Provider for OCI (KPO)",
         "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-Karpenter-Support-Release-Note.htm",
@@ -654,16 +664,6 @@
         "summary": "",
         "date": "2026年4月7日",
         "date_iso": "2026-04-07",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Internet of Things (IoT) digital twin resources are now available in the console",
-        "link": "https://docs.oracle.com/iaas/releasenotes/internet-of-things/update-03312026.htm",
-        "summary": "",
-        "date": "2026年3月31日",
-        "date_iso": "2026-03-31",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "OCI"
@@ -739,6 +739,16 @@
         "tag": "OCI"
       },
       {
+        "title": "Internet of Things (IoT) digital twin resources are now available in the console",
+        "link": "https://docs.oracle.com/iaas/releasenotes/internet-of-things/update-03312026.htm",
+        "summary": "",
+        "date": "2026年3月31日",
+        "date_iso": "2026-03-31",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
         "title": "Oracle GoldenGate 26ai for non-Oracle databases and Big Data is now available",
         "link": "https://docs.oracle.com/iaas/releasenotes/goldengate/non-oracle26ai.htm",
         "summary": "",
@@ -794,16 +804,6 @@
         "summary": "",
         "date": "2026年3月26日",
         "date_iso": "2026-03-26",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Generate and Edit Images with Imported Models in OCI Generative AI",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/qwen-image.htm",
-        "summary": "",
-        "date": "2026年3月25日",
-        "date_iso": "2026-03-25",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "OCI"
