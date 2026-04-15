@@ -1,7 +1,37 @@
 {
-  "updated": "2026年04月14日 19:50 JST",
+  "updated": "2026年04月15日 12:42 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Public Preview: Azure Site Recovery support for Windows Azure VMs with NVMe disk controllers.",
+        "link": "https://azure.microsoft.com/updates?id=560241",
+        "summary": "Azure Site Recovery now supports replication and disaster recovery for Windows Azure Virtual Machines running on NVMe-enabled Generation 2 VM families, such as the Da/Ea/Fa v6-series and Ebsv5/Ebdsv5…",
+        "date": "2026年4月15日",
+        "date_iso": "2026-04-15",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Announcing: Minimum billable object size for cooler storage tiers",
+        "link": "https://azure.microsoft.com/updates?id=559756",
+        "summary": "For storage accounts with Azure Blob or Data Lake Storage (ADLS) we are introducing a minimum billable object size for the cool, cold and archive access tiers of 128KiB. Objects on those tiers that…",
+        "date": "2026年4月15日",
+        "date_iso": "2026-04-15",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Smart Tier (Azure Blob and Data Lake Storage)",
+        "link": "https://azure.microsoft.com/updates?id=559746",
+        "summary": "Announcing the GA of smart tier for Azure Blob and Data Lake Storage (ADLS). Smart Tier is Generally Available (GA) today in nearly all zonal public cloud regions. (The Azure regions Israel Central,…",
+        "date": "2026年4月15日",
+        "date_iso": "2026-04-15",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Generally Available: Azure File Sync in Belgium Central, Malaysia West, and Indonesia Central",
         "link": "https://azure.microsoft.com/updates?id=557828",
@@ -171,39 +201,59 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Rule impact analysis on Azure Network Watcher",
-        "link": "https://azure.microsoft.com/updates?id=559876",
-        "summary": "Rule impact analysis on Azure Network Watcher enables you to preview the impact of security admin rules and network security group (NSG) rules before applying them to your environment. This feature…",
-        "date": "2026年4月7日",
-        "date_iso": "2026-04-07",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Retirement: Python support for Azure App Service and Azure Functions on Windows will be retired on March 31, 2027",
-        "link": "https://azure.microsoft.com/updates?id=558027",
-        "summary": "Starting March 31, 2027, Python applications hosted on Azure App Service on Windows and Azure Functions on Windows will no longer run. After this date: Your application configuration and content will…",
-        "date": "2026年4月3日",
-        "date_iso": "2026-04-03",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Retirement: AzureDnsEndpoints for Azure storage accounts will be retired March 2027",
-        "link": "https://azure.microsoft.com/updates?id=558276",
-        "summary": "AzureDnsZone endpoints (preview) for Azure Blob storage accounts will enter retirement in March 2027. Customers leveraging AzureDnsZone endpoints (preview) should transition to Standard endpoints for…",
-        "date": "2026年4月3日",
-        "date_iso": "2026-04-03",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Amazon EC2 P6-B300 instances are now available in the AWS GovCloud (US-East) Region",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-p6-b300-govcloud-us-east/",
+        "summary": "Starting today, Amazon Elastic Cloud Compute (Amazon EC2) P6-B300 instances are available in the AWS GovCloud (US-East) Region. P6-B300 instances provide 8x NVIDIA Blackwell Ultra GPUs with 2.1 TB…",
+        "date": "2026年4月15日",
+        "date_iso": "2026-04-15",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Transform is now available in Kiro and VS Code",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-transform-kiro-vscode/",
+        "summary": "AWS Transform is now available through two additional developer tools — including Kiro and VS Code. AWS Transform is an agentic migration and modernization factory designed to compress enterprise…",
+        "date": "2026年4月15日",
+        "date_iso": "2026-04-15",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Secrets Manager now supports hybrid post-quantum TLS to protect secrets from quantum threats",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-secrets-manager-post-quantum-tls/",
+        "summary": "AWS Secrets Manager now&nbsp;supports&nbsp;hybrid post-quantum key exchange using ML-KEM (Module-Lattice-based Key-Encapsulation Mechanism) to secure TLS connections for retrieving and managing…",
+        "date": "2026年4月15日",
+        "date_iso": "2026-04-15",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 C8gn, M8gn, and R8gn instances now support higher Amazon EBS-optimized performance",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-c8gn-m8gn-r8gn-ebs/",
+        "summary": "Today, AWS announces increased Amazon Elastic Block Store (Amazon EBS) performance for Amazon EC2 C8gn, M8gn, and R8gn instances in 48xlarge and metal-48xl sizes. EC2 C8gn, M8gn, and R8gn instances…",
+        "date": "2026年4月14日",
+        "date_iso": "2026-04-14",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "NVIDIA Nemotron-3-Super-120B, Qwen3.5-9B, and Qwen3.5-27B models now available on Amazon SageMaker JumpStart",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/nemotron3super-120b-qwen3.5-9b-qwen3.5-27b-on-sagemaker-jumpstart/",
+        "summary": "NVIDIA’s Nemotron-3-Super-120B, Qwen3.5-9B, and Qwen3.5-27B models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These…",
+        "date": "2026年4月14日",
+        "date_iso": "2026-04-14",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
       {
         "title": "Amazon OpenSearch Serverless now supports Derived Source for storage optimization",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-opensearch-serverless-supports-derived-source/",
@@ -222,6 +272,16 @@
         "date_iso": "2026-04-14",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Quick now supports document-level access controls for Google Drive knowledge bases",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-document-level-access-controls-google-drive/",
+        "summary": "Amazon Quick now supports document-level access controls (ACLs) for Google Drive knowledge bases, enabling organizations to maintain native Google Drive permissions when indexing content. Quick…",
+        "date": "2026年4月14日",
+        "date_iso": "2026-04-14",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "AWS"
       },
       {
@@ -295,6 +355,26 @@
         "tag": "AWS"
       },
       {
+        "title": "AWS announces general availability of AWS Interconnect - last mile",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-announces-ga-AWS-interconnect-last-mile/",
+        "summary": "AWS launches AWS Interconnect - last mile, a fully managed connectivity offering that allows customers to connect their branch offices, data centers, and remote locations to AWS with just a few…",
+        "date": "2026年4月14日",
+        "date_iso": "2026-04-14",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS announces general availability of AWS Interconnect - multicloud",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-announces-ga-AWS-interconnect-multicloud/",
+        "summary": "AWS announces general availability (GA) of AWS Interconnect - multicloud, providing simple, resilient, high-speed private connections to other cloud service providers (CSPs). With GA comes Google…",
+        "date": "2026年4月14日",
+        "date_iso": "2026-04-14",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon EC2 X8i instances are now available in Europe (Paris)",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ec2-x8i-instances-CDG-region/",
         "summary": "Amazon Web Services (AWS) is announcing the general availability of Amazon EC2 X8i instances, next-generation memory optimized instances powered by custom Intel Xeon 6 processors available only on…",
@@ -323,89 +403,19 @@
         "category": "security-tag",
         "cat_label": "セキュリティ",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon CloudWatch pipelines introduces new compliance and governance capabilities",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/cloudwatch-pipelines-compliance-governance/",
-        "summary": "Amazon CloudWatch pipelines now includes new compliance and governance capabilities to help you maintain data integrity and control access when processing logs. CloudWatch pipelines is a fully…",
-        "date": "2026年4月11日",
-        "date_iso": "2026-04-11",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Second-generation Amazon FSx for NetApp ONTAP is now available in four additional AWS commercial and AWS GovCloud (US)…",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/second-gen-amazon-fsx-ontap-regions/",
-        "summary": "Amazon FSx for NetApp ONTAP second-generation file systems are now available in 4 additional AWS Regions: Europe (London), Asia Pacific (Hyderabad), South America (Sao Paulo), and&nbsp;AWS GovCloud…",
-        "date": "2026年4月11日",
-        "date_iso": "2026-04-11",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Billing and Cost Management Dashboards Now Supports Scheduled Email Delivery",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-billing-and-cost-management-dashboards-scheduled-email-delivery/",
-        "summary": "AWS Billing and Cost Management Dashboards now support scheduled email delivery for your reports. You can now automate report distribution on flexible recurring schedules, eliminating manual…",
-        "date": "2026年4月11日",
-        "date_iso": "2026-04-11",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS RTB Fabric supports health checks for real-time bidding workloads",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-rtb-fabric-health-checks/",
-        "summary": "AWS RTB Fabric now supports health checks for real-time bidding workloads that use EC2 Auto Scaling groups (AGS). Health checks in AWS RTB Fabric continuously monitors and automatically routes…",
-        "date": "2026年4月10日",
-        "date_iso": "2026-04-10",
-        "category": "network-tag",
-        "cat_label": "ネットワーク",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Backup extends Amazon FSx support to 5 additional AWS Regions and expands cross-Region and cross-account copy to 14…",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/backup-extends-fsx-support/",
-        "summary": "AWS Backup is expanding support for Amazon FSx for Windows File Server, Amazon FSx for OpenZFS, and Amazon FSx for Lustre with two regional enhancements. First, AWS Backup now supports backup and…",
-        "date": "2026年4月10日",
-        "date_iso": "2026-04-10",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon RDS now supports the latest CU and GDR updates for Microsoft SQL Server",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-rds-supports-latest-cu-gdr-updates-microsoft-sq-server/",
-        "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports the latest Cumulative Updates (CU) and General Distribution Release (GDR) updates for Microsoft SQL Server. This release…",
-        "date": "2026年4月10日",
-        "date_iso": "2026-04-10",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Timestream for InfluxDB Now Supports Customer-Defined Maintenance Windows",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/timestream-influxdb-maintenance-windows/",
-        "summary": "Amazon Timestream for InfluxDB now supports customer-defined maintenance windows, giving you control over when routine maintenance is performed on your InfluxDB databases. This feature is available…",
-        "date": "2026年4月10日",
-        "date_iso": "2026-04-10",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Bedrock now supports cost allocation by IAM user and role",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/bedrock-iam-cost-allocation/",
-        "summary": "Amazon Bedrock now supports cost allocation by IAM principal, such as IAM users and IAM roles, in AWS Cost and Usage Report 2.0 (CUR 2.0) and Cost Explorer. This enables customers to understand and…",
-        "date": "2026年4月10日",
-        "date_iso": "2026-04-10",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "April 14, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#April_14_2026",
+        "summary": "AlloyDB for PostgreSQL Breaking As of April 10, 2026, you can create, run, and edit Gemini Cloud Assist investigations only if you have a Premium Support contract . You can use Gemini Cloud Assist…",
+        "date": "2026年4月14日",
+        "date_iso": "2026-04-14",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
       {
         "title": "April 13, 2026",
         "link": "https://docs.cloud.google.com/release-notes#April_13_2026",
@@ -594,16 +604,6 @@
         "date_iso": "2026-03-26",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "GCP"
-      },
-      {
-        "title": "March 25, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#March_25_2026",
-        "summary": "AlloyDB for PostgreSQL Feature Database server compatibility with PostgreSQL version 18 is now generally available ( GA ): You can create AlloyDB clusters with PostgreSQL 18 compatibility. You can…",
-        "date": "2026年3月25日",
-        "date_iso": "2026-03-25",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "GCP"
       }
     ],
