@@ -1,7 +1,27 @@
 {
-  "updated": "2026年04月15日 19:46 JST",
+  "updated": "2026年04月16日 12:47 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Retirement: End of lift reminder of HBv2/HC-Series/NP-Series Azure Virtual Machine in Azure Batch Pool",
+        "link": "https://azure.microsoft.com/updates?id=559751",
+        "summary": "Microsoft Azure will retire support for HBv2-series, HC-series, and NP-series VMs in Azure Batch pools on May 31, 2027, including: HBv2-series: 120 AMD EPYC 7V12 vCPUs, 480 GB RAM, 200 Gb/s HDR…",
+        "date": "2026年4月16日",
+        "date_iso": "2026-04-16",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Encrypt Premium SSD v2 and Ultra Disks with Cross Tenant Customer Managed Keys",
+        "link": "https://azure.microsoft.com/updates?id=559761",
+        "summary": "Cross-tenant customer-managed keys (CMK) for Premium SSD v2 and Ultra Disks are now generally available. This capability allows managed disks to be encrypted using a customer-managed key stored in an…",
+        "date": "2026年4月16日",
+        "date_iso": "2026-04-16",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Public Preview: Azure Site Recovery support for Windows Azure VMs with NVMe disk controllers.",
         "link": "https://azure.microsoft.com/updates?id=560241",
@@ -181,29 +201,29 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Pod CIDR expansion in AKS",
-        "link": "https://azure.microsoft.com/updates?id=557907",
-        "summary": "When clusters exhaust available pod IP addresses, teams have historically been forced to rebuild environments to restore capacity, creating operational disruption. Pod CIDR expansion allows…",
-        "date": "2026年4月8日",
-        "date_iso": "2026-04-08",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Network Security Perimeter for Azure Service Bus",
-        "link": "https://azure.microsoft.com/updates?id=559899",
-        "summary": "Network Security Perimeter (NSP) support for Azure Service Bus is now generally available. Network Security Perimeter creates a logical network boundary around your Service Bus namespaces and other…",
-        "date": "2026年4月7日",
-        "date_iso": "2026-04-07",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "AWS Payment Cryptography now available in South America (São Paulo)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-payment-cryptography-south/",
+        "summary": "AWS Payment Cryptography has expanded its global presence with availability in South America (São Paulo). This expansion enables customers with latency-sensitive payment applications to build, deploy…",
+        "date": "2026年4月16日",
+        "date_iso": "2026-04-16",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Quick Introduces Sheet Tooltips for Rich, Contextual Data Exploration",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/quick-sheet-tooltips/",
+        "summary": "Quick Sight in Amazon Quick now supports sheet tooltips, enabling authors to surface rich, contextual detail when viewers hover over data points — without disrupting their analysis flow. Sheet…",
+        "date": "2026年4月16日",
+        "date_iso": "2026-04-16",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
       {
         "title": "Amazon EC2 P6-B300 instances are now available in the AWS GovCloud (US-East) Region",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-p6-b300-govcloud-us-east/",
@@ -228,6 +248,16 @@
         "title": "AWS Secrets Manager now supports hybrid post-quantum TLS to protect secrets from quantum threats",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-secrets-manager-post-quantum-tls/",
         "summary": "AWS Secrets Manager now&nbsp;supports&nbsp;hybrid post-quantum key exchange using ML-KEM (Module-Lattice-based Key-Encapsulation Mechanism) to secure TLS connections for retrieving and managing…",
+        "date": "2026年4月15日",
+        "date_iso": "2026-04-15",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS announces general availability of AWS Interconnect - multicloud",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-announces-ga-AWS-interconnect-multicloud/",
+        "summary": "AWS announces general availability (GA) of AWS Interconnect - multicloud, providing simple, resilient, high-speed private connections to other cloud service providers (CSPs). With GA comes Google…",
         "date": "2026年4月15日",
         "date_iso": "2026-04-15",
         "category": "ai-tag",
@@ -365,16 +395,6 @@
         "tag": "AWS"
       },
       {
-        "title": "AWS announces general availability of AWS Interconnect - multicloud",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-announces-ga-AWS-interconnect-multicloud/",
-        "summary": "AWS announces general availability (GA) of AWS Interconnect - multicloud, providing simple, resilient, high-speed private connections to other cloud service providers (CSPs). With GA comes Google…",
-        "date": "2026年4月14日",
-        "date_iso": "2026-04-14",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
         "title": "Amazon EC2 X8i instances are now available in Europe (Paris)",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ec2-x8i-instances-CDG-region/",
         "summary": "Amazon Web Services (AWS) is announcing the general availability of Amazon EC2 X8i instances, next-generation memory optimized instances powered by custom Intel Xeon 6 processors available only on…",
@@ -383,29 +403,19 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon CloudWatch pipelines now supports drop and conditional processing",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-cloudwatch-pipelines-conditional/",
-        "summary": "Amazon CloudWatch pipelines now supports conditional processing and a new drop events processor, giving you more control over how your log data is transformed. CloudWatch pipelines is a fully managed…",
-        "date": "2026年4月11日",
-        "date_iso": "2026-04-11",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Deadline Cloud supports monitor creation in multiple regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/deadline-cloud-monitor-creation/",
-        "summary": "Today, AWS Deadline Cloud announces support for creating monitors in multiple AWS Regions without additional configuration of your IAM Identity Center instance. AWS Deadline Cloud is a fully managed…",
-        "date": "2026年4月11日",
-        "date_iso": "2026-04-11",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "April 15, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#April_15_2026",
+        "summary": "BigQuery Feature BigQuery agent analytics is now generally available (GA) in the Google Agent Developer Kit. BigQuery agent analytics is an open source solution that lets you capture, analyze, and…",
+        "date": "2026年4月15日",
+        "date_iso": "2026-04-15",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
       {
         "title": "April 14, 2026",
         "link": "https://docs.cloud.google.com/release-notes#April_14_2026",
@@ -489,11 +499,11 @@
       {
         "title": "April 06, 2026",
         "link": "https://docs.cloud.google.com/release-notes#April_06_2026",
-        "summary": "AlloyDB for PostgreSQL Feature The QueryData tool lets you to query the data in your database using conversational language and build data agents. For more information, see QueryData tool overview .…",
+        "summary": "Access Approval Feature API keys are available in Preview . Feature Service Usage is available in Preview . Access Transparency Feature API keys are available in Preview . Feature Service Usage is…",
         "date": "2026年4月6日",
         "date_iso": "2026-04-06",
-        "category": "database-tag",
-        "cat_label": "データベース",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "GCP"
       },
       {
@@ -549,7 +559,7 @@
       {
         "title": "March 31, 2026",
         "link": "https://docs.cloud.google.com/release-notes#March_31_2026",
-        "summary": "AlloyDB for PostgreSQL Feature Hot standby enhances the AlloyDB high availability (HA) architecture to improve failover times and to ensure consistent performance after failover. AlloyDB continuously…",
+        "summary": "Access Approval Feature Service Management is generally available (GA) . Access Transparency Feature Service Management is generally available (GA) . AlloyDB for PostgreSQL Feature Hot standby…",
         "date": "2026年3月31日",
         "date_iso": "2026-03-31",
         "category": "ai-tag",
@@ -594,16 +604,6 @@
         "date_iso": "2026-03-27",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "March 26, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#March_26_2026",
-        "summary": "Anthos Config Management Breaking Upgraded the Open Telemetry image from v0.127.0 to v0.133.0 to pick up vulnerability fixes. This change promotes the pkg.translator.prometheus.NormalizeName feature…",
-        "date": "2026年3月26日",
-        "date_iso": "2026-03-26",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
         "tag": "GCP"
       }
     ],
