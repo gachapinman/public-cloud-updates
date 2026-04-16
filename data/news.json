@@ -1,5 +1,5 @@
 {
-  "updated": "2026年04月16日 14:49 JST",
+  "updated": "2026年04月16日 19:49 JST",
   "clouds": {
     "azure": [
       {
@@ -609,6 +609,36 @@
     ],
     "oci": [
       {
+        "title": "Additional log support for OCI Logging Service",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-dedicated/adbd-unifiedauditlog.htm",
+        "summary": "",
+        "date": "2026年4月14日",
+        "date_iso": "2026-04-14",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Provision an Autonomous Container Database with 19c or 26ai database software version in the same Autonomous Exadata VM Cluster",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-dedicated/adbd-provisionavmc.htm",
+        "summary": "",
+        "date": "2026年4月14日",
+        "date_iso": "2026-04-14",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Availability of new Dynamic Performance Views on Oracle Autonomous AI Database on Dedicated Exadata Infrastructure",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-dedicated/adbd-new-dynamic-performanceviews.htm",
+        "summary": "",
+        "date": "2026年4月14日",
+        "date_iso": "2026-04-14",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
         "title": "OCI Kubernetes Engine (OKE) support for configuring cookie-based session persistence for managed load balancers",
         "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-cookie-based-session-persistence.htm",
         "summary": "",
@@ -774,36 +804,6 @@
         "summary": "",
         "date": "2026年3月27日",
         "date_iso": "2026-03-27",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Resource Analytics - March 2026",
-        "link": "https://docs.oracle.com/iaas/releasenotes/resource-analytics/resource-analytics-v2-2.htm",
-        "summary": "",
-        "date": "2026年3月27日",
-        "date_iso": "2026-03-27",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Send Database Identity Network Headers for Outbound HTTP Request",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-03-send-network-header.htm",
-        "summary": "",
-        "date": "2026年3月26日",
-        "date_iso": "2026-03-26",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "OCI"
-      },
-      {
-        "title": "Monitor Autonomous AI Database Memory Utilization",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-03-monitor-mem-util.htm",
-        "summary": "",
-        "date": "2026年3月26日",
-        "date_iso": "2026-03-26",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "OCI"
