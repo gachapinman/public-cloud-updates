@@ -1,7 +1,27 @@
 {
-  "updated": "2026年04月16日 19:49 JST",
+  "updated": "2026年04月17日 12:46 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Retirement: Azure Kubernetes Service support for Ubuntu 22.04",
+        "link": "https://azure.microsoft.com/updates?id=557928",
+        "summary": "On June 30, 2027, we'll retire Ubuntu 22.04 on Azure Kubernetes Service. To avoid disruptions, transition to Ubuntu 24.04 or later by that date. Newer supported versions include kernel updates and…",
+        "date": "2026年4月17日",
+        "date_iso": "2026-04-17",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: User and group quota reports in Azure NetApp Files",
+        "link": "https://azure.microsoft.com/updates?id=558483",
+        "summary": "For organizations leveraging individual user and group quotas in Azure NetApp Files to manage capacity on NFS, SMB, and dual-protocol volumes, the user and group quota reporting feature offers clear…",
+        "date": "2026年4月17日",
+        "date_iso": "2026-04-17",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Retirement: End of lift reminder of HBv2/HC-Series/NP-Series Azure Virtual Machine in Azure Batch Pool",
         "link": "https://azure.microsoft.com/updates?id=559751",
@@ -181,29 +201,79 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Disable HTTP proxy in AKS",
-        "link": "https://azure.microsoft.com/updates?id=557857",
-        "summary": "Organizations that use HTTP proxies to control outbound traffic often need to change or remove those settings as network requirements evolve, which can be disruptive in running clusters. Azure…",
-        "date": "2026年4月8日",
-        "date_iso": "2026-04-08",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Azure Functions now supports MCP resource triggers",
-        "link": "https://azure.microsoft.com/updates?id=559981",
-        "summary": "Developers building MCP servers on Azure Functions can expose tools but not resources. Now, Azure Functions supports MCP resource triggers, enabling developers to expose resources directly from an…",
-        "date": "2026年4月8日",
-        "date_iso": "2026-04-08",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Amazon CloudWatch now supports cross-region telemetry auditing and enablement rules",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-cloudwatch-cross-region-enablement-rules/",
+        "summary": "Amazon CloudWatch now supports auditing telemetry configuration and enabling telemetry from AWS services such as Amazon EC2, Amazon VPC, and AWS CloudTrail across multiple AWS Regions from a single…",
+        "date": "2026年4月17日",
+        "date_iso": "2026-04-17",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Elastic Disaster Recovery is now available in the AWS European Sovereign Cloud",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/drs-thf/",
+        "summary": "AWS Elastic Disaster Recovery (AWS DRS) is now available in the AWS European Sovereign Cloud, enabling organizations with data sovereignty requirements to protect their mission-critical workloads…",
+        "date": "2026年4月17日",
+        "date_iso": "2026-04-17",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon WorkSpaces Personal and Amazon WorkSpaces Core are now available in two additional AWS Regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-workspaces-available-two-new-regions/",
+        "summary": "Amazon WorkSpaces Personal and Amazon WorkSpaces Core are now available in US East (Ohio) and Asia Pacific (Malaysia) AWS Regions. You can now provision WorkSpaces closer to your users, helping to…",
+        "date": "2026年4月17日",
+        "date_iso": "2026-04-17",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon FSx for Lustre Persistent-2 file systems are now available in four additional AWS Regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-fsx-lustre-persistent-2-aws/",
+        "summary": "You can now create Amazon FSx for Lustre Persistent-2 file systems in four additional AWS Regions: Asia Pacific (Hyderabad, Jakarta), Europe (Zurich), and South America (São Paulo). Amazon FSx for…",
+        "date": "2026年4月17日",
+        "date_iso": "2026-04-17",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Introducing Amazon EC2 C8in and C8ib instances",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ec2-c8in-c8ib-instances-ga/",
+        "summary": "AWS is announcing the general availability of Amazon EC2 C8in and C8ib instances powered by custom, sixth generation Intel Xeon Scalable processors, available only on AWS. These instances feature the…",
+        "date": "2026年4月17日",
+        "date_iso": "2026-04-17",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Quick now supports multi-account sign-in within the same browser",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-multi-account-sign-in/",
+        "summary": "Today, AWS announces multi-session support for Amazon Quick, which enables customers to access up to five Amazon Quick accounts simultaneously within the same browser. The feature also includes the…",
+        "date": "2026年4月16日",
+        "date_iso": "2026-04-16",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Claude Opus 4.7 is now available in Amazon Bedrock",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/claude-opus-4.7-amazon-bedrock/",
+        "summary": "Amazon Bedrock, the platform for building AI applications and agents at production scale, now offers Claude Opus 4.7--&nbsp;Anthropic's&nbsp;most capable Opus model to date&nbsp;--&nbsp;delivering…",
+        "date": "2026年4月16日",
+        "date_iso": "2026-04-16",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
       {
         "title": "AWS Payment Cryptography now available in South America (São Paulo)",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-payment-cryptography-south/",
@@ -333,87 +403,27 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon CloudWatch Logs Insights now supports saved queries with parameters",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/cloudwatch-logs-insights-query-params/",
-        "summary": "Amazon CloudWatch Logs Insights saved queries now support parameters, allowing you to pass values to reusable query templates with placeholders. This eliminates the need to maintain multiple copies…",
-        "date": "2026年4月14日",
-        "date_iso": "2026-04-14",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 R8i and R8i-flex instances are now available in AWS GovCloud (US-West) Region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-r8i-instances-govcloud-us-west/",
-        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8i and R8i-flex instances are available in the AWS GovCloud (US-West) Region. These instances are powered by custom Intel Xeon 6 processors,…",
-        "date": "2026年4月14日",
-        "date_iso": "2026-04-14",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS IoT is now available in Israel (Tel Aviv) and Europe (Milan) AWS Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-iot-israel-tel-aviv-europe-milan/",
-        "summary": "AWS IoT Core and AWS IoT Device Management services are now available in the Israel (Tel Aviv) and Europe (Milan) AWS Regions. With this expansion, organizations operating in these regions can better…",
-        "date": "2026年4月14日",
-        "date_iso": "2026-04-14",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon FSx now supports copying file system backups across AWS opt-in Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-fsx-copying-backups-opt-in-regions/",
-        "summary": "Amazon&nbsp;FSx&nbsp;now supports copying file system backups across&nbsp; opt-in Regions &nbsp;(AWS Regions that are disabled by default) for Amazon&nbsp;FSx&nbsp;for Windows File Server,…",
-        "date": "2026年4月14日",
-        "date_iso": "2026-04-14",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Elastic Disaster Recovery now supports IPv6",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-elastic-disaster-recovery-ipv6/",
-        "summary": "AWS Elastic Disaster Recovery (AWS DRS) now supports IPv6 for both data replication and control plane connections. Customers operating in IPv6-only or dual-stack network environments can now…",
-        "date": "2026年4月14日",
-        "date_iso": "2026-04-14",
-        "category": "network-tag",
-        "cat_label": "ネットワーク",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS announces general availability of AWS Interconnect - last mile",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-announces-ga-AWS-interconnect-last-mile/",
-        "summary": "AWS launches AWS Interconnect - last mile, a fully managed connectivity offering that allows customers to connect their branch offices, data centers, and remote locations to AWS with just a few…",
-        "date": "2026年4月14日",
-        "date_iso": "2026-04-14",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 X8i instances are now available in Europe (Paris)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ec2-x8i-instances-CDG-region/",
-        "summary": "Amazon Web Services (AWS) is announcing the general availability of Amazon EC2 X8i instances, next-generation memory optimized instances powered by custom Intel Xeon 6 processors available only on…",
-        "date": "2026年4月11日",
-        "date_iso": "2026-04-11",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
       }
     ],
     "gcp": [
       {
-        "title": "April 15, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#April_15_2026",
-        "summary": "BigQuery Feature BigQuery agent analytics is now generally available (GA) in the Google Agent Developer Kit. BigQuery agent analytics is an open source solution that lets you capture, analyze, and…",
-        "date": "2026年4月15日",
-        "date_iso": "2026-04-15",
+        "title": "April 16, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#April_16_2026",
+        "summary": "AI Hypercomputer Feature Generally available : The AI Hypercomputer documentation includes support for the A3 Mega and A3 High machine types. The addition of A3 Mega and A3 High expand the available…",
+        "date": "2026年4月16日",
+        "date_iso": "2026-04-16",
         "category": "ai-tag",
         "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
+        "title": "April 15, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#April_15_2026",
+        "summary": "AlloyDB for PostgreSQL Feature The AlloyDB for PostgreSQL index advisor is enabled by default. It provides vector search index recommendations for Scalable Nearest Neighbors (ScaNN) indexes. For more…",
+        "date": "2026年4月15日",
+        "date_iso": "2026-04-15",
+        "category": "database-tag",
+        "cat_label": "データベース",
         "tag": "GCP"
       },
       {
@@ -592,16 +602,6 @@
         "summary": "Google SecOps SOAR Announcement Release 6.3.80 is now available for all regions. Sensitive Data Protection Feature You can configure Sensitive Data Protection to detect specific client-provided…",
         "date": "2026年3月28日",
         "date_iso": "2026-03-28",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "March 27, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#March_27_2026",
-        "summary": "Assured Workloads Feature The Data Boundary for IRS 1075 supports the following products: AI Protection Artifact Analysis AutoML Tables Backup and DR Service Certificate Manager Cloud Domains Cloud…",
-        "date": "2026年3月27日",
-        "date_iso": "2026-03-27",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
