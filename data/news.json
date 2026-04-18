@@ -1,7 +1,37 @@
 {
-  "updated": "2026年04月17日 19:42 JST",
+  "updated": "2026年04月18日 12:30 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Generally available: Anthropic Claude Opus 4.7 on Azure Databricks",
+        "link": "https://azure.microsoft.com/updates?id=560590",
+        "summary": "Azure Databricks now supports Anthropic Claude Opus 4.7 through Azure Databricks AI Model Serving. Claude Opus 4.7 is Anthropic's most capable hybrid reasoning model, delivering stronger performance…",
+        "date": "2026年4月18日",
+        "date_iso": "2026-04-18",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Retirement: Azure Functions runtime v3 on Linux Consumption will stop running September 30, 2026",
+        "link": "https://azure.microsoft.com/updates?id=559311",
+        "summary": "Azure Functions runtime v3 was retired on December 13, 2022. As part of ongoing efforts to reduce reliance on legacy infrastructure and focus investments on supported platforms, Azure will enforce…",
+        "date": "2026年4月18日",
+        "date_iso": "2026-04-18",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Configure AKS backup using a single Azure CLI command",
+        "link": "https://azure.microsoft.com/updates?id=560521",
+        "summary": "Azure Backup now provides a simplified experience to configure backup for Azure Kubernetes Service (AKS) clusters using a single Azure CLI command.Enabling backup for AKS clusters through CLI…",
+        "date": "2026年4月18日",
+        "date_iso": "2026-04-18",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Retirement: Azure Kubernetes Service support for Ubuntu 22.04",
         "link": "https://azure.microsoft.com/updates?id=557928",
@@ -23,7 +53,7 @@
         "tag": "AZURE"
       },
       {
-        "title": "Retirement: End of lift reminder of HBv2/HC-Series/NP-Series Azure Virtual Machine in Azure Batch Pool",
+        "title": "Retirement: End of life reminder of HBv2/HC-Series/NP-Series Azure Virtual Machine in Azure Batch Pool",
         "link": "https://azure.microsoft.com/updates?id=559751",
         "summary": "Microsoft Azure will retire support for HBv2-series, HC-series, and NP-series VMs in Azure Batch pools on May 31, 2027, including: HBv2-series: 120 AMD EPYC 7V12 vCPUs, 480 GB RAM, 200 Gb/s HDR…",
         "date": "2026年4月16日",
@@ -171,39 +201,79 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Observability in AKS Namespace and Workload Views",
-        "link": "https://azure.microsoft.com/updates?id=560039",
-        "summary": "AKS now surfaces observability data powered by Azure Monitor managed service for Prometheus directly within Namespace and Workload views, making it easier to:Monitor cluster and workload…",
-        "date": "2026年4月9日",
-        "date_iso": "2026-04-09",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Azure Files assessments are now available using Azure Migrate",
-        "link": "https://azure.microsoft.com/updates?id=560025",
-        "summary": "Azure Migrate now supports assessments for Azure Files, allowing customers and partners to efficiently plan migrations of on-premises SMB and NFS file shares (Windows and Linux) to Azure Files. This…",
-        "date": "2026年4月9日",
-        "date_iso": "2026-04-09",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Azure Red Hat OpenShift adds NVIDIA H100 and H200 GPU support",
-        "link": "https://azure.microsoft.com/updates?id=559547",
-        "summary": "Azure Red Hat OpenShift (ARO) now supports NVIDIA H100 and H200 GPU-based Azure Virtual Machine SKUs, enabling customers to run large-scale AI, machine learning, and high-performance computing (HPC)…",
-        "date": "2026年4月8日",
-        "date_iso": "2026-04-08",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Amazon EC2 High Memory U7i instances now available in AWS Asia Pacific (Singapore) region",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-high-memory-u7i-asia-pacific/",
+        "summary": "Amazon EC2 High Memory U7i-8TB instances (u7i-8tb.112xlarge) and U7i-12TB instances (u7i-12tb.224xlarge) are now available in AWS Asia Pacific (Singapore) region. U7i instances are part of AWS 7th…",
+        "date": "2026年4月18日",
+        "date_iso": "2026-04-18",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon SageMaker HyperPod now supports flexible instance groups",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/sagemaker-hyperpod-flexible-instance-groups/",
+        "summary": "Amazon SageMaker HyperPod now supports flexible instance groups, enabling customers to specify multiple instance types and multiple subnets within a single instance group. Customers running training…",
+        "date": "2026年4月18日",
+        "date_iso": "2026-04-18",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon ECR Pull Through Cache Now Supports Referrer Discovery and Sync",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ecr-pull-through-cache-referrers/",
+        "summary": "Amazon Elastic Container Registry (Amazon ECR) now automatically discovers and syncs OCI referrers, such as image signatures, SBOMs, and attestations, from upstream registries into your Amazon ECR…",
+        "date": "2026年4月18日",
+        "date_iso": "2026-04-18",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Deadline Cloud announces AI-powered troubleshooting assistant for render jobs",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/deadline-cloud-ai-troubleshooting/",
+        "summary": "Today, AWS Deadline Cloud announces an AI-powered troubleshooting assistant that helps you quickly diagnose and resolve render job failures. AWS Deadline Cloud is a fully managed service that…",
+        "date": "2026年4月18日",
+        "date_iso": "2026-04-18",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Managed Grafana now supports creating Grafana 12.4 workspaces",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-managed-grafana-v12-create/",
+        "summary": "Amazon Managed Grafana&nbsp;now supports creating new workspaces with&nbsp;Grafana version 12.4.&nbsp;&nbsp;This release includes features that were launched as a part of open source Grafana versions…",
+        "date": "2026年4月18日",
+        "date_iso": "2026-04-18",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "SageMaker JumpStart now offers optimized deployments for foundation models",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/sagemaker-jumpstart-optimized-deployments/",
+        "summary": "SageMaker JumpStart now offers optimized deployments, enabling customers to deploy foundation models with pre-configured settings tailored to specific use cases and performance constraints. SageMaker…",
+        "date": "2026年4月17日",
+        "date_iso": "2026-04-17",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon CloudWatch RUM now available in AWS European Sovereign Cloud",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-cloudwatch-rum-european-sovereign-cloud/",
+        "summary": "Amazon CloudWatch RUM (Real User Monitoring) is a feature of Amazon CloudWatch that enables developers and operations teams to collect, view, and analyze client-side performance data from real…",
+        "date": "2026年4月17日",
+        "date_iso": "2026-04-17",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
       {
         "title": "Amazon CloudWatch now supports cross-region telemetry auditing and enablement rules",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-cloudwatch-cross-region-enablement-rules/",
@@ -238,6 +308,16 @@
         "title": "Amazon FSx for Lustre Persistent-2 file systems are now available in four additional AWS Regions",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-fsx-lustre-persistent-2-aws/",
         "summary": "You can now create Amazon FSx for Lustre Persistent-2 file systems in four additional AWS Regions: Asia Pacific (Hyderabad, Jakarta), Europe (Zurich), and South America (São Paulo). Amazon FSx for…",
+        "date": "2026年4月17日",
+        "date_iso": "2026-04-17",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 X8aedz instances are now available in Europe (Stockholm) region",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-x8aedz-instances-stockholm/",
+        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) X8aedz instances are available in&nbsp;Europe (Stockholm) region. These instances are powered by 5th Gen AMD EPYC processors (formerly code…",
         "date": "2026年4月17日",
         "date_iso": "2026-04-17",
         "category": "ai-tag",
@@ -323,89 +403,19 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "AWS announces general availability of AWS Interconnect - multicloud",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-announces-ga-AWS-interconnect-multicloud/",
-        "summary": "AWS announces general availability (GA) of AWS Interconnect - multicloud, providing simple, resilient, high-speed private connections to other cloud service providers (CSPs). With GA comes Google…",
-        "date": "2026年4月15日",
-        "date_iso": "2026-04-15",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 C8gn, M8gn, and R8gn instances now support higher Amazon EBS-optimized performance",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-c8gn-m8gn-r8gn-ebs/",
-        "summary": "Today, AWS announces increased Amazon Elastic Block Store (Amazon EBS) performance for Amazon EC2 C8gn, M8gn, and R8gn instances in 48xlarge and metal-48xl sizes. EC2 C8gn, M8gn, and R8gn instances…",
-        "date": "2026年4月14日",
-        "date_iso": "2026-04-14",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "NVIDIA Nemotron-3-Super-120B, Qwen3.5-9B, and Qwen3.5-27B models now available on Amazon SageMaker JumpStart",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/nemotron3super-120b-qwen3.5-9b-qwen3.5-27b-on-sagemaker-jumpstart/",
-        "summary": "NVIDIA’s Nemotron-3-Super-120B, Qwen3.5-9B, and Qwen3.5-27B models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These…",
-        "date": "2026年4月14日",
-        "date_iso": "2026-04-14",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon OpenSearch Serverless now supports Derived Source for storage optimization",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-opensearch-serverless-supports-derived-source/",
-        "summary": "Amazon OpenSearch Serverless introduces support for Derived Source, a new feature that can help reduce the amount of storage required for your OpenSearch Service collections. With derived source…",
-        "date": "2026年4月14日",
-        "date_iso": "2026-04-14",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Redshift introduces key performance optimization for Top-K queries",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-redshift-topk-optimization/",
-        "summary": "Amazon Redshift further optimizes the processing of top-k queries (queries with ORDER BY and LIMIT clauses) by intelligently skipping irrelevant data blocks to return results faster, dramatically…",
-        "date": "2026年4月14日",
-        "date_iso": "2026-04-14",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Quick now supports document-level access controls for Google Drive knowledge bases",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-document-level-access-controls-google-drive/",
-        "summary": "Amazon Quick now supports document-level access controls (ACLs) for Google Drive knowledge bases, enabling organizations to maintain native Google Drive permissions when indexing content. Quick…",
-        "date": "2026年4月14日",
-        "date_iso": "2026-04-14",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Aurora DSQL launches connector that simplifies building PHP applications",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aurora-dsql-connector-for-php/",
-        "summary": "Today we are announcing the release of the Aurora DSQL Connector for PHP (PDO_PGSQL) that makes it easy to build PHP applications on Aurora DSQL. The PHP Connector streamlines authentication and…",
-        "date": "2026年4月14日",
-        "date_iso": "2026-04-14",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 M8i and M8i-flex instances are now available in AWS GovCloud (US-West) Region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-m8i-flex-govcloud-us-west/",
-        "summary": "Starting today, Amazon EC2 M8i and M8i-flex instances are now available in AWS GovCloud (US-West) Region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS,…",
-        "date": "2026年4月14日",
-        "date_iso": "2026-04-14",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "April 17, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#April_17_2026",
+        "summary": "AlloyDB for PostgreSQL Issue When querying your Elasticsearch data using standard SQL queries and specifying an OFFSET , if the OFFSET gets pushed down, it gets applied twice. For example, if your…",
+        "date": "2026年4月17日",
+        "date_iso": "2026-04-17",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "GCP"
+      },
       {
         "title": "April 16, 2026",
         "link": "https://docs.cloud.google.com/release-notes#April_16_2026",
@@ -469,7 +479,7 @@
       {
         "title": "April 10, 2026",
         "link": "https://docs.cloud.google.com/release-notes#April_10_2026",
-        "summary": "BigQuery Feature SQL cells in BigQuery notebooks are now generally available (GA). Cloud Load Balancing Feature Published service backends let you configure supported load balancers or regional Cloud…",
+        "summary": "BigQuery Feature SQL cells in BigQuery notebooks are now generally available (GA). Cloud Composer Fixed Fixed a problem with missing DAG description and schedule in the DAG UI which occurred in…",
         "date": "2026年4月10日",
         "date_iso": "2026-04-10",
         "category": "ai-tag",
@@ -592,16 +602,6 @@
         "summary": "Google SecOps SOAR Announcement Release 6.3.81 is being rolled out to the first phase of regions as listed here . This release contains internal and customer bug fixes.",
         "date": "2026年3月29日",
         "date_iso": "2026-03-29",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "March 28, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#March_28_2026",
-        "summary": "Google SecOps SOAR Announcement Release 6.3.80 is now available for all regions. Sensitive Data Protection Feature You can configure Sensitive Data Protection to detect specific client-provided…",
-        "date": "2026年3月28日",
-        "date_iso": "2026-03-28",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
