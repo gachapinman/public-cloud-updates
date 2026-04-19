@@ -1,5 +1,5 @@
 {
-  "updated": "2026年04月18日 19:25 JST",
+  "updated": "2026年04月19日 12:50 JST",
   "clouds": {
     "azure": [
       {
@@ -335,6 +335,26 @@
         "tag": "AWS"
       },
       {
+        "title": "AWS Payment Cryptography が南米 (サンパウロ) リージョンで利用可能に",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/04/aws-payment-cryptography-south/",
+        "summary": "",
+        "date": "2026年4月16日",
+        "date_iso": "2026-04-16",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Quick がリッチでコンテキストに沿ったデータ探索を可能にするシートツールヒントを導入",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/04/quick-sheet-tooltips/",
+        "summary": "",
+        "date": "2026年4月16日",
+        "date_iso": "2026-04-16",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon Quick now supports multi-account sign-in within the same browser",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-multi-account-sign-in/",
         "summary": "Today, AWS announces multi-session support for Amazon Quick, which enables customers to access up to five Amazon Quick accounts simultaneously within the same browser. The feature also includes the…",
@@ -355,57 +375,47 @@
         "tag": "AWS"
       },
       {
-        "title": "AWS Payment Cryptography now available in South America (São Paulo)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-payment-cryptography-south/",
-        "summary": "AWS Payment Cryptography has expanded its global presence with availability in South America (São Paulo). This expansion enables customers with latency-sensitive payment applications to build, deploy…",
-        "date": "2026年4月16日",
-        "date_iso": "2026-04-16",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Quick Introduces Sheet Tooltips for Rich, Contextual Data Exploration",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/quick-sheet-tooltips/",
-        "summary": "Quick Sight in Amazon Quick now supports sheet tooltips, enabling authors to surface rich, contextual detail when viewers hover over data points — without disrupting their analysis flow. Sheet…",
-        "date": "2026年4月16日",
-        "date_iso": "2026-04-16",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 P6-B300 instances are now available in the AWS GovCloud (US-East) Region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-p6-b300-govcloud-us-east/",
-        "summary": "Starting today, Amazon Elastic Cloud Compute (Amazon EC2) P6-B300 instances are available in the AWS GovCloud (US-East) Region. P6-B300 instances provide 8x NVIDIA Blackwell Ultra GPUs with 2.1 TB…",
+        "title": "Amazon EC2 P6-B300 インスタンスが AWS GovCloud (米国東部) リージョンで利用可能に",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/04/ec2-p6-b300-govcloud-us-east/",
+        "summary": "",
         "date": "2026年4月15日",
         "date_iso": "2026-04-15",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "AWS"
       },
       {
-        "title": "AWS Transform is now available in Kiro and VS Code",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-transform-kiro-vscode/",
-        "summary": "AWS Transform is now available through two additional developer tools — including Kiro and VS Code. AWS Transform is an agentic migration and modernization factory designed to compress enterprise…",
+        "title": "AWS Transform が Kiro と VS Code で利用可能に",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/04/aws-transform-kiro-vscode/",
+        "summary": "",
         "date": "2026年4月15日",
         "date_iso": "2026-04-15",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "AWS"
       },
       {
-        "title": "AWS Secrets Manager now supports hybrid post-quantum TLS to protect secrets from quantum threats",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-secrets-manager-post-quantum-tls/",
-        "summary": "AWS Secrets Manager now&nbsp;supports&nbsp;hybrid post-quantum key exchange using ML-KEM (Module-Lattice-based Key-Encapsulation Mechanism) to secure TLS connections for retrieving and managing…",
+        "title": "AWS Secrets Manager が量子脅威からシークレットを保護するハイブリッドポスト量子 TLS をサポート",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/04/aws-secrets-manager-post-quantum-tls/",
+        "summary": "",
         "date": "2026年4月15日",
         "date_iso": "2026-04-15",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "April 18, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#April_18_2026",
+        "summary": "Cloud SQL for PostgreSQL Feature Newly created Cloud SQL instances are integrating with Knowledge Catalog (formerly Dataplex Universal Catalog) for data discovery. Instances on PostgreSQL version…",
+        "date": "2026年4月18日",
+        "date_iso": "2026-04-18",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "GCP"
+      },
       {
         "title": "April 17, 2026",
         "link": "https://docs.cloud.google.com/release-notes#April_17_2026",
@@ -594,16 +604,6 @@
         "date_iso": "2026-03-30",
         "category": "database-tag",
         "cat_label": "データベース",
-        "tag": "GCP"
-      },
-      {
-        "title": "March 29, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#March_29_2026",
-        "summary": "Google SecOps SOAR Announcement Release 6.3.81 is being rolled out to the first phase of regions as listed here . This release contains internal and customer bug fixes.",
-        "date": "2026年3月29日",
-        "date_iso": "2026-03-29",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "GCP"
       }
     ],
