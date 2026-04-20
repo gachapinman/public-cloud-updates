@@ -1,5 +1,5 @@
 {
-  "updated": "2026年04月20日 15:01 JST",
+  "updated": "2026年04月20日 20:07 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "April 20, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#April_20_2026",
+        "summary": "Apigee hybrid Announcement v1.16.1 On April 20, 2026 we released an updated version of the Apigee hybrid software, v1.16.1. For information on upgrading, see Upgrading Apigee hybrid to version…",
+        "date": "2026年4月20日",
+        "date_iso": "2026-04-20",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "GCP"
+      },
+      {
         "title": "April 19, 2026",
         "link": "https://docs.cloud.google.com/release-notes#April_19_2026",
         "summary": "Google SecOps SIEM Announcement New parser documentation now available New parser documentation is available to help you ingest and normalize logs from the following sources: Collect Group-IB Threat…",
@@ -592,16 +602,6 @@
         "summary": "Cloud Composer Feature Airflow 2.11.1 is available in Cloud Composer 3 and Cloud Composer 2. Change New Airflow builds are available in Cloud Composer 3: composer-3-airflow-2.11.1-build.0…",
         "date": "2026年4月1日",
         "date_iso": "2026-04-01",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "March 31, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#March_31_2026",
-        "summary": "Access Approval Feature Service Management is generally available (GA) . Access Transparency Feature Service Management is generally available (GA) . AlloyDB for PostgreSQL Feature Hot standby…",
-        "date": "2026年3月31日",
-        "date_iso": "2026-03-31",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
