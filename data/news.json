@@ -1,5 +1,5 @@
 {
-  "updated": "2026年04月19日 19:25 JST",
+  "updated": "2026年04月20日 12:52 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "April 19, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#April_19_2026",
+        "summary": "Google SecOps SIEM Announcement New parser documentation now available New parser documentation is available to help you ingest and normalize logs from the following sources: Collect Group-IB Threat…",
+        "date": "2026年4月19日",
+        "date_iso": "2026-04-19",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "April 18, 2026",
         "link": "https://docs.cloud.google.com/release-notes#April_18_2026",
         "summary": "Cloud SQL for PostgreSQL Feature Newly created Cloud SQL instances are integrating with Knowledge Catalog (formerly Dataplex Universal Catalog) for data discovery. Instances on PostgreSQL version…",
@@ -594,16 +604,6 @@
         "date_iso": "2026-03-31",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "March 30, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#March_30_2026",
-        "summary": "AlloyDB for PostgreSQL Feature AlloyDB now offers conversational analytics, which lets users query their operational data using natural language. This feature is powered by the Conversational…",
-        "date": "2026年3月30日",
-        "date_iso": "2026-03-30",
-        "category": "database-tag",
-        "cat_label": "データベース",
         "tag": "GCP"
       }
     ],
