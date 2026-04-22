@@ -1,5 +1,5 @@
 {
-  "updated": "2026年04月22日 14:38 JST",
+  "updated": "2026年04月22日 19:51 JST",
   "clouds": {
     "azure": [
       {
@@ -215,6 +215,16 @@
         "tag": "AWS"
       },
       {
+        "title": "Five new Qwen models for coding agents and efficient reasoning are now available in Amazon SageMaker JumpStart",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/qwen-models-on-sagemaker-jumpstart/",
+        "summary": "Today, AWS announced the availability of Qwen3-Coder-Next, Qwen3-30B-A3B, Qwen3-30B-A3B-Thinking-2507, Qwen3-Coder-30B-A3B-Instruct, and Qwen3.5-4B in Amazon SageMaker JumpStart, expanding the…",
+        "date": "2026年4月22日",
+        "date_iso": "2026-04-22",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
         "title": "Introducing the Amazon EKS Hybrid Nodes gateway for hybrid Kubernetes networking",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-eks-hybrid-nodes-gateway/",
         "summary": "Amazon Elastic Kubernetes Service (EKS) now offers the Amazon EKS Hybrid Nodes gateway, a feature that automates networking between your Amazon EKS cluster VPC and Kubernetes Pods running on Amazon…",
@@ -392,16 +402,6 @@
         "date_iso": "2026-04-21",
         "category": "database-tag",
         "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EKS enhances cluster governance with new IAM condition keys",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-eks-iam-condition-keys/",
-        "summary": "Amazon Elastic Kubernetes Service (EKS) now supports seven additional IAM condition keys for cluster creation and configuration APIs, enhancing the governance controls available through IAM policies…",
-        "date": "2026年4月21日",
-        "date_iso": "2026-04-21",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "AWS"
       }
     ],
@@ -609,11 +609,11 @@
     ],
     "oci": [
       {
-        "title": "New Identity Domain Type: External Active User Available in OCI IAM",
-        "link": "https://docs.oracle.com/iaas/releasenotes/identity/new-sku-mau-bill-meter.htm",
+        "title": "Support for Additional Autonomous AI Database Types",
+        "link": "https://docs.oracle.com/iaas/releasenotes/operations-insights/support-additional-adb-types.htm",
         "summary": "",
-        "date": "2026年4月21日",
-        "date_iso": "2026-04-21",
+        "date": "2026年4月22日",
+        "date_iso": "2026-04-22",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "OCI"
