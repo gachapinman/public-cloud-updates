@@ -1,7 +1,27 @@
 {
-  "updated": "2026年04月21日 19:53 JST",
+  "updated": "2026年04月22日 12:42 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Generally Available: Azure Monitor pipeline",
+        "link": "https://azure.microsoft.com/updates?id=559886",
+        "summary": "Azure Monitor pipeline is now generally available.Azure Monitor pipeline provides a centralized control point for telemetry ingestion and transformation, designed specifically for secure,…",
+        "date": "2026年4月22日",
+        "date_iso": "2026-04-22",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Azure NetApp Files advanced ransomware protection",
+        "link": "https://azure.microsoft.com/updates?id=560188",
+        "summary": "Azure NetApp Files advanced ransomware protection (ANF ARP) is now in GA (General Availability). ANF ARP is designed to help organizations proactively detect, respond to, and recover from ransomware…",
+        "date": "2026年4月22日",
+        "date_iso": "2026-04-22",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Public Preview: Azure Monitor supports native OTLP ingestion using the Azure Monitor Agent",
         "link": "https://azure.microsoft.com/updates?id=560530",
@@ -181,29 +201,139 @@
         "category": "container-tag",
         "cat_label": "コンテナ",
         "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Event Grid as a destination for Stripe events now in Public Preview",
-        "link": "https://azure.microsoft.com/updates?id=559836",
-        "summary": "Developers can now route Stripe events directly into Azure Event Grid and build scalable, event-driven architectures without managing webhook infrastructure or custom brokers.This means that Event…",
-        "date": "2026年4月11日",
-        "date_iso": "2026-04-11",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Enhancements to maintenance notifications in Azure Service Health",
-        "link": "https://azure.microsoft.com/updates?id=559628",
-        "summary": "We’re introducing regional level consolidated maintenance notifications for Azure Database for PostgreSQL to simplify how you stay informed about upcoming maintenance. Instead of one notification per…",
-        "date": "2026年4月9日",
-        "date_iso": "2026-04-09",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Amazon SageMaker now supports multi-region replication from IAM Identity Center",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/smus-identity-center/",
+        "summary": "Amazon SageMaker now supports multi-region replication from IAM Identity Center (IdC), enabling you to deploy SageMaker Unified Studio domains in different regions from your IdC instance. This new…",
+        "date": "2026年4月22日",
+        "date_iso": "2026-04-22",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Introducing the Amazon EKS Hybrid Nodes gateway for hybrid Kubernetes networking",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-eks-hybrid-nodes-gateway/",
+        "summary": "Amazon Elastic Kubernetes Service (EKS) now offers the Amazon EKS Hybrid Nodes gateway, a feature that automates networking between your Amazon EKS cluster VPC and Kubernetes Pods running on Amazon…",
+        "date": "2026年4月22日",
+        "date_iso": "2026-04-22",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Marketplace streamlines VAT payment for deemed supply transactions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-marketplace-vat/",
+        "summary": "AWS Marketplace now offers sellers a streamlined self-service process to submit Value Added Tax (VAT) invoices and receive automated VAT disbursements for deemed supply of digital services in the…",
+        "date": "2026年4月22日",
+        "date_iso": "2026-04-22",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Athena Spark adds support for AWS PrivateLink",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-athena-spark-aws-privatelink/",
+        "summary": "Amazon Athena Spark now supports AWS PrivateLink so that you can access APIs and endpoints from your Amazon Virtual Private Cloud (VPC) without traversing the public internet. This feature can help…",
+        "date": "2026年4月22日",
+        "date_iso": "2026-04-22",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Lambda functions can now mount Amazon S3 buckets as file systems with S3 Files",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-lambda-amazon-s3/",
+        "summary": "AWS Lambda now supports&nbsp; Amazon S3 Files , enabling your Lambda functions to mount Amazon S3 buckets as file systems and perform standard file operations without downloading data for processing.…",
+        "date": "2026年4月22日",
+        "date_iso": "2026-04-22",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon CloudWatch pipelines now supports configuration of processors via AI",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-cloudwatch-pipelines-ai-configuration/",
+        "summary": "Amazon CloudWatch pipelines now lets you configure log processors using natural language descriptions powered by generative AI. CloudWatch pipelines is a fully managed service that ingests,…",
+        "date": "2026年4月22日",
+        "date_iso": "2026-04-22",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Glue now supports OAuth 2.0 for Snowflake connectivity",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-glue-oauth-snowflake-connectivity/",
+        "summary": "Starting today, AWS Glue supports OAuth 2.0 authorization and authentication for native Snowflake connectivity, enabling customers to read from and write to Snowflake without sharing user…",
+        "date": "2026年4月22日",
+        "date_iso": "2026-04-22",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Transform custom is now available in six additional AWS Regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-atx-custom-additional-regions/",
+        "summary": "AWS Transform custom is now available in six additional AWS Regions: Asia Pacific (Mumbai, Tokyo, Seoul, Sydney), Canada (Central), and Europe (London). AWS Transform custom enables organizations to…",
+        "date": "2026年4月22日",
+        "date_iso": "2026-04-22",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 G7e instances now available in AWS Local Zones in Los Angeles",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-g7e-instances-local-zones/",
+        "summary": "Today, AWS announces the general availability of Amazon Elastic Compute Cloud (Amazon EC2) G7e instances in AWS Local Zones in Los Angeles, California. G7e instances feature NVIDIA RTX PRO 6000…",
+        "date": "2026年4月21日",
+        "date_iso": "2026-04-21",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Location Service now offers bulk address validation for the United States, Canada, Australia, and the United…",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-location-service-bulk-address-validation/",
+        "summary": "Amazon Location Service now offers bulk address validation for the United States, Canada, Australia, and the United Kingdom. Customers can now validate, correct, and standardize large volumes of…",
+        "date": "2026年4月21日",
+        "date_iso": "2026-04-21",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Aurora serverless: Up to 30% better performance, smarter scaling, and still scales to zero",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aurora-serverless-smarter-scaling/",
+        "summary": "Amazon Aurora serverless — the autoscaling database that scales up to support your most demanding workloads and down to zero when you don't need it — just got faster and smarter, with up to 30%…",
+        "date": "2026年4月21日",
+        "date_iso": "2026-04-21",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Backup adds Amazon Redshift Serverless and Aurora DSQL support for AWS Organizations backup policies",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/backup-policies-aurora-dsql-redshift-serverless/",
+        "summary": "AWS Backup now supports Amazon Redshift Serverless namespaces and Amazon Aurora DSQL clusters as resource types in AWS Organizations backup policies. Organization administrators can now define backup…",
+        "date": "2026年4月21日",
+        "date_iso": "2026-04-21",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Lambda Durable Execution SDK for Java GA",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/lambda-durable-execution-java-ga/",
+        "summary": "Today, AWS announces the general availability of the AWS Lambda Durable Execution SDK for Java, empowering Java developers to build resilient, long-running workflows using Lambda durable functions.…",
+        "date": "2026年4月21日",
+        "date_iso": "2026-04-21",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
       {
         "title": "Amazon Connect Outbound Campaigns now supports contact priority ordering",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-priority-dialing/",
@@ -228,6 +358,16 @@
         "title": "Amazon EVS now offers Microsoft Windows Server Licensing",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-evs-windows-server-licensing/",
         "summary": "Today, we're announcing that Amazon Elastic VMware Service (Amazon EVS) now offers Microsoft Windows Server licensing entitlements. You can now migrate or create new virtual machines (VMs) running…",
+        "date": "2026年4月21日",
+        "date_iso": "2026-04-21",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Connect expands agentic voice speech-to-speech experiences to three new AWS Regions and ten locales",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-aws/",
+        "summary": "Amazon Connect now expands agentic voice speech-to-speech experiences to three additional AWS Regions: Asia Pacific (Seoul), Asia Pacific (Singapore), and Europe (Frankfurt), along with new locales…",
         "date": "2026年4月21日",
         "date_iso": "2026-04-21",
         "category": "compute-tag",
@@ -263,149 +403,19 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon Connect outbound campaigns now supports hourly segment refresh",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-campaign-hourly-refresh/",
-        "summary": "Amazon Connect&nbsp;Outbound&nbsp;Campaigns&nbsp;now&nbsp;allows&nbsp;you to refresh campaign segments as&nbsp;frequently&nbsp;as every hour, reduced from the&nbsp;previous&nbsp;minimum of 24 hours.…",
-        "date": "2026年4月21日",
-        "date_iso": "2026-04-21",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon MSK Replicator now supports log forwarding for replication visibility",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-msk-replicator-logs/",
-        "summary": "Amazon MSK Replicator now delivers replicator logs to give you end-to-end visibility into replication health. Replicator logs surface critical replication events and errors&nbsp;along with guidance…",
-        "date": "2026年4月21日",
-        "date_iso": "2026-04-21",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon MSK Replicator now supports enhanced consumer offset synchronization for bidirectional replication",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-msk-replicator-enhanced-consumer-offset-synchronization/",
-        "summary": "Amazon MSK Replicator now provides enhanced consumer offset synchronization for bidirectional replication, enabling applications to resume processing from the correct position when moving across…",
-        "date": "2026年4月21日",
-        "date_iso": "2026-04-21",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "MSK Replicator now supports replication from external Apache Kafka clusters to MSK Express Brokers",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-msk-replicator-external-kafka-cluster-support/",
-        "summary": "Amazon MSK Replicator now supports&nbsp;data replication&nbsp;from&nbsp;external&nbsp;Apache Kafka clusters—including on-premises, self-managed on AWS, or other cloud providers—to&nbsp; Amazon MSK…",
-        "date": "2026年4月21日",
-        "date_iso": "2026-04-21",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon S3 Express One Zone now supports S3 Inventory",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/s3-express-one-zone-supports-s3-inventory/",
-        "summary": "Amazon S3 Express One Zone, a high-performance S3 storage class for latency-sensitive applications, now supports S3 Inventory. S3 Inventory&nbsp;provides&nbsp;a scheduled alternative to S3's…",
-        "date": "2026年4月20日",
-        "date_iso": "2026-04-20",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Managed Microsoft AD is now available on Windows functional level 2016",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-managed-microsoft-ad-2016-functional-level/",
-        "summary": "Starting today, all AWS Directory Service for Microsoft AD (AWS Managed Microsoft AD) directories run on Windows functional level 2016.&nbsp;The upgrade to Windows functional level 2016 has been…",
-        "date": "2026年4月20日",
-        "date_iso": "2026-04-20",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Managed Microsoft AD now supports Kerberos Encryption audit event logs",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-managed-microsoft-ad-kerberose-encrption-logs/",
-        "summary": "Starting today, AWS Managed Microsoft AD supports forwarding Kerberos&nbsp;Encryption audit&nbsp;event logs (Event IDs 201–209) to Amazon CloudWatch Logs. These logs provide visibility into the…",
-        "date": "2026年4月20日",
-        "date_iso": "2026-04-20",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 High Memory U7i instances now available in AWS Asia Pacific (Singapore) region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-high-memory-u7i-asia-pacific/",
-        "summary": "Amazon EC2 High Memory U7i-8TB instances (u7i-8tb.112xlarge) and U7i-12TB instances (u7i-12tb.224xlarge) are now available in AWS Asia Pacific (Singapore) region. U7i instances are part of AWS 7th…",
-        "date": "2026年4月18日",
-        "date_iso": "2026-04-18",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SageMaker HyperPod now supports flexible instance groups",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/sagemaker-hyperpod-flexible-instance-groups/",
-        "summary": "Amazon SageMaker HyperPod now supports flexible instance groups, enabling customers to specify multiple instance types and multiple subnets within a single instance group. Customers running training…",
-        "date": "2026年4月18日",
-        "date_iso": "2026-04-18",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon ECR Pull Through Cache Now Supports Referrer Discovery and Sync",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ecr-pull-through-cache-referrers/",
-        "summary": "Amazon Elastic Container Registry (Amazon ECR) now automatically discovers and syncs OCI referrers, such as image signatures, SBOMs, and attestations, from upstream registries into your Amazon ECR…",
-        "date": "2026年4月18日",
-        "date_iso": "2026-04-18",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Deadline Cloud announces AI-powered troubleshooting assistant for render jobs",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/deadline-cloud-ai-troubleshooting/",
-        "summary": "Today, AWS Deadline Cloud announces an AI-powered troubleshooting assistant that helps you quickly diagnose and resolve render job failures. AWS Deadline Cloud is a fully managed service that…",
-        "date": "2026年4月18日",
-        "date_iso": "2026-04-18",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Connect flow modules now work across all flow types and within other modules",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-flow-modules-enhancements/",
-        "summary": "Amazon Connect now supports the use of flow modules across all Connect flows, allowing you to reuse common logic and functionality beyond inbound customer experiences. Flow modules organize…",
-        "date": "2026年4月18日",
-        "date_iso": "2026-04-18",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Managed Grafana now supports creating Grafana 12.4 workspaces",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-managed-grafana-v12-create/",
-        "summary": "Amazon Managed Grafana&nbsp;now supports creating new workspaces with&nbsp;Grafana version 12.4.&nbsp;&nbsp;This release includes features that were launched as a part of open source Grafana versions…",
-        "date": "2026年4月18日",
-        "date_iso": "2026-04-18",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon CloudWatch がクロスリージョンのテレメトリの監査と有効化のルールのサポートを開始",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/04/amazon-cloudwatch-cross-region-enablement-rules/",
-        "summary": "",
-        "date": "2026年4月17日",
-        "date_iso": "2026-04-17",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "April 21, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#April_21_2026",
+        "summary": "AlloyDB for PostgreSQL Feature The integration between AlloyDB for PostgreSQL and Knowledge Catalog (in Preview ) is now enabled by default for all new AlloyDB clusters. This integration provides a…",
+        "date": "2026年4月21日",
+        "date_iso": "2026-04-21",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "GCP"
+      },
       {
         "title": "April 20, 2026",
         "link": "https://docs.cloud.google.com/release-notes#April_20_2026",
@@ -595,27 +605,57 @@
         "category": "database-tag",
         "cat_label": "データベース",
         "tag": "GCP"
-      },
-      {
-        "title": "April 01, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#April_01_2026",
-        "summary": "Cloud Composer Feature Airflow 2.11.1 is available in Cloud Composer 3 and Cloud Composer 2. Change New Airflow builds are available in Cloud Composer 3: composer-3-airflow-2.11.1-build.0…",
-        "date": "2026年4月1日",
-        "date_iso": "2026-04-01",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
       }
     ],
     "oci": [
       {
-        "title": "Allow additional outbound network traffic using egress rules",
-        "link": "https://docs.oracle.com/iaas/releasenotes/fusion-applications/egress-rules.htm",
+        "title": "New Identity Domain Type: External Active User Available in OCI IAM",
+        "link": "https://docs.oracle.com/iaas/releasenotes/identity/new-sku-mau-bill-meter.htm",
         "summary": "",
-        "date": "2026年4月20日",
-        "date_iso": "2026-04-20",
-        "category": "network-tag",
-        "cat_label": "ネットワーク",
+        "date": "2026年4月21日",
+        "date_iso": "2026-04-21",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "New Oracle Cloud Console experience for Data Science",
+        "link": "https://docs.oracle.com/iaas/releasenotes/data-science/console-experience.htm",
+        "summary": "",
+        "date": "2026年4月21日",
+        "date_iso": "2026-04-21",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "New connection types added for GoldenGate",
+        "link": "https://docs.oracle.com/iaas/releasenotes/goldengate/r10connections.htm",
+        "summary": "",
+        "date": "2026年4月21日",
+        "date_iso": "2026-04-21",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Oracle Critical Patch Update (CPU) April 2026 for Oracle Java SE",
+        "link": "https://docs.oracle.com/iaas/releasenotes/java-management/jdk-cpu-april-2026.htm",
+        "summary": "",
+        "date": "2026年4月21日",
+        "date_iso": "2026-04-21",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Improved Compute usage metrics in OCI Control Center",
+        "link": "https://docs.oracle.com/iaas/releasenotes/control-center/metrics-improved.htm",
+        "summary": "",
+        "date": "2026年4月21日",
+        "date_iso": "2026-04-21",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "OCI"
       },
       {
@@ -646,6 +686,16 @@
         "date_iso": "2026-04-20",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Allow additional outbound network traffic using egress rules",
+        "link": "https://docs.oracle.com/iaas/releasenotes/fusion-applications/egress-rules.htm",
+        "summary": "",
+        "date": "2026年4月20日",
+        "date_iso": "2026-04-20",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
         "tag": "OCI"
       },
       {
@@ -756,56 +806,6 @@
         "date_iso": "2026-04-07",
         "category": "database-tag",
         "cat_label": "データベース",
-        "tag": "OCI"
-      },
-      {
-        "title": "New Experience in Oracle Cloud Console",
-        "link": "https://docs.oracle.com/iaas/releasenotes/registry/mar31-cloud-console-release-note.htm",
-        "summary": "",
-        "date": "2026年4月7日",
-        "date_iso": "2026-04-07",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Malaysia West 2 (Kulai) region availability",
-        "link": "https://docs.oracle.com/iaas/releasenotes/lustre/malaysia-west-2.htm",
-        "summary": "",
-        "date": "2026年4月7日",
-        "date_iso": "2026-04-07",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "New Oracle Cloud Console experience for Usage Statements",
-        "link": "https://docs.oracle.com/iaas/releasenotes/billing/new_oracle_cloud_console_experience_for_usage_statements.htm",
-        "summary": "",
-        "date": "2026年3月31日",
-        "date_iso": "2026-03-31",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "New Experience in Oracle Cloud Console for Events",
-        "link": "https://docs.oracle.com/iaas/releasenotes/events/events-redwood-updates.htm",
-        "summary": "",
-        "date": "2026年3月31日",
-        "date_iso": "2026-03-31",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Enterprise AI Agents are in General Availability in OCI Generative AI",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/enterprise-ai.htm",
-        "summary": "",
-        "date": "2026年3月31日",
-        "date_iso": "2026-03-31",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "OCI"
       }
     ]
