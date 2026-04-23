@@ -1,5 +1,5 @@
 {
-  "updated": "2026年04月23日 12:47 JST",
+  "updated": "2026年04月23日 14:51 JST",
   "clouds": {
     "azure": [
       {
@@ -245,16 +245,6 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon SageMaker AI now supports serverless model customization for Qwen3.5 models",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-sagemaker-ft-qwen3-5/",
-        "summary": "Amazon SageMaker AI now supports serverless model customization for Qwen3.5, enabling you to fine-tune Qwen3.5 4B, 9B, and 27B parameter models using supervised fine-tuning (SFT) and reinforcement…",
-        "date": "2026年4月23日",
-        "date_iso": "2026-04-23",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
         "title": "Amazon EC2 announces Managed resource visibility settings",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-managed-resource-visibility/",
         "summary": "Amazon EC2 now lets you control whether resources provisioned by managed instance offerings appear in your Amazon EC2 console views and API list operations. Amazon EC2 Managed Instances are instances…",
@@ -262,6 +252,16 @@
         "date_iso": "2026-04-23",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon SageMaker AI now supports serverless model customization for Qwen3.5 models",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-sagemaker-ft-qwen3-5/",
+        "summary": "Amazon SageMaker AI now supports serverless model customization for Qwen3.5, enabling you to fine-tune Qwen3.5 4B, 9B, and 27B parameter models using supervised fine-tuning (SFT) and reinforcement…",
+        "date": "2026年4月23日",
+        "date_iso": "2026-04-23",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "AWS"
       },
       {
