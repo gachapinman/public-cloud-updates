@@ -1,5 +1,5 @@
 {
-  "updated": "2026年04月25日 14:28 JST",
+  "updated": "2026年04月25日 19:29 JST",
   "clouds": {
     "azure": [
       {
@@ -235,9 +235,9 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon EC2 High Memory U7i instances now available in additional regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ec2-high-memory-u7i/",
-        "summary": "Amazon EC2 High Memory U7i-8TB instances (u7i-8tb.112xlarge) are now available in AWS Europe (Stockholm, Zurich) regions, U7in-16TB instances (u7in-16tb.224xlarge) are now available in the AWS US…",
+        "title": "Amazon Connect now provides eight new metrics to measure and improve AI agent performance",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-ai-agent-metrics/",
+        "summary": "Amazon Connect now provides eight new metrics to measure and improve AI agent performance, including goal success rate, faithfulness score, and tool selection accuracy. These metrics offer visibility…",
         "date": "2026年4月25日",
         "date_iso": "2026-04-25",
         "category": "ai-tag",
@@ -245,9 +245,9 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon Connect now provides eight new metrics to measure and improve AI agent performance",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-ai-agent-metrics/",
-        "summary": "Amazon Connect now provides eight new metrics to measure and improve AI agent performance, including goal success rate, faithfulness score, and tool selection accuracy. These metrics offer visibility…",
+        "title": "Amazon EC2 High Memory U7i instances now available in additional regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ec2-high-memory-u7i/",
+        "summary": "Amazon EC2 High Memory U7i-8TB instances (u7i-8tb.112xlarge) are now available in AWS Europe (Stockholm, Zurich) regions, U7in-16TB instances (u7in-16tb.224xlarge) are now available in the AWS US…",
         "date": "2026年4月25日",
         "date_iso": "2026-04-25",
         "category": "ai-tag",
