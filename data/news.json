@@ -1,7 +1,77 @@
 {
-  "updated": "2026年04月24日 19:54 JST",
+  "updated": "2026年04月25日 12:32 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Public Preview: Azure Backup for Elastic SAN",
+        "link": "https://azure.microsoft.com/updates?id=560904",
+        "summary": "Azure Backup now supports Elastic SAN, offering a fully managed solution for backing up and restoring Elastic SAN volumes. This integration helps protect data against accidental deletions, ransomware…",
+        "date": "2026年4月25日",
+        "date_iso": "2026-04-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Hosted Agents in Foundry Agent Service",
+        "link": "https://azure.microsoft.com/updates?id=560997",
+        "summary": "Hosted agents run in an isolated execution sandbox that provides a dedicated, secure runtime per agent session. Sessions start with a clean environment with no shared state between sessions, no…",
+        "date": "2026年4月25日",
+        "date_iso": "2026-04-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Foundry Toolkit for Visual Studio Code (formerly AI Toolkit for VS Code)",
+        "link": "https://azure.microsoft.com/updates?id=560987",
+        "summary": "Foundry Toolkit for VS Code is now generally available and provides VS Code tooling for Microsoft Agent Framework, including agent creation from templates or via GitHub Copilot, local test/debug with…",
+        "date": "2026年4月25日",
+        "date_iso": "2026-04-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: WireGuard In‑Transit Encryption for Azure Kubernetes Service (AKS)",
+        "link": "https://azure.microsoft.com/updates?id=560015",
+        "summary": "WireGuard in‑transit encryption is now generally available for Azure Kubernetes Service (AKS) clusters using Azure CNI powered by Cilium and Advanced Container Networking Services (ACNS). This…",
+        "date": "2026年4月25日",
+        "date_iso": "2026-04-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Retirement: Support for .NET 8 (LTS) ends on November 10, 2026—upgrade your apps to .NET 10 (LTS)",
+        "link": "https://azure.microsoft.com/updates?id=558033",
+        "summary": "On November 10, 2026, support for .NET 8 (LTS) will end. Your apps that are hosted on App Service will continue to run, but security updates will no longer be available and we'll no longer provide…",
+        "date": "2026年4月25日",
+        "date_iso": "2026-04-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Cascading read replicas in Azure Database for PostgreSQL",
+        "link": "https://azure.microsoft.com/updates?id=560939",
+        "summary": "Cascading read replicas are now generally available in Azure Database for PostgreSQL, giving you greater flexibility to scale read‑intensive workloads. You can now create read replicas from existing…",
+        "date": "2026年4月25日",
+        "date_iso": "2026-04-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: CRC Protection",
+        "link": "https://azure.microsoft.com/updates?id=560889",
+        "summary": "Azure Elastic SAN now supports CRC-32C checksum verification when enabled on the client side for connections to Elastic SAN volumes. You can enable CRC protection when creating an Elastic SAN or…",
+        "date": "2026年4月25日",
+        "date_iso": "2026-04-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Generally Available: Capacity Autoscaling",
         "link": "https://azure.microsoft.com/updates?id=560919",
@@ -131,79 +201,79 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Retirement: Azure Functions runtime v3 on Linux Consumption will stop running September 30, 2026",
-        "link": "https://azure.microsoft.com/updates?id=559311",
-        "summary": "Azure Functions runtime v3 was retired on December 13, 2022. As part of ongoing efforts to reduce reliance on legacy infrastructure and focus investments on supported platforms, Azure will enforce…",
-        "date": "2026年4月18日",
-        "date_iso": "2026-04-18",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Configure AKS backup using a single Azure CLI command",
-        "link": "https://azure.microsoft.com/updates?id=560521",
-        "summary": "Azure Backup now provides a simplified experience to configure backup for Azure Kubernetes Service (AKS) clusters using a single Azure CLI command.Enabling backup for AKS clusters through CLI…",
-        "date": "2026年4月18日",
-        "date_iso": "2026-04-18",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Retirement: Azure Kubernetes Service support for Ubuntu 22.04",
-        "link": "https://azure.microsoft.com/updates?id=557928",
-        "summary": "On June 30, 2027, we'll retire Ubuntu 22.04 on Azure Kubernetes Service. To avoid disruptions, transition to Ubuntu 24.04 or later by that date. Newer supported versions include kernel updates and…",
-        "date": "2026年4月17日",
-        "date_iso": "2026-04-17",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: User and group quota reports in Azure NetApp Files",
-        "link": "https://azure.microsoft.com/updates?id=558483",
-        "summary": "For organizations leveraging individual user and group quotas in Azure NetApp Files to manage capacity on NFS, SMB, and dual-protocol volumes, the user and group quota reporting feature offers clear…",
-        "date": "2026年4月17日",
-        "date_iso": "2026-04-17",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Retirement: End of life reminder of HBv2/HC-Series/NP-Series Azure Virtual Machine in Azure Batch Pool",
-        "link": "https://azure.microsoft.com/updates?id=559751",
-        "summary": "Microsoft Azure will retire support for HBv2-series, HC-series, and NP-series VMs in Azure Batch pools on May 31, 2027, including: HBv2-series: 120 AMD EPYC 7V12 vCPUs, 480 GB RAM, 200 Gb/s HDR…",
-        "date": "2026年4月16日",
-        "date_iso": "2026-04-16",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Encrypt Premium SSD v2 and Ultra Disks with Cross Tenant Customer Managed Keys",
-        "link": "https://azure.microsoft.com/updates?id=559761",
-        "summary": "Cross-tenant customer-managed keys (CMK) for Premium SSD v2 and Ultra Disks are now generally available. This capability allows managed disks to be encrypted using a customer-managed key stored in an…",
-        "date": "2026年4月16日",
-        "date_iso": "2026-04-16",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Azure Site Recovery support for Windows Azure VMs with NVMe disk controllers.",
-        "link": "https://azure.microsoft.com/updates?id=560241",
-        "summary": "Azure Site Recovery now supports replication and disaster recovery for Windows Azure Virtual Machines running on NVMe-enabled Generation 2 VM families, such as the Da/Ea/Fa v6-series and Ebsv5/Ebdsv5…",
-        "date": "2026年4月15日",
-        "date_iso": "2026-04-15",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "AWS Lambda Provisioned Mode for Kafka event source mappings (ESMs) now available in AWS Asia Pacific (Taipei) and AWS…",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-Lambda-provisioned-esm-region-expansion/",
+        "summary": "AWS Lambda now supports Provisioned Mode for event source mappings (ESMs) that subscribe to Apache Kafka event sources in the Asia Pacific (Taipei), AWS GovCloud (US-East), and AWS GovCloud (US-West)…",
+        "date": "2026年4月25日",
+        "date_iso": "2026-04-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Quick now integrates with Visier’s Vee agent for workforce intelligence",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-visier-vee/",
+        "summary": "Amazon Quick now integrates with Vee, the AI assistant from Visier's people analytics platform, through the model context protocol (MCP). HR business partners, finance managers, and operations…",
+        "date": "2026年4月25日",
+        "date_iso": "2026-04-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Bedrock AgentCore Gateway and Identity support VPC egress",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2024/04/agentcore-gateway-identity-vpc/",
+        "summary": "Amazon Bedrock AgentCore Gateway and Identity now provide secure and controlled egress traffic management for your applications, enabling seamless communication with resources in your Virtual Private…",
+        "date": "2026年4月25日",
+        "date_iso": "2026-04-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Connect now provides eight new metrics to measure and improve AI agent performance",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-ai-agent-metrics/",
+        "summary": "Amazon Connect now provides eight new metrics to measure and improve AI agent performance, including goal success rate, faithfulness score, and tool selection accuracy. These metrics offer visibility…",
+        "date": "2026年4月25日",
+        "date_iso": "2026-04-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 High Memory U7i instances now available in additional regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ec2-high-memory-u7i/",
+        "summary": "Amazon EC2 High Memory U7i-8TB instances (u7i-8tb.112xlarge) are now available in AWS Europe (Stockholm, Zurich) regions, U7in-16TB instances (u7in-16tb.224xlarge) are now available in the AWS US…",
+        "date": "2026年4月25日",
+        "date_iso": "2026-04-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Marketplace Management Portal now supports bank account deletion",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-marketplace-management-portal/",
+        "summary": "AWS Marketplace sellers can now delete bank accounts directly from the Payment Settings page in the AWS Marketplace Management Portal (AMMP). This new self-service capability addresses a…",
+        "date": "2026年4月25日",
+        "date_iso": "2026-04-25",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Deadline Cloud now supports custom scripting for job submission workflows",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-deadline-cloud/",
+        "summary": "AWS Deadline Cloud now supports running custom scripts before and after job submission, giving studios the ability to integrate their pipeline directly into the submission workflow. AWS Deadline…",
+        "date": "2026年4月25日",
+        "date_iso": "2026-04-25",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
       {
         "title": "Amazon Athena simplifies federated queries with managed connectors",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-athena/",
@@ -212,6 +282,16 @@
         "date_iso": "2026-04-24",
         "category": "database-tag",
         "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Client VPN now supports native AWS Transit Gateway integration",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-client-vpn-transit-gateway/",
+        "summary": "AWS Client VPN now supports native integration with AWS Transit Gateway, simplifying centralized remote access for your end users across multiple VPCs and on-premises, and providing end-to-end source…",
+        "date": "2026年4月24日",
+        "date_iso": "2026-04-24",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
         "tag": "AWS"
       },
       {
@@ -242,6 +322,16 @@
         "date_iso": "2026-04-24",
         "category": "ai-tag",
         "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Compute Optimizer supports 162 new EC2 instance types and 32 new RDS DB instance classes",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-compute-optimizer-ec2-rds/",
+        "summary": "AWS Compute Optimizer now supports the latest generation of Amazon Elastic Compute Cloud (Amazon EC2) and Amazon Relational Database Service (Amazon RDS) instance types. This expansion enables…",
+        "date": "2026年4月24日",
+        "date_iso": "2026-04-24",
+        "category": "database-tag",
+        "cat_label": "データベース",
         "tag": "AWS"
       },
       {
@@ -313,99 +403,19 @@
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon S3 now supports five additional checksum algorithms",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/s3-five-additional-checksum-algorithms/",
-        "summary": "Amazon S3 now supports five additional checksum algorithms: MD5, XXHash3, XXHash64, XXHash128, and SHA-512, bringing the total to ten. S3 validates and stores the checksum alongside your object for…",
-        "date": "2026年4月23日",
-        "date_iso": "2026-04-23",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Backup expands support for Amazon Aurora PITR to six Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-backup-amazon-aurora-pitr/",
-        "summary": "AWS Backup support for Amazon Aurora Point-in-time Recovery (PITR) is now available in six additional AWS Regions: Asia Pacific (Malaysia, Thailand, Taipei, New Zealand), Canada West (Calgary) and…",
-        "date": "2026年4月23日",
-        "date_iso": "2026-04-23",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SageMaker Unified Studio now supports VPC for notebook kernels",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/sagemaker-unified-studio-vpc/",
-        "summary": "Amazon SageMaker Unified Studio now supports Amazon Virtual Private Cloud (Amazon VPC) for notebook kernels. With this launch, notebook kernels execute within the VPC configured at the domain level,…",
-        "date": "2026年4月23日",
-        "date_iso": "2026-04-23",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SageMaker Unified Studio now supports multiple code spaces within projects for IAM domains",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/sagemaker-code-spaces/",
-        "summary": "Amazon SageMaker Unified Studio now&nbsp;lets&nbsp;data workers create and manage multiple code spaces (individually configured development environments) within a single project for IAM…",
-        "date": "2026年4月23日",
-        "date_iso": "2026-04-23",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 C8i-flex instances are now available in Europe (Ireland, London), and Asia Pacific (New Zealand) regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-c8i-flex-instances-europe-ireland-europe-london-asia-pacific-new-zealand-regions/",
-        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8i-flex instances are available in the Europe (Ireland, London), and Asia Pacific (New Zealand) regions. These instances are powered by…",
-        "date": "2026年4月23日",
-        "date_iso": "2026-04-23",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 C8i instances are now available in Europe (Ireland) and Asia Pacific (New Zealand) regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-c8i-instances-europe-ireland-asia-pacific-new-zealand-regions/",
-        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8i instances are available in the Europe (Ireland) and Asia Pacific (New Zealand) regions. These instances are powered by custom Intel Xeon…",
-        "date": "2026年4月23日",
-        "date_iso": "2026-04-23",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Enhancements to AWS Network Firewall Managed Rules from AWS Marketplace Partners",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/marketplace-managed-rules-enhancements/",
-        "summary": "AWS Network Firewall now supports expanded Managed Rules from AWS Marketplace partners, with new rule group optimizations through partners to include up to 10 million domain name indicators and up to…",
-        "date": "2026年4月23日",
-        "date_iso": "2026-04-23",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SageMaker AI now supports serverless model customization for Qwen3.5 models",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-sagemaker-ft-qwen3-5/",
-        "summary": "Amazon SageMaker AI now supports serverless model customization for Qwen3.5, enabling you to fine-tune Qwen3.5 4B, 9B, and 27B parameter models using supervised fine-tuning (SFT) and reinforcement…",
-        "date": "2026年4月23日",
-        "date_iso": "2026-04-23",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 announces Managed resource visibility settings",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-managed-resource-visibility/",
-        "summary": "Amazon EC2 now lets you control whether resources provisioned by managed instance offerings appear in your Amazon EC2 console views and API list operations. Amazon EC2 Managed Instances are instances…",
-        "date": "2026年4月23日",
-        "date_iso": "2026-04-23",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "April 24, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#April_24_2026",
+        "summary": "Database Center Feature The Database Center REST and RPC APIs are available in Preview . The Database Center API provides access to an organization-wide, cross-product database fleet health platform.…",
+        "date": "2026年4月24日",
+        "date_iso": "2026-04-24",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
       {
         "title": "April 23, 2026",
         "link": "https://docs.cloud.google.com/release-notes#April_23_2026",
@@ -595,16 +605,6 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
-      },
-      {
-        "title": "April 04, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#April_04_2026",
-        "summary": "Google SecOps Feature Playbook Condition and Multi-Choice Question Flows The maximum number of branches supported in Playbook Conditions and Multiple Choice Questions has been increased from 6 to 20.…",
-        "date": "2026年4月4日",
-        "date_iso": "2026-04-04",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "GCP"
       }
     ],
     "oci": [
@@ -616,6 +616,16 @@
         "date_iso": "2026-04-22",
         "category": "ai-tag",
         "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Time-Based Snapshot Locks in File Storage",
+        "link": "https://docs.oracle.com/iaas/releasenotes/filestorage/snapshot-lock-time-based.htm",
+        "summary": "",
+        "date": "2026年4月21日",
+        "date_iso": "2026-04-21",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
         "tag": "OCI"
       },
       {
@@ -794,16 +804,6 @@
         "summary": "",
         "date": "2026年4月13日",
         "date_iso": "2026-04-13",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "OCI"
-      },
-      {
-        "title": "Kubernetes Engine support for Karpenter Provider for OCI (KPO)",
-        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-Karpenter-Support-Release-Note.htm",
-        "summary": "",
-        "date": "2026年4月9日",
-        "date_iso": "2026-04-09",
         "category": "container-tag",
         "cat_label": "コンテナ",
         "tag": "OCI"
