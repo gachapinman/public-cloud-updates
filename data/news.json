@@ -1,7 +1,27 @@
 {
-  "updated": "2026年04月27日 20:27 JST",
+  "updated": "2026年04月28日 13:07 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Generally Available: Bring your own AI Gateway in Foundry Agent Service",
+        "link": "https://azure.microsoft.com/updates?id=561002",
+        "summary": "Foundry Agent Service now supports bring‑your‑own‑model scenarios, allowing agents to use AI models deployed and managed outside of Foundry, including models hosted behind enterprise AI gateways such…",
+        "date": "2026年4月28日",
+        "date_iso": "2026-04-28",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Retirement: Prompt Flow in Azure ML and Foundry",
+        "link": "https://azure.microsoft.com/updates?id=502936",
+        "summary": "Prompt Flow will be retired from Microsoft Foundry and Azure Machine Learning on April 20, 2027 and replaced by a single, modern orchestration platform: Microsoft Agent Framework. This change unlocks…",
+        "date": "2026年4月28日",
+        "date_iso": "2026-04-28",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Public Preview: Azure Backup for Elastic SAN",
         "link": "https://azure.microsoft.com/updates?id=560904",
@@ -181,29 +201,109 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Azure Monitor supports native OTLP ingestion using the Azure Monitor Agent",
-        "link": "https://azure.microsoft.com/updates?id=560530",
-        "summary": "Azure Monitor now supports native ingestion of OpenTelemetry Protocol (OTLP) signals. Send telemetry directly from OpenTelemetry-instrumented applications by using the Azure Monitor Agent (AMA) to…",
-        "date": "2026年4月21日",
-        "date_iso": "2026-04-21",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally available: Anthropic Claude Opus 4.7 on Azure Databricks",
-        "link": "https://azure.microsoft.com/updates?id=560590",
-        "summary": "Azure Databricks now supports Anthropic Claude Opus 4.7 through Azure Databricks AI Model Serving. Claude Opus 4.7 is Anthropic's most capable hybrid reasoning model, delivering stronger performance…",
-        "date": "2026年4月18日",
-        "date_iso": "2026-04-18",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Amazon Redshift Serverless AI-driven scaling is now the default for new workgroups",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-redshift-serverless-ai-driven-scaling-default/",
+        "summary": "Amazon Redshift Serverless now makes AI-driven scaling and optimization the default for all new workgroups. AI-driven scaling uses machine learning to predict compute needs and automatically adjust…",
+        "date": "2026年4月28日",
+        "date_iso": "2026-04-28",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS KMS now tracks last usage of all KMS keys",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-kms-tracks-last-usage-kms-keys/",
+        "summary": "AWS Key Management Service (KMS) now provides visibility into the last cryptographic operation performed with your KMS keys, eliminating the need to manually query and analyze logs. This feature…",
+        "date": "2026年4月28日",
+        "date_iso": "2026-04-28",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Redshift Serverless is now available in the AWS Asia Pacific (Melbourne) and Canada West (Calgary) regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-redshift-serverless-melbourne-calgary-regions/",
+        "summary": "Amazon Redshift Serverless , which allows you to run and scale analytics without having to provision and manage data warehouse clusters, is now generally available in the AWS&nbsp;Asia Pacific…",
+        "date": "2026年4月28日",
+        "date_iso": "2026-04-28",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Connect increases attachment file sizes and adds custom file types",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-increases-attachment/",
+        "summary": "Amazon Connect now supports attachment file sizes up to 100 MB for chat, cases, and tasks, up from the previous 20 MB limit.&nbsp;Administrators can enable these higher limits and configure custom…",
+        "date": "2026年4月28日",
+        "date_iso": "2026-04-28",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon FSx for OpenZFS Single-AZ (HA) file systems are now available in 17 additional AWS commercial and AWS GovCloud…",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-fsx-openzfs-single-az-ha/",
+        "summary": "You can now create Amazon FSx for OpenZFS Single-AZ (HA) file systems in seventeen additional AWS Regions across the South America, Europe, Africa, Asia Pacific, and AWS GovCloud (US). Amazon FSx for…",
+        "date": "2026年4月28日",
+        "date_iso": "2026-04-28",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon SageMaker HyperPod now supports G7e and r5d.16xlarge instances",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-sagemaker-hyperpod-g7e-r5d/",
+        "summary": "Amazon SageMaker HyperPod now supports G7e and r5d.16xlarge instances. SageMaker HyperPod is a purpose-built infrastructure for developing, training, and deploying foundation models at scale. It…",
+        "date": "2026年4月28日",
+        "date_iso": "2026-04-28",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Introducing Amazon EC2 M8in and M8ib instances",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ec2-m8in-m8ib/",
+        "summary": "AWS is announcing the general availability of Amazon EC2 M8in network optimized instances and Amazon EC2 M8ib EBS optimized instances. The new instances are powered by custom sixth generation Intel…",
+        "date": "2026年4月28日",
+        "date_iso": "2026-04-28",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Introducing Amazon EC2 R8in and R8ib instances",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ec2-r8in-r8ib/",
+        "summary": "AWS is announcing the general availability of memory optimized Amazon EC2 R8in network optimized instances and Amazon EC2 R8ib EBS optimized instances. These new instances are powered by custom sixth…",
+        "date": "2026年4月28日",
+        "date_iso": "2026-04-28",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Introducing Amazon EC2 C8ine and M8ine instances",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-c8ine-m8ine/",
+        "summary": "AWS is announcing the general availability of Amazon EC2 C8ine and Amazon EC2 M8ine instances, powered by custom sixth generation Intel Xeon Scalable processors, available only on AWS. These also…",
+        "date": "2026年4月28日",
+        "date_iso": "2026-04-28",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon WorkSpaces Personal Supports Rocky 9, Red Hat Enterprise Linux 9, and Ubuntu 24.04",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-workspaces-rocky9-rhel9-ubuntu24/",
+        "summary": "AWS announces availability of new Linux bundles for Amazon WorkSpaces Personal, including Rocky Linux 9, Red Hat Enterprise Linux 9, and Ubuntu 24.04. With these bundles, customers can launch…",
+        "date": "2026年4月25日",
+        "date_iso": "2026-04-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
       {
         "title": "AWS Lambda Provisioned Mode for Kafka event source mappings (ESMs) now available in AWS Asia Pacific (Taipei) and AWS…",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-Lambda-provisioned-esm-region-expansion/",
@@ -235,9 +335,9 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon EC2 High Memory U7i instances now available in additional regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ec2-high-memory-u7i/",
-        "summary": "Amazon EC2 High Memory U7i-8TB instances (u7i-8tb.112xlarge) are now available in AWS Europe (Stockholm, Zurich) regions, U7in-16TB instances (u7in-16tb.224xlarge) are now available in the AWS US…",
+        "title": "Amazon Connect now provides eight new metrics to measure and improve AI agent performance",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-ai-agent-metrics/",
+        "summary": "Amazon Connect now provides eight new metrics to measure and improve AI agent performance, including goal success rate, faithfulness score, and tool selection accuracy. These metrics offer visibility…",
         "date": "2026年4月25日",
         "date_iso": "2026-04-25",
         "category": "ai-tag",
@@ -245,9 +345,9 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon Connect now provides eight new metrics to measure and improve AI agent performance",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-ai-agent-metrics/",
-        "summary": "Amazon Connect now provides eight new metrics to measure and improve AI agent performance, including goal success rate, faithfulness score, and tool selection accuracy. These metrics offer visibility…",
+        "title": "Amazon EC2 High Memory U7i instances now available in additional regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ec2-high-memory-u7i/",
+        "summary": "Amazon EC2 High Memory U7i-8TB instances (u7i-8tb.112xlarge) are now available in AWS Europe (Stockholm, Zurich) regions, U7in-16TB instances (u7in-16tb.224xlarge) are now available in the AWS US…",
         "date": "2026年4月25日",
         "date_iso": "2026-04-25",
         "category": "ai-tag",
@@ -303,109 +403,19 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "AWS Parallel Computing Service now supports Slurm 25.11",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-pcs-slurm-25-11/",
-        "summary": "AWS Parallel Computing Service (AWS PCS) now supports Slurm version 25.11, with support for a Prometheus-compatible OpenMetrics endpoint, and introduces new log types including scheduler audit logs.…",
-        "date": "2026年4月24日",
-        "date_iso": "2026-04-24",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SageMaker supports notebooks and data agent for IdC domains",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-sagemaker-idc/",
-        "summary": "Amazon SageMaker Unified Studio now supports serverless notebooks with a built-in data agent for AWS IAM Identity Center (IdC) domains. Previously, the notebook experience and data agent were…",
-        "date": "2026年4月24日",
-        "date_iso": "2026-04-24",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Compute Optimizer supports 162 new EC2 instance types and 32 new RDS DB instance classes",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-compute-optimizer-ec2-rds/",
-        "summary": "AWS Compute Optimizer now supports the latest generation of Amazon Elastic Compute Cloud (Amazon EC2) and Amazon Relational Database Service (Amazon RDS) instance types. This expansion enables…",
-        "date": "2026年4月24日",
-        "date_iso": "2026-04-24",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "Attributed Revenue Dashboard Now Available in AWS Partner Central",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/attributed-revenue-dashboard-launch/",
-        "summary": "Today, AWS announces the launch of the Attributed Revenue dashboard in AWS Partner Central in the AWS Console, giving Partners self-service visibility into the revenue impact of their solutions as…",
-        "date": "2026年4月24日",
-        "date_iso": "2026-04-24",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Elastic Beanstalk AI-powered environment analysis now supports Windows",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/elastic-beanstalk-ai-analysis-windows/",
-        "summary": "AWS Elastic Beanstalk AI-powered environment analysis is now available on Windows Server platforms. Previously available on Amazon Linux 2 and AL2023, this feature now extends to Windows-based…",
-        "date": "2026年4月24日",
-        "date_iso": "2026-04-24",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Second-generation AWS Outposts racks now supported in the AWS Asia Pacific (Seoul, Sydney) and Europe (Paris) Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/second-generation-aws-outposts-racks-sydney-seoul-paris/",
-        "summary": "Second-generation AWS Outposts racks are now supported in the AWS Asia Pacific (Seoul, Sydney) and Europe (Paris) Regions. Outposts racks extend AWS infrastructure, AWS services, APIs, and tools to…",
-        "date": "2026年4月24日",
-        "date_iso": "2026-04-24",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Quick now supports multiple owners for admin-managed SharePoint and Google Drive knowledge bases",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-sharepoint/",
-        "summary": "Amazon Quick now enables you to add co-owners to knowledge bases and data source connections for admin-managed Microsoft SharePoint Online and Google Drive integrations. This makes it easier to…",
-        "date": "2026年4月24日",
-        "date_iso": "2026-04-24",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 X8g instances now available in Europe (Ireland) region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ec2-x8g-instances-europe-ireland/",
-        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) X8g instances are available in Europe (Ireland) region. These instances are powered by AWS Graviton4 processors and deliver up to 60% better…",
-        "date": "2026年4月24日",
-        "date_iso": "2026-04-24",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Redshift supports UPDATE, DELETE, MERGE for Apache Iceberg tables",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/redshift-update-delete-merge-iceberg-tables/",
-        "summary": "Amazon Redshift now supports row-level UPDATE, DELETE, and MERGE operations on Apache Iceberg tables. Customers who use Iceberg to build interoperable data lakes can now perform data manipulation…",
-        "date": "2026年4月24日",
-        "date_iso": "2026-04-24",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Quick now supports permission verification for ACL-enabled knowledge bases",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-acl/",
-        "summary": "Amazon Quick now provides ACL verification for ACL enabled knowledge bases, enabling administrators to check whether a specific user has access to a specific document. This feature simplifies…",
-        "date": "2026年4月23日",
-        "date_iso": "2026-04-23",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "April 27, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#April_27_2026",
+        "summary": "API Gateway Change New validations on paths in API configurations API Gateway now enforces stricter syntax validations on templated paths when you create new API configurations and gateways. See path…",
+        "date": "2026年4月27日",
+        "date_iso": "2026-04-27",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "GCP"
+      },
       {
         "title": "April 24, 2026",
         "link": "https://docs.cloud.google.com/release-notes#April_24_2026",
@@ -595,19 +605,19 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
-      },
-      {
-        "title": "April 05, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#April_05_2026",
-        "summary": "Cloud Load Balancing Feature Certificate Manager certificates are available in Google Cloud console while provisioning a load balancer. You can select a certificate map for the following load…",
-        "date": "2026年4月5日",
-        "date_iso": "2026-04-05",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
       }
     ],
     "oci": [
+      {
+        "title": "Introducing alarms and notifications in OCI Control Center",
+        "link": "https://docs.oracle.com/iaas/releasenotes/control-center/alarms-notifications-feature.htm",
+        "summary": "",
+        "date": "2026年4月27日",
+        "date_iso": "2026-04-27",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
       {
         "title": "Support for Additional Autonomous AI Database Types",
         "link": "https://docs.oracle.com/iaas/releasenotes/operations-insights/support-additional-adb-types.htm",
@@ -616,16 +626,6 @@
         "date_iso": "2026-04-22",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Time-Based Snapshot Locks in File Storage",
-        "link": "https://docs.oracle.com/iaas/releasenotes/filestorage/snapshot-lock-time-based.htm",
-        "summary": "",
-        "date": "2026年4月21日",
-        "date_iso": "2026-04-21",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
         "tag": "OCI"
       },
       {
@@ -666,6 +666,16 @@
         "date_iso": "2026-04-21",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Time-Based Snapshot Locks in File Storage",
+        "link": "https://docs.oracle.com/iaas/releasenotes/filestorage/snapshot-lock-time-based.htm",
+        "summary": "",
+        "date": "2026年4月21日",
+        "date_iso": "2026-04-21",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
         "tag": "OCI"
       },
       {
@@ -796,16 +806,6 @@
         "date_iso": "2026-04-14",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "OCI Kubernetes Engine (OKE) support for configuring cookie-based session persistence for managed load balancers",
-        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-cookie-based-session-persistence.htm",
-        "summary": "",
-        "date": "2026年4月13日",
-        "date_iso": "2026-04-13",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
         "tag": "OCI"
       }
     ]
