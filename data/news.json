@@ -1,5 +1,5 @@
 {
-  "updated": "2026年04月28日 13:07 JST",
+  "updated": "2026年04月28日 15:18 JST",
   "clouds": {
     "azure": [
       {
@@ -499,7 +499,7 @@
       {
         "title": "April 16, 2026",
         "link": "https://docs.cloud.google.com/release-notes#April_16_2026",
-        "summary": "AI Hypercomputer Feature Generally available : The AI Hypercomputer documentation includes support for the A3 Mega and A3 High machine types. The addition of A3 Mega and A3 High expand the available…",
+        "summary": "AlloyDB for PostgreSQL Announcement The following vector search improvements are now available in Preview : AlloyDB now supports Vector assist. Vector assist is an AlloyDB extension that simplifies…",
         "date": "2026年4月16日",
         "date_iso": "2026-04-16",
         "category": "ai-tag",
