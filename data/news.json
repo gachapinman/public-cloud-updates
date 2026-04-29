@@ -1,7 +1,57 @@
 {
-  "updated": "2026年04月28日 20:28 JST",
+  "updated": "2026年04月29日 13:03 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Public Preview: Memory in Foundry Agent Service",
+        "link": "https://azure.microsoft.com/updates?id=560992",
+        "summary": "Foundry’s memory (preview) is a managed long-term memory capability built directly into Foundry Agent Service and now integrates natively with Microsoft Agent Framework and LangGraph— no external…",
+        "date": "2026年4月29日",
+        "date_iso": "2026-04-29",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Container Network Insights Agent",
+        "link": "https://azure.microsoft.com/updates?id=561020",
+        "summary": "Troubleshooting Kubernetes networking issues is often slowed by logs and metrics scattered across multiple tools, requiring engineers to manually correlate signals during incidents. The Container…",
+        "date": "2026年4月29日",
+        "date_iso": "2026-04-29",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Connect to Elastic SAN from Windows VM via VM Extension",
+        "link": "https://azure.microsoft.com/updates?id=560914",
+        "summary": "Azure Elastic SAN now supports volume connectivity for Windows Virtual Machines using the Elastic SAN VM extension, directly from the Azure Portal. This capability enables customers to connect…",
+        "date": "2026年4月29日",
+        "date_iso": "2026-04-29",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Microsoft HTTP DDoS Ruleset for Azure WAF on Azure Front Door Premium",
+        "link": "https://azure.microsoft.com/updates?id=561148",
+        "summary": "Announcing the public preview of the HTTP DDoS Ruleset on Azure Front Door Premium.HTTP-layer DDoS attacks remain a leading cause of application downtime, and traditional static controls often fall…",
+        "date": "2026年4月29日",
+        "date_iso": "2026-04-29",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Cross-region IPAM pool association in Azure Virtual Network Manager",
+        "link": "https://azure.microsoft.com/updates?id=561067",
+        "summary": "Managing IP address space across multiple regions can be difficult to scale and prone to configuration mistakes.With cross-region IPAM pool association, you can associate a single IPAM pool with…",
+        "date": "2026年4月29日",
+        "date_iso": "2026-04-29",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Generally Available: Bring your own AI Gateway in Foundry Agent Service",
         "link": "https://azure.microsoft.com/updates?id=561002",
@@ -151,59 +201,129 @@
         "category": "database-tag",
         "cat_label": "データベース",
         "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Premium SSD v2 for Azure Database for PostgreSQL",
-        "link": "https://azure.microsoft.com/updates?id=560336",
-        "summary": "We are excited to announce the general availability of Premium SSD v2 for Azure Database for PostgreSQL flexible server. With Premium SSD v2, you can achieve up to four times higher IOPS,…",
-        "date": "2026年4月23日",
-        "date_iso": "2026-04-23",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Migrating from virtual network-integrated to Private Endpoint–capable network configuration",
-        "link": "https://azure.microsoft.com/updates?id=560298",
-        "summary": "You can now migrate your Azure Database for PostgreSQL server from a virtual network‑integrated deployment to a network configuration that supports Private Endpoint connectivity. If you originally…",
-        "date": "2026年4月23日",
-        "date_iso": "2026-04-23",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Enhanced Mirroring Azure Database for PostgreSQL in Microsoft Fabric",
-        "link": "https://azure.microsoft.com/updates?id=560293",
-        "summary": "New capabilities make it easier to mirror real-world Azure Database for PostgreSQL workloads at scale in Microsoft Fabric and operate them with confidence.You can mirror native PostgreSQL data types…",
-        "date": "2026年4月23日",
-        "date_iso": "2026-04-23",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Azure Monitor pipeline",
-        "link": "https://azure.microsoft.com/updates?id=559886",
-        "summary": "Azure Monitor pipeline is now generally available.Azure Monitor pipeline provides a centralized control point for telemetry ingestion and transformation, designed specifically for secure,…",
-        "date": "2026年4月22日",
-        "date_iso": "2026-04-22",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Azure NetApp Files advanced ransomware protection",
-        "link": "https://azure.microsoft.com/updates?id=560188",
-        "summary": "Azure NetApp Files advanced ransomware protection (ANF ARP) is now in GA (General Availability). ANF ARP is designed to help organizations proactively detect, respond to, and recover from ransomware…",
-        "date": "2026年4月22日",
-        "date_iso": "2026-04-22",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "AWS Glue 5.1 is now available in all AWS Commercial and AWS GovCloud (US) Regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-glue-5-1-all-govcloud-commercial-regions/",
+        "summary": "AWS Glue 5.1 is now available in the Asia Pacific (New Zealand), AWS GovCloud (US-West) and AWS GovCloud (US-East) Regions. AWS Glue is a serverless, scalable data integration service that simplifies…",
+        "date": "2026年4月29日",
+        "date_iso": "2026-04-29",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Cost Optimization Hub now supports CSV download",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-cost-optimization-hub-csv-download/",
+        "summary": "AWS Cost Optimization Hub now supports direct CSV download in the console, enabling you to export your cost optimization recommendations to your local machine with a single click. This capability…",
+        "date": "2026年4月29日",
+        "date_iso": "2026-04-29",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon WorkSpaces Personal enhances PCoIP to DCV protocol migration",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-workspaces-personal-pcoip/",
+        "summary": "Amazon WorkSpaces Personal now provides an enhanced experience for administrators migrating WorkSpaces from PCoIP to DCV protocol, including a guided console action for protocol modification,…",
+        "date": "2026年4月29日",
+        "date_iso": "2026-04-29",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 C8gn instances are now available in additional regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ec2-c8gn-milan-hong-kong/",
+        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8gn instances, powered by the latest-generation AWS Graviton4 processors, are available in the AWS&nbsp;Europe (Milan) and&nbsp;Asia Pacific…",
+        "date": "2026年4月29日",
+        "date_iso": "2026-04-29",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Connect Talent for AI-powered hiring (now available in Preview)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-talent-ai-powered/",
+        "summary": "Amazon Connect Talent is now available in Preview, giving talent acquisition leaders an AI-powered hiring solution that accelerates candidate selection at scale. Informed by decades of Amazon's…",
+        "date": "2026年4月29日",
+        "date_iso": "2026-04-29",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Bedrock now offers OpenAI models, Codex, and Managed Agents (Limited Preview)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/bedrock-openai-models-codex-managed-agents/",
+        "summary": "AWS and OpenAI are expanding their partnership to bring frontier&nbsp;intelligence to the&nbsp;infrastructure millions of organizations already trust. Enterprises want the most capable AI models and…",
+        "date": "2026年4月29日",
+        "date_iso": "2026-04-29",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Announces Amazon Connect Decisions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-decisions-april/",
+        "summary": "Today, AWS announces the general availability of Amazon Connect Decisions, an agentic AI planning and intelligence solution that helps supply chain teams shift from firefighting to proactive…",
+        "date": "2026年4月28日",
+        "date_iso": "2026-04-28",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Build custom applications using natural language in Amazon Quick (Preview)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/custom-applications/",
+        "summary": "Today, AWS announces new features in preview for Amazon Quick , allowing users to create custom web applications in minutes using natural language. Creating internal tools and web applications…",
+        "date": "2026年4月28日",
+        "date_iso": "2026-04-28",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Quick now available as a desktop application for macOS and Windows (Preview)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-macos-windows-preview/",
+        "summary": "Amazon Quick is now available as a native desktop application for MacOS and Windows in preview. The desktop application extends Quick beyond your browser and utilizes the capabilities on your…",
+        "date": "2026年4月28日",
+        "date_iso": "2026-04-28",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Quick now supports document and visual creation in chat",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick/",
+        "summary": "Today, Amazon Quick introduces document and visual creation capabilities, enabling you to produce polished documents, presentations, spreadsheets, and more through natural language without leaving…",
+        "date": "2026年4月28日",
+        "date_iso": "2026-04-28",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Start using Amazon Quick for free in minutes with Free and Plus pricing plans",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-free-plus/",
+        "summary": "Starting today, new Free and Plus pricing plans for Amazon Quick allow you to sign up in minutes using your personal email address or existing Google, Apple, Github, or Amazon credentials—no AWS…",
+        "date": "2026年4月28日",
+        "date_iso": "2026-04-28",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Quick expands integrations to include Google Workspace, Zoom, Airtable, and more",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-google-workspace-zoom/",
+        "summary": "Amazon Quick is expanding integrations with 13 new built-in action connectors, all supporting managed authentication so users can securely connect their accounts in just a few clicks without manual…",
+        "date": "2026年4月28日",
+        "date_iso": "2026-04-28",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
       {
         "title": "Amazon Redshift Serverless AI-driven scaling is now the default for new workgroups",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-redshift-serverless-ai-driven-scaling-default/",
@@ -225,6 +345,16 @@
         "tag": "AWS"
       },
       {
+        "title": "Amazon EVS now supports i7i.metal-24xl Amazon EC2 instance type",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-evs-i7i-instance-type/",
+        "summary": "Today, we're announcing that Amazon Elastic VMware Service (Amazon EVS) now supports the i7i.metal-24xl Amazon Elastic Cloud Compute (Amazon EC2) bare-metal instance type, offering a lower-core-count…",
+        "date": "2026年4月28日",
+        "date_iso": "2026-04-28",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon Redshift Serverless is now available in the AWS Asia Pacific (Melbourne) and Canada West (Calgary) regions",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-redshift-serverless-melbourne-calgary-regions/",
         "summary": "Amazon Redshift Serverless , which allows you to run and scale analytics without having to provision and manage data warehouse clusters, is now generally available in the AWS&nbsp;Asia Pacific…",
@@ -238,6 +368,16 @@
         "title": "Amazon Connect increases attachment file sizes and adds custom file types",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-increases-attachment/",
         "summary": "Amazon Connect now supports attachment file sizes up to 100 MB for chat, cases, and tasks, up from the previous 20 MB limit.&nbsp;Administrators can enable these higher limits and configure custom…",
+        "date": "2026年4月28日",
+        "date_iso": "2026-04-28",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Billing Conductor launches Passthrough Pricing Plan for Billing Transfer users",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-billing-conductor-launches-passthrough/",
+        "summary": "AWS Billing Conductor now supports the Passthrough Pricing Plan, a new managed pricing plan for Billing Transfer users. Customers using Billing Transfer can now select the AWS-managed Passthrough…",
         "date": "2026年4月28日",
         "date_iso": "2026-04-28",
         "category": "compute-tag",
@@ -263,149 +403,19 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "Introducing Amazon EC2 M8in and M8ib instances",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ec2-m8in-m8ib/",
-        "summary": "AWS is announcing the general availability of Amazon EC2 M8in network optimized instances and Amazon EC2 M8ib EBS optimized instances. The new instances are powered by custom sixth generation Intel…",
-        "date": "2026年4月28日",
-        "date_iso": "2026-04-28",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Introducing Amazon EC2 R8in and R8ib instances",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ec2-r8in-r8ib/",
-        "summary": "AWS is announcing the general availability of memory optimized Amazon EC2 R8in network optimized instances and Amazon EC2 R8ib EBS optimized instances. These new instances are powered by custom sixth…",
-        "date": "2026年4月28日",
-        "date_iso": "2026-04-28",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Introducing Amazon EC2 C8ine and M8ine instances",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/ec2-c8ine-m8ine/",
-        "summary": "AWS is announcing the general availability of Amazon EC2 C8ine and Amazon EC2 M8ine instances, powered by custom sixth generation Intel Xeon Scalable processors, available only on AWS. These also…",
-        "date": "2026年4月28日",
-        "date_iso": "2026-04-28",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon WorkSpaces Personal Supports Rocky 9, Red Hat Enterprise Linux 9, and Ubuntu 24.04",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-workspaces-rocky9-rhel9-ubuntu24/",
-        "summary": "AWS announces availability of new Linux bundles for Amazon WorkSpaces Personal, including Rocky Linux 9, Red Hat Enterprise Linux 9, and Ubuntu 24.04. With these bundles, customers can launch…",
-        "date": "2026年4月25日",
-        "date_iso": "2026-04-25",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Lambda Provisioned Mode for Kafka event source mappings (ESMs) now available in AWS Asia Pacific (Taipei) and AWS…",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-Lambda-provisioned-esm-region-expansion/",
-        "summary": "AWS Lambda now supports Provisioned Mode for event source mappings (ESMs) that subscribe to Apache Kafka event sources in the Asia Pacific (Taipei), AWS GovCloud (US-East), and AWS GovCloud (US-West)…",
-        "date": "2026年4月25日",
-        "date_iso": "2026-04-25",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Quick now integrates with Visier’s Vee agent for workforce intelligence",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-visier-vee/",
-        "summary": "Amazon Quick now integrates with Vee, the AI assistant from Visier's people analytics platform, through the model context protocol (MCP). HR business partners, finance managers, and operations…",
-        "date": "2026年4月25日",
-        "date_iso": "2026-04-25",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Bedrock AgentCore Gateway and Identity support VPC egress",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2024/04/agentcore-gateway-identity-vpc/",
-        "summary": "Amazon Bedrock AgentCore Gateway and Identity now provide secure and controlled egress traffic management for your applications, enabling seamless communication with resources in your Virtual Private…",
-        "date": "2026年4月25日",
-        "date_iso": "2026-04-25",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Connect now provides eight new metrics to measure and improve AI agent performance",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-ai-agent-metrics/",
-        "summary": "Amazon Connect now provides eight new metrics to measure and improve AI agent performance, including goal success rate, faithfulness score, and tool selection accuracy. These metrics offer visibility…",
-        "date": "2026年4月25日",
-        "date_iso": "2026-04-25",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 High Memory U7i instances now available in additional regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ec2-high-memory-u7i/",
-        "summary": "Amazon EC2 High Memory U7i-8TB instances (u7i-8tb.112xlarge) are now available in AWS Europe (Stockholm, Zurich) regions, U7in-16TB instances (u7in-16tb.224xlarge) are now available in the AWS US…",
-        "date": "2026年4月25日",
-        "date_iso": "2026-04-25",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Marketplace Management Portal now supports bank account deletion",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-marketplace-management-portal/",
-        "summary": "AWS Marketplace sellers can now delete bank accounts directly from the Payment Settings page in the AWS Marketplace Management Portal (AMMP). This new self-service capability addresses a…",
-        "date": "2026年4月25日",
-        "date_iso": "2026-04-25",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Deadline Cloud now supports custom scripting for job submission workflows",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-deadline-cloud/",
-        "summary": "AWS Deadline Cloud now supports running custom scripts before and after job submission, giving studios the ability to integrate their pipeline directly into the submission workflow. AWS Deadline…",
-        "date": "2026年4月25日",
-        "date_iso": "2026-04-25",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Athena simplifies federated queries with managed connectors",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-athena/",
-        "summary": "Amazon Athena now offers managed connectors for 12 data sources, including Amazon DynamoDB, PostgreSQL, MySQL, and Snowflake. Managed connectors are AWS Glue Data Catalog federated connectors that…",
-        "date": "2026年4月24日",
-        "date_iso": "2026-04-24",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Client VPN now supports native AWS Transit Gateway integration",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-client-vpn-transit-gateway/",
-        "summary": "AWS Client VPN now supports native integration with AWS Transit Gateway, simplifying centralized remote access for your end users across multiple VPCs and on-premises, and providing end-to-end source…",
-        "date": "2026年4月24日",
-        "date_iso": "2026-04-24",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SageMaker HyperPod now supports automatic Slurm topology management",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-sagemaker-hyperpod-automatic-slurm-topology/",
-        "summary": "Amazon SageMaker HyperPod now automatically selects and continuously maintains the optimal network topology configuration for Slurm clusters based on the GPU instance types in the cluster. Network…",
-        "date": "2026年4月24日",
-        "date_iso": "2026-04-24",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "April 28, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#April_28_2026",
+        "summary": "AlloyDB for PostgreSQL Change When the initial user or password is unspecified during cluster creation, a locked postgres role with null password is created. BigQuery Feature You can now create…",
+        "date": "2026年4月28日",
+        "date_iso": "2026-04-28",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "GCP"
+      },
       {
         "title": "April 27, 2026",
         "link": "https://docs.cloud.google.com/release-notes#April_27_2026",
@@ -499,7 +509,7 @@
       {
         "title": "April 16, 2026",
         "link": "https://docs.cloud.google.com/release-notes#April_16_2026",
-        "summary": "AlloyDB for PostgreSQL Announcement The following vector search improvements are now available in Preview : AlloyDB now supports Vector assist. Vector assist is an AlloyDB extension that simplifies…",
+        "summary": "AI Hypercomputer Feature Generally available : The AI Hypercomputer documentation includes support for the A3 Mega and A3 High machine types. The addition of A3 Mega and A3 High expand the available…",
         "date": "2026年4月16日",
         "date_iso": "2026-04-16",
         "category": "ai-tag",
@@ -595,19 +605,19 @@
         "category": "database-tag",
         "cat_label": "データベース",
         "tag": "GCP"
-      },
-      {
-        "title": "April 06, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#April_06_2026",
-        "summary": "Access Approval Feature API keys are available in Preview . Feature Service Usage is available in Preview . Access Transparency Feature API keys are available in Preview . Feature Service Usage is…",
-        "date": "2026年4月6日",
-        "date_iso": "2026-04-06",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
       }
     ],
     "oci": [
+      {
+        "title": "Support for Kubernetes version 1.35.2",
+        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-K8s-1-35-2-support.htm",
+        "summary": "",
+        "date": "2026年4月28日",
+        "date_iso": "2026-04-28",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "OCI"
+      },
       {
         "title": "Introducing alarms and notifications in OCI Control Center",
         "link": "https://docs.oracle.com/iaas/releasenotes/control-center/alarms-notifications-feature.htm",
@@ -791,16 +801,6 @@
       {
         "title": "Secret-Based Password Authentication for Autonomous AI Database Users",
         "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-04-secret-passwd-authn.htm",
-        "summary": "",
-        "date": "2026年4月14日",
-        "date_iso": "2026-04-14",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Internet of Things (IoT) introduces domain group types Development and Production",
-        "link": "https://docs.oracle.com/iaas/releasenotes/internet-of-things/update-04142026.htm",
         "summary": "",
         "date": "2026年4月14日",
         "date_iso": "2026-04-14",
