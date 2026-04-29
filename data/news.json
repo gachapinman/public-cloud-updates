@@ -1,5 +1,5 @@
 {
-  "updated": "2026年04月29日 15:12 JST",
+  "updated": "2026年04月29日 20:20 JST",
   "clouds": {
     "azure": [
       {
@@ -295,6 +295,16 @@
         "tag": "AWS"
       },
       {
+        "title": "Amazon Quick expands integrations to include Google Workspace, Zoom, Airtable, and more",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-google-workspace-zoom/",
+        "summary": "Amazon Quick is expanding integrations with 13 new built-in action connectors, all supporting managed authentication so users can securely connect their accounts in just a few clicks without manual…",
+        "date": "2026年4月28日",
+        "date_iso": "2026-04-28",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon Quick now supports document and visual creation in chat",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick/",
         "summary": "Today, Amazon Quick introduces document and visual creation capabilities, enabling you to produce polished documents, presentations, spreadsheets, and more through natural language without leaving…",
@@ -308,16 +318,6 @@
         "title": "Start using Amazon Quick for free in minutes with Free and Plus pricing plans",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-free-plus/",
         "summary": "Starting today, new Free and Plus pricing plans for Amazon Quick allow you to sign up in minutes using your personal email address or existing Google, Apple, Github, or Amazon credentials—no AWS…",
-        "date": "2026年4月28日",
-        "date_iso": "2026-04-28",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Quick expands integrations to include Google Workspace, Zoom, Airtable, and more",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-google-workspace-zoom/",
-        "summary": "Amazon Quick is expanding integrations with 13 new built-in action connectors, all supporting managed authentication so users can securely connect their accounts in just a few clicks without manual…",
         "date": "2026年4月28日",
         "date_iso": "2026-04-28",
         "category": "ai-tag",
