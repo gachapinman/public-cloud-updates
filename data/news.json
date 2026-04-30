@@ -1,7 +1,27 @@
 {
-  "updated": "2026年04月29日 20:20 JST",
+  "updated": "2026年04月30日 13:05 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Generally Available: Microsoft Azure Red Hat OpenShift is now available in Austria East",
+        "link": "https://azure.microsoft.com/updates?id=561135",
+        "summary": "The Austria East region is now generally available to Azure Red Hat OpenShift customers and partners. The region includes three availability zones, supporting resilient and scalable operations. Why…",
+        "date": "2026年4月30日",
+        "date_iso": "2026-04-30",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Microsoft Agent Framework 1.0",
+        "link": "https://azure.microsoft.com/updates?id=560982",
+        "summary": "Microsoft Agent Framework is now version 1.0 for both .NET and Python, with stable APIs and a long-term support commitment. Agent Framework 1.0 supports multi-agent orchestration, multi-provider…",
+        "date": "2026年4月30日",
+        "date_iso": "2026-04-30",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Public Preview: Memory in Foundry Agent Service",
         "link": "https://azure.microsoft.com/updates?id=560992",
@@ -181,29 +201,139 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Dynamic data masking with Azure Cosmos DB",
-        "link": "https://azure.microsoft.com/updates?id=559633",
-        "summary": "Dynamic data masking (DDM) is a server-side, policy-based security feature in Azure Cosmos DB that helps your organization protect sensitive data from unauthorized access. DDM dynamically masks data…",
-        "date": "2026年4月23日",
-        "date_iso": "2026-04-23",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Logical replication slot sync Status metric for Azure PostgreSQL Flexible Server",
-        "link": "https://azure.microsoft.com/updates?id=513249",
-        "summary": "You can now monitor the synchronization status of your logical replication slots in Azure Database for PostgreSQL – Flexible Server using the new logical_replication_slot_sync_status metric, now in…",
-        "date": "2026年4月23日",
-        "date_iso": "2026-04-23",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Amazon RDS for MySQL announces Innovation Release 9.6 in Amazon RDS Database Preview Environment",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-rds-mysql-innovation/",
+        "summary": "Amazon RDS for MySQL &nbsp;now supports community MySQL Innovation Release 9.6 in the&nbsp; Amazon RDS Database Preview Environment , allowing you to evaluate the latest Innovation Release on Amazon…",
+        "date": "2026年4月30日",
+        "date_iso": "2026-04-30",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon DocumentDB (with MongoDB compatibility) is Now Available in the Canada West (Calgary) Region",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-documentdb-available-in-canada-west-region/",
+        "summary": "Amazon DocumentDB (with MongoDB compatibility) is now available in the Canada West (Calgary) region adding to the list of available regions where you can use Amazon DocumentDB . Amazon DocumentDB is…",
+        "date": "2026年4月30日",
+        "date_iso": "2026-04-30",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon CloudFront now supports invalidation by cache tag",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/cloudfront-invalidation-cache-tag/",
+        "summary": "Amazon CloudFront now allows you to invalidate cached objects by cache tag, enabling you to remove groups of related content from CloudFront edge locations with a single invalidation request. Cache…",
+        "date": "2026年4月30日",
+        "date_iso": "2026-04-30",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
+        "tag": "AWS"
+      },
+      {
+        "title": "Paraphrase-multilingual-MiniLM-L12-v2, Table Transformer Detection, and Bielik-11B-v3.0-Instruct are now available in…",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/paraphrase-multilingual-table-transformer-bielik-on-sagemaker-jumpstart/",
+        "summary": "Today, AWS announced the availability of paraphrase-multilingual-MiniLM-L12-v2, Microsoft Table Transformer Detection, and Bielik-11B-v3.0-Instruct in Amazon SageMaker JumpStart.…",
+        "date": "2026年4月30日",
+        "date_iso": "2026-04-30",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Gemma 4 models are now available in Amazon SageMaker JumpStart",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/gemma-4-models-on-sagemaker-jumpstart/",
+        "summary": "Today, AWS announced the availability of Gemma 4 E4B, Gemma 4 26B-A4B, and Gemma 4 31B in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These…",
+        "date": "2026年4月30日",
+        "date_iso": "2026-04-30",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon CloudWatch adds visual agent configuration to the EC2 console",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-cloudwatch-agent-ec2/",
+        "summary": "Amazon CloudWatch now provides a visual configuration editor for the CloudWatch agent directly in the Amazon EC2 console, enabling you to set up and manage observability for your EC2 instances…",
+        "date": "2026年4月30日",
+        "date_iso": "2026-04-30",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "OpenAI GPT OSS and NVIDIA Nemotron Models Available on Amazon Bedrock in AWS GovCloud (US)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/openai-gpt-oss-nvidia-nemotron-govcloud/",
+        "summary": "Amazon Bedrock now supports OpenAI's open-weight GPT OSS models (120B and 20B) and NVIDIA Nemotron (Nano 9B v2, Nano 12B v2, Nano 30B, Super 120B) models expanding your ability to build and scale…",
+        "date": "2026年4月30日",
+        "date_iso": "2026-04-30",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Quick Adds Custom Sort for Filter Controls",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/quick-filter-control-sort/",
+        "summary": "Quick Sight in Amazon Quick&nbsp;now supports custom sort for filter controls, giving authors control over how values appear in dropdown and list controls. Previously, filter control values were…",
+        "date": "2026年4月30日",
+        "date_iso": "2026-04-30",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Transfer Family Terraform module now supports Okta and Microsoft Entra ID integration examples",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-transfer-family-terraform-okta-microsoft-entra-id/",
+        "summary": "AWS Transfer Family Terraform module &nbsp;now&nbsp;includes end-to-end examples for deploying Transfer Family endpoints integrated with&nbsp;Okta&nbsp;and&nbsp;Microsoft Entra ID&nbsp;as custom…",
+        "date": "2026年4月29日",
+        "date_iso": "2026-04-29",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon RDS for Db2 is now available in the AWS GovCloud (US-East, US-West) Regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-rds-db2-available-aws-govcloud-us-east-us-west-regions/",
+        "summary": "Amazon Relational Database Service (Amazon RDS) for Db2 is now available in the AWS GovCloud (US-East, US-West) Regions. Amazon RDS for Db2 makes it easy to set up, operate, and scale Db2 databases…",
+        "date": "2026年4月29日",
+        "date_iso": "2026-04-29",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EMR 7.13 now available with Python 3.11",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-emr-713-python-311/",
+        "summary": "Amazon EMR 7.13 is now available with Python 3.11 and version upgrades for&nbsp;additional&nbsp;applications.&nbsp; EMR 7.13 ships with&nbsp;Python 3.11&nbsp;for Apache Spark by default. This…",
+        "date": "2026年4月29日",
+        "date_iso": "2026-04-29",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon OpenSearch Service now supports JWKS URL configuration for JWT authentication",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-opensearch-jwks-url-jwt/",
+        "summary": "Amazon OpenSearch Service now supports JSON Web Key Set (JWKS) URL configuration for JWT authentication. You can configure a JWKS URL as part of your JWT authentication setup, allowing your…",
+        "date": "2026年4月29日",
+        "date_iso": "2026-04-29",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Bedrock AgentCore Runtime now supports Node.js for direct code deployment",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-bedrock-agentcore-runtime/",
+        "summary": "Amazon Bedrock AgentCore Runtime now supports Node.js as a managed language runtime for direct code deployment, alongside the existing Python support. Developers can bring their Node.js-based agents…",
+        "date": "2026年4月29日",
+        "date_iso": "2026-04-29",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
       {
         "title": "AWS Glue 5.1 is now available in all AWS Commercial and AWS GovCloud (US) Regions",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-glue-5-1-all-govcloud-commercial-regions/",
@@ -212,6 +342,16 @@
         "date_iso": "2026-04-29",
         "category": "ai-tag",
         "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon GameLift Streams now supports Proton 10 runtime",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-gamelift-streams-proton-10-runtime/",
+        "summary": "Amazon GameLift Streams now supports Proton 10, an updated version of the Proton compatibility layer for running Windows games on Linux-based stream classes. Proton 10 improves game compatibility for…",
+        "date": "2026年4月29日",
+        "date_iso": "2026-04-29",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "AWS"
       },
       {
@@ -263,149 +403,19 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "AWS Announces Amazon Connect Decisions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-decisions-april/",
-        "summary": "Today, AWS announces the general availability of Amazon Connect Decisions, an agentic AI planning and intelligence solution that helps supply chain teams shift from firefighting to proactive…",
-        "date": "2026年4月28日",
-        "date_iso": "2026-04-28",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Build custom applications using natural language in Amazon Quick (Preview)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/custom-applications/",
-        "summary": "Today, AWS announces new features in preview for Amazon Quick , allowing users to create custom web applications in minutes using natural language. Creating internal tools and web applications…",
-        "date": "2026年4月28日",
-        "date_iso": "2026-04-28",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Quick now available as a desktop application for macOS and Windows (Preview)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-macos-windows-preview/",
-        "summary": "Amazon Quick is now available as a native desktop application for MacOS and Windows in preview. The desktop application extends Quick beyond your browser and utilizes the capabilities on your…",
-        "date": "2026年4月28日",
-        "date_iso": "2026-04-28",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Quick expands integrations to include Google Workspace, Zoom, Airtable, and more",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-google-workspace-zoom/",
-        "summary": "Amazon Quick is expanding integrations with 13 new built-in action connectors, all supporting managed authentication so users can securely connect their accounts in just a few clicks without manual…",
-        "date": "2026年4月28日",
-        "date_iso": "2026-04-28",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Quick now supports document and visual creation in chat",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick/",
-        "summary": "Today, Amazon Quick introduces document and visual creation capabilities, enabling you to produce polished documents, presentations, spreadsheets, and more through natural language without leaving…",
-        "date": "2026年4月28日",
-        "date_iso": "2026-04-28",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Start using Amazon Quick for free in minutes with Free and Plus pricing plans",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-free-plus/",
-        "summary": "Starting today, new Free and Plus pricing plans for Amazon Quick allow you to sign up in minutes using your personal email address or existing Google, Apple, Github, or Amazon credentials—no AWS…",
-        "date": "2026年4月28日",
-        "date_iso": "2026-04-28",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Redshift Serverless AI-driven scaling is now the default for new workgroups",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-redshift-serverless-ai-driven-scaling-default/",
-        "summary": "Amazon Redshift Serverless now makes AI-driven scaling and optimization the default for all new workgroups. AI-driven scaling uses machine learning to predict compute needs and automatically adjust…",
-        "date": "2026年4月28日",
-        "date_iso": "2026-04-28",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS KMS now tracks last usage of all KMS keys",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-kms-tracks-last-usage-kms-keys/",
-        "summary": "AWS Key Management Service (KMS) now provides visibility into the last cryptographic operation performed with your KMS keys, eliminating the need to manually query and analyze logs. This feature…",
-        "date": "2026年4月28日",
-        "date_iso": "2026-04-28",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EVS now supports i7i.metal-24xl Amazon EC2 instance type",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-evs-i7i-instance-type/",
-        "summary": "Today, we're announcing that Amazon Elastic VMware Service (Amazon EVS) now supports the i7i.metal-24xl Amazon Elastic Cloud Compute (Amazon EC2) bare-metal instance type, offering a lower-core-count…",
-        "date": "2026年4月28日",
-        "date_iso": "2026-04-28",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Redshift Serverless is now available in the AWS Asia Pacific (Melbourne) and Canada West (Calgary) regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-redshift-serverless-melbourne-calgary-regions/",
-        "summary": "Amazon Redshift Serverless , which allows you to run and scale analytics without having to provision and manage data warehouse clusters, is now generally available in the AWS&nbsp;Asia Pacific…",
-        "date": "2026年4月28日",
-        "date_iso": "2026-04-28",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Connect increases attachment file sizes and adds custom file types",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-increases-attachment/",
-        "summary": "Amazon Connect now supports attachment file sizes up to 100 MB for chat, cases, and tasks, up from the previous 20 MB limit.&nbsp;Administrators can enable these higher limits and configure custom…",
-        "date": "2026年4月28日",
-        "date_iso": "2026-04-28",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Billing Conductor launches Passthrough Pricing Plan for Billing Transfer users",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-billing-conductor-launches-passthrough/",
-        "summary": "AWS Billing Conductor now supports the Passthrough Pricing Plan, a new managed pricing plan for Billing Transfer users. Customers using Billing Transfer can now select the AWS-managed Passthrough…",
-        "date": "2026年4月28日",
-        "date_iso": "2026-04-28",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon FSx for OpenZFS Single-AZ (HA) file systems are now available in 17 additional AWS commercial and AWS GovCloud…",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-fsx-openzfs-single-az-ha/",
-        "summary": "You can now create Amazon FSx for OpenZFS Single-AZ (HA) file systems in seventeen additional AWS Regions across the South America, Europe, Africa, Asia Pacific, and AWS GovCloud (US). Amazon FSx for…",
-        "date": "2026年4月28日",
-        "date_iso": "2026-04-28",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SageMaker HyperPod now supports G7e and r5d.16xlarge instances",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-sagemaker-hyperpod-g7e-r5d/",
-        "summary": "Amazon SageMaker HyperPod now supports G7e and r5d.16xlarge instances. SageMaker HyperPod is a purpose-built infrastructure for developing, training, and deploying foundation models at scale. It…",
-        "date": "2026年4月28日",
-        "date_iso": "2026-04-28",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "April 29, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#April_29_2026",
+        "summary": "Apigee X Announcement On April 29th, 2026, we began maintenance updates of Apigee instances configured for maintenance windows . If you set a preferred window for maintenance for your instance, and…",
+        "date": "2026年4月29日",
+        "date_iso": "2026-04-29",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
       {
         "title": "April 28, 2026",
         "link": "https://docs.cloud.google.com/release-notes#April_28_2026",
@@ -595,19 +605,29 @@
         "category": "database-tag",
         "cat_label": "データベース",
         "tag": "GCP"
-      },
-      {
-        "title": "April 07, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#April_07_2026",
-        "summary": "BigQuery Feature The BigQuery Data Transfer Service now supports incremental data transfers for the following data source connectors: MySQL Oracle PostgreSQL ServiceNow These features are supported…",
-        "date": "2026年4月7日",
-        "date_iso": "2026-04-07",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "GCP"
       }
     ],
     "oci": [
+      {
+        "title": "OCI Batch Service – Release Version 1.0.2.0",
+        "link": "https://docs.oracle.com/iaas/releasenotes/batch/batch_service_release_1_0_2_0.htm",
+        "summary": "",
+        "date": "2026年4月29日",
+        "date_iso": "2026-04-29",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "HeatWave: Support for Versions 9.7.0, 8.4.9, and 8.0.46",
+        "link": "https://docs.oracle.com/iaas/releasenotes/mysql-database/heatwave-970-849-8046.htm",
+        "summary": "",
+        "date": "2026年4月29日",
+        "date_iso": "2026-04-29",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "OCI"
+      },
       {
         "title": "Support for Kubernetes version 1.35.2",
         "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-K8s-1-35-2-support.htm",
@@ -786,26 +806,6 @@
         "date_iso": "2026-04-14",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Granular Permissions for Autonomous AI Database Policies",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-04-granular-permission.htm",
-        "summary": "",
-        "date": "2026年4月14日",
-        "date_iso": "2026-04-14",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Secret-Based Password Authentication for Autonomous AI Database Users",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-04-secret-passwd-authn.htm",
-        "summary": "",
-        "date": "2026年4月14日",
-        "date_iso": "2026-04-14",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "OCI"
       }
     ]
