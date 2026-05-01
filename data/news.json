@@ -1,7 +1,27 @@
 {
-  "updated": "2026年04月30日 20:19 JST",
+  "updated": "2026年05月01日 13:18 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Generally Available: Prefix-scoped access for User Delegation SAS",
+        "link": "https://azure.microsoft.com/updates?id=561257",
+        "summary": "Support for prefix-scoped access for User Delegation SAS for Azure Blob Storage is generally available in all Azure regions. SAS tokens for Blob Storage have historically supported two levels of…",
+        "date": "2026年5月1日",
+        "date_iso": "2026-05-01",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Azure Functions support for Java 25",
+        "link": "https://azure.microsoft.com/updates?id=560879",
+        "summary": "Azure Functions support for Java 25 is now generally available. You can now develop apps using Java 25 locally and deploy them to supported Azure Functions plans on Linux and Windows, including the…",
+        "date": "2026年5月1日",
+        "date_iso": "2026-05-01",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Generally Available: Microsoft Azure Red Hat OpenShift is now available in Austria East",
         "link": "https://azure.microsoft.com/updates?id=561135",
@@ -43,7 +63,7 @@
         "tag": "AZURE"
       },
       {
-        "title": "Generally Available: Connect to Elastic SAN from Windows VM via VM Extension",
+        "title": "Generally Available: Connect to Azure Elastic SAN from Windows VM via VM Extension",
         "link": "https://azure.microsoft.com/updates?id=560914",
         "summary": "Azure Elastic SAN now supports volume connectivity for Windows Virtual Machines using the Elastic SAN VM extension, directly from the Azure Portal. This capability enables customers to connect…",
         "date": "2026年4月29日",
@@ -153,9 +173,9 @@
         "tag": "AZURE"
       },
       {
-        "title": "Generally Available: CRC Protection",
+        "title": "Generally Available: Azure Elastic SAN support for CRC Protection",
         "link": "https://azure.microsoft.com/updates?id=560889",
-        "summary": "Azure Elastic SAN now supports CRC-32C checksum verification when enabled on the client side for connections to Elastic SAN volumes. You can enable CRC protection when creating an Elastic SAN or…",
+        "summary": "Azure Elastic SAN now supports CRC‑32C checksum verification when enabled on the client for connections to Elastic SAN volumes. CRC protection can be enabled at creation time or on an existing…",
         "date": "2026年4月25日",
         "date_iso": "2026-04-25",
         "category": "ai-tag",
@@ -163,7 +183,7 @@
         "tag": "AZURE"
       },
       {
-        "title": "Generally Available: Capacity Autoscaling",
+        "title": "Generally Available: Capacity Autoscaling on Azure Elastic SAN",
         "link": "https://azure.microsoft.com/updates?id=560919",
         "summary": "Capacity Autoscaling support is now generally available on Elastic SAN. Customers can avoid the constraints of overprovisioning and manual capacity management by setting a policy to automatically…",
         "date": "2026年4月24日",
@@ -181,29 +201,99 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Azure Arc adds SQL Server on Azure Virtual Machines as a migration target",
-        "link": "https://azure.microsoft.com/updates?id=560805",
-        "summary": "Azure Arc migration now supports SQL Server on Azure Virtual Machines as a migration target. You can migrate Arc-enabled SQL Server instances not only to Azure SQL Managed Instance but also to SQL…",
-        "date": "2026年4月23日",
-        "date_iso": "2026-04-23",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Azure Database for PostgreSQL flexible server in Denmark East",
-        "link": "https://azure.microsoft.com/updates?id=560288",
-        "summary": "You can now deploy Azure Database for PostgreSQL flexible server in the Denmark East Azure region. Learn more.",
-        "date": "2026年4月23日",
-        "date_iso": "2026-04-23",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "AWS Outposts racks now support LagStatus CloudWatch metric",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-outposts-lagstatus-cloudwatch/",
+        "summary": "AWS Outposts racks now support the LagStatus Amazon CloudWatch metric in all AWS commercial Regions and the AWS GovCloud (US-East) and AWS GovCloud (US-West) Regions. This metric provides you with…",
+        "date": "2026年5月1日",
+        "date_iso": "2026-05-01",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon ECS Managed Instances now supports NVIDIA GPU metrics",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ecs-mi-gpu-metrics/",
+        "summary": "Amazon Elastic Container Service (Amazon ECS) now offers NVIDIA GPU metrics for containerized workloads running on Amazon ECS Managed Instances. These metrics are available through Amazon CloudWatch…",
+        "date": "2026年5月1日",
+        "date_iso": "2026-05-01",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon MQ for RabbitMQ now supports Prometheus metrics",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-mq-rabbitmq-prometheus-metrics/",
+        "summary": "Amazon MQ for RabbitMQ now supports the Prometheus plugin on RabbitMQ 4.2 brokers, providing a native Prometheus-compatible metrics endpoint on your RabbitMQ brokers. You can scrape broker, queue,…",
+        "date": "2026年5月1日",
+        "date_iso": "2026-05-01",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Bedrock AgentCore Identity now supports On-Behalf-Of (OBO) token exchange",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-bedrock-agentcore/",
+        "summary": "Amazon Bedrock AgentCore Identity now supports On-Behalf-Of (OBO) token exchange, enabling developers to build agents that securely access protected resources on behalf of authenticated users —…",
+        "date": "2026年5月1日",
+        "date_iso": "2026-05-01",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Neuron SDK now available with Neuron Agentic Development for NKI kernel development on Trainium",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/announcing-neuron-agentic-development/",
+        "summary": "AWS Neuron announces the Neuron Agentic Development capabilities, an open-source collection of agents and skills that equip AI coding assistants to accelerate development on AWS Trainium and AWS…",
+        "date": "2026年5月1日",
+        "date_iso": "2026-05-01",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Bedrock AgentCore launches capabilities for optimizing agent performance in preview",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/bedrock-agentcore-optimization-preview/",
+        "summary": "Amazon Bedrock AgentCore launches recommendations and two ways to validate performance (batch evaluations and A/B tests). This completes the observe, evaluate, improve loop for AI agents in…",
+        "date": "2026年5月1日",
+        "date_iso": "2026-05-01",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Lambda adds support for Ruby 4.0",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-lambda-adds-ruby/",
+        "summary": "AWS Lambda now supports creating serverless applications using Ruby 4.0. Developers can use Ruby 4.0 as both a managed runtime and a container base image, and AWS will automatically apply updates to…",
+        "date": "2026年4月30日",
+        "date_iso": "2026-04-30",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Quick adds Microsoft Excel, PowerPoint extensions and updates the Word extension (Preview)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-quick-microsoft-excel/",
+        "summary": "Today, Amazon Quick introduces new and upgraded Microsoft 365 extensions in preview for Excel, PowerPoint, and Word, enabling Quick to perform tasks directly within users’ Microsoft 365 environments.…",
+        "date": "2026年4月30日",
+        "date_iso": "2026-04-30",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon OpenSearch Service now supports index-level encryption",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-opensearch-service-supports-index-level-encryption/",
+        "summary": "Amazon OpenSearch Service now supports index-level encryption, enabling you to encrypt data at rest on a per-index basis using AWS Key Management Service (KMS) customer managed keys. You can use…",
+        "date": "2026年4月30日",
+        "date_iso": "2026-04-30",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
       {
         "title": "Amazon RDS for MySQL announces Innovation Release 9.6 in Amazon RDS Database Preview Environment",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-rds-mysql-innovation/",
@@ -313,99 +403,19 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon OpenSearch Service now supports JWKS URL configuration for JWT authentication",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-opensearch-jwks-url-jwt/",
-        "summary": "Amazon OpenSearch Service now supports JSON Web Key Set (JWKS) URL configuration for JWT authentication. You can configure a JWKS URL as part of your JWT authentication setup, allowing your…",
-        "date": "2026年4月29日",
-        "date_iso": "2026-04-29",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Bedrock AgentCore Runtime now supports Node.js for direct code deployment",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-bedrock-agentcore-runtime/",
-        "summary": "Amazon Bedrock AgentCore Runtime now supports Node.js as a managed language runtime for direct code deployment, alongside the existing Python support. Developers can bring their Node.js-based agents…",
-        "date": "2026年4月29日",
-        "date_iso": "2026-04-29",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Glue 5.1 is now available in all AWS Commercial and AWS GovCloud (US) Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-glue-5-1-all-govcloud-commercial-regions/",
-        "summary": "AWS Glue 5.1 is now available in the Asia Pacific (New Zealand), AWS GovCloud (US-West) and AWS GovCloud (US-East) Regions. AWS Glue is a serverless, scalable data integration service that simplifies…",
-        "date": "2026年4月29日",
-        "date_iso": "2026-04-29",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon GameLift Streams now supports Proton 10 runtime",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-gamelift-streams-proton-10-runtime/",
-        "summary": "Amazon GameLift Streams now supports Proton 10, an updated version of the Proton compatibility layer for running Windows games on Linux-based stream classes. Proton 10 improves game compatibility for…",
-        "date": "2026年4月29日",
-        "date_iso": "2026-04-29",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Cost Optimization Hub now supports CSV download",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-cost-optimization-hub-csv-download/",
-        "summary": "AWS Cost Optimization Hub now supports direct CSV download in the console, enabling you to export your cost optimization recommendations to your local machine with a single click. This capability…",
-        "date": "2026年4月29日",
-        "date_iso": "2026-04-29",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon WorkSpaces Personal enhances PCoIP to DCV protocol migration",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-workspaces-personal-pcoip/",
-        "summary": "Amazon WorkSpaces Personal now provides an enhanced experience for administrators migrating WorkSpaces from PCoIP to DCV protocol, including a guided console action for protocol modification,…",
-        "date": "2026年4月29日",
-        "date_iso": "2026-04-29",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 C8gn instances are now available in additional regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ec2-c8gn-milan-hong-kong/",
-        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8gn instances, powered by the latest-generation AWS Graviton4 processors, are available in the AWS&nbsp;Europe (Milan) and&nbsp;Asia Pacific…",
-        "date": "2026年4月29日",
-        "date_iso": "2026-04-29",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Connect Talent for AI-powered hiring (now available in Preview)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-talent-ai-powered/",
-        "summary": "Amazon Connect Talent is now available in Preview, giving talent acquisition leaders an AI-powered hiring solution that accelerates candidate selection at scale. Informed by decades of Amazon's…",
-        "date": "2026年4月29日",
-        "date_iso": "2026-04-29",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Bedrock now offers OpenAI models, Codex, and Managed Agents (Limited Preview)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/bedrock-openai-models-codex-managed-agents/",
-        "summary": "AWS and OpenAI are expanding their partnership to bring frontier&nbsp;intelligence to the&nbsp;infrastructure millions of organizations already trust. Enterprises want the most capable AI models and…",
-        "date": "2026年4月29日",
-        "date_iso": "2026-04-29",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "April 30, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#April_30_2026",
+        "summary": "BigQuery Breaking Starting May 7, 2026, new transfer configurations that transfer data from Google Ads using the BigQuery Data Transfer Service will require Multi-factor authentication (MFA) for…",
+        "date": "2026年4月30日",
+        "date_iso": "2026-04-30",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "GCP"
+      },
       {
         "title": "April 29, 2026",
         "link": "https://docs.cloud.google.com/release-notes#April_29_2026",
@@ -594,16 +604,6 @@
         "date_iso": "2026-04-09",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "GCP"
-      },
-      {
-        "title": "April 08, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#April_08_2026",
-        "summary": "BigQuery Feature The BigQuery Data Transfer Service now supports incremental data transfers when transferring data from Microsoft SQL Server to BigQuery. This feature is supported in Preview .…",
-        "date": "2026年4月8日",
-        "date_iso": "2026-04-08",
-        "category": "database-tag",
-        "cat_label": "データベース",
         "tag": "GCP"
       }
     ],
