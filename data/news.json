@@ -1,5 +1,5 @@
 {
-  "updated": "2026年05月02日 19:35 JST",
+  "updated": "2026年05月03日 13:12 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "May 02, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#May_02_2026",
+        "summary": "Google SecOps SOAR Announcement Release 6.3.83 is now available for all regions.",
+        "date": "2026年5月2日",
+        "date_iso": "2026-05-02",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "May 01, 2026",
         "link": "https://docs.cloud.google.com/release-notes#May_01_2026",
         "summary": "Cloud Trace Feature Google Cloud Observability has expanded the supported locations for observability buckets, which store your trace data, to include the following: australia-southeast1…",
@@ -592,16 +602,6 @@
         "summary": "Google SecOps SOAR Announcement Release 6.3.82 is now available for all regions.",
         "date": "2026年4月11日",
         "date_iso": "2026-04-11",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "April 10, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#April_10_2026",
-        "summary": "BigQuery Feature SQL cells in BigQuery notebooks are now generally available (GA). Cloud Composer Fixed Fixed a problem with missing DAG description and schedule in the DAG UI which occurred in…",
-        "date": "2026年4月10日",
-        "date_iso": "2026-04-10",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
