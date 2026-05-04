@@ -1,5 +1,5 @@
 {
-  "updated": "2026年05月03日 19:37 JST",
+  "updated": "2026年05月04日 13:10 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "May 03, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#May_03_2026",
+        "summary": "Google SecOps Feature Enhanced \"Time to respond\" options for multi-choice questions Google SecOps now provides more granular control over playbook execution when the \"time to respond\" for a…",
+        "date": "2026年5月3日",
+        "date_iso": "2026-05-03",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "GCP"
+      },
+      {
         "title": "May 02, 2026",
         "link": "https://docs.cloud.google.com/release-notes#May_02_2026",
         "summary": "Google SecOps SOAR Announcement Release 6.3.83 is now available for all regions.",
@@ -592,16 +602,6 @@
         "summary": "Google SecOps SOAR Announcement Release 6.3.83 is being rolled out to the first phase of regions as listed here . This release contains internal and customer bug fixes.",
         "date": "2026年4月12日",
         "date_iso": "2026-04-12",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "April 11, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#April_11_2026",
-        "summary": "Google SecOps SOAR Announcement Release 6.3.82 is now available for all regions.",
-        "date": "2026年4月11日",
-        "date_iso": "2026-04-11",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
