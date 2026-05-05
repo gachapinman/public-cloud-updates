@@ -1,5 +1,5 @@
 {
-  "updated": "2026年05月05日 15:02 JST",
+  "updated": "2026年05月05日 20:05 JST",
   "clouds": {
     "azure": [
       {
@@ -275,16 +275,6 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon EventBridge supports data plane logging to AWS CloudTrail",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-eventbridge-data-aws-cloudtrail/",
-        "summary": "Today, Amazon EventBridge announces support for logging data plane APIs using AWS CloudTrail, enabling customers to have greater visibility into event bus activity in their AWS account for best…",
-        "date": "2026年5月5日",
-        "date_iso": "2026-05-05",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
         "title": "Amazon Quick now supports S3 tables bucket as a data source",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/quick-direct-query-s3-tables/",
         "summary": "Amazon Quick now supports Amazon S3 table buckets as a data source — enabling users to build dashboards, run conversational analytics, and explore Apache Iceberg tables stored in S3 table buckets.…",
@@ -292,6 +282,16 @@
         "date_iso": "2026-05-05",
         "category": "database-tag",
         "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EventBridge supports data plane logging to AWS CloudTrail",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-eventbridge-data-aws-cloudtrail/",
+        "summary": "Today, Amazon EventBridge announces support for logging data plane APIs using AWS CloudTrail, enabling customers to have greater visibility into event bus activity in their AWS account for best…",
+        "date": "2026年5月5日",
+        "date_iso": "2026-05-05",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "AWS"
       },
       {
@@ -449,11 +449,11 @@
       {
         "title": "April 30, 2026",
         "link": "https://docs.cloud.google.com/release-notes#April_30_2026",
-        "summary": "BigQuery Breaking Starting May 7, 2026, new transfer configurations that transfer data from Google Ads using the BigQuery Data Transfer Service will require Multi-factor authentication (MFA) for…",
+        "summary": "Bigtable Feature You can use Bigtable agent skills to let AI agents assist with Bigtable-related tasks, such as schema design, generating SQL queries, and infrastructure management. Cloud CDN Feature…",
         "date": "2026年4月30日",
         "date_iso": "2026-04-30",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "GCP"
       },
       {
@@ -469,7 +469,7 @@
       {
         "title": "April 28, 2026",
         "link": "https://docs.cloud.google.com/release-notes#April_28_2026",
-        "summary": "AlloyDB for PostgreSQL Change When the initial user or password is unspecified during cluster creation, a locked postgres role with null password is created. BigQuery Feature You can now create…",
+        "summary": "AlloyDB for PostgreSQL Change When the initial user or password is unspecified during cluster creation, a locked postgres role with null password is created. Cloud Asset Inventory Feature The…",
         "date": "2026年4月28日",
         "date_iso": "2026-04-28",
         "category": "database-tag",
@@ -499,7 +499,7 @@
       {
         "title": "April 23, 2026",
         "link": "https://docs.cloud.google.com/release-notes#April_23_2026",
-        "summary": "BigQuery Change An updated version of the Simba JDBC driver for BigQuery is now available. Bigtable Feature You can use window functions with GoogleSQL in Bigtable to perform advanced analytic…",
+        "summary": "Bigtable Feature You can use window functions with GoogleSQL in Bigtable to perform advanced analytic operations over multiple table rows. This feature is generally available (GA) . For more…",
         "date": "2026年4月23日",
         "date_iso": "2026-04-23",
         "category": "ai-tag",
@@ -599,7 +599,7 @@
       {
         "title": "April 13, 2026",
         "link": "https://docs.cloud.google.com/release-notes#April_13_2026",
-        "summary": "BigQuery Feature Support for the AI.AGG function preview has been temporarily disabled. We are working to restore this feature as soon as possible. Feature To reduce LLM token consumption and query…",
+        "summary": "Bigtable Feature You can now use GoogleSQL geography functions to work with geospatial data in Bigtable. This feature is generally available (GA) . For more information, see Work with geospatial data…",
         "date": "2026年4月13日",
         "date_iso": "2026-04-13",
         "category": "ai-tag",
