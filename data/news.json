@@ -1,7 +1,27 @@
 {
-  "updated": "2026年05月04日 20:27 JST",
+  "updated": "2026年05月05日 12:51 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Generally Available: Cleanup legacy AlternateId usage to ensure continued service",
+        "link": "https://azure.microsoft.com/updates?id=561432",
+        "summary": "We have identified an issue impacting Multi-line (Multiple Number Assignment) feature for Teams Phone enablement related to the usage of AlternateId in customer internal implementations for Azure…",
+        "date": "2026年5月5日",
+        "date_iso": "2026-05-05",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Azure Functions durable task scheduler Consumption SKU",
+        "link": "https://azure.microsoft.com/updates?id=560957",
+        "summary": "The Durable Task Scheduler Consumption SKU is now generally available. Run durable workflows and AI agent orchestrations on Azure with pay-per-use pricing. No storage to manage, no capacity to plan,…",
+        "date": "2026年5月5日",
+        "date_iso": "2026-05-05",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Update: Egress and data transfer with Azure in the United Kingdom",
         "link": "https://azure.microsoft.com/updates?id=561392",
@@ -181,29 +201,139 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Azure Elastic SAN support for CRC Protection",
-        "link": "https://azure.microsoft.com/updates?id=560889",
-        "summary": "Azure Elastic SAN now supports CRC‑32C checksum verification when enabled on the client for connections to Elastic SAN volumes. CRC protection can be enabled at creation time or on an existing…",
-        "date": "2026年4月25日",
-        "date_iso": "2026-04-25",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Capacity Autoscaling on Azure Elastic SAN",
-        "link": "https://azure.microsoft.com/updates?id=560919",
-        "summary": "Capacity Autoscaling support is now generally available on Elastic SAN. Customers can avoid the constraints of overprovisioning and manual capacity management by setting a policy to automatically…",
-        "date": "2026年4月24日",
-        "date_iso": "2026-04-24",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Amazon CloudWatch Logs Insights supports querying by log group tags",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-cloudwatch-logs-query-by-tags/",
+        "summary": "Amazon CloudWatch Logs Insights query language now supports querying log groups using tags, making it easier to analyze logs without listing the log groups explicitly. In addition to querying logs by…",
+        "date": "2026年5月5日",
+        "date_iso": "2026-05-05",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Entity Resolution launches support for incremental Machine Learning based matching workflows",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-entity-resolution-ml/",
+        "summary": "AWS Entity Resolution launches support for Machine Learning (ML) based Incremental Matching workflows in General Availability, fundamentally transforming how enterprises process entity resolution at…",
+        "date": "2026年5月5日",
+        "date_iso": "2026-05-05",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon FSx is now available in the AWS Asia Pacific (New Zealand) Region",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-fsx-aws-asia-pacific/",
+        "summary": "Amazon FSx, a fully-managed service that makes it easy and cost effective to launch, run, and scale feature-rich, high-performance file systems in the cloud, is now available in the AWS Asia Pacific…",
+        "date": "2026年5月5日",
+        "date_iso": "2026-05-05",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Quick generates dashboards from natural language prompts",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-quick-generates-analyses-from-natural-language-prompts/",
+        "summary": "Amazon Quick now generates dashboards from natural language prompts with Generate Analysis. You describe the dashboard you want, select up to three datasets, and review an editable plan before…",
+        "date": "2026年5月5日",
+        "date_iso": "2026-05-05",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Aurora DSQL now supports the JSON data type with compression",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aurora-dsql-json-support/",
+        "summary": "Amazon Aurora DSQL introduces support for the PostgreSQL JSON data type with optional compression. With JSON data type support, you can now use code and tools that depend on PostgreSQL's JSON type…",
+        "date": "2026年5月5日",
+        "date_iso": "2026-05-05",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Quick introduces Dataset Q&A for conversational analytics against enterprise data",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-quick-dataset-qa/",
+        "summary": "Amazon Quick now supports Dataset Q&amp;A — a conversational analytics capability that enables users to ask natural language questions directly against their enterprise data. Alongside Dashboard…",
+        "date": "2026年5月5日",
+        "date_iso": "2026-05-05",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EventBridge supports data plane logging to AWS CloudTrail",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-eventbridge-data-aws-cloudtrail/",
+        "summary": "Today, Amazon EventBridge announces support for logging data plane APIs using AWS CloudTrail, enabling customers to have greater visibility into event bus activity in their AWS account for best…",
+        "date": "2026年5月5日",
+        "date_iso": "2026-05-05",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Quick now supports S3 tables bucket as a data source",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/quick-direct-query-s3-tables/",
+        "summary": "Amazon Quick now supports Amazon S3 table buckets as a data source — enabling users to build dashboards, run conversational analytics, and explore Apache Iceberg tables stored in S3 table buckets.…",
+        "date": "2026年5月5日",
+        "date_iso": "2026-05-05",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Quick upgrades the extension for Microsoft Outlook (Preview)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-quick-microsoft-outlook/",
+        "summary": "Today, AWS announces the preview of the Amazon Quick extension for Microsoft Outlook, which brings generative AI-powered productivity directly into your email and calendar workflows. With the…",
+        "date": "2026年5月5日",
+        "date_iso": "2026-05-05",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon SageMaker AI launches AI agent experience for model customization",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-ai-ai/",
+        "summary": "Amazon SageMaker AI now features an agentic experience that transforms model customization from a months-long process into a workflow completed in days or hours. Customers building an AI solution…",
+        "date": "2026年5月5日",
+        "date_iso": "2026-05-05",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Payment Cryptography announces support for cross account key sharing",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/payment-cryptography-resource/",
+        "summary": "AWS Payment Cryptography &nbsp;now supports cross account sharing of keys using resource-based policies (RBP).&nbsp; With this new feature, customers can more easily manage cryptographic keys across…",
+        "date": "2026年5月4日",
+        "date_iso": "2026-05-04",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon RDS for SQL Server now supports M8i and R8i instances",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/rds-sqlserver-supports-m8i-r8i-instances/",
+        "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports M8i and R8i instances. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the…",
+        "date": "2026年5月4日",
+        "date_iso": "2026-05-04",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon RDS for SQL Server supports read replica with additional storage volumes",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/rds-sqlserver-supports-read-replica-for-asv/",
+        "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports read replicas for database instances with additional storage volumes. Additional storage volumes allow customers to scale…",
+        "date": "2026年5月4日",
+        "date_iso": "2026-05-04",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
       {
         "title": "Amazon Bedrock AgentCore is now available in the South America (São Paulo) Region",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/agentcore-sao-paulo-region/",
@@ -245,6 +375,16 @@
         "tag": "AWS"
       },
       {
+        "title": "General availability of AWS for SAP MCP Server in Amazon Bedrock AgentCore",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-sap-mcp-amazon-bedrock/",
+        "summary": "Today, we're announcing the General Availability of the AWS for SAP MCP Server on Amazon Bedrock AgentCore, purpose-built to connect AI agents directly to SAP ERP systems, securely and at scale.…",
+        "date": "2026年5月2日",
+        "date_iso": "2026-05-02",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
         "title": "IAM Roles Anywhere now enforces VPC endpoint policies for the CreateSession API",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/iam-roles-anywhere-vpc/",
         "summary": "AWS Identity and Access Management (IAM) Roles Anywhere now provides the capability to configure Virtual Private Cloud (VPC) endpoint policies for the IAM Roles Anywhere CreateSession API. You can…",
@@ -263,149 +403,19 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "AWS Transform now offers BI migration agents for Power BI and Tableau to Amazon Quick",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/quick-bi-migration/",
-        "summary": "AWS Transform&nbsp;customers can&nbsp;now&nbsp;use&nbsp;BI migration agents to&nbsp;convert Tableau and Power BI dashboards to Amazon Quick Sight&nbsp;(BI capability of Amazon…",
-        "date": "2026年5月2日",
-        "date_iso": "2026-05-02",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "Spatial Data Management on AWS adds custom transformations",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/spatial-data-management-aws/",
-        "summary": "Spatial Data Management on AWS (SDMA) now supports custom transformation connectors and a unified desktop client installer. Custom transformation connectors let you run compute-intensive processing —…",
-        "date": "2026年5月1日",
-        "date_iso": "2026-05-01",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Announcing Kubernetes Dynamic Resource Allocation for Elastic Fabric Adapter",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/kubernetes-dra-elastic-fabric-adapter/",
-        "summary": "Amazon Elastic Kubernetes Service (Amazon EKS) now supports Dynamic Resource Allocation (DRA) for Elastic Fabric Adapter (EFA), simplifying high-performance inter-node communication and RDMA (Remote…",
-        "date": "2026年5月1日",
-        "date_iso": "2026-05-01",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon RDS for SQL Server supports cross-account snapshot sharing with additional storage volumes",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/rds-sqlserver-cross-account-snapshot-sharing-additional-storage-volume/",
-        "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports cross-account snapshot sharing for database instances with additional storage volumes. Additional storage volumes allow…",
-        "date": "2026年5月1日",
-        "date_iso": "2026-05-01",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon RDS for SQL Server supports read replica with additional storage volumes",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/rds-sqlserver-supports-read-replica-for-asv/",
-        "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports read replicas for database instances with additional storage volumes. Additional storage volumes allow customers to scale…",
-        "date": "2026年5月1日",
-        "date_iso": "2026-05-01",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Payment Cryptography now supports paper-based key exchange",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-payment-cryptography/",
-        "summary": "AWS Payment Cryptography now supports Physical Key Exchange, a new PCI PIN and P2PE compliant feature for performing paper-based cryptographic key exchange with the service without needing to…",
-        "date": "2026年5月1日",
-        "date_iso": "2026-05-01",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EKS now supports one-click cluster access through CloudShell",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-eks-one-click-cluster-access/",
-        "summary": "Amazon Elastic Kubernetes Service (EKS) now provides one-click cluster access directly from the AWS Management Console through AWS CloudShell , eliminating the need to install and configure kubectl,…",
-        "date": "2026年5月1日",
-        "date_iso": "2026-05-01",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Outposts racks now support LagStatus CloudWatch metric",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-outposts-lagstatus-cloudwatch/",
-        "summary": "AWS Outposts racks now support the LagStatus Amazon CloudWatch metric in all AWS commercial Regions and the AWS GovCloud (US-East) and AWS GovCloud (US-West) Regions. This metric provides you with…",
-        "date": "2026年5月1日",
-        "date_iso": "2026-05-01",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon ECS Managed Instances now supports NVIDIA GPU metrics",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ecs-mi-gpu-metrics/",
-        "summary": "Amazon Elastic Container Service (Amazon ECS) now offers NVIDIA GPU metrics for containerized workloads running on Amazon ECS Managed Instances. These metrics are available through Amazon CloudWatch…",
-        "date": "2026年5月1日",
-        "date_iso": "2026-05-01",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon MQ for RabbitMQ now supports Prometheus metrics",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-mq-rabbitmq-prometheus-metrics/",
-        "summary": "Amazon MQ for RabbitMQ now supports the Prometheus plugin on RabbitMQ 4.2 brokers, providing a native Prometheus-compatible metrics endpoint on your RabbitMQ brokers. You can scrape broker, queue,…",
-        "date": "2026年5月1日",
-        "date_iso": "2026-05-01",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Bedrock AgentCore Identity now supports On-Behalf-Of (OBO) token exchange",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-bedrock-agentcore/",
-        "summary": "Amazon Bedrock AgentCore Identity now supports On-Behalf-Of (OBO) token exchange, enabling developers to build agents that securely access protected resources on behalf of authenticated users —…",
-        "date": "2026年5月1日",
-        "date_iso": "2026-05-01",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Neuron SDK now available with Neuron Agentic Development for NKI kernel development on Trainium",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/announcing-neuron-agentic-development/",
-        "summary": "AWS Neuron announces the Neuron Agentic Development capabilities, an open-source collection of agents and skills that equip AI coding assistants to accelerate development on AWS Trainium and AWS…",
-        "date": "2026年5月1日",
-        "date_iso": "2026-05-01",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Bedrock AgentCore launches capabilities for optimizing agent performance in preview",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/bedrock-agentcore-optimization-preview/",
-        "summary": "Amazon Bedrock AgentCore launches recommendations and two ways to validate performance (batch evaluations and A/B tests). This completes the observe, evaluate, improve loop for AI agents in…",
-        "date": "2026年5月1日",
-        "date_iso": "2026-05-01",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Lambda adds support for Ruby 4.0",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-lambda-adds-ruby/",
-        "summary": "AWS Lambda now supports creating serverless applications using Ruby 4.0. Developers can use Ruby 4.0 as both a managed runtime and a container base image, and AWS will automatically apply updates to…",
-        "date": "2026年4月30日",
-        "date_iso": "2026-04-30",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "May 04, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#May_04_2026",
+        "summary": "Cloud SQL for SQL Server Feature Cloud SQL for SQL Server now supports PolyBase ( GA ). With PolyBase, your Cloud SQL for SQL Server instance uses Transact-SQL (T-SQL) commands to directly query data…",
+        "date": "2026年5月4日",
+        "date_iso": "2026-05-04",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "GCP"
+      },
       {
         "title": "May 03, 2026",
         "link": "https://docs.cloud.google.com/release-notes#May_03_2026",
@@ -595,22 +605,32 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
-      },
-      {
-        "title": "April 12, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#April_12_2026",
-        "summary": "Google SecOps SOAR Announcement Release 6.3.83 is being rolled out to the first phase of regions as listed here . This release contains internal and customer bug fixes.",
-        "date": "2026年4月12日",
-        "date_iso": "2026-04-12",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
       }
     ],
     "oci": [
       {
+        "title": "Demonstration Environment Cloud Service (DECS) for Oracle Fusion Applications",
+        "link": "https://docs.oracle.com/iaas/releasenotes/fusion-applications/vision-demo-pods.htm",
+        "summary": "",
+        "date": "2026年5月1日",
+        "date_iso": "2026-05-01",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
         "title": "HeatWave: Support for Versions 9.7.0, 8.4.9, and 8.0.46",
         "link": "https://docs.oracle.com/iaas/releasenotes/mysql-database/heatwave-970-849-8046.htm",
+        "summary": "",
+        "date": "2026年4月29日",
+        "date_iso": "2026-04-29",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "OCI"
+      },
+      {
+        "title": "OCI Database with PostgreSQL adds support for PostgreSQL 17",
+        "link": "https://docs.oracle.com/iaas/releasenotes/postgresql/db-17.htm",
         "summary": "",
         "date": "2026年4月29日",
         "date_iso": "2026-04-29",
@@ -709,6 +729,16 @@
         "tag": "OCI"
       },
       {
+        "title": "Allow additional outbound network traffic using egress rules",
+        "link": "https://docs.oracle.com/iaas/releasenotes/fusion-applications/egress-rules.htm",
+        "summary": "",
+        "date": "2026年4月20日",
+        "date_iso": "2026-04-20",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
+        "tag": "OCI"
+      },
+      {
         "title": "Oracle Cloud Success Assurance Service available in Oracle US Government Cloud and US Defense Cloud",
         "link": "https://docs.oracle.com/iaas/releasenotes/govcloud/cloud_success_fedramp.htm",
         "summary": "",
@@ -749,16 +779,6 @@
         "tag": "OCI"
       },
       {
-        "title": "Allow additional outbound network traffic using egress rules",
-        "link": "https://docs.oracle.com/iaas/releasenotes/fusion-applications/egress-rules.htm",
-        "summary": "",
-        "date": "2026年4月20日",
-        "date_iso": "2026-04-20",
-        "category": "network-tag",
-        "cat_label": "ネットワーク",
-        "tag": "OCI"
-      },
-      {
         "title": "Additional log support for OCI Logging Service",
         "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-dedicated/adbd-unifiedauditlog.htm",
         "summary": "",
@@ -786,26 +806,6 @@
         "date_iso": "2026-04-14",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Extend Select AI translate support to Google, AWS, and Azure",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-04-selectai-supportprov.htm",
-        "summary": "",
-        "date": "2026年4月14日",
-        "date_iso": "2026-04-14",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Oracle Spatial Studio",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-04-oracle-spatial-studio.htm",
-        "summary": "",
-        "date": "2026年4月14日",
-        "date_iso": "2026-04-14",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
         "tag": "OCI"
       }
     ]
