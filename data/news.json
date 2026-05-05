@@ -1,5 +1,5 @@
 {
-  "updated": "2026年05月05日 12:51 JST",
+  "updated": "2026年05月05日 15:02 JST",
   "clouds": {
     "azure": [
       {
@@ -215,6 +215,16 @@
         "tag": "AWS"
       },
       {
+        "title": "Amazon WorkSpaces Applications now supports host-to-client URL redirection",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-workspaces-applications-url/",
+        "summary": "Amazon WorkSpaces Applications now supports host-to-client URL redirection, which automatically launches URLs from streaming sessions in the user's local browser. Administrators can configure allow…",
+        "date": "2026年5月5日",
+        "date_iso": "2026-05-05",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
         "title": "AWS Entity Resolution launches support for incremental Machine Learning based matching workflows",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-entity-resolution-ml/",
         "summary": "AWS Entity Resolution launches support for Machine Learning (ML) based Incremental Matching workflows in General Availability, fundamentally transforming how enterprises process entity resolution at…",
@@ -392,16 +402,6 @@
         "date_iso": "2026-05-02",
         "category": "security-tag",
         "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Redshift Introduces Concurrency Scaling Support for auto-copy and zero-ETL",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/concurrency-scaling-auto-copy-zero-ETL/",
-        "summary": "Amazon Redshift announces the general availability of Amazon Redshift concurrency scaling support for Amazon Redshift auto-copy and zero-ETL , enhancing the performance of data ingestion. This new…",
-        "date": "2026年5月2日",
-        "date_iso": "2026-05-02",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "AWS"
       }
     ],
