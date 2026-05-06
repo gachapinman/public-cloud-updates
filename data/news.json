@@ -1,5 +1,5 @@
 {
-  "updated": "2026年05月06日 15:18 JST",
+  "updated": "2026年05月06日 20:30 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "May 06, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#May_06_2026",
+        "summary": "Oracle Database@Google Cloud Feature For Exadata Database Service on Exascale infrastructure and Base Database Service, Oracle Database@Google Cloud supports the following regions and zones:…",
+        "date": "2026年5月6日",
+        "date_iso": "2026-05-06",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "GCP"
+      },
+      {
         "title": "May 05, 2026",
         "link": "https://docs.cloud.google.com/release-notes#May_05_2026",
         "summary": "Gemini Enterprise Feature Gemini Enterprise: New data store connectors (Public Preview) The following data store are available in Gemini Enterprise: Clinical Trials Crypto Excalidraw GoDaddy Granted…",
@@ -595,19 +605,19 @@
         "category": "database-tag",
         "cat_label": "データベース",
         "tag": "GCP"
-      },
-      {
-        "title": "April 14, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#April_14_2026",
-        "summary": "AlloyDB for PostgreSQL Breaking As of April 10, 2026, you can create, run, and edit Gemini Cloud Assist investigations only if you have a Premium Support contract . You can use Gemini Cloud Assist…",
-        "date": "2026年4月14日",
-        "date_iso": "2026-04-14",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
       }
     ],
     "oci": [
+      {
+        "title": "Fleet Application Management End of Life",
+        "link": "https://docs.oracle.com/iaas/releasenotes/fleet-management/may2026-eol.htm",
+        "summary": "",
+        "date": "2026年5月6日",
+        "date_iso": "2026-05-06",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
       {
         "title": "Demonstration Environment Cloud Service (DECS) for Oracle Fusion Applications",
         "link": "https://docs.oracle.com/iaas/releasenotes/fusion-applications/vision-demo-pods.htm",
@@ -729,16 +739,6 @@
         "tag": "OCI"
       },
       {
-        "title": "Allow additional outbound network traffic using egress rules",
-        "link": "https://docs.oracle.com/iaas/releasenotes/fusion-applications/egress-rules.htm",
-        "summary": "",
-        "date": "2026年4月20日",
-        "date_iso": "2026-04-20",
-        "category": "network-tag",
-        "cat_label": "ネットワーク",
-        "tag": "OCI"
-      },
-      {
         "title": "Oracle Cloud Success Assurance Service available in Oracle US Government Cloud and US Defense Cloud",
         "link": "https://docs.oracle.com/iaas/releasenotes/govcloud/cloud_success_fedramp.htm",
         "summary": "",
@@ -779,6 +779,16 @@
         "tag": "OCI"
       },
       {
+        "title": "Allow additional outbound network traffic using egress rules",
+        "link": "https://docs.oracle.com/iaas/releasenotes/fusion-applications/egress-rules.htm",
+        "summary": "",
+        "date": "2026年4月20日",
+        "date_iso": "2026-04-20",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
+        "tag": "OCI"
+      },
+      {
         "title": "Additional log support for OCI Logging Service",
         "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-dedicated/adbd-unifiedauditlog.htm",
         "summary": "",
@@ -791,16 +801,6 @@
       {
         "title": "Provision an Autonomous Container Database with 19c or 26ai database software version in the same Autonomous Exadata VM Cluster",
         "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-dedicated/adbd-provisionavmc.htm",
-        "summary": "",
-        "date": "2026年4月14日",
-        "date_iso": "2026-04-14",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Availability of new Dynamic Performance Views on Oracle Autonomous AI Database on Dedicated Exadata Infrastructure",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-dedicated/adbd-new-dynamic-performanceviews.htm",
         "summary": "",
         "date": "2026年4月14日",
         "date_iso": "2026-04-14",
