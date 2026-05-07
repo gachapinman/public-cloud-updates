@@ -1,7 +1,67 @@
 {
-  "updated": "2026年05月06日 20:30 JST",
+  "updated": "2026年05月07日 13:06 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Public Preview: Azure SQL update for early-May 2026",
+        "link": "https://azure.microsoft.com/updates?id=560283",
+        "summary": "In early May 2026, the following update and enhancement was made to Azure SQL: Right‑size memory for Business Critical Azure SQL Managed Instance to improve performance without overprovisioning.…",
+        "date": "2026年5月7日",
+        "date_iso": "2026-05-07",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Retirement: Azure Document Intelligence v3.0 API will be retired on March 30, 2029",
+        "link": "https://azure.microsoft.com/updates?id=561176",
+        "summary": "On March 30, 2029, Azure Document Intelligence v3.0 API will be retired. Please migrate to latest generally available Azure Document Intelligence API version, v4.0, by that date. After March 30,…",
+        "date": "2026年5月7日",
+        "date_iso": "2026-05-07",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Bulk Restore for Azure Virtual Machines using Azure Backup",
+        "link": "https://azure.microsoft.com/updates?id=561373",
+        "summary": "Azure Backup now supports ‘Bulk Restore’ for Azure virtual machines (VMs), enabling customers to restore multiple VMs (upto 100) in a single operation. This feature simplifies large-scale recovery…",
+        "date": "2026年5月7日",
+        "date_iso": "2026-05-07",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Azure Cosmos DB Shell—your new command line for data workflows",
+        "link": "https://azure.microsoft.com/updates?id=561162",
+        "summary": "Azure Cosmos DB Shell is now available in public preview, introducing a modern command-line experience with agentic capabilities powered by Model Context Protocol (MCP). You can now query, explore,…",
+        "date": "2026年5月7日",
+        "date_iso": "2026-05-07",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Azure NetApp Files enable backup by default",
+        "link": "https://azure.microsoft.com/updates?id=560668",
+        "summary": "Azure NetApp Files now enables backup by default when creating new volumes, delivering a more seamless and secure data‑protection experience. Backups are automatically provisioned during volume…",
+        "date": "2026年5月7日",
+        "date_iso": "2026-05-07",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Azure Cosmos DB spherical quantization for improved vector search",
+        "link": "https://azure.microsoft.com/updates?id=561167",
+        "summary": "Azure Cosmos DB now offers spherical quantization in public preview to help you achieve faster vector indexing with higher recall and accuracy at scale. Spherical quantization is an advanced vector…",
+        "date": "2026年5月7日",
+        "date_iso": "2026-05-07",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AZURE"
+      },
       {
         "title": "Retirement: Azure Reserved Virtual Machines Instances for select VM series",
         "link": "https://azure.microsoft.com/updates?id=560948",
@@ -141,69 +201,119 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Connect to Azure Elastic SAN from Windows VM via VM Extension",
-        "link": "https://azure.microsoft.com/updates?id=560914",
-        "summary": "Azure Elastic SAN now supports volume connectivity for Windows Virtual Machines using the Elastic SAN VM extension, directly from the Azure Portal. This capability enables customers to connect…",
-        "date": "2026年4月29日",
-        "date_iso": "2026-04-29",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Microsoft HTTP DDoS Ruleset for Azure WAF on Azure Front Door Premium",
-        "link": "https://azure.microsoft.com/updates?id=561148",
-        "summary": "Announcing the public preview of the HTTP DDoS Ruleset on Azure Front Door Premium.HTTP-layer DDoS attacks remain a leading cause of application downtime, and traditional static controls often fall…",
-        "date": "2026年4月29日",
-        "date_iso": "2026-04-29",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Cross-region IPAM pool association in Azure Virtual Network Manager",
-        "link": "https://azure.microsoft.com/updates?id=561067",
-        "summary": "Managing IP address space across multiple regions can be difficult to scale and prone to configuration mistakes.With cross-region IPAM pool association, you can associate a single IPAM pool with…",
-        "date": "2026年4月29日",
-        "date_iso": "2026-04-29",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Bring your own AI Gateway in Foundry Agent Service",
-        "link": "https://azure.microsoft.com/updates?id=561002",
-        "summary": "Foundry Agent Service now supports bring‑your‑own‑model scenarios, allowing agents to use AI models deployed and managed outside of Foundry, including models hosted behind enterprise AI gateways such…",
-        "date": "2026年4月28日",
-        "date_iso": "2026-04-28",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Retirement: Prompt Flow in Azure ML and Foundry",
-        "link": "https://azure.microsoft.com/updates?id=502936",
-        "summary": "Prompt Flow will be retired from Microsoft Foundry and Azure Machine Learning on April 20, 2027 and replaced by a single, modern orchestration platform: Microsoft Agent Framework. This change unlocks…",
-        "date": "2026年4月28日",
-        "date_iso": "2026-04-28",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Azure Backup for Elastic SAN",
-        "link": "https://azure.microsoft.com/updates?id=560904",
-        "summary": "Azure Backup now supports Elastic SAN, offering a fully managed solution for backing up and restoring Elastic SAN volumes. This integration helps protect data against accidental deletions, ransomware…",
-        "date": "2026年4月25日",
-        "date_iso": "2026-04-25",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "AWS Site-to-Site VPN now supports modifying tunnel bandwidth on existing VPN connections",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-site-to-site-vpn-modify-bandwidth/",
+        "summary": "AWS Site-to-Site VPN now supports modifying tunnel bandwidth between standard (up to 1.25 Gbps) and large (up to 5 Gbps) on existing connections, making it easier to update your VPN connections’…",
+        "date": "2026年5月7日",
+        "date_iso": "2026-05-07",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 P6-B300 instances are now available in the US East (N. Virginia) Region",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-p6-b300-us-east",
+        "summary": "Starting today, Amazon Elastic Cloud Compute (Amazon EC2) P6-B300 instances are available in the US East (N. Virginia) Region.&nbsp;P6-B300 instances provide 8xNVIDIA Blackwell Ultra GPUs with 2.1 TB…",
+        "date": "2026年5月7日",
+        "date_iso": "2026-05-07",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Marketplace now supports programmatic procurement with Agreements API",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-marketplace-agreements-api/",
+        "summary": "Today, AWS Marketplace announces the Agreements API, enabling you to procure AWS Marketplace products and manage agreements programmatically. With this launch, you can generate estimates, accept…",
+        "date": "2026年5月7日",
+        "date_iso": "2026-05-07",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Neptune now supports 1-click connect with CloudShell",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-neptune-cloudshell/",
+        "summary": "Amazon Neptune now offers 1-click connect capability, enabling you to quickly connect to Neptune Database and Neptune Analytics using CloudShell. Previously, connecting to Neptune resources required…",
+        "date": "2026年5月7日",
+        "date_iso": "2026-05-07",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Bedrock AgentCore Memory announces metadata for long-term memory",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/agentcore-longterm-memory-metadata",
+        "summary": "Amazon Bedrock&nbsp;AgentCore&nbsp;Memory now supports&nbsp;metadata on long-term memory (LTM) records, enabling agents to tag, filter, and retrieve memories using structured attributes alongside…",
+        "date": "2026年5月7日",
+        "date_iso": "2026-05-07",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Elastic Beanstalk now supports TLS listeners for Network Load Balancers",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/elastic-beanstalk-tls-support/",
+        "summary": "AWS Elastic Beanstalk now supports TLS listeners for environments configured with a Network Load Balancer. You can configure a TLS listener with an SSL certificate and security policy, allowing the…",
+        "date": "2026年5月7日",
+        "date_iso": "2026-05-07",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Elemental MediaTailor now supports ad trickplay personalization and compact DASH manifest optimization via dynamic…",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/mediatail-ad-trickplay-and-compact-dash-manifest-optimization",
+        "summary": "AWS Elemental MediaTailor now enhances streaming ad personalization with support for trickplay features in HLS and DASH formats. This update also introduces compact DASH manifests for more efficient…",
+        "date": "2026年5月6日",
+        "date_iso": "2026-05-06",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Announcing Agent Toolkit for AWS — help AI coding agents build effectively on AWS",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/agent-toolkit/",
+        "summary": "Today, AWS is launching the Agent Toolkit for AWS, a production-ready suite of tools and guidance that helps AI coding agents build on AWS with fewer errors, lower token costs, and enterprise-grade…",
+        "date": "2026年5月6日",
+        "date_iso": "2026-05-06",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "The AWS MCP Server is now generally available",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-mcp-server/",
+        "summary": "Today, AWS announces the general availability of the AWS MCP Server, a managed server that gives AI coding agents secure, auditable access to AWS services through the Model Context Protocol (MCP).…",
+        "date": "2026年5月6日",
+        "date_iso": "2026-05-06",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Transfer Family web apps are now available in the AWS Asia Pacific (New Zealand) Region",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-transfer-family-asia-pacific/",
+        "summary": "Customers in the Asia Pacific (New Zealand) Region can now use AWS Transfer Family web apps to provide their workforce with a fully managed, branded portal for browsing, uploading, and downloading…",
+        "date": "2026年5月6日",
+        "date_iso": "2026-05-06",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Directory Service expands directory security settings with STIG-aligned controls for Managed AD",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/add-security-settings-stig-aws-microsoft-ad/",
+        "summary": "AWS Directory Service for Microsoft Active Directory (AWS Managed Microsoft AD) now has expanded its security settings to include STIG-aligned configurations for high-impact security areas. These new…",
+        "date": "2026年5月6日",
+        "date_iso": "2026-05-06",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
       {
         "title": "AWS Elemental MediaTailor now provides automatic secure server-to-server integration with Google's ad platforms",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/mediatailor-automatic-google-ad-platform-integration",
@@ -293,127 +403,17 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon Connect Cases now supports customer profile identity resolution",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-cases-customer-profiles-id-res/",
-        "summary": "Amazon Connect Cases now automatically reassociates cases when duplicate customer profiles are merged, so agents always see a complete case history for each customer. When the same customer has…",
-        "date": "2026年5月6日",
-        "date_iso": "2026-05-06",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Bedrock AgentCore is now available in AWS GovCloud (US-West)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/bedrock-agentcore-launch-aws-govcloud-us/",
-        "summary": "Amazon Bedrock AgentCore brings enterprise-grade agentic AI capabilities to workloads with elevated compliance needs in the AWS GovCloud (US-West) Region. AgentCore is a platform for building,…",
-        "date": "2026年5月5日",
-        "date_iso": "2026-05-05",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Backup improves performance for Amazon EKS cluster backups",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-backup-amazon-eks-performance-improvement/",
-        "summary": "AWS Backup for Amazon EKS now completes cluster state backups up to 10x faster. This performance improvement enables you to back up Amazon EKS clusters with a large numbers of namespaces and…",
-        "date": "2026年5月5日",
-        "date_iso": "2026-05-05",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon OpenSearch Service expands Cluster Insights with a new insight",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-opensearch-cluster-insights/",
-        "summary": "Amazon OpenSearch Service expands Cluster Insights availability to all OpenSearch versions and Elasticsearch version 6.8 and above, bringing proactive cluster health and performance visibility…",
-        "date": "2026年5月5日",
-        "date_iso": "2026-05-05",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS IAM now provides higher maximum quotas for roles, role trust policies, instance profiles, managed policies, and…",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-iam-increased-quotas/",
-        "summary": "AWS Identity and Access Management (IAM) has increased maximum quotas for six resources: Customer managed policies per account (5,000 to 10,000) Instance profiles per account (5,000 to 10,000)…",
-        "date": "2026年5月5日",
-        "date_iso": "2026-05-05",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon CloudWatch Logs Insights supports querying by log group tags",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-cloudwatch-logs-query-by-tags/",
-        "summary": "Amazon CloudWatch Logs Insights query language now supports querying log groups using tags, making it easier to analyze logs without listing the log groups explicitly. In addition to querying logs by…",
-        "date": "2026年5月5日",
-        "date_iso": "2026-05-05",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon WorkSpaces Applications now supports host-to-client URL redirection",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-workspaces-applications-url/",
-        "summary": "Amazon WorkSpaces Applications now supports host-to-client URL redirection, which automatically launches URLs from streaming sessions in the user's local browser. Administrators can configure allow…",
-        "date": "2026年5月5日",
-        "date_iso": "2026-05-05",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Entity Resolution launches support for incremental Machine Learning based matching workflows",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-entity-resolution-ml/",
-        "summary": "AWS Entity Resolution launches support for Machine Learning (ML) based Incremental Matching workflows in General Availability, fundamentally transforming how enterprises process entity resolution at…",
-        "date": "2026年5月5日",
-        "date_iso": "2026-05-05",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon FSx is now available in the AWS Asia Pacific (New Zealand) Region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-fsx-aws-asia-pacific/",
-        "summary": "Amazon FSx, a fully-managed service that makes it easy and cost effective to launch, run, and scale feature-rich, high-performance file systems in the cloud, is now available in the AWS Asia Pacific…",
-        "date": "2026年5月5日",
-        "date_iso": "2026-05-05",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Quick generates dashboards from natural language prompts",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-quick-generates-analyses-from-natural-language-prompts/",
-        "summary": "Amazon Quick now generates dashboards from natural language prompts with Generate Analysis. You describe the dashboard you want, select up to three datasets, and review an editable plan before…",
-        "date": "2026年5月5日",
-        "date_iso": "2026-05-05",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "4 new Qwen models for multimodal reasoning, agentic coding, and multilingual applications are now available in Amazon…",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/qwen-models-on-sagemaker-jumpstart/",
-        "summary": "Today, we are excited to announce the availability of four new Qwen models in Amazon SageMaker JumpStart : Qwen3.5-27B-FP8 , Qwen3.6-35B-A3B , Qwen3.5-0.8B , and Qwen3.5-2B . These models address…",
-        "date": "2026年5月5日",
-        "date_iso": "2026-05-05",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
       }
     ],
     "gcp": [
       {
         "title": "May 06, 2026",
         "link": "https://docs.cloud.google.com/release-notes#May_06_2026",
-        "summary": "Oracle Database@Google Cloud Feature For Exadata Database Service on Exascale infrastructure and Base Database Service, Oracle Database@Google Cloud supports the following regions and zones:…",
+        "summary": "BigQuery Feature You can configure BigQuery sharing listings for multiple regions, which allows you to share datasets and linked replicas across global geographies simultaneously. For more…",
         "date": "2026年5月6日",
         "date_iso": "2026-05-06",
-        "category": "database-tag",
-        "cat_label": "データベース",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "GCP"
       },
       {
@@ -609,6 +609,26 @@
     ],
     "oci": [
       {
+        "title": "OCI Kubernetes Engine (OKE) support for multiple secondary VNIC attachments",
+        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-Generic-VNIC-attachments.htm",
+        "summary": "",
+        "date": "2026年5月6日",
+        "date_iso": "2026-05-06",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "OCI"
+      },
+      {
+        "title": "Support for Kubernetes version 1.33.10",
+        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-K8s-1-33-10-support.htm",
+        "summary": "",
+        "date": "2026年5月6日",
+        "date_iso": "2026-05-06",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "OCI"
+      },
+      {
         "title": "Fleet Application Management End of Life",
         "link": "https://docs.oracle.com/iaas/releasenotes/fleet-management/may2026-eol.htm",
         "summary": "",
@@ -786,26 +806,6 @@
         "date_iso": "2026-04-20",
         "category": "network-tag",
         "cat_label": "ネットワーク",
-        "tag": "OCI"
-      },
-      {
-        "title": "Additional log support for OCI Logging Service",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-dedicated/adbd-unifiedauditlog.htm",
-        "summary": "",
-        "date": "2026年4月14日",
-        "date_iso": "2026-04-14",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Provision an Autonomous Container Database with 19c or 26ai database software version in the same Autonomous Exadata VM Cluster",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-dedicated/adbd-provisionavmc.htm",
-        "summary": "",
-        "date": "2026年4月14日",
-        "date_iso": "2026-04-14",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "OCI"
       }
     ]
