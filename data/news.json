@@ -1,5 +1,5 @@
 {
-  "updated": "2026年05月08日 14:39 JST",
+  "updated": "2026年05月08日 19:57 JST",
   "clouds": {
     "azure": [
       {
@@ -429,7 +429,7 @@
       {
         "title": "May 05, 2026",
         "link": "https://docs.cloud.google.com/release-notes#May_05_2026",
-        "summary": "Gemini Enterprise Feature Gemini Enterprise: New data store connectors (Public Preview) The following data store are available in Gemini Enterprise: Clinical Trials Crypto Excalidraw GoDaddy Granted…",
+        "summary": "Gemini Enterprise Feature Gemini Enterprise: New data stores (Public Preview) The following data store are available in Gemini Enterprise: Clinical Trials Crypto Excalidraw GoDaddy Granted Hugging…",
         "date": "2026年5月5日",
         "date_iso": "2026-05-05",
         "category": "ai-tag",
@@ -609,6 +609,66 @@
     ],
     "oci": [
       {
+        "title": "Zero Data Loss Protection with Local Autonomous Data Guard Standby",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-05-zero-dataloss-protection.htm",
+        "summary": "",
+        "date": "2026年5月8日",
+        "date_iso": "2026-05-08",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "OCI"
+      },
+      {
+        "title": "Absolute Path Support in CREATE DIRECTORY",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-05-absolute-pathsupport-createdir.htm",
+        "summary": "",
+        "date": "2026年5月8日",
+        "date_iso": "2026-05-08",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Migrate Data with DBMS_CLOUD_IMPORT",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-05-migratedata-dbmscloud.htm",
+        "summary": "",
+        "date": "2026年5月8日",
+        "date_iso": "2026-05-08",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "OCI"
+      },
+      {
+        "title": "Reduced Steps for Network Configuration Switching",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-05-network-conf-switching.htm",
+        "summary": "",
+        "date": "2026年5月8日",
+        "date_iso": "2026-05-08",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
+        "tag": "OCI"
+      },
+      {
+        "title": "Improved Outbound Connection options for Private Endpoints on Oracle Autonomous AI Database 26ai",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-05-outbound-conn-options.htm",
+        "summary": "",
+        "date": "2026年5月8日",
+        "date_iso": "2026-05-08",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Multifactor Authentication in Autonomous AI Database 26ai",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-05-multifactor-authentication-aidb.htm",
+        "summary": "",
+        "date": "2026年5月8日",
+        "date_iso": "2026-05-08",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
         "title": "OCI Kubernetes Engine (OKE) support for multiple secondary VNIC attachments",
         "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-Generic-VNIC-attachments.htm",
         "summary": "",
@@ -746,66 +806,6 @@
         "date_iso": "2026-04-21",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Time-Based Snapshot Locks in File Storage",
-        "link": "https://docs.oracle.com/iaas/releasenotes/filestorage/snapshot-lock-time-based.htm",
-        "summary": "",
-        "date": "2026年4月21日",
-        "date_iso": "2026-04-21",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
-        "tag": "OCI"
-      },
-      {
-        "title": "Oracle Cloud Success Assurance Service available in Oracle US Government Cloud and US Defense Cloud",
-        "link": "https://docs.oracle.com/iaas/releasenotes/govcloud/cloud_success_fedramp.htm",
-        "summary": "",
-        "date": "2026年4月20日",
-        "date_iso": "2026-04-20",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Object Storage Supports Updating Buckets to Support Amazon S3 Virtual-Hosted Style URLs",
-        "link": "https://docs.oracle.com/iaas/releasenotes/objectstorage/s3_vhost_existing_buckets.htm",
-        "summary": "",
-        "date": "2026年4月20日",
-        "date_iso": "2026-04-20",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
-        "tag": "OCI"
-      },
-      {
-        "title": "Deprecation of Bitbucket Cloud app passwords",
-        "link": "https://docs.oracle.com/iaas/releasenotes/resource-manager/deprecation_of_bitbucket_cloud_app_passwords.htm",
-        "summary": "",
-        "date": "2026年4月20日",
-        "date_iso": "2026-04-20",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "OCI"
-      },
-      {
-        "title": "Deprecated attributes",
-        "link": "https://docs.oracle.com/iaas/releasenotes/support/apr-2026-deprecated-attributes.htm",
-        "summary": "",
-        "date": "2026年4月20日",
-        "date_iso": "2026-04-20",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Allow additional outbound network traffic using egress rules",
-        "link": "https://docs.oracle.com/iaas/releasenotes/fusion-applications/egress-rules.htm",
-        "summary": "",
-        "date": "2026年4月20日",
-        "date_iso": "2026-04-20",
-        "category": "network-tag",
-        "cat_label": "ネットワーク",
         "tag": "OCI"
       }
     ]
