@@ -1,5 +1,5 @@
 {
-  "updated": "2026年05月08日 12:54 JST",
+  "updated": "2026年05月08日 14:39 JST",
   "clouds": {
     "azure": [
       {
@@ -375,6 +375,16 @@
         "tag": "AWS"
       },
       {
+        "title": "Amazon Redshift now scales data ingestion automatically with concurrency scaling for batch workloads",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/concurrencyscaling-support-for-copy",
+        "summary": "Amazon Redshift now scales data ingestion automatically with concurrency scaling for batch workloads Posted on: May 7, 2026 Amazon Redshift now extends concurrency scaling to support high-volume data…",
+        "date": "2026年5月7日",
+        "date_iso": "2026-05-07",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon OpenSearch Service now supports VPC egress for private connectivity to resources in your VPC",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-opensearch-service-vpc",
         "summary": "Amazon OpenSearch Service now supports the VPC egress option, which allows your virtual private cloud (VPC) domain to establish private network connections to resources in your VPC, such as ML…",
@@ -392,16 +402,6 @@
         "date_iso": "2026-05-07",
         "category": "network-tag",
         "cat_label": "ネットワーク",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 P6-B200 instances are now available in the AWS GovCloud (US-West) Region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-p6-b200-aws-govcloud",
-        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) P6-B200 instances accelerated by NVIDIA Blackwell GPUs are available in AWS GovCloud (US-West) Region.&nbsp;These instances offer up to 2x…",
-        "date": "2026年5月7日",
-        "date_iso": "2026-05-07",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "AWS"
       }
     ],
