@@ -1,5 +1,5 @@
 {
-  "updated": "2026年05月08日 19:57 JST",
+  "updated": "2026年05月09日 12:57 JST",
   "clouds": {
     "azure": [
       {
@@ -205,6 +205,76 @@
     ],
     "aws": [
       {
+        "title": "AWS Client VPN now supports Ubuntu OS version 26.04 LTS",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-client-vpn-ubuntu-26/",
+        "summary": "AWS Client VPN now supports Linux desktop client with Ubuntu versions 26.04 LTS. You can now run the AWS supplied VPN client on the latest Ubuntu OS versions. AWS Client VPN desktop clients are…",
+        "date": "2026年5月9日",
+        "date_iso": "2026-05-09",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Connect adds default Step-by-Step Guides for After Contact Work",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-adds-default-step-by-step-guides-for-after-contact-work",
+        "summary": "Amazon Connect now supports Default Guides for After Contact Work (ACW), enabling contact center administrators to automatically launch a Step-by-Step Guide when an agent enters the ACW state without…",
+        "date": "2026年5月9日",
+        "date_iso": "2026-05-09",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Route 53 Global Resolver now lets you add and remove AWS Regions for anycast DNS resolution",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-route-global-resolver-aws/",
+        "summary": "Amazon Route 53 Global Resolver now lets you add and remove AWS Regions for anycast DNS resolution, giving you flexible control over where your DNS queries are resolved. This allows you to easily…",
+        "date": "2026年5月9日",
+        "date_iso": "2026-05-09",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Service Catalog is now available in the AWS Asia Pacific (New Zealand) and Canada West (Calgary) regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-service-catalog-calgary-new-zealand-regions/",
+        "summary": "AWS Service Catalog is now available to customers in two additional AWS Regions: Asia Pacific (New Zealand) and Canada West (Calgary). AWS Service Catalog enables customers to create, govern, and…",
+        "date": "2026年5月9日",
+        "date_iso": "2026-05-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "IAM Policy Autopilot adds Java support and Terraform-aware policy generation",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/iam-policy-autopilot/",
+        "summary": "IAM Policy Autopilot now supports Java applications and Terraform-aware policy generation, expanding its language coverage and its ability to generate less permissive IAM policies from code. IAM…",
+        "date": "2026年5月8日",
+        "date_iso": "2026-05-08",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Route 53 Resolver endpoints now support additional capabilities for IPv6 query traffic",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-route-53-resolver-ipv6/",
+        "summary": "Amazon Route 53 Resolver endpoints now support DNS64 on inbound endpoints and IPv6 forwarding through the internet gateway (IGW) on outbound endpoints, making it easier to manage hybrid DNS across…",
+        "date": "2026年5月8日",
+        "date_iso": "2026-05-08",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Marketplace introduces Tax management portal for sellers",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-marketplace-tax/",
+        "summary": "AWS Marketplace launches a new Tax management portal that provides sellers a streamlined self-service process to view and download invoices, eliminating the need to request invoices through support…",
+        "date": "2026年5月8日",
+        "date_iso": "2026-05-08",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon EC2 G6 instances now available in AWS European Sovereign Cloud (Germany)",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-g6-aws-european-sovereign-cloud/",
         "summary": "Starting today, the Amazon Elastic Compute Cloud (Amazon EC2) G6 instances powered by NVIDIA L4 GPUs are available in AWS European Sovereign Cloud (Germany). G6 instances can be used for a wide range…",
@@ -333,79 +403,19 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "Agents that transact: Amazon Bedrock AgentCore now includes Payments (preview)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-bedrock-agentcore-payments-preview",
-        "summary": "Today, Amazon Bedrock AgentCore announces the preview of AgentCore payments, enabling AI agents to autonomously access and pay for APIs, MCP servers, web content, and other agents. Built in…",
-        "date": "2026年5月7日",
-        "date_iso": "2026-05-07",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Resource Explorer is now available in AWS GovCloud (US-East) and (US-West)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-resource-explorer-available-aws-govcloud/",
-        "summary": "We are pleased to announce that AWS Resource Explorer, a managed capability that simplifies the search and discovery of resources, is now available in the AWS GovCloud Regions (US-East) and…",
-        "date": "2026年5月7日",
-        "date_iso": "2026-05-07",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon RDS for SQL Server now supports instances powered by AMD EPYC processors",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/rds-sqlserver-supports-amd-instances/",
-        "summary": "Amazon RDS for SQL Server now supports M8a and R8a instances powered by 5th Generation AMD EPYC processors. On RDS for SQL Server, R8a and M8a instances deliver up to 70% higher throughput than…",
-        "date": "2026年5月7日",
-        "date_iso": "2026-05-07",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SES Mail Manager now available in AWS GovCloud (US) Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/ses-mail-manager-available-aws-govcloud-regions",
-        "summary": "Amazon SES Mail Manager is now available in AWS GovCloud (US) regions, expanding Mail Manager coverage to 30 AWS regions. Amazon SES Mail Manager provides a centralized gateway to manage all inbound…",
-        "date": "2026年5月7日",
-        "date_iso": "2026-05-07",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Redshift now scales data ingestion automatically with concurrency scaling for batch workloads",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/concurrencyscaling-support-for-copy",
-        "summary": "Amazon Redshift now scales data ingestion automatically with concurrency scaling for batch workloads Posted on: May 7, 2026 Amazon Redshift now extends concurrency scaling to support high-volume data…",
-        "date": "2026年5月7日",
-        "date_iso": "2026-05-07",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon OpenSearch Service now supports VPC egress for private connectivity to resources in your VPC",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-opensearch-service-vpc",
-        "summary": "Amazon OpenSearch Service now supports the VPC egress option, which allows your virtual private cloud (VPC) domain to establish private network connections to resources in your VPC, such as ML…",
-        "date": "2026年5月7日",
-        "date_iso": "2026-05-07",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Site-to-Site VPN now supports modifying tunnel bandwidth on existing VPN connections",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-site-to-site-vpn-modify-bandwidth/",
-        "summary": "AWS Site-to-Site VPN now supports modifying tunnel bandwidth between standard (up to 1.25 Gbps) and large (up to 5 Gbps) on existing connections, making it easier to update your VPN connections’…",
-        "date": "2026年5月7日",
-        "date_iso": "2026-05-07",
-        "category": "network-tag",
-        "cat_label": "ネットワーク",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "May 08, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#May_08_2026",
+        "summary": "BigQuery Announcement Starting August 11, 2026, the billing label for the BigQuery Data Transfer Service SKU will be updated from goog-bq-feature-type: DATA_TRANSFER_SERVICE (uppercase) to…",
+        "date": "2026年5月8日",
+        "date_iso": "2026-05-08",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "GCP"
+      },
       {
         "title": "May 07, 2026",
         "link": "https://docs.cloud.google.com/release-notes#May_07_2026",
@@ -429,7 +439,7 @@
       {
         "title": "May 05, 2026",
         "link": "https://docs.cloud.google.com/release-notes#May_05_2026",
-        "summary": "Gemini Enterprise Feature Gemini Enterprise: New data stores (Public Preview) The following data store are available in Gemini Enterprise: Clinical Trials Crypto Excalidraw GoDaddy Granted Hugging…",
+        "summary": "Config Connector Announcement Config Connector version 1.149.1 is now available. Feature New Alpha Resources (Direct Reconciler): NetworkServicesLBRouteExtension #6957 Manage load balancing route…",
         "date": "2026年5月5日",
         "date_iso": "2026-05-05",
         "category": "ai-tag",
@@ -595,16 +605,6 @@
         "category": "database-tag",
         "cat_label": "データベース",
         "tag": "GCP"
-      },
-      {
-        "title": "April 16, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#April_16_2026",
-        "summary": "AI Hypercomputer Feature Generally available : The AI Hypercomputer documentation includes support for the A3 Mega and A3 High machine types. The addition of A3 Mega and A3 High expand the available…",
-        "date": "2026年4月16日",
-        "date_iso": "2026-04-16",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
       }
     ],
     "oci": [
@@ -699,6 +699,16 @@
         "tag": "OCI"
       },
       {
+        "title": "Standardized Authentication Error Responses and New Error Code AUTH-3001",
+        "link": "https://docs.oracle.com/iaas/releasenotes/identity/standardized_authentication_error_responses.htm",
+        "summary": "",
+        "date": "2026年5月1日",
+        "date_iso": "2026-05-01",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "OCI"
+      },
+      {
         "title": "Demonstration Environment Cloud Service (DECS) for Oracle Fusion Applications",
         "link": "https://docs.oracle.com/iaas/releasenotes/fusion-applications/vision-demo-pods.htm",
         "summary": "",
@@ -759,6 +769,26 @@
         "tag": "OCI"
       },
       {
+        "title": "User Email Notifications for MFA Resets and Bypass Code Generation",
+        "link": "https://docs.oracle.com/iaas/releasenotes/identity/user_email_notifications_mfa_resets_and_bypass_code_generation.htm",
+        "summary": "",
+        "date": "2026年4月23日",
+        "date_iso": "2026-04-23",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Client Secrets for Oracle-Provisioned Applications Are No Longer Visible",
+        "link": "https://docs.oracle.com/iaas/releasenotes/identity/client-secrets-integrated-apps-no-longer-visible-console.htm",
+        "summary": "",
+        "date": "2026年4月23日",
+        "date_iso": "2026-04-23",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
         "title": "Support for Additional Autonomous AI Database Types",
         "link": "https://docs.oracle.com/iaas/releasenotes/operations-insights/support-additional-adb-types.htm",
         "summary": "",
@@ -771,36 +801,6 @@
       {
         "title": "New Oracle Cloud Console experience for Data Science",
         "link": "https://docs.oracle.com/iaas/releasenotes/data-science/console-experience.htm",
-        "summary": "",
-        "date": "2026年4月21日",
-        "date_iso": "2026-04-21",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "New connection types added for GoldenGate",
-        "link": "https://docs.oracle.com/iaas/releasenotes/goldengate/r10connections.htm",
-        "summary": "",
-        "date": "2026年4月21日",
-        "date_iso": "2026-04-21",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Oracle Critical Patch Update (CPU) April 2026 for Oracle Java SE",
-        "link": "https://docs.oracle.com/iaas/releasenotes/java-management/jdk-cpu-april-2026.htm",
-        "summary": "",
-        "date": "2026年4月21日",
-        "date_iso": "2026-04-21",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Improved Compute usage metrics in OCI Control Center",
-        "link": "https://docs.oracle.com/iaas/releasenotes/control-center/metrics-improved.htm",
         "summary": "",
         "date": "2026年4月21日",
         "date_iso": "2026-04-21",
