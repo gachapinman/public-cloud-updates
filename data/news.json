@@ -1,5 +1,5 @@
 {
-  "updated": "2026年05月09日 15:04 JST",
+  "updated": "2026年05月09日 19:38 JST",
   "clouds": {
     "azure": [
       {
@@ -699,16 +699,6 @@
         "tag": "OCI"
       },
       {
-        "title": "Standardized Authentication Error Responses and New Error Code AUTH-3001",
-        "link": "https://docs.oracle.com/iaas/releasenotes/identity/standardized_authentication_error_responses.htm",
-        "summary": "",
-        "date": "2026年5月1日",
-        "date_iso": "2026-05-01",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "OCI"
-      },
-      {
         "title": "Demonstration Environment Cloud Service (DECS) for Oracle Fusion Applications",
         "link": "https://docs.oracle.com/iaas/releasenotes/fusion-applications/vision-demo-pods.htm",
         "summary": "",
@@ -769,26 +759,6 @@
         "tag": "OCI"
       },
       {
-        "title": "User Email Notifications for MFA Resets and Bypass Code Generation",
-        "link": "https://docs.oracle.com/iaas/releasenotes/identity/user_email_notifications_mfa_resets_and_bypass_code_generation.htm",
-        "summary": "",
-        "date": "2026年4月23日",
-        "date_iso": "2026-04-23",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Client Secrets for Oracle-Provisioned Applications Are No Longer Visible",
-        "link": "https://docs.oracle.com/iaas/releasenotes/identity/client-secrets-integrated-apps-no-longer-visible-console.htm",
-        "summary": "",
-        "date": "2026年4月23日",
-        "date_iso": "2026-04-23",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
         "title": "Support for Additional Autonomous AI Database Types",
         "link": "https://docs.oracle.com/iaas/releasenotes/operations-insights/support-additional-adb-types.htm",
         "summary": "",
@@ -801,6 +771,36 @@
       {
         "title": "New Oracle Cloud Console experience for Data Science",
         "link": "https://docs.oracle.com/iaas/releasenotes/data-science/console-experience.htm",
+        "summary": "",
+        "date": "2026年4月21日",
+        "date_iso": "2026-04-21",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "New connection types added for GoldenGate",
+        "link": "https://docs.oracle.com/iaas/releasenotes/goldengate/r10connections.htm",
+        "summary": "",
+        "date": "2026年4月21日",
+        "date_iso": "2026-04-21",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Oracle Critical Patch Update (CPU) April 2026 for Oracle Java SE",
+        "link": "https://docs.oracle.com/iaas/releasenotes/java-management/jdk-cpu-april-2026.htm",
+        "summary": "",
+        "date": "2026年4月21日",
+        "date_iso": "2026-04-21",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Improved Compute usage metrics in OCI Control Center",
+        "link": "https://docs.oracle.com/iaas/releasenotes/control-center/metrics-improved.htm",
         "summary": "",
         "date": "2026年4月21日",
         "date_iso": "2026-04-21",
