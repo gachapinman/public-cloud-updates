@@ -1,5 +1,5 @@
 {
-  "updated": "2026年05月11日 21:31 JST",
+  "updated": "2026年05月12日 13:06 JST",
   "clouds": {
     "azure": [
       {
@@ -205,6 +205,106 @@
     ],
     "aws": [
       {
+        "title": "Announcing Region Expansion of P6-B200 instances on SageMaker Studio notebooks",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/p6-b200-region-expansion-sagemaker-studio-notebooks/",
+        "summary": "We are pleased to announce general availability of Amazon EC2 P6-B200 instances in AWS US East (N. Virginia) on SageMaker Studio notebooks. Amazon EC2 P6-B200 instances &nbsp;are powered by 8 NVIDIA…",
+        "date": "2026年5月12日",
+        "date_iso": "2026-05-12",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Announcing Region Expansion of G6e instances on SageMaker Studio notebooks",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/g6e-region-expansion-sagemaker-studio-notebooks/",
+        "summary": "We are pleased to announce general availability of Amazon EC2 G6e instances in the Middle East (Dubai), Asia Pacific (Tokyo, Seoul) and Europe (Frankfurt, Stockholm, Spain) on SageMaker Studio…",
+        "date": "2026年5月12日",
+        "date_iso": "2026-05-12",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Announcing Region Expansion of G6 instances on SageMaker Studio notebooks",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/g6-region-expansion-sagemaker-studio-notebooks/",
+        "summary": "We are pleased to announce general availability of Amazon EC2 G6 instances in the Middle East (Dubai) and Asia Pacific (Malaysia) on SageMaker Studio notebooks. Amazon EC2 G6 instances &nbsp;are…",
+        "date": "2026年5月12日",
+        "date_iso": "2026-05-12",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "ENA Express for Amazon EC2 instances now supports traffic between Availability Zones",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/ena-express-availability-zones/",
+        "summary": "Elastic Network Adapter (ENA) Express now supports traffic between Amazon EC2 instances in different Availability Zones within a Region, delivering up to 25 Gbps single-flow bandwidth. ENA Express is…",
+        "date": "2026年5月12日",
+        "date_iso": "2026-05-12",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Announcing Region Expansion of P4de instances on SageMaker Studio notebooks",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/p4de-region-expansion-sagemaker-studio-notebooks/",
+        "summary": "We are pleased to announce general availability of Amazon EC2 P4de instances in Asia Pacific (Tokyo, Singapore) and Europe (Frankfurt) on SageMaker Studio notebooks. Amazon EC2 P4de instances…",
+        "date": "2026年5月12日",
+        "date_iso": "2026-05-12",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Aurora DSQL is now available in five additional AWS Regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-aurora-dsql-five-additional-aws-regions/",
+        "summary": "Amazon Aurora DSQL single-Region clusters are now available in Asia Pacific (Hong Kong), Asia Pacific (Mumbai), Asia Pacific (Singapore), Europe (Stockholm), and South America (Sao Paulo). Aurora…",
+        "date": "2026年5月12日",
+        "date_iso": "2026-05-12",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS HealthOmics now supports caching of cancelled workflow runs",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-healthomics-caching-cancelled-runs/",
+        "summary": "AWS HealthOmics now supports caching completed task outputs of cancelled runs, enabling customers to reuse outputs and avoid recomputing previously completed tasks. When caching is enabled and a run…",
+        "date": "2026年5月12日",
+        "date_iso": "2026-05-12",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS WAF introduces dynamic label interpolation for custom request and response handling",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-waf-dynamic-label-interpolation/",
+        "summary": "AWS WAF now supports dynamic label interpolation, enabling you to forward WAF classification signals to your origin and embed context in responses with a single rule. Security engineers who…",
+        "date": "2026年5月12日",
+        "date_iso": "2026-05-12",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Claude Platform on AWS is now generally available",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/claude-platform-aws/",
+        "summary": "Today, AWS announced the general availability of Claude Platform on AWS, a new service that gives customers direct access to&nbsp;Anthropic's&nbsp;native Claude Platform experience through their…",
+        "date": "2026年5月11日",
+        "date_iso": "2026-05-11",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Transform adds containerization capability during migrations",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-transform-containerization/",
+        "summary": "AWS Transform now supports replatforming applications to containers during migration to AWS. This release extends AWS Transform's agentic AI capabilities to automate the containerization of your…",
+        "date": "2026年5月11日",
+        "date_iso": "2026-05-11",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
         "title": "AWS Client VPN now supports Ubuntu OS version 26.04 LTS",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-client-vpn-ubuntu-26/",
         "summary": "AWS Client VPN now supports Linux desktop client with Ubuntu versions 26.04 LTS. You can now run the AWS supplied VPN client on the latest Ubuntu OS versions. AWS Client VPN desktop clients are…",
@@ -303,109 +403,19 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 G7e instances now available in Europe (London) region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-g7e-london-region/",
-        "summary": "Starting today, Amazon EC2 G7e instances accelerated by NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs are now available in Europe (London) region. G7e instances offer up to 2.3x inference…",
-        "date": "2026年5月8日",
-        "date_iso": "2026-05-08",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Capabilities by Region now supports availability notifications",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-regional-planning-tool-notification",
-        "summary": "Today, AWS announces availability notifications for AWS Capabilities by Region in AWS Builder Center, a new subscription-based system that automatically alerts builders when&nbsp;an&nbsp;AWS…",
-        "date": "2026年5月8日",
-        "date_iso": "2026-05-08",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Elemental MediaTailor launches Monetization Functions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-elemental-mediatailor-monetization-functions",
-        "summary": "AWS Elemental MediaTailor now supports&nbsp;monetization&nbsp;functions,&nbsp;a new capability that lets customers customize how MediaTailor builds ad decision server (ADS) requests and manages…",
-        "date": "2026年5月8日",
-        "date_iso": "2026-05-08",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Advanced JDBC Wrapper now provides client-side encryption",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-advanced-jdbc-wrapper-encryption/",
-        "summary": "The AWS Advanced JDBC Wrapper now provides column-level client-side encryption through its KMS Encryption plugin. The wrapper provides advanced capabilities such as failover handling, AWS…",
-        "date": "2026年5月8日",
-        "date_iso": "2026-05-08",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Connect Outbound Campaigns adds multi-contact time zone detection",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-campaign-multitimezone",
-        "summary": "Amazon Connect Outbound Campaigns now detects customer&nbsp;time zones&nbsp;using all phone numbers and addresses on a customer profile, not just the primary contact fields.&nbsp;Previously, time…",
-        "date": "2026年5月8日",
-        "date_iso": "2026-05-08",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SageMaker HyperPod now supports AMI-based node lifecycle configuration for Slurm clusters",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-hyperpod-ami-based-node/",
-        "summary": "Amazon SageMaker HyperPod now supports AMI-based configuration that provisions Slurm cluster nodes with the software and configurations needed for a production-ready environment to run AI/ML training…",
-        "date": "2026年5月8日",
-        "date_iso": "2026-05-08",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 M8gn and M8gb instances are now available in AWS Europe (Ireland) region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-m8gn-m8gb-aws-europe/",
-        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) M8gn and M8gb instances are available in the AWS Europe (Ireland) region. These instances are powered by AWS Graviton4 processors to deliver…",
-        "date": "2026年5月8日",
-        "date_iso": "2026-05-08",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS India customers can now use UPI Scan and Pay for sign-up and payments",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-india-upi-scanandpay/",
-        "summary": "India customers can now use UPI (Unified Payments Interface) Scan and Pay to sign up for AWS or make payments to their invoices. UPI is a popular and convenient payment method in India, which…",
-        "date": "2026年5月8日",
-        "date_iso": "2026-05-08",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Introducing Amazon EC2 R8idn and R8idb instances",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-r8idn-r8idb/",
-        "summary": "AWS is announcing the general availability of Amazon EC2 R8idn and Amazon EC2 R8idb instances, powered by custom sixth generation Intel Xeon Scalable processors, available only on AWS. These…",
-        "date": "2026年5月8日",
-        "date_iso": "2026-05-08",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Introducing Amazon EC2 M8idn and M8idb instances",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-m8idn-m8idb/",
-        "summary": "AWS is announcing the general availability of Amazon EC2 M8idn and Amazon EC2 M8idb instances, powered by custom sixth generation Intel Xeon Scalable processors, available only on AWS. These…",
-        "date": "2026年5月8日",
-        "date_iso": "2026-05-08",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "May 11, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#May_11_2026",
+        "summary": "AlloyDB for PostgreSQL Announcement AlloyDB now offers extended support for clusters running major PostgreSQL versions that have reached their end-of-life (EOL) as defined by the PostgreSQL…",
+        "date": "2026年5月11日",
+        "date_iso": "2026-05-11",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "GCP"
+      },
       {
         "title": "May 08, 2026",
         "link": "https://docs.cloud.google.com/release-notes#May_08_2026",
@@ -592,16 +602,6 @@
         "summary": "Cloud SQL for MySQL Feature Newly created Cloud SQL instances are integrating with Knowledge Catalog (formerly Dataplex Universal Catalog) for data discovery. Instances on MySQL version 8.0 or later…",
         "date": "2026年4月18日",
         "date_iso": "2026-04-18",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "GCP"
-      },
-      {
-        "title": "April 17, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#April_17_2026",
-        "summary": "AlloyDB for PostgreSQL Issue When querying your Elasticsearch data using standard SQL queries and specifying an OFFSET , if the OFFSET gets pushed down, it gets applied twice. For example, if your…",
-        "date": "2026年4月17日",
-        "date_iso": "2026-04-17",
         "category": "database-tag",
         "cat_label": "データベース",
         "tag": "GCP"
