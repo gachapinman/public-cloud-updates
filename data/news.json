@@ -1,5 +1,5 @@
 {
-  "updated": "2026年05月13日 15:38 JST",
+  "updated": "2026年05月13日 20:51 JST",
   "clouds": {
     "azure": [
       {
@@ -419,7 +419,7 @@
       {
         "title": "May 11, 2026",
         "link": "https://docs.cloud.google.com/release-notes#May_11_2026",
-        "summary": "Cloud SQL for MySQL Feature Cloud SQL for MySQL now supports regional endpoints for the Cloud SQL Admin API. This feature lets you direct your API calls to a region-specific endpoint, which ensures…",
+        "summary": "AlloyDB for PostgreSQL Announcement AlloyDB now offers extended support for clusters running major PostgreSQL versions that have reached their end-of-life (EOL) as defined by the PostgreSQL…",
         "date": "2026年5月11日",
         "date_iso": "2026-05-11",
         "category": "database-tag",
@@ -539,11 +539,11 @@
       {
         "title": "April 28, 2026",
         "link": "https://docs.cloud.google.com/release-notes#April_28_2026",
-        "summary": "BigQuery Feature You can now create materialized views over active change data capture (CDC) enabled tables . This feature is generally available (GA). Cloud Asset Inventory Feature The following…",
+        "summary": "AlloyDB for PostgreSQL Change When the initial user or password is unspecified during cluster creation, a locked postgres role with null password is created. BigQuery Feature You can now create…",
         "date": "2026年4月28日",
         "date_iso": "2026-04-28",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
+        "category": "database-tag",
+        "cat_label": "データベース",
         "tag": "GCP"
       },
       {
@@ -589,21 +589,21 @@
       {
         "title": "April 21, 2026",
         "link": "https://docs.cloud.google.com/release-notes#April_21_2026",
-        "summary": "BigQuery Feature You can now visualize BigQuery graph query results and graph schemas directly in BigQuery Studio, without the need of a notebook environment. This feature is in Preview . Cloud Asset…",
+        "summary": "AlloyDB for PostgreSQL Feature The integration between AlloyDB for PostgreSQL and Knowledge Catalog (in Preview ) is now enabled by default for all new AlloyDB clusters. This integration provides a…",
         "date": "2026年4月21日",
         "date_iso": "2026-04-21",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
+        "category": "database-tag",
+        "cat_label": "データベース",
         "tag": "GCP"
       },
       {
         "title": "April 20, 2026",
         "link": "https://docs.cloud.google.com/release-notes#April_20_2026",
-        "summary": "Apigee hybrid Announcement v1.16.1 On April 20, 2026 we released an updated version of the Apigee hybrid software, v1.16.1. For information on upgrading, see Upgrading Apigee hybrid to version…",
+        "summary": "AlloyDB for PostgreSQL Feature You can now use the Database Insights remote MCP server to analyze AlloyDB's performance and system metrics. This feature is in GA . Feature The AlloyDB remote MCP…",
         "date": "2026年4月20日",
         "date_iso": "2026-04-20",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
+        "category": "database-tag",
+        "cat_label": "データベース",
         "tag": "GCP"
       }
     ],
