@@ -1,7 +1,17 @@
 {
-  "updated": "2026年05月13日 20:51 JST",
+  "updated": "2026年05月14日 13:13 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Public Preview: Azure Container Apps Express",
+        "link": "https://azure.microsoft.com/updates?id=559242",
+        "summary": "Azure Container Apps Express is now available in public preview. It is the simplest and fastest way to launch and scale powerful applications on Azure, from zero to hyperscale, without infrastructure…",
+        "date": "2026年5月14日",
+        "date_iso": "2026-05-14",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Generally Available: Azure Monitor dashboards with Grafana in Public, Government (Fairfax) and China",
         "link": "https://azure.microsoft.com/updates?id=561564",
@@ -191,19 +201,39 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Azure Functions durable task scheduler Consumption SKU",
-        "link": "https://azure.microsoft.com/updates?id=560957",
-        "summary": "The Durable Task Scheduler Consumption SKU is now generally available. Run durable workflows and AI agent orchestrations on Azure with pay-per-use pricing. No storage to manage, no capacity to plan,…",
-        "date": "2026年5月5日",
-        "date_iso": "2026-05-05",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Amazon SageMaker Data Agent now available for IAM Identity Center domains",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-data-agent-idc/",
+        "summary": "Amazon SageMaker Data Agent is now available in SageMaker Unified Studio domains configured with IAM Identity Center. Data Agent extends its AI-powered capabilities to help data analysts and…",
+        "date": "2026年5月14日",
+        "date_iso": "2026-05-14",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon FSx for OpenZFS now supports creating Multi-AZ file systems in shared VPCs",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-fsx-openzfs-multi-az-vpcs/",
+        "summary": "Amazon&nbsp;FSx&nbsp;for&nbsp;OpenZFS&nbsp;now&nbsp;allows&nbsp;you to create&nbsp;Multi-AZ&nbsp;file systems in&nbsp;shared&nbsp;VPCs&nbsp;within your AWS organization, making it easier for…",
+        "date": "2026年5月14日",
+        "date_iso": "2026-05-14",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon RDS for Oracle now supports M8i and R8i instances with Oracle SE2 License Included",
+        "link": "https://aws.amazon.com/about-aws/whats-new/amazon-oracle-m8i-r8i-license-included",
+        "summary": "Amazon RDS for Oracle now offers M8i and R8i instances with Oracle Database Standard Edition 2 (SE2) with the License Included (LI). M8i and R8i instances are powered by custom Intel Xeon 6…",
+        "date": "2026年5月13日",
+        "date_iso": "2026-05-13",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
       {
         "title": "AWS Lambda supports scheduled scaling for functions on Lambda Managed Instances",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-lambda-managed-instances/",
@@ -285,9 +315,39 @@
         "tag": "AWS"
       },
       {
+        "title": "Announcing Region Expansion of P5.48xl instances on SageMaker Studio notebooks",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/p5-48xl-region-expansion-sagemaker-studio-notebooks/",
+        "summary": "We are pleased to announce general availability of Amazon EC2 P5.48xl instances in the AWS US West (San Francisco), Asia Pacific (Tokyo, Mumbai, Sydney, Jakarta) and Europe (London, Stockholm)…",
+        "date": "2026年5月12日",
+        "date_iso": "2026-05-12",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Announcing Region Expansion of G6 instances on SageMaker Notebook Instances",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/g6-region-expansion-sagemaker-notebook-instances/",
+        "summary": "We are pleased to announce general availability of Amazon EC2 G6 instances in Asia Pacific (Tokyo, Mumbai, Sydney) and Europe (London, Paris, Frankfurt, Stockholm, Zurich) on SageMaker notebook…",
+        "date": "2026年5月12日",
+        "date_iso": "2026-05-12",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
         "title": "Announcing Region Expansion of P6-B200 instances on SageMaker Studio notebooks",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/p6-b200-region-expansion-sagemaker-studio-notebooks/",
         "summary": "We are pleased to announce general availability of Amazon EC2 P6-B200 instances in AWS US East (N. Virginia) on SageMaker Studio notebooks. Amazon EC2 P6-B200 instances &nbsp;are powered by 8 NVIDIA…",
+        "date": "2026年5月12日",
+        "date_iso": "2026-05-12",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "ENA Express for Amazon EC2 instances now supports traffic between Availability Zones",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/ena-express-availability-zones/",
+        "summary": "Elastic Network Adapter (ENA) Express now supports traffic between Amazon EC2 instances in different Availability Zones within a Region, delivering up to 25 Gbps single-flow bandwidth. ENA Express is…",
         "date": "2026年5月12日",
         "date_iso": "2026-05-12",
         "category": "ai-tag",
@@ -308,16 +368,6 @@
         "title": "Announcing Region Expansion of G6 instances on SageMaker Studio notebooks",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/g6-region-expansion-sagemaker-studio-notebooks/",
         "summary": "We are pleased to announce general availability of Amazon EC2 G6 instances in the Middle East (Dubai) and Asia Pacific (Malaysia) on SageMaker Studio notebooks. Amazon EC2 G6 instances &nbsp;are…",
-        "date": "2026年5月12日",
-        "date_iso": "2026-05-12",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "ENA Express for Amazon EC2 instances now supports traffic between Availability Zones",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/ena-express-availability-zones/",
-        "summary": "Elastic Network Adapter (ENA) Express now supports traffic between Amazon EC2 instances in different Availability Zones within a Region, delivering up to 25 Gbps single-flow bandwidth. ENA Express is…",
         "date": "2026年5月12日",
         "date_iso": "2026-05-12",
         "category": "ai-tag",
@@ -353,59 +403,19 @@
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "AWS"
-      },
-      {
-        "title": "AWS WAF introduces dynamic label interpolation for custom request and response handling",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-waf-dynamic-label-interpolation/",
-        "summary": "AWS WAF now supports dynamic label interpolation, enabling you to forward WAF classification signals to your origin and embed context in responses with a single rule. Security engineers who…",
-        "date": "2026年5月12日",
-        "date_iso": "2026-05-12",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SageMaker Unified Studio adds getting started tutorials and in-product release notes",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/smus-getting-started",
-        "summary": "Amazon SageMaker Unified Studio now helps you get productive faster with getting started tutorials and a development environment appearance that automatically adapts to your system preference, and…",
-        "date": "2026年5月12日",
-        "date_iso": "2026-05-12",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Route 53 Domains adds support for 34 new Top Level Domains including .app, .dev, and .health.",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-route-53-domains/",
-        "summary": "Amazon Route 53 Domains now supports registration and management of 34 new top-level domains (TLDs), including .app, .dev, .art, .forum, .health, and .realty. This expansion enhances Route 53's…",
-        "date": "2026年5月12日",
-        "date_iso": "2026-05-12",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Claude Platform on AWS is now generally available",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/claude-platform-aws/",
-        "summary": "Today, AWS announced the general availability of Claude Platform on AWS, a new service that gives customers direct access to&nbsp;Anthropic's&nbsp;native Claude Platform experience through their…",
-        "date": "2026年5月11日",
-        "date_iso": "2026-05-11",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Transform adds containerization capability during migrations",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-transform-containerization/",
-        "summary": "AWS Transform now supports replatforming applications to containers during migration to AWS. This release extends AWS Transform's agentic AI capabilities to automate the containerization of your…",
-        "date": "2026年5月11日",
-        "date_iso": "2026-05-11",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "May 13, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#May_13_2026",
+        "summary": "Apigee hybrid Announcement v1.16.2 On May 13, 2026 we released an updated version of the Apigee hybrid software, v1.16.2. For information on upgrading, see Upgrading Apigee hybrid to version v1.16.2…",
+        "date": "2026年5月13日",
+        "date_iso": "2026-05-13",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "GCP"
+      },
       {
         "title": "May 12, 2026",
         "link": "https://docs.cloud.google.com/release-notes#May_12_2026",
@@ -595,16 +605,6 @@
         "category": "database-tag",
         "cat_label": "データベース",
         "tag": "GCP"
-      },
-      {
-        "title": "April 20, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#April_20_2026",
-        "summary": "AlloyDB for PostgreSQL Feature You can now use the Database Insights remote MCP server to analyze AlloyDB's performance and system metrics. This feature is in GA . Feature The AlloyDB remote MCP…",
-        "date": "2026年4月20日",
-        "date_iso": "2026-04-20",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "GCP"
       }
     ],
     "oci": [
@@ -636,16 +636,6 @@
         "date_iso": "2026-05-12",
         "category": "security-tag",
         "cat_label": "セキュリティ",
-        "tag": "OCI"
-      },
-      {
-        "title": "OCI Search with OpenSearch Bring Your Own Certificate",
-        "link": "https://docs.oracle.com/iaas/releasenotes/search-opensearch/bring-own-certificate.htm",
-        "summary": "",
-        "date": "2026年5月12日",
-        "date_iso": "2026-05-12",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
         "tag": "OCI"
       },
       {
@@ -806,6 +796,16 @@
         "date_iso": "2026-04-28",
         "category": "container-tag",
         "cat_label": "コンテナ",
+        "tag": "OCI"
+      },
+      {
+        "title": "Introducing alarms and notifications in OCI Control Center",
+        "link": "https://docs.oracle.com/iaas/releasenotes/control-center/alarms-notifications-feature.htm",
+        "summary": "",
+        "date": "2026年4月27日",
+        "date_iso": "2026-04-27",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "OCI"
       }
     ]
