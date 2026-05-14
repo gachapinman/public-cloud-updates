@@ -1,5 +1,5 @@
 {
-  "updated": "2026年05月14日 13:13 JST",
+  "updated": "2026年05月14日 15:37 JST",
   "clouds": {
     "azure": [
       {
@@ -345,16 +345,6 @@
         "tag": "AWS"
       },
       {
-        "title": "ENA Express for Amazon EC2 instances now supports traffic between Availability Zones",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/ena-express-availability-zones/",
-        "summary": "Elastic Network Adapter (ENA) Express now supports traffic between Amazon EC2 instances in different Availability Zones within a Region, delivering up to 25 Gbps single-flow bandwidth. ENA Express is…",
-        "date": "2026年5月12日",
-        "date_iso": "2026-05-12",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
         "title": "Announcing Region Expansion of G6e instances on SageMaker Studio notebooks",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/g6e-region-expansion-sagemaker-studio-notebooks/",
         "summary": "We are pleased to announce general availability of Amazon EC2 G6e instances in the Middle East (Dubai), Asia Pacific (Tokyo, Seoul) and Europe (Frankfurt, Stockholm, Spain) on SageMaker Studio…",
@@ -368,6 +358,16 @@
         "title": "Announcing Region Expansion of G6 instances on SageMaker Studio notebooks",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/g6-region-expansion-sagemaker-studio-notebooks/",
         "summary": "We are pleased to announce general availability of Amazon EC2 G6 instances in the Middle East (Dubai) and Asia Pacific (Malaysia) on SageMaker Studio notebooks. Amazon EC2 G6 instances &nbsp;are…",
+        "date": "2026年5月12日",
+        "date_iso": "2026-05-12",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "ENA Express for Amazon EC2 instances now supports traffic between Availability Zones",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/ena-express-availability-zones/",
+        "summary": "Elastic Network Adapter (ENA) Express now supports traffic between Amazon EC2 instances in different Availability Zones within a Region, delivering up to 25 Gbps single-flow bandwidth. ENA Express is…",
         "date": "2026年5月12日",
         "date_iso": "2026-05-12",
         "category": "ai-tag",
