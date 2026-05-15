@@ -1,5 +1,5 @@
 {
-  "updated": "2026年05月15日 15:46 JST",
+  "updated": "2026年05月15日 20:44 JST",
   "clouds": {
     "azure": [
       {
@@ -305,16 +305,6 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon Aurora DSQL now supports change data capture (Preview)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-aurora-dsql-change-data-capture-preview/",
-        "summary": "Amazon Aurora DSQL introduces support for change data capture (CDC) in preview, enabling you to stream real-time database changes directly to Amazon Kinesis Data Streams. This fully managed…",
-        "date": "2026年5月15日",
-        "date_iso": "2026-05-15",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
         "title": "Three new models for speech recognition and text-to-speech are now available in Amazon SageMaker JumpStart",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/speech-models-on-sagemaker-jumpstart/",
         "summary": "Today, AWS announced the availability of Qwen3-TTS-12Hz-1.7B-CustomVoice, Qwen3-TTS-12Hz-1.7B-Base, and Qwen3-ASR-1.7B in Amazon SageMaker JumpStart, expanding the portfolio of foundation models…",
@@ -332,6 +322,16 @@
         "date_iso": "2026-05-15",
         "category": "ai-tag",
         "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Aurora DSQL now supports change data capture (Preview)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-aurora-dsql-change-data-capture-preview/",
+        "summary": "Amazon Aurora DSQL introduces support for change data capture (CDC) in preview, enabling you to stream real-time database changes directly to Amazon Kinesis Data Streams. This fully managed…",
+        "date": "2026年5月15日",
+        "date_iso": "2026-05-15",
+        "category": "database-tag",
+        "cat_label": "データベース",
         "tag": "AWS"
       },
       {
