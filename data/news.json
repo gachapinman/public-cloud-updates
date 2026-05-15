@@ -1,7 +1,27 @@
 {
-  "updated": "2026年05月14日 20:29 JST",
+  "updated": "2026年05月15日 13:18 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Generally Available: Support for workloads with large files in Azure NetApp Files",
+        "link": "https://azure.microsoft.com/updates?id=561722",
+        "summary": "To support seamless migration and operation of workloads that use large files including Azure VMware Solution (AVS) virtual machines with large VMDK disks, Azure NetApp Files now supports file sizes…",
+        "date": "2026年5月15日",
+        "date_iso": "2026-05-15",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Managed Identity Support for Azure Files SMB Is now GA",
+        "link": "https://azure.microsoft.com/updates?id=562350",
+        "summary": "Azure Files now supports Managed Identities for SMB access, enabling applications and services to authenticate without storing static credentials or account keys. This feature aligns with Zero Trust…",
+        "date": "2026年5月15日",
+        "date_iso": "2026-05-15",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Public Preview: Azure Container Apps Express",
         "link": "https://azure.microsoft.com/updates?id=559242",
@@ -181,29 +201,199 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: AVS Support for AV64 SKU on Azure Elastic SAN",
-        "link": "https://azure.microsoft.com/updates?id=560894",
-        "summary": "Azure Elastic SAN datastores are now supported with AV64 SKUs, enabling higher-scale and higher-performance storage options for Azure VMware Solution deployments.",
-        "date": "2026年5月6日",
-        "date_iso": "2026-05-06",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Cleanup legacy AlternateId usage to ensure continued service",
-        "link": "https://azure.microsoft.com/updates?id=561432",
-        "summary": "We have identified an issue impacting Multi-line (Multiple Number Assignment) feature for Teams Phone enablement related to the usage of AlternateId in customer internal implementations for Azure…",
-        "date": "2026年5月5日",
-        "date_iso": "2026-05-05",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Amazon CloudFront announces Passthrough Mode for mutual TLS (Viewer)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-cloudfront-mtls-passthrough/",
+        "summary": "Amazon CloudFront now supports passthrough mode for viewer mutual TLS (mTLS) authentication, enabling customers to forward client certificates to their origin for validation without requiring…",
+        "date": "2026年5月15日",
+        "date_iso": "2026-05-15",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon CloudFront announces support for OCSP Revocation for Mutual TLS (Viewer)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-cloudfront-mtls-ocsp/",
+        "summary": "Amazon CloudFront now supports Online Certificate Status Protocol (OCSP) revocation checking for viewer mTLS, enabling you to validate client certificate revocation status in real time during…",
+        "date": "2026年5月15日",
+        "date_iso": "2026-05-15",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Bedrock Introduces Advanced Prompt Optimization and Migration Tool",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-bedrock-advanced-prompt-optimization-migration-tool/",
+        "summary": "Customers&nbsp;spend days to weeks&nbsp;optimizing&nbsp;prompts and evaluating responses when they want to migrate to a new model or just get better performance out of their current model.&nbsp;They…",
+        "date": "2026年5月15日",
+        "date_iso": "2026-05-15",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Announcing general availability of Amazon EC2 M3 Ultra Mac instances",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-m3-ultra-mac-instances-generally-available/",
+        "summary": "Amazon Web Services announces general availability of Amazon EC2 M3&nbsp;Ultra&nbsp;Mac instances, powered by the latest Mac Studio hardware. Amazon EC2 M3 Ultra Mac instances are the next-generation…",
+        "date": "2026年5月15日",
+        "date_iso": "2026-05-15",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "SageMaker AI now supports serverless model customization for Qwen3.6",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-ft-qwen3-6/",
+        "summary": "Amazon SageMaker AI now supports serverless model customization for Qwen3.6 27B parameter model using supervised fine-tuning (SFT) and reinforcement fine-tuning (RFT). Qwen3.6 is a popular…",
+        "date": "2026年5月15日",
+        "date_iso": "2026-05-15",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Transform agents now available in Kiro, Claude, Cursor, and Codex",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-transform-developer-tools/",
+        "summary": "Today, AWS announces that the AWS Transform agents — built on decades of AWS migration and modernization experience — are now accessible through a Kiro power, agent plugins, and via the AWS Transform…",
+        "date": "2026年5月15日",
+        "date_iso": "2026-05-15",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Transform introduces the agent builder toolkit Kiro power for building customized transformation agents",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-transform-agent-builder-toolkit/",
+        "summary": "Today, as part of the AWS Transform composability initiative , AWS announces the general availability of the agent builder toolkit Kiro power for AWS Transform. With the agent builder toolkit, AWS…",
+        "date": "2026年5月15日",
+        "date_iso": "2026-05-15",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Transform now supports customer-owned artifact stores",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-transform-customer-owned-artifact/",
+        "summary": "AWS Transform brings assessment, migration, and modernization into a single AI-powered experience that guides enterprises through their full transformation journey. Today, AWS announces support for…",
+        "date": "2026年5月15日",
+        "date_iso": "2026-05-15",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "New models for image generation and text embeddings are now available in Amazon SageMaker JumpStart",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/image-embeddings-models-on-sagemaker-jumpstart/",
+        "summary": "Today, AWS announced the availability of FLUX.2-klein-base-4B and Qwen3-Embedding-0.6B in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These…",
+        "date": "2026年5月15日",
+        "date_iso": "2026-05-15",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "ARC Region switch adds Lambda event source mapping execution block for event handling during failover",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/region-switch-lambda-esm-execution-block/",
+        "summary": "Amazon Application Recovery Controller (ARC) Region Switch helps customers orchestrate the failover of their multi-Region applications to achieve a bounded recovery time in the event of a Regional…",
+        "date": "2026年5月15日",
+        "date_iso": "2026-05-15",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Aurora DSQL now supports change data capture (Preview)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-aurora-dsql-change-data-capture-preview/",
+        "summary": "Amazon Aurora DSQL introduces support for change data capture (CDC) in preview, enabling you to stream real-time database changes directly to Amazon Kinesis Data Streams. This fully managed…",
+        "date": "2026年5月15日",
+        "date_iso": "2026-05-15",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "Three new models for speech recognition and text-to-speech are now available in Amazon SageMaker JumpStart",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/speech-models-on-sagemaker-jumpstart/",
+        "summary": "Today, AWS announced the availability of Qwen3-TTS-12Hz-1.7B-CustomVoice, Qwen3-TTS-12Hz-1.7B-Base, and Qwen3-ASR-1.7B in Amazon SageMaker JumpStart, expanding the portfolio of foundation models…",
+        "date": "2026年5月15日",
+        "date_iso": "2026-05-15",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Two new models for agentic coding and efficient AI are now available in Amazon SageMaker JumpStart",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/agentic-reasoning-models-on-sagemaker-jumpstart/",
+        "summary": "Today, AWS announced the availability of GLM-5.1-FP8 and Phi-4-mini-instruct in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These models from…",
+        "date": "2026年5月15日",
+        "date_iso": "2026-05-15",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Reference stack outputs across accounts and Regions with AWS CloudFormation and CDK",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-cloudformation-cdk-stack/",
+        "summary": "AWS CloudFormation now supports a new intrinsic function, Fn::GetStackOutput , that enables you to reference stack outputs across AWS accounts and Regions directly within your CloudFormation…",
+        "date": "2026年5月15日",
+        "date_iso": "2026-05-15",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 X8aedz instances are now available in Europe (Ireland) region",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-x8aedz-europe-ireland/",
+        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) X8aedz instances are available in&nbsp;Europe (Ireland) region. These instances are powered by 5th Gen AMD EPYC processors (formerly code…",
+        "date": "2026年5月15日",
+        "date_iso": "2026-05-15",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Connect Customer launches permission for agents to view only their own performance evaluations",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-customer-permission-view-own-performance-evaluations/",
+        "summary": "Amazon Connect Customer now supports a permission that gives agents access to their own performance evaluations in the Connect UI, without exposing other agents' evaluations, so they can review…",
+        "date": "2026年5月15日",
+        "date_iso": "2026-05-15",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon RDS for PostgreSQL supports minor versions 18.4, 17.10, 16.14, 15.18, and 14.23",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-rds-postgresql/",
+        "summary": "Amazon Relational Database Service (RDS) for PostgreSQL now supports the latest minor versions 18.4, 17.10, 16.14, 15.18, and 14.23. We recommend that you upgrade to the latest minor versions to fix…",
+        "date": "2026年5月15日",
+        "date_iso": "2026-05-15",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Transform adds agentic AI assistant to the AWS Toolkit for Visual Studio",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-transform-ai-assistant",
+        "summary": "To improve developer experience, AWS Transform now includes an interactive agentic AI assistant in the AWS Toolkit for Visual Studio. This enables .NET developers to modernize applications through a…",
+        "date": "2026年5月15日",
+        "date_iso": "2026-05-15",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS RTB Fabric supports custom domains for real-time bidding workloads",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-rtb-fabric-custom-domains/",
+        "summary": "AWS RTB Fabric now supports custom domains for real-time bidding transactions received through external links . This capability helps advertising technology (AdTech) companies preserve their public…",
+        "date": "2026年5月14日",
+        "date_iso": "2026-05-14",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
       {
         "title": "Amazon SageMaker Data Agent now available for IAM Identity Center domains",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-data-agent-idc/",
@@ -213,199 +403,19 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon FSx for OpenZFS now supports creating Multi-AZ file systems in shared VPCs",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-fsx-openzfs-multi-az-vpcs/",
-        "summary": "Amazon&nbsp;FSx&nbsp;for&nbsp;OpenZFS&nbsp;now&nbsp;allows&nbsp;you to create&nbsp;Multi-AZ&nbsp;file systems in&nbsp;shared&nbsp;VPCs&nbsp;within your AWS organization, making it easier for…",
-        "date": "2026年5月14日",
-        "date_iso": "2026-05-14",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon RDS for Oracle now supports M8i and R8i instances with Oracle SE2 License Included",
-        "link": "https://aws.amazon.com/about-aws/whats-new/amazon-oracle-m8i-r8i-license-included",
-        "summary": "Amazon RDS for Oracle now offers M8i and R8i instances with Oracle Database Standard Edition 2 (SE2) with the License Included (LI). M8i and R8i instances are powered by custom Intel Xeon 6…",
-        "date": "2026年5月13日",
-        "date_iso": "2026-05-13",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Lambda supports scheduled scaling for functions on Lambda Managed Instances",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-lambda-managed-instances/",
-        "summary": "AWS Lambda now supports scheduled scaling for functions running on Lambda Managed Instances, using Amazon EventBridge Scheduler. This capability allows you to define one-time or recurring schedules…",
-        "date": "2026年5月13日",
-        "date_iso": "2026-05-13",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EventBridge Scheduler adds 619 new SDK API actions, including Lambda Managed Instances",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-eventbridge-sdk-integrations/",
-        "summary": "Amazon EventBridge Scheduler expands its AWS SDK integrations with 13 additional services and 619 new API actions across new and existing AWS services, including AWS Lambda Managed Instances. You can…",
-        "date": "2026年5月13日",
-        "date_iso": "2026-05-13",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Security Agent now supports full repository code reviews",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-security-agent-full-repository-code-review/",
-        "summary": "Today, AWS announces the release of full repository code review , a new capability in AWS Security Agent that performs deep, context-aware security analysis of your entire codebase. Unlike…",
-        "date": "2026年5月13日",
-        "date_iso": "2026-05-13",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SageMaker Feature Store now supports SageMaker Python SDK V3",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-feature-store-pyv3/",
-        "summary": "Amazon SageMaker Feature Store now supports the SageMaker Python SDK v3, including new capabilities for Lake Formation access controls and Apache Iceberg table properties configuration. Feature Store…",
-        "date": "2026年5月13日",
-        "date_iso": "2026-05-13",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Karpenter now supports Amazon Application Recovery Controller zonal shift",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/karpenter-arc-zonal-shift/",
-        "summary": "Amazon Elastic Kubernetes Service (Amazon EKS) now supports Amazon Application Recovery Controller (ARC) zonal shift and zonal autoshift when using the open source Karpenter project for compute…",
-        "date": "2026年5月13日",
-        "date_iso": "2026-05-13",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Redshift launches RG instances powered by AWS Graviton",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-redshift-rg-instances-powered-by-graviton",
-        "summary": "Amazon Redshift announces the general availability of RG instances , a new generation of provisioned cluster nodes powered by AWS Graviton processors that deliver better performance, running data…",
-        "date": "2026年5月13日",
-        "date_iso": "2026-05-13",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon CloudFront Premium flat-rate plan now supports configurable usage allowances",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/cloudfront-configurable-premium-flat-rate-plans/",
-        "summary": "Previously, the Amazon CloudFront Premium flat-rate plan supported a single usage allowance, and customers who outgrew it needed to contact us to discuss custom pricing options. Now, the Premium plan…",
-        "date": "2026年5月13日",
-        "date_iso": "2026-05-13",
-        "category": "network-tag",
-        "cat_label": "ネットワーク",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Connect Customer now supports embedding Cases and Customer Profiles in custom agent applications",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-sdk-cases-customer-profiles/",
-        "summary": "Amazon Connect Customer now enables you to embed Cases and Customer Profiles into custom agent applications, helping agents access case details and customer context alongside the tools they already…",
-        "date": "2026年5月13日",
-        "date_iso": "2026-05-13",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Announcing Region Expansion of P5.48xl instances on SageMaker Studio notebooks",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/p5-48xl-region-expansion-sagemaker-studio-notebooks/",
-        "summary": "We are pleased to announce general availability of Amazon EC2 P5.48xl instances in the AWS US West (San Francisco), Asia Pacific (Tokyo, Mumbai, Sydney, Jakarta) and Europe (London, Stockholm)…",
-        "date": "2026年5月12日",
-        "date_iso": "2026-05-12",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Announcing Region Expansion of G6 instances on SageMaker Notebook Instances",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/g6-region-expansion-sagemaker-notebook-instances/",
-        "summary": "We are pleased to announce general availability of Amazon EC2 G6 instances in Asia Pacific (Tokyo, Mumbai, Sydney) and Europe (London, Paris, Frankfurt, Stockholm, Zurich) on SageMaker notebook…",
-        "date": "2026年5月12日",
-        "date_iso": "2026-05-12",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Announcing Region Expansion of P6-B200 instances on SageMaker Studio notebooks",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/p6-b200-region-expansion-sagemaker-studio-notebooks/",
-        "summary": "We are pleased to announce general availability of Amazon EC2 P6-B200 instances in AWS US East (N. Virginia) on SageMaker Studio notebooks. Amazon EC2 P6-B200 instances &nbsp;are powered by 8 NVIDIA…",
-        "date": "2026年5月12日",
-        "date_iso": "2026-05-12",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Announcing Region Expansion of G6e instances on SageMaker Studio notebooks",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/g6e-region-expansion-sagemaker-studio-notebooks/",
-        "summary": "We are pleased to announce general availability of Amazon EC2 G6e instances in the Middle East (Dubai), Asia Pacific (Tokyo, Seoul) and Europe (Frankfurt, Stockholm, Spain) on SageMaker Studio…",
-        "date": "2026年5月12日",
-        "date_iso": "2026-05-12",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Announcing Region Expansion of G6 instances on SageMaker Studio notebooks",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/g6-region-expansion-sagemaker-studio-notebooks/",
-        "summary": "We are pleased to announce general availability of Amazon EC2 G6 instances in the Middle East (Dubai) and Asia Pacific (Malaysia) on SageMaker Studio notebooks. Amazon EC2 G6 instances &nbsp;are…",
-        "date": "2026年5月12日",
-        "date_iso": "2026-05-12",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "ENA Express for Amazon EC2 instances now supports traffic between Availability Zones",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/ena-express-availability-zones/",
-        "summary": "Elastic Network Adapter (ENA) Express now supports traffic between Amazon EC2 instances in different Availability Zones within a Region, delivering up to 25 Gbps single-flow bandwidth. ENA Express is…",
-        "date": "2026年5月12日",
-        "date_iso": "2026-05-12",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Announcing Region Expansion of P4de instances on SageMaker Studio notebooks",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/p4de-region-expansion-sagemaker-studio-notebooks/",
-        "summary": "We are pleased to announce general availability of Amazon EC2 P4de instances in Asia Pacific (Tokyo, Singapore) and Europe (Frankfurt) on SageMaker Studio notebooks. Amazon EC2 P4de instances…",
-        "date": "2026年5月12日",
-        "date_iso": "2026-05-12",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Aurora DSQL is now available in five additional AWS Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-aurora-dsql-five-additional-aws-regions/",
-        "summary": "Amazon Aurora DSQL single-Region clusters are now available in Asia Pacific (Hong Kong), Asia Pacific (Mumbai), Asia Pacific (Singapore), Europe (Stockholm), and South America (Sao Paulo). Aurora…",
-        "date": "2026年5月12日",
-        "date_iso": "2026-05-12",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS HealthOmics now supports caching of cancelled workflow runs",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-healthomics-caching-cancelled-runs/",
-        "summary": "AWS HealthOmics now supports caching completed task outputs of cancelled runs, enabling customers to reuse outputs and avoid recomputing previously completed tasks. When caching is enabled and a run…",
-        "date": "2026年5月12日",
-        "date_iso": "2026-05-12",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "May 14, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#May_14_2026",
+        "summary": "BigQuery Issue Support for the AI.KEY_DRIVERS function preview has been temporarily disabled. We are working to restore this feature as soon as possible. Cloud Composer Issue The google-api-core…",
+        "date": "2026年5月14日",
+        "date_iso": "2026-05-14",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
       {
         "title": "May 13, 2026",
         "link": "https://docs.cloud.google.com/release-notes#May_13_2026",
@@ -594,16 +604,6 @@
         "date_iso": "2026-04-22",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "GCP"
-      },
-      {
-        "title": "April 21, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#April_21_2026",
-        "summary": "AlloyDB for PostgreSQL Feature The integration between AlloyDB for PostgreSQL and Knowledge Catalog (in Preview ) is now enabled by default for all new AlloyDB clusters. This integration provides a…",
-        "date": "2026年4月21日",
-        "date_iso": "2026-04-21",
-        "category": "database-tag",
-        "cat_label": "データベース",
         "tag": "GCP"
       }
     ],
