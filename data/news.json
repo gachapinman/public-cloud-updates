@@ -1,5 +1,5 @@
 {
-  "updated": "2026年05月16日 19:48 JST",
+  "updated": "2026年05月17日 13:32 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "May 16, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#May_16_2026",
+        "summary": "Google SecOps SOAR Announcement Release 6.3.84 is now available for all regions.",
+        "date": "2026年5月16日",
+        "date_iso": "2026-05-16",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "May 15, 2026",
         "link": "https://docs.cloud.google.com/release-notes#May_15_2026",
         "summary": "Backup and DR Feature Backup and DR Service now supports customer-managed encryption keys (CMEK) for Cloud SQL enhanced backups. This allows you to protect your Cloud SQL backups using the same KMS…",
@@ -595,19 +605,19 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
-      },
-      {
-        "title": "April 23, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#April_23_2026",
-        "summary": "Anti Money Laundering AI Fixed Fixed a validation error for engine versions aml-commercial.default.v004.009.202603-000 and aml-commercial.default.v004.010.202603-000 where the 500,000 party account…",
-        "date": "2026年4月23日",
-        "date_iso": "2026-04-23",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
       }
     ],
     "oci": [
+      {
+        "title": "Convert Text to Speech with xAI Voice in OCI Generative AI",
+        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/xai-grok-voice.htm",
+        "summary": "",
+        "date": "2026年5月15日",
+        "date_iso": "2026-05-15",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
       {
         "title": "Full Stack Disaster Recovery introduces AI-generated log summaries, expands regional availability, and adds multicloud database support",
         "link": "https://docs.oracle.com/iaas/releasenotes/disaster-recovery/may-2026.htm",
@@ -796,16 +806,6 @@
         "date_iso": "2026-04-29",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Support for Kubernetes version 1.35.2",
-        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-K8s-1-35-2-support.htm",
-        "summary": "",
-        "date": "2026年4月28日",
-        "date_iso": "2026-04-28",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
         "tag": "OCI"
       }
     ]
