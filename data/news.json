@@ -1,5 +1,5 @@
 {
-  "updated": "2026年05月17日 19:55 JST",
+  "updated": "2026年05月18日 13:42 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "May 17, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#May_17_2026",
+        "summary": "Google SecOps Announcement New parser documentation now available New parser documentation is available to help you ingest and normalize logs from the following sources: Collect Arista VeloCloud…",
+        "date": "2026年5月17日",
+        "date_iso": "2026-05-17",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "May 16, 2026",
         "link": "https://docs.cloud.google.com/release-notes#May_16_2026",
         "summary": "Google SecOps SOAR Announcement Release 6.3.84 is now available for all regions.",
@@ -594,16 +604,6 @@
         "date_iso": "2026-04-27",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "GCP"
-      },
-      {
-        "title": "April 24, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#April_24_2026",
-        "summary": "Database Center Feature The Database Center REST and RPC APIs are available in Preview . The Database Center API provides access to an organization-wide, cross-product database fleet health platform.…",
-        "date": "2026年4月24日",
-        "date_iso": "2026-04-24",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "GCP"
       }
     ],
