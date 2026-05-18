@@ -1,5 +1,5 @@
 {
-  "updated": "2026年05月18日 16:10 JST",
+  "updated": "2026年05月18日 21:56 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "May 18, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#May_18_2026",
+        "summary": "BigQuery Feature You can manage and version control SQL scripts and notebooks with BigQuery Studio Git repositories , which provide a streamlined, folder-based integration with remote Git…",
+        "date": "2026年5月18日",
+        "date_iso": "2026-05-18",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "May 17, 2026",
         "link": "https://docs.cloud.google.com/release-notes#May_17_2026",
         "summary": "Google SecOps Announcement New parser documentation now available New parser documentation is available to help you ingest and normalize logs from the following sources: Collect Arista VeloCloud…",
@@ -594,16 +604,6 @@
         "date_iso": "2026-04-28",
         "category": "database-tag",
         "cat_label": "データベース",
-        "tag": "GCP"
-      },
-      {
-        "title": "April 27, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#April_27_2026",
-        "summary": "API Gateway Change New validations on paths in API configurations API Gateway now enforces stricter syntax validations on templated paths when you create new API configurations and gateways. See path…",
-        "date": "2026年4月27日",
-        "date_iso": "2026-04-27",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
         "tag": "GCP"
       }
     ],
