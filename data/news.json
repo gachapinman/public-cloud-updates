@@ -1,7 +1,37 @@
 {
-  "updated": "2026年05月18日 21:56 JST",
+  "updated": "2026年05月19日 13:33 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Generally Available: Application Insights Auto-instrumentation for Azure Kubernetes Service apps",
+        "link": "https://azure.microsoft.com/updates?id=562049",
+        "summary": "Azure Monitor Application Insights auto-instrumentation for Azure Kubernetes Service (AKS) apps is now generally available, making it easier to monitor your applications without modifying source…",
+        "date": "2026年5月19日",
+        "date_iso": "2026-05-19",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Auto activation for SaaS subscriptions in Microsoft Marketplace",
+        "link": "https://azure.microsoft.com/updates?id=561771",
+        "summary": "Auto activation for SaaS solutions is now available in Microsoft Marketplace, making it faster and easier to get the value from your SaaS products. When auto activation is enabled, your…",
+        "date": "2026年5月19日",
+        "date_iso": "2026-05-19",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Azure Front Door WebSocket",
+        "link": "https://azure.microsoft.com/updates?id=562548",
+        "summary": "Azure Front Door Standard and Premium now support WebSocket in general availability. WebSocket is enabled by default and requires no additional configuration. WebSocket provides full-duplex…",
+        "date": "2026年5月19日",
+        "date_iso": "2026-05-19",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Update: Microsoft Foundry built-in RBAC role naming and enhancements",
         "link": "https://azure.microsoft.com/updates?id=562533",
@@ -171,39 +201,79 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Azure Cosmos DB spherical quantization for improved vector search",
-        "link": "https://azure.microsoft.com/updates?id=561167",
-        "summary": "Azure Cosmos DB now offers spherical quantization in public preview to help you achieve faster vector indexing with higher recall and accuracy at scale. Spherical quantization is an advanced vector…",
-        "date": "2026年5月7日",
-        "date_iso": "2026-05-07",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Retirement: Azure Reserved Virtual Machines Instances for select VM series",
-        "link": "https://azure.microsoft.com/updates?id=560948",
-        "summary": "Starting July 1, 2026, purchases and renewals will no longer be available for one-year Azure Reserved VM Instances for the Av2, Amv2, Bv1, D, Ds, Dv2, Dsv2, F, Fs, Fsv2, G, Gs, Ls, and Lsv2 VM…",
-        "date": "2026年5月6日",
-        "date_iso": "2026-05-06",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Application Gateway for Containers managed add-on + AKS Automatic",
-        "link": "https://azure.microsoft.com/updates?id=558403",
-        "summary": "We previously announced the availability of Application Gateway for Containers and the Application Gateway for Containers AKS Add-on for Azure Kubernetes Service (AKS). At that time, one limitation…",
-        "date": "2026年5月6日",
-        "date_iso": "2026-05-06",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "AWS Management Console now displays AWS Local Zones in the Region Selector",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-local-zones-region-selector/",
+        "summary": "Today, AWS announces the addition of AWS Local Zones to the Region selector in the AWS Management Console, providing a unified experience across AWS global infrastructure. AWS Local Zones now appear…",
+        "date": "2026年5月19日",
+        "date_iso": "2026-05-19",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Glue zero-ETL is now available in Asia Pacific (Mumbai) region",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-glue-zero-etl-mumbai-region",
+        "summary": "AWS Glue zero-ETL integrations are now available in the Asia Pacific (Mumbai) region. With this expansion, customers in the Asia Pacific (Mumbai) region can now use zero-ETL integrations to simplify…",
+        "date": "2026年5月19日",
+        "date_iso": "2026-05-19",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Lightsail CDN distributions now support IPv6-only instances as origins",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-lightsail-cdn-ipv6/",
+        "summary": "Amazon Lightsail content delivery network (CDN) distributions now support IPv6-only instances as origins. This feature enables customers to use IPv6-only instances to deliver content through the…",
+        "date": "2026年5月19日",
+        "date_iso": "2026-05-19",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EVS enables support for 32 hosts per environment",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-evs-32-hosts",
+        "summary": "Today, we are announcing that Amazon Elastic VMware Service (Amazon EVS) now supports up to 32&nbsp;ESXi&nbsp;hosts per environment, double the&nbsp;previous&nbsp;limit of 16 hosts. Amazon EVS gives…",
+        "date": "2026年5月19日",
+        "date_iso": "2026-05-19",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS SAM CLI adds AWS CloudFormation Language Extensions support to accelerate local serverless development",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-sam-cli-cloudformation/",
+        "summary": "AWS SAM CLI now supports AWS CloudFormation Language Extensions , enabling you to reduce duplication in your infrastructure as code (IaC) templates while retaining the full local development…",
+        "date": "2026年5月19日",
+        "date_iso": "2026-05-19",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Redshift adds ALTER TABLE for Iceberg tables and writes via the AWS Glue Data Catalog mount",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-redshift-alter-table-iceberg/",
+        "summary": "Amazon Redshift now supports writing directly to Apache Iceberg tables via the AWS Glue Data Catalog (awsdatacatalog) mount and ALTER TABLE DDL statements to modify the schema, partitioning, and…",
+        "date": "2026年5月19日",
+        "date_iso": "2026-05-19",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon SageMaker Studio now supports GPU capacity reservation through SageMaker Flexible Training Plans",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-training-plan-support-for-studio/",
+        "summary": "Amazon SageMaker Studio IDEs, including JupyterLab and Code Editor, now support GPU capacity reservations through SageMaker Flexible Training Plans (FTP) , giving you predictable access to…",
+        "date": "2026年5月19日",
+        "date_iso": "2026-05-19",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
       {
         "title": "Amazon CloudWatch Logs announces increased query result limits",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/cloudwatch-logs-query-results/",
@@ -265,16 +335,6 @@
         "tag": "AWS"
       },
       {
-        "title": "AWS announces AWS Interconnect - multicloud connectivity with Oracle Cloud Infrastructure in preview",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-announces-AWS-interconnect-multicloud-oci-preview/",
-        "summary": "AWS announces the public preview of AWS Interconnect — multicloud with Oracle Cloud Infrastructure (OCI). Customers have been adopting multicloud strategies while migrating more applications to the…",
-        "date": "2026年5月16日",
-        "date_iso": "2026-05-16",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
         "title": "AWS Organizations now supports higher quotas for service control policies (SCPs)",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-organizations-increased-scp-quotas/",
         "summary": "AWS Organizations now supports higher quotas for service control policies (SCPs). The maximum number of SCPs that can be attached to a single node (root, OU, or account) has increased from 5 to 10,…",
@@ -285,9 +345,19 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon CloudFront announces support for OCSP Revocation for Mutual TLS (Viewer)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-cloudfront-mtls-ocsp/",
-        "summary": "Amazon CloudFront now supports Online Certificate Status Protocol (OCSP) revocation checking for viewer mTLS, enabling you to validate client certificate revocation status in real time during…",
+        "title": "AWS announces AWS Interconnect - multicloud connectivity with Oracle Cloud Infrastructure in preview",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-announces-AWS-interconnect-multicloud-oci-preview/",
+        "summary": "AWS announces the public preview of AWS Interconnect — multicloud with Oracle Cloud Infrastructure (OCI). Customers have been adopting multicloud strategies while migrating more applications to the…",
+        "date": "2026年5月16日",
+        "date_iso": "2026-05-16",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon CloudFront が相互 TLS (ビューワー) のパススルーモードを発表",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/05/amazon-cloudfront-mtls-passthrough/",
+        "summary": "",
         "date": "2026年5月15日",
         "date_iso": "2026-05-15",
         "category": "network-tag",
@@ -295,19 +365,19 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon CloudFront announces Passthrough Mode for mutual TLS (Viewer)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-cloudfront-mtls-passthrough/",
-        "summary": "Amazon CloudFront now supports passthrough mode for mutual TLS (mTLS) viewer authentication, allowing CloudFront to forward client certificates to the origin without verifying the certificates on…",
+        "title": "Amazon CloudFront が相互 TLS (ビューワー) の OCSP 取り消しのサポートを発表",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/05/amazon-cloudfront-mtls-ocsp/",
+        "summary": "",
         "date": "2026年5月15日",
         "date_iso": "2026-05-15",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
         "tag": "AWS"
       },
       {
-        "title": "Amazon Bedrock Introduces Advanced Prompt Optimization and Migration Tool",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-bedrock-advanced-prompt-optimization-migration-tool/",
-        "summary": "Customers&nbsp;spend days to weeks&nbsp;optimizing&nbsp;prompts and evaluating responses when they want to migrate to a new model or just get better performance out of their current model.&nbsp;They…",
+        "title": "Amazon Bedrock が高度なプロンプト最適化および移行ツールを発表",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/05/amazon-bedrock-advanced-prompt-optimization-migration-tool/",
+        "summary": "",
         "date": "2026年5月15日",
         "date_iso": "2026-05-15",
         "category": "ai-tag",
@@ -315,93 +385,23 @@
         "tag": "AWS"
       },
       {
-        "title": "Announcing general availability of Amazon EC2 M3 Ultra Mac instances",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-m3-ultra-mac-instances-generally-available/",
-        "summary": "Amazon Web Services announces general availability of Amazon EC2 M3&nbsp;Ultra&nbsp;Mac instances, powered by the latest Mac Studio hardware. Amazon EC2 M3 Ultra Mac instances are the next-generation…",
+        "title": "Amazon EC2 M3 Ultra Mac インスタンスの一般提供を発表",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/05/amazon-ec2-m3-ultra-mac-instances-generally-available/",
+        "summary": "",
+        "date": "2026年5月15日",
+        "date_iso": "2026-05-15",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "SageMaker AI が Qwen3.6 モデルのサーバーレスモデルカスタマイズのサポートを開始",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/05/amazon-sagemaker-ft-qwen3-6/",
+        "summary": "",
         "date": "2026年5月15日",
         "date_iso": "2026-05-15",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 High Memory U7i instances now available in AWS Europe (Paris) region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-u7i-aws-europe-paris/",
-        "summary": "Amazon EC2 High Memory U7i-12TB instances (u7i-12tb.224xlarge) and U7in-16TB instances (u7in-16tb.224xlarge) are now available in the AWS Europe (Paris) region. U7i instances are part of the AWS 7th…",
-        "date": "2026年5月15日",
-        "date_iso": "2026-05-15",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "SageMaker AI now supports serverless model customization for Qwen3.6",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-ft-qwen3-6/",
-        "summary": "Amazon SageMaker AI now supports serverless model customization for Qwen3.6 27B parameter model using supervised fine-tuning (SFT) and reinforcement fine-tuning (RFT). Qwen3.6 is a popular…",
-        "date": "2026年5月15日",
-        "date_iso": "2026-05-15",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Transform agents now available in Kiro, Claude, Cursor, and Codex",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-transform-developer-tools/",
-        "summary": "Today, AWS announces that the AWS Transform agents — built on decades of AWS migration and modernization experience — are now accessible through a Kiro power, agent plugins, and via the AWS Transform…",
-        "date": "2026年5月15日",
-        "date_iso": "2026-05-15",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Transform introduces the agent builder toolkit Kiro power for building customized transformation agents",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-transform-agent-builder-toolkit/",
-        "summary": "Today, as part of the AWS Transform composability initiative , AWS announces the general availability of the agent builder toolkit Kiro power for AWS Transform. With the agent builder toolkit, AWS…",
-        "date": "2026年5月15日",
-        "date_iso": "2026-05-15",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Transform now supports customer-owned artifact stores",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-transform-customer-owned-artifact/",
-        "summary": "AWS Transform brings assessment, migration, and modernization into a single AI-powered experience that guides enterprises through their full transformation journey. Today, AWS announces support for…",
-        "date": "2026年5月15日",
-        "date_iso": "2026-05-15",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "New models for image generation and text embeddings are now available in Amazon SageMaker JumpStart",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/image-embeddings-models-on-sagemaker-jumpstart/",
-        "summary": "Today, AWS announced the availability of FLUX.2-klein-base-4B and Qwen3-Embedding-0.6B in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These…",
-        "date": "2026年5月15日",
-        "date_iso": "2026-05-15",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "ARC Region switch adds Lambda event source mapping execution block for event handling during failover",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/region-switch-lambda-esm-execution-block/",
-        "summary": "Amazon Application Recovery Controller (ARC) Region Switch helps customers orchestrate the failover of their multi-Region applications to achieve a bounded recovery time in the event of a Regional…",
-        "date": "2026年5月15日",
-        "date_iso": "2026-05-15",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Aurora DSQL now supports change data capture (Preview)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-aurora-dsql-change-data-capture-preview/",
-        "summary": "Amazon Aurora DSQL introduces support for change data capture (CDC) in preview, enabling you to stream real-time database changes directly to Amazon Kinesis Data Streams. This fully managed…",
-        "date": "2026年5月15日",
-        "date_iso": "2026-05-15",
-        "category": "database-tag",
-        "cat_label": "データベース",
         "tag": "AWS"
       }
     ],
@@ -409,17 +409,17 @@
       {
         "title": "May 18, 2026",
         "link": "https://docs.cloud.google.com/release-notes#May_18_2026",
-        "summary": "BigQuery Feature You can manage and version control SQL scripts and notebooks with BigQuery Studio Git repositories , which provide a streamlined, folder-based integration with remote Git…",
+        "summary": "BigQuery Feature You can now use a custom organization policy to allow or deny specific operations on workload management resources including reservations, assignments, capacity commitments, and BI…",
         "date": "2026年5月18日",
         "date_iso": "2026-05-18",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "GCP"
       },
       {
         "title": "May 17, 2026",
         "link": "https://docs.cloud.google.com/release-notes#May_17_2026",
-        "summary": "Google SecOps Announcement New parser documentation now available New parser documentation is available to help you ingest and normalize logs from the following sources: Collect Arista VeloCloud…",
+        "summary": "Gemini Enterprise Feature Gemini Enterprise: Agent Designer defaults to Gemini 3.1 Pro for US and Global regions New agents created in Agent Designer use Gemini 3.1 Pro by default in the US and…",
         "date": "2026年5月17日",
         "date_iso": "2026-05-17",
         "category": "ai-tag",
@@ -449,7 +449,7 @@
       {
         "title": "May 14, 2026",
         "link": "https://docs.cloud.google.com/release-notes#May_14_2026",
-        "summary": "BigQuery Issue Support for the AI.KEY_DRIVERS function preview has been temporarily disabled. We are working to restore this feature as soon as possible. Cloud Composer Issue The google-api-core…",
+        "summary": "BigQuery Issue Support for the AI.KEY_DRIVERS function preview has been temporarily disabled. We are working to restore this feature as soon as possible. Cloud Composer Announcement A new Managed…",
         "date": "2026年5月14日",
         "date_iso": "2026-05-14",
         "category": "ai-tag",
@@ -609,8 +609,28 @@
     ],
     "oci": [
       {
+        "title": "Legacy Local User \"DefaultLocalUser\" Is Being Retired",
+        "link": "https://docs.oracle.com/iaas/releasenotes/identity/defaultlocaluser-is-being-retired.htm",
+        "summary": "",
+        "date": "2026年5月18日",
+        "date_iso": "2026-05-18",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
         "title": "Convert Text to Speech with xAI Voice in OCI Generative AI",
         "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/xai-grok-voice.htm",
+        "summary": "",
+        "date": "2026年5月15日",
+        "date_iso": "2026-05-15",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Configure vanity domains for simpler access to Fusion Applications",
+        "link": "https://docs.oracle.com/iaas/releasenotes/fusion-applications/vanity-domains.htm",
         "summary": "",
         "date": "2026年5月15日",
         "date_iso": "2026-05-15",
@@ -769,41 +789,21 @@
         "tag": "OCI"
       },
       {
+        "title": "Standardized Authentication Error Responses and New Error Code AUTH-3001",
+        "link": "https://docs.oracle.com/iaas/releasenotes/identity/standardized_authentication_error_responses.htm",
+        "summary": "",
+        "date": "2026年5月1日",
+        "date_iso": "2026-05-01",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "OCI"
+      },
+      {
         "title": "Demonstration Environment Cloud Service (DECS) for Oracle Fusion Applications",
         "link": "https://docs.oracle.com/iaas/releasenotes/fusion-applications/vision-demo-pods.htm",
         "summary": "",
         "date": "2026年5月1日",
         "date_iso": "2026-05-01",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "HeatWave: Support for Versions 9.7.0, 8.4.9, and 8.0.46",
-        "link": "https://docs.oracle.com/iaas/releasenotes/mysql-database/heatwave-970-849-8046.htm",
-        "summary": "",
-        "date": "2026年4月29日",
-        "date_iso": "2026-04-29",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "OCI"
-      },
-      {
-        "title": "OCI Database with PostgreSQL adds support for PostgreSQL 17",
-        "link": "https://docs.oracle.com/iaas/releasenotes/postgresql/db-17.htm",
-        "summary": "",
-        "date": "2026年4月29日",
-        "date_iso": "2026-04-29",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "OCI"
-      },
-      {
-        "title": "OCI Batch Service – Release Version 1.0.2.0",
-        "link": "https://docs.oracle.com/iaas/releasenotes/batch/batch_service_release_1_0_2_0.htm",
-        "summary": "",
-        "date": "2026年4月29日",
-        "date_iso": "2026-04-29",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "OCI"
