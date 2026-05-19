@@ -1,5 +1,5 @@
 {
-  "updated": "2026年05月19日 13:33 JST",
+  "updated": "2026年05月19日 16:01 JST",
   "clouds": {
     "azure": [
       {
@@ -409,7 +409,7 @@
       {
         "title": "May 18, 2026",
         "link": "https://docs.cloud.google.com/release-notes#May_18_2026",
-        "summary": "BigQuery Feature You can now use a custom organization policy to allow or deny specific operations on workload management resources including reservations, assignments, capacity commitments, and BI…",
+        "summary": "BigQuery Feature You can group reservations together to prioritize idle slot sharing within the group. Reservations within a reservation group share idle slots with each other before making them…",
         "date": "2026年5月18日",
         "date_iso": "2026-05-18",
         "category": "compute-tag",
