@@ -1,7 +1,57 @@
 {
-  "updated": "2026年05月19日 21:30 JST",
+  "updated": "2026年05月20日 13:37 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Public Preview: Evaluate feature rollouts with Azure App Configuration Scorecards",
+        "link": "https://azure.microsoft.com/updates?id=561049",
+        "summary": "Azure App Configuration now supports a scorecards capability in public preview. Scorecards provide a telemetry-driven view of how feature flag variants are performing in production, helping teams…",
+        "date": "2026年5月20日",
+        "date_iso": "2026-05-20",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Azure NetApp Files cache volumes",
+        "link": "https://azure.microsoft.com/updates?id=562259",
+        "summary": "Azure NetApp Files cache volumes is now Generally Available. Azure NetApp Files now support cache volumes, which are cloud-based caches of an external origin volume, containing only the most actively…",
+        "date": "2026年5月20日",
+        "date_iso": "2026-05-20",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Azure Virtual Network updates – default limits increased for NSGs and route tables",
+        "link": "https://azure.microsoft.com/updates?id=562695",
+        "summary": "Azure Virtual Network has increased the default platform limits for network security groups (NSGs) and route tables. The new defaults are now 2,000 security rules per NSG, 6,000 addresses or ports…",
+        "date": "2026年5月20日",
+        "date_iso": "2026-05-20",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Network Watcher rule impact analyser",
+        "link": "https://azure.microsoft.com/updates?id=562690",
+        "summary": "Azure Network Watcher rule impact analyzer is now generally available, enabling you to assess the potential impact of your network security group (NSG) or security admin rule changes on live network…",
+        "date": "2026年5月20日",
+        "date_iso": "2026-05-20",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Mock runs for Azure Storage Actions – Validate before you execute",
+        "link": "https://azure.microsoft.com/updates?id=559494",
+        "summary": "Azure Storage Actions, our fully managed platform that transforms how organizations automate data management tasks for Azure Blob and Data Lake Storage, now supports mock runs - a new way to simulate…",
+        "date": "2026年5月20日",
+        "date_iso": "2026-05-20",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Generally Available: Application Insights Auto-instrumentation for Azure Kubernetes Service apps",
         "link": "https://azure.microsoft.com/updates?id=562049",
@@ -151,59 +201,59 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Azure SQL update for early-May 2026",
-        "link": "https://azure.microsoft.com/updates?id=560283",
-        "summary": "In early May 2026, the following update and enhancement was made to Azure SQL: Right‑size memory for Business Critical Azure SQL Managed Instance to improve performance without overprovisioning.…",
-        "date": "2026年5月7日",
-        "date_iso": "2026-05-07",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Retirement: Azure Document Intelligence v3.0 API will be retired on March 30, 2029",
-        "link": "https://azure.microsoft.com/updates?id=561176",
-        "summary": "On March 30, 2029, Azure Document Intelligence v3.0 API will be retired. Please migrate to latest generally available Azure Document Intelligence API version, v4.0, by that date. After March 30,…",
-        "date": "2026年5月7日",
-        "date_iso": "2026-05-07",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Bulk Restore for Azure Virtual Machines using Azure Backup",
-        "link": "https://azure.microsoft.com/updates?id=561373",
-        "summary": "Azure Backup now supports ‘Bulk Restore’ for Azure virtual machines (VMs), enabling customers to restore multiple VMs (upto 100) in a single operation. This feature simplifies large-scale recovery…",
-        "date": "2026年5月7日",
-        "date_iso": "2026-05-07",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Azure Cosmos DB Shell—your new command line for data workflows",
-        "link": "https://azure.microsoft.com/updates?id=561162",
-        "summary": "Azure Cosmos DB Shell is now available in public preview, introducing a modern command-line experience with agentic capabilities powered by Model Context Protocol (MCP). You can now query, explore,…",
-        "date": "2026年5月7日",
-        "date_iso": "2026-05-07",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Azure NetApp Files enable backup by default",
-        "link": "https://azure.microsoft.com/updates?id=560668",
-        "summary": "Azure NetApp Files now enables backup by default when creating new volumes, delivering a more seamless and secure data‑protection experience. Backups are automatically provisioned during volume…",
-        "date": "2026年5月7日",
-        "date_iso": "2026-05-07",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Amazon SageMaker HyperPod now supports data capture for inference workloads",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-hyperpod-data-capture",
+        "summary": "Amazon SageMaker HyperPod now supports data capture for inference workloads, enabling customers to record inference request and response payloads for model monitoring, compliance, debugging, and…",
+        "date": "2026年5月20日",
+        "date_iso": "2026-05-20",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon MWAA now supports Apache Airflow 3.2",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-mwaa-now-supports-apache-airflow-3-2/",
+        "summary": "Amazon Managed Workflows for Apache Airflow (MWAA) now supports Apache Airflow version 3.2, the latest major release of the popular open-source workflow orchestration framework. Amazon MWAA is a…",
+        "date": "2026年5月20日",
+        "date_iso": "2026-05-20",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Inspector is now available in the AWS Asia Pacific (Taipei) Region",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-inspector-taipei/",
+        "summary": "Today, AWS announces the availability of Amazon Inspector in the AWS Asia Pacific (Taipei) Region. Amazon Inspector is an automated vulnerability management service that continually scans AWS…",
+        "date": "2026年5月20日",
+        "date_iso": "2026-05-20",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon ECS introduces pause and continue controls for service deployments",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ecs-pause-continue-deployments/",
+        "summary": "Amazon Elastic Container Service (Amazon ECS) now enables you to pause service deployments at critical stages during deployment progression and continue deployments when ready. You can use these…",
+        "date": "2026年5月20日",
+        "date_iso": "2026-05-20",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Managed Grafana now supports dual-stack connectivity (IPv6 and IPv4)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-managed-grafana-ipv6/",
+        "summary": "Amazon Managed Grafana now supports dual-stack connectivity, enabling workspaces to communicate over both Internet Protocol version 4 (IPv4) and Internet Protocol version 6 (IPv6). Dual-stack mode is…",
+        "date": "2026年5月20日",
+        "date_iso": "2026-05-20",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
       {
         "title": "AWS Management Console now displays AWS Local Zones in the Region Selector",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-local-zones-region-selector/",
@@ -275,6 +325,16 @@
         "tag": "AWS"
       },
       {
+        "title": "Introducing pre-fetching and IAM role assumption for AWS Secrets Manager Agent",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/secrets-manager-agent-prefetch-and-role-assumption/",
+        "summary": "AWS Secrets Manager Agent now supports two new capabilities: pre-fetching secrets at startup and assuming an IAM role to retrieve secrets. With pre-fetching, you can specify a list of secrets or a…",
+        "date": "2026年5月18日",
+        "date_iso": "2026-05-18",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon CloudWatch Logs announces increased query result limits",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/cloudwatch-logs-query-results/",
         "summary": "Amazon CloudWatch Logs now supports retrieving up to 100,000 results using the Logs Insights query language. Customers can specify the limit in their query using the LIMIT command. Previously,…",
@@ -343,69 +403,19 @@
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "AWS"
-      },
-      {
-        "title": "AWS announces AWS Interconnect - multicloud connectivity with Oracle Cloud Infrastructure in preview",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-announces-AWS-interconnect-multicloud-oci-preview/",
-        "summary": "AWS announces the public preview of AWS Interconnect — multicloud with Oracle Cloud Infrastructure (OCI). Customers have been adopting multicloud strategies while migrating more applications to the…",
-        "date": "2026年5月16日",
-        "date_iso": "2026-05-16",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon CloudFront が相互 TLS (ビューワー) のパススルーモードを発表",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/05/amazon-cloudfront-mtls-passthrough/",
-        "summary": "",
-        "date": "2026年5月15日",
-        "date_iso": "2026-05-15",
-        "category": "network-tag",
-        "cat_label": "ネットワーク",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon CloudFront が相互 TLS (ビューワー) の OCSP 取り消しのサポートを発表",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/05/amazon-cloudfront-mtls-ocsp/",
-        "summary": "",
-        "date": "2026年5月15日",
-        "date_iso": "2026-05-15",
-        "category": "network-tag",
-        "cat_label": "ネットワーク",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Bedrock が高度なプロンプト最適化および移行ツールを発表",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/05/amazon-bedrock-advanced-prompt-optimization-migration-tool/",
-        "summary": "",
-        "date": "2026年5月15日",
-        "date_iso": "2026-05-15",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 M3 Ultra Mac インスタンスの一般提供を発表",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/05/amazon-ec2-m3-ultra-mac-instances-generally-available/",
-        "summary": "",
-        "date": "2026年5月15日",
-        "date_iso": "2026-05-15",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "SageMaker AI が Qwen3.6 モデルのサーバーレスモデルカスタマイズのサポートを開始",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/05/amazon-sagemaker-ft-qwen3-6/",
-        "summary": "",
-        "date": "2026年5月15日",
-        "date_iso": "2026-05-15",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "May 19, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#May_19_2026",
+        "summary": "BigQuery Feature You can use the AI.PARSE_DOCUMENT function to parse documents such as PDFs. This function uses the Document AI layout parser to extract structured information, including text chunks…",
+        "date": "2026年5月19日",
+        "date_iso": "2026-05-19",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
       {
         "title": "May 18, 2026",
         "link": "https://docs.cloud.google.com/release-notes#May_18_2026",
@@ -594,16 +604,6 @@
         "date_iso": "2026-04-29",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "April 28, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#April_28_2026",
-        "summary": "AlloyDB for PostgreSQL Change When the initial user or password is unspecified during cluster creation, a locked postgres role with null password is created. BigQuery Feature You can now create…",
-        "date": "2026年4月28日",
-        "date_iso": "2026-04-28",
-        "category": "database-tag",
-        "cat_label": "データベース",
         "tag": "GCP"
       }
     ],
