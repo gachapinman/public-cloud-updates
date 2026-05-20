@@ -1,5 +1,5 @@
 {
-  "updated": "2026年05月20日 13:37 JST",
+  "updated": "2026年05月20日 16:01 JST",
   "clouds": {
     "azure": [
       {
@@ -335,9 +335,9 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon CloudWatch Logs announces increased query result limits",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/cloudwatch-logs-query-results/",
-        "summary": "Amazon CloudWatch Logs now supports retrieving up to 100,000 results using the Logs Insights query language. Customers can specify the limit in their query using the LIMIT command. Previously,…",
+        "title": "Amazon CloudWatch Logs がクエリ結果の上限引き上げを発表",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/05/cloudwatch-logs-query-results/",
+        "summary": "",
         "date": "2026年5月16日",
         "date_iso": "2026-05-16",
         "category": "compute-tag",
@@ -345,9 +345,19 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon EMR Serverless is now available in additional AWS Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-emr-serverless-aws-regions/",
-        "summary": "Amazon EMR Serverless is now generally available in six additional AWS Regions - Asia Pacific (Hyderabad), Asia Pacific (Malaysia), Asia Pacific (New Zealand), Asia Pacific (Taipei), Asia Pacific…",
+        "title": "Amazon EMR Serverless がいくつかの AWS リージョンで新たに提供開始",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/05/amazon-emr-serverless-aws-regions/",
+        "summary": "",
+        "date": "2026年5月16日",
+        "date_iso": "2026-05-16",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Connect Cases で、エージェントワークスペースから関連項目を編集したり、ケースを削除したりできるようになる",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/05/amazon-connect-cases-related-item/",
+        "summary": "",
         "date": "2026年5月16日",
         "date_iso": "2026-05-16",
         "category": "ai-tag",
@@ -355,29 +365,9 @@
         "tag": "AWS"
       },
       {
-        "title": "AWS Partner Central agents now accelerates opportunity creation",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-partner-central-agents-oppo",
-        "summary": "Today, AWS announces that the AWS Partner Central agents now accelerate opportunity creation through natural language conversation. AWS Partner Central agents , released on March 16, 2026, are…",
-        "date": "2026年5月16日",
-        "date_iso": "2026-05-16",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Connect Cases now lets you edit related items and delete cases from the agent workspace",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-cases-related-item/",
-        "summary": "Amazon Connect Cases now supports editing and deleting related items, and deleting cases directly from the agent workspace without administrator help. Agents can update comments, unlink contacts…",
-        "date": "2026年5月16日",
-        "date_iso": "2026-05-16",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon RDS for PostgreSQL announces Extended Support minor versions 11.22-rds.20260224, 12.22-rds.20260224, and…",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-rds-postgresql-extended-support/",
-        "summary": "Amazon Relational Database Service (RDS) for PostgreSQL announces Amazon RDS Extended Support minor versions 11.22-rds.20260224, 12.22-rds.20260224, and 13.23-rds.20260224. We recommend that you…",
+        "title": "Amazon RDS for PostgreSQL が延長サポートのマイナーバージョン 11.22-rds.20260224、12.22-rds.20260224、13.23-rds.20260224 を発表",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/05/amazon-rds-postgresql-extended-support/",
+        "summary": "",
         "date": "2026年5月16日",
         "date_iso": "2026-05-16",
         "category": "database-tag",
@@ -385,9 +375,9 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon Managed Grafana now supports in-place upgrade to Grafana version 12.4",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-managed-grafana-v12-update/",
-        "summary": "Amazon Managed Grafana&nbsp;now supports&nbsp;in-place&nbsp;upgrade&nbsp;from Grafana version 10.4 to 12.4.&nbsp;You can upgrade with just a few clicks&nbsp;from&nbsp;the AWS Console or via AWS SDK…",
+        "title": "Amazon Managed Grafana が Grafana バージョン 12.4 へのインプレースアップグレードのサポート開始",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/05/amazon-managed-grafana-v12-update/",
+        "summary": "",
         "date": "2026年5月16日",
         "date_iso": "2026-05-16",
         "category": "compute-tag",
@@ -395,9 +385,19 @@
         "tag": "AWS"
       },
       {
-        "title": "AWS Organizations now supports higher quotas for service control policies (SCPs)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-organizations-increased-scp-quotas/",
-        "summary": "AWS Organizations now supports higher quotas for service control policies (SCPs). The maximum number of SCPs that can be attached to a single node (root, OU, or account) has increased from 5 to 10,…",
+        "title": "AWS Organizations がサービスコントロールポリシー (SCP) のクォータ数増加をサポート開始",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/05/aws-organizations-increased-scp-quotas/",
+        "summary": "",
+        "date": "2026年5月16日",
+        "date_iso": "2026-05-16",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS が AWS Interconnect - Oracle Cloud Infrastructure とのマルチクラウド接続をプレビューで発表",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/05/aws-announces-AWS-interconnect-multicloud-oci-preview/",
+        "summary": "",
         "date": "2026年5月16日",
         "date_iso": "2026-05-16",
         "category": "compute-tag",
