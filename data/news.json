@@ -1,5 +1,5 @@
 {
-  "updated": "2026年05月20日 16:01 JST",
+  "updated": "2026年05月20日 21:11 JST",
   "clouds": {
     "azure": [
       {
@@ -409,11 +409,11 @@
       {
         "title": "May 19, 2026",
         "link": "https://docs.cloud.google.com/release-notes#May_19_2026",
-        "summary": "BigQuery Feature You can use the AI.PARSE_DOCUMENT function to parse documents such as PDFs. This function uses the Document AI layout parser to extract structured information, including text chunks…",
+        "summary": "Apigee hybrid Announcement v1.16.3 On May 19, 2026 we released an updated version of the Apigee hybrid software, v1.16.3. For information on upgrading, see Upgrading Apigee hybrid to version v1.16.3…",
         "date": "2026年5月19日",
         "date_iso": "2026-05-19",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "GCP"
       },
       {
@@ -609,11 +609,11 @@
     ],
     "oci": [
       {
-        "title": "Legacy Local User \"DefaultLocalUser\" Is Being Retired",
-        "link": "https://docs.oracle.com/iaas/releasenotes/identity/defaultlocaluser-is-being-retired.htm",
+        "title": "Local Appliance Web server moving to HTTPS from HTTP inside Oracle Cloud Bridge",
+        "link": "https://docs.oracle.com/iaas/releasenotes/cloud-migration/local-appliance-web-server.htm",
         "summary": "",
-        "date": "2026年5月18日",
-        "date_iso": "2026-05-18",
+        "date": "2026年5月20日",
+        "date_iso": "2026-05-20",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "OCI"
@@ -789,16 +789,6 @@
         "tag": "OCI"
       },
       {
-        "title": "Standardized Authentication Error Responses and New Error Code AUTH-3001",
-        "link": "https://docs.oracle.com/iaas/releasenotes/identity/standardized_authentication_error_responses.htm",
-        "summary": "",
-        "date": "2026年5月1日",
-        "date_iso": "2026-05-01",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "OCI"
-      },
-      {
         "title": "Demonstration Environment Cloud Service (DECS) for Oracle Fusion Applications",
         "link": "https://docs.oracle.com/iaas/releasenotes/fusion-applications/vision-demo-pods.htm",
         "summary": "",
@@ -806,6 +796,16 @@
         "date_iso": "2026-05-01",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "HeatWave: Support for Versions 9.7.0, 8.4.9, and 8.0.46",
+        "link": "https://docs.oracle.com/iaas/releasenotes/mysql-database/heatwave-970-849-8046.htm",
+        "summary": "",
+        "date": "2026年4月29日",
+        "date_iso": "2026-04-29",
+        "category": "database-tag",
+        "cat_label": "データベース",
         "tag": "OCI"
       }
     ]
