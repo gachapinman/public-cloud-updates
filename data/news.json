@@ -1,5 +1,5 @@
 {
-  "updated": "2026年05月21日 16:06 JST",
+  "updated": "2026年05月21日 21:34 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "May 21, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#May_21_2026",
+        "summary": "Secure Web Proxy Feature When deploying your Secure Web Proxy instance as next hop , you can now configure the gateway to listen on all ports (from 1 to 65535 ). By using this feature, your proxy can…",
+        "date": "2026年5月21日",
+        "date_iso": "2026-05-21",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "GCP"
+      },
+      {
         "title": "May 20, 2026",
         "link": "https://docs.cloud.google.com/release-notes#May_20_2026",
         "summary": "Apigee X Security On May 20, 2026, we published a security bulletin for Apigee. A vulnerability was found in Apigee ( CVE-2026-2264 ) where the IntegrationRegion parameter in the…",
@@ -512,16 +522,6 @@
         "summary": "Cloud Workstations Announcement The base VM was upgraded to use Container-Optimized OS 125 LTS .",
         "date": "2026年5月10日",
         "date_iso": "2026-05-10",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "May 09, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#May_09_2026",
-        "summary": "Container Optimized OS Change cos-beta-129-19506-120-64 Kernel Docker Containerd GPU Drivers COS-6.12.77 v27.5.1 v2.2.3 See List Security Fixed CVE-2026-43284 (dirtyfrag) in the Linux kernel. Change…",
-        "date": "2026年5月9日",
-        "date_iso": "2026-05-09",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
