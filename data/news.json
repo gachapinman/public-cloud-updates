@@ -1,5 +1,5 @@
 {
-  "updated": "2026年05月22日 16:01 JST",
+  "updated": "2026年05月22日 21:07 JST",
   "clouds": {
     "azure": [
       {
@@ -609,6 +609,16 @@
     ],
     "oci": [
       {
+        "title": "HeatWave: DB System Cloning",
+        "link": "https://docs.oracle.com/iaas/releasenotes/mysql-database/heatwave-clone-db-system.htm",
+        "summary": "",
+        "date": "2026年5月21日",
+        "date_iso": "2026-05-21",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "OCI"
+      },
+      {
         "title": "OCI Kubernetes Engine (OKE) support for assigning reserved public IPv6 addresses to load balancers",
         "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-Reserved-IPv6-addresses-LB.htm",
         "summary": "",
@@ -796,16 +806,6 @@
         "date_iso": "2026-05-08",
         "category": "network-tag",
         "cat_label": "ネットワーク",
-        "tag": "OCI"
-      },
-      {
-        "title": "Improved Outbound Connection options for Private Endpoints on Oracle Autonomous AI Database 26ai",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-05-outbound-conn-options.htm",
-        "summary": "",
-        "date": "2026年5月8日",
-        "date_iso": "2026-05-08",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "OCI"
       }
     ]
