@@ -1,7 +1,57 @@
 {
-  "updated": "2026年05月21日 21:34 JST",
+  "updated": "2026年05月22日 13:36 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Generally Available: Entra-only identities with Azure Files",
+        "link": "https://azure.microsoft.com/updates?id=562359",
+        "summary": "Azure Files announces general availability of Entra-only identities for SMB access, enabling organizations to securely access file shares using cloud-native identities without requiring Active…",
+        "date": "2026年5月22日",
+        "date_iso": "2026-05-22",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Azure NetApp Files object REST API",
+        "link": "https://azure.microsoft.com/updates?id=562254",
+        "summary": "The Object REST API (an S3-compatible REST API) on Azure NetApp Files bridges the gap between traditional file-based storage and modern cloud services, enabling you to use your existing data in new…",
+        "date": "2026年5月22日",
+        "date_iso": "2026-05-22",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Retirement: TLS 1.0 and TLS 1.1 in Azure App Service, Azure Functions, and Azure Logic Apps",
+        "link": "https://azure.microsoft.com/updates?id=557852",
+        "summary": "As part of Azure’s ongoing security improvements, App Service, Functions, and Logic Apps will no longer accept connections using TLS 1.0 or TLS 1.1 after May 31, 2027. Any client, application, or…",
+        "date": "2026年5月22日",
+        "date_iso": "2026-05-22",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: User Groups and IP address pools for P2S connections",
+        "link": "https://azure.microsoft.com/updates?id=564460",
+        "summary": "User Groups and IP Address Pools for Point-to-Site connections in VPN Gateway enable customers to assign distinct IP address pools to remote users based on their credentials. With this capability,…",
+        "date": "2026年5月22日",
+        "date_iso": "2026-05-22",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: TLS/SSL certificate support for Azure Functions Flex Consumption",
+        "link": "https://azure.microsoft.com/updates?id=562808",
+        "summary": "Flex Consumption introduces a site-scoped certificate model in public preview in all the regions where Flex Consumption is available. Unlike webspace-scoped certificates on other hosting plans which…",
+        "date": "2026年5月22日",
+        "date_iso": "2026-05-22",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Generally Available: SQL Server on Azure VMs in Malaysia West, Indonesia Central",
         "link": "https://azure.microsoft.com/updates?id=562094",
@@ -151,59 +201,79 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Auto activation for SaaS subscriptions in Microsoft Marketplace",
-        "link": "https://azure.microsoft.com/updates?id=561771",
-        "summary": "Auto activation for SaaS solutions is now available in Microsoft Marketplace, making it faster and easier to get the value from your SaaS products. When auto activation is enabled, your…",
-        "date": "2026年5月19日",
-        "date_iso": "2026-05-19",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Azure Front Door WebSocket",
-        "link": "https://azure.microsoft.com/updates?id=562548",
-        "summary": "Azure Front Door Standard and Premium now support WebSocket in general availability. WebSocket is enabled by default and requires no additional configuration. WebSocket provides full-duplex…",
-        "date": "2026年5月19日",
-        "date_iso": "2026-05-19",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Update: Microsoft Foundry built-in RBAC role naming and enhancements",
-        "link": "https://azure.microsoft.com/updates?id=562533",
-        "summary": "Role names in Microsoft Foundry have been updated to align with the product brand. The following built-in roles are now renamed:Azure AI Account Owner → Foundry Account OwnerAzure AI Owner → Foundry…",
-        "date": "2026年5月16日",
-        "date_iso": "2026-05-16",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Azure Blob Storage SDK for Rust",
-        "link": "https://azure.microsoft.com/updates?id=562516",
-        "summary": "The Azure Blob Storage SDK for Rust is now generally available. The Rust SDK allows you to connect to an Azure Blob Storage account and perform operations on containers and blobs, including…",
-        "date": "2026年5月16日",
-        "date_iso": "2026-05-16",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Support for workloads with large files in Azure NetApp Files",
-        "link": "https://azure.microsoft.com/updates?id=561722",
-        "summary": "To support seamless migration and operation of workloads that use large files including Azure VMware Solution (AVS) virtual machines with large VMDK disks, Azure NetApp Files now supports file sizes…",
-        "date": "2026年5月15日",
-        "date_iso": "2026-05-15",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Amazon CloudWatch Logs Insights adds new query commands and functions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-logs-insights/",
+        "summary": "Amazon CloudWatch Logs Insights query language now supports 13 new commands and functions that give you more powerful ways to query, transform, and analyze your logs. Customers analyzing logs in…",
+        "date": "2026年5月22日",
+        "date_iso": "2026-05-22",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 C7i-flex, M7i-flex & M7i instances now available in Asia Pacific (Hyderabad) region",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ec2-c7i-flex-m7i-flex-m7i-instances-HYD-region/",
+        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C7i-flex, M7i-flex and M7i instances powered by custom 4th Gen Intel Xeon Scalable processors (code-named Sapphire Rapids) are available in…",
+        "date": "2026年5月22日",
+        "date_iso": "2026-05-22",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "SageMaker Unified Studio automates Glue connector provisioning for cross-subnet job retries",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/sagemaker-unified-studio-glue/",
+        "summary": "Amazon SageMaker Unified Studio now supports automatic creation of connections for Glue job retries across subnets to improve data pipeline resilience. This helps organizations running…",
+        "date": "2026年5月22日",
+        "date_iso": "2026-05-22",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon SageMaker AI now supports OpenAI-compatible APIs for inference endpoints",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-ai-openai-apis/",
+        "summary": "Amazon SageMaker Inference now supports OpenAI-compatible APIs, so you can use the tools and frameworks you already know, like the OpenAI SDK, LangChain, and Strands Agents, to connect directly to…",
+        "date": "2026年5月22日",
+        "date_iso": "2026-05-22",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Aurora MySQL 8.4 is now generally available",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-aurora-mysql/8-4/",
+        "summary": "Amazon Aurora MySQL-Compatible Edition now supports MySQL 8.4, a community MySQL Long Term Support (LTS) major version. Aurora MySQL 8.4 launches with compatibility for community MySQL 8.4.7 and…",
+        "date": "2026年5月22日",
+        "date_iso": "2026-05-22",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon RDS Custom now supports the latest GDR updates for Microsoft SQL Server",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-custom-sql-server-latest-gdr-updates-microsoft-sql-server",
+        "summary": "Amazon Relational Database Service (Amazon RDS) Custom for SQL Server now supports the latest General Distribution Release (GDR) updates for Microsoft SQL Server. This release includes support for…",
+        "date": "2026年5月21日",
+        "date_iso": "2026-05-21",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Bedrock expands support for request-level usage attribution",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-bedrock-request-level-usage-attribution/",
+        "summary": "Amazon Bedrock customers can now attribute model inference usage to specific teams, applications, environments, and experiments at the individual request level on the InvokeModel and…",
+        "date": "2026年5月21日",
+        "date_iso": "2026-05-21",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
       {
         "title": "AWS Security Hub now uncovers identity risks from unused access",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-security-hub-unused-access/",
@@ -215,9 +285,29 @@
         "tag": "AWS"
       },
       {
+        "title": "Amazon DocumentDB (with MongoDB compatibility) Serverless is now available on DocumentDB 8.0",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/5/docdb8-serverless",
+        "summary": "Amazon DocumentDB (with MongoDB compatibility) Serverless, an on-demand, auto-scaling configuration for DocumentDB, is now available on version 8.0. Amazon DocumentDB Serverless automatically scales…",
+        "date": "2026年5月21日",
+        "date_iso": "2026-05-21",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
         "title": "Security Hub Extended expands to 21 curated partner solutions across 9 categories",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-security-hub-extended/",
         "summary": "AWS Security Hub Extended plan now includes 21 curated partner solutions across 9 security categories, adding SentinelOne (endpoint), CyberArk (identity), Sublime (email), Varonis (data security),…",
+        "date": "2026年5月21日",
+        "date_iso": "2026-05-21",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon SageMaker Unified Studio now supports data quality rule authoring and evaluation",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/smus-data-quality",
+        "summary": "Amazon SageMaker Unified Studio now supports data quality rule authoring and evaluation, powered by AWS Glue Data Quality. Data engineers, analysts, and data scientists can define data quality rules,…",
         "date": "2026年5月21日",
         "date_iso": "2026-05-21",
         "category": "ai-tag",
@@ -242,16 +332,6 @@
         "date_iso": "2026-05-21",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "ECS supports native integration with Amazon EBS volumes in GovCloud Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/ecs-amazon-ebs-govcloud/",
-        "summary": "Amazon Elastic Container Service (ECS) now supports mounting Amazon Elastic Block Store (EBS) volumes to containers in the AWS GovCloud Regions. This capability makes it easier for you to deploy…",
-        "date": "2026年5月21日",
-        "date_iso": "2026-05-21",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "AWS"
       },
       {
@@ -323,93 +403,13 @@
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "AWS"
-      },
-      {
-        "title": "AWS Management Console now displays AWS Local Zones in the Region Selector",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-local-zones-region-selector/",
-        "summary": "Today, AWS announces the addition of AWS Local Zones to the Region selector in the AWS Management Console, providing a unified experience across AWS global infrastructure. AWS Local Zones now appear…",
-        "date": "2026年5月19日",
-        "date_iso": "2026-05-19",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Glue zero-ETL is now available in Asia Pacific (Mumbai) region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-glue-zero-etl-mumbai-region",
-        "summary": "AWS Glue zero-ETL integrations are now available in the Asia Pacific (Mumbai) region. With this expansion, customers in the Asia Pacific (Mumbai) region can now use zero-ETL integrations to simplify…",
-        "date": "2026年5月19日",
-        "date_iso": "2026-05-19",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Lightsail CDN distributions now support IPv6-only instances as origins",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-lightsail-cdn-ipv6/",
-        "summary": "Amazon Lightsail content delivery network (CDN) distributions now support IPv6-only instances as origins. This feature enables customers to use IPv6-only instances to deliver content through the…",
-        "date": "2026年5月19日",
-        "date_iso": "2026-05-19",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EVS enables support for 32 hosts per environment",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-evs-32-hosts",
-        "summary": "Today, we are announcing that Amazon Elastic VMware Service (Amazon EVS) now supports up to 32&nbsp;ESXi&nbsp;hosts per environment, double the&nbsp;previous&nbsp;limit of 16 hosts. Amazon EVS gives…",
-        "date": "2026年5月19日",
-        "date_iso": "2026-05-19",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS SAM CLI adds AWS CloudFormation Language Extensions support to accelerate local serverless development",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-sam-cli-cloudformation/",
-        "summary": "AWS SAM CLI now supports AWS CloudFormation Language Extensions , enabling you to reduce duplication in your infrastructure as code (IaC) templates while retaining the full local development…",
-        "date": "2026年5月19日",
-        "date_iso": "2026-05-19",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Redshift adds ALTER TABLE for Iceberg tables and writes via the AWS Glue Data Catalog mount",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-redshift-alter-table-iceberg/",
-        "summary": "Amazon Redshift now supports writing directly to Apache Iceberg tables via the AWS Glue Data Catalog (awsdatacatalog) mount and ALTER TABLE DDL statements to modify the schema, partitioning, and…",
-        "date": "2026年5月19日",
-        "date_iso": "2026-05-19",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SageMaker Studio now supports GPU capacity reservation through SageMaker Flexible Training Plans",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-training-plan-support-for-studio/",
-        "summary": "Amazon SageMaker Studio IDEs, including JupyterLab and Code Editor, now support GPU capacity reservations through SageMaker Flexible Training Plans (FTP) , giving you predictable access to…",
-        "date": "2026年5月19日",
-        "date_iso": "2026-05-19",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Introducing pre-fetching and IAM role assumption for AWS Secrets Manager Agent",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/secrets-manager-agent-prefetch-and-role-assumption/",
-        "summary": "AWS Secrets Manager Agent now supports two new capabilities: pre-fetching secrets at startup and assuming an IAM role to retrieve secrets. With pre-fetching, you can specify a list of secrets or a…",
-        "date": "2026年5月18日",
-        "date_iso": "2026-05-18",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
       }
     ],
     "gcp": [
       {
         "title": "May 21, 2026",
         "link": "https://docs.cloud.google.com/release-notes#May_21_2026",
-        "summary": "Secure Web Proxy Feature When deploying your Secure Web Proxy instance as next hop , you can now configure the gateway to listen on all ports (from 1 to 65535 ). By using this feature, your proxy can…",
+        "summary": "Apigee X Announcement On May 21st, 2026, we released an updated version of Apigee (1-17-0-apigee-8). Note: Rollouts of this release began today and may take four or more business days to be completed…",
         "date": "2026年5月21日",
         "date_iso": "2026-05-21",
         "category": "compute-tag",
@@ -439,11 +439,11 @@
       {
         "title": "May 18, 2026",
         "link": "https://docs.cloud.google.com/release-notes#May_18_2026",
-        "summary": "BigQuery Feature You can group reservations together to prioritize idle slot sharing within the group. Reservations within a reservation group share idle slots with each other before making them…",
+        "summary": "Backup and DR Feature You can now use Protection Summary to identify and fix data protection gaps at both Folder and Org levels. BigQuery Feature You can group reservations together to prioritize…",
         "date": "2026年5月18日",
         "date_iso": "2026-05-18",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
         "tag": "GCP"
       },
       {
@@ -469,7 +469,7 @@
       {
         "title": "May 15, 2026",
         "link": "https://docs.cloud.google.com/release-notes#May_15_2026",
-        "summary": "Backup and DR Feature Backup and DR Service now supports customer-managed encryption keys (CMEK) for Cloud SQL enhanced backups. This allows you to protect your Cloud SQL backups using the same KMS…",
+        "summary": "Assured Workloads Feature The Indonesia Data Boundary supports the following products: Cloud Scheduler Secure Web Proxy Workflows Workload Identity Federation Feature The India Data Boundary supports…",
         "date": "2026年5月15日",
         "date_iso": "2026-05-15",
         "category": "security-tag",
@@ -479,7 +479,7 @@
       {
         "title": "May 14, 2026",
         "link": "https://docs.cloud.google.com/release-notes#May_14_2026",
-        "summary": "BigQuery Issue Support for the AI.KEY_DRIVERS function preview has been temporarily disabled. We are working to restore this feature as soon as possible. Cloud Composer Announcement A new Managed…",
+        "summary": "Backup and DR Feature These features are now available: Replication Optimization: Introduced a deletion replication optimization for AGM-BA to reduce operational blockages and improve platform…",
         "date": "2026年5月14日",
         "date_iso": "2026-05-14",
         "category": "ai-tag",
@@ -522,6 +522,16 @@
         "summary": "Cloud Workstations Announcement The base VM was upgraded to use Container-Optimized OS 125 LTS .",
         "date": "2026年5月10日",
         "date_iso": "2026-05-10",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
+        "title": "May 09, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#May_09_2026",
+        "summary": "Container Optimized OS Change cos-beta-129-19506-120-64 Kernel Docker Containerd GPU Drivers COS-6.12.77 v27.5.1 v2.2.3 See List Security Fixed CVE-2026-43284 (dirtyfrag) in the Linux kernel. Change…",
+        "date": "2026年5月9日",
+        "date_iso": "2026-05-09",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
@@ -595,19 +605,29 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
-      },
-      {
-        "title": "May 01, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#May_01_2026",
-        "summary": "Cloud Trace Feature Google Cloud Observability has expanded the supported locations for observability buckets, which store your trace data, to include the following: australia-southeast1…",
-        "date": "2026年5月1日",
-        "date_iso": "2026-05-01",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
-        "tag": "GCP"
       }
     ],
     "oci": [
+      {
+        "title": "OCI Kubernetes Engine (OKE) support for assigning reserved public IPv6 addresses to load balancers",
+        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-Reserved-IPv6-addresses-LB.htm",
+        "summary": "",
+        "date": "2026年5月21日",
+        "date_iso": "2026-05-21",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "OCI"
+      },
+      {
+        "title": "OCI Kubernetes Engine (OKE) support for HTTP/2 for managed load balancers",
+        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-LB_HTTP2-support.htm",
+        "summary": "",
+        "date": "2026年5月21日",
+        "date_iso": "2026-05-21",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "OCI"
+      },
       {
         "title": "Support for Kubernetes version 1.36.0 in a preview release of Kubernetes Engine",
         "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-K8s-1-36-0-preview-support-Release-Note.htm",
@@ -786,26 +806,6 @@
         "date_iso": "2026-05-08",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Multifactor Authentication in Autonomous AI Database 26ai",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-05-multifactor-authentication-aidb.htm",
-        "summary": "",
-        "date": "2026年5月8日",
-        "date_iso": "2026-05-08",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "OCI Kubernetes Engine (OKE) support for multiple secondary VNIC attachments",
-        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-Generic-VNIC-attachments.htm",
-        "summary": "",
-        "date": "2026年5月6日",
-        "date_iso": "2026-05-06",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
         "tag": "OCI"
       }
     ]
