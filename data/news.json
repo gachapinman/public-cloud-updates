@@ -1,5 +1,5 @@
 {
-  "updated": "2026年05月22日 21:07 JST",
+  "updated": "2026年05月23日 13:08 JST",
   "clouds": {
     "azure": [
       {
@@ -205,6 +205,86 @@
     ],
     "aws": [
       {
+        "title": "Amazon SageMaker expands domain management across domain types",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/domain-management-iam-idc/",
+        "summary": "Amazon SageMaker Unified Studio now provides domain management experience for Identity Center and IAM-based domains outside of AWS console, allows administrators and data management teams to create…",
+        "date": "2026年5月23日",
+        "date_iso": "2026-05-23",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "New agentic migration assessment capabilities now available with AWS Transform",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/assessment-capabilities-transform",
+        "summary": "AWS Transform now offers advanced migration assessment capabilities including what-if scenarios, customizable assumptions, flexible file format support, and multiple new total cost of ownership (TCO)…",
+        "date": "2026年5月23日",
+        "date_iso": "2026-05-23",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon SageMaker adds business metadata and governance in IAM-based domains",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/sagemaker-catalog-iam-domains/",
+        "summary": "Amazon SageMaker Unified Studio now supports business context, metadata and data governance capabilities in IAM-based domains. With this launch, customers using Amazon SageMaker IAM-based domains can…",
+        "date": "2026年5月23日",
+        "date_iso": "2026-05-23",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Security Agent adds verification scripts for pentest findings",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-security-agent/",
+        "summary": "AWS Security Agent now generates verification scripts for penetration test findings, enabling security teams to independently reproduce and validate discovered vulnerabilities. Previously, teams…",
+        "date": "2026年5月23日",
+        "date_iso": "2026-05-23",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon WorkSpaces Personal now supports WorkSpace Migration for Linux WorkSpaces",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/workspaces-linux-migration",
+        "summary": "Amazon WorkSpaces now supports the WorkSpace Migration feature for all Linux operating systems that Amazon WorkSpaces offers. This allows customers to seamlessly migrate WorkSpaces from one Linux…",
+        "date": "2026年5月23日",
+        "date_iso": "2026-05-23",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Keyspaces (for Apache Cassandra) expands to Asia Pacific (Malaysia) and Asia Pacific (Thailand) Regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-keyspaces-malaysia-thailand/",
+        "summary": "Amazon Keyspaces (for Apache Cassandra) is now available in the Asia Pacific (Malaysia) and Asia Pacific (Thailand) Regions, allowing customers in Asia Pacific Region to build Cassandra-compatible…",
+        "date": "2026年5月23日",
+        "date_iso": "2026-05-23",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Clean Rooms now supports mutable payment configurations for collaborations",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-clean-rooms-mutable-payments",
+        "summary": "AWS Clean Rooms now supports mutable fine-grained payment configurations for collaboration members. This capability offers customers greater flexibility and control over payment responsibilities as…",
+        "date": "2026年5月22日",
+        "date_iso": "2026-05-22",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Secrets Manager adds managed external secrets support for Datadog vended keys and Snowflake Programmatic Access…",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/secrets-manager-managed-external-secrets-datadog-snowflake/",
+        "summary": "AWS Secrets Manager now extends its managed external secrets capability to include Datadog Keys and Snowflake Programmatic Access Tokens (PATs). Managed external secrets enable customers to…",
+        "date": "2026年5月22日",
+        "date_iso": "2026-05-22",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon CloudWatch Logs Insights adds new query commands and functions",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-logs-insights/",
         "summary": "Amazon CloudWatch Logs Insights query language now supports 13 new commands and functions that give you more powerful ways to query, transform, and analyze your logs. Customers analyzing logs in…",
@@ -323,97 +403,27 @@
         "category": "database-tag",
         "cat_label": "データベース",
         "tag": "AWS"
-      },
-      {
-        "title": "AWS Billing Conductor Improves Account Visibility with Billing Transfer Inventory",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-billing-conductor-billing-transfer/",
-        "summary": "AWS Billing Conductor Console now enables you to see which accounts have received or accepted billing transfer invites but still lack access to pro forma billing data. &nbsp; This page helps…",
-        "date": "2026年5月21日",
-        "date_iso": "2026-05-21",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Announcing the general availability of a new AWS Local Zone in Istanbul, Türkiye",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-local-zones-istanbul-turkiye/",
-        "summary": "Today, AWS announces the general availability of a new AWS Local Zone in Istanbul, Türkiye, bringing AWS infrastructure closer to end users, while enabling organizations to meet data residency…",
-        "date": "2026年5月20日",
-        "date_iso": "2026-05-20",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Transfer Family web apps now support federated permissions with IAM Identity Center across AWS Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-transfer-family-federated-permissions-across-regions/",
-        "summary": "AWS Transfer Family web apps now support federated permissions with AWS IAM Identity Center across multiple AWS Regions.&nbsp;Previously, you could only create&nbsp;Transfer Family web apps&nbsp;in…",
-        "date": "2026年5月20日",
-        "date_iso": "2026-05-20",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SageMaker HyperPod now supports data capture for inference workloads",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-hyperpod-data-capture",
-        "summary": "Amazon SageMaker HyperPod now supports data capture for inference workloads, a new capability that records inference request and response payloads from production endpoints to Amazon S3. Customers…",
-        "date": "2026年5月20日",
-        "date_iso": "2026-05-20",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon MWAA now supports Apache Airflow 3.2",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-mwaa-now-supports-apache-airflow-3-2/",
-        "summary": "Amazon Managed Workflows for Apache Airflow (MWAA) now supports Apache Airflow version 3.2, the latest major release of the popular open-source workflow orchestration framework. Amazon MWAA is a…",
-        "date": "2026年5月20日",
-        "date_iso": "2026-05-20",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Inspector is now available in the AWS Asia Pacific (Taipei) Region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-inspector-taipei/",
-        "summary": "Today, AWS announces the availability of Amazon Inspector in the AWS Asia Pacific (Taipei) Region. Amazon Inspector is an automated vulnerability management service that continually scans AWS…",
-        "date": "2026年5月20日",
-        "date_iso": "2026-05-20",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon ECS introduces pause and continue controls for service deployments",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ecs-pause-continue-deployments/",
-        "summary": "Amazon Elastic Container Service (Amazon ECS) now enables you to pause service deployments at critical stages during deployment progression and continue deployments when ready. You can use these…",
-        "date": "2026年5月20日",
-        "date_iso": "2026-05-20",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Managed Grafana now supports dual-stack connectivity (IPv6 and IPv4)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-managed-grafana-ipv6/",
-        "summary": "Amazon Managed Grafana now supports dual-stack connectivity, enabling workspaces to communicate over both Internet Protocol version 4 (IPv4) and Internet Protocol version 6 (IPv6). Dual-stack mode is…",
-        "date": "2026年5月20日",
-        "date_iso": "2026-05-20",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
       }
     ],
     "gcp": [
       {
-        "title": "May 21, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#May_21_2026",
-        "summary": "Apigee X Announcement On May 21st, 2026, we released an updated version of Apigee (1-17-0-apigee-8). Note: Rollouts of this release began today and may take four or more business days to be completed…",
-        "date": "2026年5月21日",
-        "date_iso": "2026-05-21",
+        "title": "May 22, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#May_22_2026",
+        "summary": "Apigee X Announcement Apigee Emulator Apigee Emulator v2.0.0 On May 22, 2026, we released Apigee Emulator version 2.0.0. Starting with this release, the Apigee Emulator is versioned and released…",
+        "date": "2026年5月22日",
+        "date_iso": "2026-05-22",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
+        "tag": "GCP"
+      },
+      {
+        "title": "May 21, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#May_21_2026",
+        "summary": "AlloyDB for PostgreSQL Fixed ChatGPT users are now able to list and use the AlloyDB toolset provided by the AlloyDB remote MCP server. Apigee X Announcement On May 21st, 2026, we released an updated…",
+        "date": "2026年5月21日",
+        "date_iso": "2026-05-21",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "GCP"
       },
       {
@@ -594,16 +604,6 @@
         "date_iso": "2026-05-03",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "GCP"
-      },
-      {
-        "title": "May 02, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#May_02_2026",
-        "summary": "Google SecOps SOAR Announcement Release 6.3.83 is now available for all regions.",
-        "date": "2026年5月2日",
-        "date_iso": "2026-05-02",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "GCP"
       }
     ],
