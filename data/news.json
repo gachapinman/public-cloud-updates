@@ -1,5 +1,5 @@
 {
-  "updated": "2026年05月23日 20:01 JST",
+  "updated": "2026年05月24日 13:39 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "May 23, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#May_23_2026",
+        "summary": "Google SecOps SOAR Announcement Release 6.3.85 is now available for all regions.",
+        "date": "2026年5月23日",
+        "date_iso": "2026-05-23",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "May 22, 2026",
         "link": "https://docs.cloud.google.com/release-notes#May_22_2026",
         "summary": "Apigee X Announcement Apigee Emulator Apigee Emulator v2.0.0 On May 22, 2026, we released Apigee Emulator version 2.0.0. Starting with this release, the Apigee Emulator is versioned and released…",
@@ -592,16 +602,6 @@
         "summary": "Apigee hybrid Announcement v1.15.3 On May 4, 2026 we released an updated version of the Apigee hybrid software, v1.15.3. For information on upgrading, see Upgrading Apigee hybrid to version v1.15.3 .…",
         "date": "2026年5月4日",
         "date_iso": "2026-05-04",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "GCP"
-      },
-      {
-        "title": "May 03, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#May_03_2026",
-        "summary": "Google SecOps Feature Enhanced \"Time to respond\" options for multi-choice questions Google SecOps now provides more granular control over playbook execution when the \"time to respond\" for a…",
-        "date": "2026年5月3日",
-        "date_iso": "2026-05-03",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "GCP"
