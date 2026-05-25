@@ -1,5 +1,5 @@
 {
-  "updated": "2026年05月24日 20:03 JST",
+  "updated": "2026年05月25日 13:52 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "May 24, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#May_24_2026",
+        "summary": "Google SecOps SOAR Announcement Release 6.3.86 is being rolled out to the first phase of regions as listed here . This release contains internal and customer bug fixes.",
+        "date": "2026年5月24日",
+        "date_iso": "2026-05-24",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "May 23, 2026",
         "link": "https://docs.cloud.google.com/release-notes#May_23_2026",
         "summary": "Google SecOps SOAR Announcement Release 6.3.85 is now available for all regions.",
@@ -594,16 +604,6 @@
         "date_iso": "2026-05-05",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "May 04, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#May_04_2026",
-        "summary": "Apigee hybrid Announcement v1.15.3 On May 4, 2026 we released an updated version of the Apigee hybrid software, v1.15.3. For information on upgrading, see Upgrading Apigee hybrid to version v1.15.3 .…",
-        "date": "2026年5月4日",
-        "date_iso": "2026-05-04",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
         "tag": "GCP"
       }
     ],
