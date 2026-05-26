@@ -1,5 +1,5 @@
 {
-  "updated": "2026年05月26日 13:35 JST",
+  "updated": "2026年05月26日 16:00 JST",
   "clouds": {
     "azure": [
       {
@@ -335,6 +335,46 @@
         "tag": "AWS"
       },
       {
+        "title": "AWS Security Hub が未使用のアクセスによるアイデンティティリスクを明らかにするようになりました",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/05/aws-security-hub-unused-access/",
+        "summary": "",
+        "date": "2026年5月21日",
+        "date_iso": "2026-05-21",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Security Hub Extended が、9 つのカテゴリにわたる 21 の厳選されたパートナーソリューションに拡張されました",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/05/aws-security-hub-extended/",
+        "summary": "",
+        "date": "2026年5月21日",
+        "date_iso": "2026-05-21",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS がオープンソースの DynamoDB 互換アダプター ExtendDB を発表",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/05/aws-extenddb-dynamodb/",
+        "summary": "",
+        "date": "2026年5月21日",
+        "date_iso": "2026-05-21",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Billing Conductor が Billing Transfer インベントリによりアカウントの可視性を向上",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/05/aws-billing-conductor-billing-transfer/",
+        "summary": "",
+        "date": "2026年5月21日",
+        "date_iso": "2026-05-21",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon RDS Custom now supports the latest GDR updates for Microsoft SQL Server",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-custom-sql-server-latest-gdr-updates-microsoft-sql-server",
         "summary": "Amazon Relational Database Service (Amazon RDS) Custom for SQL Server now supports the latest General Distribution Release (GDR) updates for Microsoft SQL Server. This release includes support for…",
@@ -355,16 +395,6 @@
         "tag": "AWS"
       },
       {
-        "title": "AWS Security Hub now uncovers identity risks from unused access",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-security-hub-unused-access/",
-        "summary": "Today, AWS Security Hub brings identity risk into the same unified console where central security teams already manage threats, exposures, and posture findings. Security Hub now detects unused IAM…",
-        "date": "2026年5月21日",
-        "date_iso": "2026-05-21",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
         "title": "Amazon DocumentDB (with MongoDB compatibility) Serverless is now available on DocumentDB 8.0",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/5/docdb8-serverless",
         "summary": "Amazon DocumentDB (with MongoDB compatibility) Serverless, an on-demand, auto-scaling configuration for DocumentDB, is now available on version 8.0. Amazon DocumentDB Serverless automatically scales…",
@@ -372,36 +402,6 @@
         "date_iso": "2026-05-21",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Security Hub Extended expands to 21 curated partner solutions across 9 categories",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-security-hub-extended/",
-        "summary": "AWS Security Hub Extended plan now includes 21 curated partner solutions across 9 security categories, adding SentinelOne (endpoint), CyberArk (identity), Sublime (email), Varonis (data security),…",
-        "date": "2026年5月21日",
-        "date_iso": "2026-05-21",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SageMaker Unified Studio now supports data quality rule authoring and evaluation",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/smus-data-quality",
-        "summary": "Amazon SageMaker Unified Studio now supports data quality rule authoring and evaluation, powered by AWS Glue Data Quality. Data engineers, analysts, and data scientists can define data quality rules,…",
-        "date": "2026年5月21日",
-        "date_iso": "2026-05-21",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS announces ExtendDB, an open source DynamoDB-compatible adapter",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-extenddb-dynamodb/",
-        "summary": "Today, Amazon Web Services (AWS) announced version 0.1 of ExtendDB, an open source project that implements the Amazon DynamoDB API with pluggable storage backends. Amazon DynamoDB is a serverless,…",
-        "date": "2026年5月21日",
-        "date_iso": "2026-05-21",
-        "category": "database-tag",
-        "cat_label": "データベース",
         "tag": "AWS"
       }
     ],
