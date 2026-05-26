@@ -1,5 +1,5 @@
 {
-  "updated": "2026年05月25日 21:53 JST",
+  "updated": "2026年05月26日 13:35 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "May 25, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#May_25_2026",
+        "summary": "Google Kubernetes Engine Feature To monitor the efficiency of the GKE training JobSet, the following two GKE system metrics are available in Preview: kubernetes.io/jobset/scheduling_goodput : the…",
+        "date": "2026年5月25日",
+        "date_iso": "2026-05-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "May 24, 2026",
         "link": "https://docs.cloud.google.com/release-notes#May_24_2026",
         "summary": "Google SecOps SOAR Announcement Release 6.3.86 is being rolled out to the first phase of regions as listed here . This release contains internal and customer bug fixes.",
@@ -592,16 +602,6 @@
         "summary": "BigQuery Feature You can configure BigQuery sharing listings for multiple regions, which allows you to share datasets and linked replicas across global geographies simultaneously. For more…",
         "date": "2026年5月6日",
         "date_iso": "2026-05-06",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "May 05, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#May_05_2026",
-        "summary": "Config Connector Announcement Config Connector version 1.149.1 is now available. Feature New Alpha Resources (Direct Reconciler): NetworkServicesLBRouteExtension #6957 Manage load balancing route…",
-        "date": "2026年5月5日",
-        "date_iso": "2026-05-05",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
