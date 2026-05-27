@@ -1,5 +1,5 @@
 {
-  "updated": "2026年05月27日 16:48 JST",
+  "updated": "2026年05月27日 21:44 JST",
   "clouds": {
     "azure": [
       {
@@ -649,16 +649,6 @@
         "tag": "OCI"
       },
       {
-        "title": "ADW/OAC Compute Sizing and Data Population Status Tracking",
-        "link": "https://docs.oracle.com/iaas/releasenotes/resource-analytics/may2026-features.htm",
-        "summary": "",
-        "date": "2026年5月20日",
-        "date_iso": "2026-05-20",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
         "title": "Support for Kubernetes version 1.36.0 in a preview release of Kubernetes Engine",
         "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-K8s-1-36-0-preview-support-Release-Note.htm",
         "summary": "",
@@ -691,6 +681,16 @@
       {
         "title": "Local Appliance Web server moving to HTTPS from HTTP inside Oracle Cloud Bridge",
         "link": "https://docs.oracle.com/iaas/releasenotes/cloud-migration/local-appliance-web-server.htm",
+        "summary": "",
+        "date": "2026年5月20日",
+        "date_iso": "2026-05-20",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "ADW/OAC Compute Sizing and Data Population Status Tracking",
+        "link": "https://docs.oracle.com/iaas/releasenotes/resource-analytics/may2026-features.htm",
         "summary": "",
         "date": "2026年5月20日",
         "date_iso": "2026-05-20",
