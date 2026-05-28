@@ -1,7 +1,17 @@
 {
-  "updated": "2026年05月27日 21:44 JST",
+  "updated": "2026年05月28日 13:40 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Generally Available: Multiparty private offers in Microsoft Marketplace expand to 30 countries in Europe",
+        "link": "https://azure.microsoft.com/updates?id=563016",
+        "summary": "Multiparty private offers give Microsoft partners a way to procure third-party cloud and AI solutions for customers through Marketplace. Software companies can expand into new markets by working with…",
+        "date": "2026年5月28日",
+        "date_iso": "2026-05-28",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Public Preview: Azure Virtual Network Manager integration with Virtual WAN",
         "link": "https://azure.microsoft.com/updates?id=564478",
@@ -191,19 +201,119 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Network Watcher rule impact analyser",
-        "link": "https://azure.microsoft.com/updates?id=562690",
-        "summary": "Azure Network Watcher rule impact analyzer is now generally available, enabling you to assess the potential impact of your network security group (NSG) or security admin rule changes on live network…",
-        "date": "2026年5月20日",
-        "date_iso": "2026-05-20",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Announcing Region Expansion of P6-B200 instances on SageMaker Notebook Instances",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/p6-b200-region-expansion-sagemaker-notebook-instances/",
+        "summary": "We are pleased to announce general availability of Amazon EC2 P6-B200 instances in AWS US East (N. Virginia) on SageMaker notebook instances. Amazon EC2 P6-B200 instances are powered by 8 NVIDIA…",
+        "date": "2026年5月28日",
+        "date_iso": "2026-05-28",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Bedrock expands support for Service Quotas",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/5/amazon-bedrock-service-quotas/",
+        "summary": "Amazon Bedrock is a fully managed service that provides secure, enterprise-grade access to high-performing foundation models from leading AI companies, enabling you to build and scale generative AI…",
+        "date": "2026年5月28日",
+        "date_iso": "2026-05-28",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "SageMaker Notebook Instances now support P5.4xl instance types",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/p5-4xl-new-instance-launch-sagemaker-notebook-instances/",
+        "summary": "We are pleased to announce general availability of Amazon EC2 P5.4xl instances on SageMaker notebook instances. Amazon EC2 P5.4xl instances are powered by NVIDIA H100 Tensor Core GPUs and deliver…",
+        "date": "2026年5月28日",
+        "date_iso": "2026-05-28",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "SageMaker Notebook Instances now support P5en.48xl instance types",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/p5en-new-instance-launch-sagemaker-notebook-instances/",
+        "summary": "We are pleased to announce general availability of Amazon EC2 P5en.48xl instances on SageMaker notebook instances. Amazon EC2 P5en instances feature 8 H200 GPUs which have 1.7x GPU memory size and…",
+        "date": "2026年5月28日",
+        "date_iso": "2026-05-28",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EMR now supports Apache Spark 4.0.2 in general availability",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-emr-apache-spark/",
+        "summary": "Amazon EMR now supports Apache Spark 4.0.2 across all three deployment models. With Spark 4.0.2, you can build and maintain data pipelines more easily with ANSI SQL and VARIANT data types, enforce…",
+        "date": "2026年5月28日",
+        "date_iso": "2026-05-28",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Glue large and memory optimized workers now available in Europe (Spain) Region",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-glue-larger-memory-intensive-workers-spain",
+        "summary": "AWS Glue now offers large and memory-optimized workers in the AWS Europe (Spain) Region, giving customers in this region more power to handle complex data processing workloads. The new additions…",
+        "date": "2026年5月28日",
+        "date_iso": "2026-05-28",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Connect Customer now uses generative AI to automatically evaluate self-service interactions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-customer-gen-AI-evaluations-self-service",
+        "summary": "Amazon Connect Customer now enables managers to use generative AI to automatically evaluate self-service interactions, and get aggregated insights to help improve customer experience. Managers can…",
+        "date": "2026年5月28日",
+        "date_iso": "2026-05-28",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon SageMaker HyperPod Slurm clusters now support specifying minimum capacity requirements with continuous…",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-hyperpod-mincount/",
+        "summary": "Amazon SageMaker HyperPod now supports minimum capacity requirements (MinCount) for clusters using Slurm orchestration with continuous provisioning. With continuous provisioning , HyperPod provisions…",
+        "date": "2026年5月28日",
+        "date_iso": "2026-05-28",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Aurora MySQL now supports integration with Kiro Powers",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-aurora-mysql-kiro-powers/",
+        "summary": "Today, AWS announces that Amazon Aurora MySQL-Compatible Edition now supports integration with Kiro Powers , enabling developers to build Aurora MySQL-backed applications faster with AI agent…",
+        "date": "2026年5月28日",
+        "date_iso": "2026-05-28",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Backup adds OTP verification for Multi-party approval on logically air-gapped vaults",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-backup-otp-multi-party-approval-lag/",
+        "summary": "AWS Backup now requires one-time password (OTP) verification when approvers vote on Multi-party approval actions for logically air-gapped vaults. When an approver votes on an Multi-party approval…",
+        "date": "2026年5月27日",
+        "date_iso": "2026-05-27",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 X8i instances are now available in additional regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-x8i-instances-SIN-SYD-PDT-region/",
+        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) X8i instances are available in the Asia Pacific (Singapore), Asia Pacific (Sydney) and AWS GovCloud (US-West) regions.&nbsp;These instances…",
+        "date": "2026年5月27日",
+        "date_iso": "2026-05-27",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
       {
         "title": "Amazon RDS now supports ENA Express for Multi-AZ replication",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-rds-ena-express-multiAZ/",
@@ -293,119 +403,19 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon WorkSpaces Personal が Linux WorkSpaces の WorkSpace 移行のサポートを開始",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/05/workspaces-linux-migration",
-        "summary": "",
-        "date": "2026年5月23日",
-        "date_iso": "2026-05-23",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Keyspaces (Apache Cassandra 向け) がアジアパシフィック (マレーシア) およびアジアパシフィック (タイ) リージョンに拡大",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/05/amazon-keyspaces-malaysia-thailand/",
-        "summary": "",
-        "date": "2026年5月23日",
-        "date_iso": "2026-05-23",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SageMaker Unified Studio adds interactive interface for managing Feature Store in IAM Domains",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/sagemaker-feature-store/",
-        "summary": "Amazon SageMaker Unified Studio IAM domains now includes an interactive interface for creating and managing feature groups in SageMaker Feature Store, eliminating the need to write code for common…",
-        "date": "2026年5月23日",
-        "date_iso": "2026-05-23",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon GameLift Streams launches Generation 6e stream classes for high-fidelity game streaming",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-gamelift-streams-g6e-stream-class/",
-        "summary": "Today, Amazon GameLift Streams launched Generation 6e (G6e) stream classes, providing enhanced GPU performance for streaming high-fidelity, graphically demanding games and applications. The new G6e…",
-        "date": "2026年5月23日",
-        "date_iso": "2026-05-23",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Clean Rooms がコラボレーション用の変更可能な支払い設定をサポート",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/05/aws-clean-rooms-mutable-payments",
-        "summary": "",
-        "date": "2026年5月22日",
-        "date_iso": "2026-05-22",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Secrets Manager が Datadog が販売したキーと Snowflake Programmatic Access Tokens のマネージド外部シークレットのサポートを追加",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/05/secrets-manager-managed-external-secrets-datadog-snowflake/",
-        "summary": "",
-        "date": "2026年5月22日",
-        "date_iso": "2026-05-22",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon CloudWatch Logs Insights に新しいクエリコマンドと関数を追加",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/06/amazon-cloudwatch-logs-insights/",
-        "summary": "",
-        "date": "2026年5月22日",
-        "date_iso": "2026-05-22",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 C7i-flex、M7i-flex、M7i の各インスタンスがアジアパシフィック (ハイデラバード) リージョンで利用可能に",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/05/amazon-ec2-c7i-flex-m7i-flex-m7i-instances-HYD-region/",
-        "summary": "",
-        "date": "2026年5月22日",
-        "date_iso": "2026-05-22",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "SageMaker Unified Studio がサブネット間のジョブ再試行に使用される Glue コネクタのプロビジョニングを自動化",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/05/sagemaker-unified-studio-glue/",
-        "summary": "",
-        "date": "2026年5月22日",
-        "date_iso": "2026-05-22",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SageMaker AI が推論エンドポイント向けの OpenAI 互換 API をサポートするようになりました",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/05/amazon-sagemaker-ai-openai-apis/",
-        "summary": "",
-        "date": "2026年5月22日",
-        "date_iso": "2026-05-22",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Aurora MySQL 8.4 の一般提供開始",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/05/amazon-aurora-mysql/8-4/",
-        "summary": "",
-        "date": "2026年5月22日",
-        "date_iso": "2026-05-22",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "May 27, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#May_27_2026",
+        "summary": "App Engine standard environment Go Feature Enable only needed legacy bundled services using the app_engine_bundled_services field for improved security and maintainability of your applications (…",
+        "date": "2026年5月27日",
+        "date_iso": "2026-05-27",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
       {
         "title": "May 26, 2026",
         "link": "https://docs.cloud.google.com/release-notes#May_26_2026",
@@ -595,19 +605,19 @@
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "GCP"
-      },
-      {
-        "title": "May 07, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#May_07_2026",
-        "summary": "Apigee API hub Feature Unified MCP Proxy Configuration in API hub (Preview) API hub allows you to create and deploy Model Context Protocol (MCP) discovery proxies. Select specific API operations from…",
-        "date": "2026年5月7日",
-        "date_iso": "2026-05-07",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "GCP"
       }
     ],
     "oci": [
+      {
+        "title": "Pin a Guardrails Version in OCI Generative AI",
+        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/ai-guardrails-versions.htm",
+        "summary": "",
+        "date": "2026年5月26日",
+        "date_iso": "2026-05-26",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
       {
         "title": "Annotation to assign a reserved private IPv4 address to a load balancer or network load balancer with OKE",
         "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-Reserved-private-IP-address-LB-NLB-NIC.htm",
@@ -616,6 +626,16 @@
         "date_iso": "2026-05-26",
         "category": "container-tag",
         "cat_label": "コンテナ",
+        "tag": "OCI"
+      },
+      {
+        "title": "New Experience in Oracle Cloud Console for creating support requests",
+        "link": "https://docs.oracle.com/iaas/releasenotes/support/console-support-requests.htm",
+        "summary": "",
+        "date": "2026年5月26日",
+        "date_iso": "2026-05-26",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "OCI"
       },
       {
@@ -784,26 +804,6 @@
         "summary": "",
         "date": "2026年5月9日",
         "date_iso": "2026-05-09",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Zero Data Loss Protection with Local Autonomous Data Guard Standby",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-05-zero-dataloss-protection.htm",
-        "summary": "",
-        "date": "2026年5月8日",
-        "date_iso": "2026-05-08",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "OCI"
-      },
-      {
-        "title": "Absolute Path Support in CREATE DIRECTORY",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-05-absolute-pathsupport-createdir.htm",
-        "summary": "",
-        "date": "2026年5月8日",
-        "date_iso": "2026-05-08",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "OCI"
