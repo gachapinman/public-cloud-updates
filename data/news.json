@@ -1,5 +1,5 @@
 {
-  "updated": "2026年05月29日 16:08 JST",
+  "updated": "2026年05月29日 21:35 JST",
   "clouds": {
     "azure": [
       {
@@ -469,11 +469,11 @@
       {
         "title": "May 22, 2026",
         "link": "https://docs.cloud.google.com/release-notes#May_22_2026",
-        "summary": "Apigee X Announcement Apigee Emulator Apigee Emulator v2.0.0 On May 22, 2026, we released Apigee Emulator version 2.0.0. Starting with this release, the Apigee Emulator is versioned and released…",
+        "summary": "Access Approval Feature DNS Armor is generally available (GA) . Access Transparency Feature DNS Armor is generally available (GA) . Apigee X Announcement Apigee Emulator Apigee Emulator v2.0.0 On May…",
         "date": "2026年5月22日",
         "date_iso": "2026-05-22",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "GCP"
       },
       {
