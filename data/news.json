@@ -1,5 +1,5 @@
 {
-  "updated": "2026年05月30日 20:06 JST",
+  "updated": "2026年05月31日 13:52 JST",
   "clouds": {
     "azure": [
       {
@@ -355,16 +355,6 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon WorkSpaces Applications adds support for Windows Desktop OS",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-workspaces-applications-windows-desktop-OS/",
-        "summary": "Amazon WorkSpaces Applications now supports the ability to set up streaming resources powered by Windows Desktop operating systems using Bring Your Own License (BYOL). Customers can now bring their…",
-        "date": "2026年5月29日",
-        "date_iso": "2026-05-29",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
         "title": "DynamoDB Streams now supports AWS PrivateLink for FIPS endpoints in AWS GovCloud (US) Regions",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-dynamodb-streams-privatelink-fips-govcloud/",
         "summary": "Amazon DynamoDB Streams now supports AWS PrivateLink for FIPS (Federal Information Processing Standard) endpoints in AWS GovCloud (US) Regions. DynamoDB Streams captures time-ordered sequences of…",
@@ -372,6 +362,16 @@
         "date_iso": "2026-05-29",
         "category": "database-tag",
         "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon WorkSpaces Applications adds support for Windows Desktop OS",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-workspaces-applications-windows-desktop-OS/",
+        "summary": "Amazon WorkSpaces Applications now supports the ability to set up streaming resources powered by Windows Desktop operating systems using Bring Your Own License (BYOL). Customers can now bring their…",
+        "date": "2026年5月29日",
+        "date_iso": "2026-05-29",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "AWS"
       },
       {
@@ -406,6 +406,16 @@
       }
     ],
     "gcp": [
+      {
+        "title": "May 30, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#May_30_2026",
+        "summary": "Google SecOps SOAR Announcement Release 6.3.86 is now available for all regions.",
+        "date": "2026年5月30日",
+        "date_iso": "2026-05-30",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
       {
         "title": "May 29, 2026",
         "link": "https://docs.cloud.google.com/release-notes#May_29_2026",
@@ -594,16 +604,6 @@
         "date_iso": "2026-05-11",
         "category": "database-tag",
         "cat_label": "データベース",
-        "tag": "GCP"
-      },
-      {
-        "title": "May 10, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#May_10_2026",
-        "summary": "Cloud Workstations Announcement The base VM was upgraded to use Container-Optimized OS 125 LTS .",
-        "date": "2026年5月10日",
-        "date_iso": "2026-05-10",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "GCP"
       }
     ],
