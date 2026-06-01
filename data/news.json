@@ -1,7 +1,17 @@
 {
-  "updated": "2026年06月01日 18:01 JST",
+  "updated": "2026年06月02日 00:43 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Generally Available: Azure Functions Support for Node.js 24",
+        "link": "https://azure.microsoft.com/updates?id=562647",
+        "summary": "Azure Functions support for Node.js 24 is now generally available. You can now develop apps using Node.js 24 locally and deploy them to supported Azure Functions plans on Linux and Windows, including…",
+        "date": "2026年6月1日",
+        "date_iso": "2026-06-01",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Public Preview: Azure Site Recovery Support for Performance Plus Managed Disks",
         "link": "https://azure.microsoft.com/updates?id=564644",
@@ -191,16 +201,6 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Evaluate feature rollouts with Azure App Configuration Scorecards",
-        "link": "https://azure.microsoft.com/updates?id=561049",
-        "summary": "Azure App Configuration now supports a scorecards capability in public preview. Scorecards provide a telemetry-driven view of how feature flag variants are performing in production, helping teams…",
-        "date": "2026年5月20日",
-        "date_iso": "2026-05-20",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AZURE"
       }
     ],
     "aws": [
@@ -355,16 +355,6 @@
         "tag": "AWS"
       },
       {
-        "title": "DynamoDB Streams now supports AWS PrivateLink for FIPS endpoints in AWS GovCloud (US) Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-dynamodb-streams-privatelink-fips-govcloud/",
-        "summary": "Amazon DynamoDB Streams now supports AWS PrivateLink for FIPS (Federal Information Processing Standard) endpoints in AWS GovCloud (US) Regions. DynamoDB Streams captures time-ordered sequences of…",
-        "date": "2026年5月29日",
-        "date_iso": "2026-05-29",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
         "title": "Amazon WorkSpaces Applications adds support for Windows Desktop OS",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-workspaces-applications-windows-desktop-OS/",
         "summary": "Amazon WorkSpaces Applications now supports the ability to set up streaming resources powered by Windows Desktop operating systems using Bring Your Own License (BYOL). Customers can now bring their…",
@@ -372,6 +362,16 @@
         "date_iso": "2026-05-29",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "DynamoDB Streams now supports AWS PrivateLink for FIPS endpoints in AWS GovCloud (US) Regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-dynamodb-streams-privatelink-fips-govcloud/",
+        "summary": "Amazon DynamoDB Streams now supports AWS PrivateLink for FIPS (Federal Information Processing Standard) endpoints in AWS GovCloud (US) Regions. DynamoDB Streams captures time-ordered sequences of…",
+        "date": "2026年5月29日",
+        "date_iso": "2026-05-29",
+        "category": "database-tag",
+        "cat_label": "データベース",
         "tag": "AWS"
       },
       {
@@ -409,11 +409,11 @@
       {
         "title": "May 31, 2026",
         "link": "https://docs.cloud.google.com/release-notes#May_31_2026",
-        "summary": "Google SecOps SOAR Announcement Release 6.3.87 is being rolled out to the first phase of regions as listed here . This release contains internal and customer bug fixes.",
+        "summary": "Google SecOps Change Google SecOps has updated the list of supported default parsers. Parsers are updated gradually, so it might take one to four days before you see the changes reflected in your…",
         "date": "2026年5月31日",
         "date_iso": "2026-05-31",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "GCP"
       },
       {
@@ -619,16 +619,6 @@
         "tag": "OCI"
       },
       {
-        "title": "Pin a Guardrails Version in OCI Generative AI",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/ai-guardrails-versions.htm",
-        "summary": "",
-        "date": "2026年5月26日",
-        "date_iso": "2026-05-26",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
         "title": "Annotation to assign a reserved private IPv4 address to a load balancer or network load balancer with OKE",
         "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-Reserved-private-IP-address-LB-NLB-NIC.htm",
         "summary": "",
@@ -636,6 +626,16 @@
         "date_iso": "2026-05-26",
         "category": "container-tag",
         "cat_label": "コンテナ",
+        "tag": "OCI"
+      },
+      {
+        "title": "Pin a Guardrails Version in OCI Generative AI",
+        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/ai-guardrails-versions.htm",
+        "summary": "",
+        "date": "2026年5月26日",
+        "date_iso": "2026-05-26",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "OCI"
       },
       {
@@ -769,6 +769,16 @@
         "tag": "OCI"
       },
       {
+        "title": "Support for Node 24 and Java 21",
+        "link": "https://docs.oracle.com/iaas/releasenotes/functions/functions-node24-java21-support.htm",
+        "summary": "",
+        "date": "2026年5月13日",
+        "date_iso": "2026-05-13",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
         "title": "Manage ORDS with Database API Gateway Configurations",
         "link": "https://docs.oracle.com/iaas/releasenotes/database-tools/db-api-gateway.htm",
         "summary": "",
@@ -796,16 +806,6 @@
         "date_iso": "2026-05-12",
         "category": "security-tag",
         "cat_label": "セキュリティ",
-        "tag": "OCI"
-      },
-      {
-        "title": "Import New Compatible Models in OCI Generative AI",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/compatible-imported-models-may-11-2026.htm",
-        "summary": "",
-        "date": "2026年5月11日",
-        "date_iso": "2026-05-11",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "OCI"
       }
     ]
