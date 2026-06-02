@@ -1,5 +1,5 @@
 {
-  "updated": "2026年06月02日 17:13 JST",
+  "updated": "2026年06月02日 22:02 JST",
   "clouds": {
     "azure": [
       {
@@ -255,16 +255,6 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon Bedrock AgentCore Identity now allows you to bring your own secrets with AWS Secrets Manager",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/agentcore-identity-secrets-manager/",
-        "summary": "Amazon Bedrock&nbsp;AgentCore Identity now allows customers the ability to reference existing AWS Secrets Manager secret ARNs directly in AgentCore Identity Credential Providers. Previously,…",
-        "date": "2026年6月2日",
-        "date_iso": "2026-06-02",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
         "title": "Amazon EC2 M8i and M8i-flex instances are now available in Asia Pacific (New Zealand) Region",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-m8i-m8i-flex-new-zealand/",
         "summary": "Starting today, Amazon EC2 M8i and M8i-flex instances are now available in Asia Pacific (New Zealand) Region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS,…",
@@ -278,6 +268,16 @@
         "title": "Amazon EC2 M8azn instances are now available in Europe (Ireland) Region",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-m8azn-europe-ireland/",
         "summary": "Starting today, Amazon EC2 M8azn instances are now available in Europe (Ireland) Region. These general purpose high-frequency high-network instances are powered by fifth generation AMD EPYC (formerly…",
+        "date": "2026年6月2日",
+        "date_iso": "2026-06-02",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Bedrock AgentCore Identity now allows you to bring your own secrets with AWS Secrets Manager",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/agentcore-identity-secrets-manager/",
+        "summary": "Amazon Bedrock&nbsp;AgentCore Identity now allows customers the ability to reference existing AWS Secrets Manager secret ARNs directly in AgentCore Identity Credential Providers. Previously,…",
         "date": "2026年6月2日",
         "date_iso": "2026-06-02",
         "category": "ai-tag",
@@ -406,6 +406,16 @@
       }
     ],
     "gcp": [
+      {
+        "title": "June 02, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#June_02_2026",
+        "summary": "Cloud Load Balancing Feature TLS post-quantum key exchange support is now available for Application Load Balancers and external proxy Network Load Balancers. Post-quantum key exchange is essential…",
+        "date": "2026年6月2日",
+        "date_iso": "2026-06-02",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
       {
         "title": "June 01, 2026",
         "link": "https://docs.cloud.google.com/release-notes#June_01_2026",
@@ -539,11 +549,11 @@
       {
         "title": "May 19, 2026",
         "link": "https://docs.cloud.google.com/release-notes#May_19_2026",
-        "summary": "Apigee hybrid Announcement v1.16.3 On May 19, 2026 we released an updated version of the Apigee hybrid software, v1.16.3. For information on upgrading, see Upgrading Apigee hybrid to version v1.16.3…",
+        "summary": "Anti Money Laundering AI Announcement Improvements to backtest API and recall metrics are now available with engine version v004.011 . This includes support for Performance Targeting by number of…",
         "date": "2026年5月19日",
         "date_iso": "2026-05-19",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "GCP"
       },
       {
@@ -594,16 +604,6 @@
         "date_iso": "2026-05-14",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "May 13, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#May_13_2026",
-        "summary": "Apigee hybrid Announcement v1.16.2 On May 13, 2026 we released an updated version of the Apigee hybrid software, v1.16.2. For information on upgrading, see Upgrading Apigee hybrid to version v1.16.2…",
-        "date": "2026年5月13日",
-        "date_iso": "2026-05-13",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
         "tag": "GCP"
       }
     ],
