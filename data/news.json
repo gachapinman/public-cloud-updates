@@ -1,5 +1,5 @@
 {
-  "updated": "2026年06月02日 00:43 JST",
+  "updated": "2026年06月02日 14:00 JST",
   "clouds": {
     "azure": [
       {
@@ -13,13 +13,13 @@
         "tag": "AZURE"
       },
       {
-        "title": "Public Preview: Azure Site Recovery Support for Performance Plus Managed Disks",
+        "title": "Generally Available: Azure Site Recovery Support for Performance Plus Managed Disks",
         "link": "https://azure.microsoft.com/updates?id=564644",
         "summary": "Azure Site Recovery (ASR) now supports replication of virtual machines using Performance Plus enabled managed disks. With this update, virtual machines using Premium SSD, Standard SSD or Standard HDD…",
         "date": "2026年5月30日",
         "date_iso": "2026-05-30",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "AZURE"
       },
       {
@@ -205,6 +205,156 @@
     ],
     "aws": [
       {
+        "title": "AWS HealthOmics now supports Nextflow version pinning at run time",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-healthomics-nextflow-version-pinning-at-runtime/",
+        "summary": "AWS HealthOmics now allows customers to specify the Nextflow engine version at run time via the StartRun API, enabling customers to pin runs to a specific Nextflow version for controlled migration.…",
+        "date": "2026年6月2日",
+        "date_iso": "2026-06-02",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS HealthOmics now supports Nextflow version 26.04",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-healthomics-nextflow-version-26-04/",
+        "summary": "AWS HealthOmics now supports Nextflow version 26.04, enabling customers to take advantage of new Nextflow features and enhancements: record types,&nbsp;the strict syntax parser, workflow output…",
+        "date": "2026年6月2日",
+        "date_iso": "2026-06-02",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Quick Research now supports customer managed keys",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-quick-research-cm-keys",
+        "summary": "Amazon Quick Research now enables customers to encrypt their data using customer-managed keys (CMK) through AWS Key Management Service (KMS). This enhancement allows organizations with strict…",
+        "date": "2026年6月2日",
+        "date_iso": "2026-06-02",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Quick now supports VPC connectivity for MCP connections",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-quick-vpc-mcp/",
+        "summary": "Amazon Quick now enables enterprise customers to connect their privately hosted Model Context Protocol (MCP) servers to Quick through Amazon Virtual Private Cloud (VPC). Amazon Quick is an AI…",
+        "date": "2026年6月2日",
+        "date_iso": "2026-06-02",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon SageMaker adds permissions boundaries for SCP compliance",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-scp/",
+        "summary": "Amazon SageMaker Unified Studio now supports custom IAM permissions boundaries, so organizations that enforce Service Control Policies (SCPs) requiring permissions boundaries on all IAM roles can…",
+        "date": "2026年6月2日",
+        "date_iso": "2026-06-02",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 M8i and M8i-flex instances are now available in Asia Pacific (New Zealand) Region",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-m8i-m8i-flex-new-zealand/",
+        "summary": "Starting today, Amazon EC2 M8i and M8i-flex instances are now available in Asia Pacific (New Zealand) Region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS,…",
+        "date": "2026年6月2日",
+        "date_iso": "2026-06-02",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 M8azn instances are now available in Europe (Ireland) Region",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-m8azn-europe-ireland/",
+        "summary": "Starting today, Amazon EC2 M8azn instances are now available in Europe (Ireland) Region. These general purpose high-frequency high-network instances are powered by fifth generation AMD EPYC (formerly…",
+        "date": "2026年6月2日",
+        "date_iso": "2026-06-02",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Bedrock AgentCore Identity now allows you to bring your own secrets with AWS Secrets Manager",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/agentcore-identity-secrets-manager/",
+        "summary": "Amazon Bedrock&nbsp;AgentCore Identity now allows customers the ability to reference existing AWS Secrets Manager secret ARNs directly in AgentCore Identity Credential Providers. Previously,…",
+        "date": "2026年6月2日",
+        "date_iso": "2026-06-02",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon SageMaker HyperPod now supports EFA-only network interfaces",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-hyperpod-efa-only/",
+        "summary": "Amazon SageMaker HyperPod now supports EFA-only network interfaces for cluster instance groups, enabling you to configure dedicated Elastic Fabric Adapter (EFA) devices without the traditional…",
+        "date": "2026年6月2日",
+        "date_iso": "2026-06-02",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon SageMaker HyperPod now offers troubleshooting skills for AI coding assistants",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-hyperpod-troubleshooting-skills/",
+        "summary": "Amazon SageMaker HyperPod now provides troubleshooting skills that bring expert-level AI/ML cluster diagnostics directly into AI coding assistants such as Claude Code, Cursor, and Kiro. SageMaker…",
+        "date": "2026年6月2日",
+        "date_iso": "2026-06-02",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Direct Connect now supports VIF Rate Limiters to help prevent network congestion",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-direct-connect-now-supports-vif-rate-limiters/",
+        "summary": "AWS Direct Connect now supports Virtual Interface (VIF) Rate Limiters on dedicated connections, which help you prevent network congestion caused by unexpected traffic spikes on a VIF which can…",
+        "date": "2026年6月2日",
+        "date_iso": "2026-06-02",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Bedrock adds Amazon CloudWatch metrics for OpenAI- and Anthropic-compatible APIs",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-supports-cloudwatch-metrics-bedrock-mantle-endpoint/",
+        "summary": "Amazon Bedrock is a fully managed service that provides secure, enterprise-grade access to high-performing foundation models from leading AI companies, enabling you to build and scale generative AI…",
+        "date": "2026年6月1日",
+        "date_iso": "2026-06-01",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "GPT-5.5, GPT-5.4, and Codex from OpenAI are now generally available on Amazon Bedrock",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-openai-models-codex-generally-available/",
+        "summary": "You can now use GPT-5.5 and GPT-5.4 in production workloads on Amazon Bedrock and build with Codex for AI-powered software development, with the same security, governance, and operational controls…",
+        "date": "2026年6月1日",
+        "date_iso": "2026-06-01",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon SES now supports tenant-level suppression lists",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ses-tenant-level-suppression-lists/",
+        "summary": "Amazon Simple Email Service (Amazon SES) now supports tenant-level suppression lists, allowing email senders to isolate bounces and complaints per tenant. Previously, all tenants in an account shared…",
+        "date": "2026年6月1日",
+        "date_iso": "2026-06-01",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Inspector launches improved agent-based scanning for EC2",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-inspector-ec2-agent-scanning-improvements",
+        "summary": "Amazon Inspector now offers improved agent-based EC2 scanning with the new Inspector VM Scanner, delivering expanded detection coverage and reduced CPU utilization on your EC2 instances. Security…",
+        "date": "2026年5月31日",
+        "date_iso": "2026-05-31",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon SES now offers inbox placement metrics and blocklist monitoring",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ses-global-deliverability/",
         "summary": "Today, Amazon Simple Email Service&nbsp;(SES) launched a new set of deliverability features that help customers get more information about their outbound sending deliverability performance and…",
@@ -253,159 +403,19 @@
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "AWS"
-      },
-      {
-        "title": "AWS Interconnect - multicloud now offers a free 500 Mbps tier",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-interconnect-multicloud-offers-free-500-mbps-tier",
-        "summary": "AWS Interconnect - multicloud now offers a free 500 Mbps multicloud Interconnect, making it easier to privately connect your workloads on AWS and other public clouds. Customers have been adopting…",
-        "date": "2026年5月30日",
-        "date_iso": "2026-05-30",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon RDS for Oracle now supports April 2026 Release Update and Supplemental Patch Bundle",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-rds-oracle-supports-april-2026-release-update-supplemental-patch-bundle",
-        "summary": "Amazon Relational Database Service (Amazon RDS) for Oracle now supports the Oracle April 2026 Release Update (RU) for Oracle Database versions 19c and 21c, and the corresponding Supplemental Patch…",
-        "date": "2026年5月29日",
-        "date_iso": "2026-05-29",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "Oracle Database@AWS is now available in twenty AWS Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/oracle-database-aws-available-twenty-regions/",
-        "summary": "Oracle Database@AWS is now generally available in eight additional AWS Regions: EU-Central-2 (Zurich), EU-South-1 (Milan), EU-South-2 (Spain), EU-West-3 (Paris), AP-Northeast-3 (Osaka),…",
-        "date": "2026年5月29日",
-        "date_iso": "2026-05-29",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon S3 Tables are now available in two additional AWS Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-s3-tables-aws-regions/",
-        "summary": "Amazon S3 Tables are now available in the Asia Pacific (Taipei) and Asia Pacific (New Zealand) Regions. Amazon S3 Tables deliver the first cloud object store with built-in Apache Iceberg support,…",
-        "date": "2026年5月29日",
-        "date_iso": "2026-05-29",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Monitor AWS Budgets directly in Billing and Cost Management Dashboards with new Budgets widget",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/monitor-aws-budgets-using-dashboards",
-        "summary": "Today, AWS Billing and Cost Management (BCM) announces support for Budgets widgets in BCM Dashboards, giving you the flexibility to customize your cost management console with the views that matter…",
-        "date": "2026年5月29日",
-        "date_iso": "2026-05-29",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS IoT Core adds APIs for MQTT connection management",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-iot-core-apis-mqtt/",
-        "summary": "Today, AWS IoT Core launches two new MQTT connection management APIs, GetConnection and ListSubscriptions, enabling you to easily access MQTT client connection and subscription information for your…",
-        "date": "2026年5月29日",
-        "date_iso": "2026-05-29",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Organizations emits CloudTrail events for account membership changes",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-organizations-cloudtrail/",
-        "summary": "AWS Organizations&nbsp;now automatically emits CloudTrail events to your management account whenever accounts join or leave your organization. These new…",
-        "date": "2026年5月29日",
-        "date_iso": "2026-05-29",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS announces general availability of the next generation of AWS Resilience Hub",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-announces-next-gen-aws-resilience-hub/",
-        "summary": "Today, AWS announces the general availability of the next generation of AWS Resilience Hub, a central location in the AWS console that helps platform engineering and site reliability teams assess and…",
-        "date": "2026年5月29日",
-        "date_iso": "2026-05-29",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Connect Customer expands generative AI-powered post-contact summaries to eight new languages",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-summary-languages/",
-        "summary": "Amazon Connect Customer now supports generative AI-powered post-contact summaries in eight additional language families: Portuguese, French, Italian, German, Spanish, Chinese, Japanese, and Korean.…",
-        "date": "2026年5月29日",
-        "date_iso": "2026-05-29",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Claude Opus 4.8 is now available on AWS",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/claude-opus-4.8-aws/",
-        "summary": "AWS&nbsp; now offers Claude Opus 4.8 -- Anthropic's most capable generally available model to date -- delivering meaningful advances across agentic coding, professional knowledge work, and…",
-        "date": "2026年5月29日",
-        "date_iso": "2026-05-29",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon WorkSpaces Applications adds support for Windows Desktop OS",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-workspaces-applications-windows-desktop-OS/",
-        "summary": "Amazon WorkSpaces Applications now supports the ability to set up streaming resources powered by Windows Desktop operating systems using Bring Your Own License (BYOL). Customers can now bring their…",
-        "date": "2026年5月29日",
-        "date_iso": "2026-05-29",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "DynamoDB Streams now supports AWS PrivateLink for FIPS endpoints in AWS GovCloud (US) Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-dynamodb-streams-privatelink-fips-govcloud/",
-        "summary": "Amazon DynamoDB Streams now supports AWS PrivateLink for FIPS (Federal Information Processing Standard) endpoints in AWS GovCloud (US) Regions. DynamoDB Streams captures time-ordered sequences of…",
-        "date": "2026年5月29日",
-        "date_iso": "2026-05-29",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "The next generation of Amazon OpenSearch Serverless is now generally available",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-opensearch-serverless-next-generation-generally-available/",
-        "summary": "Today, AWS announced the general availability of the next generation of Amazon OpenSearch Serverless, a fully managed search and vector engine designed for customers building agents. The next…",
-        "date": "2026年5月29日",
-        "date_iso": "2026-05-29",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS IoT Core now supports direct messaging for point-to-point communication",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-iot-core-direct-messaging/",
-        "summary": "AWS IoT Core now supports the ability to send point-to-point messages to any connected device, providing better visibility into message delivery and lower messaging cost. AWS IoT Core is a fully…",
-        "date": "2026年5月28日",
-        "date_iso": "2026-05-28",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Partner Central now supports deal sizing using total contract value (TCV)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-partner-central-opportunity-deal-sizing-tcv/",
-        "summary": "Today, AWS announces an enhancement to the opportunity deal sizing capability in AWS Partner Central, by allowing Partners to estimate deals using total contract value (TCV). Partners can now submit…",
-        "date": "2026年5月28日",
-        "date_iso": "2026-05-28",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "June 01, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#June_01_2026",
+        "summary": "BigQuery Change The Facebook Ads connector for the BigQuery Data Transfer Service now supports data transfers from the following Facebook Ads reports: AdInsightsMMM Ads AdCreatives AdSets Campaigns…",
+        "date": "2026年6月1日",
+        "date_iso": "2026-06-01",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
       {
         "title": "May 31, 2026",
         "link": "https://docs.cloud.google.com/release-notes#May_31_2026",
@@ -419,11 +429,11 @@
       {
         "title": "May 30, 2026",
         "link": "https://docs.cloud.google.com/release-notes#May_30_2026",
-        "summary": "Google SecOps SOAR Announcement Release 6.3.86 is now available for all regions.",
+        "summary": "Apigee hybrid Announcement v1.15.4 On May 30, 2026 we released an updated version of the Apigee hybrid software, v1.15.4. For information on upgrading, see Upgrading Apigee hybrid to version v1.15.4…",
         "date": "2026年5月30日",
         "date_iso": "2026-05-30",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "GCP"
       },
       {
@@ -595,16 +605,6 @@
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "GCP"
-      },
-      {
-        "title": "May 12, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#May_12_2026",
-        "summary": "Apigee API hub Feature MCP tools support for Agentic AI workflows (Preview) API hub now exposes read-only APIs as Model Context Protocol (MCP) tools. Agentic AI applications can now use the standard…",
-        "date": "2026年5月12日",
-        "date_iso": "2026-05-12",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
       }
     ],
     "oci": [
@@ -619,13 +619,13 @@
         "tag": "OCI"
       },
       {
-        "title": "Annotation to assign a reserved private IPv4 address to a load balancer or network load balancer with OKE",
-        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-Reserved-private-IP-address-LB-NLB-NIC.htm",
+        "title": "OCI Kubernetes Engine (OKE) support for Zero Trust Packet Routing",
+        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-zpr-security-attribute-support.htm",
         "summary": "",
-        "date": "2026年5月26日",
-        "date_iso": "2026-05-26",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
+        "date": "2026年5月27日",
+        "date_iso": "2026-05-27",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
         "tag": "OCI"
       },
       {
@@ -636,6 +636,16 @@
         "date_iso": "2026-05-26",
         "category": "ai-tag",
         "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Annotation to assign a reserved private IPv4 address to a load balancer or network load balancer with OKE",
+        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-Reserved-private-IP-address-LB-NLB-NIC.htm",
+        "summary": "",
+        "date": "2026年5月26日",
+        "date_iso": "2026-05-26",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
         "tag": "OCI"
       },
       {
@@ -769,6 +779,16 @@
         "tag": "OCI"
       },
       {
+        "title": "Power Cycle Mac Support Available",
+        "link": "https://docs.oracle.com/iaas/releasenotes/managed-mac/power-cycle.htm",
+        "summary": "",
+        "date": "2026年5月15日",
+        "date_iso": "2026-05-15",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
         "title": "Support for Node 24 and Java 21",
         "link": "https://docs.oracle.com/iaas/releasenotes/functions/functions-node24-java21-support.htm",
         "summary": "",
@@ -786,26 +806,6 @@
         "date_iso": "2026-05-12",
         "category": "database-tag",
         "cat_label": "データベース",
-        "tag": "OCI"
-      },
-      {
-        "title": "Introducing Database Tools MCP Server",
-        "link": "https://docs.oracle.com/iaas/releasenotes/database-tools/mcp.htm",
-        "summary": "",
-        "date": "2026年5月12日",
-        "date_iso": "2026-05-12",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "OCI"
-      },
-      {
-        "title": "Database Tools Connections Support IAM Authentication",
-        "link": "https://docs.oracle.com/iaas/releasenotes/database-tools/iam-authentication.htm",
-        "summary": "",
-        "date": "2026年5月12日",
-        "date_iso": "2026-05-12",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
         "tag": "OCI"
       }
     ]
