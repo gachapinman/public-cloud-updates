@@ -1,5 +1,5 @@
 {
-  "updated": "2026年06月03日 14:17 JST",
+  "updated": "2026年06月03日 17:33 JST",
   "clouds": {
     "azure": [
       {
@@ -345,16 +345,6 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon Bedrock AgentCore Identity now allows you to bring your own secrets with AWS Secrets Manager",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/agentcore-identity-secrets-manager/",
-        "summary": "Amazon Bedrock&nbsp;AgentCore Identity now allows customers the ability to reference existing AWS Secrets Manager secret ARNs directly in AgentCore Identity Credential Providers. Previously,…",
-        "date": "2026年6月2日",
-        "date_iso": "2026-06-02",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
         "title": "Amazon EC2 M8i and M8i-flex instances are now available in Asia Pacific (New Zealand) Region",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-m8i-m8i-flex-new-zealand/",
         "summary": "Starting today, Amazon EC2 M8i and M8i-flex instances are now available in Asia Pacific (New Zealand) Region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS,…",
@@ -368,6 +358,16 @@
         "title": "Amazon EC2 M8azn instances are now available in Europe (Ireland) Region",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-m8azn-europe-ireland/",
         "summary": "Starting today, Amazon EC2 M8azn instances are now available in Europe (Ireland) Region. These general purpose high-frequency high-network instances are powered by fifth generation AMD EPYC (formerly…",
+        "date": "2026年6月2日",
+        "date_iso": "2026-06-02",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Bedrock AgentCore Identity now allows you to bring your own secrets with AWS Secrets Manager",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/agentcore-identity-secrets-manager/",
+        "summary": "Amazon Bedrock&nbsp;AgentCore Identity now allows customers the ability to reference existing AWS Secrets Manager secret ARNs directly in AgentCore Identity Credential Providers. Previously,…",
         "date": "2026年6月2日",
         "date_iso": "2026-06-02",
         "category": "ai-tag",
