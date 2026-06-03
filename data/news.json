@@ -1,5 +1,5 @@
 {
-  "updated": "2026年06月03日 17:33 JST",
+  "updated": "2026年06月03日 23:16 JST",
   "clouds": {
     "azure": [
       {
@@ -345,6 +345,16 @@
         "tag": "AWS"
       },
       {
+        "title": "Amazon Bedrock AgentCore Identity now allows you to bring your own secrets with AWS Secrets Manager",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/agentcore-identity-secrets-manager/",
+        "summary": "Amazon Bedrock&nbsp;AgentCore Identity now allows customers the ability to reference existing AWS Secrets Manager secret ARNs directly in AgentCore Identity Credential Providers. Previously,…",
+        "date": "2026年6月2日",
+        "date_iso": "2026-06-02",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon EC2 M8i and M8i-flex instances are now available in Asia Pacific (New Zealand) Region",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-m8i-m8i-flex-new-zealand/",
         "summary": "Starting today, Amazon EC2 M8i and M8i-flex instances are now available in Asia Pacific (New Zealand) Region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS,…",
@@ -365,9 +375,9 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon Bedrock AgentCore Identity now allows you to bring your own secrets with AWS Secrets Manager",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/agentcore-identity-secrets-manager/",
-        "summary": "Amazon Bedrock&nbsp;AgentCore Identity now allows customers the ability to reference existing AWS Secrets Manager secret ARNs directly in AgentCore Identity Credential Providers. Previously,…",
+        "title": "Amazon SageMaker HyperPod now supports EFA-only network interfaces",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-hyperpod-efa-only/",
+        "summary": "Amazon SageMaker HyperPod now supports EFA-only network interfaces for cluster instance groups, enabling you to configure dedicated Elastic Fabric Adapter (EFA) devices without the traditional…",
         "date": "2026年6月2日",
         "date_iso": "2026-06-02",
         "category": "ai-tag",
@@ -378,16 +388,6 @@
         "title": "Amazon SageMaker HyperPod now offers troubleshooting skills for AI coding assistants",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-hyperpod-troubleshooting-skills/",
         "summary": "Amazon SageMaker HyperPod now provides troubleshooting skills that bring expert-level AI/ML cluster diagnostics directly into AI coding assistants such as Claude Code, Cursor, and Kiro. SageMaker…",
-        "date": "2026年6月2日",
-        "date_iso": "2026-06-02",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SageMaker HyperPod now supports EFA-only network interfaces",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-hyperpod-efa-only/",
-        "summary": "Amazon SageMaker HyperPod now supports EFA-only network interfaces for cluster instance groups, enabling you to configure dedicated Elastic Fabric Adapter (EFA) devices without the traditional…",
         "date": "2026年6月2日",
         "date_iso": "2026-06-02",
         "category": "ai-tag",
@@ -419,7 +419,7 @@
       {
         "title": "June 01, 2026",
         "link": "https://docs.cloud.google.com/release-notes#June_01_2026",
-        "summary": "Agent Assist Feature Agent Assist offers summarization with custom sections 6.0 in GA. The 6.0 version is powered by gemini-3.5-flash and available in all Agent Assist regions . BigQuery Change The…",
+        "summary": "Agent Assist Feature Agent Assist offers summarization with custom sections 6.0 in GA. The 6.0 version is powered by gemini-3.5-flash and available in all Agent Assist regions . Change Agent Assist…",
         "date": "2026年6月1日",
         "date_iso": "2026-06-01",
         "category": "ai-tag",
@@ -629,16 +629,6 @@
         "tag": "OCI"
       },
       {
-        "title": "Pin a Guardrails Version in OCI Generative AI",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/ai-guardrails-versions.htm",
-        "summary": "",
-        "date": "2026年5月26日",
-        "date_iso": "2026-05-26",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
         "title": "Annotation to assign a reserved private IPv4 address to a load balancer or network load balancer with OKE",
         "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-Reserved-private-IP-address-LB-NLB-NIC.htm",
         "summary": "",
@@ -646,6 +636,16 @@
         "date_iso": "2026-05-26",
         "category": "container-tag",
         "cat_label": "コンテナ",
+        "tag": "OCI"
+      },
+      {
+        "title": "Pin a Guardrails Version in OCI Generative AI",
+        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/ai-guardrails-versions.htm",
+        "summary": "",
+        "date": "2026年5月26日",
+        "date_iso": "2026-05-26",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "OCI"
       },
       {
@@ -789,6 +789,16 @@
         "tag": "OCI"
       },
       {
+        "title": "VCN-Native Pod Networking CNI plugin version 3.3.0 now available",
+        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-VCN-native-CNI-v330-Release-Notes.htm",
+        "summary": "",
+        "date": "2026年5月13日",
+        "date_iso": "2026-05-13",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
         "title": "Support for Node 24 and Java 21",
         "link": "https://docs.oracle.com/iaas/releasenotes/functions/functions-node24-java21-support.htm",
         "summary": "",
@@ -796,16 +806,6 @@
         "date_iso": "2026-05-13",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Manage ORDS with Database API Gateway Configurations",
-        "link": "https://docs.oracle.com/iaas/releasenotes/database-tools/db-api-gateway.htm",
-        "summary": "",
-        "date": "2026年5月12日",
-        "date_iso": "2026-05-12",
-        "category": "database-tag",
-        "cat_label": "データベース",
         "tag": "OCI"
       }
     ]
