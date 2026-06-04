@@ -1,5 +1,5 @@
 {
-  "updated": "2026年06月04日 17:07 JST",
+  "updated": "2026年06月04日 21:33 JST",
   "clouds": {
     "azure": [
       {
@@ -609,6 +609,26 @@
     ],
     "oci": [
       {
+        "title": "Health Status, Certificate Rotation, Security Attributes, and Session Metrics Updates for Network Firewall",
+        "link": "https://docs.oracle.com/iaas/releasenotes/network-firewall/release-notes-2026-02-20.htm",
+        "summary": "",
+        "date": "2026年6月3日",
+        "date_iso": "2026-06-03",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "OCI"
+      },
+      {
+        "title": "New Experience in Oracle Cloud Console",
+        "link": "https://docs.oracle.com/iaas/releasenotes/api-gateway/apigw-Redwood.htm",
+        "summary": "",
+        "date": "2026年6月2日",
+        "date_iso": "2026-06-02",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
         "title": "Add xAI Tools to OCI Responses API",
         "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/xai-tools.htm",
         "summary": "",
@@ -699,16 +719,6 @@
         "tag": "OCI"
       },
       {
-        "title": "Local Appliance Web server moving to HTTPS from HTTP inside Oracle Cloud Bridge",
-        "link": "https://docs.oracle.com/iaas/releasenotes/cloud-migration/local-appliance-web-server.htm",
-        "summary": "",
-        "date": "2026年5月20日",
-        "date_iso": "2026-05-20",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
         "title": "Support for Kubernetes version 1.36.0 in a preview release of Kubernetes Engine",
         "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-K8s-1-36-0-preview-support-Release-Note.htm",
         "summary": "",
@@ -731,6 +741,16 @@
       {
         "title": "Add local filters to interactive widgets",
         "link": "https://docs.oracle.com/iaas/releasenotes/management-dashboard/widget-local-filter-enhancement.htm",
+        "summary": "",
+        "date": "2026年5月20日",
+        "date_iso": "2026-05-20",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Local Appliance Web server moving to HTTPS from HTTP inside Oracle Cloud Bridge",
+        "link": "https://docs.oracle.com/iaas/releasenotes/cloud-migration/local-appliance-web-server.htm",
         "summary": "",
         "date": "2026年5月20日",
         "date_iso": "2026-05-20",
@@ -784,26 +804,6 @@
         "summary": "",
         "date": "2026年5月15日",
         "date_iso": "2026-05-15",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Power Cycle Mac Support Available",
-        "link": "https://docs.oracle.com/iaas/releasenotes/managed-mac/power-cycle.htm",
-        "summary": "",
-        "date": "2026年5月15日",
-        "date_iso": "2026-05-15",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "VCN-Native Pod Networking CNI plugin version 3.3.0 now available",
-        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-VCN-native-CNI-v330-Release-Notes.htm",
-        "summary": "",
-        "date": "2026年5月13日",
-        "date_iso": "2026-05-13",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "OCI"
