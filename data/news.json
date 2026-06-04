@@ -1,5 +1,5 @@
 {
-  "updated": "2026年06月04日 14:06 JST",
+  "updated": "2026年06月04日 17:07 JST",
   "clouds": {
     "azure": [
       {
@@ -659,6 +659,16 @@
         "tag": "OCI"
       },
       {
+        "title": "Windows license type support for migration target assets in Oracle Cloud Migrations",
+        "link": "https://docs.oracle.com/iaas/releasenotes/cloud-migration/windows-license-type-support.htm",
+        "summary": "",
+        "date": "2026年5月22日",
+        "date_iso": "2026-05-22",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
         "title": "OCI Kubernetes Engine (OKE) support for assigning reserved public IPv6 addresses to load balancers",
         "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-Reserved-IPv6-addresses-LB.htm",
         "summary": "",
@@ -689,6 +699,16 @@
         "tag": "OCI"
       },
       {
+        "title": "Local Appliance Web server moving to HTTPS from HTTP inside Oracle Cloud Bridge",
+        "link": "https://docs.oracle.com/iaas/releasenotes/cloud-migration/local-appliance-web-server.htm",
+        "summary": "",
+        "date": "2026年5月20日",
+        "date_iso": "2026-05-20",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
         "title": "Support for Kubernetes version 1.36.0 in a preview release of Kubernetes Engine",
         "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-K8s-1-36-0-preview-support-Release-Note.htm",
         "summary": "",
@@ -711,16 +731,6 @@
       {
         "title": "Add local filters to interactive widgets",
         "link": "https://docs.oracle.com/iaas/releasenotes/management-dashboard/widget-local-filter-enhancement.htm",
-        "summary": "",
-        "date": "2026年5月20日",
-        "date_iso": "2026-05-20",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Local Appliance Web server moving to HTTPS from HTTP inside Oracle Cloud Bridge",
-        "link": "https://docs.oracle.com/iaas/releasenotes/cloud-migration/local-appliance-web-server.htm",
         "summary": "",
         "date": "2026年5月20日",
         "date_iso": "2026-05-20",
@@ -796,16 +806,6 @@
         "date_iso": "2026-05-13",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Support for Node 24 and Java 21",
-        "link": "https://docs.oracle.com/iaas/releasenotes/functions/functions-node24-java21-support.htm",
-        "summary": "",
-        "date": "2026年5月13日",
-        "date_iso": "2026-05-13",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
         "tag": "OCI"
       }
     ]
