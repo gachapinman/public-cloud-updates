@@ -1,7 +1,27 @@
 {
-  "updated": "2026年06月05日 21:27 JST",
+  "updated": "2026年06月06日 13:29 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Public Preview: Ingestion Volume Change dashboard in Metrics Usage Insights",
+        "link": "https://azure.microsoft.com/updates?id=565286",
+        "summary": "Metrics Usage Insights now includes an Ingestion Volume Change dashboard to help you compare ingestion volume over time. Quickly detect spikes or drops in time series counts and event ingestion…",
+        "date": "2026年6月6日",
+        "date_iso": "2026-06-06",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Private Preview: Guest RDMA on Azure Boost",
+        "link": "https://azure.microsoft.com/updates?id=564981",
+        "summary": "Guest RDMA is now in preview on Azure, starting in the UK South region, bringing high-throughput, ultra-low latency networking directly into guest VMs within the same region. By using Azure Boost to…",
+        "date": "2026年6月6日",
+        "date_iso": "2026-06-06",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
+        "tag": "AZURE"
+      },
       {
         "title": "Public Preview: Voice sync for avatar support in Voice Live API in Microsoft Foundry",
         "link": "https://azure.microsoft.com/updates?id=564176",
@@ -181,29 +201,59 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Azure Red Hat OpenShift in Belgium Central",
-        "link": "https://azure.microsoft.com/updates?id=564849",
-        "summary": "Azure Red Hat OpenShift (ARO) is now generally available in Azure Belgium Central, expanding regional availability for OpenShift deployments across Europe. With the launch of Microsoft’s first Azure…",
-        "date": "2026年6月4日",
-        "date_iso": "2026-06-04",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Agent-to-agent (A2A) support for Prompt agents and Hosted agents in Foundry",
-        "link": "https://azure.microsoft.com/updates?id=563716",
-        "summary": "Microsoft Foundry Agent Service adds agent-to-agent (A2A) communication in public preview for Prompt agents and Hosted agents that use the responses protocol. Agents can call other agents by name…",
-        "date": "2026年6月4日",
-        "date_iso": "2026-06-04",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Amazon Bedrock AgentCore Runtime introduces interactive shells for terminal access into agent sessions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-runtime/",
+        "summary": "Amazon Bedrock AgentCore Runtime now supports interactive shells through a new InvokeAgentRuntimeCommandShell API, opening a persistent, PTY-backed terminal directly into a running agent session over…",
+        "date": "2026年6月6日",
+        "date_iso": "2026-06-06",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Simplified permissions for Amazon S3 Tables and Iceberg materialized views are now available in AWS GovCloud (US)…",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/gdc-s3tables-simplified-permissions-in-aws-govcloud/",
+        "summary": "AWS Glue Data Catalog now supports AWS IAM-based authorization for Amazon S3 Tables and Apache Iceberg materialized views. With IAM-based authorization, you can define all necessary permissions…",
+        "date": "2026年6月6日",
+        "date_iso": "2026-06-06",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon OpenSearch UI is now available in GovCloud regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/opensearch-ui-govcloud-region",
+        "summary": "Amazon OpenSearch Service expands its modernized operational analytics experience to GovCloud regions, including AWS GovCloud (US-East) and AWS GovCloud (US-West), enabling users to gain insights…",
+        "date": "2026年6月6日",
+        "date_iso": "2026-06-06",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon ECS with AWS Fargate now supports 32vCPU compute configurations",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ecs-fargate-32vcpu",
+        "summary": "Amazon Elastic Container Service (Amazon ECS) with AWS Fargate now supports 32vCPU compute configurations, enabling customers to run more demanding applications with greater flexibility and…",
+        "date": "2026年6月6日",
+        "date_iso": "2026-06-06",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "The AWS MCP Server now supports cross-account and cross-role access",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-mcp-server/",
+        "summary": "Today, AWS announced cross-account and cross-role access for the AWS Model Context Protocol (MCP) Server, part of the Agent Toolkit for AWS . This feature allows developers using AI coding agents…",
+        "date": "2026年6月5日",
+        "date_iso": "2026-06-05",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
       {
         "title": "Amazon SageMaker Data Agent integrates business context into conversations",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-data-agent-bdc/",
@@ -242,6 +292,16 @@
         "date_iso": "2026-06-05",
         "category": "container-tag",
         "cat_label": "コンテナ",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Deadline Cloud now supports plugin sync for service-managed fleets",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/deadline-cloud/plugin-sync",
+        "summary": "AWS Deadline Cloud now gives you an easier way to deliver plugins to cloud workers when using service-managed fleets. AWS Deadline Cloud is a fully managed service that helps teams run…",
+        "date": "2026年6月5日",
+        "date_iso": "2026-06-05",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "AWS"
       },
       {
@@ -343,69 +403,19 @@
         "category": "database-tag",
         "cat_label": "データベース",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon SageMaker Unified Studio now supports a localized experience in twelve languages",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/sagemaker-localization",
-        "summary": "Amazon SageMaker Unified Studio enhanced its global accessibility by introducing support for twelve languages across the user interface. Supported languages include English (American), Chinese…",
-        "date": "2026年6月4日",
-        "date_iso": "2026-06-04",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SageMaker AI launches multi-turn reinforcement learning for AI agent model customization",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/multi-turn-reinforcement-learning-on-sagemaker-ai/",
-        "summary": "Amazon SageMaker AI now offers multi-turn reinforcement learning (RL), a new serverless model customization technique for fine-tuning models on multi-step, agentic tasks.&nbsp;SageMaker AI model…",
-        "date": "2026年6月4日",
-        "date_iso": "2026-06-04",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon ECS Managed Instances now supports AWS Trainium and AWS Inferentia",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ecs-managed-instances-neuron",
-        "summary": "Amazon Elastic Container Service ( Amazon ECS ) Managed Instances now supports AWS Trainium and AWS Inferentia , purpose-built AI accelerators designed to deliver scalable performance and cost…",
-        "date": "2026年6月4日",
-        "date_iso": "2026-06-04",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Config now supports 9 new resource types",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-config-new-resource-types",
-        "summary": "AWS Config now supports 9 additional AWS resource types across key services including Amazon Bedrock, Amazon Bedrock AgentCore, and Amazon SageMaker. This expansion provides greater coverage over…",
-        "date": "2026年6月4日",
-        "date_iso": "2026-06-04",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon RDS for Db2 launches support for IBM Db2 v12.1 and Db2 Community Edition",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-rds-db2-v12-community-edition",
-        "summary": "Amazon RDS for Db2 now supports IBM Db2 v12.1. With Db2 v12.1, RDS now supports Db2 Standard, Db2 Advanced, and Db2 Community Edition. Db2 Community Edition provides all the features available in…",
-        "date": "2026年6月3日",
-        "date_iso": "2026-06-03",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS IoT Core adds new logs to troubleshoot connectivity and authentication",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-iot-core-ping-auth-logs/",
-        "summary": "AWS IoT Core now provides two new Amazon CloudWatch Log event types that help you troubleshoot device connectivity issues and authentication errors across your Internet of Things (IoT) fleet. The new…",
-        "date": "2026年6月3日",
-        "date_iso": "2026-06-03",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "June 05, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#June_05_2026",
+        "summary": "Cloud Data Fusion Feature Cloud Data Fusion version 6.11.1.3 is generally available ( GA ). Fixed Fixed in Cloud Data Fusion 6.11.1.3: Fixed an issue that caused pipeline preview runs to fail with an…",
+        "date": "2026年6月5日",
+        "date_iso": "2026-06-05",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
       {
         "title": "June 04, 2026",
         "link": "https://docs.cloud.google.com/release-notes#June_04_2026",
@@ -469,7 +479,7 @@
       {
         "title": "May 29, 2026",
         "link": "https://docs.cloud.google.com/release-notes#May_29_2026",
-        "summary": "Apigee X Announcement On May 29, 2026, we released an updated version of the Apigee UI. Feature Manage Spaces in the Apigee UI You can now create, view, update, and delete spaces, and manage their…",
+        "summary": "Apigee X Announcement On May 29, 2026, we released an updated version of the Apigee UI. Feature Apigee EventFlow now supports the DataCapture policy You can now use the DataCapture policy within an…",
         "date": "2026年5月29日",
         "date_iso": "2026-05-29",
         "category": "compute-tag",
@@ -592,16 +602,6 @@
         "summary": "Gemini Enterprise Feature Gemini Enterprise: Agent Designer defaults to Gemini 3.1 Pro for US and Global regions New agents created in Agent Designer use Gemini 3.1 Pro by default in the US and…",
         "date": "2026年5月17日",
         "date_iso": "2026-05-17",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "May 16, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#May_16_2026",
-        "summary": "Google SecOps SOAR Announcement Release 6.3.84 is now available for all regions.",
-        "date": "2026年5月16日",
-        "date_iso": "2026-05-16",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
