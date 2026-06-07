@@ -1,5 +1,5 @@
 {
-  "updated": "2026年06月07日 16:42 JST",
+  "updated": "2026年06月07日 20:27 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "June 07, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#June_07_2026",
+        "summary": "Google SecOps SOAR Announcement Release 6.3.88 is being rolled out to the first phase of regions as listed here . This release contains internal and customer bug fixes.",
+        "date": "2026年6月7日",
+        "date_iso": "2026-06-07",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "June 06, 2026",
         "link": "https://docs.cloud.google.com/release-notes#June_06_2026",
         "summary": "Cloud Location Finder Announcement Cloud Location Finder is generally available ( GA ). Google SecOps SOAR Announcement Release 6.3.87 is now available for all regions.",
@@ -449,7 +459,7 @@
       {
         "title": "June 02, 2026",
         "link": "https://docs.cloud.google.com/release-notes#June_02_2026",
-        "summary": "AlloyDB for PostgreSQL Feature You can now configure a cooldown period to determine when autoscaling occurs for your read pool instances. For more information, see Scale an instance . Apigee X…",
+        "summary": "AlloyDB for PostgreSQL Feature You can now configure a cooldown period to determine when autoscaling occurs for your read pool instances. For more information, see Scale an instance . BigQuery…",
         "date": "2026年6月2日",
         "date_iso": "2026-06-02",
         "category": "database-tag",
@@ -489,11 +499,11 @@
       {
         "title": "May 29, 2026",
         "link": "https://docs.cloud.google.com/release-notes#May_29_2026",
-        "summary": "Apigee X Announcement On May 29, 2026, we released an updated version of the Apigee UI. Feature Apigee EventFlow now supports the DataCapture policy You can now use the DataCapture policy within an…",
+        "summary": "Cloud Workstations Announcement The preconfigured base images include Antigravity CLI . Announcement The base VM was upgraded to use Container-Optimized OS 129 LTS . Feature The JetBrains RubyMine…",
         "date": "2026年5月29日",
         "date_iso": "2026-05-29",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "GCP"
       },
       {
@@ -559,7 +569,7 @@
       {
         "title": "May 22, 2026",
         "link": "https://docs.cloud.google.com/release-notes#May_22_2026",
-        "summary": "Access Approval Feature DNS Armor is generally available (GA) . Access Transparency Feature DNS Armor is generally available (GA) . Apigee X Announcement Apigee Emulator Apigee Emulator v2.0.0 On May…",
+        "summary": "Access Approval Feature DNS Armor is generally available (GA) . Access Transparency Feature DNS Armor is generally available (GA) . Apigee hybrid Announcement v1.14.5 On May 22, 2026 we released an…",
         "date": "2026年5月22日",
         "date_iso": "2026-05-22",
         "category": "ai-tag",
@@ -569,7 +579,7 @@
       {
         "title": "May 21, 2026",
         "link": "https://docs.cloud.google.com/release-notes#May_21_2026",
-        "summary": "AlloyDB for PostgreSQL Fixed ChatGPT users are now able to list and use the AlloyDB toolset provided by the AlloyDB remote MCP server. Apigee X Announcement On May 21st, 2026, we released an updated…",
+        "summary": "AlloyDB for PostgreSQL Fixed ChatGPT users are now able to list and use the AlloyDB toolset provided by the AlloyDB remote MCP server. Apigee hybrid Announcement v1.16.4 On May 21, 2026 we released…",
         "date": "2026年5月21日",
         "date_iso": "2026-05-21",
         "category": "ai-tag",
@@ -579,11 +589,11 @@
       {
         "title": "May 20, 2026",
         "link": "https://docs.cloud.google.com/release-notes#May_20_2026",
-        "summary": "Apigee X Security On May 20, 2026, we published a security bulletin for Apigee. A vulnerability was found in Apigee ( CVE-2026-2264 ) where the IntegrationRegion parameter in the…",
+        "summary": "BigQuery Announcement BigQuery can re-execute instructions (queries) to try to proactively detect performance, correctness, or functional regressions. These re-executions will have no side effects…",
         "date": "2026年5月20日",
         "date_iso": "2026-05-20",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "GCP"
       },
       {
@@ -594,16 +604,6 @@
         "date_iso": "2026-05-19",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "May 18, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#May_18_2026",
-        "summary": "BigQuery Feature You can group reservations together to prioritize idle slot sharing within the group. Reservations within a reservation group share idle slots with each other before making them…",
-        "date": "2026年5月18日",
-        "date_iso": "2026-05-18",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
         "tag": "GCP"
       }
     ],
