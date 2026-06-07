@@ -1,5 +1,5 @@
 {
-  "updated": "2026年06月06日 20:11 JST",
+  "updated": "2026年06月07日 13:56 JST",
   "clouds": {
     "azure": [
       {
@@ -265,16 +265,6 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon Cognito now supports multi-Region replication",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cognito-multi-region/",
-        "summary": "Amazon Cognito now supports multi-Region replication, enabling you to synchronize user and machine identity data — including credentials, user pool configurations, and federation setups — to a…",
-        "date": "2026年6月5日",
-        "date_iso": "2026-06-05",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
         "title": "AWS Databases on Vercel now available in additional AWS Regions",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-databases-vercel-aws-regions/",
         "summary": "Amazon Aurora PostgreSQL , Amazon Aurora DSQL , and Amazon DynamoDB serverless databases are now available on Vercel Marketplace and v0 by Vercel in additional AWS Regions, offering you more…",
@@ -282,6 +272,16 @@
         "date_iso": "2026-06-05",
         "category": "ai-tag",
         "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Cognito now supports multi-Region replication",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cognito-multi-region/",
+        "summary": "Amazon Cognito now supports multi-Region replication, enabling you to synchronize user and machine identity data — including credentials, user pool configurations, and federation setups — to a…",
+        "date": "2026年6月5日",
+        "date_iso": "2026-06-05",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
         "tag": "AWS"
       },
       {
@@ -406,6 +406,16 @@
       }
     ],
     "gcp": [
+      {
+        "title": "June 06, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#June_06_2026",
+        "summary": "Cloud Location Finder Announcement Cloud Location Finder is generally available ( GA ).",
+        "date": "2026年6月6日",
+        "date_iso": "2026-06-06",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
       {
         "title": "June 05, 2026",
         "link": "https://docs.cloud.google.com/release-notes#June_05_2026",
@@ -594,16 +604,6 @@
         "date_iso": "2026-05-18",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "GCP"
-      },
-      {
-        "title": "May 17, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#May_17_2026",
-        "summary": "Gemini Enterprise Feature Gemini Enterprise: Agent Designer defaults to Gemini 3.1 Pro for US and Global regions New agents created in Agent Designer use Gemini 3.1 Pro by default in the US and…",
-        "date": "2026年5月17日",
-        "date_iso": "2026-05-17",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "GCP"
       }
     ],
