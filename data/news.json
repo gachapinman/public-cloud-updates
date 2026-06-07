@@ -1,5 +1,5 @@
 {
-  "updated": "2026年06月07日 13:56 JST",
+  "updated": "2026年06月07日 16:42 JST",
   "clouds": {
     "azure": [
       {
@@ -409,7 +409,7 @@
       {
         "title": "June 06, 2026",
         "link": "https://docs.cloud.google.com/release-notes#June_06_2026",
-        "summary": "Cloud Location Finder Announcement Cloud Location Finder is generally available ( GA ).",
+        "summary": "Cloud Location Finder Announcement Cloud Location Finder is generally available ( GA ). Google SecOps SOAR Announcement Release 6.3.87 is now available for all regions.",
         "date": "2026年6月6日",
         "date_iso": "2026-06-06",
         "category": "ai-tag",
