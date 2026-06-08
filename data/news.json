@@ -1,5 +1,5 @@
 {
-  "updated": "2026年06月07日 20:27 JST",
+  "updated": "2026年06月08日 14:02 JST",
   "clouds": {
     "azure": [
       {
@@ -459,7 +459,7 @@
       {
         "title": "June 02, 2026",
         "link": "https://docs.cloud.google.com/release-notes#June_02_2026",
-        "summary": "AlloyDB for PostgreSQL Feature You can now configure a cooldown period to determine when autoscaling occurs for your read pool instances. For more information, see Scale an instance . BigQuery…",
+        "summary": "AlloyDB for PostgreSQL Feature You can now configure a cooldown period to determine when autoscaling occurs for your read pool instances. For more information, see Scale an instance . Apigee X…",
         "date": "2026年6月2日",
         "date_iso": "2026-06-02",
         "category": "database-tag",
@@ -499,11 +499,11 @@
       {
         "title": "May 29, 2026",
         "link": "https://docs.cloud.google.com/release-notes#May_29_2026",
-        "summary": "Cloud Workstations Announcement The preconfigured base images include Antigravity CLI . Announcement The base VM was upgraded to use Container-Optimized OS 129 LTS . Feature The JetBrains RubyMine…",
+        "summary": "Apigee X Announcement On May 29, 2026, we released an updated version of the Apigee UI. Feature Apigee EventFlow now supports the DataCapture policy You can now use the DataCapture policy within an…",
         "date": "2026年5月29日",
         "date_iso": "2026-05-29",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "GCP"
       },
       {
@@ -569,7 +569,7 @@
       {
         "title": "May 22, 2026",
         "link": "https://docs.cloud.google.com/release-notes#May_22_2026",
-        "summary": "Access Approval Feature DNS Armor is generally available (GA) . Access Transparency Feature DNS Armor is generally available (GA) . Apigee hybrid Announcement v1.14.5 On May 22, 2026 we released an…",
+        "summary": "Access Approval Feature DNS Armor is generally available (GA) . Access Transparency Feature DNS Armor is generally available (GA) . Apigee X Announcement Apigee Emulator Apigee Emulator v2.0.0 On May…",
         "date": "2026年5月22日",
         "date_iso": "2026-05-22",
         "category": "ai-tag",
@@ -579,7 +579,7 @@
       {
         "title": "May 21, 2026",
         "link": "https://docs.cloud.google.com/release-notes#May_21_2026",
-        "summary": "AlloyDB for PostgreSQL Fixed ChatGPT users are now able to list and use the AlloyDB toolset provided by the AlloyDB remote MCP server. Apigee hybrid Announcement v1.16.4 On May 21, 2026 we released…",
+        "summary": "AlloyDB for PostgreSQL Fixed ChatGPT users are now able to list and use the AlloyDB toolset provided by the AlloyDB remote MCP server. Apigee X Announcement On May 21st, 2026, we released an updated…",
         "date": "2026年5月21日",
         "date_iso": "2026-05-21",
         "category": "ai-tag",
@@ -589,11 +589,11 @@
       {
         "title": "May 20, 2026",
         "link": "https://docs.cloud.google.com/release-notes#May_20_2026",
-        "summary": "BigQuery Announcement BigQuery can re-execute instructions (queries) to try to proactively detect performance, correctness, or functional regressions. These re-executions will have no side effects…",
+        "summary": "Apigee X Security On May 20, 2026, we published a security bulletin for Apigee. A vulnerability was found in Apigee ( CVE-2026-2264 ) where the IntegrationRegion parameter in the…",
         "date": "2026年5月20日",
         "date_iso": "2026-05-20",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
         "tag": "GCP"
       },
       {
@@ -609,11 +609,11 @@
     ],
     "oci": [
       {
-        "title": "Document Generator pre-built function version 26.4 now available",
-        "link": "https://docs.oracle.com/iaas/releasenotes/functions/functions-docgen-pbf_v26-4-enhancements.htm",
+        "title": "Import NVIDIA Nemotron 3 Ultra in OCI Generative AI",
+        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/nvidia-nemotron-3-ultra-nvfp4.htm",
         "summary": "",
-        "date": "2026年6月3日",
-        "date_iso": "2026-06-03",
+        "date": "2026年6月5日",
+        "date_iso": "2026-06-05",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "OCI"
@@ -626,6 +626,16 @@
         "date_iso": "2026-06-03",
         "category": "security-tag",
         "cat_label": "セキュリティ",
+        "tag": "OCI"
+      },
+      {
+        "title": "Document Generator pre-built function version 26.4 now available",
+        "link": "https://docs.oracle.com/iaas/releasenotes/functions/functions-docgen-pbf_v26-4-enhancements.htm",
+        "summary": "",
+        "date": "2026年6月3日",
+        "date_iso": "2026-06-03",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "OCI"
       },
       {
@@ -659,16 +669,6 @@
         "tag": "OCI"
       },
       {
-        "title": "Annotation to assign a reserved private IPv4 address to a load balancer or network load balancer with OKE",
-        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-Reserved-private-IP-address-LB-NLB-NIC.htm",
-        "summary": "",
-        "date": "2026年5月26日",
-        "date_iso": "2026-05-26",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "OCI"
-      },
-      {
         "title": "Pin a Guardrails Version in OCI Generative AI",
         "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/ai-guardrails-versions.htm",
         "summary": "",
@@ -676,6 +676,16 @@
         "date_iso": "2026-05-26",
         "category": "ai-tag",
         "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Annotation to assign a reserved private IPv4 address to a load balancer or network load balancer with OKE",
+        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-Reserved-private-IP-address-LB-NLB-NIC.htm",
+        "summary": "",
+        "date": "2026年5月26日",
+        "date_iso": "2026-05-26",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
         "tag": "OCI"
       },
       {
@@ -791,16 +801,6 @@
       {
         "title": "Convert Text to Speech with xAI Voice in OCI Generative AI",
         "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/xai-grok-voice.htm",
-        "summary": "",
-        "date": "2026年5月15日",
-        "date_iso": "2026-05-15",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Configure vanity domains for simpler access to Fusion Applications",
-        "link": "https://docs.oracle.com/iaas/releasenotes/fusion-applications/vanity-domains.htm",
         "summary": "",
         "date": "2026年5月15日",
         "date_iso": "2026-05-15",
