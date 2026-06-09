@@ -1,5 +1,5 @@
 {
-  "updated": "2026年06月09日 13:36 JST",
+  "updated": "2026年06月09日 16:02 JST",
   "clouds": {
     "azure": [
       {
@@ -205,6 +205,16 @@
     ],
     "aws": [
       {
+        "title": "AWS Cost Explorer launches intelligent cost explanations powered by Amazon Q",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cost-explorer-intelligent-cost-explanations",
+        "summary": "AWS Cost Explorer now supports 'Analyze with Amazon Q', a new capability that delivers comprehensive cost explanations for any report you configure in Cost Explorer. With a single button click you…",
+        "date": "2026年6月9日",
+        "date_iso": "2026-06-09",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
         "title": "AWS Compute Optimizer now supports idle recommendations for six additional resource types",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-compute-optimizer-six-new-idle",
         "summary": "AWS Compute Optimizer now identifies idle resources for Amazon DynamoDB provisioned tables, Amazon ElastiCache (Redis and Valkey), Amazon MemoryDB, Amazon DocumentDB (provisioned and serverless),…",
@@ -232,6 +242,16 @@
         "date_iso": "2026-06-09",
         "category": "database-tag",
         "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon CloudWatch Logs Insights adds 23 new query commands and functions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-logs-insights-new/",
+        "summary": "Amazon CloudWatch Logs Insights query language now supports 23 new commands and functions that give you new ways to query, parse, transform, and analyze your logs. Customers analyzing logs in…",
+        "date": "2026年6月9日",
+        "date_iso": "2026-06-09",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "AWS"
       },
       {
@@ -383,26 +403,6 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon SageMaker Data Agent integrates business context into conversations",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-data-agent-bdc/",
-        "summary": "Amazon SageMaker Data Agent now integrates with SageMaker Catalog business context and metadata, enabling data practitioners to discover datasets and generate more accurate SQL and Python code using…",
-        "date": "2026年6月5日",
-        "date_iso": "2026-06-05",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Databases on Vercel now available in additional AWS Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-databases-vercel-aws-regions/",
-        "summary": "Amazon Aurora PostgreSQL , Amazon Aurora DSQL , and Amazon DynamoDB serverless databases are now available on Vercel Marketplace and v0 by Vercel in additional AWS Regions, offering you more…",
-        "date": "2026年6月5日",
-        "date_iso": "2026-06-05",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
       }
     ],
     "gcp": [
@@ -549,7 +549,7 @@
       {
         "title": "May 25, 2026",
         "link": "https://docs.cloud.google.com/release-notes#May_25_2026",
-        "summary": "Knowledge Catalog Feature Data products in Knowledge Catalog is Generally Available ( GA ). A data product serves as a logical, curated package of data assets and context designed to solve a specific…",
+        "summary": "Google Kubernetes Engine Feature To monitor the efficiency of the GKE training JobSet, the following two GKE system metrics are available in Preview: kubernetes.io/jobset/scheduling_goodput : the…",
         "date": "2026年5月25日",
         "date_iso": "2026-05-25",
         "category": "ai-tag",
@@ -679,16 +679,6 @@
         "tag": "OCI"
       },
       {
-        "title": "Pin a Guardrails Version in OCI Generative AI",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/ai-guardrails-versions.htm",
-        "summary": "",
-        "date": "2026年5月26日",
-        "date_iso": "2026-05-26",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
         "title": "Annotation to assign a reserved private IPv4 address to a load balancer or network load balancer with OKE",
         "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-Reserved-private-IP-address-LB-NLB-NIC.htm",
         "summary": "",
@@ -696,6 +686,16 @@
         "date_iso": "2026-05-26",
         "category": "container-tag",
         "cat_label": "コンテナ",
+        "tag": "OCI"
+      },
+      {
+        "title": "Pin a Guardrails Version in OCI Generative AI",
+        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/ai-guardrails-versions.htm",
+        "summary": "",
+        "date": "2026年5月26日",
+        "date_iso": "2026-05-26",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "OCI"
       },
       {
@@ -749,16 +749,6 @@
         "tag": "OCI"
       },
       {
-        "title": "Support for Kubernetes version 1.36.0 in a preview release of Kubernetes Engine",
-        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-K8s-1-36-0-preview-support-Release-Note.htm",
-        "summary": "",
-        "date": "2026年5月20日",
-        "date_iso": "2026-05-20",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "OCI"
-      },
-      {
         "title": "View dashboards, widgets, and filters across all compartments",
         "link": "https://docs.oracle.com/iaas/releasenotes/management-dashboard/view-resources-across-all-compartments.htm",
         "summary": "",
@@ -776,6 +766,16 @@
         "date_iso": "2026-05-20",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Support for Kubernetes version 1.36.0 in a preview release of Kubernetes Engine",
+        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-K8s-1-36-0-preview-support-Release-Note.htm",
+        "summary": "",
+        "date": "2026年5月20日",
+        "date_iso": "2026-05-20",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
         "tag": "OCI"
       },
       {
