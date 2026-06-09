@@ -1,7 +1,67 @@
 {
-  "updated": "2026年06月08日 22:53 JST",
+  "updated": "2026年06月09日 13:36 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Generally Available: Azure NC RTX PRO 6000 Blackwell Server Edition v6 Series Virtual Machines",
+        "link": "https://azure.microsoft.com/updates?id=565271",
+        "summary": "Azure NCv6-series virtual machines (VMs) are now generally available in the Azure Southeast Asia and West US 2 regions. NCv6 VMs are powered by NVIDIA RTX PRO 6000 Blackwell Server Edition graphics…",
+        "date": "2026年6月9日",
+        "date_iso": "2026-06-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Premium SSD v2 disks now support non-zonal Azure Virtual Machines",
+        "link": "https://azure.microsoft.com/updates?id=565359",
+        "summary": "Azure Premium SSD v2 disks now support non-zonal, single-instance Azure virtual machines in select Azure regions with Availability Zones (AZs). Customers can now deploy Premium SSD v2 with non-zonal…",
+        "date": "2026年6月9日",
+        "date_iso": "2026-06-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Microsoft Foundry agent security capabilities in Microsoft Defender for Cloud are…",
+        "link": "https://azure.microsoft.com/updates?id=565171",
+        "summary": "Starting July 1, 2026, Microsoft Foundry agent security capabilities previously available through Microsoft Defender for Cloud will transition to a Microsoft Agent 365 license. Agent protection in…",
+        "date": "2026年6月9日",
+        "date_iso": "2026-06-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Azure Site Recovery support for Linux Azure VMs with NVMe disk controllers.",
+        "link": "https://azure.microsoft.com/updates?id=565103",
+        "summary": "Azure Site Recovery now supports replication and disaster recovery for Linux Azure Virtual Machines running on NVMe-enabled Generation 2 VM families, such as the Da/Ea/Fa v6-series and Ebsv5/Ebdsv5…",
+        "date": "2026年6月9日",
+        "date_iso": "2026-06-09",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Maintenance control for Azure Database for PostgreSQL - reschedule, apply on demand,…",
+        "link": "https://azure.microsoft.com/updates?id=563756",
+        "summary": "Enhanced maintenance control capabilities are now generally available for Azure Database for PostgreSQL Flexible Server. These new capabilities give you greater visibility and flexibility in managing…",
+        "date": "2026年6月9日",
+        "date_iso": "2026-06-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Azure Managed Redis now supports Entra ID based RBAC for data management",
+        "link": "https://azure.microsoft.com/updates?id=564873",
+        "summary": "With role-based access control (RBAC) for Azure Managed Redis data access, you can precisely control who can read, write, or administer your Redis data using Microsoft Entra ID—without relying on…",
+        "date": "2026年6月9日",
+        "date_iso": "2026-06-09",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AZURE"
+      },
       {
         "title": "Public Preview: Ingestion Volume Change dashboard in Metrics Usage Insights",
         "link": "https://azure.microsoft.com/updates?id=565286",
@@ -141,69 +201,129 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Azure Monitor Service Level Indicators (SLI)",
-        "link": "https://azure.microsoft.com/updates?id=565159",
-        "summary": "Azure Monitor now includes Service Level Indicators (SLIs) and Service Level Objectives (SLOs), giving teams a clearer way to measure how customers actually experience their applications. Instead of…",
-        "date": "2026年6月5日",
-        "date_iso": "2026-06-05",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: MAI-Voice-2 in Microsoft Foundry",
-        "link": "https://azure.microsoft.com/updates?id=563217",
-        "summary": "Microsoft Foundry now offers MAI-Voice-2 in public preview, a first-party voice model from the Microsoft AI team. MAI-Voice-2 generates natural speech across more than 10 languages and supports voice…",
-        "date": "2026年6月4日",
-        "date_iso": "2026-06-04",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "General Availability: Backup your ledger files for audit with Azure confidential ledger’s new tool",
-        "link": "https://azure.microsoft.com/updates?id=560810",
-        "summary": "Ever wondered how to allow auditing personas (i.e. security analyst in your organization or security assessment contractor) the ability to view your ledger files and establish trust in the…",
-        "date": "2026年6月4日",
-        "date_iso": "2026-06-04",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Text Analytics for Health NextGen Playground in Azure AI Language",
-        "link": "https://azure.microsoft.com/updates?id=563671",
-        "summary": "Azure AI Language brings the next-generation Text Analytics for Health (TA4H) playground to general availability in the Microsoft Foundry portal. Clinical informatics teams and ISVs can paste…",
-        "date": "2026年6月4日",
-        "date_iso": "2026-06-04",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: User feedback logging in Microsoft Foundry",
-        "link": "https://azure.microsoft.com/updates?id=563431",
-        "summary": "This feature introduces end user feedback logging semantics that enables developers to capture structured feedback signals from real users interacting with AI agents—such as thumbs up/down, ratings,…",
-        "date": "2026年6月4日",
-        "date_iso": "2026-06-04",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Self-serve custom photo avatar creation in Microsoft Foundry",
-        "link": "https://azure.microsoft.com/updates?id=563491",
-        "summary": "Microsoft Foundry brings self-serve custom photo avatar creation to GA in the Foundry NextGen fine-tuning portal. Enterprise customers building voice agents with avatars or producing content with…",
-        "date": "2026年6月4日",
-        "date_iso": "2026-06-04",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "AWS Compute Optimizer now supports idle recommendations for six additional resource types",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-compute-optimizer-six-new-idle",
+        "summary": "AWS Compute Optimizer now identifies idle resources for Amazon DynamoDB provisioned tables, Amazon ElastiCache (Redis and Valkey), Amazon MemoryDB, Amazon DocumentDB (provisioned and serverless),…",
+        "date": "2026年6月9日",
+        "date_iso": "2026-06-09",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon MSK Express Brokers now support automatic topic creation with Kafka Streams",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-msk-express-topic-support-kstreams/",
+        "summary": "Effective today, Amazon MSK Express Brokers support automatic topic creation with Kafka Streams. Customers can now deploy their Kafka Streams applications on Express Brokers without needing to…",
+        "date": "2026年6月9日",
+        "date_iso": "2026-06-09",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon DocumentDB now supports engine minor version starting with 5.0.1",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-documentdb-engine-minor-version-5-0-1/",
+        "summary": "Amazon DocumentDB (with MongoDB compatibility) now supports engine minor versions, starting with 5.0.1. This release delivers enhanced aggregation capabilities with new operators ($rand, $pow,…",
+        "date": "2026年6月9日",
+        "date_iso": "2026-06-09",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Savings Plans Purchase Analyzer now supports target coverage analysis",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-savings-plans-coverage/",
+        "summary": "Today, AWS announces target coverage analysis in Savings Plans Purchase Analyzer, a capability in AWS Billing and Cost Management that helps you plan your Savings Plans purchases based on your…",
+        "date": "2026年6月9日",
+        "date_iso": "2026-06-09",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "PostgreSQL 19 Beta 1 is now available in Amazon RDS Database Preview Environment",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/postgresql-19-beta-1-amazon-rds-database-preview-environment/",
+        "summary": "Amazon RDS for PostgreSQL 19 Beta 1 is now available in the Amazon RDS Database Preview Environment , allowing you to evaluate the pre-release of PostgreSQL 19 on Amazon RDS for PostgreSQL. You can…",
+        "date": "2026年6月9日",
+        "date_iso": "2026-06-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Lambda Managed Instances expands to additional AWS Regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lambda-managed-instances-region-expansion/",
+        "summary": "AWS Lambda Managed Instances (LMI) is now available in all commercial AWS Regions, except Israel (Tel Aviv), Middle East (Bahrain), Middle East (UAE), and Asia Pacific (Auckland). &nbsp; LMI lets you…",
+        "date": "2026年6月9日",
+        "date_iso": "2026-06-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Application Migration Service is now AWS Transform MGN",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-mgn-rebrand/",
+        "summary": "AWS Application Migration Service (MGN) is now available as AWS Transform MGN . This name change reflects MGN's role as the proven replication engine powering AWS Transform, the agentic migration…",
+        "date": "2026年6月9日",
+        "date_iso": "2026-06-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Aurora DSQL now supports the JSONB data type with compression",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-aurora-dsql-supports-jsonb/",
+        "summary": "Amazon Aurora DSQL introduces support for the PostgreSQL JSONB data type with optional compression. You can now use code and tools that depend on PostgreSQL's JSONB type with Aurora DSQL, making it…",
+        "date": "2026年6月9日",
+        "date_iso": "2026-06-09",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS now provides AI-powered cost investigations for cost anomalies",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-ai-powered-cost-investigations/",
+        "summary": "AWS Cost Anomaly Detection now includes AI-powered cost investigation, which uses Amazon Q to analyze the root cause of detected cost anomalies. Investigating a cost change typically requires…",
+        "date": "2026年6月9日",
+        "date_iso": "2026-06-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Connect Customer now offers AI agent trace details for self-service voice interactions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-connect-ai-agent-traces/",
+        "summary": "Amazon Connect Customer now provides AI agent traces for self-service voice interactions, enabling you to understand how AI agents reason, act, and respond during each customer conversation. With…",
+        "date": "2026年6月9日",
+        "date_iso": "2026-06-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Redshift reduces manual snapshot cost for Serverless and RG instances",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-redshift-incremental-manual-snapshots/",
+        "summary": "Amazon Redshift announces a new billing model for manual snapshots on Amazon Redshift Serverless and Amazon Redshift RG instances. With this enhancement, Amazon Redshift now meters manual snapshot…",
+        "date": "2026年6月9日",
+        "date_iso": "2026-06-09",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon RDS for SQL Server migration cost assessment capabilities now available in AWS Transform",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-rds-sql-server-cost-assessment-aws-transform/",
+        "summary": "Amazon RDS for SQL Server now offers TCO assessment in AWS Transform, so you can estimate costs when migrating on-premises SQL Server databases to RDS for SQL Server. Using AI-powered agents, AWS…",
+        "date": "2026年6月8日",
+        "date_iso": "2026-06-08",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
       {
         "title": "Amazon Bedrock AgentCore Runtime introduces interactive shells for terminal access into agent sessions",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-runtime/",
@@ -245,6 +365,16 @@
         "tag": "AWS"
       },
       {
+        "title": "Amazon EC2 C8in instances are now available in additional regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-c8in-asia-pacific-europe/",
+        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8in instances are available in the AWS&nbsp;Asia Pacific (Sydney, Singapore, Malaysia) and Europe (Frankfurt) regions. C8in instances are…",
+        "date": "2026年6月6日",
+        "date_iso": "2026-06-06",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
         "title": "The AWS MCP Server now supports cross-account and cross-role access",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-mcp-server/",
         "summary": "Today, AWS announced cross-account and cross-role access for the AWS Model Context Protocol (MCP) Server, part of the Agent Toolkit for AWS . This feature allows developers using AI coding agents…",
@@ -273,139 +403,19 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon Cognito now supports multi-Region replication",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cognito-multi-region/",
-        "summary": "Amazon Cognito now supports multi-Region replication, enabling you to synchronize user and machine identity data — including credentials, user pool configurations, and federation setups — to a…",
-        "date": "2026年6月5日",
-        "date_iso": "2026-06-05",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EKS Capabilities now supports Amazon CloudWatch Vended Logs",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-eks-capabilities-logging",
-        "summary": "Amazon Elastic Kubernetes Service (Amazon EKS) Capabilities can now be configured as log delivery sources using Amazon CloudWatch Vended Logs. This enables customers to monitor and troubleshoot their…",
-        "date": "2026年6月5日",
-        "date_iso": "2026-06-05",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Deadline Cloud now supports plugin sync for service-managed fleets",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/deadline-cloud/plugin-sync",
-        "summary": "AWS Deadline Cloud now gives you an easier way to deliver plugins to cloud workers when using service-managed fleets. AWS Deadline Cloud is a fully managed service that helps teams run…",
-        "date": "2026年6月5日",
-        "date_iso": "2026-06-05",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon MQ is now available in the AWS European Sovereign Cloud (Germany) Region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-mq-eur-sov-cloud",
-        "summary": "You can now deploy Amazon MQ for RabbitMQ in the AWS European Sovereign Cloud (Germany) Region. This new independent cloud for Europe is located entirely within the EU, designed to help customers in…",
-        "date": "2026年6月4日",
-        "date_iso": "2026-06-04",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Bedrock launches a redesigned console optimized for OpenAI- and Anthropic-compatible APIs",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-redesigned-console-optimized-openai-anthropic-compatible-apis/",
-        "summary": "Amazon Bedrock is a fully managed service that provides secure, enterprise-grade access to high-performing foundation models from leading AI companies, enabling you to build and scale generative AI…",
-        "date": "2026年6月4日",
-        "date_iso": "2026-06-04",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS IoT Device Management adds MQTT session data to connectivity status API",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-iot-device-management-mqtt/",
-        "summary": "AWS IoT Device Management adds MQTT session data to connectivity status API, enabling you to troubleshoot connectivity issues and audit connection patterns across your Internet of things (IoT) device…",
-        "date": "2026年6月4日",
-        "date_iso": "2026-06-04",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SageMaker Data Agent now supports conversation history",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-data-agent/",
-        "summary": "Amazon SageMaker Data Agent, available in SageMaker Unified Studio now supports conversation history, enabling data practitioners to maintain continuity across analytical sessions. Data analysts and…",
-        "date": "2026年6月4日",
-        "date_iso": "2026-06-04",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SageMaker Unified Studio now supports notebook scheduling",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-unified-studio/",
-        "summary": "Amazon SageMaker Unified Studio now enables you to schedule, parameterize, and orchestrate notebook runs directly from the notebook interface without managing external orchestration infrastructure.…",
-        "date": "2026年6月4日",
-        "date_iso": "2026-06-04",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Step Functions adds AgentCore-powered agentic reasoning step",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-step-functions-agentcore/",
-        "summary": "AWS Step Functions now enables you to add AI agent reasoning steps to your workflow through an optimized integration with the managed harness (currently in preview) in Amazon Bedrock AgentCore. AWS…",
-        "date": "2026年6月4日",
-        "date_iso": "2026-06-04",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "OpenAI GPT-5.4 generally available on Amazon Bedrock in AWS GovCloud (US-West)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/GPT54-available-in-aws-govcloud-us-west/",
-        "summary": "Amazon Bedrock now supports GPT-5.4 from OpenAI in AWS GovCloud (US-West). Government and regulated industry customers can use GPT-5.4 for complex reasoning, coding, document analysis, and multi-step…",
-        "date": "2026年6月4日",
-        "date_iso": "2026-06-04",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Compute Optimizer now supports 32-day lookback for EBS volume and ECS service rightsizing recommendations",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-compute-optimizer-ebs-ecs-32-day-lookback/",
-        "summary": "AWS Compute Optimizer now lets you extend the lookback period of your Amazon EBS volume and Amazon ECS rightsizing recommendations from the default 14 days to 32 days, at no additional cost. A longer…",
-        "date": "2026年6月4日",
-        "date_iso": "2026-06-04",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "ARC Region switch adds Amazon Aurora scaling and Amazon Neptune global database failover",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/region-switch-aurora-scaling-neptune-failover/",
-        "summary": "Amazon Application Recovery Controller (ARC) Region switch helps customers orchestrate the failover of their multi-Region applications to achieve a bounded recovery time in the event of a Regional…",
-        "date": "2026年6月4日",
-        "date_iso": "2026-06-04",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Keyspaces (for Apache Cassandra) now provides CDC iterator position",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/keyspaces-cdc-iterator-position/",
-        "summary": "Amazon Keyspaces (for Apache Cassandra) now returns an iterator position in the GetRecords response for change data capture (CDC) streams, indicating whether a consumer has reached the tip of the…",
-        "date": "2026年6月4日",
-        "date_iso": "2026-06-04",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "June 08, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#June_08_2026",
+        "summary": "App Hub Feature App Hub support for resources from Memorystore is now generally available ( GA ). BigQuery Feature You can analyze data lineage with Gemini Cloud Assist in BigQuery . This feature is…",
+        "date": "2026年6月8日",
+        "date_iso": "2026-06-08",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
       {
         "title": "June 07, 2026",
         "link": "https://docs.cloud.google.com/release-notes#June_07_2026",
@@ -539,7 +549,7 @@
       {
         "title": "May 25, 2026",
         "link": "https://docs.cloud.google.com/release-notes#May_25_2026",
-        "summary": "Google Kubernetes Engine Feature To monitor the efficiency of the GKE training JobSet, the following two GKE system metrics are available in Preview: kubernetes.io/jobset/scheduling_goodput : the…",
+        "summary": "Knowledge Catalog Feature Data products in Knowledge Catalog is Generally Available ( GA ). A data product serves as a logical, curated package of data assets and context designed to solve a specific…",
         "date": "2026年5月25日",
         "date_iso": "2026-05-25",
         "category": "ai-tag",
@@ -595,16 +605,6 @@
         "category": "security-tag",
         "cat_label": "セキュリティ",
         "tag": "GCP"
-      },
-      {
-        "title": "May 19, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#May_19_2026",
-        "summary": "Anti Money Laundering AI Announcement Improvements to backtest API and recall metrics are now available with engine version v004.011 . This includes support for Performance Targeting by number of…",
-        "date": "2026年5月19日",
-        "date_iso": "2026-05-19",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
       }
     ],
     "oci": [
@@ -651,6 +651,16 @@
       {
         "title": "Add xAI Tools to OCI Responses API",
         "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/xai-tools.htm",
+        "summary": "",
+        "date": "2026年5月29日",
+        "date_iso": "2026-05-29",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Add Image Moderation to OCI Generative AI Guardrails",
+        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/image-moderation.htm",
         "summary": "",
         "date": "2026年5月29日",
         "date_iso": "2026-05-29",
@@ -794,16 +804,6 @@
         "summary": "",
         "date": "2026年5月19日",
         "date_iso": "2026-05-19",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Convert Text to Speech with xAI Voice in OCI Generative AI",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/xai-grok-voice.htm",
-        "summary": "",
-        "date": "2026年5月15日",
-        "date_iso": "2026-05-15",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "OCI"
