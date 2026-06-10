@@ -1,5 +1,5 @@
 {
-  "updated": "2026年06月10日 16:53 JST",
+  "updated": "2026年06月10日 21:46 JST",
   "clouds": {
     "azure": [
       {
@@ -335,16 +335,6 @@
         "tag": "AWS"
       },
       {
-        "title": "AWS Lambda Managed Instances expands to additional AWS Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lambda-managed-instances-region-expansion/",
-        "summary": "AWS Lambda Managed Instances (LMI) is now available in all commercial AWS Regions, except Israel (Tel Aviv), Middle East (Bahrain), Middle East (UAE), and Asia Pacific (Auckland). &nbsp; LMI lets you…",
-        "date": "2026年6月9日",
-        "date_iso": "2026-06-09",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
         "title": "AWS Application Migration Service is now AWS Transform MGN",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-mgn-rebrand/",
         "summary": "AWS Application Migration Service (MGN) is now available as AWS Transform MGN . This name change reflects MGN's role as the proven replication engine powering AWS Transform, the agentic migration…",
@@ -362,6 +352,16 @@
         "date_iso": "2026-06-09",
         "category": "database-tag",
         "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Lambda Managed Instances expands to additional AWS Regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lambda-managed-instances-region-expansion/",
+        "summary": "AWS Lambda Managed Instances (LMI) is now available in all commercial AWS Regions, except Israel (Tel Aviv), Middle East (Bahrain), Middle East (UAE), and Asia Pacific (Auckland). &nbsp; LMI lets you…",
+        "date": "2026年6月9日",
+        "date_iso": "2026-06-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "AWS"
       },
       {
@@ -649,6 +649,26 @@
         "tag": "OCI"
       },
       {
+        "title": "Use AWS Key Management Service (AWS KMS) customer-managed keys with Cross-region Data Guard for Autonomous AI Database on Oracle Database@AWS.",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-dedicated/adbd-aws-kms-crossregion.htm",
+        "summary": "",
+        "date": "2026年6月2日",
+        "date_iso": "2026-06-02",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Manageability enhancements for Autonomous Exadata VM Clusters and Autonomous Container Databases",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-dedicated/adbd-mng-enh-avmc.htm",
+        "summary": "",
+        "date": "2026年6月2日",
+        "date_iso": "2026-06-02",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
         "title": "New Experience in Oracle Cloud Console",
         "link": "https://docs.oracle.com/iaas/releasenotes/api-gateway/apigw-Redwood.htm",
         "summary": "",
@@ -784,26 +804,6 @@
         "summary": "",
         "date": "2026年5月21日",
         "date_iso": "2026-05-21",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "OCI"
-      },
-      {
-        "title": "HeatWave: DB System Cloning",
-        "link": "https://docs.oracle.com/iaas/releasenotes/mysql-database/heatwave-clone-db-system.htm",
-        "summary": "",
-        "date": "2026年5月21日",
-        "date_iso": "2026-05-21",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "OCI"
-      },
-      {
-        "title": "Support for Kubernetes version 1.36.0 in a preview release of Kubernetes Engine",
-        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-K8s-1-36-0-preview-support-Release-Note.htm",
-        "summary": "",
-        "date": "2026年5月20日",
-        "date_iso": "2026-05-20",
         "category": "container-tag",
         "cat_label": "コンテナ",
         "tag": "OCI"
