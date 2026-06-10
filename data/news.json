@@ -1,5 +1,5 @@
 {
-  "updated": "2026年06月10日 13:49 JST",
+  "updated": "2026年06月10日 16:53 JST",
   "clouds": {
     "azure": [
       {
@@ -335,6 +335,16 @@
         "tag": "AWS"
       },
       {
+        "title": "AWS Lambda Managed Instances expands to additional AWS Regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lambda-managed-instances-region-expansion/",
+        "summary": "AWS Lambda Managed Instances (LMI) is now available in all commercial AWS Regions, except Israel (Tel Aviv), Middle East (Bahrain), Middle East (UAE), and Asia Pacific (Auckland). &nbsp; LMI lets you…",
+        "date": "2026年6月9日",
+        "date_iso": "2026-06-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
         "title": "AWS Application Migration Service is now AWS Transform MGN",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-mgn-rebrand/",
         "summary": "AWS Application Migration Service (MGN) is now available as AWS Transform MGN . This name change reflects MGN's role as the proven replication engine powering AWS Transform, the agentic migration…",
@@ -352,16 +362,6 @@
         "date_iso": "2026-06-09",
         "category": "database-tag",
         "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Lambda Managed Instances expands to additional AWS Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lambda-managed-instances-region-expansion/",
-        "summary": "AWS Lambda Managed Instances (LMI) is now available in all commercial AWS Regions, except Israel (Tel Aviv), Middle East (Bahrain), Middle East (UAE), and Asia Pacific (Auckland). &nbsp; LMI lets you…",
-        "date": "2026年6月9日",
-        "date_iso": "2026-06-09",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "AWS"
       },
       {
