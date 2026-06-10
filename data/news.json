@@ -1,7 +1,27 @@
 {
-  "updated": "2026年06月09日 21:26 JST",
+  "updated": "2026年06月10日 13:49 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Public Preview: Agent mode for GitHub Copilot in SQL Server Management Studio (SSMS)",
+        "link": "https://azure.microsoft.com/updates?id=562637",
+        "summary": "You can now use Agent mode for GitHub Copilot in SSMS to work with your database: investigating performance problems, tuning queries, reviewing maintenance and configuration, identifying security…",
+        "date": "2026年6月10日",
+        "date_iso": "2026-06-10",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: PostgreSQL Hub for Azure Developers",
+        "link": "https://azure.microsoft.com/updates?id=562084",
+        "summary": "PostgreSQL Hub for Azure Developers brings together key AI and application development resources for PostgreSQL on Azure. It includes curated sample apps and solution accelerators, tutorials, and…",
+        "date": "2026年6月10日",
+        "date_iso": "2026-06-10",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Generally Available: Azure NC RTX PRO 6000 Blackwell Server Edition v6 Series Virtual Machines",
         "link": "https://azure.microsoft.com/updates?id=565271",
@@ -181,29 +201,69 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Microsoft Foundry IQ",
-        "link": "https://azure.microsoft.com/updates?id=563222",
-        "summary": "Microsoft Foundry IQ reaches general availability, giving developers a managed knowledge layer that grounds agents in enterprise data without rebuilding retrieval pipelines for each project. Teams…",
-        "date": "2026年6月5日",
-        "date_iso": "2026-06-05",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Content Understanding chunking and image verbalization in Azure AI Search",
-        "link": "https://azure.microsoft.com/updates?id=563661",
-        "summary": "Azure AI Search now supports Content Understanding chunking and image verbalization in public preview, expanding the built-in skill that parses rich documents during indexing. Indexers can split…",
-        "date": "2026年6月5日",
-        "date_iso": "2026-06-05",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Amazon SageMaker Unified Studio Notebooks now support EMR Serverless",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-unified-studio-emr/",
+        "summary": "Amazon SageMaker Unified Studio Notebooks now support Amazon EMR Serverless with Apache Spark Connect, giving data engineers and analysts more flexibility in choosing their Spark runtime for…",
+        "date": "2026年6月10日",
+        "date_iso": "2026-06-10",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon S3 Access Grants are now available in the AWS European Sovereign Cloud (Germany) Region",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-s3-access-grants-european-sovereign-cloud-germany-region",
+        "summary": "You can now create Amazon S3 Access Grants in the AWS European Sovereign Cloud (Germany) Region. Amazon S3 Access Grants map identities in directories such as Microsoft Entra ID, or AWS Identity and…",
+        "date": "2026年6月10日",
+        "date_iso": "2026-06-10",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS FinOps Agent is now available in preview",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-finops-agent-preview/",
+        "summary": "Today, AWS announces the preview of AWS FinOps Agent, a frontier agent for FinOps practitioners and engineering teams that answers cost questions, surfaces optimization opportunities, automatically…",
+        "date": "2026年6月10日",
+        "date_iso": "2026-06-10",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS announces Claude Fable 5, the first generally available Mythos-class model",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/claude-fable-5-aws/",
+        "summary": "Claude Fable 5 is generally available on AWS and makes Mythos-level capabilities available to all customers, with strong safeguards designed to make it safe for broader use. Fable 5 is…",
+        "date": "2026年6月9日",
+        "date_iso": "2026-06-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Backup support for Amazon EKS is now available in the AWS European Sovereign Cloud (Germany) Region",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-backup-amazon-eks-aws-european-sovereign-cloud/",
+        "summary": "AWS Backup support for Amazon Elastic Kubernetes Service (EKS) is now available in the AWS European Sovereign Cloud (Germany) Region. This expansion brings fully-managed, policy-based data protection…",
+        "date": "2026年6月9日",
+        "date_iso": "2026-06-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Run Interactive Workloads on Amazon EMR Serverless with Spark Connect",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-emr-serverless-spark-connect",
+        "summary": "Amazon EMR Serverless now supports interactive sessions with Spark Connect, enabling you to develop and run Apache Spark applications from managed notebooks in Amazon SageMaker Unified Studio, as…",
+        "date": "2026年6月9日",
+        "date_iso": "2026-06-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
       {
         "title": "AWS Cost Explorer launches intelligent cost explanations powered by Amazon Q",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cost-explorer-intelligent-cost-explanations",
@@ -275,16 +335,6 @@
         "tag": "AWS"
       },
       {
-        "title": "AWS Lambda Managed Instances expands to additional AWS Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lambda-managed-instances-region-expansion/",
-        "summary": "AWS Lambda Managed Instances (LMI) is now available in all commercial AWS Regions, except Israel (Tel Aviv), Middle East (Bahrain), Middle East (UAE), and Asia Pacific (Auckland). &nbsp; LMI lets you…",
-        "date": "2026年6月9日",
-        "date_iso": "2026-06-09",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
         "title": "AWS Application Migration Service is now AWS Transform MGN",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-mgn-rebrand/",
         "summary": "AWS Application Migration Service (MGN) is now available as AWS Transform MGN . This name change reflects MGN's role as the proven replication engine powering AWS Transform, the agentic migration…",
@@ -302,6 +352,16 @@
         "date_iso": "2026-06-09",
         "category": "database-tag",
         "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Lambda Managed Instances expands to additional AWS Regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lambda-managed-instances-region-expansion/",
+        "summary": "AWS Lambda Managed Instances (LMI) is now available in all commercial AWS Regions, except Israel (Tel Aviv), Middle East (Bahrain), Middle East (UAE), and Asia Pacific (Auckland). &nbsp; LMI lets you…",
+        "date": "2026年6月9日",
+        "date_iso": "2026-06-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "AWS"
       },
       {
@@ -343,77 +403,27 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon Bedrock AgentCore Runtime introduces interactive shells for terminal access into agent sessions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-runtime/",
-        "summary": "Amazon Bedrock AgentCore Runtime now supports interactive shells through a new InvokeAgentRuntimeCommandShell API, opening a persistent, PTY-backed terminal directly into a running agent session over…",
-        "date": "2026年6月6日",
-        "date_iso": "2026-06-06",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Simplified permissions for Amazon S3 Tables and Iceberg materialized views are now available in AWS GovCloud (US)…",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/gdc-s3tables-simplified-permissions-in-aws-govcloud/",
-        "summary": "AWS Glue Data Catalog now supports AWS IAM-based authorization for Amazon S3 Tables and Apache Iceberg materialized views. With IAM-based authorization, you can define all necessary permissions…",
-        "date": "2026年6月6日",
-        "date_iso": "2026-06-06",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon OpenSearch UI is now available in GovCloud regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/opensearch-ui-govcloud-region",
-        "summary": "Amazon OpenSearch Service expands its modernized operational analytics experience to GovCloud regions, including AWS GovCloud (US-East) and AWS GovCloud (US-West), enabling users to gain insights…",
-        "date": "2026年6月6日",
-        "date_iso": "2026-06-06",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon ECS with AWS Fargate now supports 32vCPU compute configurations",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ecs-fargate-32vcpu",
-        "summary": "Amazon Elastic Container Service (Amazon ECS) with AWS Fargate now supports 32vCPU compute configurations, enabling customers to run more demanding applications with greater flexibility and…",
-        "date": "2026年6月6日",
-        "date_iso": "2026-06-06",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 C8in instances are now available in additional regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-c8in-asia-pacific-europe/",
-        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8in instances are available in the AWS&nbsp;Asia Pacific (Sydney, Singapore, Malaysia) and Europe (Frankfurt) regions. C8in instances are…",
-        "date": "2026年6月6日",
-        "date_iso": "2026-06-06",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "The AWS MCP Server now supports cross-account and cross-role access",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-mcp-server/",
-        "summary": "Today, AWS announced cross-account and cross-role access for the AWS Model Context Protocol (MCP) Server, part of the Agent Toolkit for AWS . This feature allows developers using AI coding agents…",
-        "date": "2026年6月5日",
-        "date_iso": "2026-06-05",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
       }
     ],
     "gcp": [
       {
-        "title": "June 08, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#June_08_2026",
-        "summary": "App Hub Feature App Hub support for resources from Memorystore is now generally available ( GA ). BigQuery Feature You can analyze data lineage with Gemini Cloud Assist in BigQuery . This feature is…",
-        "date": "2026年6月8日",
-        "date_iso": "2026-06-08",
+        "title": "June 09, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#June_09_2026",
+        "summary": "Cloud SDK Change 572.0.0 (2026-06-09) Google Cloud CLI Updated macOS Python Virtualenv for the gcloud CLI to 3.14.5 with pyOpenSSL 26.0.0 and cryptography 46.0.7. AI Fixed gcloud ai endpoints…",
+        "date": "2026年6月9日",
+        "date_iso": "2026-06-09",
         "category": "ai-tag",
         "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
+        "title": "June 08, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#June_08_2026",
+        "summary": "Apigee X Announcement On June 8th, 2026, we released an updated version of Apigee (1-17-0-apigee-9). Note: Rollouts of this release began today and may take four or more business days to be completed…",
+        "date": "2026年6月8日",
+        "date_iso": "2026-06-08",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "GCP"
       },
       {
@@ -595,19 +605,19 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
-      },
-      {
-        "title": "May 20, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#May_20_2026",
-        "summary": "Apigee X Security On May 20, 2026, we published a security bulletin for Apigee. A vulnerability was found in Apigee ( CVE-2026-2264 ) where the IntegrationRegion parameter in the…",
-        "date": "2026年5月20日",
-        "date_iso": "2026-05-20",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "GCP"
       }
     ],
     "oci": [
+      {
+        "title": "HeatWave: IPv6 Support",
+        "link": "https://docs.oracle.com/iaas/releasenotes/mysql-database/heatwave-ipv6-support.htm",
+        "summary": "",
+        "date": "2026年6月9日",
+        "date_iso": "2026-06-09",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "OCI"
+      },
       {
         "title": "Import NVIDIA Nemotron 3 Ultra in OCI Generative AI",
         "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/nvidia-nemotron-3-ultra-nvfp4.htm",
@@ -649,6 +659,26 @@
         "tag": "OCI"
       },
       {
+        "title": "Log Analytics: Enhancement in REST API source creation workflow",
+        "link": "https://docs.oracle.com/iaas/releasenotes/log-analytics/jun26-rest-api-source-enh.htm",
+        "summary": "",
+        "date": "2026年6月2日",
+        "date_iso": "2026-06-02",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Log Analytics: Use SOAP API to collect logs",
+        "link": "https://docs.oracle.com/iaas/releasenotes/log-analytics/jun26-soap-api-ingestion.htm",
+        "summary": "",
+        "date": "2026年6月2日",
+        "date_iso": "2026-06-02",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
         "title": "Add xAI Tools to OCI Responses API",
         "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/xai-tools.htm",
         "summary": "",
@@ -666,6 +696,16 @@
         "date_iso": "2026-05-29",
         "category": "ai-tag",
         "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Log Analytics: New UI workflow to ingest logs from OCI Compute Instance",
+        "link": "https://docs.oracle.com/iaas/releasenotes/log-analytics/may26-compute-instance-add-data.htm",
+        "summary": "",
+        "date": "2026年5月29日",
+        "date_iso": "2026-05-29",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "OCI"
       },
       {
@@ -704,6 +744,16 @@
         "summary": "",
         "date": "2026年5月26日",
         "date_iso": "2026-05-26",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Log Analytics: Oracle-defined OS Command scripts for log collection",
+        "link": "https://docs.oracle.com/iaas/releasenotes/log-analytics/may26-oob-scripts-os-cmd.htm",
+        "summary": "",
+        "date": "2026年5月22日",
+        "date_iso": "2026-05-22",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "OCI"
@@ -749,26 +799,6 @@
         "tag": "OCI"
       },
       {
-        "title": "View dashboards, widgets, and filters across all compartments",
-        "link": "https://docs.oracle.com/iaas/releasenotes/management-dashboard/view-resources-across-all-compartments.htm",
-        "summary": "",
-        "date": "2026年5月20日",
-        "date_iso": "2026-05-20",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "OCI"
-      },
-      {
-        "title": "Add local filters to interactive widgets",
-        "link": "https://docs.oracle.com/iaas/releasenotes/management-dashboard/widget-local-filter-enhancement.htm",
-        "summary": "",
-        "date": "2026年5月20日",
-        "date_iso": "2026-05-20",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
         "title": "Support for Kubernetes version 1.36.0 in a preview release of Kubernetes Engine",
         "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-K8s-1-36-0-preview-support-Release-Note.htm",
         "summary": "",
@@ -776,36 +806,6 @@
         "date_iso": "2026-05-20",
         "category": "container-tag",
         "cat_label": "コンテナ",
-        "tag": "OCI"
-      },
-      {
-        "title": "Local Appliance Web server moving to HTTPS from HTTP inside Oracle Cloud Bridge",
-        "link": "https://docs.oracle.com/iaas/releasenotes/cloud-migration/local-appliance-web-server.htm",
-        "summary": "",
-        "date": "2026年5月20日",
-        "date_iso": "2026-05-20",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "ADW/OAC Compute Sizing and Data Population Status Tracking",
-        "link": "https://docs.oracle.com/iaas/releasenotes/resource-analytics/may2026-features.htm",
-        "summary": "",
-        "date": "2026年5月20日",
-        "date_iso": "2026-05-20",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Internet of Things (IoT) introduces Gateways to connect devices indirectly and Select AI to query IoT data",
-        "link": "https://docs.oracle.com/iaas/releasenotes/internet-of-things/update-05192026.htm",
-        "summary": "",
-        "date": "2026年5月19日",
-        "date_iso": "2026-05-19",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "OCI"
       }
     ]
