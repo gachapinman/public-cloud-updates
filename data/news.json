@@ -1,7 +1,37 @@
 {
-  "updated": "2026年06月10日 21:46 JST",
+  "updated": "2026年06月11日 13:59 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Generally Available: Microsoft Entra server principals on Azure SQL Database",
+        "link": "https://azure.microsoft.com/updates?id=565154",
+        "summary": "Microsoft Entra server principals (logins) for Azure SQL Database is now generally available. You can now use CREATE LOGIN ... FROM EXTERNAL PROVIDER in the virtual master database, bringing parity…",
+        "date": "2026年6月11日",
+        "date_iso": "2026-06-11",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Retirement: Azure Synapse Link for Azure Cosmos DB NoSQL",
+        "link": "https://azure.microsoft.com/updates?id=558560",
+        "summary": "As of March 31, 2026, new Azure Cosmos DB NoSQL accounts can no longer enable Azure Synapse Link. Existing customers will remain fully supported until March 31, 2029, when Azure Synapse Link will…",
+        "date": "2026年6月11日",
+        "date_iso": "2026-06-11",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Retirement: Azure VPN Client for Linux (Preview) will be retired on August 31, 2026",
+        "link": "https://azure.microsoft.com/updates?id=565393",
+        "summary": "The Azure VPN Client for Linux (Preview) has remained in public preview and does not have a path to general availability (GA). As part of our ongoing efforts to align Azure networking services with…",
+        "date": "2026年6月11日",
+        "date_iso": "2026-06-11",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Public Preview: Agent mode for GitHub Copilot in SQL Server Management Studio (SSMS)",
         "link": "https://azure.microsoft.com/updates?id=562637",
@@ -171,39 +201,69 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Microsoft Discovery",
-        "link": "https://azure.microsoft.com/updates?id=562733",
-        "summary": "Microsoft Discovery is now generally available, providing research and development organizations an enterprise platform for building and governing agentic AI workflows across scientific and…",
-        "date": "2026年6月5日",
-        "date_iso": "2026-06-05",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Private Connectivity for Azure AI Search and Foundry Knowledge Bases",
-        "link": "https://azure.microsoft.com/updates?id=563516",
-        "summary": "Azure AI Search and Foundry Knowledge Bases now support private, end-to-end network connectivity between search resources and Foundry services. Customers can route ingestion, enrichment, retrieval,…",
-        "date": "2026年6月5日",
-        "date_iso": "2026-06-05",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Fabric IQ Ontology Knowledge Source in Microsoft Foundry IQ",
-        "link": "https://azure.microsoft.com/updates?id=563416",
-        "summary": "Microsoft Foundry IQ now treats a Microsoft Fabric Ontology as a federated knowledge source in public preview, giving agents a way to query the semantic layer customers already curate in Fabric.…",
-        "date": "2026年6月5日",
-        "date_iso": "2026-06-05",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "OpenAI GPT-5.4 and GPT-5.5 models now available in US East (N. Virginia) on Amazon Bedrock",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/openai-gpt-us-east-virginia-amazon/",
+        "summary": "Today, AWS announces the expanded availability of OpenAI's GPT-5.4 and GPT-5.5 models, which are now available in the US East (N. Virginia) Region on Amazon Bedrock. With GPT-5.4 and GPT-5.5, you can…",
+        "date": "2026年6月11日",
+        "date_iso": "2026-06-11",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon ECS Managed Daemons now support inter-task visibility and communication",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/ecs-managed-daemons-pid-ipc-modes/",
+        "summary": "Amazon ECS Managed Daemons now support inter-task visibility and communication, enabling customers to deploy tracing, profiling, and security agents that require access to application processes and…",
+        "date": "2026年6月11日",
+        "date_iso": "2026-06-11",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 M9g and M9gd general purpose instances are now available",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/ec2-m9g-m9gd-instances-graviton5-processors-available",
+        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) M9g and M9gd instances , powered by AWS Graviton5 processors, are generally available. AWS Graviton5 processors are the fifth generation of…",
+        "date": "2026年6月11日",
+        "date_iso": "2026-06-11",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 P6-B200 instances are now available in the AWS GovCloud (US-East) Region",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-p6-b200-aws-govcloud/",
+        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) P6-B200 instances accelerated by NVIDIA Blackwell GPUs are available in AWS GovCloud (US-East) Region. These instances offer up to 2x…",
+        "date": "2026年6月10日",
+        "date_iso": "2026-06-10",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Cost and Usage Report 2.0 now supports table configurations update",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cost-usage-report/",
+        "summary": "AWS today announces that AWS Cost and Usage Report 2.0 (CUR 2.0) now supports updates to data table configurations via the AWS Management Console and SDK/CLI. This capability allows customers to…",
+        "date": "2026年6月10日",
+        "date_iso": "2026-06-10",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon FSx for OpenZFS Intelligent-Tiering storage class is now available in 8 additional AWS Regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-fsx-openzfs/",
+        "summary": "You can now create Amazon FSx for OpenZFS file systems with the Intelligent-Tiering storage class in 8 additional AWS Regions across the US, Europe, Asia Pacific, and South America. FSx…",
+        "date": "2026年6月10日",
+        "date_iso": "2026-06-10",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
       {
         "title": "Amazon SageMaker Unified Studio Notebooks now support EMR Serverless",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-unified-studio-emr/",
@@ -228,6 +288,16 @@
         "title": "AWS FinOps Agent is now available in preview",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-finops-agent-preview/",
         "summary": "Today, AWS announces the preview of AWS FinOps Agent, a frontier agent for FinOps practitioners and engineering teams that answers cost questions, surfaces optimization opportunities, automatically…",
+        "date": "2026年6月10日",
+        "date_iso": "2026-06-10",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Announcing metal-48xl and metal-96xl for Amazon EC2 network/EBS instances",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-metal-sizes-network-EBS/",
+        "summary": "AWS is announcing the general availability of metal-48xl and metal-96xl sizes for Amazon Elastic Compute Cloud (Amazon EC2) M8in, M8ib, M8idn, M8idb, R8in, R8ib, R8idn, and R8idb instances. These…",
         "date": "2026年6月10日",
         "date_iso": "2026-06-10",
         "category": "ai-tag",
@@ -333,83 +403,23 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "AWS Application Migration Service is now AWS Transform MGN",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-mgn-rebrand/",
-        "summary": "AWS Application Migration Service (MGN) is now available as AWS Transform MGN . This name change reflects MGN's role as the proven replication engine powering AWS Transform, the agentic migration…",
-        "date": "2026年6月9日",
-        "date_iso": "2026-06-09",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Aurora DSQL now supports the JSONB data type with compression",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-aurora-dsql-supports-jsonb/",
-        "summary": "Amazon Aurora DSQL introduces support for the PostgreSQL JSONB data type with optional compression. You can now use code and tools that depend on PostgreSQL's JSONB type with Aurora DSQL, making it…",
-        "date": "2026年6月9日",
-        "date_iso": "2026-06-09",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Lambda Managed Instances expands to additional AWS Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lambda-managed-instances-region-expansion/",
-        "summary": "AWS Lambda Managed Instances (LMI) is now available in all commercial AWS Regions, except Israel (Tel Aviv), Middle East (Bahrain), Middle East (UAE), and Asia Pacific (Auckland). &nbsp; LMI lets you…",
-        "date": "2026年6月9日",
-        "date_iso": "2026-06-09",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS now provides AI-powered cost investigations for cost anomalies",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-ai-powered-cost-investigations/",
-        "summary": "AWS Cost Anomaly Detection now includes AI-powered cost investigation, which uses Amazon Q to analyze the root cause of detected cost anomalies. Investigating a cost change typically requires…",
-        "date": "2026年6月9日",
-        "date_iso": "2026-06-09",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Connect Customer now offers AI agent trace details for self-service voice interactions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-connect-ai-agent-traces/",
-        "summary": "Amazon Connect Customer now provides AI agent traces for self-service voice interactions, enabling you to understand how AI agents reason, act, and respond during each customer conversation. With…",
-        "date": "2026年6月9日",
-        "date_iso": "2026-06-09",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Redshift reduces manual snapshot cost for Serverless and RG instances",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-redshift-incremental-manual-snapshots/",
-        "summary": "Amazon Redshift announces a new billing model for manual snapshots on Amazon Redshift Serverless and Amazon Redshift RG instances. With this enhancement, Amazon Redshift now meters manual snapshot…",
-        "date": "2026年6月9日",
-        "date_iso": "2026-06-09",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon RDS for SQL Server migration cost assessment capabilities now available in AWS Transform",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-rds-sql-server-cost-assessment-aws-transform/",
-        "summary": "Amazon RDS for SQL Server now offers TCO assessment in AWS Transform, so you can estimate costs when migrating on-premises SQL Server databases to RDS for SQL Server. Using AI-powered agents, AWS…",
-        "date": "2026年6月8日",
-        "date_iso": "2026-06-08",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
       }
     ],
     "gcp": [
       {
+        "title": "June 10, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#June_10_2026",
+        "summary": "Agent Assist Change Agent Assist offers Proactive generative knowledge assist V2 in GA. This version supports rich search context, multiple suggested queries, and granular control over triggering…",
+        "date": "2026年6月10日",
+        "date_iso": "2026-06-10",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "June 09, 2026",
         "link": "https://docs.cloud.google.com/release-notes#June_09_2026",
-        "summary": "Cloud SDK Change 572.0.0 (2026-06-09) Google Cloud CLI Updated macOS Python Virtualenv for the gcloud CLI to 3.14.5 with pyOpenSSL 26.0.0 and cryptography 46.0.7. AI Fixed gcloud ai endpoints…",
+        "summary": "Cloud Domains Feature Organization Policy Service custom constraints are generally available for Cloud Domains. For more information, see Use custom organization policies . Cloud SDK Change 572.0.0…",
         "date": "2026年6月9日",
         "date_iso": "2026-06-09",
         "category": "ai-tag",
@@ -595,19 +605,29 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
-      },
-      {
-        "title": "May 21, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#May_21_2026",
-        "summary": "AlloyDB for PostgreSQL Fixed ChatGPT users are now able to list and use the AlloyDB toolset provided by the AlloyDB remote MCP server. Apigee X Announcement On May 21st, 2026, we released an updated…",
-        "date": "2026年5月21日",
-        "date_iso": "2026-05-21",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
       }
     ],
     "oci": [
+      {
+        "title": "Add ZPR security attributes to OCI resources",
+        "link": "https://docs.oracle.com/iaas/releasenotes/multiple/zpr-supported-services.htm",
+        "summary": "",
+        "date": "2026年6月10日",
+        "date_iso": "2026-06-10",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "OCI"
+      },
+      {
+        "title": "HeatWave: Near-Zero Downtime Maintenance Available for All Eligible DB Systems",
+        "link": "https://docs.oracle.com/iaas/releasenotes/mysql-database/heatwave-near-zero-downtime-maintenance.htm",
+        "summary": "",
+        "date": "2026年6月10日",
+        "date_iso": "2026-06-10",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
       {
         "title": "HeatWave: IPv6 Support",
         "link": "https://docs.oracle.com/iaas/releasenotes/mysql-database/heatwave-ipv6-support.htm",
@@ -649,26 +669,6 @@
         "tag": "OCI"
       },
       {
-        "title": "Use AWS Key Management Service (AWS KMS) customer-managed keys with Cross-region Data Guard for Autonomous AI Database on Oracle Database@AWS.",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-dedicated/adbd-aws-kms-crossregion.htm",
-        "summary": "",
-        "date": "2026年6月2日",
-        "date_iso": "2026-06-02",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Manageability enhancements for Autonomous Exadata VM Clusters and Autonomous Container Databases",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-dedicated/adbd-mng-enh-avmc.htm",
-        "summary": "",
-        "date": "2026年6月2日",
-        "date_iso": "2026-06-02",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
         "title": "New Experience in Oracle Cloud Console",
         "link": "https://docs.oracle.com/iaas/releasenotes/api-gateway/apigw-Redwood.htm",
         "summary": "",
@@ -696,6 +696,36 @@
         "date_iso": "2026-06-02",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "BYOL Capability Enhancements",
+        "link": "https://docs.oracle.com/iaas/releasenotes/oracle-cloud-vmware-solution/byol-update.htm",
+        "summary": "",
+        "date": "2026年6月2日",
+        "date_iso": "2026-06-02",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Use AWS Key Management Service (AWS KMS) customer-managed keys with Cross-region Data Guard for Autonomous AI Database on Oracle Database@AWS.",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-dedicated/adbd-aws-kms-crossregion.htm",
+        "summary": "",
+        "date": "2026年6月2日",
+        "date_iso": "2026-06-02",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Manageability enhancements for Autonomous Exadata VM Clusters and Autonomous Container Databases",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-dedicated/adbd-mng-enh-avmc.htm",
+        "summary": "",
+        "date": "2026年6月2日",
+        "date_iso": "2026-06-02",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "OCI"
       },
       {
@@ -776,36 +806,6 @@
         "date_iso": "2026-05-22",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Windows license type support for migration target assets in Oracle Cloud Migrations",
-        "link": "https://docs.oracle.com/iaas/releasenotes/cloud-migration/windows-license-type-support.htm",
-        "summary": "",
-        "date": "2026年5月22日",
-        "date_iso": "2026-05-22",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "OCI Kubernetes Engine (OKE) support for assigning reserved public IPv6 addresses to load balancers",
-        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-Reserved-IPv6-addresses-LB.htm",
-        "summary": "",
-        "date": "2026年5月21日",
-        "date_iso": "2026-05-21",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "OCI"
-      },
-      {
-        "title": "OCI Kubernetes Engine (OKE) support for HTTP/2 for managed load balancers",
-        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-LB_HTTP2-support.htm",
-        "summary": "",
-        "date": "2026年5月21日",
-        "date_iso": "2026-05-21",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
         "tag": "OCI"
       }
     ]
