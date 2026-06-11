@@ -1,5 +1,5 @@
 {
-  "updated": "2026年06月11日 13:59 JST",
+  "updated": "2026年06月11日 17:21 JST",
   "clouds": {
     "azure": [
       {
@@ -215,6 +215,16 @@
         "tag": "AWS"
       },
       {
+        "title": "Amazon OpenSearch Service launches MCP Apps for agentic observability",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/opensearch-agentic-observability-mcp-app",
+        "summary": "Amazon OpenSearch Service now supports MCP Apps, bringing observability workflows directly into compatible agentic IDEs such as Claude Desktop and VS Code. With this capability, your AI agent in…",
+        "date": "2026年6月11日",
+        "date_iso": "2026-06-11",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon ECS Managed Daemons now support inter-task visibility and communication",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/ecs-managed-daemons-pid-ipc-modes/",
         "summary": "Amazon ECS Managed Daemons now support inter-task visibility and communication, enabling customers to deploy tracing, profiling, and security agents that require access to application processes and…",
@@ -392,16 +402,6 @@
         "date_iso": "2026-06-09",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "PostgreSQL 19 Beta 1 is now available in Amazon RDS Database Preview Environment",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/postgresql-19-beta-1-amazon-rds-database-preview-environment/",
-        "summary": "Amazon RDS for PostgreSQL 19 Beta 1 is now available in the Amazon RDS Database Preview Environment , allowing you to evaluate the pre-release of PostgreSQL 19 on Amazon RDS for PostgreSQL. You can…",
-        "date": "2026年6月9日",
-        "date_iso": "2026-06-09",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "AWS"
       }
     ],
