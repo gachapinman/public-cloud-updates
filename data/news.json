@@ -1,7 +1,57 @@
 {
-  "updated": "2026年06月11日 22:44 JST",
+  "updated": "2026年06月12日 14:04 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Retirement: Av2-series, F-series, Fs-series, Fsv2-series, G-series, Gs-series, and Lsv2-series Virtual Machines for…",
+        "link": "https://azure.microsoft.com/updates?id=564774",
+        "summary": "Azure Compute will retire the following Virtual Machine series on November 15, 2028, impacting Azure Batch pools that rely on them:Av2-seriesF-series, Fs-series, Fsv2-seriesG-series,…",
+        "date": "2026年6月12日",
+        "date_iso": "2026-06-12",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Retirement: D-series, Ds-series, Dv2-series, Dsv2-series, and Ls-series Virtual Machines for Azure Batch pools",
+        "link": "https://azure.microsoft.com/updates?id=564772",
+        "summary": "Azure Compute will retire the following Virtual Machine series on May 1, 2028, impacting Azure Batch pools that rely on them:D-series, Ds-seriesDv2-series, Dsv2-seriesLs-seriesAfter this date:New…",
+        "date": "2026年6月12日",
+        "date_iso": "2026-06-12",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Retirement: GPv1 and Legacy Blob storage account creation",
+        "link": "https://azure.microsoft.com/updates?id=564441",
+        "summary": "As part of our ongoing efforts to streamline the Azure Storage portfolio and deliver enhanced performance, scalability, and cost efficiency, we are announcing the retirement of all General purpose v1…",
+        "date": "2026年6月12日",
+        "date_iso": "2026-06-12",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: SQL MCP Server",
+        "link": "https://azure.microsoft.com/updates?id=564734",
+        "summary": "SQL MCP Server is now generally available, giving customers a secure, high-performance way to build agentic solutions with controlled access to production data. Built for SQL and compatible with…",
+        "date": "2026年6月12日",
+        "date_iso": "2026-06-12",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Retirement: Azure Load Balancer Inbound NAT rule version 1 for Azure VMSS (aka Inbound NAT Pools)",
+        "link": "https://azure.microsoft.com/updates?id=565482",
+        "summary": "Update to our previous communication: We previously announced the retirement of all Inbound NAT rules version 1 resources, which included both single-VM NAT rules and NAT pools for Virtual Machine…",
+        "date": "2026年6月12日",
+        "date_iso": "2026-06-12",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
+        "tag": "AZURE"
+      },
       {
         "title": "Generally Available: Microsoft Entra server principals on Azure SQL Database",
         "link": "https://azure.microsoft.com/updates?id=565154",
@@ -151,59 +201,79 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: AI pipelines in Azure HorizonDB",
-        "link": "https://azure.microsoft.com/updates?id=565182",
-        "summary": "AI pipelines for Azure HorizonDB is now available in public preview. AI pipelines let you describe an AI data ingestion workflow, chunking, embedding, extraction, generation, and ranking,…",
-        "date": "2026年6月5日",
-        "date_iso": "2026-06-05",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Ingest OTLP signals into Azure Monitor with the OpenTelemetry Collector",
-        "link": "https://azure.microsoft.com/updates?id=565090",
-        "summary": "Azure Monitor's support for native ingestion of OpenTelemetry Protocol (OTLP) signals is now generally available. This enables you to send telemetry data directly from OpenTelemetry-instrumented…",
-        "date": "2026年6月5日",
-        "date_iso": "2026-06-05",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Tool search in Microsoft Foundry toolboxes",
-        "link": "https://azure.microsoft.com/updates?id=563506",
-        "summary": "Microsoft Foundry adds tool search to Foundry toolboxes in public preview, giving developers and admins a fast way to find the right tool inside large, multi-team catalogs. As your toolbox grows,…",
-        "date": "2026年6月5日",
-        "date_iso": "2026-06-05",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: APIM Support for Foundry Models in Azure AI Search",
-        "link": "https://azure.microsoft.com/updates?id=563451",
-        "summary": "Microsoft Foundry brings Azure API Management support to all Foundry model integrations in Azure AI Search, now in public preview. Enterprise platform engineers and AI solution teams running…",
-        "date": "2026年6月5日",
-        "date_iso": "2026-06-05",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Azure SQL as a knowledge source in Foundry IQ",
-        "link": "https://azure.microsoft.com/updates?id=563446",
-        "summary": "Microsoft Foundry adds Azure SQL Database as a first-class Knowledge Source in Azure AI Search, available in public preview. Enterprise developers and solution architects building Copilot, RAG, and…",
-        "date": "2026年6月5日",
-        "date_iso": "2026-06-05",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Amazon CloudWatch Application Signals now supports infrastructure, logs, and traces context for faster troubleshooting",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/cloudwatch-application-signals-supports infrastructure-logs-traces-context-for-faster troubleshooting/",
+        "summary": "Amazon CloudWatch Application Signals introduces service health ranking on the application map and new infrastructure, logs, and traces tabs on the service overview page. These capabilities let…",
+        "date": "2026年6月12日",
+        "date_iso": "2026-06-12",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Aurora now supports PostgreSQL major version 18",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-aurora-postgresql-major-version-18/",
+        "summary": "Amazon Aurora PostgreSQL-Compatible Edition now supports PostgreSQL major version 18, starting with version 18.3. This release brings community improvements to query performance and database…",
+        "date": "2026年6月12日",
+        "date_iso": "2026-06-12",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Elastic Beanstalk console now integrates CloudWatch Logs in the Logs tab",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/elastic-beanstalk-cloudwatch-logs/",
+        "summary": "AWS Elastic Beanstalk now provides a CloudWatch Logs integration directly in the environment Logs tab of the Elastic Beanstalk console. Previously, customers had to navigate to the CloudWatch console…",
+        "date": "2026年6月12日",
+        "date_iso": "2026-06-12",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon MWAA Serverless now supports Amazon EventBridge notifications",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-mwaa-serverless-eventbridge/",
+        "summary": "Amazon Managed Workflows for Apache Airflow (MWAA) Serverless now supports workflow and task state change events to Amazon EventBridge , enabling data engineering and platform teams to build…",
+        "date": "2026年6月12日",
+        "date_iso": "2026-06-12",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Managed Service for Prometheus now supports Native Histograms",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-managed-service-prometheus-native-histograms/",
+        "summary": "Amazon Managed Service for Prometheus now supports ingestion, storage, and querying of Prometheus native histograms, enabling customers to capture high-resolution metric distributions with greater…",
+        "date": "2026年6月11日",
+        "date_iso": "2026-06-11",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Managed Service for Prometheus now supports out of order sample ingestion",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-managed-service-prometheus-outoforder-ingestion/",
+        "summary": "Amazon Managed Service for Prometheus now supports out-of-order sample ingestion and a workspace-level rule query offset. All workspaces have a default out-of-order time window of 1 minute, allowing…",
+        "date": "2026年6月11日",
+        "date_iso": "2026-06-11",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS announces AWS Workload Credentials Provider",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-workload-credentials-provider/",
+        "summary": "AWS announces AWS Workload Credentials Provider, a lightweight client-side provider that automates deployment of exported certificates from AWS Certificate Manager (ACM) and local caching of secrets…",
+        "date": "2026年6月11日",
+        "date_iso": "2026-06-11",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
       {
         "title": "OpenAI GPT-5.4 and GPT-5.5 models now available in US East (N. Virginia) on Amazon Bedrock",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/openai-gpt-us-east-virginia-amazon/",
@@ -232,6 +302,26 @@
         "date_iso": "2026-06-11",
         "category": "security-tag",
         "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Gemma 4 models now available on Amazon Bedrock",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/gemma-4-amazon-bedrock/",
+        "summary": "Today, AWS announces the availability of the Gemma 4 family of open-weight models from Google DeepMind on Amazon Bedrock . With Gemma 4, you can build generative AI applications across reasoning,…",
+        "date": "2026年6月11日",
+        "date_iso": "2026-06-11",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Virtual Private Cloud (VPC) Flow Logs introduces additional metadata",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-flow-logs-metadata",
+        "summary": "Amazon Virtual Private Cloud (VPC) Flow Logs now supports EC2 resource tags and next-hop interface metadata, simplifying network monitoring and troubleshooting by eliminating the need to manually…",
+        "date": "2026年6月11日",
+        "date_iso": "2026-06-11",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
         "tag": "AWS"
       },
       {
@@ -313,99 +403,19 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "AWS announces Claude Fable 5, the first generally available Mythos-class model",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/claude-fable-5-aws/",
-        "summary": "Claude Fable 5 is generally available on AWS and makes Mythos-level capabilities available to all customers, with strong safeguards designed to make it safe for broader use. Fable 5 is…",
-        "date": "2026年6月9日",
-        "date_iso": "2026-06-09",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Backup support for Amazon EKS is now available in the AWS European Sovereign Cloud (Germany) Region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-backup-amazon-eks-aws-european-sovereign-cloud/",
-        "summary": "AWS Backup support for Amazon Elastic Kubernetes Service (EKS) is now available in the AWS European Sovereign Cloud (Germany) Region. This expansion brings fully-managed, policy-based data protection…",
-        "date": "2026年6月9日",
-        "date_iso": "2026-06-09",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Run Interactive Workloads on Amazon EMR Serverless with Spark Connect",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-emr-serverless-spark-connect",
-        "summary": "Amazon EMR Serverless now supports interactive sessions with Spark Connect, enabling you to develop and run Apache Spark applications from managed notebooks in Amazon SageMaker Unified Studio, as…",
-        "date": "2026年6月9日",
-        "date_iso": "2026-06-09",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Cost Explorer launches intelligent cost explanations powered by Amazon Q",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cost-explorer-intelligent-cost-explanations",
-        "summary": "AWS Cost Explorer now supports 'Analyze with Amazon Q', a new capability that delivers comprehensive cost explanations for any report you configure in Cost Explorer. With a single button click you…",
-        "date": "2026年6月9日",
-        "date_iso": "2026-06-09",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Compute Optimizer now supports idle recommendations for six additional resource types",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-compute-optimizer-six-new-idle",
-        "summary": "AWS Compute Optimizer now identifies idle resources for Amazon DynamoDB provisioned tables, Amazon ElastiCache (Redis and Valkey), Amazon MemoryDB, Amazon DocumentDB (provisioned and serverless),…",
-        "date": "2026年6月9日",
-        "date_iso": "2026-06-09",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon MSK Express Brokers now support automatic topic creation with Kafka Streams",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-msk-express-topic-support-kstreams/",
-        "summary": "Effective today, Amazon MSK Express Brokers support automatic topic creation with Kafka Streams. Customers can now deploy their Kafka Streams applications on Express Brokers without needing to…",
-        "date": "2026年6月9日",
-        "date_iso": "2026-06-09",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon DocumentDB now supports engine minor version starting with 5.0.1",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-documentdb-engine-minor-version-5-0-1/",
-        "summary": "Amazon DocumentDB (with MongoDB compatibility) now supports engine minor versions, starting with 5.0.1. This release delivers enhanced aggregation capabilities with new operators ($rand, $pow,…",
-        "date": "2026年6月9日",
-        "date_iso": "2026-06-09",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon CloudWatch Logs Insights adds 23 new query commands and functions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-logs-insights-new/",
-        "summary": "Amazon CloudWatch Logs Insights query language now supports 23 new commands and functions that give you new ways to query, parse, transform, and analyze your logs. Customers analyzing logs in…",
-        "date": "2026年6月9日",
-        "date_iso": "2026-06-09",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Savings Plans Purchase Analyzer now supports target coverage analysis",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-savings-plans-coverage/",
-        "summary": "Today, AWS announces target coverage analysis in Savings Plans Purchase Analyzer, a capability in AWS Billing and Cost Management that helps you plan your Savings Plans purchases based on your…",
-        "date": "2026年6月9日",
-        "date_iso": "2026-06-09",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "June 11, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#June_11_2026",
+        "summary": "BigQuery Feature You can monitor performance, analyze capacity, and optimize costs with Gemini Cloud Assist in BigQuery . This feature is in Preview . Feature Support for the AI.KEY_DRIVERS function…",
+        "date": "2026年6月11日",
+        "date_iso": "2026-06-11",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
       {
         "title": "June 10, 2026",
         "link": "https://docs.cloud.google.com/release-notes#June_10_2026",
@@ -595,22 +605,12 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
-      },
-      {
-        "title": "May 22, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#May_22_2026",
-        "summary": "Access Approval Feature DNS Armor is generally available (GA) . Access Transparency Feature DNS Armor is generally available (GA) . Apigee X Announcement Apigee Emulator Apigee Emulator v2.0.0 On May…",
-        "date": "2026年5月22日",
-        "date_iso": "2026-05-22",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
       }
     ],
     "oci": [
       {
-        "title": "Add ZPR security attributes to OCI resources",
-        "link": "https://docs.oracle.com/iaas/releasenotes/multiple/zpr-supported-services.htm",
+        "title": "Add ZPR security attributes to Object Storage private endpoints",
+        "link": "https://docs.oracle.com/iaas/releasenotes/objectstorage/objectstorage-zpr-enhancement.htm",
         "summary": "",
         "date": "2026年6月10日",
         "date_iso": "2026-06-10",
