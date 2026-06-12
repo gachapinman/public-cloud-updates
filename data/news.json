@@ -1,5 +1,5 @@
 {
-  "updated": "2026年06月12日 17:09 JST",
+  "updated": "2026年06月12日 21:43 JST",
   "clouds": {
     "azure": [
       {
@@ -335,6 +335,36 @@
         "tag": "AWS"
       },
       {
+        "title": "Amazon SageMaker Unified Studio ノートブックで EMR Serverless のサポートを開始",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/06/amazon-sagemaker-unified-studio-emr/",
+        "summary": "",
+        "date": "2026年6月10日",
+        "date_iso": "2026-06-10",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon S3 Access Grants が AWS European Sovereign Cloud (ドイツ) リージョンで利用可能に",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/06/amazon-s3-access-grants-european-sovereign-cloud-germany-region",
+        "summary": "",
+        "date": "2026年6月10日",
+        "date_iso": "2026-06-10",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS FinOps エージェントのプレビュー版が利用可能に",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/06/aws-finops-agent-preview/",
+        "summary": "",
+        "date": "2026年6月10日",
+        "date_iso": "2026-06-10",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon EC2 P6-B200 instances are now available in the AWS GovCloud (US-East) Region",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-p6-b200-aws-govcloud/",
         "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) P6-B200 instances accelerated by NVIDIA Blackwell GPUs are available in AWS GovCloud (US-East) Region. These instances offer up to 2x…",
@@ -358,36 +388,6 @@
         "title": "Amazon FSx for OpenZFS Intelligent-Tiering storage class is now available in 8 additional AWS Regions",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-fsx-openzfs/",
         "summary": "You can now create Amazon FSx for OpenZFS file systems with the Intelligent-Tiering storage class in 8 additional AWS Regions across the US, Europe, Asia Pacific, and South America. FSx…",
-        "date": "2026年6月10日",
-        "date_iso": "2026-06-10",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SageMaker Unified Studio Notebooks now support EMR Serverless",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-unified-studio-emr/",
-        "summary": "Amazon SageMaker Unified Studio Notebooks now support Amazon EMR Serverless with Apache Spark Connect, giving data engineers and analysts more flexibility in choosing their Spark runtime for…",
-        "date": "2026年6月10日",
-        "date_iso": "2026-06-10",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon S3 Access Grants are now available in the AWS European Sovereign Cloud (Germany) Region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-s3-access-grants-european-sovereign-cloud-germany-region",
-        "summary": "You can now create Amazon S3 Access Grants in the AWS European Sovereign Cloud (Germany) Region. Amazon S3 Access Grants map identities in directories such as Microsoft Entra ID, or AWS Identity and…",
-        "date": "2026年6月10日",
-        "date_iso": "2026-06-10",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS FinOps Agent is now available in preview",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-finops-agent-preview/",
-        "summary": "Today, AWS announces the preview of AWS FinOps Agent, a frontier agent for FinOps practitioners and engineering teams that answers cost questions, surfaces optimization opportunities, automatically…",
         "date": "2026年6月10日",
         "date_iso": "2026-06-10",
         "category": "ai-tag",
