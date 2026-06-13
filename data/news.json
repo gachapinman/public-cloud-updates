@@ -1,5 +1,5 @@
 {
-  "updated": "2026年06月12日 21:43 JST",
+  "updated": "2026年06月13日 13:52 JST",
   "clouds": {
     "azure": [
       {
@@ -205,6 +205,76 @@
     ],
     "aws": [
       {
+        "title": "Amazon Lightsail is now available in three additional AWS Regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-lightsail-aws-regions/",
+        "summary": "Starting today, Amazon Lightsail is available in three additional AWS Regions: Asia Pacific (Hong Kong), South America (São Paulo), and Europe (Spain). This expansion brings the power and simplicity…",
+        "date": "2026年6月13日",
+        "date_iso": "2026-06-13",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "SageMaker AI now supports serverless fine-tuning for NVIDIA Nemotron models",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-ft-nemotron-3/",
+        "summary": "Amazon SageMaker AI now supports serverless model customization for NVIDIA Nemotron 3 Nano model using supervised fine-tuning (SFT) and reinforcement fine-tuning (RFT). This is a popular open-weight…",
+        "date": "2026年6月13日",
+        "date_iso": "2026-06-13",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 I7i instances now available in AWS Europe (Paris) Region",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-i7i-instances-europe-paris-region/",
+        "summary": "AWS is announcing the availability of high performance Storage optimized Amazon EC2 I7i instances in AWS Europe (Paris) region. Powered by 5th Gen Intel Xeon Processors with an all-core turbo…",
+        "date": "2026年6月13日",
+        "date_iso": "2026-06-13",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 Capacity Blocks for ML is now available in AWS GovCloud (US) Regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-capacity-blocks-ml-govcloud/",
+        "summary": "Amazon EC2 Capacity Blocks for ML is now available in AWS GovCloud (US-West) and AWS GovCloud (US-East), enabling government and regulated-industry customers to reserve GPU capacity for machine…",
+        "date": "2026年6月12日",
+        "date_iso": "2026-06-12",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 High Memory U7i-8TB instances now available in AWS Europe (Paris) region",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-u7i-8tb-europe-paris/",
+        "summary": "Amazon EC2 High Memory U7i-8TB instances (u7i-8tb.112xlarge) are now available in AWS Europe (Paris) region. U7i instances are part of the AWS 7th generation and are powered by custom…",
+        "date": "2026年6月12日",
+        "date_iso": "2026-06-12",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Quick now integrates with Snowflake Cortex AI",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-quick-snowflake-cortex-ai/",
+        "summary": "Amazon Quick now integrates with Snowflake Cortex AI through the Model Context Protocol (MCP), enabling teams to query their Snowflake data and documents using natural language, and automate…",
+        "date": "2026年6月12日",
+        "date_iso": "2026-06-12",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EKS now supports local clusters on AWS Outposts with Amazon EC2 instance store",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-eks-aws-outposts-ec2-instance-store/",
+        "summary": "Today, AWS is expanding support for Amazon Elastic Kubernetes Service (EKS) local clusters on AWS Outposts to first-generation and second-generation AWS Outposts racks running Amazon EC2 instances…",
+        "date": "2026年6月12日",
+        "date_iso": "2026-06-12",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon CloudWatch Application Signals now supports infrastructure, logs, and traces context for faster troubleshooting",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/cloudwatch-application-signals-supports infrastructure-logs-traces-context-for-faster troubleshooting/",
         "summary": "Amazon CloudWatch Application Signals introduces service health ranking on the application map and new infrastructure, logs, and traces tabs on the service overview page. These capabilities let…",
@@ -242,6 +312,16 @@
         "date_iso": "2026-06-12",
         "category": "ai-tag",
         "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Lake Formation extends table permissions to access underlying data in Amazon S3",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lake-formation-access-data-amazon-s3",
+        "summary": "AWS Lake Formation now enables you to read and write the underlying data files in Amazon S3 for tables registered in the AWS Glue Data Catalog. This provides you with a single set of permissions for…",
+        "date": "2026年6月12日",
+        "date_iso": "2026-06-12",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
         "tag": "AWS"
       },
       {
@@ -323,89 +403,19 @@
         "category": "network-tag",
         "cat_label": "ネットワーク",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 M9g and M9gd general purpose instances are now available",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/ec2-m9g-m9gd-instances-graviton5-processors-available",
-        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) M9g and M9gd instances , powered by AWS Graviton5 processors, are generally available. AWS Graviton5 processors are the fifth generation of…",
-        "date": "2026年6月11日",
-        "date_iso": "2026-06-11",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SageMaker Unified Studio ノートブックで EMR Serverless のサポートを開始",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/06/amazon-sagemaker-unified-studio-emr/",
-        "summary": "",
-        "date": "2026年6月10日",
-        "date_iso": "2026-06-10",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon S3 Access Grants が AWS European Sovereign Cloud (ドイツ) リージョンで利用可能に",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/06/amazon-s3-access-grants-european-sovereign-cloud-germany-region",
-        "summary": "",
-        "date": "2026年6月10日",
-        "date_iso": "2026-06-10",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS FinOps エージェントのプレビュー版が利用可能に",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/06/aws-finops-agent-preview/",
-        "summary": "",
-        "date": "2026年6月10日",
-        "date_iso": "2026-06-10",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 P6-B200 instances are now available in the AWS GovCloud (US-East) Region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-p6-b200-aws-govcloud/",
-        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) P6-B200 instances accelerated by NVIDIA Blackwell GPUs are available in AWS GovCloud (US-East) Region. These instances offer up to 2x…",
-        "date": "2026年6月10日",
-        "date_iso": "2026-06-10",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Cost and Usage Report 2.0 now supports table configurations update",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cost-usage-report/",
-        "summary": "AWS today announces that AWS Cost and Usage Report 2.0 (CUR 2.0) now supports updates to data table configurations via the AWS Management Console and SDK/CLI. This capability allows customers to…",
-        "date": "2026年6月10日",
-        "date_iso": "2026-06-10",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon FSx for OpenZFS Intelligent-Tiering storage class is now available in 8 additional AWS Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-fsx-openzfs/",
-        "summary": "You can now create Amazon FSx for OpenZFS file systems with the Intelligent-Tiering storage class in 8 additional AWS Regions across the US, Europe, Asia Pacific, and South America. FSx…",
-        "date": "2026年6月10日",
-        "date_iso": "2026-06-10",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Announcing metal-48xl and metal-96xl for Amazon EC2 network/EBS instances",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-metal-sizes-network-EBS/",
-        "summary": "AWS is announcing the general availability of metal-48xl and metal-96xl sizes for Amazon Elastic Compute Cloud (Amazon EC2) M8in, M8ib, M8idn, M8idb, R8in, R8ib, R8idn, and R8idb instances. These…",
-        "date": "2026年6月10日",
-        "date_iso": "2026-06-10",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "June 12, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#June_12_2026",
+        "summary": "BigQuery Feature BigQuery AI functions can use ObjectRef values directly as input, without calling the OBJ.GET_ACCESS_URL function. This feature is generally available (GA). Cloud Service Mesh…",
+        "date": "2026年6月12日",
+        "date_iso": "2026-06-12",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
       {
         "title": "June 11, 2026",
         "link": "https://docs.cloud.google.com/release-notes#June_11_2026",
@@ -429,7 +439,7 @@
       {
         "title": "June 09, 2026",
         "link": "https://docs.cloud.google.com/release-notes#June_09_2026",
-        "summary": "Cloud Domains Feature Organization Policy Service custom constraints are generally available for Cloud Domains. For more information, see Use custom organization policies . Cloud SDK Change 572.0.0…",
+        "summary": "Cloud Domains Feature Organization Policy Service custom constraints are generally available for Cloud Domains. For more information, see Use custom organization policies . Cloud Service Mesh…",
         "date": "2026年6月9日",
         "date_iso": "2026-06-09",
         "category": "ai-tag",
@@ -595,27 +605,37 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
-      },
-      {
-        "title": "May 23, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#May_23_2026",
-        "summary": "Google SecOps SOAR Announcement Release 6.3.85 is now available for all regions.",
-        "date": "2026年5月23日",
-        "date_iso": "2026-05-23",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
       }
     ],
     "oci": [
       {
-        "title": "Add ZPR security attributes to Object Storage private endpoints",
-        "link": "https://docs.oracle.com/iaas/releasenotes/objectstorage/objectstorage-zpr-enhancement.htm",
+        "title": "Oracle Data Safe Promotion for On-Premises Oracle Databases",
+        "link": "https://docs.oracle.com/iaas/releasenotes/data-safe/onprem-promotion.htm",
+        "summary": "",
+        "date": "2026年6月12日",
+        "date_iso": "2026-06-12",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "OCI"
+      },
+      {
+        "title": "New Experience in Oracle Cloud Console",
+        "link": "https://docs.oracle.com/iaas/releasenotes/control-center/occ-redwood.htm",
+        "summary": "",
+        "date": "2026年6月12日",
+        "date_iso": "2026-06-12",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Veridata now available in OCI GoldenGate",
+        "link": "https://docs.oracle.com/iaas/releasenotes/goldengate/veridata-dr-pipelines.htm",
         "summary": "",
         "date": "2026年6月10日",
         "date_iso": "2026-06-10",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "OCI"
       },
       {
@@ -626,6 +646,16 @@
         "date_iso": "2026-06-10",
         "category": "ai-tag",
         "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Add ZPR security attributes to Object Storage private endpoints",
+        "link": "https://docs.oracle.com/iaas/releasenotes/objectstorage/objectstorage-zpr-enhancement.htm",
+        "summary": "",
+        "date": "2026年6月10日",
+        "date_iso": "2026-06-10",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
         "tag": "OCI"
       },
       {
@@ -776,36 +806,6 @@
         "date_iso": "2026-05-26",
         "category": "container-tag",
         "cat_label": "コンテナ",
-        "tag": "OCI"
-      },
-      {
-        "title": "Pin a Guardrails Version in OCI Generative AI",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/ai-guardrails-versions.htm",
-        "summary": "",
-        "date": "2026年5月26日",
-        "date_iso": "2026-05-26",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "New Experience in Oracle Cloud Console for creating support requests",
-        "link": "https://docs.oracle.com/iaas/releasenotes/support/console-support-requests.htm",
-        "summary": "",
-        "date": "2026年5月26日",
-        "date_iso": "2026-05-26",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Log Analytics: Oracle-defined OS Command scripts for log collection",
-        "link": "https://docs.oracle.com/iaas/releasenotes/log-analytics/may26-oob-scripts-os-cmd.htm",
-        "summary": "",
-        "date": "2026年5月22日",
-        "date_iso": "2026-05-22",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
         "tag": "OCI"
       }
     ]
