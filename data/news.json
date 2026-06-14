@@ -1,5 +1,5 @@
 {
-  "updated": "2026年06月13日 20:32 JST",
+  "updated": "2026年06月14日 14:09 JST",
   "clouds": {
     "azure": [
       {
@@ -407,9 +407,19 @@
     ],
     "gcp": [
       {
+        "title": "June 13, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#June_13_2026",
+        "summary": "Google SecOps Feature Non-prioritized IoC Matching rules Category Google SecOps has introduced a new detection category, Non-prioritized IoC Matching rules , as part of the Curated Detections…",
+        "date": "2026年6月13日",
+        "date_iso": "2026-06-13",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "GCP"
+      },
+      {
         "title": "June 12, 2026",
         "link": "https://docs.cloud.google.com/release-notes#June_12_2026",
-        "summary": "BigQuery Feature BigQuery AI functions can use ObjectRef values directly as input, without calling the OBJ.GET_ACCESS_URL function. This feature is generally available (GA). Cloud Service Mesh…",
+        "summary": "BigQuery Feature BigQuery AI functions can use ObjectRef values directly as input, without calling the OBJ.GET_ACCESS_URL function. This feature is generally available (GA). Cloud SQL for PostgreSQL…",
         "date": "2026年6月12日",
         "date_iso": "2026-06-12",
         "category": "ai-tag",
@@ -592,16 +602,6 @@
         "summary": "Google Kubernetes Engine Feature To monitor the efficiency of the GKE training JobSet, the following two GKE system metrics are available in Preview: kubernetes.io/jobset/scheduling_goodput : the…",
         "date": "2026年5月25日",
         "date_iso": "2026-05-25",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "May 24, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#May_24_2026",
-        "summary": "Google SecOps Feature [Spotlight Feature] Create and manage calculated fields The Calculated Fields feature is now available in Preview. With Calculated Fields, you can dynamically derive new data…",
-        "date": "2026年5月24日",
-        "date_iso": "2026-05-24",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
