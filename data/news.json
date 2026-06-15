@@ -1,5 +1,5 @@
 {
-  "updated": "2026年06月14日 20:46 JST",
+  "updated": "2026年06月15日 14:28 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "June 14, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#June_14_2026",
+        "summary": "Google SecOps SOAR Announcement Release 6.3.89 is being rolled out to the first phase of regions as listed here . This release contains internal and customer bug fixes.",
+        "date": "2026年6月14日",
+        "date_iso": "2026-06-14",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "June 13, 2026",
         "link": "https://docs.cloud.google.com/release-notes#June_13_2026",
         "summary": "Google SecOps Feature Non-prioritized IoC Matching rules Category Google SecOps has introduced a new detection category, Non-prioritized IoC Matching rules , as part of the Curated Detections…",
@@ -419,7 +429,7 @@
       {
         "title": "June 12, 2026",
         "link": "https://docs.cloud.google.com/release-notes#June_12_2026",
-        "summary": "BigQuery Feature BigQuery AI functions can use ObjectRef values directly as input, without calling the OBJ.GET_ACCESS_URL function. This feature is generally available (GA). Cloud SQL for PostgreSQL…",
+        "summary": "BigQuery Feature BigQuery AI functions can use ObjectRef values directly as input, without calling the OBJ.GET_ACCESS_URL function. This feature is generally available (GA). Cloud Monitoring Change…",
         "date": "2026年6月12日",
         "date_iso": "2026-06-12",
         "category": "ai-tag",
@@ -592,16 +602,6 @@
         "summary": "BigQuery Feature The Data Science Agent (DSA) for Colab Enterprise and BigQuery is now generally available (GA). Cloud CDN Feature For global external Application Load Balancers , you can configure…",
         "date": "2026年5月26日",
         "date_iso": "2026-05-26",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "May 25, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#May_25_2026",
-        "summary": "Google Kubernetes Engine Feature To monitor the efficiency of the GKE training JobSet, the following two GKE system metrics are available in Preview: kubernetes.io/jobset/scheduling_goodput : the…",
-        "date": "2026年5月25日",
-        "date_iso": "2026-05-25",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
