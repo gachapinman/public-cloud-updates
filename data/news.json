@@ -1,5 +1,5 @@
 {
-  "updated": "2026年06月16日 14:34 JST",
+  "updated": "2026年06月16日 18:09 JST",
   "clouds": {
     "azure": [
       {
@@ -205,6 +205,16 @@
     ],
     "aws": [
       {
+        "title": "AWS Transform now supports Amazon FSx for NetApp ONTAP (Public Preview)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-vmware-fsx-for-ontap-preview",
+        "summary": "Today, AWS announces the public preview of a new storage migration capability for AWS Transform that enables application owners, database administrators, and cloud migration teams to migrate block…",
+        "date": "2026年6月16日",
+        "date_iso": "2026-06-16",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
         "title": "AWS Management Console Private Access now works without internet connectivity",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-management-console-private/",
         "summary": "AWS Management Console Private Access now enables customers to access the AWS Console from VPCs without internet connectivity, allowing enterprises to manage their AWS infrastructure through the…",
@@ -212,6 +222,16 @@
         "date_iso": "2026-06-16",
         "category": "network-tag",
         "cat_label": "ネットワーク",
+        "tag": "AWS"
+      },
+      {
+        "title": "Grok 4.3 from xAI now available in Amazon Bedrock",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/grok-amazon-bedrock/",
+        "summary": "Today, AWS announces the availability of xAI's Grok 4.3 model on Amazon Bedrock. With this launch, xAI joins Amazon Bedrock as a model provider, giving you even more choice as you build generative AI…",
+        "date": "2026年6月16日",
+        "date_iso": "2026-06-16",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "AWS"
       },
       {
@@ -382,26 +402,6 @@
         "date_iso": "2026-06-15",
         "category": "database-tag",
         "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Lightsail is now available in three additional AWS Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-lightsail-aws-regions/",
-        "summary": "Starting today, Amazon Lightsail is available in three additional AWS Regions: Asia Pacific (Hong Kong), South America (São Paulo), and Europe (Spain). This expansion brings the power and simplicity…",
-        "date": "2026年6月13日",
-        "date_iso": "2026-06-13",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "SageMaker AI now supports serverless fine-tuning for NVIDIA Nemotron models",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-ft-nemotron-3/",
-        "summary": "Amazon SageMaker AI now supports serverless model customization for NVIDIA Nemotron 3 Nano model using supervised fine-tuning (SFT) and reinforcement fine-tuning (RFT). This is a popular open-weight…",
-        "date": "2026年6月13日",
-        "date_iso": "2026-06-13",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "AWS"
       }
     ],
