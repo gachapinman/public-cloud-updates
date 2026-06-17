@@ -1,7 +1,27 @@
 {
-  "updated": "2026年06月16日 23:33 JST",
+  "updated": "2026年06月17日 14:16 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Public Preview: New project templates and template gallery for Azure Functions in VS Code",
+        "link": "https://azure.microsoft.com/updates?id=562497",
+        "summary": "The Azure Functions extension for VS Code now provides a redesigned Create New Project experience in public preview, featuring a rich, visual template gallery that replaces the multi-step Quick Pick…",
+        "date": "2026年6月17日",
+        "date_iso": "2026-06-17",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Log Analytics Summary Rules experience",
+        "link": "https://azure.microsoft.com/updates?id=562027",
+        "summary": "A new Azure portal experience for Summary Rules in Log Analytics is now available. Summary Rules enable aggregation of high-volume log data at a defined cadence and store it in summarized tables for…",
+        "date": "2026年6月17日",
+        "date_iso": "2026-06-17",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Retirement: Av2-series, F-series, Fs-series, Fsv2-series, G-series, Gs-series, and Lsv2-series Virtual Machines for…",
         "link": "https://azure.microsoft.com/updates?id=564774",
@@ -181,93 +201,83 @@
         "category": "network-tag",
         "cat_label": "ネットワーク",
         "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Voice sync for avatar support in Voice Live API in Microsoft Foundry",
-        "link": "https://azure.microsoft.com/updates?id=564176",
-        "summary": "In public preview, Microsoft Foundry now supports avatar voice sync with custom voices in the Voice Live API, allowing developers to pair branded or persona-specific text-to-speech voices with…",
-        "date": "2026年6月5日",
-        "date_iso": "2026-06-05",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Azure Files assessments are now available worldwide using Azure Migrate",
-        "link": "https://azure.microsoft.com/updates?id=564563",
-        "summary": "We’re pleased to announce that Azure Migrate now generally supports discovery and assessment of SMB and NFS file shares hosted on Windows and Linux servers. This gives customers a complete,…",
-        "date": "2026年6月5日",
-        "date_iso": "2026-06-05",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
       {
-        "title": "AWS Transform now supports Amazon FSx for NetApp ONTAP (Public Preview)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-vmware-fsx-for-ontap-preview",
-        "summary": "Today, AWS announces the public preview of a new storage migration capability for AWS Transform that enables application owners, database administrators, and cloud migration teams to migrate block…",
-        "date": "2026年6月16日",
-        "date_iso": "2026-06-16",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Management Console Private Access now works without internet connectivity",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-management-console-private/",
-        "summary": "AWS Management Console Private Access now enables customers to access the AWS Console from VPCs without internet connectivity, allowing enterprises to manage their AWS infrastructure through the…",
-        "date": "2026年6月16日",
-        "date_iso": "2026-06-16",
-        "category": "network-tag",
-        "cat_label": "ネットワーク",
-        "tag": "AWS"
-      },
-      {
-        "title": "Grok 4.3 from xAI now available in Amazon Bedrock",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/grok-amazon-bedrock/",
-        "summary": "Today, AWS announces the availability of xAI's Grok 4.3 model on Amazon Bedrock. With this launch, xAI joins Amazon Bedrock as a model provider, giving you even more choice as you build generative AI…",
-        "date": "2026年6月16日",
-        "date_iso": "2026-06-16",
+        "title": "Amazon Bedrock Guardrails announces a new API targeting agentic AI workflows",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-guardrails-api-ai/",
+        "summary": "Amazon Bedrock Guardrails now offers the InvokeGuardrailChecks API, a new resourceless API that lets you apply individual safeguards at any point in your agentic AI applications without creating…",
+        "date": "2026年6月17日",
+        "date_iso": "2026-06-17",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
       },
       {
-        "title": "Amazon Bedrock AgentCore Memory now supports strictly consistent metadata for long-term memory",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/agentcore-memory-scmetadata",
-        "summary": "Amazon Bedrock AgentCore Memory extracts useful information from short-term memory and stores it as long-term memory records. Metadata on these records helps organize, filter, and route them for…",
-        "date": "2026年6月16日",
-        "date_iso": "2026-06-16",
+        "title": "AWS Transform now supports model-to-model migration assessment for generative AI workloads",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-model-to-model-assessments",
+        "summary": "AWS Transform now offers a model-to-model migration custom transformation that assesses your generative AI workloads and produces a comprehensive migration plan for moving from third-party providers…",
+        "date": "2026年6月17日",
+        "date_iso": "2026-06-17",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
       },
       {
-        "title": "Amazon FSx for OpenZFS now supports on-demand data replication across AWS opt-in Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/on-demand-cross-region-replication/",
-        "summary": "Amazon FSx for OpenZFS now supports on-demand data replication across AWS opt-in Regions, enabling you to easily and efficiently transfer incremental point-in-time snapshots of your volumes beyond…",
-        "date": "2026年6月16日",
-        "date_iso": "2026-06-16",
+        "title": "Amazon S3 Vectors now supports up to 10,000 similarity search results per query",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/s3-vectors-supports-10000-search-results-per-query",
+        "summary": "Amazon S3 Vectors can now return up to 10,000 similarity search results per query, a 100x increase from the previous limit.&nbsp;The higher result limit helps you retrieve a larger, more…",
+        "date": "2026年6月17日",
+        "date_iso": "2026-06-17",
         "category": "storage-tag",
         "cat_label": "ストレージ",
         "tag": "AWS"
       },
       {
-        "title": "Amazon CloudWatch introduces Log Analytics for unified log analysis",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-log-analytics/",
-        "summary": "Amazon CloudWatch now offers Log Analytics, a unified console experience that brings together CloudWatch Logs Insights for querying and analyzing log data, Live Tail for real-time log streaming, and…",
-        "date": "2026年6月16日",
-        "date_iso": "2026-06-16",
+        "title": "AWS Transform for mainframe now delivers a traceable reimagine workflow",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-mainframe-traceable-reimagine-workflow/",
+        "summary": "AWS Transform for mainframe now delivers a connected, traceable reimagine experience from assessment through code generation. Previously, modernizing mainframe applications required months of…",
+        "date": "2026年6月17日",
+        "date_iso": "2026-06-17",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
       },
       {
-        "title": "Amazon Route 53 Resolver DNS Firewall now supports Palo Alto Networks Advanced DNS Security (Preview)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-route-53-resolver-dns/",
-        "summary": "Amazon Web Services announces the preview of Palo Alto Networks (PANW) Advanced DNS Security on Amazon Route 53 Resolver DNS Firewall. Security administrators can now enforce DNS threat protections…",
+        "title": "AWS Sign-in now supports resource-based policies and resource control policies",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-sign-in/",
+        "summary": "AWS Sign-in now supports resource-based policies and resource control policies (RCPs) for the AWS Management Console. You can use these policies to restrict console sign-in to expected networks.…",
+        "date": "2026年6月17日",
+        "date_iso": "2026-06-17",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Redshift RG instances powered by AWS Graviton now available in additional regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-redshift-rg-instances-3-additional-regions/",
+        "summary": "Amazon Redshift is expanding the general availability of RG instances — powered by AWS Graviton processors — to three additional AWS Regions: Africa (Cape Town), Asia Pacific (Bangkok), and Mexico…",
+        "date": "2026年6月17日",
+        "date_iso": "2026-06-17",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS announces AWS Blocks, an open-source framework for composing application backends on AWS (Preview)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-blocks-preview",
+        "summary": "Today, AWS announces the public preview of AWS Blocks, an open-source TypeScript framework for application developers who want backend capabilities on AWS removing the need to learn infrastructure…",
+        "date": "2026年6月17日",
+        "date_iso": "2026-06-17",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Partner Central agents now accelerate co-selling on every deal",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/accelerate-co-selling-with-agents/",
+        "summary": "Starting today, AWS Partner Central agents qualify every co-sell opportunity in real time and make recommendations that drive AWS engagement and accelerate deal progression. Building on the AWS…",
         "date": "2026年6月16日",
         "date_iso": "2026-06-16",
         "category": "security-tag",
@@ -275,19 +285,9 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon ECS Express Mode is now available in AWS GovCloud (US) Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ecs-express-mode-govcloud/",
-        "summary": "Amazon Elastic Container Service (Amazon ECS) Express Mode is now available in the AWS GovCloud (US-East) and AWS GovCloud (US-West) Regions. ECS Express Mode empowers developers to rapidly launch…",
-        "date": "2026年6月16日",
-        "date_iso": "2026-06-16",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS launches Cost Explorer historical data retention for accounts in billing groups",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cost-explorer/",
-        "summary": "Today, AWS announces Cost Explorer historical data retention for accounts in billing groups. &nbsp; Customers can use AWS Billing Conductor and Billing Transfer to map accounts to billing groups,…",
+        "title": "Amazon CloudWatch introduces native OpenTelemetry metrics with PromQL querying and per-GB pricing",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-otel-metrics/",
+        "summary": "Amazon CloudWatch now natively supports OpenTelemetry metrics. You can send metrics via the OpenTelemetry Protocol (OTLP) and query them using Prometheus Query Language (PromQL), with per-GB…",
         "date": "2026年6月16日",
         "date_iso": "2026-06-16",
         "category": "compute-tag",
@@ -295,9 +295,59 @@
         "tag": "AWS"
       },
       {
-        "title": "AWS Lambda Managed Instances now supports Tag Propagation for Managed Resources",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lambda-managed-instances-tag-propagation/",
-        "summary": "AWS Lambda Managed Instances (LMI) now supports tag propagation, enabling you to automatically apply tags to managed resources such as Amazon EC2 instances, Amazon EBS volumes, and Amazon ENIs. This…",
+        "title": "AWS Marketplace announces AI-assisted product listing",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/ai-assisted-product-listing/",
+        "summary": "Today, AWS Marketplace announces AI-assisted product listing in Partner Assistant chat, helping Independent Software Vendors (ISVs) and Consulting Partners create high-quality product listings on AWS…",
+        "date": "2026年6月16日",
+        "date_iso": "2026-06-16",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Partner Central launches new funding benefits for Business Value Realization",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-partner-business-value-realization/",
+        "summary": "AWS Partner Central now supports the Business Value Realization (BVR) motion, a new experience and funding motion for partners who drive customer adoption and business outcomes after deploying…",
+        "date": "2026年6月16日",
+        "date_iso": "2026-06-16",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Partner Central now validates Foundational Technical Review in minutes",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-partner-central-foundational-technical-review/",
+        "summary": "AWS Partner Central now accepts SOC 2 Type II audit reports or AWS Well-Architected Framework Reviews (WAFR) reports to complete Foundational Technical Review (FTR) in minutes. This streamlined…",
+        "date": "2026年6月16日",
+        "date_iso": "2026-06-16",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon RDS for SQL Server now supports X2m instances",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/rds-sqlserver-supports-x2m/",
+        "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server launches memory-optimized X2m database instances. Based on the Amazon EC2 X2iedn instance, X2m database instances provide the Amazon RDS…",
+        "date": "2026年6月16日",
+        "date_iso": "2026-06-16",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon S3 Vectors reduces query charges by up to 80% for large vector indexes",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/s3-vectors-reduces-query-charges-80-percent-large-indexes/",
+        "summary": "Amazon S3 Vectors has reduced data processed charges for queries on vector indexes with over 10 million vectors by up to 80%. This reduction lowers costs for customers running similarity search…",
+        "date": "2026年6月16日",
+        "date_iso": "2026-06-16",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Marketplace reduces listing fee for professional services to 0.5%",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/reduce-listing-fee-professional-services-aws-marketplace",
+        "summary": "AWS Marketplace now offers a 0.5% listing fee for professional services private offers, reduced from 2.5%. This makes it more cost-effective for consulting partners, systems integrators, managed…",
         "date": "2026年6月16日",
         "date_iso": "2026-06-16",
         "category": "compute-tag",
@@ -305,9 +355,9 @@
         "tag": "AWS"
       },
       {
-        "title": "AWS DevOps Agent expands with custom SRE agents and MCP/A2A protocols",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-devops-agent-custom-agents/",
-        "summary": "AWS DevOps Agent now supports custom SRE agents, bring-your-own sub-agents, and headless access via MCP and A2A protocols. These capabilities enable teams to automate recurring SRE workflows, extend…",
+        "title": "AWS Partners can now accelerate co-sell deals with express private offers",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-partners-express-private-offers",
+        "summary": "AWS Partners co-selling with AWS can now use express private offers to automate pricing within co-sell workflows. Partners configure their pricing rules, discount boundaries, and eligible products…",
         "date": "2026年6月16日",
         "date_iso": "2026-06-16",
         "category": "compute-tag",
@@ -315,97 +365,57 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon EC2 C8i instances are now available in Europe (Stockholm) region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-c8i-instances-europe-stockholm-region/",
-        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8i instances are available in the Europe (Stockholm) region. These instances are powered by custom Intel Xeon 6 processors, available only…",
-        "date": "2026年6月15日",
-        "date_iso": "2026-06-15",
+        "title": "AWS announces Amazon Connect Customer Services Competency",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-announces-amazon-connect-customer-services-competency",
+        "summary": "AWS announces the Amazon Connect Customer Competency, a new AWS Specialization that helps customers identify Services Partners with proven expertise in transforming enterprise-wide customer…",
+        "date": "2026年6月16日",
+        "date_iso": "2026-06-16",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Transform now supports Amazon FSx for NetApp ONTAP (Public Preview)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-vmware-fsx-for-ontap-preview",
+        "summary": "Today, AWS announced the public preview of a new storage migration capability for AWS Transform that enables customers to migrate block storage workloads from any on-premises or cloud source to…",
+        "date": "2026年6月16日",
+        "date_iso": "2026-06-16",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Marketplace Storefront is now generally available",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-marketplace-storefront/",
+        "summary": "AWS Marketplace Storefront is now generally available, enabling AWS Partners to create and deploy their own branded catalog of solutions and services on their website or application in hours. Channel…",
+        "date": "2026年6月16日",
+        "date_iso": "2026-06-16",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
       },
       {
-        "title": "Amazon EC2 C7i instances are now available in the Israel (Tel Aviv) region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-c7i-instances-israel-tel-aviv-region/",
-        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C7i instances powered by custom 4th Gen Intel Xeon Scalable processors (code-named Sapphire Rapids) are available in the Israel (Tel Aviv)…",
-        "date": "2026年6月15日",
-        "date_iso": "2026-06-15",
+        "title": "AWS Partner Central agents now guide new partners from registration to ready-to-sell",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-partner-central/",
+        "summary": "Today, AWS announces the general availability of onboarding capabilities for AWS Partner Central agents. The agent acts as an always-available advisor that guides new partners through every step…",
+        "date": "2026年6月16日",
+        "date_iso": "2026-06-16",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS WAF announces AI traffic monetization",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-waf-ai-traffic-monetization/",
-        "summary": "Today, AWS WAF announced AI traffic monetization, a new Bot Control capability that lets you price, meter, and collect payment from AI bots and agents accessing your content and APIs. As AI agents…",
-        "date": "2026年6月15日",
-        "date_iso": "2026-06-15",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon CloudWatch now supports cross-account metrics centralization",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cross-account-metrics-centralization",
-        "summary": "Today, Amazon Web Services announces the general availability of Amazon CloudWatch Metrics Centralization, which enables you to replicate CloudWatch metrics cross-account and cross-region into a…",
-        "date": "2026年6月15日",
-        "date_iso": "2026-06-15",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon CloudWatch Query Studio is now generally available",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-query-studio-generally-available",
-        "summary": "Today, Amazon Web Services announces the general availability of Amazon CloudWatch Query Studio, a unified querying and visualization experience that enables you to explore metrics from a single…",
-        "date": "2026年6月15日",
-        "date_iso": "2026-06-15",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Free Network Bandwidth Amazon GameLift Servers is Here!",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-gamelift-servers-free-network-bandwidth",
-        "summary": "Starting today, Amazon GameLift Servers provides network bandwidth in and out of AWS at no additional charge for all instance types from generation 6 and later, including On-Demand and Spot, with no…",
-        "date": "2026年6月15日",
-        "date_iso": "2026-06-15",
-        "category": "network-tag",
-        "cat_label": "ネットワーク",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon RDS for MariaDB supports Long-Term Support version 12.3 in Amazon RDS Database Preview Environment",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-rds-maria-db-innovation-release-12-3-rds-database-preview-environment/",
-        "summary": "Amazon RDS for MariaDB &nbsp;now supports MariaDB 12.3 in the&nbsp; Amazon RDS Database Preview Environment , allowing you to evaluate the latest Long-Term Support Release on Amazon RDS for MariaDB.…",
-        "date": "2026年6月15日",
-        "date_iso": "2026-06-15",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon RDS for MySQL announces Extended Support minor version 5.7.44-RDS.20260521",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-rds-mysql-extended-support-minor-5744-rds/",
-        "summary": "Amazon Relational Database Service (Amazon RDS) for MySQL &nbsp;now supports new Amazon RDS Extended Support minor version 5.7.44-RDS.20260521. We recommend that you upgrade to this version to fix…",
-        "date": "2026年6月15日",
-        "date_iso": "2026-06-15",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon RDS for MariaDB now supports community MariaDB minor versions 10.6.27, 10.11.18, 11.4.12, and 11.8.8",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-rds-mariadb-community-versions/",
-        "summary": "Amazon Relational Database Service (Amazon RDS) for MariaDB &nbsp;now supports community MariaDB minor versions 10.6.27, 10.11.18, 11.4.12, and 11.8.8. We recommend that you upgrade to the latest…",
-        "date": "2026年6月15日",
-        "date_iso": "2026-06-15",
-        "category": "database-tag",
-        "cat_label": "データベース",
         "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "June 16, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#June_16_2026",
+        "summary": "BigQuery Announcement Table Explorer behavior is moving to the Reference panel. This transition will occur in July 2026 or later. For more information, see Table Explorer . Cloud SDK Breaking 573.0.0…",
+        "date": "2026年6月16日",
+        "date_iso": "2026-06-16",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "GCP"
+      },
       {
         "title": "June 15, 2026",
         "link": "https://docs.cloud.google.com/release-notes#June_15_2026",
@@ -595,19 +605,49 @@
         "category": "storage-tag",
         "cat_label": "ストレージ",
         "tag": "GCP"
-      },
-      {
-        "title": "May 27, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#May_27_2026",
-        "summary": "App Engine standard environment Go Feature Enable only needed legacy bundled services using the app_engine_bundled_services field for improved security and maintainability of your applications (…",
-        "date": "2026年5月27日",
-        "date_iso": "2026-05-27",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
       }
     ],
     "oci": [
+      {
+        "title": "Use Query Insights to Understand OCI Database with PostgreSQL Performance",
+        "link": "https://docs.oracle.com/iaas/releasenotes/postgresql/query-insights.htm",
+        "summary": "",
+        "date": "2026年6月16日",
+        "date_iso": "2026-06-16",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "OCI"
+      },
+      {
+        "title": "Kerberos Authentication",
+        "link": "https://docs.oracle.com/iaas/releasenotes/postgresql/kerberos-authentication.htm",
+        "summary": "",
+        "date": "2026年6月16日",
+        "date_iso": "2026-06-16",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "OCI"
+      },
+      {
+        "title": "New Features in OCI Database with PostgreSQL",
+        "link": "https://docs.oracle.com/iaas/releasenotes/postgresql/june16-new-features.htm",
+        "summary": "",
+        "date": "2026年6月16日",
+        "date_iso": "2026-06-16",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "OCI"
+      },
+      {
+        "title": "Import Google MedGemma 27B Text IT in OCI Generative AI",
+        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/google-med-gemma-27b-it.htm",
+        "summary": "",
+        "date": "2026年6月15日",
+        "date_iso": "2026-06-15",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
       {
         "title": "Oracle Data Safe Promotion for On-Premises Oracle Databases",
         "link": "https://docs.oracle.com/iaas/releasenotes/data-safe/onprem-promotion.htm",
@@ -766,46 +806,6 @@
         "date_iso": "2026-05-29",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Add Image Moderation to OCI Generative AI Guardrails",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/image-moderation.htm",
-        "summary": "",
-        "date": "2026年5月29日",
-        "date_iso": "2026-05-29",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Log Analytics: New UI workflow to ingest logs from OCI Compute Instance",
-        "link": "https://docs.oracle.com/iaas/releasenotes/log-analytics/may26-compute-instance-add-data.htm",
-        "summary": "",
-        "date": "2026年5月29日",
-        "date_iso": "2026-05-29",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "OCI Kubernetes Engine (OKE) support for Zero Trust Packet Routing",
-        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-zpr-security-attribute-support.htm",
-        "summary": "",
-        "date": "2026年5月27日",
-        "date_iso": "2026-05-27",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "OCI"
-      },
-      {
-        "title": "Annotation to assign a reserved private IPv4 address to a load balancer or network load balancer with OKE",
-        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-Reserved-private-IP-address-LB-NLB-NIC.htm",
-        "summary": "",
-        "date": "2026年5月26日",
-        "date_iso": "2026-05-26",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
         "tag": "OCI"
       }
     ]
