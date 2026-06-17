@@ -1,5 +1,5 @@
 {
-  "updated": "2026年06月17日 14:16 JST",
+  "updated": "2026年06月17日 17:41 JST",
   "clouds": {
     "azure": [
       {
@@ -305,16 +305,6 @@
         "tag": "AWS"
       },
       {
-        "title": "AWS Partner Central launches new funding benefits for Business Value Realization",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-partner-business-value-realization/",
-        "summary": "AWS Partner Central now supports the Business Value Realization (BVR) motion, a new experience and funding motion for partners who drive customer adoption and business outcomes after deploying…",
-        "date": "2026年6月16日",
-        "date_iso": "2026-06-16",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
         "title": "AWS Partner Central now validates Foundational Technical Review in minutes",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-partner-central-foundational-technical-review/",
         "summary": "AWS Partner Central now accepts SOC 2 Type II audit reports or AWS Well-Architected Framework Reviews (WAFR) reports to complete Foundational Technical Review (FTR) in minutes. This streamlined…",
@@ -322,6 +312,16 @@
         "date_iso": "2026-06-16",
         "category": "ai-tag",
         "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Partner Central launches new funding benefits for Business Value Realization",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-partner-business-value-realization/",
+        "summary": "AWS Partner Central now supports the Business Value Realization (BVR) motion, a new experience and funding motion for partners who drive customer adoption and business outcomes after deploying…",
+        "date": "2026年6月16日",
+        "date_iso": "2026-06-16",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
         "tag": "AWS"
       },
       {
@@ -375,16 +375,6 @@
         "tag": "AWS"
       },
       {
-        "title": "AWS Transform now supports Amazon FSx for NetApp ONTAP (Public Preview)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-vmware-fsx-for-ontap-preview",
-        "summary": "Today, AWS announced the public preview of a new storage migration capability for AWS Transform that enables customers to migrate block storage workloads from any on-premises or cloud source to…",
-        "date": "2026年6月16日",
-        "date_iso": "2026-06-16",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
-        "tag": "AWS"
-      },
-      {
         "title": "AWS Marketplace Storefront is now generally available",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-marketplace-storefront/",
         "summary": "AWS Marketplace Storefront is now generally available, enabling AWS Partners to create and deploy their own branded catalog of solutions and services on their website or application in hours. Channel…",
@@ -392,6 +382,16 @@
         "date_iso": "2026-06-16",
         "category": "ai-tag",
         "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Transform now supports Amazon FSx for NetApp ONTAP (Public Preview)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-vmware-fsx-for-ontap-preview",
+        "summary": "Today, AWS announced the public preview of a new storage migration capability for AWS Transform that enables customers to migrate block storage workloads from any on-premises or cloud source to…",
+        "date": "2026年6月16日",
+        "date_iso": "2026-06-16",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
         "tag": "AWS"
       },
       {
