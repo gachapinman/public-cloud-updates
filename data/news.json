@@ -1,7 +1,208 @@
 {
-  "updated": "2026年06月19日 14:25 JST",
+  "updated": "2026年06月19日 17:53 JST",
   "clouds": {
-    "azure": [],
+    "azure": [
+      {
+        "title": "Public Preview: Azure Migrate – GitHub Copilot Modernization integration for at scale code assessments",
+        "link": "https://azure.microsoft.com/updates?id=566145",
+        "summary": "Azure Migrate now integrates with GitHub Copilot Modernization (public preview) to deliver at scale code insights. This capability brings together Azure Migrate’s portfolio-level discovery and…",
+        "date": "2026年6月18日",
+        "date_iso": "2026-06-18",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Azure Databricks native read access to Microsoft OneLake",
+        "link": "https://azure.microsoft.com/updates?id=565733",
+        "summary": "Azure Databricks now supports native read access to data stored in Microsoft OneLake through Unity Catalog. This capability is generally available. Customers can query and analyze data directly in…",
+        "date": "2026年6月18日",
+        "date_iso": "2026-06-18",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Azure Databricks natively storing data in Microsoft OneLake",
+        "link": "https://azure.microsoft.com/updates?id=565706",
+        "summary": "Azure Databricks can now natively write managed Delta tables to Microsoft OneLake. This capability enables customers to use OneLake as a unified storage layer for Azure Databricks workloads without…",
+        "date": "2026年6月18日",
+        "date_iso": "2026-06-18",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: ICMP Support for Azure Standard V2 NAT Gateway",
+        "link": "https://azure.microsoft.com/updates?id=565487",
+        "summary": "Azure StandardV2 NAT Gateway now supports outbound ICMP Echo Request and Echo Reply traffic, enabling customers to use tools such as ping to quickly validate outbound connectivity and troubleshoot…",
+        "date": "2026年6月18日",
+        "date_iso": "2026-06-18",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: New project templates and template gallery for Azure Functions in VS Code",
+        "link": "https://azure.microsoft.com/updates?id=562497",
+        "summary": "The Azure Functions extension for VS Code now provides a redesigned Create New Project experience in public preview, featuring a rich, visual template gallery that replaces the multi-step Quick Pick…",
+        "date": "2026年6月17日",
+        "date_iso": "2026-06-17",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Log Analytics Summary Rules experience",
+        "link": "https://azure.microsoft.com/updates?id=562027",
+        "summary": "A new Azure portal experience for Summary Rules in Log Analytics is now available. Summary Rules enable aggregation of high-volume log data at a defined cadence and store it in summarized tables for…",
+        "date": "2026年6月17日",
+        "date_iso": "2026-06-17",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Retirement: Av2-series, F-series, Fs-series, Fsv2-series, G-series, Gs-series, and Lsv2-series Virtual Machines for…",
+        "link": "https://azure.microsoft.com/updates?id=564774",
+        "summary": "Azure Compute will retire the following Virtual Machine series on November 15, 2028, impacting Azure Batch pools that rely on them:Av2-seriesF-series, Fs-series, Fsv2-seriesG-series,…",
+        "date": "2026年6月12日",
+        "date_iso": "2026-06-12",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Retirement: D-series, Ds-series, Dv2-series, Dsv2-series, and Ls-series Virtual Machines for Azure Batch pools",
+        "link": "https://azure.microsoft.com/updates?id=564772",
+        "summary": "Azure Compute will retire the following Virtual Machine series on May 1, 2028, impacting Azure Batch pools that rely on them:D-series, Ds-seriesDv2-series, Dsv2-seriesLs-seriesAfter this date:New…",
+        "date": "2026年6月12日",
+        "date_iso": "2026-06-12",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Retirement: GPv1 and Legacy Blob storage account creation",
+        "link": "https://azure.microsoft.com/updates?id=564441",
+        "summary": "As part of our ongoing efforts to streamline the Azure Storage portfolio and deliver enhanced performance, scalability, and cost efficiency, we are announcing the retirement of all General purpose v1…",
+        "date": "2026年6月12日",
+        "date_iso": "2026-06-12",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: SQL MCP Server",
+        "link": "https://azure.microsoft.com/updates?id=564734",
+        "summary": "SQL MCP Server is now generally available, giving customers a secure, high-performance way to build agentic solutions with controlled access to production data. Built for SQL and compatible with…",
+        "date": "2026年6月12日",
+        "date_iso": "2026-06-12",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Retirement: Azure Load Balancer Inbound NAT rule version 1 for Azure VMSS (aka Inbound NAT Pools)",
+        "link": "https://azure.microsoft.com/updates?id=565482",
+        "summary": "Update to our previous communication: We previously announced the retirement of all Inbound NAT rules version 1 resources, which included both single-VM NAT rules and NAT pools for Virtual Machine…",
+        "date": "2026年6月12日",
+        "date_iso": "2026-06-12",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Microsoft Entra server principals on Azure SQL Database",
+        "link": "https://azure.microsoft.com/updates?id=565154",
+        "summary": "Microsoft Entra server principals (logins) for Azure SQL Database is now generally available. You can now use CREATE LOGIN ... FROM EXTERNAL PROVIDER in the virtual master database, bringing parity…",
+        "date": "2026年6月11日",
+        "date_iso": "2026-06-11",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Retirement: Azure Synapse Link for Azure Cosmos DB NoSQL",
+        "link": "https://azure.microsoft.com/updates?id=558560",
+        "summary": "As of March 31, 2026, new Azure Cosmos DB NoSQL accounts can no longer enable Azure Synapse Link. Existing customers will remain fully supported until March 31, 2029, when Azure Synapse Link will…",
+        "date": "2026年6月11日",
+        "date_iso": "2026-06-11",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Retirement: Azure VPN Client for Linux (Preview) will be retired on August 31, 2026",
+        "link": "https://azure.microsoft.com/updates?id=565393",
+        "summary": "The Azure VPN Client for Linux (Preview) has remained in public preview and does not have a path to general availability (GA). As part of our ongoing efforts to align Azure networking services with…",
+        "date": "2026年6月11日",
+        "date_iso": "2026-06-11",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Agent mode for GitHub Copilot in SQL Server Management Studio (SSMS)",
+        "link": "https://azure.microsoft.com/updates?id=562637",
+        "summary": "You can now use Agent mode for GitHub Copilot in SSMS to work with your database: investigating performance problems, tuning queries, reviewing maintenance and configuration, identifying security…",
+        "date": "2026年6月10日",
+        "date_iso": "2026-06-10",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: PostgreSQL Hub for Azure Developers",
+        "link": "https://azure.microsoft.com/updates?id=562084",
+        "summary": "PostgreSQL Hub for Azure Developers brings together key AI and application development resources for PostgreSQL on Azure. It includes curated sample apps and solution accelerators, tutorials, and…",
+        "date": "2026年6月10日",
+        "date_iso": "2026-06-10",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Azure NC RTX PRO 6000 Blackwell Server Edition v6 Series Virtual Machines",
+        "link": "https://azure.microsoft.com/updates?id=565271",
+        "summary": "Azure NCv6-series virtual machines (VMs) are now generally available in the Azure Southeast Asia and West US 2 regions. NCv6 VMs are powered by NVIDIA RTX PRO 6000 Blackwell Server Edition graphics…",
+        "date": "2026年6月9日",
+        "date_iso": "2026-06-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Premium SSD v2 disks now support non-zonal Azure Virtual Machines",
+        "link": "https://azure.microsoft.com/updates?id=565359",
+        "summary": "Azure Premium SSD v2 disks now support non-zonal, single-instance Azure virtual machines in select Azure regions with Availability Zones (AZs). Customers can now deploy Premium SSD v2 with non-zonal…",
+        "date": "2026年6月9日",
+        "date_iso": "2026-06-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Microsoft Foundry agent security capabilities in Microsoft Defender for Cloud are…",
+        "link": "https://azure.microsoft.com/updates?id=565171",
+        "summary": "Starting July 1, 2026, Microsoft Foundry agent security capabilities previously available through Microsoft Defender for Cloud will transition to a Microsoft Agent 365 license. Agent protection in…",
+        "date": "2026年6月9日",
+        "date_iso": "2026-06-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Azure Site Recovery support for Linux Azure VMs with NVMe disk controllers.",
+        "link": "https://azure.microsoft.com/updates?id=565103",
+        "summary": "Azure Site Recovery now supports replication and disaster recovery for Linux Azure Virtual Machines running on NVMe-enabled Generation 2 VM families, such as the Da/Ea/Fa v6-series and Ebsv5/Ebdsv5…",
+        "date": "2026年6月9日",
+        "date_iso": "2026-06-09",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AZURE"
+      }
+    ],
     "aws": [
       {
         "title": "Announcing the general availability of a new AWS Local Zone in Hanoi, Vietnam",
@@ -448,6 +649,16 @@
         "tag": "OCI"
       },
       {
+        "title": "Public connectivity for Kafka clusters",
+        "link": "https://docs.oracle.com/iaas/releasenotes/kafka/public-connectivity.htm",
+        "summary": "",
+        "date": "2026年6月15日",
+        "date_iso": "2026-06-15",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
         "title": "Import DeepSeek V4 Flash and DeepSeek V4 Pro in OCI Generative AI",
         "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/deepseek-v4.htm",
         "summary": "",
@@ -590,16 +801,6 @@
       {
         "title": "Log Analytics: Enhancement in REST API source creation workflow",
         "link": "https://docs.oracle.com/iaas/releasenotes/log-analytics/jun26-rest-api-source-enh.htm",
-        "summary": "",
-        "date": "2026年6月2日",
-        "date_iso": "2026-06-02",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Log Analytics: Use SOAP API to collect logs",
-        "link": "https://docs.oracle.com/iaas/releasenotes/log-analytics/jun26-soap-api-ingestion.htm",
         "summary": "",
         "date": "2026年6月2日",
         "date_iso": "2026-06-02",
