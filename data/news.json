@@ -1,5 +1,5 @@
 {
-  "updated": "2026年06月19日 22:01 JST",
+  "updated": "2026年06月20日 13:40 JST",
   "clouds": {
     "azure": [
       {
@@ -215,6 +215,16 @@
         "tag": "AWS"
       },
       {
+        "title": "Amazon CloudWatch Synthetics now supports multilocation canaries",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-synthetics-multilocation/",
+        "summary": "Today, Amazon CloudWatch Synthetics announces support for multilocation canaries, allowing developers and site reliability engineers to run the same canary across multiple AWS Regions simultaneously…",
+        "date": "2026年6月19日",
+        "date_iso": "2026-06-19",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon MSK Express brokers now support Intelligent Rebalancing on existing clusters",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-msk-express-intelligent/",
         "summary": "Amazon MSK Provisioned clusters with Express brokers now support Intelligent Rebalancing on all existing clusters, at no additional cost. Previously available only on newly created clusters,…",
@@ -257,7 +267,7 @@
       {
         "title": "Nested virtualization is now available on additional Intel platforms and US Gov Cloud regions",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/nested-virtualization-intel-us-gov-cloud/",
-        "summary": "Starting today, Nested virtualization is now available on additional Intel platforms and additional Regions. Nested virtualization is now available on C7i,R7i, M7i, C7id,R7id, M7id,…",
+        "summary": "Starting today, Nested virtualization is now available on additional Intel platforms and additional Regions. Nested virtualization is now available on C7i,R7i, M7i, C8id,R8id, M8id, C7i-flex,…",
         "date": "2026年6月19日",
         "date_iso": "2026-06-19",
         "category": "ai-tag",
@@ -345,6 +355,16 @@
         "tag": "AWS"
       },
       {
+        "title": "Amazon WorkSpaces Personal Supports Ubuntu 24.04",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/ubuntu-china-zhy/",
+        "summary": "AWS announces availability of Ubuntu 24.04 LTS bundles for Amazon WorkSpaces Personal in the AWS China (Ningxia) Region, operated by NWCD. With this bundle, customers in China can launch Ubuntu…",
+        "date": "2026年6月18日",
+        "date_iso": "2026-06-18",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon RDS for SQL Server increases the maximum size and provisioned performance of General Purpose (gp3) volumes",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/rds-sqlserver-increases-gp3-limits/",
         "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports higher volume-level limits for General Purpose (gp3) storage. With this update, each gp3 volume can scale up to 64 TiB in…",
@@ -383,29 +403,19 @@
         "category": "database-tag",
         "cat_label": "データベース",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon RDS for PostgreSQL, MySQL, and MariaDB now supports M9g database instances",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-rds-postgresql-mysql-mariadb-m9g-instances/",
-        "summary": "AWS Graviton5-based M9g database (DB) instances are now generally available for Amazon Relational Database Service (RDS) for PostgreSQL, MySQL, and MariaDB. Graviton5-based instances provide up to a…",
-        "date": "2026年6月18日",
-        "date_iso": "2026-06-18",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Aurora and RDS for MySQL expand Extended Support for MySQL 5.7 through June 2029",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/rds-mysql-es-extension/",
-        "summary": "Amazon Aurora MySQL-Compatible Edition and Amazon Relational Database Service (RDS) for MySQL now offer Amazon RDS Extended Support for MySQL 5.7 through June 30, 2029, from the previous end date of…",
-        "date": "2026年6月18日",
-        "date_iso": "2026-06-18",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "June 19, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#June_19_2026",
+        "summary": "Bigtable Feature You can use the Bigtable Studio explorer to search for all resources except for authorized views and column families. For more information, see Manage your data using Bigtable Studio…",
+        "date": "2026年6月19日",
+        "date_iso": "2026-06-19",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "GCP"
+      },
       {
         "title": "June 18, 2026",
         "link": "https://docs.cloud.google.com/release-notes#June_18_2026",
@@ -592,16 +602,6 @@
         "summary": "Google SecOps Change Google SecOps has updated the list of supported default parsers. Parsers are updated gradually, so it might take one to four days before you see the changes reflected in your…",
         "date": "2026年5月31日",
         "date_iso": "2026-05-31",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "GCP"
-      },
-      {
-        "title": "May 30, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#May_30_2026",
-        "summary": "Apigee hybrid Announcement v1.15.4 On May 30, 2026 we released an updated version of the Apigee hybrid software, v1.15.4. For information on upgrading, see Upgrading Apigee hybrid to version v1.15.4…",
-        "date": "2026年5月30日",
-        "date_iso": "2026-05-30",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "GCP"
