@@ -1,5 +1,5 @@
 {
-  "updated": "2026年06月20日 20:44 JST",
+  "updated": "2026年06月21日 14:18 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "June 20, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#June_20_2026",
+        "summary": "Google SecOps SOAR Announcement Release 6.3.89 is now available for all regions.",
+        "date": "2026年6月20日",
+        "date_iso": "2026-06-20",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "June 19, 2026",
         "link": "https://docs.cloud.google.com/release-notes#June_19_2026",
         "summary": "Bigtable Feature You can use the Bigtable Studio explorer to search for all resources except for authorized views and column families. For more information, see Manage your data using Bigtable Studio…",
@@ -594,16 +604,6 @@
         "date_iso": "2026-06-01",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "May 31, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#May_31_2026",
-        "summary": "Google SecOps Change Google SecOps has updated the list of supported default parsers. Parsers are updated gradually, so it might take one to four days before you see the changes reflected in your…",
-        "date": "2026年5月31日",
-        "date_iso": "2026-05-31",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
         "tag": "GCP"
       }
     ],
