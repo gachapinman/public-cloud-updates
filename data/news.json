@@ -1,5 +1,5 @@
 {
-  "updated": "2026年06月21日 21:01 JST",
+  "updated": "2026年06月22日 14:31 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "June 21, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#June_21_2026",
+        "summary": "Google SecOps Announcement Scheduled Maintenance CloudSQL will undergo a scheduled minor upgrade this Sunday, June 21, 2026. Google SecOps SOAR Announcement Release 6.3.90 is being rolled out to the…",
+        "date": "2026年6月21日",
+        "date_iso": "2026-06-21",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "June 20, 2026",
         "link": "https://docs.cloud.google.com/release-notes#June_20_2026",
         "summary": "Google SecOps SOAR Announcement Release 6.3.89 is now available for all regions.",
@@ -594,16 +604,6 @@
         "date_iso": "2026-06-02",
         "category": "database-tag",
         "cat_label": "データベース",
-        "tag": "GCP"
-      },
-      {
-        "title": "June 01, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#June_01_2026",
-        "summary": "Agent Assist Feature Agent Assist offers summarization with custom sections 6.0 in GA. The 6.0 version is powered by gemini-3.5-flash and available in all Agent Assist regions . Change Agent Assist…",
-        "date": "2026年6月1日",
-        "date_iso": "2026-06-01",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "GCP"
       }
     ],
