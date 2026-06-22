@@ -1,5 +1,5 @@
 {
-  "updated": "2026年06月22日 18:29 JST",
+  "updated": "2026年06月23日 00:09 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "June 22, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#June_22_2026",
+        "summary": "Compute Engine Feature Generally available : You can create instances all at once in a regional managed instance group (MIG) by using resize requests. For more information, see About resize requests…",
+        "date": "2026年6月22日",
+        "date_iso": "2026-06-22",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "June 21, 2026",
         "link": "https://docs.cloud.google.com/release-notes#June_21_2026",
         "summary": "Google SecOps Announcement Scheduled Maintenance CloudSQL will undergo a scheduled minor upgrade this Sunday, June 21, 2026. Google SecOps SOAR Announcement Release 6.3.90 is being rolled out to the…",
@@ -594,16 +604,6 @@
         "date_iso": "2026-06-03",
         "category": "network-tag",
         "cat_label": "ネットワーク",
-        "tag": "GCP"
-      },
-      {
-        "title": "June 02, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#June_02_2026",
-        "summary": "AlloyDB for PostgreSQL Feature You can now configure a cooldown period to determine when autoscaling occurs for your read pool instances. For more information, see Scale an instance . Apigee X…",
-        "date": "2026年6月2日",
-        "date_iso": "2026-06-02",
-        "category": "database-tag",
-        "cat_label": "データベース",
         "tag": "GCP"
       }
     ],
