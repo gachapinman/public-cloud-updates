@@ -1,5 +1,5 @@
 {
-  "updated": "2026年06月23日 00:09 JST",
+  "updated": "2026年06月23日 13:30 JST",
   "clouds": {
     "azure": [
       {
@@ -205,6 +205,76 @@
     ],
     "aws": [
       {
+        "title": "AWS HealthOmics now supports Nextflow profiles",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-healthomics-nextflow-profiles/",
+        "summary": "AWS HealthOmics now supports Nextflow profiles, enabling customers to activate predefined execution settings at run time. Nextflow profiles allow customers to define reusable settings and select them…",
+        "date": "2026年6月23日",
+        "date_iso": "2026-06-23",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS introduces Lambda MicroVMs for isolated execution of user and AI-generated code",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lambda-microvms/",
+        "summary": "AWS introduces Lambda MicroVMs, a new serverless compute primitive that provides VM-level isolation, near-instant launch and resume speeds, and state preservation for executing user or AI-generated…",
+        "date": "2026年6月23日",
+        "date_iso": "2026-06-23",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Network Firewall updates default drop action for improved connection reliability",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-network-firewall-updates-default-drop-action",
+        "summary": "AWS Network Firewall now uses \"Application drop established (server-directed only)\" as the default stateful action for all newly created firewall policies, replacing the previous default of…",
+        "date": "2026年6月23日",
+        "date_iso": "2026-06-23",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Batch now supports customer-ordered instance allocation strategies",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/batch-ordered-allocation-strategies/",
+        "summary": "AWS Batch now offers the Best Fit Progressive Ordered (BFPO) and Spot Capacity Optimized Prioritized (SCOP) allocation strategies, giving you more control over instance type prioritization in your…",
+        "date": "2026年6月23日",
+        "date_iso": "2026-06-23",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS IAM Identity Center now supports separate quotas for AWS accounts and applications",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-identity-center-separate-quotas/",
+        "summary": "AWS IAM Identity Center now supports separate quotas for the number of AWS accounts and applications that can be configured in an IAM Identity Center instance. By default, you can configure up to…",
+        "date": "2026年6月23日",
+        "date_iso": "2026-06-23",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon MSK now offers AI Agent Skills to help developers operate MSK efficiently and accelerate migrations to MSK",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-msk-ai-agent-skills",
+        "summary": "Amazon MSK now offers AI Agent Skills that give AI coding assistants expert, up-to-date guidance for operating Amazon MSK. The skills provide expert guidance for common operational tasks such as…",
+        "date": "2026年6月23日",
+        "date_iso": "2026-06-23",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Introducing self-service lifecycle management capabilities for AWS Outposts",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-outposts-self-service-lifecycle-management",
+        "summary": "AWS Outposts now provides self-service capabilities for configuration, quoting, ordering, subscription management, renewal, and decommissioning directly from the AWS Management Console, CLI, and API.…",
+        "date": "2026年6月22日",
+        "date_iso": "2026-06-22",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
         "title": "Announcing the general availability of a new AWS Local Zone in Hanoi, Vietnam",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-local-zones-hanoi-vietnam/",
         "summary": "Today, AWS announces the general availability of a new Local Zone in Hanoi, Vietnam, bringing AWS infrastructure closer to end users. This new Local Zone is one of the first AWS Local Zones in the…",
@@ -262,6 +332,16 @@
         "date_iso": "2026-06-19",
         "category": "security-tag",
         "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Parallel Computing Service supports P6e-GB200 and P6e-GB300 UltraServers",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-parallel-computing-service/",
+        "summary": "AWS Parallel Computing Service (PCS) now supports Amazon EC2 P6e-GB200 and P6e-GB300 UltraServer instances, enabling customers to run large-scale GPU workloads using the NVIDIA Blackwell architecture…",
+        "date": "2026年6月19日",
+        "date_iso": "2026-06-19",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "AWS"
       },
       {
@@ -323,97 +403,17 @@
         "category": "container-tag",
         "cat_label": "コンテナ",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon SageMaker AI Announces New observability capability For Inference Endpoints",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-ai-inference/",
-        "summary": "Amazon SageMaker AI's new observability capability allows customers to operate production generative AI inference workloads with confidence by providing comprehensive visibility into token…",
-        "date": "2026年6月19日",
-        "date_iso": "2026-06-19",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SNS now supports sending SMS in the Asia Pacific (Seoul) Region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sns-supports-sending-sms-seoul-region/",
-        "summary": "Customers that use Amazon Simple Notification Service (Amazon SNS) in the Asia Pacific (Seoul) Region can now send text messages (SMS) to subscribers in more than 200 countries and territories.…",
-        "date": "2026年6月19日",
-        "date_iso": "2026-06-19",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon GameLift Servers adds new container fleet improvements",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-gamelift-servers-container-fleet-improvements",
-        "summary": "Amazon GameLift Servers now supports two significant container fleet improvements that enhance flexibility and inter-container communication for game server deployments. These new capabilities…",
-        "date": "2026年6月18日",
-        "date_iso": "2026-06-18",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon WorkSpaces Personal Supports Ubuntu 24.04",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/ubuntu-china-zhy/",
-        "summary": "AWS announces availability of Ubuntu 24.04 LTS bundles for Amazon WorkSpaces Personal in the AWS China (Ningxia) Region, operated by NWCD. With this bundle, customers in China can launch Ubuntu…",
-        "date": "2026年6月18日",
-        "date_iso": "2026-06-18",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon RDS for SQL Server increases the maximum size and provisioned performance of General Purpose (gp3) volumes",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/rds-sqlserver-increases-gp3-limits/",
-        "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports higher volume-level limits for General Purpose (gp3) storage. With this update, each gp3 volume can scale up to 64 TiB in…",
-        "date": "2026年6月18日",
-        "date_iso": "2026-06-18",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Glue Interactive Sessions now support Spark Connect for interactive workloads",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-glue-interactive-sessions-spark-connect-smus-notebooks",
-        "summary": "AWS Glue Interactive Sessions now support Apache Spark Connect, using which you can now develop and run Apache Spark applications from your preferred environment, including managed notebooks in…",
-        "date": "2026年6月18日",
-        "date_iso": "2026-06-18",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS HealthOmics now streams workflow engine logs to Amazon CloudWatch in real time",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-healthomics-real-time-engine-log-streaming/",
-        "summary": "AWS HealthOmics now streams workflow engine logs to Amazon CloudWatch in real time, enabling customers to monitor workflow execution progress as it happens. AWS HealthOmics is a HIPAA-eligible…",
-        "date": "2026年6月18日",
-        "date_iso": "2026-06-18",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS DevOps Agent adds release management capability (preview)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-devops-agent-release-management/",
-        "summary": "AWS DevOps Agent now offers a release management capability in preview, reviewing code changes for release readiness and running autonomous release testing to help you ship code to production safely…",
-        "date": "2026年6月18日",
-        "date_iso": "2026-06-18",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
       }
     ],
     "gcp": [
       {
         "title": "June 22, 2026",
         "link": "https://docs.cloud.google.com/release-notes#June_22_2026",
-        "summary": "Compute Engine Feature Generally available : You can create instances all at once in a regional managed instance group (MIG) by using resize requests. For more information, see About resize requests…",
+        "summary": "Apigee X Announcement On June 22nd, 2026, we released an updated version of Apigee (1-17-0-apigee-10). Note: Rollouts of this release began today and may take four or more business days to be…",
         "date": "2026年6月22日",
         "date_iso": "2026-06-22",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "GCP"
       },
       {
@@ -429,21 +429,21 @@
       {
         "title": "June 20, 2026",
         "link": "https://docs.cloud.google.com/release-notes#June_20_2026",
-        "summary": "Google SecOps SOAR Announcement Release 6.3.89 is now available for all regions.",
+        "summary": "Cloud Shell Change Cloud Shell no longer includes the Terraform CLI by default. Users can customize their environment to install the CLI on environment startup, or install the binary to their home…",
         "date": "2026年6月20日",
         "date_iso": "2026-06-20",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "GCP"
       },
       {
         "title": "June 19, 2026",
         "link": "https://docs.cloud.google.com/release-notes#June_19_2026",
-        "summary": "Bigtable Feature You can use the Bigtable Studio explorer to search for all resources except for authorized views and column families. For more information, see Manage your data using Bigtable Studio…",
+        "summary": "Apigee hybrid Announcement v1.16.6 On June 19, 2026 we released an updated version of the Apigee hybrid software, v1.16.6. For information on upgrading, see Upgrading Apigee hybrid to version v1.16.6…",
         "date": "2026年6月19日",
         "date_iso": "2026-06-19",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "GCP"
       },
       {
@@ -649,16 +649,6 @@
         "tag": "OCI"
       },
       {
-        "title": "Public connectivity for Kafka clusters",
-        "link": "https://docs.oracle.com/iaas/releasenotes/kafka/public-connectivity.htm",
-        "summary": "",
-        "date": "2026年6月15日",
-        "date_iso": "2026-06-15",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
         "title": "Import DeepSeek V4 Flash and DeepSeek V4 Pro in OCI Generative AI",
         "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/deepseek-v4.htm",
         "summary": "",
@@ -686,6 +676,16 @@
         "date_iso": "2026-06-15",
         "category": "ai-tag",
         "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Public connectivity for Kafka clusters",
+        "link": "https://docs.oracle.com/iaas/releasenotes/kafka/public-connectivity.htm",
+        "summary": "",
+        "date": "2026年6月15日",
+        "date_iso": "2026-06-15",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "OCI"
       },
       {
