@@ -1,5 +1,5 @@
 {
-  "updated": "2026年06月23日 16:03 JST",
+  "updated": "2026年06月23日 21:25 JST",
   "clouds": {
     "azure": [
       {
@@ -225,6 +225,16 @@
         "tag": "AWS"
       },
       {
+        "title": "AWS Transform for migrations now supports all AWS commercial regions as migration targets",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-migrations-region-expansion/",
+        "summary": "AWS Transform for migrations now supports all AWS commercial regions as migration targets. A migration target region is the AWS region where migrated resources are deployed, including landing zones,…",
+        "date": "2026年6月23日",
+        "date_iso": "2026-06-23",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
         "title": "AWS Network Firewall updates default drop action for improved connection reliability",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-network-firewall-updates-default-drop-action",
         "summary": "AWS Network Firewall now uses \"Application drop established (server-directed only)\" as the default stateful action for all newly created firewall policies, replacing the previous default of…",
@@ -392,16 +402,6 @@
         "date_iso": "2026-06-19",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EKS now supports customer-routed control plane egress",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-eks-customer-routed-control-plane-egress",
-        "summary": "Today, Amazon Elastic Kubernetes Service (Amazon EKS) introduces customer-routed control plane egress, a capability that lets you route outbound Kubernetes API server traffic through your own Amazon…",
-        "date": "2026年6月19日",
-        "date_iso": "2026-06-19",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
         "tag": "AWS"
       }
     ],
