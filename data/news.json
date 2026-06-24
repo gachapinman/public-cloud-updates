@@ -1,5 +1,5 @@
 {
-  "updated": "2026年06月24日 16:00 JST",
+  "updated": "2026年06月24日 21:10 JST",
   "clouds": {
     "azure": [
       {
@@ -205,6 +205,16 @@
     ],
     "aws": [
       {
+        "title": "Amazon CloudWatch now supports tags on dashboards",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-tags-on-dashboards",
+        "summary": "A mazon CloudWatch now supports tagging for CloudWatch dashboards, enabling you to organize, categorize, and control access to your dashboards using tags. Tags are key-value pairs that help you…",
+        "date": "2026年6月24日",
+        "date_iso": "2026-06-24",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon CloudWatch Logs supports managed syslog ingestion",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-syslog-ingestion/",
         "summary": "Amazon CloudWatch Logs supports managed syslog ingestion, enabling customers to send syslog messages from firewalls, routers, switches, and Linux servers directly into CloudWatch Logs. With today's…",
@@ -392,16 +402,6 @@
         "date_iso": "2026-06-22",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Announcing the general availability of a new AWS Local Zone in Hanoi, Vietnam",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-local-zones-hanoi-vietnam/",
-        "summary": "Today, AWS announces the general availability of a new Local Zone in Hanoi, Vietnam, bringing AWS infrastructure closer to end users. This new Local Zone is one of the first AWS Local Zones in the…",
-        "date": "2026年6月19日",
-        "date_iso": "2026-06-19",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "AWS"
       }
     ],
@@ -609,6 +609,16 @@
     ],
     "oci": [
       {
+        "title": "Zero Trust Packet Routing Visualizer",
+        "link": "https://docs.oracle.com/iaas/releasenotes/zero-trust-packet-routing/zpr-visualizer.htm",
+        "summary": "",
+        "date": "2026年6月24日",
+        "date_iso": "2026-06-24",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "OCI"
+      },
+      {
         "title": "OCI Kubernetes Engine (OKE) support for Compute Host Groups and Compute Clusters",
         "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-Compute-cluster-and-HostGroup-support.htm",
         "summary": "",
@@ -709,6 +719,16 @@
         "tag": "OCI"
       },
       {
+        "title": "Add ZPR security attributes to Object Storage private endpoints",
+        "link": "https://docs.oracle.com/iaas/releasenotes/objectstorage/objectstorage-zpr-enhancement.htm",
+        "summary": "",
+        "date": "2026年6月10日",
+        "date_iso": "2026-06-10",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "OCI"
+      },
+      {
         "title": "Veridata now available in OCI GoldenGate",
         "link": "https://docs.oracle.com/iaas/releasenotes/goldengate/veridata-dr-pipelines.htm",
         "summary": "",
@@ -726,16 +746,6 @@
         "date_iso": "2026-06-10",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Add ZPR security attributes to Object Storage private endpoints",
-        "link": "https://docs.oracle.com/iaas/releasenotes/objectstorage/objectstorage-zpr-enhancement.htm",
-        "summary": "",
-        "date": "2026年6月10日",
-        "date_iso": "2026-06-10",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
         "tag": "OCI"
       },
       {
@@ -791,16 +801,6 @@
       {
         "title": "New Experience in Oracle Cloud Console",
         "link": "https://docs.oracle.com/iaas/releasenotes/api-gateway/apigw-Redwood.htm",
-        "summary": "",
-        "date": "2026年6月2日",
-        "date_iso": "2026-06-02",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Log Analytics: Enhancement in REST API source creation workflow",
-        "link": "https://docs.oracle.com/iaas/releasenotes/log-analytics/jun26-rest-api-source-enh.htm",
         "summary": "",
         "date": "2026年6月2日",
         "date_iso": "2026-06-02",
