@@ -1,7 +1,17 @@
 {
-  "updated": "2026年06月23日 21:25 JST",
+  "updated": "2026年06月24日 13:36 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Generally Available: Azure NetApp Files migration assistant",
+        "link": "https://azure.microsoft.com/updates?id=565480",
+        "summary": "Azure NetApp Files migration assistant (with SnapMirror) provides efficient and cost-effective data migration leveraging ONTAP's built-in replication engine for seamless transition from on-premises…",
+        "date": "2026年6月24日",
+        "date_iso": "2026-06-24",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Public Preview: Azure Migrate – GitHub Copilot Modernization integration for at scale code assessments",
         "link": "https://azure.microsoft.com/updates?id=566145",
@@ -191,19 +201,109 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Azure Site Recovery support for Linux Azure VMs with NVMe disk controllers.",
-        "link": "https://azure.microsoft.com/updates?id=565103",
-        "summary": "Azure Site Recovery now supports replication and disaster recovery for Linux Azure Virtual Machines running on NVMe-enabled Generation 2 VM families, such as the Da/Ea/Fa v6-series and Ebsv5/Ebdsv5…",
-        "date": "2026年6月9日",
-        "date_iso": "2026-06-09",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Amazon CloudWatch Logs supports managed syslog ingestion",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-syslog-ingestion/",
+        "summary": "Amazon CloudWatch Logs supports managed syslog ingestion, enabling customers to send syslog messages from firewalls, routers, switches, and Linux servers directly into CloudWatch Logs. With today's…",
+        "date": "2026年6月24日",
+        "date_iso": "2026-06-24",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
+        "tag": "AWS"
+      },
+      {
+        "title": "SageMaker Notebook Instances now support G6e instance types",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/g6e-new-launch-sagemaker-notebook-instances/",
+        "summary": "We are pleased to announce general availability of Amazon EC2 G6e instances on SageMaker notebook instances. Amazon EC2 G6e instances are powered by up to 8 NVIDIA L40s Tensor Core GPUs with 48 GB of…",
+        "date": "2026年6月24日",
+        "date_iso": "2026-06-24",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Bedrock AgentCore Memory now supports cross-account access",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/agentcore-memory-cross-account-access",
+        "summary": "Amazon Bedrock AgentCore Memory now enables cross-account access, allowing you to build multi-account architectures where memory resources and consuming agents span multiple AWS accounts. You can…",
+        "date": "2026年6月24日",
+        "date_iso": "2026-06-24",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS HealthOmics now supports ephemeral storage for private workflows",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/healthomics-scratch-storage/",
+        "summary": "AWS HealthOmics adds ephemeral storage for private workflows, giving bioinformatics workloads dedicated scratch space that delivers more consistent run performance and lower costs. Each workflow task…",
+        "date": "2026年6月24日",
+        "date_iso": "2026-06-24",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Cognito now supports customer managed key for encryption at rest",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cognito-customer-managed-key",
+        "summary": "Amazon Cognito now supports customer managed keys in AWS Key Management Service (KMS) for encrypting user pool data at rest. While AWS owned keys are used by default to protect your data, customer…",
+        "date": "2026年6月24日",
+        "date_iso": "2026-06-24",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Automated Reasoning checks in Amazon Bedrock Guardrails add new policy refinement workflows",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-guardrails/",
+        "summary": "Today, AWS announces new automated refinement workflows for Automated Reasoning checks in Amazon Bedrock Guardrails. Automated Reasoning checks use formal logic to mathematically validate the…",
+        "date": "2026年6月24日",
+        "date_iso": "2026-06-24",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon CloudWatch launches OTel Container Insights for Amazon EKS",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-otel-amazon-eks/",
+        "summary": "CloudWatch OTel Container Insights for Amazon EKS collects infrastructure metrics at 30-second granularity using open-source receivers including cAdvisor, Kube State Metrics, and NVIDIA DCGM. Each…",
+        "date": "2026年6月24日",
+        "date_iso": "2026-06-24",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Claude Tag is now available in beta via Claude Enterprise in AWS Marketplace",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/claude-tag-aws-marketplace/",
+        "summary": "Anthropic is launching Claude Tag — bringing Claude directly into the channels where your team already works, starting with Slack. Claude Tag is available today in beta to AWS customers who access…",
+        "date": "2026年6月23日",
+        "date_iso": "2026-06-23",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon OpenSearch Service now offers AI-assisted migrations",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-opensearch-service-ai-migrations",
+        "summary": "Migration Assistant for&nbsp;Amazon OpenSearch Service now includes an AI-assisted experience that simplifies moving your self-managed Apache Solr, Elasticsearch, or OpenSearch deployments to…",
+        "date": "2026年6月23日",
+        "date_iso": "2026-06-23",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon SageMaker Studio notebooks now support G7e instance types",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/g7e-new-launch-sagemaker-studio-notebooks/",
+        "summary": "Amazon G7e instances feature up to 8 NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs, with 96 GB of memory per GPU, and 5th Generation Intel Xeon processors. They support up to 192 virtual CPUs…",
+        "date": "2026年6月23日",
+        "date_iso": "2026-06-23",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
       {
         "title": "AWS HealthOmics now supports Nextflow profiles",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-healthomics-nextflow-profiles/",
@@ -275,6 +375,16 @@
         "tag": "AWS"
       },
       {
+        "title": "MSK Replicator now supports mutual TLS (mTLS) authentication for replication from external Apache Kafka clusters to MSK…",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-msk-replicator-mtls-support",
+        "summary": "Amazon MSK Replicator now supports mutual TLS (mTLS) authentication for data replication from external Apache Kafka clusters - including on-premises, self-managed on AWS, or other cloud providers -…",
+        "date": "2026年6月23日",
+        "date_iso": "2026-06-23",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
         "title": "Introducing self-service lifecycle management capabilities for AWS Outposts",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-outposts-self-service-lifecycle-management",
         "summary": "AWS Outposts now provides self-service capabilities for configuration, quoting, ordering, subscription management, renewal, and decommissioning directly from the AWS Management Console, CLI, and API.…",
@@ -293,127 +403,27 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon CloudWatch Synthetics now supports multilocation canaries",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-synthetics-multilocation/",
-        "summary": "Today, Amazon CloudWatch Synthetics announces support for multilocation canaries, allowing developers and site reliability engineers to run the same canary across multiple AWS Regions simultaneously…",
-        "date": "2026年6月19日",
-        "date_iso": "2026-06-19",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon MSK Express brokers now support Intelligent Rebalancing on existing clusters",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-msk-express-intelligent/",
-        "summary": "Amazon MSK Provisioned clusters with Express brokers now support Intelligent Rebalancing on all existing clusters, at no additional cost. Previously available only on newly created clusters,…",
-        "date": "2026年6月19日",
-        "date_iso": "2026-06-19",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon ECS announces faster service auto scaling",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ecs-faster-autoscaling/",
-        "summary": "Amazon ECS service auto scaling now detects and responds to load changes faster with support for high resolution (20-second) metrics and metric publishing optimizations. In AWS benchmarking tests,…",
-        "date": "2026年6月19日",
-        "date_iso": "2026-06-19",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 G7 instances are now generally available",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-g7-generally-available",
-        "summary": "Today, AWS announces the general availability of Amazon Elastic Compute Cloud (Amazon EC2) G7 instances, accelerated by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs. G7 instances deliver up to…",
-        "date": "2026年6月19日",
-        "date_iso": "2026-06-19",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon MQ for RabbitMQ now supports private networking connectivity",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-mq-private-network-connectivity/",
-        "summary": "Amazon MQ for RabbitMQ now supports private networking, enabling your brokers to connect to private resources in your VPC without exposing those resources publicly.. This helps you meet your security…",
-        "date": "2026年6月19日",
-        "date_iso": "2026-06-19",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Parallel Computing Service supports P6e-GB200 and P6e-GB300 UltraServers",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-parallel-computing-service/",
-        "summary": "AWS Parallel Computing Service (PCS) now supports Amazon EC2 P6e-GB200 and P6e-GB300 UltraServer instances, enabling customers to run large-scale GPU workloads using the NVIDIA Blackwell architecture…",
-        "date": "2026年6月19日",
-        "date_iso": "2026-06-19",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Nested virtualization is now available on additional Intel platforms and US Gov Cloud regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/nested-virtualization-intel-us-gov-cloud/",
-        "summary": "Starting today, Nested virtualization is now available on additional Intel platforms and additional Regions. Nested virtualization is now available on C7i,R7i, M7i, C8id,R8id, M8id, C7i-flex,…",
-        "date": "2026年6月19日",
-        "date_iso": "2026-06-19",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Connect Customer launches the ability to interrupt an agent with an urgent contact",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-connect-interrupt-agent-with-urgent-contact/",
-        "summary": "Amazon Connect Customer now supports the ability to interrupt an agent with a contact, overriding their usual routing configuration in case of urgent or time-sensitive work. For example, an agent may…",
-        "date": "2026年6月19日",
-        "date_iso": "2026-06-19",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "all-MiniLM-L12-v2 for semantic search and sentence similarity is now available in Amazon SageMaker JumpStart",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/all-minilm-l12-v2-on-sagemaker-jumpstart/",
-        "summary": "Today, AWS announced the availability of all-MiniLM-L12-v2 in Amazon SageMaker JumpStart, expanding the portfolio of models available to AWS customers. This model from Sentence Transformers maps…",
-        "date": "2026年6月19日",
-        "date_iso": "2026-06-19",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Compute Optimizer enhances EBS volume recommendations with additional performance metrics",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-compute-optimizer-enhances-ebs-recommendations/",
-        "summary": "AWS Compute Optimizer now includes improved visibility into IOPS and throughput spikes when deliverings Amazon EBS volume rightsizing recommendations. Compute Optimizer analyzes two additional Amazon…",
-        "date": "2026年6月19日",
-        "date_iso": "2026-06-19",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Ministral-3-14B-Instruct for multimodal reasoning and agentic AI is now available in Amazon SageMaker JumpStart",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/ministral-3-14b-on-sagemaker-jumpstart/",
-        "summary": "Today, AWS announced the availability of Ministral-3-14B-Instruct-2512 in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. This model from Mistral…",
-        "date": "2026年6月19日",
-        "date_iso": "2026-06-19",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
       }
     ],
     "gcp": [
       {
+        "title": "June 23, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#June_23_2026",
+        "summary": "AI Hypercomputer Feature Preview : You can use Gemini in the Google Cloud console as an AI-powered interface to evaluate hardware options, estimate deployment costs, and view recommended…",
+        "date": "2026年6月23日",
+        "date_iso": "2026-06-23",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "June 22, 2026",
         "link": "https://docs.cloud.google.com/release-notes#June_22_2026",
-        "summary": "Apigee X Announcement On June 22nd, 2026, we released an updated version of Apigee (1-17-0-apigee-10). Note: Rollouts of this release began today and may take four or more business days to be…",
+        "summary": "AI Hypercomputer Feature Preview : RoCE VPC networks for VM instances support assigning alias IP ranges to MRDMA vNICs. For more information about these features, see the following: RDMA network…",
         "date": "2026年6月22日",
         "date_iso": "2026-06-22",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "GCP"
       },
       {
@@ -594,16 +604,6 @@
         "date_iso": "2026-06-04",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "GCP"
-      },
-      {
-        "title": "June 03, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#June_03_2026",
-        "summary": "App Engine standard environment Go Feature App Engine supports Direct VPC egress in Preview . Direct VPC egress lets your workloads access VPC network resources as a simpler, more cost-effective…",
-        "date": "2026年6月3日",
-        "date_iso": "2026-06-03",
-        "category": "network-tag",
-        "cat_label": "ネットワーク",
         "tag": "GCP"
       }
     ],
