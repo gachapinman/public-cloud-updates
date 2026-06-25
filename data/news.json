@@ -1,7 +1,17 @@
 {
-  "updated": "2026年06月24日 21:10 JST",
+  "updated": "2026年06月25日 13:34 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Public Preview: Application Gateway for Containers – Inference gateway",
+        "link": "https://azure.microsoft.com/updates?id=566516",
+        "summary": "Application Gateway for Containers is extending its ingress gateway feature set with new AI gateway capabilities. The new inference gateway capability brings the Kubernetes Gateway API Inference…",
+        "date": "2026年6月25日",
+        "date_iso": "2026-06-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Generally Available: Azure NetApp Files migration assistant",
         "link": "https://azure.microsoft.com/updates?id=565480",
@@ -191,23 +201,63 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Microsoft Foundry agent security capabilities in Microsoft Defender for Cloud are…",
-        "link": "https://azure.microsoft.com/updates?id=565171",
-        "summary": "Starting July 1, 2026, Microsoft Foundry agent security capabilities previously available through Microsoft Defender for Cloud will transition to a Microsoft Agent 365 license. Agent protection in…",
-        "date": "2026年6月9日",
-        "date_iso": "2026-06-09",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
       {
+        "title": "Amazon EC2 announces AMI Watermarks for improved AMI governance",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/ec2-image-watermarks-allowed-images",
+        "summary": "Amazon EC2 introduces AMI watermarks, letting you embed custom identifiers in your private AMIs. Once applied, a watermark automatically carries forward to every AMI derived from the original,…",
+        "date": "2026年6月25日",
+        "date_iso": "2026-06-25",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EMR Serverless now supports live configuration updates without application restarts",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-emr-serverless/",
+        "summary": "Amazon EMR Serverless now supports updates to key application configurations such as maximum capacity, and custom image settings — without stopping and restarting the application. New workloads…",
+        "date": "2026年6月25日",
+        "date_iso": "2026-06-25",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS IoT Device SDK for Swift is now generally available",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-iot-device-sdk-swift/",
+        "summary": "The AWS IoT Device SDK for Swift is now generally available, enabling Swift developers to build secure, scalable IoT applications natively on Apple platforms including macOS, iOS, and tvOS, as well…",
+        "date": "2026年6月25日",
+        "date_iso": "2026-06-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Neptune now supports AWS CloudFormation for global databases",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-neptune-aws-cloudformation/",
+        "summary": "Amazon Neptune &nbsp;now supports AWS CloudFormation for provisioning and managing Neptune global databases. Using the new AWS::Neptune::GlobalCluster resource type, you can define your multi-region…",
+        "date": "2026年6月24日",
+        "date_iso": "2026-06-24",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon CloudWatch now supports tags on dashboards",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-tags-on-dashboards",
         "summary": "A mazon CloudWatch now supports tagging for CloudWatch dashboards, enabling you to organize, categorize, and control access to your dashboards using tags. Tags are key-value pairs that help you…",
+        "date": "2026年6月24日",
+        "date_iso": "2026-06-24",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 High Memory U7in-24TB instances now available in AWS Asia Pacific (Seoul) region",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-u7in-24tb-aws-seoul/",
+        "summary": "Amazon EC2 High Memory U7in-24TB instances (u7in-24tb.224xlarge) are now available in AWS Asia Pacific (Seoul) region. U7i instances are part of the AWS 7th generation and are powered by custom…",
         "date": "2026年6月24日",
         "date_iso": "2026-06-24",
         "category": "ai-tag",
@@ -222,6 +272,16 @@
         "date_iso": "2026-06-24",
         "category": "network-tag",
         "cat_label": "ネットワーク",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon GuardDuty AI-powered investigations accelerate threat response (Preview)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-guardduty/",
+        "summary": "AWS announces the preview of AI-powered investigations in Amazon GuardDuty, a new capability that automatically analyzes GuardDuty findings and accounts to help you quickly distinguish true threats…",
+        "date": "2026年6月24日",
+        "date_iso": "2026-06-24",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "AWS"
       },
       {
@@ -343,69 +403,19 @@
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "AWS"
-      },
-      {
-        "title": "AWS Network Firewall updates default drop action for improved connection reliability",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-network-firewall-updates-default-drop-action",
-        "summary": "AWS Network Firewall now uses \"Application drop established (server-directed only)\" as the default stateful action for all newly created firewall policies, replacing the previous default of…",
-        "date": "2026年6月23日",
-        "date_iso": "2026-06-23",
-        "category": "network-tag",
-        "cat_label": "ネットワーク",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Batch now supports customer-ordered instance allocation strategies",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/batch-ordered-allocation-strategies/",
-        "summary": "AWS Batch now offers the Best Fit Progressive Ordered (BFPO) and Spot Capacity Optimized Prioritized (SCOP) allocation strategies, giving you more control over instance type prioritization in your…",
-        "date": "2026年6月23日",
-        "date_iso": "2026-06-23",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS IAM Identity Center now supports separate quotas for AWS accounts and applications",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-identity-center-separate-quotas/",
-        "summary": "AWS IAM Identity Center now supports separate quotas for the number of AWS accounts and applications that can be configured in an IAM Identity Center instance. By default, you can configure up to…",
-        "date": "2026年6月23日",
-        "date_iso": "2026-06-23",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon MSK now offers AI Agent Skills to help developers operate MSK efficiently and accelerate migrations to MSK",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-msk-ai-agent-skills",
-        "summary": "Amazon MSK now offers AI Agent Skills that give AI coding assistants expert, up-to-date guidance for operating Amazon MSK. The skills provide expert guidance for common operational tasks such as…",
-        "date": "2026年6月23日",
-        "date_iso": "2026-06-23",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "MSK Replicator now supports mutual TLS (mTLS) authentication for replication from external Apache Kafka clusters to MSK…",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-msk-replicator-mtls-support",
-        "summary": "Amazon MSK Replicator now supports mutual TLS (mTLS) authentication for data replication from external Apache Kafka clusters - including on-premises, self-managed on AWS, or other cloud providers -…",
-        "date": "2026年6月23日",
-        "date_iso": "2026-06-23",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Introducing self-service lifecycle management capabilities for AWS Outposts",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-outposts-self-service-lifecycle-management",
-        "summary": "AWS Outposts now provides self-service capabilities for configuration, quoting, ordering, subscription management, renewal, and decommissioning directly from the AWS Management Console, CLI, and API.…",
-        "date": "2026年6月22日",
-        "date_iso": "2026-06-22",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "June 24, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#June_24_2026",
+        "summary": "Apigee X Announcement Apigee Emulator Apigee Emulator v2.0.1 On June 24, 2026, we released Apigee Emulator version 2.0.1. This is a security-only hotfix release on top of v2.0.0 that addresses 10…",
+        "date": "2026年6月24日",
+        "date_iso": "2026-06-24",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "GCP"
+      },
       {
         "title": "June 23, 2026",
         "link": "https://docs.cloud.google.com/release-notes#June_23_2026",
@@ -595,16 +605,6 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
-      },
-      {
-        "title": "June 04, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#June_04_2026",
-        "summary": "Anthos Config Management Change Addressed multiple Common Vulnerabilities and Exposures (CVEs) by updating dependencies. Cloud Trace Feature To view the instrumentation scope or the schema associated…",
-        "date": "2026年6月4日",
-        "date_iso": "2026-06-04",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "GCP"
       }
     ],
     "oci": [
@@ -616,6 +616,26 @@
         "date_iso": "2026-06-24",
         "category": "security-tag",
         "cat_label": "セキュリティ",
+        "tag": "OCI"
+      },
+      {
+        "title": "OpenSearch Version 3.6 Support",
+        "link": "https://docs.oracle.com/iaas/releasenotes/search-opensearch/opensearch-v36-support.htm",
+        "summary": "",
+        "date": "2026年6月23日",
+        "date_iso": "2026-06-23",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Dedicated Coordinator Nodes for OCI Search with OpenSearch",
+        "link": "https://docs.oracle.com/iaas/releasenotes/search-opensearch/coordinator-nodes.htm",
+        "summary": "",
+        "date": "2026年6月23日",
+        "date_iso": "2026-06-23",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "OCI"
       },
       {
@@ -719,16 +739,6 @@
         "tag": "OCI"
       },
       {
-        "title": "Add ZPR security attributes to Object Storage private endpoints",
-        "link": "https://docs.oracle.com/iaas/releasenotes/objectstorage/objectstorage-zpr-enhancement.htm",
-        "summary": "",
-        "date": "2026年6月10日",
-        "date_iso": "2026-06-10",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "OCI"
-      },
-      {
         "title": "Veridata now available in OCI GoldenGate",
         "link": "https://docs.oracle.com/iaas/releasenotes/goldengate/veridata-dr-pipelines.htm",
         "summary": "",
@@ -746,6 +756,16 @@
         "date_iso": "2026-06-10",
         "category": "ai-tag",
         "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Add ZPR security attributes to Object Storage private endpoints",
+        "link": "https://docs.oracle.com/iaas/releasenotes/objectstorage/objectstorage-zpr-enhancement.htm",
+        "summary": "",
+        "date": "2026年6月10日",
+        "date_iso": "2026-06-10",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
         "tag": "OCI"
       },
       {
@@ -786,26 +806,6 @@
         "date_iso": "2026-06-03",
         "category": "security-tag",
         "cat_label": "セキュリティ",
-        "tag": "OCI"
-      },
-      {
-        "title": "Document Generator pre-built function version 26.4 now available",
-        "link": "https://docs.oracle.com/iaas/releasenotes/functions/functions-docgen-pbf_v26-4-enhancements.htm",
-        "summary": "",
-        "date": "2026年6月3日",
-        "date_iso": "2026-06-03",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "New Experience in Oracle Cloud Console",
-        "link": "https://docs.oracle.com/iaas/releasenotes/api-gateway/apigw-Redwood.htm",
-        "summary": "",
-        "date": "2026年6月2日",
-        "date_iso": "2026-06-02",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
         "tag": "OCI"
       }
     ]
