@@ -1,7 +1,17 @@
 {
-  "updated": "2026年06月25日 21:06 JST",
+  "updated": "2026年06月26日 13:40 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Retirement: Migrate from Azure Blueprints by January 31, 2027",
+        "link": "https://azure.microsoft.com/updates?id=564806",
+        "summary": "In September 2023, we announced Azure Blueprints would retire on July 11, 2026. We're extending that timeline to January 31, 2027, with phased retirement beginning July 31, 2026.What's changing?July…",
+        "date": "2026年6月26日",
+        "date_iso": "2026-06-26",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AZURE"
+      },
       {
         "title": "Public Preview: Application Gateway for Containers – Inference gateway",
         "link": "https://azure.microsoft.com/updates?id=566516",
@@ -191,19 +201,119 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Premium SSD v2 disks now support non-zonal Azure Virtual Machines",
-        "link": "https://azure.microsoft.com/updates?id=565359",
-        "summary": "Azure Premium SSD v2 disks now support non-zonal, single-instance Azure virtual machines in select Azure regions with Availability Zones (AZs). Customers can now deploy Premium SSD v2 with non-zonal…",
-        "date": "2026年6月9日",
-        "date_iso": "2026-06-09",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Amazon EC2 C7a instances are now available in the Asia Pacific (Singapore) Region",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-c7a-instances-asia-pacific-singapore-region/",
+        "summary": "Starting today, the compute optimized Amazon EC2 C7a instances are now available in AWS Asia Pacific (Singapore) Region. C7a instances, powered by 4th Gen AMD EPYC processors (code-named Genoa) with…",
+        "date": "2026年6月26日",
+        "date_iso": "2026-06-26",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 M8a instances now available in the Asia Pacific (Mumbai) region",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-m8a-instances-asia-pacific-mumbai-region/",
+        "summary": "Starting today, the general-purpose Amazon EC2 M8a instances are available in AWS Asia Pacific (Mumbai) region. M8a instances are powered by 5th Gen AMD EPYC processors (formerly code named Turin)…",
+        "date": "2026年6月26日",
+        "date_iso": "2026-06-26",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "OpenAI GPT, OpenAI GPT OSS, and NVIDIA Nemotron models on Amazon Bedrock receive FedRAMP High and DoD IL-4/5 approval…",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/addl-bedrock-model-fedramp-il-5-govcloud",
+        "summary": "OpenAI GPT, OpenAI GPT OSS, and NVIDIA Nemotron models are now FedRAMP High and Department of Defense Cloud Computing Security Requirements Guide (DoD CC SRG) Impact Level (IL) 4 and 5 approved…",
+        "date": "2026年6月26日",
+        "date_iso": "2026-06-26",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Network Firewall now supports managed threat intelligence rules from VisionHeight",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/network-firewall-visionheight-managed-rules",
+        "summary": "AWS Network Firewall now supports two new managed rule groups from VisionHeight, available through AWS Marketplace: Zero-Day Threat Protection, and Noisy Scanners and Tor Protection. These rule…",
+        "date": "2026年6月26日",
+        "date_iso": "2026-06-26",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Kiro achieves FedRAMP High and DoD IL-4/5 authorization in AWS GovCloud (US)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/kiro-fedramp-high-dod-il-4-5-govcloud-us/",
+        "summary": "Kiro is now FedRAMP High and Department of Defense Cloud Computing Security Requirements Guide (DoD CC SRG) Impact Level (IL) 4 and 5 authorized in the AWS GovCloud (US) Regions. Federal agencies,…",
+        "date": "2026年6月26日",
+        "date_iso": "2026-06-26",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Redshift adds Reserved Instance upfront pricing options for RG instances",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-redshift-ri-upfront-pricing-rg-instances",
+        "summary": "Amazon Redshift announces the availability of All Upfront and Partial Upfront payment options for 1-year and 3-year reserved instances for RG instances. Reserved instances allow customers to benefit…",
+        "date": "2026年6月26日",
+        "date_iso": "2026-06-26",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS GovCloud (US) now offers US-based, US citizen 24/7 technical support for all customers by default",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/default-govcloud-us-based-support/",
+        "summary": "AWS GovCloud (US) customers now have their technical support cases routed to US-based, US-citizen cloud support engineers by default with no opt-in or special request required. This enhancement…",
+        "date": "2026年6月25日",
+        "date_iso": "2026-06-25",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Backup enhances Amazon S3 backup copy performance",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-backup-amazon-s3-copy-enhancement/",
+        "summary": "AWS Backup now executes S3 backup copy operations up to 8x faster for buckets with millions of objects and low change rates between backup copies through enhanced change tracking. This improvement…",
+        "date": "2026年6月25日",
+        "date_iso": "2026-06-25",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon RDS Custom now supports the latest CU and GDR updates for Microsoft SQL Server",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-rds-custom-supports-latest-cu-gdr-updates-microsoft-sql-server",
+        "summary": "Amazon Relational Database Service (Amazon RDS) Custom for SQL Server now supports the latest Cumulative Updates (CU) and General Distribution Release (GDR) updates for Microsoft SQL Server. This…",
+        "date": "2026年6月25日",
+        "date_iso": "2026-06-25",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon RDS now supports the latest GDR updates for Microsoft SQL Server",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-rds-supports-latest-gdr-updates-microsoft-sql-server",
+        "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports the latest General Distribution Release (GDR) updates for Microsoft SQL Server. This release includes support for Microsoft…",
+        "date": "2026年6月25日",
+        "date_iso": "2026-06-25",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon OpenSearch Ingestion now available in AWS Europe (Paris) Region",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/opensearch-ingestion-europe-paris-region-availability",
+        "summary": "Starting today, customers can use Amazon OpenSearch Ingestion in the Europe (Paris) Region (eu-west-3) for ingesting data into their Amazon OpenSearch Service managed clusters or serverless…",
+        "date": "2026年6月25日",
+        "date_iso": "2026-06-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
       {
         "title": "Amazon EC2 announces AMI Watermarks for improved AMI governance",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/ec2-image-watermarks-allowed-images",
@@ -232,6 +342,16 @@
         "date_iso": "2026-06-25",
         "category": "ai-tag",
         "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Route 53 Global Resolver now supports sharing DNS Views between AWS Accounts",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-route-53-global-resolver/",
+        "summary": "Amazon Route 53 Global Resolver now enables you to share DNS views with other AWS accounts using AWS Resource Access Manager (AWS RAM). Consumer accounts can associate their own Route 53 private…",
+        "date": "2026年6月25日",
+        "date_iso": "2026-06-25",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
         "tag": "AWS"
       },
       {
@@ -283,129 +403,19 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "SageMaker Notebook Instances now support G6e instance types",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/g6e-new-launch-sagemaker-notebook-instances/",
-        "summary": "We are pleased to announce general availability of Amazon EC2 G6e instances on SageMaker notebook instances. Amazon EC2 G6e instances are powered by up to 8 NVIDIA L40s Tensor Core GPUs with 48 GB of…",
-        "date": "2026年6月24日",
-        "date_iso": "2026-06-24",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Bedrock AgentCore Memory now supports cross-account access",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/agentcore-memory-cross-account-access",
-        "summary": "Amazon Bedrock AgentCore Memory now enables cross-account access, allowing you to build multi-account architectures where memory resources and consuming agents span multiple AWS accounts. You can…",
-        "date": "2026年6月24日",
-        "date_iso": "2026-06-24",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS HealthOmics now supports ephemeral storage for private workflows",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/healthomics-scratch-storage/",
-        "summary": "AWS HealthOmics adds ephemeral storage for private workflows, giving bioinformatics workloads dedicated scratch space that delivers more consistent run performance and lower costs. Each workflow task…",
-        "date": "2026年6月24日",
-        "date_iso": "2026-06-24",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Cognito now supports customer managed key for encryption at rest",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cognito-customer-managed-key",
-        "summary": "Amazon Cognito now supports customer managed keys in AWS Key Management Service (KMS) for encrypting user pool data at rest. While AWS owned keys are used by default to protect your data, customer…",
-        "date": "2026年6月24日",
-        "date_iso": "2026-06-24",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Automated Reasoning checks in Amazon Bedrock Guardrails add new policy refinement workflows",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-guardrails/",
-        "summary": "Today, AWS announces new automated refinement workflows for Automated Reasoning checks in Amazon Bedrock Guardrails. Automated Reasoning checks use formal logic to mathematically validate the…",
-        "date": "2026年6月24日",
-        "date_iso": "2026-06-24",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon CloudWatch launches OTel Container Insights for Amazon EKS",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-otel-amazon-eks/",
-        "summary": "CloudWatch OTel Container Insights for Amazon EKS collects infrastructure metrics at 30-second granularity using open-source receivers including cAdvisor, Kube State Metrics, and NVIDIA DCGM. Each…",
-        "date": "2026年6月24日",
-        "date_iso": "2026-06-24",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Claude Tag is now available in beta via Claude Enterprise in AWS Marketplace",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/claude-tag-aws-marketplace/",
-        "summary": "Anthropic is launching Claude Tag — bringing Claude directly into the channels where your team already works, starting with Slack. Claude Tag is available today in beta to AWS customers who access…",
-        "date": "2026年6月23日",
-        "date_iso": "2026-06-23",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon OpenSearch Service now offers AI-assisted migrations",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-opensearch-service-ai-migrations",
-        "summary": "Migration Assistant for&nbsp;Amazon OpenSearch Service now includes an AI-assisted experience that simplifies moving your self-managed Apache Solr, Elasticsearch, or OpenSearch deployments to…",
-        "date": "2026年6月23日",
-        "date_iso": "2026-06-23",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SageMaker Studio notebooks now support G7e instance types",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/g7e-new-launch-sagemaker-studio-notebooks/",
-        "summary": "Amazon G7e instances feature up to 8 NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs, with 96 GB of memory per GPU, and 5th Generation Intel Xeon processors. They support up to 192 virtual CPUs…",
-        "date": "2026年6月23日",
-        "date_iso": "2026-06-23",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS HealthOmics now supports Nextflow profiles",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-healthomics-nextflow-profiles/",
-        "summary": "AWS HealthOmics now supports Nextflow profiles, enabling customers to activate predefined execution settings at run time. Nextflow profiles allow customers to define reusable settings and select them…",
-        "date": "2026年6月23日",
-        "date_iso": "2026-06-23",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS introduces Lambda MicroVMs for isolated execution of user and AI-generated code",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lambda-microvms/",
-        "summary": "AWS introduces Lambda MicroVMs, a new serverless compute primitive that provides VM-level isolation, near-instant launch and resume speeds, and state preservation for executing user or AI-generated…",
-        "date": "2026年6月23日",
-        "date_iso": "2026-06-23",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Transform for migrations now supports all AWS commercial regions as migration targets",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-migrations-region-expansion/",
-        "summary": "AWS Transform for migrations now supports all AWS commercial regions as migration targets. A migration target region is the AWS region where migrated resources are deployed, including landing zones,…",
-        "date": "2026年6月23日",
-        "date_iso": "2026-06-23",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "June 25, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#June_25_2026",
+        "summary": "Application Integration Security Security bulletins page See the new security bulletins page for Application Integration. Use it to stay informed about related security updates, vulnerabilities, and…",
+        "date": "2026年6月25日",
+        "date_iso": "2026-06-25",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "GCP"
+      },
       {
         "title": "June 24, 2026",
         "link": "https://docs.cloud.google.com/release-notes#June_24_2026",
@@ -479,11 +489,11 @@
       {
         "title": "June 17, 2026",
         "link": "https://docs.cloud.google.com/release-notes#June_17_2026",
-        "summary": "BigQuery Feature You can enable autonomous embedding generation on new or existing tables that you make with the CREATE TABLE or ALTER TABLE statements. When you do this, BigQuery maintains a column…",
+        "summary": "Agent Assist Feature Agent Assist offers the following UI module integrations with Agent Assist for Salesforce : Chat Voice with Twilio Flex Voice with Nice CXone Voice with Genesys CX Cloud BigQuery…",
         "date": "2026年6月17日",
         "date_iso": "2026-06-17",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "GCP"
       },
       {
@@ -595,19 +605,29 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
-      },
-      {
-        "title": "June 05, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#June_05_2026",
-        "summary": "Cloud Data Fusion Feature Cloud Data Fusion version 6.11.1.3 is generally available ( GA ). Fixed Fixed in Cloud Data Fusion 6.11.1.3: Fixed an issue that caused pipeline preview runs to fail with an…",
-        "date": "2026年6月5日",
-        "date_iso": "2026-06-05",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
       }
     ],
     "oci": [
+      {
+        "title": "API Gateway support for login back ends",
+        "link": "https://docs.oracle.com/iaas/releasenotes/api-gateway/apigw-login-backend-static-redirect.htm",
+        "summary": "",
+        "date": "2026年6月25日",
+        "date_iso": "2026-06-25",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Expanded OCI Functions support in Fn Project CLI now available",
+        "link": "https://docs.oracle.com/iaas/releasenotes/functions/functions-enhanced-fnproject-cli.htm",
+        "summary": "",
+        "date": "2026年6月25日",
+        "date_iso": "2026-06-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
       {
         "title": "Zero Trust Packet Routing Visualizer",
         "link": "https://docs.oracle.com/iaas/releasenotes/zero-trust-packet-routing/zpr-visualizer.htm",
@@ -679,6 +699,16 @@
         "tag": "OCI"
       },
       {
+        "title": "Public connectivity for Kafka clusters",
+        "link": "https://docs.oracle.com/iaas/releasenotes/kafka/public-connectivity.htm",
+        "summary": "",
+        "date": "2026年6月15日",
+        "date_iso": "2026-06-15",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
         "title": "Import DeepSeek V4 Flash and DeepSeek V4 Pro in OCI Generative AI",
         "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/deepseek-v4.htm",
         "summary": "",
@@ -709,11 +739,21 @@
         "tag": "OCI"
       },
       {
-        "title": "Public connectivity for Kafka clusters",
-        "link": "https://docs.oracle.com/iaas/releasenotes/kafka/public-connectivity.htm",
+        "title": "Events for Management Agent",
+        "link": "https://docs.oracle.com/iaas/releasenotes/management-agent/jun26-macs-events.htm",
         "summary": "",
         "date": "2026年6月15日",
         "date_iso": "2026-06-15",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Streaming with Apache Kafka support for Apache Kafka 4.0.0",
+        "link": "https://docs.oracle.com/iaas/releasenotes/kafka/kafka-4-0.htm",
+        "summary": "",
+        "date": "2026年6月12日",
+        "date_iso": "2026-06-12",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "OCI"
@@ -764,46 +804,6 @@
         "summary": "",
         "date": "2026年6月10日",
         "date_iso": "2026-06-10",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "OCI"
-      },
-      {
-        "title": "HeatWave: IPv6 Support",
-        "link": "https://docs.oracle.com/iaas/releasenotes/mysql-database/heatwave-ipv6-support.htm",
-        "summary": "",
-        "date": "2026年6月9日",
-        "date_iso": "2026-06-09",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "OCI"
-      },
-      {
-        "title": "Internet of Things (IoT) introduces new regions and an Oracle Developer Tools connection",
-        "link": "https://docs.oracle.com/iaas/releasenotes/internet-of-things/update-06092026.htm",
-        "summary": "",
-        "date": "2026年6月9日",
-        "date_iso": "2026-06-09",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Import NVIDIA Nemotron 3 Ultra in OCI Generative AI",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/nvidia-nemotron-3-ultra-nvfp4.htm",
-        "summary": "",
-        "date": "2026年6月5日",
-        "date_iso": "2026-06-05",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Health Status, Certificate Rotation, Security Attributes, and Session Metrics Updates for Network Firewall",
-        "link": "https://docs.oracle.com/iaas/releasenotes/network-firewall/release-notes-2026-02-20.htm",
-        "summary": "",
-        "date": "2026年6月3日",
-        "date_iso": "2026-06-03",
         "category": "security-tag",
         "cat_label": "セキュリティ",
         "tag": "OCI"
