@@ -1,5 +1,5 @@
 {
-  "updated": "2026年06月26日 16:08 JST",
+  "updated": "2026年06月26日 21:02 JST",
   "clouds": {
     "azure": [
       {
@@ -699,16 +699,6 @@
         "tag": "OCI"
       },
       {
-        "title": "Public connectivity for Kafka clusters",
-        "link": "https://docs.oracle.com/iaas/releasenotes/kafka/public-connectivity.htm",
-        "summary": "",
-        "date": "2026年6月15日",
-        "date_iso": "2026-06-15",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
         "title": "Import DeepSeek V4 Flash and DeepSeek V4 Pro in OCI Generative AI",
         "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/deepseek-v4.htm",
         "summary": "",
@@ -749,11 +739,11 @@
         "tag": "OCI"
       },
       {
-        "title": "Streaming with Apache Kafka support for Apache Kafka 4.0.0",
-        "link": "https://docs.oracle.com/iaas/releasenotes/kafka/kafka-4-0.htm",
+        "title": "Public connectivity for Kafka clusters",
+        "link": "https://docs.oracle.com/iaas/releasenotes/kafka/public-connectivity.htm",
         "summary": "",
-        "date": "2026年6月12日",
-        "date_iso": "2026-06-12",
+        "date": "2026年6月15日",
+        "date_iso": "2026-06-15",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "OCI"
@@ -771,6 +761,16 @@
       {
         "title": "New Experience in Oracle Cloud Console",
         "link": "https://docs.oracle.com/iaas/releasenotes/control-center/occ-redwood.htm",
+        "summary": "",
+        "date": "2026年6月12日",
+        "date_iso": "2026-06-12",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Streaming with Apache Kafka support for Apache Kafka 4.0.0",
+        "link": "https://docs.oracle.com/iaas/releasenotes/kafka/kafka-4-0.htm",
         "summary": "",
         "date": "2026年6月12日",
         "date_iso": "2026-06-12",
