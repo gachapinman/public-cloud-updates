@@ -1,5 +1,5 @@
 {
-  "updated": "2026年06月26日 21:02 JST",
+  "updated": "2026年06月27日 13:16 JST",
   "clouds": {
     "azure": [
       {
@@ -205,6 +205,16 @@
     ],
     "aws": [
       {
+        "title": "Amazon EC2 R8g instances now available in additional regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-r8g-instances-additional-regions/",
+        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8g instances are available in AWS Asia Pacific (Thailand, New Zealand), AWS Africa (Cape Town), AWS Europe (Milan), and AWS Canada West…",
+        "date": "2026年6月27日",
+        "date_iso": "2026-06-27",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon EC2 C7a instances are now available in the Asia Pacific (Singapore) Region",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-c7a-instances-asia-pacific-singapore-region/",
         "summary": "Starting today, the compute optimized Amazon EC2 C7a instances are now available in AWS Asia Pacific (Singapore) Region. C7a instances, powered by 4th Gen AMD EPYC processors (code-named Genoa) with…",
@@ -238,6 +248,16 @@
         "title": "AWS Network Firewall now supports managed threat intelligence rules from VisionHeight",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/network-firewall-visionheight-managed-rules",
         "summary": "AWS Network Firewall now supports two new managed rule groups from VisionHeight, available through AWS Marketplace: Zero-Day Threat Protection, and Noisy Scanners and Tor Protection. These rule…",
+        "date": "2026年6月26日",
+        "date_iso": "2026-06-26",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 C8in instances are now available in additional regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-c8in-ireland-ohio/",
+        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8in instances are available in the AWS US East (Ohio) and Europe (Ireland) regions. C8in instances are powered by custom, sixth generation…",
         "date": "2026年6月26日",
         "date_iso": "2026-06-26",
         "category": "ai-tag",
@@ -355,29 +375,19 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon Neptune now supports AWS CloudFormation for global databases",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-neptune-aws-cloudformation/",
-        "summary": "Amazon Neptune &nbsp;now supports AWS CloudFormation for provisioning and managing Neptune global databases. Using the new AWS::Neptune::GlobalCluster resource type, you can define your multi-region…",
+        "title": "Amazon CloudWatch Logs がマネージド型の syslog 取り込みをサポート",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/06/amazon-cloudwatch-syslog-ingestion/",
+        "summary": "",
         "date": "2026年6月24日",
         "date_iso": "2026-06-24",
-        "category": "database-tag",
-        "cat_label": "データベース",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "AWS"
       },
       {
-        "title": "Amazon CloudWatch now supports tags on dashboards",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-tags-on-dashboards",
-        "summary": "A mazon CloudWatch now supports tagging for CloudWatch dashboards, enabling you to organize, categorize, and control access to your dashboards using tags. Tags are key-value pairs that help you…",
-        "date": "2026年6月24日",
-        "date_iso": "2026-06-24",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 High Memory U7in-24TB instances now available in AWS Asia Pacific (Seoul) region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-u7in-24tb-aws-seoul/",
-        "summary": "Amazon EC2 High Memory U7in-24TB instances (u7in-24tb.224xlarge) are now available in AWS Asia Pacific (Seoul) region. U7i instances are part of the AWS 7th generation and are powered by custom…",
+        "title": "SageMaker ノートブックインスタンスが G6e インスタンスタイプのサポートを開始",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/03/g6e-new-launch-sagemaker-notebook-instances/",
+        "summary": "",
         "date": "2026年6月24日",
         "date_iso": "2026-06-24",
         "category": "ai-tag",
@@ -385,19 +395,9 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon CloudWatch Logs supports managed syslog ingestion",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-syslog-ingestion/",
-        "summary": "Amazon CloudWatch Logs supports managed syslog ingestion, enabling customers to send syslog messages from firewalls, routers, switches, and Linux servers directly into CloudWatch Logs. With today's…",
-        "date": "2026年6月24日",
-        "date_iso": "2026-06-24",
-        "category": "network-tag",
-        "cat_label": "ネットワーク",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon GuardDuty AI-powered investigations accelerate threat response (Preview)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-guardduty/",
-        "summary": "AWS announces the preview of AI-powered investigations in Amazon GuardDuty, a new capability that automatically analyzes GuardDuty findings and accounts to help you quickly distinguish true threats…",
+        "title": "Amazon Bedrock AgentCore Memory がクロスアカウントアクセスのサポートを開始",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/06/agentcore-memory-cross-account-access",
+        "summary": "",
         "date": "2026年6月24日",
         "date_iso": "2026-06-24",
         "category": "ai-tag",
@@ -406,6 +406,16 @@
       }
     ],
     "gcp": [
+      {
+        "title": "June 26, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#June_26_2026",
+        "summary": "Compute Engine Feature Generally available : You can cancel a future reservation request in calendar mode to prevent Compute Engine from provisioning your requested resources and incurring…",
+        "date": "2026年6月26日",
+        "date_iso": "2026-06-26",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
       {
         "title": "June 25, 2026",
         "link": "https://docs.cloud.google.com/release-notes#June_25_2026",
@@ -592,16 +602,6 @@
         "summary": "Google SecOps SOAR Announcement Release 6.3.88 is being rolled out to the first phase of regions as listed here . This release contains internal and customer bug fixes.",
         "date": "2026年6月7日",
         "date_iso": "2026-06-07",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "June 06, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#June_06_2026",
-        "summary": "Cloud Location Finder Announcement Cloud Location Finder is generally available ( GA ). Google SecOps SOAR Announcement Release 6.3.87 is now available for all regions. VPC Service Controls Feature…",
-        "date": "2026年6月6日",
-        "date_iso": "2026-06-06",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
