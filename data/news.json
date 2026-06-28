@@ -1,5 +1,5 @@
 {
-  "updated": "2026年06月27日 20:15 JST",
+  "updated": "2026年06月28日 13:52 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "June 27, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#June_27_2026",
+        "summary": "Google SecOps SOAR Announcement Release 6.3.90 is now available for all regions.",
+        "date": "2026年6月27日",
+        "date_iso": "2026-06-27",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "June 26, 2026",
         "link": "https://docs.cloud.google.com/release-notes#June_26_2026",
         "summary": "Compute Engine Feature Generally available : You can cancel a future reservation request in calendar mode to prevent Compute Engine from provisioning your requested resources and incurring…",
@@ -594,16 +604,6 @@
         "date_iso": "2026-06-08",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "GCP"
-      },
-      {
-        "title": "June 07, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#June_07_2026",
-        "summary": "Google SecOps SOAR Announcement Release 6.3.88 is being rolled out to the first phase of regions as listed here . This release contains internal and customer bug fixes.",
-        "date": "2026年6月7日",
-        "date_iso": "2026-06-07",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "GCP"
       }
     ],
