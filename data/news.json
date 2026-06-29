@@ -1,5 +1,5 @@
 {
-  "updated": "2026年06月28日 20:25 JST",
+  "updated": "2026年06月29日 13:59 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "June 28, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#June_28_2026",
+        "summary": "Google SecOps Change Google SecOps has updated the list of supported default parsers . Parsers are updated gradually, so it might take one to four days before you see the changes reflected in your…",
+        "date": "2026年6月28日",
+        "date_iso": "2026-06-28",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "GCP"
+      },
+      {
         "title": "June 27, 2026",
         "link": "https://docs.cloud.google.com/release-notes#June_27_2026",
         "summary": "Google SecOps SOAR Announcement Release 6.3.90 is now available for all regions.",
@@ -594,16 +604,6 @@
         "date_iso": "2026-06-09",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "June 08, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#June_08_2026",
-        "summary": "Apigee X Announcement On June 8th, 2026, we released an updated version of Apigee (1-17-0-apigee-9). Note: Rollouts of this release began today and may take four or more business days to be completed…",
-        "date": "2026年6月8日",
-        "date_iso": "2026-06-08",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
         "tag": "GCP"
       }
     ],
