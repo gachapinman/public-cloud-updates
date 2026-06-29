@@ -1,5 +1,5 @@
 {
-  "updated": "2026年06月29日 17:33 JST",
+  "updated": "2026年06月29日 22:54 JST",
   "clouds": {
     "azure": [
       {
@@ -669,6 +669,16 @@
         "tag": "OCI"
       },
       {
+        "title": "vSphere 8.0 Software Bundle Updates",
+        "link": "https://docs.oracle.com/iaas/releasenotes/oracle-cloud-vmware-solution/artifact-versions-vsphere8.htm",
+        "summary": "",
+        "date": "2026年6月16日",
+        "date_iso": "2026-06-16",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
         "title": "Use Query Insights to Understand OCI Database with PostgreSQL Performance",
         "link": "https://docs.oracle.com/iaas/releasenotes/postgresql/query-insights.htm",
         "summary": "",
@@ -796,16 +806,6 @@
         "date_iso": "2026-06-10",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Add ZPR security attributes to Object Storage private endpoints",
-        "link": "https://docs.oracle.com/iaas/releasenotes/objectstorage/objectstorage-zpr-enhancement.htm",
-        "summary": "",
-        "date": "2026年6月10日",
-        "date_iso": "2026-06-10",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
         "tag": "OCI"
       }
     ]
