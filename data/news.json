@@ -1,5 +1,5 @@
 {
-  "updated": "2026年06月29日 22:54 JST",
+  "updated": "2026年06月30日 13:34 JST",
   "clouds": {
     "azure": [
       {
@@ -205,6 +205,36 @@
     ],
     "aws": [
       {
+        "title": "AWS WAF adds support for Amazon Bedrock AgentCore Gateway",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-waf-amazon-bedrock-agentcore/",
+        "summary": "Today, AWS announces general availability of AWS Web Application Firewall (AWS WAF) protection for Amazon Bedrock AgentCore Gateway, enabling you to protect your agentic AI workloads from common web…",
+        "date": "2026年6月30日",
+        "date_iso": "2026-06-30",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon MWAA Serverless now supports shared VPC configurations",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-mwaa-serverless-vpc/",
+        "summary": "Amazon Managed Workflows for Apache Airflow (Amazon MWAA) Serverless now supports shared VPC subnets. Previously, customers using subnets shared via AWS Resource Access Manager (AWS RAM) received a…",
+        "date": "2026年6月30日",
+        "date_iso": "2026-06-30",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon S3 server access logs now deliver to Amazon CloudWatch Logs and Amazon S3 Tables",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-s3-cloudwatch-logs-tables/",
+        "summary": "Amazon S3 now supports delivering server access logs to Amazon CloudWatch Logs, giving you instant querying, alarms, cross-account and cross-Region aggregation, and AWS Key Management Service (KMS)…",
+        "date": "2026年6月29日",
+        "date_iso": "2026-06-29",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon EC2 R8g instances now available in additional regions",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-r8g-instances-additional-regions/",
         "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8g instances are available in AWS Asia Pacific (Thailand, New Zealand), AWS Africa (Cape Town), AWS Europe (Milan), and AWS Canada West…",
@@ -285,6 +315,36 @@
         "tag": "AWS"
       },
       {
+        "title": "Amazon EC2、AMI ガバナンス強化のための AMI ウォーターマークを発表",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/06/ec2-image-watermarks-allowed-images",
+        "summary": "",
+        "date": "2026年6月25日",
+        "date_iso": "2026-06-25",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EMR Serverless で、アプリケーションの再起動なしのライブ設定更新のサポート開始",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/06/amazon-emr-serverless/",
+        "summary": "",
+        "date": "2026年6月25日",
+        "date_iso": "2026-06-25",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS IoT Device SDK for Swift の一般提供開始",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/06/aws-iot-device-sdk-swift/",
+        "summary": "",
+        "date": "2026年6月25日",
+        "date_iso": "2026-06-25",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
         "title": "AWS GovCloud (US) now offers US-based, US citizen 24/7 technical support for all customers by default",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/default-govcloud-us-based-support/",
         "summary": "AWS GovCloud (US) customers now have their technical support cases routed to US-based, US-citizen cloud support engineers by default with no opt-in or special request required. This enhancement…",
@@ -335,36 +395,6 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon EC2 announces AMI Watermarks for improved AMI governance",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/ec2-image-watermarks-allowed-images",
-        "summary": "Amazon EC2 introduces AMI watermarks, letting you embed custom identifiers in your private AMIs. Once applied, a watermark automatically carries forward to every AMI derived from the original,…",
-        "date": "2026年6月25日",
-        "date_iso": "2026-06-25",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EMR Serverless now supports live configuration updates without application restarts",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-emr-serverless/",
-        "summary": "Amazon EMR Serverless now supports updates to key application configurations such as maximum capacity, and custom image settings — without stopping and restarting the application. New workloads…",
-        "date": "2026年6月25日",
-        "date_iso": "2026-06-25",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS IoT Device SDK for Swift is now generally available",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-iot-device-sdk-swift/",
-        "summary": "The AWS IoT Device SDK for Swift is now generally available, enabling Swift developers to build secure, scalable IoT applications natively on Apple platforms including macOS, iOS, and tvOS, as well…",
-        "date": "2026年6月25日",
-        "date_iso": "2026-06-25",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
         "title": "Amazon Route 53 Global Resolver now supports sharing DNS Views between AWS Accounts",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-route-53-global-resolver/",
         "summary": "Amazon Route 53 Global Resolver now enables you to share DNS views with other AWS accounts using AWS Resource Access Manager (AWS RAM). Consumer accounts can associate their own Route 53 private…",
@@ -373,39 +403,19 @@
         "category": "network-tag",
         "cat_label": "ネットワーク",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon CloudWatch Logs がマネージド型の syslog 取り込みをサポート",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/06/amazon-cloudwatch-syslog-ingestion/",
-        "summary": "",
-        "date": "2026年6月24日",
-        "date_iso": "2026-06-24",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "SageMaker ノートブックインスタンスが G6e インスタンスタイプのサポートを開始",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/03/g6e-new-launch-sagemaker-notebook-instances/",
-        "summary": "",
-        "date": "2026年6月24日",
-        "date_iso": "2026-06-24",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Bedrock AgentCore Memory がクロスアカウントアクセスのサポートを開始",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/06/agentcore-memory-cross-account-access",
-        "summary": "",
-        "date": "2026年6月24日",
-        "date_iso": "2026-06-24",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "June 29, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#June_29_2026",
+        "summary": "BigQuery Change Effective March 9, 2026 , new users are required to have a Cloud Billing account to use the BigQuery Migration Service . This change applies to users starting new projects using…",
+        "date": "2026年6月29日",
+        "date_iso": "2026-06-29",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "GCP"
+      },
       {
         "title": "June 28, 2026",
         "link": "https://docs.cloud.google.com/release-notes#June_28_2026",
@@ -592,16 +602,6 @@
         "summary": "Agent Assist Change Agent Assist offers Proactive generative knowledge assist V2 in GA. This version supports rich search context, multiple suggested queries, and granular control over triggering…",
         "date": "2026年6月10日",
         "date_iso": "2026-06-10",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "June 09, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#June_09_2026",
-        "summary": "Cloud Domains Feature Organization Policy Service custom constraints are generally available for Cloud Domains. For more information, see Use custom organization policies . Cloud Service Mesh…",
-        "date": "2026年6月9日",
-        "date_iso": "2026-06-09",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
