@@ -1,5 +1,5 @@
 {
-  "updated": "2026年06月30日 16:07 JST",
+  "updated": "2026年06月30日 21:00 JST",
   "clouds": {
     "azure": [
       {
@@ -205,6 +205,16 @@
     ],
     "aws": [
       {
+        "title": "OpenAI GPT-5.4 and NVIDIA Nemotron 3 Super 120B now available on Kiro in AWS GovCloud (US-West) Region",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/kiro-gpt-nemotron-launch-aws-govcloud-us/",
+        "summary": "Two new models are now available in the Kiro IDE and CLI for the AWS GovCloud (US-West) Region. OpenAI GPT-5.4 is now available in Kiro for complex reasoning, coding, document analysis, and…",
+        "date": "2026年6月30日",
+        "date_iso": "2026-06-30",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
         "title": "AWS WAF adds support for Amazon Bedrock AgentCore Gateway",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-waf-amazon-bedrock-agentcore/",
         "summary": "Today, AWS announces general availability of AWS Web Application Firewall (AWS WAF) protection for Amazon Bedrock AgentCore Gateway, enabling you to protect your agentic AI workloads from common web…",
@@ -392,16 +402,6 @@
         "date_iso": "2026-06-25",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Route 53 Global Resolver now supports sharing DNS Views between AWS Accounts",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-route-53-global-resolver/",
-        "summary": "Amazon Route 53 Global Resolver now enables you to share DNS views with other AWS accounts using AWS Resource Access Manager (AWS RAM). Consumer accounts can associate their own Route 53 private…",
-        "date": "2026年6月25日",
-        "date_iso": "2026-06-25",
-        "category": "network-tag",
-        "cat_label": "ネットワーク",
         "tag": "AWS"
       }
     ],
