@@ -1,5 +1,5 @@
 {
-  "updated": "2026年07月01日 16:55 JST",
+  "updated": "2026年07月01日 21:24 JST",
   "clouds": {
     "azure": [
       {
@@ -409,11 +409,11 @@
       {
         "title": "June 30, 2026",
         "link": "https://docs.cloud.google.com/release-notes#June_30_2026",
-        "summary": "BigQuery Feature You can specify an optional principal property on BigQuery reservation assignments to route queries to specific reservations based on the identity of the user, service account, or…",
+        "summary": "Agent Platform Workbench Feature Python 3.12 base containers for Agent Platform Workbench custom containers You can build custom containers for Agent Platform Workbench instances using Python 3.12…",
         "date": "2026年6月30日",
         "date_iso": "2026-06-30",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "GCP"
       },
       {
@@ -609,6 +609,26 @@
     ],
     "oci": [
       {
+        "title": "Use Deep Data Security in Autonomous AI Database",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-06-deep-data-security.htm",
+        "summary": "",
+        "date": "2026年6月30日",
+        "date_iso": "2026-06-30",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Oracle Data Science Agent",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-06-data-science-agent.htm",
+        "summary": "",
+        "date": "2026年6月30日",
+        "date_iso": "2026-06-30",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
         "title": "API Gateway support for login back ends",
         "link": "https://docs.oracle.com/iaas/releasenotes/api-gateway/apigw-login-backend-static-redirect.htm",
         "summary": "",
@@ -639,6 +659,16 @@
         "tag": "OCI"
       },
       {
+        "title": "Iceberg REST Catalog Integration with DBMS_DCAT",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-06-iceberg-rest-catalog.htm",
+        "summary": "",
+        "date": "2026年6月23日",
+        "date_iso": "2026-06-23",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "OCI"
+      },
+      {
         "title": "OpenSearch Version 3.6 Support",
         "link": "https://docs.oracle.com/iaas/releasenotes/search-opensearch/opensearch-v36-support.htm",
         "summary": "",
@@ -654,6 +684,16 @@
         "summary": "",
         "date": "2026年6月23日",
         "date_iso": "2026-06-23",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Lake Cache for Mounted Catalog Tables",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-06-lake-cache-mounted-catalogs.htm",
+        "summary": "",
+        "date": "2026年6月17日",
+        "date_iso": "2026-06-17",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "OCI"
@@ -759,51 +799,11 @@
         "tag": "OCI"
       },
       {
-        "title": "Oracle Data Safe Promotion for On-Premises Databases, Databases on Compute, and Amazon RDS for Oracle",
-        "link": "https://docs.oracle.com/iaas/releasenotes/data-safe/onprem-promotion.htm",
+        "title": "Autonomous AI Database Serverless on Oracle AI Database@AWS",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-06-adbs-on-aws.htm",
         "summary": "",
         "date": "2026年6月12日",
         "date_iso": "2026-06-12",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "OCI"
-      },
-      {
-        "title": "New Experience in Oracle Cloud Console",
-        "link": "https://docs.oracle.com/iaas/releasenotes/control-center/occ-redwood.htm",
-        "summary": "",
-        "date": "2026年6月12日",
-        "date_iso": "2026-06-12",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Streaming with Apache Kafka support for Apache Kafka 4.0.0",
-        "link": "https://docs.oracle.com/iaas/releasenotes/kafka/kafka-4-0.htm",
-        "summary": "",
-        "date": "2026年6月12日",
-        "date_iso": "2026-06-12",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Veridata now available in OCI GoldenGate",
-        "link": "https://docs.oracle.com/iaas/releasenotes/goldengate/veridata-dr-pipelines.htm",
-        "summary": "",
-        "date": "2026年6月10日",
-        "date_iso": "2026-06-10",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "HeatWave: Near-Zero Downtime Maintenance Available for All Eligible DB Systems",
-        "link": "https://docs.oracle.com/iaas/releasenotes/mysql-database/heatwave-near-zero-downtime-maintenance.htm",
-        "summary": "",
-        "date": "2026年6月10日",
-        "date_iso": "2026-06-10",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "OCI"
