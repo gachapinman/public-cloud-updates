@@ -1,5 +1,5 @@
 {
-  "updated": "2026年07月03日 13:09 JST",
+  "updated": "2026年07月03日 15:48 JST",
   "clouds": {
     "azure": [
       {
@@ -305,6 +305,16 @@
         "tag": "AWS"
       },
       {
+        "title": "Amazon ECS now supports configurable deployment circuit breaker settings",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-circuit-breaker-settings/",
+        "summary": "Amazon Elastic Container Service (Amazon ECS) now gives you more control over when a service deployment is considered failed and automatically rolled back. You can now customize deployment circuit…",
+        "date": "2026年7月2日",
+        "date_iso": "2026-07-02",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon RDS announces Cross-Region Automated Backups in four additional AWS Regions",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-cross-region-automated-backups-additional-aws-regions/",
         "summary": "Cross-Region Automated Backup replication for Amazon RDS is now available in four additional AWS Regions. This launch allows you to setup automated backup replication between Mexico (Central) and…",
@@ -318,16 +328,6 @@
         "title": "Amazon Bedrock AgentCore now available in four additional AWS Regions",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-four-additional-regions/",
         "summary": "&nbsp;Amazon Bedrock AgentCore is now available in four additional AWS Regions: Asia Pacific (Bangkok), Asia Pacific (Malaysia), Europe (Milan), and Europe (Spain).&nbsp;Amazon Bedrock AgentCore is…",
-        "date": "2026年7月2日",
-        "date_iso": "2026-07-02",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon ECS now supports configurable deployment circuit breaker settings",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-circuit-breaker-settings/",
-        "summary": "Amazon Elastic Container Service (Amazon ECS) now gives you more control over when a service deployment is considered failed and automatically rolled back. You can now customize deployment circuit…",
         "date": "2026年7月2日",
         "date_iso": "2026-07-02",
         "category": "ai-tag",
@@ -739,6 +739,16 @@
         "tag": "OCI"
       },
       {
+        "title": "HeatWave: Support for Versions 9.7.1 and 8.4.10",
+        "link": "https://docs.oracle.com/iaas/releasenotes/mysql-database/heatwave-971-8410.htm",
+        "summary": "",
+        "date": "2026年6月16日",
+        "date_iso": "2026-06-16",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "OCI"
+      },
+      {
         "title": "vSphere 8.0 Software Bundle Updates",
         "link": "https://docs.oracle.com/iaas/releasenotes/oracle-cloud-vmware-solution/artifact-versions-vsphere8.htm",
         "summary": "",
@@ -791,16 +801,6 @@
       {
         "title": "Import Qwen 3 Next 80B A3B Instruct in OCI Generative AI",
         "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/alibaba-qwen-3-next.htm",
-        "summary": "",
-        "date": "2026年6月15日",
-        "date_iso": "2026-06-15",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Import Google MedGemma 27B Text IT in OCI Generative AI",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/google-med-gemma-27b-it.htm",
         "summary": "",
         "date": "2026年6月15日",
         "date_iso": "2026-06-15",
