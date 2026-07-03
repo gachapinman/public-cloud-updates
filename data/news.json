@@ -1,7 +1,17 @@
 {
-  "updated": "2026年07月02日 20:57 JST",
+  "updated": "2026年07月03日 13:09 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Generally available: Anthropic Claude Sonnet 5 on Azure Databricks",
+        "link": "https://azure.microsoft.com/updates?id=567194",
+        "summary": "Azure Databricks now supports Anthropic Claude Sonnet 5 through Azure Databricks AI Model Serving. Claude Sonnet 5 is Anthropic's most agentic Sonnet model to date, delivering near-Opus-level…",
+        "date": "2026年7月3日",
+        "date_iso": "2026-07-03",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Generally Available: New Powershell module: Az.PostgreSQLFlexibleServer",
         "link": "https://azure.microsoft.com/updates?id=566209",
@@ -191,19 +201,59 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: SQL MCP Server",
-        "link": "https://azure.microsoft.com/updates?id=564734",
-        "summary": "SQL MCP Server is now generally available, giving customers a secure, high-performance way to build agentic solutions with controlled access to production data. Built for SQL and compatible with…",
-        "date": "2026年6月12日",
-        "date_iso": "2026-06-12",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Amazon SageMaker Unified Studio now supports Terraform for provisioning",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-unified-studio-terraform/",
+        "summary": "Amazon SageMaker Unified Studio now supports Terraform for provisioning. Customers can use the open-source terraform-aws-sagemaker-unified-studio module to deploy a SageMaker Unified Studio domain…",
+        "date": "2026年7月3日",
+        "date_iso": "2026-07-03",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 X8i instances are now available in additional regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-x8i-instances-ICN-KUL-NRT-region/",
+        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) X8i instances are available in the Asia Pacific (Seoul), Asia Pacific (Malaysia) and Asia Pacific (Tokyo) regions. These instances are…",
+        "date": "2026年7月3日",
+        "date_iso": "2026-07-03",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 Dedicated Hosts now support AMD SEV-SNP",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-amd-sev-snp-dedicated-hosts",
+        "summary": "Amazon EC2 is announcing support for AMD Secure Encrypted Virtualization-Secure Nested Paging (SEV-SNP) on Dedicated Hosts, enabling customers to run their confidential computing workloads on…",
+        "date": "2026年7月3日",
+        "date_iso": "2026-07-03",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon SageMaker HyperPod now supports AMI versioning and auto-patching",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-hyperpod-ami-version-auto-patch",
+        "summary": "Amazon SageMaker HyperPod now gives you visibility into the Amazon Machine Image (AMI) versions running across your clusters and automatically applies security patches without disrupting your…",
+        "date": "2026年7月3日",
+        "date_iso": "2026-07-03",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Config now supports 8 new resource types",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-config-new-resource-types",
+        "summary": "AWS Config now supports 8 additional AWS resource types across key services including Amazon API Gateway, Amazon EC2, and Amazon S3 Vectors. This expansion provides greater coverage over your AWS…",
+        "date": "2026年7月3日",
+        "date_iso": "2026-07-03",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
+        "tag": "AWS"
+      },
       {
         "title": "Amazon Bedrock AgentCore increases default runtime quota limits",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-bedrock-agentcore-increases-default-runtime-quota-limits/",
@@ -222,16 +272,6 @@
         "date_iso": "2026-07-02",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "ECS Service Connect now supports Zone-Aware routing",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/ecs-service-connect-zone-aware/",
-        "summary": "Amazon Elastic Container Service &nbsp;(Amazon ECS) introduces zone-aware routing for ECS Service Connect, enabling customers to reduce cross Availability Zone (AZ) data transfer costs and latency by…",
-        "date": "2026年7月2日",
-        "date_iso": "2026-07-02",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "AWS"
       },
       {
@@ -363,49 +403,19 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon OpenSearch Service optimized for log analytics",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-opensearch-service-optimized-log-analytics",
-        "summary": "Today, Amazon OpenSearch Service introduces a new engine purpose-built for log analytics workloads, delivering up to 4x better price-performance on internal benchmarks. It combines this efficiency…",
-        "date": "2026年7月1日",
-        "date_iso": "2026-07-01",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon CloudWatch Logs enriches log events with AWS resource tags",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-logs-resource-tags/",
-        "summary": "Amazon CloudWatch Logs now enriches log events with resource tags, making it easier to filter, search, and analyze logs by the metadata that matters most to your organization, such as&nbsp; team…",
-        "date": "2026年7月1日",
-        "date_iso": "2026-07-01",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS CloudFormation and CDK accelerate development feedback loops with pre-deployment validation on all stack operations",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cloudformation/",
-        "summary": "AWS CloudFormation customers can now get immediate feedback on deployment errors in seconds, eliminating the need to wait through a full provision-and-rollback cycle to discover preventable failures.…",
-        "date": "2026年7月1日",
-        "date_iso": "2026-07-01",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS CloudFormation and CDK express mode speeds up infrastructure deployments by up to 4x",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cloudformation-cdk/",
-        "summary": "AWS CloudFormation and CDK express mode reduces deployment time by up to 4x for developers and AI agents building infrastructure, based on internal benchmarks. Express mode completes stack operations…",
-        "date": "2026年7月1日",
-        "date_iso": "2026-07-01",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "July 02, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#July_02_2026",
+        "summary": "NetApp Volumes Feature The Flex Unified service level supports the optional feature Block volume from deletion when clients are connected for both block and file volumes. This option is required for…",
+        "date": "2026年7月2日",
+        "date_iso": "2026-07-02",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "GCP"
+      },
       {
         "title": "July 01, 2026",
         "link": "https://docs.cloud.google.com/release-notes#July_01_2026",
@@ -595,19 +605,19 @@
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "GCP"
-      },
-      {
-        "title": "June 12, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#June_12_2026",
-        "summary": "BigQuery Feature BigQuery AI functions can use ObjectRef values directly as input, without calling the OBJ.GET_ACCESS_URL function. This feature is generally available (GA). Cloud Monitoring Change…",
-        "date": "2026年6月12日",
-        "date_iso": "2026-06-12",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
       }
     ],
     "oci": [
+      {
+        "title": "Use Private Endpoints for Imported Models in OCI Generative AI",
+        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/private-endpoint-imported-models.htm",
+        "summary": "",
+        "date": "2026年6月30日",
+        "date_iso": "2026-06-30",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
       {
         "title": "Import New Compatible Models in OCI Generative AI",
         "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/compatible-imported-models-june-30-2026.htm",
@@ -796,16 +806,6 @@
         "date_iso": "2026-06-15",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Events for Management Agent",
-        "link": "https://docs.oracle.com/iaas/releasenotes/management-agent/jun26-macs-events.htm",
-        "summary": "",
-        "date": "2026年6月15日",
-        "date_iso": "2026-06-15",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
         "tag": "OCI"
       }
     ]
