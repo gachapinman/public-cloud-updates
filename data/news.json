@@ -1,5 +1,5 @@
 {
-  "updated": "2026年07月03日 15:48 JST",
+  "updated": "2026年07月03日 20:55 JST",
   "clouds": {
     "azure": [
       {
@@ -609,6 +609,16 @@
     ],
     "oci": [
       {
+        "title": "Schedule Randomization for Data Science Scheduler",
+        "link": "https://docs.oracle.com/iaas/releasenotes/data-science/june2026-schedule-randomization.htm",
+        "summary": "",
+        "date": "2026年6月30日",
+        "date_iso": "2026-06-30",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
         "title": "Use Private Endpoints for Imported Models in OCI Generative AI",
         "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/private-endpoint-imported-models.htm",
         "summary": "",
@@ -791,16 +801,6 @@
       {
         "title": "Import DeepSeek V4 Flash and DeepSeek V4 Pro in OCI Generative AI",
         "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/deepseek-v4.htm",
-        "summary": "",
-        "date": "2026年6月15日",
-        "date_iso": "2026-06-15",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Import Qwen 3 Next 80B A3B Instruct in OCI Generative AI",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/alibaba-qwen-3-next.htm",
         "summary": "",
         "date": "2026年6月15日",
         "date_iso": "2026-06-15",
