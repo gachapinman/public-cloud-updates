@@ -1,5 +1,5 @@
 {
-  "updated": "2026年07月03日 20:55 JST",
+  "updated": "2026年07月04日 13:02 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "July 03, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#July_03_2026",
+        "summary": "Apigee hybrid Announcement v1.15.5 On July 3, 2026 we released an updated version of the Apigee hybrid software, v1.15.5. For information on upgrading, see Upgrading Apigee hybrid to version v1.15.5…",
+        "date": "2026年7月3日",
+        "date_iso": "2026-07-03",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "GCP"
+      },
+      {
         "title": "July 02, 2026",
         "link": "https://docs.cloud.google.com/release-notes#July_02_2026",
         "summary": "NetApp Volumes Feature The Flex Unified service level supports the optional feature Block volume from deletion when clients are connected for both block and file volumes. This option is required for…",
@@ -594,16 +604,6 @@
         "date_iso": "2026-06-14",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "June 13, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#June_13_2026",
-        "summary": "Google SecOps Feature Non-prioritized IoC Matching rules Category Google SecOps has introduced a new detection category, Non-prioritized IoC Matching rules , as part of the Curated Detections…",
-        "date": "2026年6月13日",
-        "date_iso": "2026-06-13",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
         "tag": "GCP"
       }
     ],
