@@ -1,5 +1,5 @@
 {
-  "updated": "2026年07月04日 15:34 JST",
+  "updated": "2026年07月04日 20:11 JST",
   "clouds": {
     "azure": [
       {
@@ -305,16 +305,6 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon ECS now supports configurable deployment circuit breaker settings",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-circuit-breaker-settings/",
-        "summary": "Amazon Elastic Container Service (Amazon ECS) now gives you more control over when a service deployment is considered failed and automatically rolled back. You can now customize deployment circuit…",
-        "date": "2026年7月2日",
-        "date_iso": "2026-07-02",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
         "title": "Amazon RDS announces Cross-Region Automated Backups in four additional AWS Regions",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-cross-region-automated-backups-additional-aws-regions/",
         "summary": "Cross-Region Automated Backup replication for Amazon RDS is now available in four additional AWS Regions. This launch allows you to setup automated backup replication between Mexico (Central) and…",
@@ -328,6 +318,16 @@
         "title": "Amazon Bedrock AgentCore now available in four additional AWS Regions",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-four-additional-regions/",
         "summary": "&nbsp;Amazon Bedrock AgentCore is now available in four additional AWS Regions: Asia Pacific (Bangkok), Asia Pacific (Malaysia), Europe (Milan), and Europe (Spain).&nbsp;Amazon Bedrock AgentCore is…",
+        "date": "2026年7月2日",
+        "date_iso": "2026-07-02",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon ECS now supports configurable deployment circuit breaker settings",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-circuit-breaker-settings/",
+        "summary": "Amazon Elastic Container Service (Amazon ECS) now gives you more control over when a service deployment is considered failed and automatically rolled back. You can now customize deployment circuit…",
         "date": "2026年7月2日",
         "date_iso": "2026-07-02",
         "category": "ai-tag",
