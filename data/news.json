@@ -1,5 +1,5 @@
 {
-  "updated": "2026年07月05日 15:55 JST",
+  "updated": "2026年07月05日 20:19 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "July 04, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#July_04_2026",
+        "summary": "Google SecOps SOAR Announcement Release 6.3.91 is now available for all regions.",
+        "date": "2026年7月4日",
+        "date_iso": "2026-07-04",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "July 03, 2026",
         "link": "https://docs.cloud.google.com/release-notes#July_03_2026",
         "summary": "Apigee hybrid Announcement v1.15.5 On July 3, 2026 we released an updated version of the Apigee hybrid software, v1.15.5. For information on upgrading, see Upgrading Apigee hybrid to version v1.15.5…",
@@ -592,16 +602,6 @@
         "summary": "AI Hypercomputer Feature Preview : Before you create Spot VMs, you can view the real-time availability, estimated uptime, historical preemption rate, and pricing for a specific machine type and…",
         "date": "2026年6月15日",
         "date_iso": "2026-06-15",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "June 14, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#June_14_2026",
-        "summary": "Google SecOps SOAR Announcement Release 6.3.89 is being rolled out to the first phase of regions as listed here . This release contains internal and customer bug fixes.",
-        "date": "2026年6月14日",
-        "date_iso": "2026-06-14",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
