@@ -1,5 +1,5 @@
 {
-  "updated": "2026年07月05日 20:19 JST",
+  "updated": "2026年07月06日 13:39 JST",
   "clouds": {
     "azure": [
       {
@@ -305,16 +305,6 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon ECS now supports configurable deployment circuit breaker settings",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-circuit-breaker-settings/",
-        "summary": "Amazon Elastic Container Service (Amazon ECS) now gives you more control over when a service deployment is considered failed and automatically rolled back. You can now customize deployment circuit…",
-        "date": "2026年7月2日",
-        "date_iso": "2026-07-02",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
         "title": "Amazon RDS announces Cross-Region Automated Backups in four additional AWS Regions",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-cross-region-automated-backups-additional-aws-regions/",
         "summary": "Cross-Region Automated Backup replication for Amazon RDS is now available in four additional AWS Regions. This launch allows you to setup automated backup replication between Mexico (Central) and…",
@@ -328,6 +318,16 @@
         "title": "Amazon Bedrock AgentCore now available in four additional AWS Regions",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-four-additional-regions/",
         "summary": "&nbsp;Amazon Bedrock AgentCore is now available in four additional AWS Regions: Asia Pacific (Bangkok), Asia Pacific (Malaysia), Europe (Milan), and Europe (Spain).&nbsp;Amazon Bedrock AgentCore is…",
+        "date": "2026年7月2日",
+        "date_iso": "2026-07-02",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon ECS now supports configurable deployment circuit breaker settings",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-circuit-breaker-settings/",
+        "summary": "Amazon Elastic Container Service (Amazon ECS) now gives you more control over when a service deployment is considered failed and automatically rolled back. You can now customize deployment circuit…",
         "date": "2026年7月2日",
         "date_iso": "2026-07-02",
         "category": "ai-tag",
@@ -406,6 +406,16 @@
       }
     ],
     "gcp": [
+      {
+        "title": "July 05, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#July_05_2026",
+        "summary": "Google SecOps SOAR Announcement Release 6.3.92 is being rolled out to the first phase of regions as listed here . This release contains internal and customer bug fixes.",
+        "date": "2026年7月5日",
+        "date_iso": "2026-07-05",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
       {
         "title": "July 04, 2026",
         "link": "https://docs.cloud.google.com/release-notes#July_04_2026",
@@ -592,16 +602,6 @@
         "summary": "AlloyDB for PostgreSQL Feature AlloyDB integration with Knowledge Catalog is now generally available ( GA ). This integration provides a unified metadata view to simplify data governance and…",
         "date": "2026年6月16日",
         "date_iso": "2026-06-16",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "June 15, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#June_15_2026",
-        "summary": "AI Hypercomputer Feature Preview : Before you create Spot VMs, you can view the real-time availability, estimated uptime, historical preemption rate, and pricing for a specific machine type and…",
-        "date": "2026年6月15日",
-        "date_iso": "2026-06-15",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
