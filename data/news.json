@@ -1,7 +1,27 @@
 {
-  "updated": "2026年07月06日 22:31 JST",
+  "updated": "2026年07月07日 13:16 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Generally Available: Microsoft Entra ID-based access for Azure Blob Storage SFTP",
+        "link": "https://azure.microsoft.com/updates?id=567085",
+        "summary": "Microsoft Entra ID-based access for Azure Blob Storage SFTP is now generally available in all regions. You can now use Entra ID identities including guest users via Entra External Identities to…",
+        "date": "2026年7月7日",
+        "date_iso": "2026-07-07",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Support 5x churn in Azure Site Recovery",
+        "link": "https://azure.microsoft.com/updates?id=566966",
+        "summary": "Azure Site Recovery now supports up to 5x churn (500 MB/s per VM). This major enhancement empowers customers to confidently run high IOPS workloads with Azure Site Recovery, ensuring robust disaster…",
+        "date": "2026年7月7日",
+        "date_iso": "2026-07-07",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Generally available: Anthropic Claude Sonnet 5 on Azure Databricks",
         "link": "https://azure.microsoft.com/updates?id=567194",
@@ -181,29 +201,69 @@
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "AZURE"
-      },
-      {
-        "title": "Retirement: D-series, Ds-series, Dv2-series, Dsv2-series, and Ls-series Virtual Machines for Azure Batch pools",
-        "link": "https://azure.microsoft.com/updates?id=564772",
-        "summary": "Azure Compute will retire the following Virtual Machine series on May 1, 2028, impacting Azure Batch pools that rely on them:D-series, Ds-seriesDv2-series, Dsv2-seriesLs-seriesAfter this date:New…",
-        "date": "2026年6月12日",
-        "date_iso": "2026-06-12",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Retirement: GPv1 and Legacy Blob storage account creation",
-        "link": "https://azure.microsoft.com/updates?id=564441",
-        "summary": "As part of our ongoing efforts to streamline the Azure Storage portfolio and deliver enhanced performance, scalability, and cost efficiency, we are announcing the retirement of all General purpose v1…",
-        "date": "2026年6月12日",
-        "date_iso": "2026-06-12",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Amazon SageMaker HyperPod now supports disaggregated prefill and decode",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/7/amazon-sagemaker-hyperpod-dpd/",
+        "summary": "Amazon SageMaker HyperPod now supports Disaggregated Prefill and Decode (DPD), an inference optimization that separates the two phases of large language model (LLM) inference — prefill and decode —…",
+        "date": "2026年7月7日",
+        "date_iso": "2026-07-07",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Cognito now supports self-service provisioned API rate limits",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/cognito-provisioned-limits",
+        "summary": "Amazon Cognito now allows you to increase or decrease your provisioned API rate limits on demand. Cognito has default rate limits for the maximum number of operations per second that you can perform…",
+        "date": "2026年7月7日",
+        "date_iso": "2026-07-07",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon SageMaker Studio now integrates with Hugging Face for one-click model deployment and customization",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/sagemaker-studio-hugging-face-integration/",
+        "summary": "Amazon SageMaker Studio now supports direct integration from Hugging Face, letting you go from discovering a model to working with it inside a fully configured Studio environment in a single click.…",
+        "date": "2026年7月7日",
+        "date_iso": "2026-07-07",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EVS VCF 9.0 and 9.1 support",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-evs-vcf9",
+        "summary": "Today, we are announcing that Amazon Elastic VMware Service (EVS) now supports VMware Cloud Foundation (VCF) 9.0 and 9.1. Amazon EVS lets you run the latest VCF software directly within your Amazon…",
+        "date": "2026年7月7日",
+        "date_iso": "2026-07-07",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Certificate Manager now supports the ACME protocol for public certificates",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-certificate-manager-acme/",
+        "summary": "AWS Certificate Manager (ACM) now allows you to provision a fully managed ACME server endpoint that issues public TLS certificates with a 45 day validity from Amazon Trust Services using any…",
+        "date": "2026年7月7日",
+        "date_iso": "2026-07-07",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "CloudWatch Application Signals now automatically captures errors, performance anomalies, and deployment events",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/cloudwatch-service-events/",
+        "summary": "Today, AWS announces Service Events for Amazon CloudWatch Application Signals, which automatically captures exception and latency event snapshots, function-level performance data, and deployment…",
+        "date": "2026年7月7日",
+        "date_iso": "2026-07-07",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
       {
         "title": "AWS CodePipeline now available in Asia Pacific (New Zealand) region",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-codepipeline-new-zealand/",
@@ -212,6 +272,16 @@
         "date_iso": "2026-07-06",
         "category": "ai-tag",
         "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Secrets Manager adds managed external secrets support for Paddle and GitLab",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/secrets-manager-managed-external-secrets-paddle-gitlab/",
+        "summary": "AWS Secrets Manager now extends its managed external secrets capability to include Paddle API Keys and GitLab Access Tokens. Managed external secrets enable customers to automatically rotate…",
+        "date": "2026年7月6日",
+        "date_iso": "2026-07-06",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
         "tag": "AWS"
       },
       {
@@ -333,79 +403,19 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon Bedrock AgentCore now available in four additional AWS Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-four-additional-regions/",
-        "summary": "&nbsp;Amazon Bedrock AgentCore is now available in four additional AWS Regions: Asia Pacific (Bangkok), Asia Pacific (Malaysia), Europe (Milan), and Europe (Spain).&nbsp;Amazon Bedrock AgentCore is…",
-        "date": "2026年7月2日",
-        "date_iso": "2026-07-02",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon GuardDuty adds sensitive file modification threat detections",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-guardduty-sfm/",
-        "summary": "Amazon GuardDuty Runtime Monitoring now includes three new threat detections that alert security teams when sensitive files are modified on Amazon EC2 instances and container workloads running on…",
-        "date": "2026年7月2日",
-        "date_iso": "2026-07-02",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS AppConfig launches managed experimentation tools for A/B testing",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/6/aws-appconfig-experimentation/",
-        "summary": "Today, AWS announces the general availability of experimentation tools in AWS AppConfig, a new capability that enables you to run A/B tests and feature experiments without building or managing…",
-        "date": "2026年7月2日",
-        "date_iso": "2026-07-02",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon ECS Express Mode now supports custom task definitions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-express-mode-custom-task-def/",
-        "summary": "Amazon Elastic Container Service &nbsp;(Amazon ECS) Express Mode now supports custom task definitions, giving you the flexibility to use existing ECS application configurations and advanced…",
-        "date": "2026年7月2日",
-        "date_iso": "2026-07-02",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EKS now supports Kubernetes version rollback",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-version-rollback",
-        "summary": "Amazon Elastic Kubernetes Service (Amazon EKS) now supports Kubernetes version rollback , enabling you to revert to the previous Kubernetes minor version within 7 days if any issues arise after an…",
-        "date": "2026年7月2日",
-        "date_iso": "2026-07-02",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Managed Service for Prometheus achieves FedRAMP High and DoD IL-4/5 authorization in AWS GovCloud (US)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-managed-service-prometheus-fedramp-high/",
-        "summary": "Amazon Managed Service for Prometheus is now FedRAMP High and Department of Defense Cloud Computing Security Requirements Guide (DoD CC SRG) Impact Level (IL) 4 and 5 authorized in the AWS GovCloud…",
-        "date": "2026年7月2日",
-        "date_iso": "2026-07-02",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Security Agent now available in Asia Pacific (Mumbai), Asia Pacific (Singapore), and South America (São Paulo)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-security-agent-asia-pacific/",
-        "summary": "Starting today, AWS Security Agent (now part of AWS Continuum ) is available in three additional AWS Regions: Asia Pacific (Mumbai), Asia Pacific (Singapore), and South America (São Paulo). Customers…",
-        "date": "2026年7月2日",
-        "date_iso": "2026-07-02",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "July 06, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#July_06_2026",
+        "summary": "BigQuery Change For data transfers from Facebook Ads , support for the AdInsightsMMM report has been temporarily disabled. Existing data transfers from Facebook Ads that include the AdInsightsMMM…",
+        "date": "2026年7月6日",
+        "date_iso": "2026-07-06",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "GCP"
+      },
       {
         "title": "July 05, 2026",
         "link": "https://docs.cloud.google.com/release-notes#July_05_2026",
@@ -509,11 +519,11 @@
       {
         "title": "June 25, 2026",
         "link": "https://docs.cloud.google.com/release-notes#June_25_2026",
-        "summary": "Application Integration Security Security bulletins page See the new security bulletins page for Application Integration. Use it to stay informed about related security updates, vulnerabilities, and…",
+        "summary": "Anthos Config Management Change Addressed multiple Common Vulnerabilities and Exposures (CVEs) by updating dependencies. Change Upgraded the Open Telemetry image from 0.150.0 to 0.152.0 to pick up…",
         "date": "2026年6月25日",
         "date_iso": "2026-06-25",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "GCP"
       },
       {
@@ -595,19 +605,29 @@
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "GCP"
-      },
-      {
-        "title": "June 16, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#June_16_2026",
-        "summary": "AlloyDB for PostgreSQL Feature AlloyDB integration with Knowledge Catalog is now generally available ( GA ). This integration provides a unified metadata view to simplify data governance and…",
-        "date": "2026年6月16日",
-        "date_iso": "2026-06-16",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
       }
     ],
     "oci": [
+      {
+        "title": "New Overview page and guided setup for Resource Analytics",
+        "link": "https://docs.oracle.com/iaas/releasenotes/resource-analytics/ux-wizard.htm",
+        "summary": "",
+        "date": "2026年7月6日",
+        "date_iso": "2026-07-06",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "OCI Kubernetes Engine (OKE) support for on-demand virtual node cycling",
+        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-virtual-node-cycling-release-note.htm",
+        "summary": "",
+        "date": "2026年7月6日",
+        "date_iso": "2026-07-06",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "OCI"
+      },
       {
         "title": "Schedule Randomization for Data Science Scheduler",
         "link": "https://docs.oracle.com/iaas/releasenotes/data-science/june2026-schedule-randomization.htm",
@@ -636,6 +656,16 @@
         "date_iso": "2026-06-30",
         "category": "ai-tag",
         "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Object Storage Supports Bucket Level Encryption",
+        "link": "https://docs.oracle.com/iaas/releasenotes/objectstorage/objectstorage-bek.htm",
+        "summary": "",
+        "date": "2026年6月30日",
+        "date_iso": "2026-06-30",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
         "tag": "OCI"
       },
       {
@@ -776,36 +806,6 @@
         "date_iso": "2026-06-16",
         "category": "database-tag",
         "cat_label": "データベース",
-        "tag": "OCI"
-      },
-      {
-        "title": "Kerberos Authentication",
-        "link": "https://docs.oracle.com/iaas/releasenotes/postgresql/kerberos-authentication.htm",
-        "summary": "",
-        "date": "2026年6月16日",
-        "date_iso": "2026-06-16",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "OCI"
-      },
-      {
-        "title": "New Features in OCI Database with PostgreSQL",
-        "link": "https://docs.oracle.com/iaas/releasenotes/postgresql/june16-new-features.htm",
-        "summary": "",
-        "date": "2026年6月16日",
-        "date_iso": "2026-06-16",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "OCI"
-      },
-      {
-        "title": "Import DeepSeek V4 Flash and DeepSeek V4 Pro in OCI Generative AI",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/deepseek-v4.htm",
-        "summary": "",
-        "date": "2026年6月15日",
-        "date_iso": "2026-06-15",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "OCI"
       }
     ]
