@@ -1,5 +1,5 @@
 {
-  "updated": "2026年07月08日 15:13 JST",
+  "updated": "2026年07月08日 20:31 JST",
   "clouds": {
     "azure": [
       {
@@ -315,6 +315,16 @@
         "tag": "AWS"
       },
       {
+        "title": "AWS Systems Manager simplifies Azure VM management and hybrid node pricing",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-systems-manager-multicloud-vm/",
+        "summary": "You can now connect and manage Azure Virtual Machines in AWS Systems Manager without manual agent installation or per-instance tier fees. Create a Cloud Connector and automatically deploy the SSM…",
+        "date": "2026年7月7日",
+        "date_iso": "2026-07-07",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon SageMaker Unified Studio now supports importing existing MWAA environments",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-unified-studio-import-existing-mwaa-environments/",
         "summary": "Amazon SageMaker Unified Studio now supports connecting existing Amazon Managed Workflows for Apache Airflow (MWAA) environments to projects. Data engineers and platform teams who already operate…",
@@ -388,16 +398,6 @@
         "title": "AWS Certificate Manager now supports the ACME protocol for public certificates",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-certificate-manager-acme/",
         "summary": "AWS Certificate Manager (ACM) now allows you to provision a fully managed ACME server endpoint that issues public TLS certificates with a 45 day validity from Amazon Trust Services using any…",
-        "date": "2026年7月7日",
-        "date_iso": "2026-07-07",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "CloudWatch Application Signals now automatically captures errors, performance anomalies, and deployment events",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/cloudwatch-service-events/",
-        "summary": "Today, AWS announces Service Events for Amazon CloudWatch Application Signals, which automatically captures exception and latency event snapshots, function-level performance data, and deployment…",
         "date": "2026年7月7日",
         "date_iso": "2026-07-07",
         "category": "compute-tag",
