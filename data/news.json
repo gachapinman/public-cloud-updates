@@ -1,5 +1,5 @@
 {
-  "updated": "2026年07月08日 20:31 JST",
+  "updated": "2026年07月09日 13:14 JST",
   "clouds": {
     "azure": [
       {
@@ -205,6 +205,66 @@
     ],
     "aws": [
       {
+        "title": "AWS Builder Center Now Offers Free Sandbox Environments",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-builder-center-sandbox/",
+        "summary": "AWS Builder Center now lets builders request free, time-limited sandbox environments directly from eligible workshops, eliminating the need for a personal AWS account, credit card, or concerns about…",
+        "date": "2026年7月9日",
+        "date_iso": "2026-07-09",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Security Hub now offers Network Scanning to identify publicly reachable resources",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-security-hub-network-scanning/",
+        "summary": "Today, AWS Security Hub introduces Network Scanning, a capability that identifies resources in your environment that are reachable from the public internet.&nbsp; Network Scanning probes your…",
+        "date": "2026年7月9日",
+        "date_iso": "2026-07-09",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Redshift RG instances now available on the trailing track",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-graviton-rg-instances-trailing-track",
+        "summary": "Amazon Redshift now supports Graviton-based RG instances on the trailing track . Starting July 7, 2026, rg.4xlarge and rg.xlarge instance types are available for customers running workloads on the…",
+        "date": "2026年7月9日",
+        "date_iso": "2026-07-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Aurora DSQL change data capture (CDC) Is now generally available",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-aurora-dsql-cdc-ga/",
+        "summary": "Amazon Aurora DSQL change data capture (CDC) is now generally available, enabling you to stream real-time database changes to Amazon Kinesis Data Streams for event-driven architectures and data…",
+        "date": "2026年7月9日",
+        "date_iso": "2026-07-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Connect Customer now supports forecasting, planning, and scheduling for Tasks and Emails",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-connect-customer-agent-scheduling-tasks/",
+        "summary": "Amazon Connect Customer now supports forecasting, capacity planning, and scheduling for Tasks and Emails, enabling you to plan and optimize your workforce across all workloads (Voice, Chat, Tasks,…",
+        "date": "2026年7月9日",
+        "date_iso": "2026-07-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 High Memory U7i instances now available in AWS Europe (Zurich) region",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-u7i-aws-europe-zurich/",
+        "summary": "Amazon EC2 High Memory U7i instances with 12TB of memory (u7i-12tb.224xlarge) are now available in the AWS&nbsp;Europe (Zurich) region. U7i instances are part of AWS 7th generation and are powered by…",
+        "date": "2026年7月8日",
+        "date_iso": "2026-07-08",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon GameLift Streams introduces secure terminal access for stream sessions",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-gamelift-streams-terminal-access/",
         "summary": "Amazon GameLift Streams now supports Stream Session Admin Shell, a secure terminal connection to the live runtime environment of a stream session for real-time troubleshooting. You can inspect logs,…",
@@ -343,69 +403,19 @@
         "category": "security-tag",
         "cat_label": "セキュリティ",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon SageMaker HyperPod now supports disaggregated prefill and decode",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/7/amazon-sagemaker-hyperpod-dpd/",
-        "summary": "Amazon SageMaker HyperPod now supports Disaggregated Prefill and Decode (DPD), an inference optimization that separates the two phases of large language model (LLM) inference — prefill and decode —…",
-        "date": "2026年7月7日",
-        "date_iso": "2026-07-07",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Cognito now supports self-service provisioned API rate limits",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/cognito-provisioned-limits",
-        "summary": "Amazon Cognito now allows you to increase or decrease your provisioned API rate limits on demand. Cognito has default rate limits for the maximum number of operations per second that you can perform…",
-        "date": "2026年7月7日",
-        "date_iso": "2026-07-07",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SageMaker Studio now integrates with Hugging Face for one-click model deployment and customization",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/sagemaker-studio-hugging-face-integration/",
-        "summary": "Amazon SageMaker Studio now supports direct integration from Hugging Face, letting you go from discovering a model to working with it inside a fully configured Studio environment in a single click.…",
-        "date": "2026年7月7日",
-        "date_iso": "2026-07-07",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS introduces declarative controls for VPC Encryption Controls",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/vpc-encryption-controls-declarative-controls/",
-        "summary": "You can now use declarative policies to turn on VPC Encryption Controls in monitor or enforce mode across all VPCs in your environment. This enhancement allows you to centrally define and manage your…",
-        "date": "2026年7月7日",
-        "date_iso": "2026-07-07",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EVS VCF 9.0 and 9.1 support",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-evs-vcf9",
-        "summary": "Today, we are announcing that Amazon Elastic VMware Service (EVS) now supports VMware Cloud Foundation (VCF) 9.0 and 9.1. Amazon EVS lets you run the latest VCF software directly within your Amazon…",
-        "date": "2026年7月7日",
-        "date_iso": "2026-07-07",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Certificate Manager now supports the ACME protocol for public certificates",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-certificate-manager-acme/",
-        "summary": "AWS Certificate Manager (ACM) now allows you to provision a fully managed ACME server endpoint that issues public TLS certificates with a 45 day validity from Amazon Trust Services using any…",
-        "date": "2026年7月7日",
-        "date_iso": "2026-07-07",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "July 08, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#July_08_2026",
+        "summary": "AlloyDB for PostgreSQL Feature External search with AlloyDB now supports Apache Solr in Preview . You can use the external_search_fdw extension to connect to a Solr cluster and query its data…",
+        "date": "2026年7月8日",
+        "date_iso": "2026-07-08",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "GCP"
+      },
       {
         "title": "July 07, 2026",
         "link": "https://docs.cloud.google.com/release-notes#July_07_2026",
@@ -595,27 +605,17 @@
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "GCP"
-      },
-      {
-        "title": "June 18, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#June_18_2026",
-        "summary": "API Gateway Change Update to the API Gateway runtime architecture The API Gateway runtime architecture is being updated to improve its integration with Google Cloud Platform and its services. This…",
-        "date": "2026年6月18日",
-        "date_iso": "2026-06-18",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "GCP"
       }
     ],
     "oci": [
       {
-        "title": "Resource Manager adds premium jobs for higher concurrent job limits",
-        "link": "https://docs.oracle.com/iaas/releasenotes/resource-manager/resource-manager-premium-jobs.htm",
+        "title": "OCI Kubernetes Engine (OKE) support for 20,000 worker nodes per Kubernetes cluster",
+        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng_20000-node-support.htm",
         "summary": "",
-        "date": "2026年7月7日",
-        "date_iso": "2026-07-07",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
+        "date": "2026年7月8日",
+        "date_iso": "2026-07-08",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
         "tag": "OCI"
       },
       {
@@ -629,13 +629,33 @@
         "tag": "OCI"
       },
       {
-        "title": "OCI Kubernetes Engine (OKE) support for on-demand virtual node cycling",
-        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-virtual-node-cycling-release-note.htm",
+        "title": "Resource Manager adds premium jobs for higher concurrent job limits",
+        "link": "https://docs.oracle.com/iaas/releasenotes/resource-manager/resource-manager-premium-jobs.htm",
         "summary": "",
-        "date": "2026年7月6日",
-        "date_iso": "2026-07-06",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
+        "date": "2026年7月7日",
+        "date_iso": "2026-07-07",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "External Authentication Support for Database Tools in Autonomous AI Database",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-07-external-authentication.htm",
+        "summary": "",
+        "date": "2026年7月7日",
+        "date_iso": "2026-07-07",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Expose Select AI Agent team as agent through A2A protocol",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-07-expose-select-ai.htm",
+        "summary": "",
+        "date": "2026年7月7日",
+        "date_iso": "2026-07-07",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "OCI"
       },
       {
@@ -649,13 +669,23 @@
         "tag": "OCI"
       },
       {
-        "title": "Bitbucket Cloud API token authentication now supported",
-        "link": "https://docs.oracle.com/iaas/releasenotes/resource-manager/bitbucket-api-tokens-support.htm",
+        "title": "OCI Kubernetes Engine (OKE) support for on-demand virtual node cycling",
+        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-virtual-node-cycling-release-note.htm",
+        "summary": "",
+        "date": "2026年7月6日",
+        "date_iso": "2026-07-06",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "OCI"
+      },
+      {
+        "title": "Resource Analytics - June 2026",
+        "link": "https://docs.oracle.com/iaas/releasenotes/resource-analytics/resource-analytics-v2-6.htm",
         "summary": "",
         "date": "2026年6月30日",
         "date_iso": "2026-06-30",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "OCI"
       },
       {
@@ -691,6 +721,16 @@
       {
         "title": "Object Storage Supports Bucket Level Encryption",
         "link": "https://docs.oracle.com/iaas/releasenotes/objectstorage/objectstorage-bek.htm",
+        "summary": "",
+        "date": "2026年6月30日",
+        "date_iso": "2026-06-30",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "OCI"
+      },
+      {
+        "title": "Bitbucket Cloud API token authentication now supported",
+        "link": "https://docs.oracle.com/iaas/releasenotes/resource-manager/bitbucket-api-tokens-support.htm",
         "summary": "",
         "date": "2026年6月30日",
         "date_iso": "2026-06-30",
@@ -766,46 +806,6 @@
         "date_iso": "2026-06-23",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Iceberg REST Catalog Integration with DBMS_DCAT",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-06-iceberg-rest-catalog.htm",
-        "summary": "",
-        "date": "2026年6月23日",
-        "date_iso": "2026-06-23",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "OCI"
-      },
-      {
-        "title": "OCI Kubernetes Engine (OKE) support for Compute Host Groups and Compute Clusters",
-        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-Compute-cluster-and-HostGroup-support.htm",
-        "summary": "",
-        "date": "2026年6月17日",
-        "date_iso": "2026-06-17",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "OCI"
-      },
-      {
-        "title": "Lake Cache for Mounted Catalog Tables",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-06-lake-cache-mounted-catalogs.htm",
-        "summary": "",
-        "date": "2026年6月17日",
-        "date_iso": "2026-06-17",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "HeatWave: Support for Versions 9.7.1 and 8.4.10",
-        "link": "https://docs.oracle.com/iaas/releasenotes/mysql-database/heatwave-971-8410.htm",
-        "summary": "",
-        "date": "2026年6月16日",
-        "date_iso": "2026-06-16",
-        "category": "database-tag",
-        "cat_label": "データベース",
         "tag": "OCI"
       }
     ]
