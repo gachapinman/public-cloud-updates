@@ -1,7 +1,27 @@
 {
-  "updated": "2026年07月09日 21:21 JST",
+  "updated": "2026年07月10日 13:15 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Public Preview: Manage Azure Chaos Studio from the Azure CLI",
+        "link": "https://azure.microsoft.com/updates?id=567225",
+        "summary": "You can now create and run Azure Chaos Studio resilience Scenarios directly from the Azure CLI with the new az chaos extension — no more hand-assembling REST calls and JSON files. Get started in one…",
+        "date": "2026年7月10日",
+        "date_iso": "2026-07-10",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Open AI GPT-5.6 on Azure Databricks",
+        "link": "https://azure.microsoft.com/updates?id=567431",
+        "summary": "Open AI GPT-5.6 is now available on Azure Databricks. You can use GPT 5.6 (purchased on Microsoft Foundry) via Model Serving Endpoint in Azure Databricks. Through integrations across Foundry and…",
+        "date": "2026年7月10日",
+        "date_iso": "2026-07-10",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Public Preview: Exceptions in WAF for Azure Application Gateway and Azure Front Door",
         "link": "https://azure.microsoft.com/updates?id=567218",
@@ -181,29 +201,89 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Azure NetApp Files migration assistant",
-        "link": "https://azure.microsoft.com/updates?id=565480",
-        "summary": "Azure NetApp Files migration assistant (with SnapMirror) provides efficient and cost-effective data migration leveraging ONTAP's built-in replication engine for seamless transition from on-premises…",
-        "date": "2026年6月24日",
-        "date_iso": "2026-06-24",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Azure Migrate – GitHub Copilot Modernization integration for at scale code assessments",
-        "link": "https://azure.microsoft.com/updates?id=566145",
-        "summary": "Azure Migrate now integrates with GitHub Copilot Modernization (public preview) to deliver at scale code insights. This capability brings together Azure Migrate’s portfolio-level discovery and…",
-        "date": "2026年6月18日",
-        "date_iso": "2026-06-18",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "OAuth support for the AWS MCP Server",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/oauth-aws-mcp-server/",
+        "summary": "You can now connect AI agents directly to the AWS MCP Server using AWS Sign-In. Agents connect using industry-standard OAuth without requiring additional authentication software. Existing AWS…",
+        "date": "2026年7月10日",
+        "date_iso": "2026-07-10",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Timestream for InfluxDB now publishes database state change events to Amazon EventBridge",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/timestream-influxdb-eventbridge/",
+        "summary": "Amazon Timestream for InfluxDB now publishes events to Amazon EventBridge when your database instances or clusters undergo state changes. Events are emitted for lifecycle operations including…",
+        "date": "2026年7月10日",
+        "date_iso": "2026-07-10",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Client VPN extends availability to four additional AWS Regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-client-vpn-four-additional-regions/",
+        "summary": "AWS Client VPN is now available in four new regions: Canada West (Calgary), Mexico (Central) and two in Asia Pacific - New Zealand and Taipei. This fully managed service enables customers to securely…",
+        "date": "2026年7月10日",
+        "date_iso": "2026-07-10",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon SageMaker Unified Studio adds custom asset types to the catalog in IAM-based domains",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/smus-custom-asset-types-iam/",
+        "summary": "Amazon SageMaker Unified Studio now supports custom asset types for IAM-based domains. With custom asset types, domain administrators can catalog any format of asset within the SageMaker Unified…",
+        "date": "2026年7月10日",
+        "date_iso": "2026-07-10",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon SageMaker HyperPod now supports deep health checks for Slurm clusters with continuous provisioning",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/deep-health-check-continuous-slurm/",
+        "summary": "Amazon SageMaker HyperPod now supports deep health checks for Slurm-orchestrated clusters created with continuous provisioning, enabling you to proactively verify GPU accelerator health on running…",
+        "date": "2026年7月10日",
+        "date_iso": "2026-07-10",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon SageMaker Feature Store now supports batch feature writes and record listing",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amzn-sgm-feature-store-batch-write-list/",
+        "summary": "Amazon SageMaker Feature Store is a fully managed capability that makes it easy to compute, store, and retrieve features for training and deploying AI models. SageMaker Feature Store now supports new…",
+        "date": "2026年7月10日",
+        "date_iso": "2026-07-10",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon MSK Replicator now supports replication from external Apache Kafka clusters to MSK Standard brokers",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-msk-replicator-external-kafka-standard-broker-support",
+        "summary": "Amazon MSK Replicator now supports data replication from external Apache Kafka clusters - including on-premises, self-managed on AWS, or other cloud providers to Amazon MSK Standard brokers. This…",
+        "date": "2026年7月10日",
+        "date_iso": "2026-07-10",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Config now supports 191 additional managed rules",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-config-additional-managed-rules",
+        "summary": "AWS Config now supports 191 additional managed rules across key services including Amazon Bedrock, Amazon SageMaker, Amazon ECS, Amazon EKS, Amazon RDS, Amazon Redshift, Amazon S3, and Amazon…",
+        "date": "2026年7月9日",
+        "date_iso": "2026-07-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
       {
         "title": "AWS Builder Center Now Offers Free Sandbox Environments",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-builder-center-sandbox/",
@@ -212,6 +292,16 @@
         "date_iso": "2026-07-09",
         "category": "database-tag",
         "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon SageMaker Unified Studio Workflows now supports operators for Amazon Bedrock, S3 Tables, S3 Vectors, and Glue…",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/apache-airflow-operators-amazon-sagemaker-unified-studio-workflows/",
+        "summary": "Amazon SageMaker Unified Studio Workflows now supports 19 new operators for Amazon Bedrock, Amazon S3 Tables, Amazon S3 Vectors, AWS Glue Data Catalog, and Amazon MWAA Serverless. With these…",
+        "date": "2026年7月9日",
+        "date_iso": "2026-07-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "AWS"
       },
       {
@@ -248,6 +338,16 @@
         "title": "Amazon Connect Customer now supports forecasting, planning, and scheduling for Tasks and Emails",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-connect-customer-agent-scheduling-tasks/",
         "summary": "Amazon Connect Customer now supports forecasting, capacity planning, and scheduling for Tasks and Emails, enabling you to plan and optimize your workforce across all workloads (Voice, Chat, Tasks,…",
+        "date": "2026年7月9日",
+        "date_iso": "2026-07-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Neuron 2.31.0 now available with NKI 0.5.0 and UltraServer Operator",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-announce-neuron-2-31-0",
+        "summary": "AWS Neuron 2.31.0 is now available, introducing NKI 0.5.0 with new MX FP8 scale dtype support, tensor indirection on compute operations for fewer instructions in indexed access patterns, and new…",
         "date": "2026年7月9日",
         "date_iso": "2026-07-09",
         "category": "ai-tag",
@@ -303,109 +403,19 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon EMR Serverless now supports larger worker sizes to run more compute and memory intensive workloads",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-emr-serverless/",
-        "summary": "Amazon EMR Serverless now offers larger worker configurations of 32 vCPUs with up to 244 GB of memory, allowing you to run more compute and memory-intensive workloads. Previously, the largest worker…",
-        "date": "2026年7月8日",
-        "date_iso": "2026-07-08",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 C8ine instances are now available in AWS Europe (Frankfurt) region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-c8ine-aws-frankfurt/",
-        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8ine instances are available in the AWS Europe (Frankfurt) region. C8ine instances are powered by custom sixth generation Intel Xeon…",
-        "date": "2026年7月8日",
-        "date_iso": "2026-07-08",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SageMaker now supports data lineage in IAM-based domains",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-data-lineage-iam-domain",
-        "summary": "Amazon SageMaker Unified Studio now supports OpenLineage compatible data lineage in IAM-based domains, capturing lineage events from Apache Spark jobs run on Amazon EMR, AWS Glue, SageMaker Visual…",
-        "date": "2026年7月8日",
-        "date_iso": "2026-07-08",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Redshift RG instances now available in AWS GovCloud (US) Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-rg-instances-aws-govcloud",
-        "summary": "Amazon Redshift RG instances, powered by AWS Graviton processors, are now available in the AWS GovCloud (US-West) and AWS GovCloud (US-East) Regions. RG instances deliver better performance, running…",
-        "date": "2026年7月8日",
-        "date_iso": "2026-07-08",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon RDS for Oracle now supports Oracle Database 26ai",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-oracle-database-26ai/",
-        "summary": "Amazon RDS for Oracle now supports Oracle Database 26ai, Oracle's latest Long Term Support Release, with Amazon Bedrock integration which provides access to foundation models such as Anthropic…",
-        "date": "2026年7月8日",
-        "date_iso": "2026-07-08",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon S3 Express One Zone is now available in the AWS Europe (Frankfurt) Region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/s3-express-one-zone-europe-frankfurt/",
-        "summary": "The Amazon S3 Express One Zone storage class is now available in the AWS Europe (Frankfurt) Region. Amazon S3 Express One Zone is a high-performance, single-Availability Zone storage class…",
-        "date": "2026年7月7日",
-        "date_iso": "2026-07-07",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EKS Auto Mode reduces GPU management fees by up to 60%",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-auto-mode-gpu-price",
-        "summary": "Amazon Elastic Kubernetes Service (Amazon EKS) Auto Mode now offers significantly reduced management fees for GPU and accelerated instance types. Beginning July 1, 2026, G-series Auto Mode management…",
-        "date": "2026年7月7日",
-        "date_iso": "2026-07-07",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Systems Manager simplifies Azure VM management and hybrid node pricing",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-systems-manager-multicloud-vm/",
-        "summary": "You can now connect and manage Azure Virtual Machines in AWS Systems Manager without manual agent installation or per-instance tier fees. Create a Cloud Connector and automatically deploy the SSM…",
-        "date": "2026年7月7日",
-        "date_iso": "2026-07-07",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SageMaker Unified Studio now supports importing existing MWAA environments",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-unified-studio-import-existing-mwaa-environments/",
-        "summary": "Amazon SageMaker Unified Studio now supports connecting existing Amazon Managed Workflows for Apache Airflow (MWAA) environments to projects. Data engineers and platform teams who already operate…",
-        "date": "2026年7月7日",
-        "date_iso": "2026-07-07",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Security Hub adds impact analysis for exposure findings",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/impact-analysis-aws-security-hub/",
-        "summary": "Today, AWS Security Hub adds impact analysis to exposure findings, helping security teams understand the full scope of what an attacker could reach if an exposure is exploited. Impact analysis…",
-        "date": "2026年7月7日",
-        "date_iso": "2026-07-07",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "July 09, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#July_09_2026",
+        "summary": "BigQuery Feature You can use the BigQuery Data Transfer Service to transfer metadata from the following data sources into Knowledge Catalog: PostgreSQL Microsoft SQL Server This feature is in Preview…",
+        "date": "2026年7月9日",
+        "date_iso": "2026-07-09",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "GCP"
+      },
       {
         "title": "July 08, 2026",
         "link": "https://docs.cloud.google.com/release-notes#July_08_2026",
@@ -595,16 +605,6 @@
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "GCP"
-      },
-      {
-        "title": "June 19, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#June_19_2026",
-        "summary": "Apigee hybrid Announcement v1.16.6 On June 19, 2026 we released an updated version of the Apigee hybrid software, v1.16.6. For information on upgrading, see Upgrading Apigee hybrid to version v1.16.6…",
-        "date": "2026年6月19日",
-        "date_iso": "2026-06-19",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "GCP"
       }
     ],
     "oci": [
@@ -616,6 +616,16 @@
         "date_iso": "2026-07-08",
         "category": "container-tag",
         "cat_label": "コンテナ",
+        "tag": "OCI"
+      },
+      {
+        "title": "HeatWave: Multi-Source Replication",
+        "link": "https://docs.oracle.com/iaas/releasenotes/mysql-database/heatwave-multi-source-replication.htm",
+        "summary": "",
+        "date": "2026年7月8日",
+        "date_iso": "2026-07-08",
+        "category": "database-tag",
+        "cat_label": "データベース",
         "tag": "OCI"
       },
       {
@@ -659,16 +669,6 @@
         "tag": "OCI"
       },
       {
-        "title": "New Overview page and guided setup for Resource Analytics",
-        "link": "https://docs.oracle.com/iaas/releasenotes/resource-analytics/ux-wizard.htm",
-        "summary": "",
-        "date": "2026年7月6日",
-        "date_iso": "2026-07-06",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
         "title": "OCI Kubernetes Engine (OKE) support for on-demand virtual node cycling",
         "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-virtual-node-cycling-release-note.htm",
         "summary": "",
@@ -679,11 +679,11 @@
         "tag": "OCI"
       },
       {
-        "title": "Resource Analytics - June 2026",
-        "link": "https://docs.oracle.com/iaas/releasenotes/resource-analytics/resource-analytics-v2-6.htm",
+        "title": "New Overview page and guided setup for Resource Analytics",
+        "link": "https://docs.oracle.com/iaas/releasenotes/resource-analytics/ux-wizard.htm",
         "summary": "",
-        "date": "2026年6月30日",
-        "date_iso": "2026-06-30",
+        "date": "2026年7月6日",
+        "date_iso": "2026-07-06",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "OCI"
@@ -759,6 +759,16 @@
         "tag": "OCI"
       },
       {
+        "title": "Resource Analytics - June 2026",
+        "link": "https://docs.oracle.com/iaas/releasenotes/resource-analytics/resource-analytics-v2-6.htm",
+        "summary": "",
+        "date": "2026年6月30日",
+        "date_iso": "2026-06-30",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
         "title": "API Gateway support for login back ends",
         "link": "https://docs.oracle.com/iaas/releasenotes/api-gateway/apigw-login-backend-static-redirect.htm",
         "summary": "",
@@ -791,16 +801,6 @@
       {
         "title": "OpenSearch Version 3.6 Support",
         "link": "https://docs.oracle.com/iaas/releasenotes/search-opensearch/opensearch-v36-support.htm",
-        "summary": "",
-        "date": "2026年6月23日",
-        "date_iso": "2026-06-23",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Dedicated Coordinator Nodes for OCI Search with OpenSearch",
-        "link": "https://docs.oracle.com/iaas/releasenotes/search-opensearch/coordinator-nodes.htm",
         "summary": "",
         "date": "2026年6月23日",
         "date_iso": "2026-06-23",
