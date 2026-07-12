@@ -1,5 +1,5 @@
 {
-  "updated": "2026年07月11日 19:45 JST",
+  "updated": "2026年07月12日 12:58 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "July 11, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#July_11_2026",
+        "summary": "Google SecOps SOAR Announcement Release 6.3.92 is now available for all regions.",
+        "date": "2026年7月11日",
+        "date_iso": "2026-07-11",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "July 10, 2026",
         "link": "https://docs.cloud.google.com/release-notes#July_10_2026",
         "summary": "Apigee Advanced API Security Deprecated Deprecation and shutdown of GenAI Incident Summary (generative AI Insights) The standalone GenAI Incident Summary (generative AI Insights) feature in Apigee…",
@@ -592,16 +602,6 @@
         "summary": "AI Hypercomputer Feature Preview : RoCE VPC networks for VM instances support assigning alias IP ranges to MRDMA vNICs. For more information about these features, see the following: RDMA network…",
         "date": "2026年6月22日",
         "date_iso": "2026-06-22",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "June 21, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#June_21_2026",
-        "summary": "Google SecOps Announcement Scheduled Maintenance CloudSQL will undergo a scheduled minor upgrade this Sunday, June 21, 2026. Google SecOps SOAR Announcement Release 6.3.90 is being rolled out to the…",
-        "date": "2026年6月21日",
-        "date_iso": "2026-06-21",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
