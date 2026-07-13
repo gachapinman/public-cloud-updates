@@ -1,5 +1,5 @@
 {
-  "updated": "2026年07月12日 20:00 JST",
+  "updated": "2026年07月13日 13:00 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "July 12, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#July_12_2026",
+        "summary": "Google SecOps Feature Publisher Agent Version 2.7.0 Publisher Agent Version 2.7.0 is now available for all regions. This release includes the following updates for the remote agent: High Availability…",
+        "date": "2026年7月12日",
+        "date_iso": "2026-07-12",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "July 11, 2026",
         "link": "https://docs.cloud.google.com/release-notes#July_11_2026",
         "summary": "Google SecOps SOAR Announcement Release 6.3.92 is now available for all regions.",
@@ -592,16 +602,6 @@
         "summary": "AI Hypercomputer Feature Preview : You can use Gemini in the Google Cloud console as an AI-powered interface to evaluate hardware options, estimate deployment costs, and view recommended…",
         "date": "2026年6月23日",
         "date_iso": "2026-06-23",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "June 22, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#June_22_2026",
-        "summary": "AI Hypercomputer Feature Preview : RoCE VPC networks for VM instances support assigning alias IP ranges to MRDMA vNICs. For more information about these features, see the following: RDMA network…",
-        "date": "2026年6月22日",
-        "date_iso": "2026-06-22",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
