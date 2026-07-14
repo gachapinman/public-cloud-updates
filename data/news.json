@@ -1,5 +1,5 @@
 {
-  "updated": "2026年07月14日 12:34 JST",
+  "updated": "2026年07月14日 14:53 JST",
   "clouds": {
     "azure": [
       {
@@ -235,6 +235,16 @@
         "tag": "AWS"
       },
       {
+        "title": "Amazon DocumentDB (with MongoDB compatibility) adds support for 46 new MongoDB operators in version 8.0.1",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-documentdb-mongodb-8-0-1-mongo-api",
+        "summary": "Amazon DocumentDB (with MongoDB compatibility) now supports 46 additional MongoDB aggregation operators and cursor methods starting from minor version 8.0.1. This release significantly expands query…",
+        "date": "2026年7月14日",
+        "date_iso": "2026-07-14",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
         "title": "Gemma-4-E2B-it for is now available in Amazon SageMaker JumpStart",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/gemma-4-e2b-on-sagemaker-jumpstart/",
         "summary": "Today, AWS announced the availability of gemma-4-E2B-it in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. This model from Google DeepMind is a…",
@@ -393,27 +403,17 @@
         "category": "security-tag",
         "cat_label": "セキュリティ",
         "tag": "AWS"
-      },
-      {
-        "title": "OAuth support for the AWS MCP Server",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/oauth-aws-mcp-server/",
-        "summary": "You can now connect AI agents directly to the AWS MCP Server using AWS Sign-In. Agents connect using industry-standard OAuth without requiring additional authentication software. Existing AWS…",
-        "date": "2026年7月10日",
-        "date_iso": "2026-07-10",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
       }
     ],
     "gcp": [
       {
         "title": "July 13, 2026",
         "link": "https://docs.cloud.google.com/release-notes#July_13_2026",
-        "summary": "BigQuery Security A Missing Authorization vulnerability was discovered in repositories in BigQuery, Dataform, and Colab Enterprise. An authenticated attacker could potentially escalate permissions…",
+        "summary": "BigQuery Feature Table partitioning, multi-statement transactions, and advanced runtime are now generally available (GA) for Apache Iceberg managed tables . Security A Missing Authorization…",
         "date": "2026年7月13日",
         "date_iso": "2026-07-13",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "GCP"
       },
       {
