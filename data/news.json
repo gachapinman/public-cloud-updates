@@ -1,5 +1,5 @@
 {
-  "updated": "2026年07月15日 14:54 JST",
+  "updated": "2026年07月15日 20:15 JST",
   "clouds": {
     "azure": [
       {
@@ -205,6 +205,16 @@
     ],
     "aws": [
       {
+        "title": "AWS Lambda announces self-managed code storage",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/lambda-self-managed-code-storage/",
+        "summary": "AWS Lambda now supports self-managed Amazon S3 buckets for code storage,&nbsp;enabling you to reference source code directly from your own S3 buckets without Lambda creating intermediate copies. This…",
+        "date": "2026年7月15日",
+        "date_iso": "2026-07-15",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
+        "tag": "AWS"
+      },
+      {
         "title": "AWS Elastic Disaster Recovery now supports Amazon EBS volume initialization rate",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-drs-fast-hydration/",
         "summary": "AWS Elastic Disaster Recovery (AWS DRS) now supports the Amazon EBS volume initialization rate, helping recovered volumes reach full performance faster during drills and recoveries. When DRS restores…",
@@ -392,16 +402,6 @@
         "date_iso": "2026-07-14",
         "category": "storage-tag",
         "cat_label": "ストレージ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SageMaker HyperPod now supports custom AMIs (Amazon Machine Images) for Slurm clusters",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/hyperpod-custom-ami-slurm/",
-        "summary": "Amazon SageMaker HyperPod now supports custom AMIs for Slurm-orchestrated clusters, enabling customers to deploy clusters with pre-configured, security-hardened environments that meet their specific…",
-        "date": "2026年7月13日",
-        "date_iso": "2026-07-13",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "AWS"
       }
     ],
@@ -609,6 +609,16 @@
     ],
     "oci": [
       {
+        "title": "Oracle APEX 26.1",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-07-oracle-apex.htm",
+        "summary": "",
+        "date": "2026年7月14日",
+        "date_iso": "2026-07-14",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
         "title": "Kubernetes Engine support for deploying the Node Feature Discovery cluster add-on",
         "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-Node-Feature-Discovery-addon.htm",
         "summary": "",
@@ -669,26 +679,6 @@
         "tag": "OCI"
       },
       {
-        "title": "Support for Kubernetes version 1.36.1",
-        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-K8s-1-36-1-support.htm",
-        "summary": "",
-        "date": "2026年7月7日",
-        "date_iso": "2026-07-07",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "OCI"
-      },
-      {
-        "title": "Resource Manager adds premium jobs for higher concurrent job limits",
-        "link": "https://docs.oracle.com/iaas/releasenotes/resource-manager/resource-manager-premium-jobs.htm",
-        "summary": "",
-        "date": "2026年7月7日",
-        "date_iso": "2026-07-07",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
         "title": "External Authentication Support for Database Tools in Autonomous AI Database",
         "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-07-external-authentication.htm",
         "summary": "",
@@ -709,6 +699,26 @@
         "tag": "OCI"
       },
       {
+        "title": "Support for Kubernetes version 1.36.1",
+        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-K8s-1-36-1-support.htm",
+        "summary": "",
+        "date": "2026年7月7日",
+        "date_iso": "2026-07-07",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "OCI"
+      },
+      {
+        "title": "Resource Manager adds premium jobs for higher concurrent job limits",
+        "link": "https://docs.oracle.com/iaas/releasenotes/resource-manager/resource-manager-premium-jobs.htm",
+        "summary": "",
+        "date": "2026年7月7日",
+        "date_iso": "2026-07-07",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
         "title": "OCI Kubernetes Engine (OKE) support for on-demand virtual node cycling",
         "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-virtual-node-cycling-release-note.htm",
         "summary": "",
@@ -724,6 +734,26 @@
         "summary": "",
         "date": "2026年7月6日",
         "date_iso": "2026-07-06",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Use Deep Data Security in Autonomous AI Database",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-06-deep-data-security.htm",
+        "summary": "",
+        "date": "2026年6月30日",
+        "date_iso": "2026-06-30",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Oracle Data Science Agent",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-06-data-science-agent.htm",
+        "summary": "",
+        "date": "2026年6月30日",
+        "date_iso": "2026-06-30",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "OCI"
@@ -776,36 +806,6 @@
         "date_iso": "2026-06-30",
         "category": "database-tag",
         "cat_label": "データベース",
-        "tag": "OCI"
-      },
-      {
-        "title": "Object Storage Supports Bucket Level Encryption",
-        "link": "https://docs.oracle.com/iaas/releasenotes/objectstorage/objectstorage-bek.htm",
-        "summary": "",
-        "date": "2026年6月30日",
-        "date_iso": "2026-06-30",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "OCI"
-      },
-      {
-        "title": "Bitbucket Cloud API token authentication now supported",
-        "link": "https://docs.oracle.com/iaas/releasenotes/resource-manager/bitbucket-api-tokens-support.htm",
-        "summary": "",
-        "date": "2026年6月30日",
-        "date_iso": "2026-06-30",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "OCI"
-      },
-      {
-        "title": "Use Deep Data Security in Autonomous AI Database",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-06-deep-data-security.htm",
-        "summary": "",
-        "date": "2026年6月30日",
-        "date_iso": "2026-06-30",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "OCI"
       }
     ]
