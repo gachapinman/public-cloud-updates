@@ -1,5 +1,5 @@
 {
-  "updated": "2026年07月15日 12:35 JST",
+  "updated": "2026年07月15日 14:54 JST",
   "clouds": {
     "azure": [
       {
@@ -255,6 +255,16 @@
         "tag": "AWS"
       },
       {
+        "title": "AWS Security Hub now provides AI inventory for organization-wide visibility of AI assets",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-security-hub-ai/",
+        "summary": "Today, AWS announces that AWS Security Hub now provides an AI inventory, giving central security teams a continuously updated, organization-wide view of AI assets and their security posture. As…",
+        "date": "2026年7月15日",
+        "date_iso": "2026-07-15",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon WorkSpaces Personal simplifies bulk PCoIP to DCV protocol migration",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-workspaces-personal-pcoip/",
         "summary": "Amazon WorkSpaces Personal now provides automated rollback and support for PCoIP to DCV protocol migration of stopped WorkSpaces, building on the recently launched console-based migration workflow…",
@@ -268,16 +278,6 @@
         "title": "Amazon Aurora DSQL is now available in Europe (Spain)",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-aurora-dsql-available-in-spain/",
         "summary": "Starting today, Amazon Aurora DSQL is available for single-Region clusters in the Europe (Spain) Region. Aurora DSQL is the fastest serverless, distributed SQL database, with active-active high…",
-        "date": "2026年7月15日",
-        "date_iso": "2026-07-15",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Security Hub now provides AI inventory for organization-wide visibility of AI assets",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-security-hub-ai/",
-        "summary": "Today, AWS announces that AWS Security Hub now provides an AI inventory, giving central security teams a continuously updated, organization-wide view of AI assets and their security posture. As…",
         "date": "2026年7月15日",
         "date_iso": "2026-07-15",
         "category": "ai-tag",
@@ -365,9 +365,9 @@
         "tag": "AWS"
       },
       {
-        "title": "Qwen3 embedding and reranking models for retrieval are now available in Amazon SageMaker JumpStart",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/qwen3-search-retrieval-on-sagemaker-jumpstart/",
-        "summary": "Today, AWS announced the availability of Qwen3-VL-Embedding-2B and Qwen3-Reranker-4B in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These…",
+        "title": "Voxtral-Mini-4B-Realtime for real-time speech transcription is now available in Amazon SageMaker JumpStart",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/voxtral-mini-realtime-on-sagemaker-jumpstart/",
+        "summary": "Today, AWS announced the availability of Voxtral-Mini-4B-Realtime-2602 in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. This model from Mistral…",
         "date": "2026年7月14日",
         "date_iso": "2026-07-14",
         "category": "ai-tag",
@@ -375,9 +375,9 @@
         "tag": "AWS"
       },
       {
-        "title": "Voxtral-Mini-4B-Realtime for real-time speech transcription is now available in Amazon SageMaker JumpStart",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/voxtral-mini-realtime-on-sagemaker-jumpstart/",
-        "summary": "Today, AWS announced the availability of Voxtral-Mini-4B-Realtime-2602 in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. This model from Mistral…",
+        "title": "Qwen3 embedding and reranking models for retrieval are now available in Amazon SageMaker JumpStart",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/qwen3-search-retrieval-on-sagemaker-jumpstart/",
+        "summary": "Today, AWS announced the availability of Qwen3-VL-Embedding-2B and Qwen3-Reranker-4B in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These…",
         "date": "2026年7月14日",
         "date_iso": "2026-07-14",
         "category": "ai-tag",
@@ -409,7 +409,7 @@
       {
         "title": "July 14, 2026",
         "link": "https://docs.cloud.google.com/release-notes#July_14_2026",
-        "summary": "BigQuery Feature Conversational analytics now supports the AI.AGG function . This function is in Preview . Bigtable Feature AI agents can use the list_hot_tablets Model Context Protocol (MCP) tool to…",
+        "summary": "BigQuery Feature Conversational analytics now supports the AI.AGG function . This function is in Preview . Announcement As part of Gemini in BigQuery , conversational analytics now supports HIPAA…",
         "date": "2026年7月14日",
         "date_iso": "2026-07-14",
         "category": "ai-tag",
