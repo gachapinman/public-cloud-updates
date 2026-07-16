@@ -1,5 +1,5 @@
 {
-  "updated": "2026年07月16日 15:00 JST",
+  "updated": "2026年07月16日 20:21 JST",
   "clouds": {
     "azure": [
       {
@@ -235,6 +235,16 @@
         "tag": "AWS"
       },
       {
+        "title": "Amazon Cognito now supports importing users with password hashes",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-cognito-password-hash-import/",
+        "summary": "Amazon Cognito now supports importing users with password hashes in CSV user imports. Previously, users imported from a CSV file had to reset their passwords on first sign-in. Now, you can include…",
+        "date": "2026年7月16日",
+        "date_iso": "2026-07-16",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon RDS and Aurora now support R8g and M8g database instances in additional AWS Regions",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/7/amazon-rds-aurora-r8g-m8g-regions/",
         "summary": "AWS Graviton4-based R8g database instances are now generally available for Amazon Aurora (MySQL and PostgreSQL compatibility) and Amazon RDS for PostgreSQL, MySQL, and MariaDB in Asia Pacific…",
@@ -248,16 +258,6 @@
         "title": "Amazon RDS and Aurora expand R8gd and M8gd to additional Regions",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-aurora-r8gd-m8gd-regions/",
         "summary": "Amazon Relational Database Service (RDS) now supports R8gd database instances in 12 additional regions and and M8gd database instances in 6 additional Regions with Optimized Reads for Amazon Aurora…",
-        "date": "2026年7月16日",
-        "date_iso": "2026-07-16",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Cognito now supports importing users with password hashes",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-cognito-password-hash-import/",
-        "summary": "Amazon Cognito now supports importing users with password hashes in CSV user imports. Previously, users imported from a CSV file had to reset their passwords on first sign-in. Now, you can include…",
         "date": "2026年7月16日",
         "date_iso": "2026-07-16",
         "category": "database-tag",
