@@ -1,7 +1,47 @@
 {
-  "updated": "2026年07月17日 20:09 JST",
+  "updated": "2026年07月18日 12:32 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Generally Available: Azure Functions support for Python 3.14",
+        "link": "https://azure.microsoft.com/updates?id=567646",
+        "summary": "You can now develop functions using Python 3.14 locally and deploy them to Azure Functions plans on Linux. Upgrade your apps to Python 3.14 to take advantage of enhanced security, a longer support…",
+        "date": "2026年7月18日",
+        "date_iso": "2026-07-18",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Azure Functions Support for PowerShell 7.6",
+        "link": "https://azure.microsoft.com/updates?id=567651",
+        "summary": "Azure Functions support for PowerShell 7.6 is now available in preview. You can now develop apps using PowerShell 7.6 locally and deploy them to Azure Functions plans. Learn more: What's new in…",
+        "date": "2026年7月18日",
+        "date_iso": "2026-07-18",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Microsoft Defender security assessments for Azure Database for PostgreSQL Flexible…",
+        "link": "https://azure.microsoft.com/updates?id=567527",
+        "summary": "Microsoft Defender Cloud Security Posture Management (CSPM) assessments for Azure Database for PostgreSQL Flexible Server are now generally available. You can use assessments to continuously evaluate…",
+        "date": "2026年7月17日",
+        "date_iso": "2026-07-17",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Encryption in Transit for Azure Files NFS Shares in Azure Kubernetes Service (AKS)",
+        "link": "https://azure.microsoft.com/updates?id=567787",
+        "summary": "Azure Kubernetes Service (AKS) now generally supports Encryption in Transit (EiT) for Azure Files NFS v4.1 volumes through the Azure File CSI driver. With EiT enabled, data transferred between AKS…",
+        "date": "2026年7月17日",
+        "date_iso": "2026-07-17",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Announcing: GitHub Copilot and Claude Code connectors in Microsoft Agent Framework",
         "link": "https://azure.microsoft.com/updates?id=563701",
@@ -161,49 +201,39 @@
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Open AI GPT-5.6 on Azure Databricks",
-        "link": "https://azure.microsoft.com/updates?id=567431",
-        "summary": "Open AI GPT-5.6 is now available on Azure Databricks. You can use GPT 5.6 (purchased on Microsoft Foundry) via Model Serving Endpoint in Azure Databricks. Through integrations across Foundry and…",
-        "date": "2026年7月10日",
-        "date_iso": "2026-07-10",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Exceptions in WAF for Azure Application Gateway and Azure Front Door",
-        "link": "https://azure.microsoft.com/updates?id=567218",
-        "summary": "Azure Web Application Firewall (WAF) helps protect your web applications from common threats and attacks. In some cases, WAF may block requests that are safe and expected for your application.…",
-        "date": "2026年7月8日",
-        "date_iso": "2026-07-08",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Azure Chaos Studio Workspaces and Scenarios",
-        "link": "https://azure.microsoft.com/updates?id=567184",
-        "summary": "Azure Chaos Studio now supports Workspaces and Scenarios, a faster, application-centric way to validate how your workloads hold up during real outages.Point a Workspace at your application's scope—a…",
-        "date": "2026年7月8日",
-        "date_iso": "2026-07-08",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Export historical data from Log Analytics workspace with Export jobs",
-        "link": "https://azure.microsoft.com/updates?id=566591",
-        "summary": "The Log Analytics Export job enables you to export historical data from a Log Analytics workspace to an Azure Storage account based on a specified query and time range. This allows you to extract…",
-        "date": "2026年7月8日",
-        "date_iso": "2026-07-08",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Amazon GameLift Streams now supports IAM role credentials for stream sessions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-gamelift-streams-iam/",
+        "summary": "Amazon GameLift Streams now supports assigning an IAM role to a stream session, enabling your application to securely access resources in your AWS account, such as Amazon S3 buckets and DynamoDB…",
+        "date": "2026年7月18日",
+        "date_iso": "2026-07-18",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon OpenSearch UI now supports one-click dashboard migration",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-opensearch-ui-one-click-dashboard-migration",
+        "summary": "Amazon OpenSearch Service now supports one-click migration from legacy OpenSearch Dashboards to OpenSearch UI, for both OpenSearch domains and serverless collections. OpenSearch UI is the new,…",
+        "date": "2026年7月18日",
+        "date_iso": "2026-07-18",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon SageMaker HyperPod now supports partition-level topology for Slurm orchestrated clusters",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/hyperpod-partition-topology-slurm/",
+        "summary": "Amazon SageMaker HyperPod now supports network topology configuration at the partition level for Slurm orchestrated clusters. A single cluster can now run tree topology in one partition and block…",
+        "date": "2026年7月18日",
+        "date_iso": "2026-07-18",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
       {
         "title": "Amazon Managed Grafana achieves FedRAMP High authorization in AWS GovCloud (US)",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-managed-grafana-fedramp-high/",
@@ -265,9 +295,9 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon EC2 High Memory U7in-24TB instances now available in AWS Europe (Paris) region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-high-memory-europe/",
-        "summary": "Amazon EC2 High Memory U7in-24TB instances (u7in-24tb.224xlarge) are now available in AWS&nbsp;Europe (Paris) region. U7i instances are part of the AWS 7th generation and are powered by custom…",
+        "title": "Amazon Redshift adds rg.large and rg.12xlarge instance sizes",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-adds-rg-large-12xlarge-instance-sizes",
+        "summary": "Amazon Redshift announces the general availability of two new RG instance sizes - rg.large and rg.12xlarge. These new sizes deliver the same Graviton-powered performance benefits as existing RG…",
         "date": "2026年7月17日",
         "date_iso": "2026-07-17",
         "category": "ai-tag",
@@ -275,9 +305,9 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon Redshift adds rg.large and rg.12xlarge instance sizes",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-adds-rg-large-12xlarge-instance-sizes",
-        "summary": "Amazon Redshift announces the general availability of two new RG instance sizes - rg.large and rg.12xlarge. These new sizes deliver the same Graviton-powered performance benefits as existing RG…",
+        "title": "Amazon EC2 High Memory U7in-24TB instances now available in AWS Europe (Paris) region",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-high-memory-europe/",
+        "summary": "Amazon EC2 High Memory U7in-24TB instances (u7in-24tb.224xlarge) are now available in AWS&nbsp;Europe (Paris) region. U7i instances are part of the AWS 7th generation and are powered by custom…",
         "date": "2026年7月17日",
         "date_iso": "2026-07-17",
         "category": "ai-tag",
@@ -297,7 +327,7 @@
       {
         "title": "AWS Backup extends logically air-gapped vault support to six additional AWS Regions",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-backup-logically-air-gapped-vault-regions/",
-        "summary": "AWS Backup logically air-gapped vaults are now available in six additional AWS Regions: Asia Pacific (Taipei), Asia Pacific (Malaysia), Asia Pacific (New Zealand), Asia Pacific (Thailand), Mexico…",
+        "summary": "AWS Backup logically air-gapped vaults are now available in six additional AWS Regions: Asia Pacific (Taipei), Asia Pacific (Malaysia), Asia Pacific (New Zealand), Asia Pacific…",
         "date": "2026年7月16日",
         "date_iso": "2026-07-16",
         "category": "ai-tag",
@@ -305,9 +335,9 @@
         "tag": "AWS"
       },
       {
-        "title": "AWS Backup extends restore testing support to six additional AWS Regions",
+        "title": "AWS Backup extends restore testing support to seven additional AWS Regions",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-backup-restore-testing-regions/",
-        "summary": "AWS Backup restore testing is now available in six additional AWS Regions: Asia Pacific (Taipei), Asia Pacific (Malaysia), Asia Pacific (New Zealand), Asia Pacific (Thailand), Mexico (Central), and…",
+        "summary": "AWS Backup restore testing is now available in seven additional AWS Regions: Asia Pacific (Taipei), Asia Pacific (Malaysia), Asia Pacific (New Zealand), Asia Pacific (Thailand), Israel (Tel Aviv),…",
         "date": "2026年7月16日",
         "date_iso": "2026-07-16",
         "category": "ai-tag",
@@ -373,39 +403,19 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon RDS and Aurora now support R8g and M8g database instances in additional AWS Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/7/amazon-rds-aurora-r8g-m8g-regions/",
-        "summary": "AWS Graviton4-based R8g database instances are now generally available for Amazon Aurora (MySQL and PostgreSQL compatibility) and Amazon RDS for PostgreSQL, MySQL, and MariaDB in Asia Pacific…",
-        "date": "2026年7月16日",
-        "date_iso": "2026-07-16",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon RDS and Aurora expand R8gd and M8gd to additional Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-aurora-r8gd-m8gd-regions/",
-        "summary": "Amazon Relational Database Service (RDS) now supports R8gd database instances in 12 additional regions and and M8gd database instances in 6 additional Regions with Optimized Reads for Amazon Aurora…",
-        "date": "2026年7月16日",
-        "date_iso": "2026-07-16",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Cognito now supports importing users with password hashes",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-cognito-password-hash-import/",
-        "summary": "Amazon Cognito now supports importing users with password hashes in CSV user imports. Previously, users imported from a CSV file had to reset their passwords on first sign-in. Now, you can include…",
-        "date": "2026年7月16日",
-        "date_iso": "2026-07-16",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "July 17, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#July_17_2026",
+        "summary": "Batch Feature Instance flexibility is available in Preview . Instance flexibility lets you allow a job to run on multiple machine types that you specify and can optionally rank. Use instance…",
+        "date": "2026年7月17日",
+        "date_iso": "2026-07-17",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
       {
         "title": "July 16, 2026",
         "link": "https://docs.cloud.google.com/release-notes#July_16_2026",
@@ -595,19 +605,39 @@
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "GCP"
-      },
-      {
-        "title": "June 27, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#June_27_2026",
-        "summary": "Google SecOps SOAR Announcement Release 6.3.90 is now available for all regions.",
-        "date": "2026年6月27日",
-        "date_iso": "2026-06-27",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
       }
     ],
     "oci": [
+      {
+        "title": "Expanded On-Demand Model Availability in OCI Generative AI",
+        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/expanded-on-demand-model-availability.htm",
+        "summary": "",
+        "date": "2026年7月15日",
+        "date_iso": "2026-07-15",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "H100 Multi-Node Serving Now Available for Model Import in OCI Generative AI",
+        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/h100-multinode-imported-models.htm",
+        "summary": "",
+        "date": "2026年7月15日",
+        "date_iso": "2026-07-15",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Use OCI IAM Authentication for Hosted Application Endpoints in OCI Generative AI",
+        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/hosted-applications-iam.htm",
+        "summary": "",
+        "date": "2026年7月15日",
+        "date_iso": "2026-07-15",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
       {
         "title": "New Experience in Oracle Cloud Console",
         "link": "https://docs.oracle.com/iaas/releasenotes/speech/console-experience.htm",
@@ -666,16 +696,6 @@
         "date_iso": "2026-07-14",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Strengthen IAM Sessions with Cookie Protection",
-        "link": "https://docs.oracle.com/iaas/releasenotes/identity/identity-cookie-protection.htm",
-        "summary": "",
-        "date": "2026年7月13日",
-        "date_iso": "2026-07-13",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
         "tag": "OCI"
       },
       {
@@ -759,26 +779,6 @@
         "tag": "OCI"
       },
       {
-        "title": "New Database Management Report Type in News Reports",
-        "link": "https://docs.oracle.com/iaas/releasenotes/operations-insights/database-management-report-type-opsi.htm",
-        "summary": "",
-        "date": "2026年6月30日",
-        "date_iso": "2026-06-30",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "OCI"
-      },
-      {
-        "title": "Schedule Randomization for Data Science Scheduler",
-        "link": "https://docs.oracle.com/iaas/releasenotes/data-science/june2026-schedule-randomization.htm",
-        "summary": "",
-        "date": "2026年6月30日",
-        "date_iso": "2026-06-30",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
         "title": "Use Private Endpoints for Imported Models in OCI Generative AI",
         "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/private-endpoint-imported-models.htm",
         "summary": "",
@@ -799,8 +799,8 @@
         "tag": "OCI"
       },
       {
-        "title": "Cross-region Support in SQL Insights - Fleet Analysis",
-        "link": "https://docs.oracle.com/iaas/releasenotes/operations-insights/cross-region-support-sql-insights.htm",
+        "title": "New Database Management Report Type in News Reports",
+        "link": "https://docs.oracle.com/iaas/releasenotes/operations-insights/database-management-report-type-opsi.htm",
         "summary": "",
         "date": "2026年6月30日",
         "date_iso": "2026-06-30",
