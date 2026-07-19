@@ -1,5 +1,5 @@
 {
-  "updated": "2026年07月18日 19:49 JST",
+  "updated": "2026年07月19日 12:55 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "July 18, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#July_18_2026",
+        "summary": "Google SecOps SOAR Announcement Release 6.3.93 is now available for all regions.",
+        "date": "2026年7月18日",
+        "date_iso": "2026-07-18",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "July 17, 2026",
         "link": "https://docs.cloud.google.com/release-notes#July_17_2026",
         "summary": "Batch Feature Instance flexibility is available in Preview . Instance flexibility lets you allow a job to run on multiple machine types that you specify and can optionally rank. Use instance…",
@@ -594,16 +604,6 @@
         "date_iso": "2026-06-29",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "June 28, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#June_28_2026",
-        "summary": "Google SecOps Change Google SecOps has updated the list of supported default parsers . Parsers are updated gradually, so it might take one to four days before you see the changes reflected in your…",
-        "date": "2026年6月28日",
-        "date_iso": "2026-06-28",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
         "tag": "GCP"
       }
     ],
