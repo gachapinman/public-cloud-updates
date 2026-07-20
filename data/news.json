@@ -1,5 +1,5 @@
 {
-  "updated": "2026年07月20日 15:34 JST",
+  "updated": "2026年07月20日 21:03 JST",
   "clouds": {
     "azure": [
       {
@@ -407,19 +407,189 @@
     ],
     "gcp": [
       {
-        "title": "What’s new with Google Cloud",
-        "link": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
-        "summary": "Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip :…",
+        "title": "July 19, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#July_19_2026",
+        "summary": "Google SecOps SOAR Announcement Release 6.3.94 is being rolled out to the first phase of regions as listed here . This release contains internal and customer bug fixes.",
+        "date": "2026年7月19日",
+        "date_iso": "2026-07-19",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
+        "title": "July 18, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#July_18_2026",
+        "summary": "Google SecOps SOAR Announcement Release 6.3.93 is now available for all regions.",
         "date": "2026年7月18日",
         "date_iso": "2026-07-18",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
+        "title": "July 17, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#July_17_2026",
+        "summary": "Batch Feature Instance flexibility is available in Preview . Instance flexibility lets you allow a job to run on multiple machine types that you specify and can optionally rank. Use instance…",
+        "date": "2026年7月17日",
+        "date_iso": "2026-07-17",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
+        "title": "July 16, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#July_16_2026",
+        "summary": "Apigee X Announcement On July 16th, 2026, we began maintenance updates of Apigee instances configured for maintenance windows . If you set a preferred window for maintenance for your instance, and…",
+        "date": "2026年7月16日",
+        "date_iso": "2026-07-16",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
+        "title": "July 15, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#July_15_2026",
+        "summary": "Apigee UI Fixed Apigee UI Fixed an issue where editing a legacy API Product with a selected API Proxy could cause the Apigee UI to become unresponsive. Apigee X Announcement On July 15th, 2026, we…",
+        "date": "2026年7月15日",
+        "date_iso": "2026-07-15",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "GCP"
       },
       {
-        "title": "What Google Cloud announced in AI this month",
-        "link": "https://cloud.google.com/blog/products/ai-machine-learning/what-google-cloud-announced-in-ai-this-month/",
-        "summary": "Editor’s note : Want to keep up with the latest from Google Cloud? Check back here for a monthly recap of our latest updates, announcements, resources, events, learning opportunities, and more. Our…",
+        "title": "July 14, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#July_14_2026",
+        "summary": "BigQuery Feature Conversational analytics now supports the AI.AGG function . This function is in Preview . Announcement As part of Gemini in BigQuery , conversational analytics now supports HIPAA…",
+        "date": "2026年7月14日",
+        "date_iso": "2026-07-14",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
+        "title": "July 13, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#July_13_2026",
+        "summary": "Agent Platform Workbench Feature Agent Platform Workbench image release The following Agent Platform Workbench instances image releases are available: 20260712-2130-rc0 ( workbench-instances-2603 -…",
+        "date": "2026年7月13日",
+        "date_iso": "2026-07-13",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
+        "title": "July 12, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#July_12_2026",
+        "summary": "Google SecOps Feature Publisher Agent Version 2.7.0 Publisher Agent Version 2.7.0 is now available for all regions. This release includes the following updates for the remote agent: High Availability…",
+        "date": "2026年7月12日",
+        "date_iso": "2026-07-12",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
+        "title": "July 11, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#July_11_2026",
+        "summary": "Google SecOps SOAR Announcement Release 6.3.92 is now available for all regions.",
+        "date": "2026年7月11日",
+        "date_iso": "2026-07-11",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
+        "title": "July 10, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#July_10_2026",
+        "summary": "Apigee Advanced API Security Deprecated Deprecation and shutdown of GenAI Incident Summary (generative AI Insights) The standalone GenAI Incident Summary (generative AI Insights) feature in Apigee…",
+        "date": "2026年7月10日",
+        "date_iso": "2026-07-10",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
+        "title": "July 09, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#July_09_2026",
+        "summary": "BigQuery Feature You can use the BigQuery Data Transfer Service to transfer metadata from the following data sources into Knowledge Catalog: PostgreSQL Microsoft SQL Server This feature is in Preview…",
+        "date": "2026年7月9日",
+        "date_iso": "2026-07-09",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "GCP"
+      },
+      {
+        "title": "July 08, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#July_08_2026",
+        "summary": "AlloyDB for PostgreSQL Feature External search with AlloyDB now supports Apache Solr in Preview . You can use the external_search_fdw extension to connect to a Solr cluster and query its data…",
+        "date": "2026年7月8日",
+        "date_iso": "2026-07-08",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "GCP"
+      },
+      {
+        "title": "July 07, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#July_07_2026",
+        "summary": "App Engine standard environment Java Feature To modernize image processing, migrate from the App Engine Images service to Cloud Run by routing calls to a Cloud Run image transformation service while…",
+        "date": "2026年7月7日",
+        "date_iso": "2026-07-07",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "GCP"
+      },
+      {
+        "title": "July 06, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#July_06_2026",
+        "summary": "Agent Platform Workbench Feature Agent Platform Workbench image release The following Agent Platform Workbench instances image release is available: 20260701-2130-rc0 ( workbench-instances-2603 -…",
+        "date": "2026年7月6日",
+        "date_iso": "2026-07-06",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
+        "title": "July 05, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#July_05_2026",
+        "summary": "Google SecOps SOAR Announcement Release 6.3.92 is being rolled out to the first phase of regions as listed here . This release contains internal and customer bug fixes. Feature Publisher Agent…",
+        "date": "2026年7月5日",
+        "date_iso": "2026-07-05",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
+        "title": "July 04, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#July_04_2026",
+        "summary": "Google SecOps SOAR Announcement Release 6.3.91 is now available for all regions.",
+        "date": "2026年7月4日",
+        "date_iso": "2026-07-04",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
+        "title": "July 03, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#July_03_2026",
+        "summary": "Apigee hybrid Announcement v1.15.5 On July 3, 2026 we released an updated version of the Apigee hybrid software, v1.15.5. For information on upgrading, see Upgrading Apigee hybrid to version v1.15.5…",
+        "date": "2026年7月3日",
+        "date_iso": "2026-07-03",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "GCP"
+      },
+      {
+        "title": "July 02, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#July_02_2026",
+        "summary": "Audit Manager Feature Audit Manager now supports built-in frameworks and custom frameworks that you define using Compliance Manager or Assured Workloads frameworks (preview). Cloud Database Migration…",
+        "date": "2026年7月2日",
+        "date_iso": "2026-07-02",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "GCP"
+      },
+      {
+        "title": "July 01, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#July_01_2026",
+        "summary": "BigQuery Feature You can now use pre-trained TimesFM models in BigQuery ML directly from Connected Sheets . These models let you create forecasts and detect anomalies in your data by using the…",
         "date": "2026年7月1日",
         "date_iso": "2026-07-01",
         "category": "ai-tag",
@@ -427,183 +597,13 @@
         "tag": "GCP"
       },
       {
-        "title": "What Google Cloud announced in AI this month - 2025",
-        "link": "https://cloud.google.com/blog/products/ai-machine-learning/what-google-cloud-announced-in-ai-this-month-2025/",
-        "summary": "Editor’s note : Want to keep up with the latest from Google Cloud? Check back here for a monthly recap of our latest updates, announcements, resources, events, learning opportunities, and more. 2025…",
-        "date": "2026年1月1日",
-        "date_iso": "2026-01-01",
+        "title": "June 30, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#June_30_2026",
+        "summary": "Agent Platform Workbench Feature Python 3.12 base containers for Agent Platform Workbench custom containers You can build custom containers for Agent Platform Workbench instances using Python 3.12…",
+        "date": "2026年6月30日",
+        "date_iso": "2026-06-30",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "What’s new with Google Cloud - 2025",
-        "link": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud-2025/",
-        "summary": "Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip :…",
-        "date": "2025年12月27日",
-        "date_iso": "2025-12-27",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "GCP"
-      },
-      {
-        "title": "The Year in Google Cloud — 2025",
-        "link": "https://cloud.google.com/blog/products/gcp/top-google-cloud-blogs-2025/",
-        "summary": "In the AI era, when one year can feel like 10, you’re forgiven for forgetting what happened last month, much less what happened all the way back in January. To jog your memory, we pulled the…",
-        "date": "2025年12月20日",
-        "date_iso": "2025-12-20",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "Supporting Viksit Bharat: Announcing our newest AI investments in India",
-        "link": "https://cloud.google.com/blog/products/gcp/supporting-viksit-bharat-announcing-ai-investments-in-india/",
-        "summary": "Editor's note: This blog has been translated into Bengali , Hindi , Marathi , Tamil , and Telugu . India’s developer community, vibrant startup ecosystem, and leading enterprises are embracing AI…",
-        "date": "2025年11月11日",
-        "date_iso": "2025-11-11",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "How scientists can leverage AI agents using Gemini Enterprise, Gemini Code Assist, and Gemini CLI",
-        "link": "https://cloud.google.com/blog/products/ai-machine-learning/how-scientists-can-use-gemini-enterprise-for-ai-workflows/",
-        "summary": "Scientific inquiry has always been a journey of curiosity, meticulous effort, and groundbreaking discoveries. Today, that journey is being redefined, fueled by the incredible capabilities of AI. It’s…",
-        "date": "2025年11月4日",
-        "date_iso": "2025-11-04",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "Top 25 blogs of 2025… so far",
-        "link": "https://cloud.google.com/blog/products/gcp/most-read-blogs-from-h1-2025/",
-        "summary": "Six months into 2025, we’ve already published hundreds of posts here on the Google Cloud blog. We asked ourselves, why wait until the busy end of the year to review your favorites? With everything…",
-        "date": "2025年7月31日",
-        "date_iso": "2025-07-31",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "The overwhelmed person’s guide to Google Cloud: week of January 16",
-        "link": "https://cloud.google.com/blog/products/gcp/the-overwhelmed-persons-guide-to-google-cloud/",
-        "summary": "The content in this blog post was originally published last week as a members-only email to the Google Cloud Innovators community. To get this content directly in your inbox (not to mention lots of…",
-        "date": "2025年1月22日",
-        "date_iso": "2025-01-22",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "What’s new with Google Cloud - 2024",
-        "link": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud-2024/",
-        "summary": "Week of Dec 16 - Dec 20 Windows Server 2025 is now available on Google Compute Engine. We are excited to announce the general availability of Windows Server 2025 on Google Compute Engine. You can now…",
-        "date": "2025年1月1日",
-        "date_iso": "2025-01-01",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "The Year in Google Cloud - 2024",
-        "link": "https://cloud.google.com/blog/products/gcp/top-google-cloud-blogs/",
-        "summary": "If you’re a regular reader of this blog, you know that 2024 was a busy year for Google Cloud. From AI to Zero Trust, and everything in between, here’s a chronological recap of our top blogs of 2024,…",
-        "date": "2024年12月21日",
-        "date_iso": "2024-12-21",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "AI Playground: Where learning and innovation converge in the heart of London",
-        "link": "https://cloud.google.com/blog/products/ai-machine-learning/ai-playground-where-learning-and-innovation-converge-in-the-heart-of-london/",
-        "summary": "AI is rapidly transforming industries and redefining the future of work. However, many organizations face a significant hurdle: bridging the knowledge gap and acquiring the necessary skills to…",
-        "date": "2024年12月17日",
-        "date_iso": "2024-12-17",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "London Summit: UK businesses turn to Google Cloud AI",
-        "link": "https://cloud.google.com/blog/products/gcp/london-summit-uk-businesses-turn-to-google-cloud-ai/",
-        "summary": "The AI era is here, and the UK is at the forefront. Over the past year, search interest for \"AI\" has surged by 50% in the country, while inquiries about \"how to use AI\" have jumped 70%. By 2030 , AI…",
-        "date": "2024年10月9日",
-        "date_iso": "2024-10-09",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "Your ultimate guide to the latest in generative AI on Vertex AI",
-        "link": "https://cloud.google.com/blog/products/ai-machine-learning/your-ultimate-guide-to-the-latest-in-generative-ai-on-vertex-ai/",
-        "summary": "The world of generative AI is evolving at a pace that's nothing short of mind-blowing. It feels like just yesterday we were marveling at AI-generated images, and now we're having full-fledged…",
-        "date": "2024年9月27日",
-        "date_iso": "2024-09-27",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "Enhancing LLM quality and interpretability with the Vertex AI Gen AI Evaluation Service",
-        "link": "https://cloud.google.com/blog/products/ai-machine-learning/enhancing-llm-quality-and-interpretability-with-the-vertex-gen-ai-evaluation-service/",
-        "summary": "Developers harnessing the power of large language models (LLMs) often encounter two key hurdles: managing the inherent randomness of their output and addressing their occasional tendency to generate…",
-        "date": "2024年7月30日",
-        "date_iso": "2024-07-30",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "What’s new with Google Cloud - 2023",
-        "link": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud-2023/",
-        "summary": "Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip :…",
-        "date": "2024年1月1日",
-        "date_iso": "2024-01-01",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "GCP"
-      },
-      {
-        "title": "The year in Google Cloud: Top news of 2023",
-        "link": "https://cloud.google.com/blog/products/gcp/google-cloud-top-news-of-2023/",
-        "summary": "In the world of technology and cloud computing, the news comes fast and furious. Blink and you’ll miss it. As we wind down the final days of 2023, here’s a look at the top stories of the year that we…",
-        "date": "2023年12月20日",
-        "date_iso": "2023-12-20",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "GCP"
-      },
-      {
-        "title": "Looker Studio brings powerful explorations, fresher data and faster filtering",
-        "link": "https://cloud.google.com/blog/products/business-intelligence/looker-studio-brings-powerful-explorations-fresher-data-and-faster-filtering/",
-        "summary": "Looker Studio supports self-serve analytics for ad hoc data, and together with Looker, contributes to the more than 10 million users who access the Looker family of products each month. Today, we are…",
-        "date": "2023年11月17日",
-        "date_iso": "2023-11-17",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "GCP"
-      },
-      {
-        "title": "Looker Studio Pro now available for Android and iOS",
-        "link": "https://cloud.google.com/blog/products/business-intelligence/get-looker-studio-pro-for-android-and-ios/",
-        "summary": "Looker Studio enables millions of users to bring their data to life with insightful dashboards and visualizations, connecting to more than 1,000 data sources and a host of community-sourced report…",
-        "date": "2023年11月4日",
-        "date_iso": "2023-11-04",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "Getting to know Systems insights, a simplified database system monitoring tool",
-        "link": "https://cloud.google.com/blog/products/databases/designing-system-insights-a-simplified-db-system-monitoring/",
-        "summary": "A slow running database is hard to diagnose. When problems arise, database teams want to immediately understand what is causing the issue. Is the database experiencing resource saturation? If so,…",
-        "date": "2023年10月14日",
-        "date_iso": "2023-10-14",
-        "category": "database-tag",
-        "cat_label": "データベース",
         "tag": "GCP"
       }
     ],
