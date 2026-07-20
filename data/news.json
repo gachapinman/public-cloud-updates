@@ -1,5 +1,5 @@
 {
-  "updated": "2026年07月19日 19:59 JST",
+  "updated": "2026年07月20日 13:05 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "July 19, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#July_19_2026",
+        "summary": "Google SecOps SOAR Announcement Release 6.3.94 is being rolled out to the first phase of regions as listed here . This release contains internal and customer bug fixes.",
+        "date": "2026年7月19日",
+        "date_iso": "2026-07-19",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "July 18, 2026",
         "link": "https://docs.cloud.google.com/release-notes#July_18_2026",
         "summary": "Google SecOps SOAR Announcement Release 6.3.93 is now available for all regions.",
@@ -595,16 +605,6 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
-      },
-      {
-        "title": "June 29, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#June_29_2026",
-        "summary": "Agent Platform Workbench Feature Agent Platform Workbench image release The following Agent Platform Workbench instances image release is available: 20260628-2130-rc0 ( workbench-instances-2603 -…",
-        "date": "2026年6月29日",
-        "date_iso": "2026-06-29",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
       }
     ],
     "oci": [
@@ -646,6 +646,16 @@
         "date_iso": "2026-07-15",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Console AI Experience Preview for Free Tier and Always Free Customers",
+        "link": "https://docs.oracle.com/iaas/releasenotes/console/consoleai-preview-july-2026.htm",
+        "summary": "",
+        "date": "2026年7月14日",
+        "date_iso": "2026-07-14",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "OCI"
       },
       {
@@ -779,26 +789,6 @@
         "tag": "OCI"
       },
       {
-        "title": "Use Private Endpoints for Imported Models in OCI Generative AI",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/private-endpoint-imported-models.htm",
-        "summary": "",
-        "date": "2026年6月30日",
-        "date_iso": "2026-06-30",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Import New Compatible Models in OCI Generative AI",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/compatible-imported-models-june-30-2026.htm",
-        "summary": "",
-        "date": "2026年6月30日",
-        "date_iso": "2026-06-30",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
         "title": "New Database Management Report Type in News Reports",
         "link": "https://docs.oracle.com/iaas/releasenotes/operations-insights/database-management-report-type-opsi.htm",
         "summary": "",
@@ -806,6 +796,16 @@
         "date_iso": "2026-06-30",
         "category": "database-tag",
         "cat_label": "データベース",
+        "tag": "OCI"
+      },
+      {
+        "title": "Schedule Randomization for Data Science Scheduler",
+        "link": "https://docs.oracle.com/iaas/releasenotes/data-science/june2026-schedule-randomization.htm",
+        "summary": "",
+        "date": "2026年6月30日",
+        "date_iso": "2026-06-30",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "OCI"
       }
     ]
