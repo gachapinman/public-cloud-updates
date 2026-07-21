@@ -1,7 +1,27 @@
 {
-  "updated": "2026年07月20日 21:03 JST",
+  "updated": "2026年07月21日 12:46 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Public Preview: Protect sensitive generative AI telemetry in Application Insights and Microsoft Foundry",
+        "link": "https://azure.microsoft.com/updates?id=567594",
+        "summary": "Azure Monitor Application Insights now stores generative AI content in a dedicated GenAIContent table (AppGenAIContent in Log Analytics), making it possible to apply newly available access controls…",
+        "date": "2026年7月21日",
+        "date_iso": "2026-07-21",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: IPv6 support for Azure VPN Gateway",
+        "link": "https://azure.microsoft.com/updates?id=567847",
+        "summary": "IPv6 support for Azure VPN Gateway enables customers to run IPv6 inner traffic through VPN tunnels in a dual‑stack configuration. IPv6 is supported on all production SKU gateways that use standard…",
+        "date": "2026年7月20日",
+        "date_iso": "2026-07-20",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Generally Available: Azure Functions support for Python 3.14",
         "link": "https://azure.microsoft.com/updates?id=567646",
@@ -181,29 +201,109 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Retirement: Support for Python-2.7; 3.8 and PowerShell- 7.1; 7.2 will be retired on September 30, 2026",
-        "link": "https://azure.microsoft.com/updates?id=567556",
-        "summary": "Starting October 1, 2026, the specified runtime versions Python 2.7, Python 3.8, and PowerShell 7.1 & 7.2. will no longer be supported by Automation. Runbooks using these versions may continue to run…",
-        "date": "2026年7月11日",
-        "date_iso": "2026-07-11",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Manage Azure Chaos Studio from the Azure CLI",
-        "link": "https://azure.microsoft.com/updates?id=567225",
-        "summary": "You can now create and run Azure Chaos Studio resilience Scenarios directly from the Azure CLI with the new az chaos extension — no more hand-assembling REST calls and JSON files. Get started in one…",
-        "date": "2026年7月10日",
-        "date_iso": "2026-07-10",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "AWS Data Exports now provides standardized Amazon Bedrock product metadata",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-data-exports-amazon-bedrock-product-metadata/",
+        "summary": "Today, AWS announces standardized product metadata for Amazon Bedrock in AWS Data Exports (Cost and Usage Report), giving FinOps teams and cloud administrators consistent, structured attributes to…",
+        "date": "2026年7月21日",
+        "date_iso": "2026-07-21",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 R8i and R8i-flex instances are now available in additional regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-r8i-r8i-flex-instances-in-stockholm-zurich-regions/",
+        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8i and R8i-flex instances are available in the Europe (Stockholm, Zurich) regions. These instances are powered by custom Intel Xeon 6…",
+        "date": "2026年7月21日",
+        "date_iso": "2026-07-21",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Selectively log network activity events by identity in AWS CloudTrail",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-cloudtrail-filter-useridentity-advance-selectors/",
+        "summary": "Today, AWS launches enhanced event filtering for network activity events for VPC end points, a CloudTrail event type that captures actions transmitted through a&nbsp; Virtual Private Cloud Endpoint…",
+        "date": "2026年7月21日",
+        "date_iso": "2026-07-21",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Connect delivers more natural agentic voice experiences with expanded language support and speech controls",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-connect-agentic-voice/",
+        "summary": "Amazon Connect customers can now deliver more natural, human-sounding agentic voice experiences with expanded support across 50+ languages including Spanish, French, Italian, Japanese, Korean,…",
+        "date": "2026年7月21日",
+        "date_iso": "2026-07-21",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 I8ge instances are now available in AWS GovCloud (US) Regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-i8ge-instances-aws-govcloud-us-regions/",
+        "summary": "Amazon Web Services (AWS) announces the availability of Amazon EC2 I8ge instances in AWS GovCloud (US-East, US-West) regions. I8ge instances are powered by AWS Graviton4 processors and deliver up to…",
+        "date": "2026年7月21日",
+        "date_iso": "2026-07-21",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon WorkSpaces Applications now supports Microsoft OneDrive and Google Drive on Multi-Session fleets",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/storage-multi-session-fleets/",
+        "summary": "Amazon WorkSpaces Applications now supports Microsoft OneDrive for Business and Google Drive as persistent storage options on multi-session fleets. Users streaming on multi-session fleets can now…",
+        "date": "2026年7月21日",
+        "date_iso": "2026-07-21",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Managed Service for Apache Flink now supports Apache Flink 2.3",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-managed-service-flink-2-3/",
+        "summary": "Amazon Managed Service for Apache Flink now supports Apache Flink version 2.3. This release includes adaptive partition selection for improved backpressure handling, so applications run more smoothly…",
+        "date": "2026年7月21日",
+        "date_iso": "2026-07-21",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Announcing the general availability of a new AWS Local Zone in Athens, Greece",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-local-zone-athens-greece/",
+        "summary": "Today, AWS announces the general availability of a new Local Zone in Athens, Greece. The Athens Local Zone is the second Local Zone in EMEA with support for Amazon Simple Storage Service (Amazon S3)…",
+        "date": "2026年7月20日",
+        "date_iso": "2026-07-20",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon CloudWatch announces coding agent insights",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/cloudwatch-coding-agent-insights/",
+        "summary": "Amazon CloudWatch announces the launch of coding agent insights, giving engineering leaders visibility into how AI coding tools are driving value across their organization. Coding Agent Insights…",
+        "date": "2026年7月20日",
+        "date_iso": "2026-07-20",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Introducing KNFSD File Cache - Now in Preview",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/knfsd-file-cache/",
+        "summary": "Today, AWS announces the availability of KNFSD File Cache, an open-source, Apache-2.0 licensed solution for deploying a scalable, high-speed Network File System (NFS) cache on AWS. KNFSD File Cache…",
+        "date": "2026年7月20日",
+        "date_iso": "2026-07-20",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
       {
         "title": "Amazon GameLift Streams now supports IAM role credentials for stream sessions",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-gamelift-streams-iam/",
@@ -232,6 +332,16 @@
         "date_iso": "2026-07-18",
         "category": "ai-tag",
         "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon CloudWatch Synthetics now supports customer managed encryption keys",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/synthetics-customer-managed-keys/",
+        "summary": "Amazon CloudWatch Synthetics now supports customer managed AWS Key Management Service (KMS) keys for encrypting canary environment variables, giving you full control over the encryption of sensitive…",
+        "date": "2026年7月17日",
+        "date_iso": "2026-07-17",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
         "tag": "AWS"
       },
       {
@@ -293,119 +403,19 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon Redshift adds rg.large and rg.12xlarge instance sizes",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-adds-rg-large-12xlarge-instance-sizes",
-        "summary": "Amazon Redshift announces the general availability of two new RG instance sizes - rg.large and rg.12xlarge. These new sizes deliver the same Graviton-powered performance benefits as existing RG…",
-        "date": "2026年7月17日",
-        "date_iso": "2026-07-17",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 High Memory U7in-24TB instances now available in AWS Europe (Paris) region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-high-memory-europe/",
-        "summary": "Amazon EC2 High Memory U7in-24TB instances (u7in-24tb.224xlarge) are now available in AWS&nbsp;Europe (Paris) region. U7i instances are part of the AWS 7th generation and are powered by custom…",
-        "date": "2026年7月17日",
-        "date_iso": "2026-07-17",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon S3 removes 30-day minimum for transitions to S3 Standard-IA and S3 One Zone-IA",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/s3-removes-30-day-transitions-standard-ia-one-zone-ia",
-        "summary": "You can now transition objects to S3 Standard-Infrequent Access (S3 Standard-IA) and S3 One Zone-Infrequent Access (S3 One Zone-IA) as soon as the day they are created, without the previous 30-day…",
-        "date": "2026年7月17日",
-        "date_iso": "2026-07-17",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Backup extends logically air-gapped vault support to six additional AWS Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-backup-logically-air-gapped-vault-regions/",
-        "summary": "AWS Backup logically air-gapped vaults are now available in six additional AWS Regions: Asia Pacific (Taipei), Asia Pacific (Malaysia), Asia Pacific (New Zealand), Asia Pacific…",
-        "date": "2026年7月16日",
-        "date_iso": "2026-07-16",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Backup extends restore testing support to seven additional AWS Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-backup-restore-testing-regions/",
-        "summary": "AWS Backup restore testing is now available in seven additional AWS Regions: Asia Pacific (Taipei), Asia Pacific (Malaysia), Asia Pacific (New Zealand), Asia Pacific (Thailand), Israel (Tel Aviv),…",
-        "date": "2026年7月16日",
-        "date_iso": "2026-07-16",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Control Tower Account Factory for Terraform now re-applies customizations when accounts move between OUs",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-control-tower-account/",
-        "summary": "AWS Control Tower Account Factory for Terraform (AFT) can now automatically re-apply an account's customizations when that account moves to a different Organizational Unit (OU). Previously, moving an…",
-        "date": "2026年7月16日",
-        "date_iso": "2026-07-16",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Aurora DSQL is now in scope for FedRAMP Moderate",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-aurora-dsql-now-in-scope-for-fedramp-moderate/",
-        "summary": "Amazon Aurora DSQL is now in scope for FedRAMP Moderate in the US East (Ohio), US East (N. Virginia), and US West (Oregon) Regions. You can now use Aurora DSQL to build applications and run workloads…",
-        "date": "2026年7月16日",
-        "date_iso": "2026-07-16",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon CloudWatch Logs Insights adds 25 new query commands and functions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/7/amazon-cloudwatch-logs-insights-ql/",
-        "summary": "Amazon CloudWatch Logs Insights query language now supports 25 new commands and functions that expand your ability to query, transform, correlate, and analyze logs. Customers analyzing logs in…",
-        "date": "2026年7月16日",
-        "date_iso": "2026-07-16",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon CloudWatch Logs announces intelligent tiering for storage",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-cloudwatch-intelligent-tiering/",
-        "summary": "Amazon CloudWatch Logs now supports intelligent storage tiering, which automatically classifies your log data across three storage tiers - Standard (existing), Infrequent Access, and Archive Instant…",
-        "date": "2026年7月16日",
-        "date_iso": "2026-07-16",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon MQ now supports configurable storage for RabbitMQ brokers",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-mq-rabbitmq-configurable-storage/",
-        "summary": "Amazon MQ now allows you to configure the EBS Disk storage size for RabbitMQ brokers independently of instance type. When creating or updating a broker, you can define a custom storage size, allowing…",
-        "date": "2026年7月16日",
-        "date_iso": "2026-07-16",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 G7e instances now available in additional regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-g7e-additional-regions/",
-        "summary": "Starting today, Amazon&nbsp;Elastic Compute Cloud (Amazon EC2) G7e instances accelerated by NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs are now available in the AWS Europe (Frankfurt,…",
-        "date": "2026年7月16日",
-        "date_iso": "2026-07-16",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "July 20, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#July_20_2026",
+        "summary": "Batch Breaking Starting on the following dates, you can no longer create a job that locates its Compute Engine resources outside of the job's location. For projects that have successfully submitted…",
+        "date": "2026年7月20日",
+        "date_iso": "2026-07-20",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "GCP"
+      },
       {
         "title": "July 19, 2026",
         "link": "https://docs.cloud.google.com/release-notes#July_19_2026",
@@ -595,16 +605,6 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
-      },
-      {
-        "title": "June 30, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#June_30_2026",
-        "summary": "Agent Platform Workbench Feature Python 3.12 base containers for Agent Platform Workbench custom containers You can build custom containers for Agent Platform Workbench instances using Python 3.12…",
-        "date": "2026年6月30日",
-        "date_iso": "2026-06-30",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
       }
     ],
     "oci": [
@@ -649,16 +649,6 @@
         "tag": "OCI"
       },
       {
-        "title": "Console AI Experience Preview for Free Tier and Always Free Customers",
-        "link": "https://docs.oracle.com/iaas/releasenotes/console/consoleai-preview-july-2026.htm",
-        "summary": "",
-        "date": "2026年7月14日",
-        "date_iso": "2026-07-14",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
         "title": "Kubernetes Engine support for deploying the Node Feature Discovery cluster add-on",
         "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-Node-Feature-Discovery-addon.htm",
         "summary": "",
@@ -699,6 +689,16 @@
         "tag": "OCI"
       },
       {
+        "title": "Console AI Experience Preview for Free Tier and Always Free Customers",
+        "link": "https://docs.oracle.com/iaas/releasenotes/console/consoleai-preview-july-2026.htm",
+        "summary": "",
+        "date": "2026年7月14日",
+        "date_iso": "2026-07-14",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
         "title": "Oracle APEX 26.1",
         "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-07-oracle-apex.htm",
         "summary": "",
@@ -706,6 +706,16 @@
         "date_iso": "2026-07-14",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Strengthen IAM Sessions with Cookie Protection",
+        "link": "https://docs.oracle.com/iaas/releasenotes/identity/identity-cookie-protection.htm",
+        "summary": "",
+        "date": "2026年7月13日",
+        "date_iso": "2026-07-13",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
         "tag": "OCI"
       },
       {
@@ -796,16 +806,6 @@
         "date_iso": "2026-06-30",
         "category": "database-tag",
         "cat_label": "データベース",
-        "tag": "OCI"
-      },
-      {
-        "title": "Schedule Randomization for Data Science Scheduler",
-        "link": "https://docs.oracle.com/iaas/releasenotes/data-science/june2026-schedule-randomization.htm",
-        "summary": "",
-        "date": "2026年6月30日",
-        "date_iso": "2026-06-30",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
         "tag": "OCI"
       }
     ]
