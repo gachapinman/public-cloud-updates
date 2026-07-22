@@ -1,5 +1,5 @@
 {
-  "updated": "2026年07月21日 20:29 JST",
+  "updated": "2026年07月22日 12:47 JST",
   "clouds": {
     "azure": [
       {
@@ -205,6 +205,106 @@
     ],
     "aws": [
       {
+        "title": "Amazon EC2 R6in and R6idn instances are now available in additional regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-r6in-r6idn/",
+        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R6in and R6idn instances are available in AWS Europe (Paris) and Canada (Central) regions. These sixth-generation network optimized…",
+        "date": "2026年7月22日",
+        "date_iso": "2026-07-22",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 C6in instances are now available in Asia Pacific (Taipei) Region",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-c6in/",
+        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C6in instances are available in AWS Asia Pacific (Taipei). These sixth-generation network optimized instances, powered by 3rd Generation…",
+        "date": "2026年7月22日",
+        "date_iso": "2026-07-22",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 M6in and M6idn instances are now available in additional regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-m6in-m6idn/",
+        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) M6in and M6idn instances are available in AWS Asia Pacific (Hyderabad) and South America (Sao Paulo) regions. These sixth-generation network…",
+        "date": "2026年7月22日",
+        "date_iso": "2026-07-22",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon ECS advanced deployment strategies now available in AWS European Sovereign Cloud",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/ecs-adv-deployments-eu-sovereign-cloud/",
+        "summary": "Amazon Elastic Container Service (Amazon ECS) now supports built-in blue/green, linear, and canary deployment strategies in the AWS European Sovereign Cloud, making software updates for containerized…",
+        "date": "2026年7月22日",
+        "date_iso": "2026-07-22",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon SES introduces pricing plans",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ses-pricing-plans/",
+        "summary": "Today, Amazon Simple Email Service (SES) introduced pricing plans, making it easy to purchase and access SES capabilities without evaluating them individually. Amazon SES pricing plans include three…",
+        "date": "2026年7月22日",
+        "date_iso": "2026-07-22",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon ECS now provides Action Logs for deployment and orchestration visibility",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-action-logs/",
+        "summary": "Today, Amazon Elastic Container Service (Amazon ECS) introduces Action Logs, a new observability feature that delivers detailed, timestamped records of the actions Amazon ECS performs on behalf of…",
+        "date": "2026年7月22日",
+        "date_iso": "2026-07-22",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Managed Service for Prometheus supports 1.5B active metrics and 200K rules per workspace",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-managed-service-prometheus-1500m-metrics-workspace/",
+        "summary": "Amazon Managed Service for Prometheus now supports up to 1.5 billion active metric time series and up to 200,000 total recording and alerting rules per workspace. Customers can also create many…",
+        "date": "2026年7月21日",
+        "date_iso": "2026-07-21",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon RDS now supports the latest CU and GDR updates for Microsoft SQL Server",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-supports-latest-cu-gdr-microsoft-sql-server",
+        "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports the latest Cumulative Updates (CU) and General Distribution Release (GDR) updates for Microsoft SQL Server. This release…",
+        "date": "2026年7月21日",
+        "date_iso": "2026-07-21",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon RDS for SQL Server now supports Microsoft SQL Server 2025",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/rds-sqlserver-supports-sqlserver-2025",
+        "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports Microsoft SQL Server 2025 for Enterprise, Standard, and Developer editions. SQL Server 2025 brings AI integration directly…",
+        "date": "2026年7月21日",
+        "date_iso": "2026-07-21",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Partner Central agents expand funding guidance to all programs",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-partner-central/",
+        "summary": "AWS Partner Central agents now support all AWS Partner funding programs. AWS Partners can get guidance on eligibility requirements, application processes, and program details for any funding program…",
+        "date": "2026年7月21日",
+        "date_iso": "2026-07-21",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
         "title": "AWS Data Exports now provides standardized Amazon Bedrock product metadata",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-data-exports-amazon-bedrock-product-metadata/",
         "summary": "Today, AWS announces standardized product metadata for Amazon Bedrock in AWS Data Exports (Cost and Usage Report), giving FinOps teams and cloud administrators consistent, structured attributes to…",
@@ -255,13 +355,13 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon WorkSpaces Applications now supports Microsoft OneDrive and Google Drive on Multi-Session fleets",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/storage-multi-session-fleets/",
-        "summary": "Amazon WorkSpaces Applications now supports Microsoft OneDrive for Business and Google Drive as persistent storage options on multi-session fleets. Users streaming on multi-session fleets can now…",
+        "title": "Amazon Connect Customer launches metrics for agent queues on analytics dashboards",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-connect/",
+        "summary": "Amazon Connect Customer dashboards now display real-time and historical metrics for agent queues. Agent queues are used to directly route contacts to a specific agent. Now, supervisors can track how…",
         "date": "2026年7月21日",
         "date_iso": "2026-07-21",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
+        "category": "database-tag",
+        "cat_label": "データベース",
         "tag": "AWS"
       },
       {
@@ -272,6 +372,16 @@
         "date_iso": "2026-07-21",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon WorkSpaces Applications now supports Microsoft OneDrive and Google Drive on Multi-Session fleets",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/storage-multi-session-fleets/",
+        "summary": "Amazon WorkSpaces Applications now supports Microsoft OneDrive for Business and Google Drive as persistent storage options on multi-session fleets. Users streaming on multi-session fleets can now…",
+        "date": "2026年7月21日",
+        "date_iso": "2026-07-21",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
         "tag": "AWS"
       },
       {
@@ -293,119 +403,19 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "Introducing KNFSD File Cache - Now in Preview",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/knfsd-file-cache/",
-        "summary": "Today, AWS announces the availability of KNFSD File Cache, an open-source, Apache-2.0 licensed solution for deploying a scalable, high-speed Network File System (NFS) cache on AWS. KNFSD File Cache…",
-        "date": "2026年7月20日",
-        "date_iso": "2026-07-20",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon GameLift Streams now supports IAM role credentials for stream sessions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-gamelift-streams-iam/",
-        "summary": "Amazon GameLift Streams now supports assigning an IAM role to a stream session, enabling your application to securely access resources in your AWS account, such as Amazon S3 buckets and DynamoDB…",
-        "date": "2026年7月18日",
-        "date_iso": "2026-07-18",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon OpenSearch UI now supports one-click dashboard migration",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-opensearch-ui-one-click-dashboard-migration",
-        "summary": "Amazon OpenSearch Service now supports one-click migration from legacy OpenSearch Dashboards to OpenSearch UI, for both OpenSearch domains and serverless collections. OpenSearch UI is the new,…",
-        "date": "2026年7月18日",
-        "date_iso": "2026-07-18",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SageMaker HyperPod now supports partition-level topology for Slurm orchestrated clusters",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/hyperpod-partition-topology-slurm/",
-        "summary": "Amazon SageMaker HyperPod now supports network topology configuration at the partition level for Slurm orchestrated clusters. A single cluster can now run tree topology in one partition and block…",
-        "date": "2026年7月18日",
-        "date_iso": "2026-07-18",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Managed Grafana が AWS GovCloud (米国) で FedRAMP High 認証を取得",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/07/amazon-managed-grafana-fedramp-high/",
-        "summary": "",
-        "date": "2026年7月17日",
-        "date_iso": "2026-07-17",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "新しい Cost Efficiency ウィジェットにより、Billing and Cost Management ダッシュボードで直接コスト効率のトレンドを追跡可能に",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/07/monitor-cost-efficiency-using-dashboards",
-        "summary": "",
-        "date": "2026年7月17日",
-        "date_iso": "2026-07-17",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 がパブリック AMI に関連付けられたパブリック SSM パラメータの表示に対応",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/07/ec2-public-images-ssm-parameters",
-        "summary": "",
-        "date": "2026年7月17日",
-        "date_iso": "2026-07-17",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon S3 イベント通知がシステム生成タグに対応",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/07/amazon-s3-event-notifications-system-generated-tags/",
-        "summary": "",
-        "date": "2026年7月17日",
-        "date_iso": "2026-07-17",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
-        "tag": "AWS"
-      },
-      {
-        "title": "PostgreSQL 19 Beta 2 が Amazon RDS データベースプレビュー環境で利用可能に",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/07/postgresql-19-beta-2-amazon-rds-database-preview-environment/",
-        "summary": "",
-        "date": "2026年7月17日",
-        "date_iso": "2026-07-17",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Sustainability サービスが取水量データに対応",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/07/aws-sustainability-water-withdrawals/",
-        "summary": "",
-        "date": "2026年7月17日",
-        "date_iso": "2026-07-17",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Redshift が rg.large と rg.12xlarge のインスタンスサイズを追加",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/07/amazon-redshift-adds-rg-large-12xlarge-instance-sizes",
-        "summary": "",
-        "date": "2026年7月17日",
-        "date_iso": "2026-07-17",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "July 21, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#July_21_2026",
+        "summary": "Anthos Attached Clusters Announcement You can now launch clusters with the following Kubernetes versions. Click on the following links to see the release notes associated with these patches:…",
+        "date": "2026年7月21日",
+        "date_iso": "2026-07-21",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "GCP"
+      },
       {
         "title": "July 20, 2026",
         "link": "https://docs.cloud.google.com/release-notes#July_20_2026",
@@ -594,16 +604,6 @@
         "date_iso": "2026-07-02",
         "category": "security-tag",
         "cat_label": "セキュリティ",
-        "tag": "GCP"
-      },
-      {
-        "title": "July 01, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#July_01_2026",
-        "summary": "BigQuery Feature You can now use pre-trained TimesFM models in BigQuery ML directly from Connected Sheets . These models let you create forecasts and detect anomalies in your data by using the…",
-        "date": "2026年7月1日",
-        "date_iso": "2026-07-01",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "GCP"
       }
     ],
