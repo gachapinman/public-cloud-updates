@@ -1,7 +1,17 @@
 {
-  "updated": "2026年07月23日 20:33 JST",
+  "updated": "2026年07月24日 12:44 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Public Preview: Azure DDoS Protection custom policy",
+        "link": "https://azure.microsoft.com/updates?id=568063",
+        "summary": "Azure DDoS Protection custom policy is now in public preview. This capability provides per-resource control over DDoS mitigation thresholds for protected Standard Load Balancer frontend IP…",
+        "date": "2026年7月24日",
+        "date_iso": "2026-07-24",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
+        "tag": "AZURE"
+      },
       {
         "title": "Public Preview: Standard service endpoint",
         "link": "https://azure.microsoft.com/updates?id=561475",
@@ -191,19 +201,119 @@
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Azure Front Door edge actions",
-        "link": "https://azure.microsoft.com/updates?id=567402",
-        "summary": "Announcing the public preview of Azure Front Door edge actions (serverless compute at the edge).With edge actions, customers can execute lightweight JavaScript functions during Azure Front Door…",
-        "date": "2026年7月15日",
-        "date_iso": "2026-07-15",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Amazon ECS Service Connect now supports Zone-Aware routing",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/ecs-service-connect-zone-aware/",
+        "summary": "Amazon Elastic Container Service (Amazon ECS)&nbsp;introduces zone-aware routing for ECS Service Connect, enabling customers to reduce cross Availability Zone (AZ) data transfer costs and latency by…",
+        "date": "2026年7月24日",
+        "date_iso": "2026-07-24",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS now supports automatic credit memo application preferences",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/credit-memo-applications/",
+        "summary": "AWS now enables customers who pay through electronic funds transfer to configure preferences for how credit memos are automatically applied to outstanding invoices. Customers can choose from…",
+        "date": "2026年7月24日",
+        "date_iso": "2026-07-24",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon RDS for MySQL supports MySQL 9.7 in Amazon RDS Database Preview Environment",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-mysql-long-term-9-7-rds-database-preview/",
+        "summary": "Amazon RDS for MySQL &nbsp;now supports version community MySQL 9.7 in the&nbsp; Amazon RDS Database Preview Environment , allowing you to evaluate the latest Release on Amazon RDS for MySQL. This…",
+        "date": "2026年7月24日",
+        "date_iso": "2026-07-24",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Bedrock AgentCore now delivers unified observability with traces and logs in a single log group",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-bedrock-agentcore-unified-observability-single-log-group/",
+        "summary": "Amazon Bedrock AgentCore now delivers agent traces and prompts to the same log group as your agent's logs, giving you unified observability for AI agents in a single Amazon CloudWatch log group.…",
+        "date": "2026年7月24日",
+        "date_iso": "2026-07-24",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon CloudWatch Logs now supports Application Load Balancer logs",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-cloudwatch-logs/",
+        "summary": "Amazon CloudWatch Logs now supports Application Load Balancer (ALB) logs as vended logs, improving observability and simplifying debugging for network traffic patterns. You can now analyze ALB…",
+        "date": "2026年7月24日",
+        "date_iso": "2026-07-24",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EVS is now available in additional Regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-evs-available-in-additional-regions/",
+        "summary": "Today, we're announcing that Amazon Elastic VMware Service (Amazon EVS) is now available in the Asia Pacific (Seoul), Europe (Zurich), and Europe (Stockholm)&nbsp;Regions. This expansion provides…",
+        "date": "2026年7月24日",
+        "date_iso": "2026-07-24",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Claude Sonnet 5 is now available on Amazon Bedrock in AWS GovCloud (US)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/claude-sonnet-5-govcloud/",
+        "summary": "AWS GovCloud (US) now offers Claude Sonnet 5 on Amazon Bedrock. Claude Sonnet 5 delivers strong performance across coding, professional work, and agentic tasks while maintaining the balance of…",
+        "date": "2026年7月24日",
+        "date_iso": "2026-07-24",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Announcing region expansion of G7e instances on SageMaker AI inference",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/g7e-sagemaker-ai/",
+        "summary": "We are pleased to announce the availability of Amazon EC2 G7e instances in Asia Pacific (Seoul), Europe (London), and Asia Pacific (Tokyo) on Amazon SageMaker AI inference. G7e instances feature up…",
+        "date": "2026年7月24日",
+        "date_iso": "2026-07-24",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Announcing region expansion of G6 instances on SageMaker AI Inference",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/g6-sagemaker-ai-inference/",
+        "summary": "We are pleased to announce the availability of Amazon EC2 G6 instances in the AWS GovCloud (US-East) region on Amazon SageMaker AI inference. G6 instances are powered by up to 8 NVIDIA L4 Tensor Core…",
+        "date": "2026年7月23日",
+        "date_iso": "2026-07-23",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Wickr announces Data Retention Service feature",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-wickr-data/",
+        "summary": "AWS Wickr now offers a managed Data Retention Service feature for Premium users, enabling organizations to retain conversations across their network for data archiving purposes. AWS Wickr is an…",
+        "date": "2026年7月23日",
+        "date_iso": "2026-07-23",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 High Memory U7i instances now available in additional regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-high-memory-u7i/",
+        "summary": "Amazon EC2 High Memory U7in-16TB instances (u7in-16tb.224xlarge) are now available in AWS South America (São Paulo) region, and U7in-24TB instances (u7in-24tb.224xlarge) are now available in AWS…",
+        "date": "2026年7月23日",
+        "date_iso": "2026-07-23",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
       {
         "title": "Amazon EC2 C7a instances are now available in the US West (N. California) Region",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-c7a-instances-us-west-ncalifornia-region/",
@@ -218,6 +328,16 @@
         "title": "Amazon EC2 M8a instances now available in the Asia Pacific (Hyderabad) region",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-m8a-instances-asia-pacific-hyderabad-region/",
         "summary": "Starting today, the general-purpose Amazon EC2 M8a instances are available in AWS Asia Pacific (Hyderabad) region. M8a instances are powered by 5th Gen AMD EPYC processors (formerly code named Turin)…",
+        "date": "2026年7月23日",
+        "date_iso": "2026-07-23",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 M8id instances are now available in Europe (Ireland) region",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-m8id-europe-ireland/",
+        "summary": "Amazon EC2 M8id instances are now available in (Ireland). These instances are powered by custom Intel Xeon 6 processors and deliver up to 43% higher performance and 3.3x more memory bandwidth…",
         "date": "2026年7月23日",
         "date_iso": "2026-07-23",
         "category": "ai-tag",
@@ -275,137 +395,27 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon EKS now supports EFA and placement groups on Amazon EKS Auto Mode and Karpenter",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-efa-placement-groups/",
-        "summary": "Amazon Elastic Kubernetes Service (EKS) now supports Amazon EC2 placement groups and Elastic Fabric Adapter (EFA) network device configuration for node pools on EKS Auto Mode and the open-source…",
-        "date": "2026年7月22日",
-        "date_iso": "2026-07-22",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon RDS now supports the latest CU and GDR updates for Microsoft SQL Server",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-supports-latest-cu-gdr-microsoft-sql-server",
-        "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports the latest Cumulative Updates (CU) and General Distribution Release (GDR) updates for Microsoft SQL Server. This release…",
-        "date": "2026年7月22日",
-        "date_iso": "2026-07-22",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Secrets Manager now publishes secret update notifications to Amazon EventBridge",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/secrets-manager-update-notifications",
-        "summary": "AWS Secrets Manager now automatically publishes events to Amazon EventBridge whenever your secret values change, enabling you to build event-driven workflows that respond in real time to secret…",
-        "date": "2026年7月22日",
-        "date_iso": "2026-07-22",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Direct Connect announces 100G expansion in Lima, Peru",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-direct-connect-100g-lima/",
-        "summary": "Today, AWS announced the expansion of 100 Gbps dedicated connections at the existing AWS Direct Connect location within the Cirion data center in Lima, Peru. You can now establish private, direct…",
-        "date": "2026年7月22日",
-        "date_iso": "2026-07-22",
-        "category": "network-tag",
-        "cat_label": "ネットワーク",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Elastic Disaster Recovery is now available in six additional AWS Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-drs-additional-regions/",
-        "summary": "AWS Elastic Disaster Recovery (AWS DRS) is now available in six additional AWS Regions: Asia Pacific (Bangkok), Asia Pacific (Malaysia), Asia Pacific (New Zealand), Asia Pacific (Taipei), Canada West…",
-        "date": "2026年7月22日",
-        "date_iso": "2026-07-22",
+        "title": "Amazon SageMaker AI inference now supports G7 instances",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-ai-g7/",
+        "summary": "Amazon SageMaker AI inference now supports G7 instances powered by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs, enabling you to deploy machine learning models with up to 4.6x AI inference…",
+        "date": "2026年7月23日",
+        "date_iso": "2026-07-23",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 R6in and R6idn instances are now available in additional regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-r6in-r6idn/",
-        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R6in and R6idn instances are available in AWS Europe (Paris) and Canada (Central) regions. These sixth-generation network optimized…",
-        "date": "2026年7月22日",
-        "date_iso": "2026-07-22",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 M6in and M6idn instances are now available in additional regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-m6in-m6idn/",
-        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) M6in and M6idn instances are available in AWS Asia Pacific (Hyderabad) and South America (Sao Paulo) regions. These sixth-generation network…",
-        "date": "2026年7月22日",
-        "date_iso": "2026-07-22",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 C6in instances are now available in Asia Pacific (Taipei) Region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-c6in/",
-        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C6in instances are available in AWS Asia Pacific (Taipei). These sixth-generation network optimized instances, powered by 3rd Generation…",
-        "date": "2026年7月22日",
-        "date_iso": "2026-07-22",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SageMaker Unified Studio now supports Amazon OpenSearch",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-unified/",
-        "summary": "Amazon SageMaker Unified Studio now supports Amazon OpenSearch as a data source, enabling you to query and analyze your search and log analytics data directly alongside your other data assets. With…",
-        "date": "2026年7月22日",
-        "date_iso": "2026-07-22",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon ECS advanced deployment strategies now available in AWS European Sovereign Cloud",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/ecs-adv-deployments-eu-sovereign-cloud/",
-        "summary": "Amazon Elastic Container Service (Amazon ECS) now supports built-in blue/green, linear, and canary deployment strategies in the AWS European Sovereign Cloud, making software updates for containerized…",
-        "date": "2026年7月22日",
-        "date_iso": "2026-07-22",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SES introduces pricing plans",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ses-pricing-plans/",
-        "summary": "Today, Amazon Simple Email Service (SES) introduced pricing plans, making it easy to purchase and access SES capabilities without evaluating them individually. Amazon SES pricing plans include three…",
-        "date": "2026年7月22日",
-        "date_iso": "2026-07-22",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon ECS now provides Action Logs for deployment and orchestration visibility",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-action-logs/",
-        "summary": "Today, Amazon Elastic Container Service (Amazon ECS) introduces Action Logs, a new observability feature that delivers detailed, timestamped records of the actions Amazon ECS performs on behalf of…",
-        "date": "2026年7月22日",
-        "date_iso": "2026-07-22",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Managed Service for Prometheus supports 1.5B active metrics and 200K rules per workspace",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-managed-service-prometheus-1500m-metrics-workspace/",
-        "summary": "Amazon Managed Service for Prometheus now supports up to 1.5 billion active metric time series and up to 200,000 total recording and alerting rules per workspace. Customers can also create many…",
-        "date": "2026年7月21日",
-        "date_iso": "2026-07-21",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
         "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "July 23, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#July_23_2026",
+        "summary": "AlloyDB for PostgreSQL Feature Transparent query forwarding is now available in Preview for clusters compatible with PostgreSQL 17 and 18. With this feature, the primary node in a cluster intercepts…",
+        "date": "2026年7月23日",
+        "date_iso": "2026-07-23",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
       {
         "title": "July 22, 2026",
         "link": "https://docs.cloud.google.com/release-notes#July_22_2026",
@@ -594,16 +604,6 @@
         "date_iso": "2026-07-04",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "July 03, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#July_03_2026",
-        "summary": "Apigee hybrid Announcement v1.15.5 On July 3, 2026 we released an updated version of the Apigee hybrid software, v1.15.5. For information on upgrading, see Upgrading Apigee hybrid to version v1.15.5…",
-        "date": "2026年7月3日",
-        "date_iso": "2026-07-03",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
         "tag": "GCP"
       }
     ],
