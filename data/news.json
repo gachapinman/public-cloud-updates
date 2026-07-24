@@ -1,5 +1,5 @@
 {
-  "updated": "2026年07月24日 12:44 JST",
+  "updated": "2026年07月24日 15:10 JST",
   "clouds": {
     "azure": [
       {
@@ -235,6 +235,16 @@
         "tag": "AWS"
       },
       {
+        "title": "AWS Lambda durable execution SDK for .NET is now generally available",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/lambdadf-dotnet/",
+        "summary": "Today, AWS announces the general availability of the AWS Lambda Durable Execution SDK for .NET, empowering C# developers to build resilient, long-running workflows using Lambda durable functions.…",
+        "date": "2026年7月24日",
+        "date_iso": "2026-07-24",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon Bedrock AgentCore now delivers unified observability with traces and logs in a single log group",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-bedrock-agentcore-unified-observability-single-log-group/",
         "summary": "Amazon Bedrock AgentCore now delivers agent traces and prompts to the same log group as your agent's logs, giving you unified observability for AI agents in a single Amazon CloudWatch log group.…",
@@ -392,16 +402,6 @@
         "date_iso": "2026-07-23",
         "category": "security-tag",
         "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SageMaker AI inference now supports G7 instances",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-ai-g7/",
-        "summary": "Amazon SageMaker AI inference now supports G7 instances powered by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs, enabling you to deploy machine learning models with up to 4.6x AI inference…",
-        "date": "2026年7月23日",
-        "date_iso": "2026-07-23",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "AWS"
       }
     ],
