@@ -1,5 +1,5 @@
 {
-  "updated": "2026年07月24日 15:10 JST",
+  "updated": "2026年07月24日 20:26 JST",
   "clouds": {
     "azure": [
       {
@@ -609,13 +609,33 @@
     ],
     "oci": [
       {
-        "title": "Availability Domain Selection in Autonomous AI Database",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-07-ad-selection.htm",
+        "title": "Explore Database Management Using Demo Mode",
+        "link": "https://docs.oracle.com/iaas/releasenotes/database-management/enable-demo-mode.htm",
         "summary": "",
-        "date": "2026年7月21日",
-        "date_iso": "2026-07-21",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
+        "date": "2026年7月23日",
+        "date_iso": "2026-07-23",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "OCI"
+      },
+      {
+        "title": "Compare Period ADDM",
+        "link": "https://docs.oracle.com/iaas/releasenotes/database-management/compare-period-addm.htm",
+        "summary": "",
+        "date": "2026年7月23日",
+        "date_iso": "2026-07-23",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Export Sunburst and Treemap widget data to CSV",
+        "link": "https://docs.oracle.com/iaas/releasenotes/management-dashboard/sunburst-treemap-export-csv.htm",
+        "summary": "",
+        "date": "2026年7月23日",
+        "date_iso": "2026-07-23",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "OCI"
       },
       {
@@ -636,6 +656,16 @@
         "date_iso": "2026-07-21",
         "category": "security-tag",
         "cat_label": "セキュリティ",
+        "tag": "OCI"
+      },
+      {
+        "title": "Availability Domain Selection in Autonomous AI Database",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-07-ad-selection.htm",
+        "summary": "",
+        "date": "2026年7月21日",
+        "date_iso": "2026-07-21",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "OCI"
       },
       {
@@ -674,16 +704,6 @@
         "summary": "",
         "date": "2026年7月15日",
         "date_iso": "2026-07-15",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Oracle APEX 26.1",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-07-oracle-apex.htm",
-        "summary": "",
-        "date": "2026年7月14日",
-        "date_iso": "2026-07-14",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "OCI"
@@ -739,6 +759,16 @@
         "tag": "OCI"
       },
       {
+        "title": "Oracle APEX 26.1",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-07-oracle-apex.htm",
+        "summary": "",
+        "date": "2026年7月14日",
+        "date_iso": "2026-07-14",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
         "title": "OCI Kubernetes Engine (OKE) support for 20,000 worker nodes per Kubernetes cluster",
         "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng_20000-node-support.htm",
         "summary": "",
@@ -759,26 +789,6 @@
         "tag": "OCI"
       },
       {
-        "title": "External Authentication Support for Database Tools in Autonomous AI Database",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-07-external-authentication.htm",
-        "summary": "",
-        "date": "2026年7月7日",
-        "date_iso": "2026-07-07",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Expose Select AI Agent team as agent through A2A protocol",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-07-expose-select-ai.htm",
-        "summary": "",
-        "date": "2026年7月7日",
-        "date_iso": "2026-07-07",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
         "title": "Support for Kubernetes version 1.36.1",
         "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-K8s-1-36-1-support.htm",
         "summary": "",
@@ -796,16 +806,6 @@
         "date_iso": "2026-07-07",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "OCI Kubernetes Engine (OKE) support for on-demand virtual node cycling",
-        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-virtual-node-cycling-release-note.htm",
-        "summary": "",
-        "date": "2026年7月6日",
-        "date_iso": "2026-07-06",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
         "tag": "OCI"
       }
     ]
