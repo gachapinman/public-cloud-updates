@@ -1,5 +1,5 @@
 {
-  "updated": "2026年07月25日 12:38 JST",
+  "updated": "2026年07月25日 15:01 JST",
   "clouds": {
     "azure": [
       {
@@ -409,11 +409,11 @@
       {
         "title": "July 24, 2026",
         "link": "https://docs.cloud.google.com/release-notes#July_24_2026",
-        "summary": "Apigee hybrid Announcement v1.16.8 On July 24, 2026 we released an updated version of the Apigee hybrid software, v1.16.8. For information on upgrading, see Upgrading Apigee hybrid to version 1.16 .…",
+        "summary": "Apigee API hub Feature General availability (GA) launch of Model Context Protocol (MCP) in API hub The API hub MCP server is Generally Available (GA) . This release enables seamless integration…",
         "date": "2026年7月24日",
         "date_iso": "2026-07-24",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "GCP"
       },
       {
