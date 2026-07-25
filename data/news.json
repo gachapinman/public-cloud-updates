@@ -1,5 +1,5 @@
 {
-  "updated": "2026年07月24日 20:26 JST",
+  "updated": "2026年07月25日 12:38 JST",
   "clouds": {
     "azure": [
       {
@@ -205,6 +205,96 @@
     ],
     "aws": [
       {
+        "title": "Amazon Connect now supports audio optimization for Azure Virtual Desktop and Windows 365 Cloud PC",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-connect/",
+        "summary": "Agents using Microsoft Azure Virtual Desktop (AVD) or Windows 365 Cloud PC can now take calls directly from their virtual desktop session with audio optimization enabled. To get started, IT…",
+        "date": "2026年7月25日",
+        "date_iso": "2026-07-25",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon MWAA now supports Apache Airflow version 2.11.2",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-mwaa-now-supports-apache-airflow-version-2-11-2",
+        "summary": "Amazon Managed Workflows for Apache Airflow (MWAA) now supports Apache Airflow version 2.11.2. Amazon MWAA is a managed service that runs Apache Airflow at scale without the operational overhead of…",
+        "date": "2026年7月25日",
+        "date_iso": "2026-07-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 Dedicated Hosts now support host resource groups without self-managed licenses",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-dedicated-hosts-hrg/",
+        "summary": "Starting today, customers can create Host Resource Groups (HRGs) for EC2 Dedicated Hosts without the previously required step of creating Self-Managed Licenses (SMLs) and associating AMIs through AWS…",
+        "date": "2026年7月25日",
+        "date_iso": "2026-07-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Kinesis Data Streams now supports scaling down ingest capacity with warm throughput",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/kinesis/on-demand-scale-down",
+        "summary": "Amazon Kinesis Data Streams is a serverless streaming data service that makes it easy to capture, process, and store data streams at any scale. On-demand streams automatically increase ingest…",
+        "date": "2026年7月25日",
+        "date_iso": "2026-07-25",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Lambda now publishes logs for Lambda Managed Instances capacity providers",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-managed-instances-logs/",
+        "summary": "AWS Lambda now publishes logs for Lambda Managed Instances (LMI) capacity providers to Amazon CloudWatch Logs, giving you visibility into scaling activity and instance lifecycle operations. LMI…",
+        "date": "2026年7月25日",
+        "date_iso": "2026-07-25",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon SES simplifies sending emails over SMTP using Mail Manager",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ses-simplified-smtp-mail-manager",
+        "summary": "Amazon Simple Email Service (SES) now offers a simplified console experience for sending emails over SMTP using Mail Manager. Mail Manager is a capability within SES for managing email flow, but…",
+        "date": "2026年7月25日",
+        "date_iso": "2026-07-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Claude Opus 5 is now available on AWS",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/claude-opus-5-aws/",
+        "summary": "AWS now offers Claude Opus 5 — the most advanced Opus model yet, and compatible with zero data retention (ZDR) — bringing a step-change in coding, long-running agents, and complex professional work…",
+        "date": "2026年7月25日",
+        "date_iso": "2026-07-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Opus 4.8, Sonnet 5, and User Activity Monitoring now available on Kiro in AWS GovCloud (US)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/kiro-opus-sonnet-monitoring-launch-aws-govcloud-us/",
+        "summary": "Two new models are now available in the Kiro IDE and CLI for the AWS GovCloud (US) Regions. Claude Opus 4.8 is the most intelligent Opus model, delivering stronger self-verification, more efficient…",
+        "date": "2026年7月24日",
+        "date_iso": "2026-07-24",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS announces aws-bench, an open-source benchmark for AI agents on AWS",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-bench/",
+        "summary": "Today, AWS announces a research preview of aws-bench, an open-source benchmark that measures how accurately and efficiently AI agents complete real-world AWS tasks. Model providers and AI researchers…",
+        "date": "2026年7月24日",
+        "date_iso": "2026-07-24",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon ECS Service Connect now supports Zone-Aware routing",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/ecs-service-connect-zone-aware/",
         "summary": "Amazon Elastic Container Service (Amazon ECS)&nbsp;introduces zone-aware routing for ECS Service Connect, enabling customers to reduce cross Availability Zone (AZ) data transfer costs and latency by…",
@@ -265,6 +355,16 @@
         "tag": "AWS"
       },
       {
+        "title": "Amazon EC2 I8ge instances are now generally available in additional AWS regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-i8ge-additional-regions/",
+        "summary": "Amazon Web Services (AWS) announces the availability of Amazon EC2 I8ge instances in AWS Europe (London) and Canada (Central)&nbsp; regions. I8ge instances are powered by AWS Graviton4 processors and…",
+        "date": "2026年7月24日",
+        "date_iso": "2026-07-24",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon EVS is now available in additional Regions",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-evs-available-in-additional-regions/",
         "summary": "Today, we're announcing that Amazon Elastic VMware Service (Amazon EVS) is now available in the Asia Pacific (Seoul), Europe (Zurich), and Europe (Stockholm)&nbsp;Regions. This expansion provides…",
@@ -303,109 +403,19 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "AWS Wickr announces Data Retention Service feature",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-wickr-data/",
-        "summary": "AWS Wickr now offers a managed Data Retention Service feature for Premium users, enabling organizations to retain conversations across their network for data archiving purposes. AWS Wickr is an…",
-        "date": "2026年7月23日",
-        "date_iso": "2026-07-23",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 High Memory U7i instances now available in additional regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-high-memory-u7i/",
-        "summary": "Amazon EC2 High Memory U7in-16TB instances (u7in-16tb.224xlarge) are now available in AWS South America (São Paulo) region, and U7in-24TB instances (u7in-24tb.224xlarge) are now available in AWS…",
-        "date": "2026年7月23日",
-        "date_iso": "2026-07-23",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 C7a instances are now available in the US West (N. California) Region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-c7a-instances-us-west-ncalifornia-region/",
-        "summary": "Starting today, the compute optimized Amazon EC2 C7a instances are now available in AWS US West (N. California) Region. C7a instances, powered by 4th Gen AMD EPYC processors (code-named Genoa) with a…",
-        "date": "2026年7月23日",
-        "date_iso": "2026-07-23",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 M8a instances now available in the Asia Pacific (Hyderabad) region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-m8a-instances-asia-pacific-hyderabad-region/",
-        "summary": "Starting today, the general-purpose Amazon EC2 M8a instances are available in AWS Asia Pacific (Hyderabad) region. M8a instances are powered by 5th Gen AMD EPYC processors (formerly code named Turin)…",
-        "date": "2026年7月23日",
-        "date_iso": "2026-07-23",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 M8id instances are now available in Europe (Ireland) region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-m8id-europe-ireland/",
-        "summary": "Amazon EC2 M8id instances are now available in (Ireland). These instances are powered by custom Intel Xeon 6 processors and deliver up to 43% higher performance and 3.3x more memory bandwidth…",
-        "date": "2026年7月23日",
-        "date_iso": "2026-07-23",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Network Load Balancer now supports Listener Rules for custom traffic routing",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-network-load-balancer-supports-listener-rules/",
-        "summary": "Network Load Balancer (NLB) now supports listener rules allowing you to route connections to different target groups based on the source IP address type. With listener rules, a single dual-stack NLB…",
-        "date": "2026年7月23日",
-        "date_iso": "2026-07-23",
-        "category": "network-tag",
-        "cat_label": "ネットワーク",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Entity Resolution now supports advanced real-time matching",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-entity-resolution/",
-        "summary": "AWS Entity Resolution now supports real-time matching with advanced matching workflows, enabling customers to match records in milliseconds using complex rulesets through the GenerateMatchId API.…",
-        "date": "2026年7月23日",
-        "date_iso": "2026-07-23",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Lambda durable functions now supports customer managed key encryption",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/durablefunctions-cmk/",
-        "summary": "AWS Lambda durable functions now supports encryption of durable execution data with an AWS Key Management Service (AWS KMS) customer managed key. Lambda durable functions &nbsp;lets you build…",
-        "date": "2026年7月23日",
-        "date_iso": "2026-07-23",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Corretto July 2026 Quarterly Updates",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-corretto-july-2026-quarterly-updates",
-        "summary": "On July 22, 2026, Amazon announced quarterly security and critical updates for Amazon Corretto Long-Term Support (LTS) and Feature Release (FR) versions of OpenJDK. Corretto 26.0.2, 25.0.4, 21.0.12,…",
-        "date": "2026年7月23日",
-        "date_iso": "2026-07-23",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Organizations increases RCP quota to 2,000 per organization",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-organizations-resource-control-policy-limit-increase-2000",
-        "summary": "AWS Organizations now supports up to 2,000 resource control policies (RCPs) per organization, doubling the previous limit of 1,000. RCPs enable centralized management of the maximum permissions…",
-        "date": "2026年7月23日",
-        "date_iso": "2026-07-23",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "July 24, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#July_24_2026",
+        "summary": "Apigee hybrid Announcement v1.16.8 On July 24, 2026 we released an updated version of the Apigee hybrid software, v1.16.8. For information on upgrading, see Upgrading Apigee hybrid to version 1.16 .…",
+        "date": "2026年7月24日",
+        "date_iso": "2026-07-24",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "GCP"
+      },
       {
         "title": "July 23, 2026",
         "link": "https://docs.cloud.google.com/release-notes#July_23_2026",
@@ -595,16 +605,6 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
-      },
-      {
-        "title": "July 04, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#July_04_2026",
-        "summary": "Google SecOps SOAR Announcement Release 6.3.91 is now available for all regions.",
-        "date": "2026年7月4日",
-        "date_iso": "2026-07-04",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
       }
     ],
     "oci": [
@@ -636,6 +636,16 @@
         "date_iso": "2026-07-23",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "OCI Database with PostgreSQL available in Oracle US Government Cloud and US Defense Cloud",
+        "link": "https://docs.oracle.com/iaas/releasenotes/govcloud/postgresql-fedramp.htm",
+        "summary": "",
+        "date": "2026年7月21日",
+        "date_iso": "2026-07-21",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "OCI"
       },
       {
@@ -796,16 +806,6 @@
         "date_iso": "2026-07-07",
         "category": "container-tag",
         "cat_label": "コンテナ",
-        "tag": "OCI"
-      },
-      {
-        "title": "Resource Manager adds premium jobs for higher concurrent job limits",
-        "link": "https://docs.oracle.com/iaas/releasenotes/resource-manager/resource-manager-premium-jobs.htm",
-        "summary": "",
-        "date": "2026年7月7日",
-        "date_iso": "2026-07-07",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
         "tag": "OCI"
       }
     ]
