@@ -1,5 +1,5 @@
 {
-  "updated": "2026年07月25日 19:56 JST",
+  "updated": "2026年07月26日 12:56 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "July 25, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#July_25_2026",
+        "summary": "Google SecOps SOAR Announcement Release 6.3.94 is now available for all regions.",
+        "date": "2026年7月25日",
+        "date_iso": "2026-07-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "July 24, 2026",
         "link": "https://docs.cloud.google.com/release-notes#July_24_2026",
         "summary": "Apigee API hub Feature General availability (GA) launch of Model Context Protocol (MCP) in API hub The API hub MCP server is Generally Available (GA) . This release enables seamless integration…",
@@ -592,16 +602,6 @@
         "summary": "Agent Platform Workbench Feature Agent Platform Workbench image release The following Agent Platform Workbench instances image release is available: 20260701-2130-rc0 ( workbench-instances-2603 -…",
         "date": "2026年7月6日",
         "date_iso": "2026-07-06",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "July 05, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#July_05_2026",
-        "summary": "Google SecOps SOAR Announcement Release 6.3.92 is being rolled out to the first phase of regions as listed here . This release contains internal and customer bug fixes. Feature Publisher Agent…",
-        "date": "2026年7月5日",
-        "date_iso": "2026-07-05",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
