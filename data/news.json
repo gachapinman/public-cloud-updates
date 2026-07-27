@@ -1,5 +1,5 @@
 {
-  "updated": "2026年07月26日 20:09 JST",
+  "updated": "2026年07月27日 13:02 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "July 26, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#July_26_2026",
+        "summary": "Google SecOps Feature Customizable schedules for multi-event rules Customizable schedules for multi-event rules are available in public preview. You can customize rule execution schedules on the Rule…",
+        "date": "2026年7月26日",
+        "date_iso": "2026-07-26",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "July 25, 2026",
         "link": "https://docs.cloud.google.com/release-notes#July_25_2026",
         "summary": "Google SecOps SOAR Announcement Release 6.3.94 is now available for all regions.",
@@ -595,16 +605,6 @@
         "category": "container-tag",
         "cat_label": "コンテナ",
         "tag": "GCP"
-      },
-      {
-        "title": "July 06, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#July_06_2026",
-        "summary": "Agent Platform Workbench Feature Agent Platform Workbench image release The following Agent Platform Workbench instances image release is available: 20260701-2130-rc0 ( workbench-instances-2603 -…",
-        "date": "2026年7月6日",
-        "date_iso": "2026-07-06",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
       }
     ],
     "oci": [
@@ -639,16 +639,6 @@
         "tag": "OCI"
       },
       {
-        "title": "OCI Database with PostgreSQL available in Oracle US Government Cloud and US Defense Cloud",
-        "link": "https://docs.oracle.com/iaas/releasenotes/govcloud/postgresql-fedramp.htm",
-        "summary": "",
-        "date": "2026年7月21日",
-        "date_iso": "2026-07-21",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
         "title": "Oracle Critical Patch Update (CPU) July 2026 for Oracle Java SE",
         "link": "https://docs.oracle.com/iaas/releasenotes/java-management/jdk-cpu-july-2026.htm",
         "summary": "",
@@ -666,6 +656,16 @@
         "date_iso": "2026-07-21",
         "category": "security-tag",
         "cat_label": "セキュリティ",
+        "tag": "OCI"
+      },
+      {
+        "title": "OCI Database with PostgreSQL available in Oracle US Government Cloud and US Defense Cloud",
+        "link": "https://docs.oracle.com/iaas/releasenotes/govcloud/postgresql-fedramp.htm",
+        "summary": "",
+        "date": "2026年7月21日",
+        "date_iso": "2026-07-21",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "OCI"
       },
       {
