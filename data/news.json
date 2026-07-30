@@ -1,7 +1,27 @@
 {
-  "updated": "2026年07月29日 20:49 JST",
+  "updated": "2026年07月30日 12:29 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Public Preview: Azure Monitor Logs mirroring into Microsoft Fabric",
+        "link": "https://azure.microsoft.com/updates?id=568322",
+        "summary": "This capability shares telemetry from Azure Monitor Log Analytics workspaces into Microsoft Fabric, making observability data available in OneLake as Delta Parquet, the open format, without…",
+        "date": "2026年7月30日",
+        "date_iso": "2026-07-30",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Azure Sphere OS version 26.09 is now available for evaluation",
+        "link": "https://azure.microsoft.com/updates?id=568466",
+        "summary": "Azure Sphere OS version 26.09 RC1 is now available for evaluation in the Retail Eval feed. Whilst this release encompasses no customer-facing changes, it represents a major bump in Azure Sphere's…",
+        "date": "2026年7月30日",
+        "date_iso": "2026-07-30",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Public Preview: Azure Enclave",
         "link": "https://azure.microsoft.com/updates?id=568377",
@@ -181,29 +201,89 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Announcing: GitHub Copilot and Claude Code connectors in Microsoft Agent Framework",
-        "link": "https://azure.microsoft.com/updates?id=563701",
-        "summary": "Microsoft Agent Framework now ships generally available connectors for GitHub Copilot and Claude Code, so developers can build .NET and Python agents that delegate coding tasks to either system…",
-        "date": "2026年7月16日",
-        "date_iso": "2026-07-16",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Announcing: Multi-agent orchestration patterns including Magentic in Microsoft Agent Framework",
-        "link": "https://azure.microsoft.com/updates?id=563571",
-        "summary": "Microsoft Agent Framework reaches general availability for multi-agent orchestration patterns, including the dynamic Magentic pattern that delivered 38 percent on GAIA and competitive results on…",
-        "date": "2026年7月16日",
-        "date_iso": "2026-07-16",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Amazon EC2 Auto Scaling now supports Instance Refresh in CloudFormation",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-auto-scaling-instance-refresh-cloudformation",
+        "summary": "Amazon EC2 Auto Scaling now supports Instance Refresh as a new AWS CloudFormation update policy. When you configure the new AutoScalingInstanceRefresh update policy and update properties that require…",
+        "date": "2026年7月30日",
+        "date_iso": "2026-07-30",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Redshift Data API announces long polling, session management, and flexible batch execution",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-data-api-longpolling-listsession-flexiblebatchexecute/",
+        "summary": "Amazon Redshift Data API introduces new capabilities that reduce the number of API calls to retrieve SQL statement metadata or results, provide visibility into sessions, and allow batch statements to…",
+        "date": "2026年7月30日",
+        "date_iso": "2026-07-30",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Glue announces VPC support, filter pushdown, and partition support for the REST API connector",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-glue-rest-connector-filtering-partitioning-vpc",
+        "summary": "AWS Glue now supports VPC connections, filter pushdown, and partition support for the REST API connector. The REST API connector enables you to ingest data from any source that exposes a REST-based…",
+        "date": "2026年7月30日",
+        "date_iso": "2026-07-30",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS WAF adds pre-parse text transformations and new text transformations",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-waf/",
+        "summary": "Today, AWS WAF adds pre-parse text transformations for query arguments and ten new text transformations for use in any rule statement. Both help you normalize request content so that AWS WAF inspects…",
+        "date": "2026年7月30日",
+        "date_iso": "2026-07-30",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS announces AWS Interconnect - multicloud connectivity with Oracle Cloud Infrastructure in GA",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-announces-AWS-interconnect-multicloud-OCI-GA/",
+        "summary": "AWS announces the general availability (GA) of AWS Interconnect — multicloud with Oracle Cloud Infrastructure (OCI). Customers have been adopting multicloud strategies while migrating more…",
+        "date": "2026年7月30日",
+        "date_iso": "2026-07-30",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Connect Customer now automatically finds example agent evaluations for tailored coaching",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-connect-customer-example-evaluations-for-agent-coaching/",
+        "summary": "Amazon Connect Customer now automatically surfaces relevant examples of an agent's evaluations when managers are preparing coaching feedback, so they can deliver actionable, evidence-backed coaching…",
+        "date": "2026年7月29日",
+        "date_iso": "2026-07-29",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EFS now supports cross-account Replication in AWS GovCloud (US)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-efs-cross-account-replication-aws-gov-cloud-us",
+        "summary": "Amazon EFS now supports cross-account Replication in AWS GovCloud (US), allowing customers to replicate file systems between AWS accounts. EFS Replication enables you to easily maintain an up-to-date…",
+        "date": "2026年7月29日",
+        "date_iso": "2026-07-29",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS IAM Identity Center extends multi-Region support to Identity Center directory",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-iam-identity-center-extends-multi-region-support-to-identity-center-directory",
+        "summary": "IAM Identity Center helps you configure the single sign-on experience of your workforce to AWS accounts and applications. You can now replicate IAM Identity Center from the primary AWS Region where…",
+        "date": "2026年7月29日",
+        "date_iso": "2026-07-29",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
       {
         "title": "Amazon EKS Provisioned Control Plane now delivers faster pod autoscaling",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-provisioned-control/",
@@ -215,16 +295,6 @@
         "tag": "AWS"
       },
       {
-        "title": "AWS Console Home now supports the Cost and Usage widget in the AWS European Sovereign Cloud (Germany) Region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-console-home-cost-and-usage-eu-sovereign-cloud",
-        "summary": "AWS Console Home now supports the Cost and Usage widget in the AWS European Sovereign Cloud (Germany) Region, allowing customers to surface insights from Cost Explorer and Cost Optimization Hub on…",
-        "date": "2026年7月29日",
-        "date_iso": "2026-07-29",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
         "title": "Second-generation AWS Outposts racks now supported in the AWS Asia Pacific (Mumbai) Region",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-outposts-asia-pacific-mumbai/",
         "summary": "Second-generation AWS Outposts racks are now supported in the Asia Pacific (Mumbai) Region. Outposts racks extend AWS infrastructure, AWS services, APIs, and tools to virtually any on-premises data…",
@@ -232,6 +302,16 @@
         "date_iso": "2026-07-29",
         "category": "ai-tag",
         "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Console Home now supports the Cost and Usage widget in the AWS European Sovereign Cloud (Germany) Region",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-console-home-cost-and-usage-eu-sovereign-cloud",
+        "summary": "AWS Console Home now supports the Cost and Usage widget in the AWS European Sovereign Cloud (Germany) Region, allowing customers to surface insights from Cost Explorer and Cost Optimization Hub on…",
+        "date": "2026年7月29日",
+        "date_iso": "2026-07-29",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "AWS"
       },
       {
@@ -323,89 +403,19 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "AWS Elemental MediaTailor adds configurable ad timeout and concurrency controls for improved ad fill and faster startup",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/mediatail-configurable-ad-timeout-and-concurrency",
-        "summary": "AWS Elemental MediaTailor now gives you direct control over ad decision server (ADS) timeout. Previously, changing these settings required contacting AWS Support. You can now configure individual…",
-        "date": "2026年7月28日",
-        "date_iso": "2026-07-28",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon RDS for SQL Server now supports restoring TDE databases on Mult-AZ instances",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/rds-sql-server-supports-tde-for-maz/",
-        "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports restoring Transparent Data Encryption (TDE)-enabled SQL Server databases on Multi-AZ instances and instances configured…",
-        "date": "2026年7月27日",
-        "date_iso": "2026-07-27",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Connect now supports audio optimization for Azure Virtual Desktop and Windows 365 Cloud PC",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-connect/",
-        "summary": "Agents using Microsoft Azure Virtual Desktop (AVD) or Windows 365 Cloud PC can now take calls directly from their virtual desktop session with audio optimization enabled. To get started, IT…",
-        "date": "2026年7月25日",
-        "date_iso": "2026-07-25",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon MWAA now supports Apache Airflow version 2.11.2",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-mwaa-now-supports-apache-airflow-version-2-11-2",
-        "summary": "Amazon Managed Workflows for Apache Airflow (MWAA) now supports Apache Airflow version 2.11.2. Amazon MWAA is a managed service that runs Apache Airflow at scale without the operational overhead of…",
-        "date": "2026年7月25日",
-        "date_iso": "2026-07-25",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 Dedicated Hosts now support host resource groups without self-managed licenses",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-dedicated-hosts-hrg/",
-        "summary": "Starting today, customers can create Host Resource Groups (HRGs) for EC2 Dedicated Hosts without the previously required step of creating Self-Managed Licenses (SMLs) and associating AMIs through AWS…",
-        "date": "2026年7月25日",
-        "date_iso": "2026-07-25",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Kinesis Data Streams now supports scaling down ingest capacity with warm throughput",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/kinesis/on-demand-scale-down",
-        "summary": "Amazon Kinesis Data Streams is a serverless streaming data service that makes it easy to capture, process, and store data streams at any scale. On-demand streams automatically increase ingest…",
-        "date": "2026年7月25日",
-        "date_iso": "2026-07-25",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Lambda now publishes logs for Lambda Managed Instances capacity providers",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-managed-instances-logs/",
-        "summary": "AWS Lambda now publishes logs for Lambda Managed Instances (LMI) capacity providers to Amazon CloudWatch Logs, giving you visibility into scaling activity and instance lifecycle operations. LMI…",
-        "date": "2026年7月25日",
-        "date_iso": "2026-07-25",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SES simplifies sending emails over SMTP using Mail Manager",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ses-simplified-smtp-mail-manager",
-        "summary": "Amazon Simple Email Service (SES) now offers a simplified console experience for sending emails over SMTP using Mail Manager. Mail Manager is a capability within SES for managing email flow, but…",
-        "date": "2026年7月25日",
-        "date_iso": "2026-07-25",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "July 29, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#July_29_2026",
+        "summary": "App Engine standard environment Go Feature Support for enabling only needed legacy bundled services using the app_engine_bundled_services field is in General Availability . App Engine standard…",
+        "date": "2026年7月29日",
+        "date_iso": "2026-07-29",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
       {
         "title": "July 28, 2026",
         "link": "https://docs.cloud.google.com/release-notes#July_28_2026",
@@ -595,19 +605,29 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
-      },
-      {
-        "title": "July 09, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#July_09_2026",
-        "summary": "BigQuery Feature You can use the BigQuery Data Transfer Service to transfer metadata from the following data sources into Knowledge Catalog: PostgreSQL Microsoft SQL Server This feature is in Preview…",
-        "date": "2026年7月9日",
-        "date_iso": "2026-07-09",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "GCP"
       }
     ],
     "oci": [
+      {
+        "title": "Background Mode Available for the OCI Responses API",
+        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/responses-api-background-mode.htm",
+        "summary": "",
+        "date": "2026年7月29日",
+        "date_iso": "2026-07-29",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Oracle Interconnect for AWS",
+        "link": "https://docs.oracle.com/iaas/releasenotes/console/interconnect-aws.htm",
+        "summary": "",
+        "date": "2026年7月29日",
+        "date_iso": "2026-07-29",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
       {
         "title": "Console AI Experience Preview Availability",
         "link": "https://docs.oracle.com/iaas/releasenotes/console/consoleai-preview-oc1-july-2026.htm",
@@ -700,7 +720,7 @@
       },
       {
         "title": "OCI Database with PostgreSQL available in Oracle US Government Cloud and US Defense Cloud",
-        "link": "https://docs.oracle.com/iaas/releasenotes/govcloud/postgresql-fedramp.htm",
+        "link": "https://docs.oracle.com/iaas/releasenotes/multiple/postgresql-fedramp.htm",
         "summary": "",
         "date": "2026年7月21日",
         "date_iso": "2026-07-21",
@@ -786,26 +806,6 @@
         "date_iso": "2026-07-14",
         "category": "container-tag",
         "cat_label": "コンテナ",
-        "tag": "OCI"
-      },
-      {
-        "title": "Kubernetes Engine support for deploying the CSI driver SMB cluster add-on",
-        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-CSI-Driver-SMB-addon.htm",
-        "summary": "",
-        "date": "2026年7月14日",
-        "date_iso": "2026-07-14",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "OCI"
-      },
-      {
-        "title": "Console AI Experience Preview for Free Tier and Always Free Customers",
-        "link": "https://docs.oracle.com/iaas/releasenotes/console/consoleai-preview-july-2026.htm",
-        "summary": "",
-        "date": "2026年7月14日",
-        "date_iso": "2026-07-14",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "OCI"
       }
     ]
