@@ -1,5 +1,5 @@
 {
-  "updated": "2026年07月30日 12:29 JST",
+  "updated": "2026年07月30日 15:08 JST",
   "clouds": {
     "azure": [
       {
@@ -629,6 +629,26 @@
         "tag": "OCI"
       },
       {
+        "title": "Select AI Supervisor Agent",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-07-select-ai-agent.htm",
+        "summary": "",
+        "date": "2026年7月28日",
+        "date_iso": "2026-07-28",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Select AI Agent Framework Enhancements",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-07-select-ai-framework.htm",
+        "summary": "",
+        "date": "2026年7月28日",
+        "date_iso": "2026-07-28",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
         "title": "Console AI Experience Preview Availability",
         "link": "https://docs.oracle.com/iaas/releasenotes/console/consoleai-preview-oc1-july-2026.htm",
         "summary": "",
@@ -699,6 +719,16 @@
         "tag": "OCI"
       },
       {
+        "title": "Availability Domain Selection in Autonomous AI Database",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-07-ad-selection.htm",
+        "summary": "",
+        "date": "2026年7月21日",
+        "date_iso": "2026-07-21",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
         "title": "Oracle Critical Patch Update (CPU) July 2026 for Oracle Java SE",
         "link": "https://docs.oracle.com/iaas/releasenotes/java-management/jdk-cpu-july-2026.htm",
         "summary": "",
@@ -721,16 +751,6 @@
       {
         "title": "OCI Database with PostgreSQL available in Oracle US Government Cloud and US Defense Cloud",
         "link": "https://docs.oracle.com/iaas/releasenotes/multiple/postgresql-fedramp.htm",
-        "summary": "",
-        "date": "2026年7月21日",
-        "date_iso": "2026-07-21",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Availability Domain Selection in Autonomous AI Database",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-07-ad-selection.htm",
         "summary": "",
         "date": "2026年7月21日",
         "date_iso": "2026-07-21",
@@ -779,33 +799,13 @@
         "tag": "OCI"
       },
       {
-        "title": "Kubernetes Engine support for deploying the Node Feature Discovery cluster add-on",
-        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-Node-Feature-Discovery-addon.htm",
+        "title": "Oracle APEX 26.1",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-07-oracle-apex.htm",
         "summary": "",
         "date": "2026年7月14日",
         "date_iso": "2026-07-14",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "OCI"
-      },
-      {
-        "title": "Kubernetes Engine support for deploying the NVIDIA GPU Operator cluster add-on",
-        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-NVIDIA-GPU-Operator-addon.htm",
-        "summary": "",
-        "date": "2026年7月14日",
-        "date_iso": "2026-07-14",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "OCI"
-      },
-      {
-        "title": "Kubernetes Engine support for deploying the NVIDIA Network Operator cluster add-on",
-        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-NVIDIA-Network-Operator-addon.htm",
-        "summary": "",
-        "date": "2026年7月14日",
-        "date_iso": "2026-07-14",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "OCI"
       }
     ]
