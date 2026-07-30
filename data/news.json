@@ -1,5 +1,5 @@
 {
-  "updated": "2026年07月30日 15:08 JST",
+  "updated": "2026年07月30日 20:33 JST",
   "clouds": {
     "azure": [
       {
@@ -295,16 +295,6 @@
         "tag": "AWS"
       },
       {
-        "title": "Second-generation AWS Outposts racks now supported in the AWS Asia Pacific (Mumbai) Region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-outposts-asia-pacific-mumbai/",
-        "summary": "Second-generation AWS Outposts racks are now supported in the Asia Pacific (Mumbai) Region. Outposts racks extend AWS infrastructure, AWS services, APIs, and tools to virtually any on-premises data…",
-        "date": "2026年7月29日",
-        "date_iso": "2026-07-29",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
         "title": "AWS Console Home now supports the Cost and Usage widget in the AWS European Sovereign Cloud (Germany) Region",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-console-home-cost-and-usage-eu-sovereign-cloud",
         "summary": "AWS Console Home now supports the Cost and Usage widget in the AWS European Sovereign Cloud (Germany) Region, allowing customers to surface insights from Cost Explorer and Cost Optimization Hub on…",
@@ -312,6 +302,16 @@
         "date_iso": "2026-07-29",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Second-generation AWS Outposts racks now supported in the AWS Asia Pacific (Mumbai) Region",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-outposts-asia-pacific-mumbai/",
+        "summary": "Second-generation AWS Outposts racks are now supported in the Asia Pacific (Mumbai) Region. Outposts racks extend AWS infrastructure, AWS services, APIs, and tools to virtually any on-premises data…",
+        "date": "2026年7月29日",
+        "date_iso": "2026-07-29",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "AWS"
       },
       {
@@ -629,26 +629,6 @@
         "tag": "OCI"
       },
       {
-        "title": "Select AI Supervisor Agent",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-07-select-ai-agent.htm",
-        "summary": "",
-        "date": "2026年7月28日",
-        "date_iso": "2026-07-28",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Select AI Agent Framework Enhancements",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-07-select-ai-framework.htm",
-        "summary": "",
-        "date": "2026年7月28日",
-        "date_iso": "2026-07-28",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
         "title": "Console AI Experience Preview Availability",
         "link": "https://docs.oracle.com/iaas/releasenotes/console/consoleai-preview-oc1-july-2026.htm",
         "summary": "",
@@ -666,6 +646,26 @@
         "date_iso": "2026-07-28",
         "category": "database-tag",
         "cat_label": "データベース",
+        "tag": "OCI"
+      },
+      {
+        "title": "Select AI Supervisor Agent",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-07-select-ai-agent.htm",
+        "summary": "",
+        "date": "2026年7月28日",
+        "date_iso": "2026-07-28",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Select AI Agent Framework Enhancements",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-07-select-ai-framework.htm",
+        "summary": "",
+        "date": "2026年7月28日",
+        "date_iso": "2026-07-28",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "OCI"
       },
       {
@@ -719,16 +719,6 @@
         "tag": "OCI"
       },
       {
-        "title": "Availability Domain Selection in Autonomous AI Database",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-07-ad-selection.htm",
-        "summary": "",
-        "date": "2026年7月21日",
-        "date_iso": "2026-07-21",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
         "title": "Oracle Critical Patch Update (CPU) July 2026 for Oracle Java SE",
         "link": "https://docs.oracle.com/iaas/releasenotes/java-management/jdk-cpu-july-2026.htm",
         "summary": "",
@@ -751,6 +741,16 @@
       {
         "title": "OCI Database with PostgreSQL available in Oracle US Government Cloud and US Defense Cloud",
         "link": "https://docs.oracle.com/iaas/releasenotes/multiple/postgresql-fedramp.htm",
+        "summary": "",
+        "date": "2026年7月21日",
+        "date_iso": "2026-07-21",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Availability Domain Selection in Autonomous AI Database",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-07-ad-selection.htm",
         "summary": "",
         "date": "2026年7月21日",
         "date_iso": "2026-07-21",
@@ -799,13 +799,13 @@
         "tag": "OCI"
       },
       {
-        "title": "Oracle APEX 26.1",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-07-oracle-apex.htm",
+        "title": "Kubernetes Engine support for deploying the Node Feature Discovery cluster add-on",
+        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-Node-Feature-Discovery-addon.htm",
         "summary": "",
         "date": "2026年7月14日",
         "date_iso": "2026-07-14",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
         "tag": "OCI"
       }
     ]
