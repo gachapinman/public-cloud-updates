@@ -1,7 +1,37 @@
 {
-  "updated": "2026年07月31日 20:48 JST",
+  "updated": "2026年08月01日 12:51 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Generally Available: Single-click purchase for public SaaS offers",
+        "link": "https://azure.microsoft.com/updates?id=568591",
+        "summary": "Eligible SaaS products on Microsoft Marketplace now support a simplified purchase experience in Azure portal. Customers can review plan, billing, resource group, contact details, and terms…",
+        "date": "2026年8月1日",
+        "date_iso": "2026-08-01",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Route-Maps for Azure Route Server",
+        "link": "https://azure.microsoft.com/updates?id=568631",
+        "summary": "Route maps for Azure Route Server are now available in public preview, providing fine-grained control over inbound and outbound routing across hybrid connections. Customers can manage routes…",
+        "date": "2026年8月1日",
+        "date_iso": "2026-08-01",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Azure SQL updates for late-July",
+        "link": "https://azure.microsoft.com/updates?id=568139",
+        "summary": "In late-July 2026, the following update and enhancement was made to Azure SQL: Regex-based dynamic data masking (DDM) extends the built-in DDM feature with pattern‑based masking to hide sensitive…",
+        "date": "2026年8月1日",
+        "date_iso": "2026-08-01",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AZURE"
+      },
       {
         "title": "Generally Available: Azure Database for PostgreSQL flexible server in India South Central",
         "link": "https://azure.microsoft.com/updates?id=568334",
@@ -171,39 +201,79 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Azure DDoS Protection custom policy",
-        "link": "https://azure.microsoft.com/updates?id=568063",
-        "summary": "Azure DDoS Protection custom policy is now in public preview. This capability provides per-resource control over DDoS mitigation thresholds for protected Standard Load Balancer frontend IP…",
-        "date": "2026年7月24日",
-        "date_iso": "2026-07-24",
-        "category": "network-tag",
-        "cat_label": "ネットワーク",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Standard service endpoint",
-        "link": "https://azure.microsoft.com/updates?id=561475",
-        "summary": "Standard service endpoint is now available in public preview, introducing a scalable and secure way to connect IaaS workloads to Azure PaaS services under the Private Link family. This enhanced…",
-        "date": "2026年7月23日",
-        "date_iso": "2026-07-23",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Protect sensitive generative AI telemetry in Application Insights and Microsoft Foundry",
-        "link": "https://azure.microsoft.com/updates?id=567594",
-        "summary": "Azure Monitor Application Insights now stores generative AI content in a dedicated GenAIContent table (AppGenAIContent in Log Analytics), making it possible to apply newly available access controls…",
-        "date": "2026年7月21日",
-        "date_iso": "2026-07-21",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Amazon Aurora DSQL adds multi-Region cluster support in four more Regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-aurora-dsql-adds-multi-region-clusters-four-more-regions/",
+        "summary": "Starting today, Amazon Aurora DSQL supports multi-Region clusters in four additional AWS Regions: Europe (Stockholm), Europe (Spain), Asia Pacific (Mumbai), and&nbsp;Asia Pacific (Singapore). Aurora…",
+        "date": "2026年8月1日",
+        "date_iso": "2026-08-01",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon RDS for Oracle now offers Reserved Instances for R8i and M8i instances",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-oracle-r8i-m8i/",
+        "summary": "Amazon RDS for Oracle now offers 1-year and 3-year Reserved Instances for R8i and M8i instances with up to 53% cost savings compared to On-Demand prices. These instances are powered by custom Intel…",
+        "date": "2026年8月1日",
+        "date_iso": "2026-08-01",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Lambda now supports Java 8, 11, and 17 on Amazon Linux 2023",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-java-amazon-linux/",
+        "summary": "AWS Lambda now supports Java 8, Java 11, and Java 17 runtimes on Amazon Linux 2023 (AL2023), available as both managed runtimes and container base images. These new runtimes enable customers running…",
+        "date": "2026年7月31日",
+        "date_iso": "2026-07-31",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon CloudWatch announces managed Prometheus collectors",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/cloudwatch-managed-collectors/",
+        "summary": "Amazon CloudWatch now supports collecting Prometheus metrics from your AWS infrastructure using fully managed collectors — enabling you to monitor Amazon EKS, Amazon EC2, Amazon ECS, Amazon MSK, and…",
+        "date": "2026年7月31日",
+        "date_iso": "2026-07-31",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS CodeDeploy now available in five additional AWS regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-codedeploy-five-additional-regions",
+        "summary": "AWS CodeDeploy is now available in five additional AWS Regions: Asia Pacific (New Zealand), Asia Pacific (Thailand), Asia Pacific (Taipei), Asia Pacific (Malaysia), and Mexico (Central). AWS…",
+        "date": "2026年7月31日",
+        "date_iso": "2026-07-31",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 C7i-flex instances now available in Europe (Milan) region",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-c7i-flex-instances-MXP-region/",
+        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C7i-flex instances powered by custom 4th Gen Intel Xeon Scalable processors (code-named Sapphire Rapids) are available in Europe (Milan)…",
+        "date": "2026年7月31日",
+        "date_iso": "2026-07-31",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 C7i instances now available in additional regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-c7i-instances-mxp-yyc-region/",
+        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C7i instances powered by custom 4th Gen Intel Xeon Scalable processors (code-named Sapphire Rapids) are available in Europe (Milan) and…",
+        "date": "2026年7月31日",
+        "date_iso": "2026-07-31",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
       {
         "title": "Amazon SageMaker Unified Studio brings richer Git version control to all project tools",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-unified-studio-git/",
@@ -333,79 +403,19 @@
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon Redshift Data API announces long polling, session management, and flexible batch execution",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-data-api-longpolling-listsession-flexiblebatchexecute/",
-        "summary": "Amazon Redshift Data API introduces new capabilities that reduce the number of API calls to retrieve SQL statement metadata or results, provide visibility into sessions, and allow batch statements to…",
-        "date": "2026年7月30日",
-        "date_iso": "2026-07-30",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Glue announces VPC support, filter pushdown, and partition support for the REST API connector",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-glue-rest-connector-filtering-partitioning-vpc",
-        "summary": "AWS Glue now supports VPC connections, filter pushdown, and partition support for the REST API connector. The REST API connector enables you to ingest data from any source that exposes a REST-based…",
-        "date": "2026年7月30日",
-        "date_iso": "2026-07-30",
-        "category": "network-tag",
-        "cat_label": "ネットワーク",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS WAF adds pre-parse text transformations and new text transformations",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-waf/",
-        "summary": "Today, AWS WAF adds pre-parse text transformations for query arguments and ten new text transformations for use in any rule statement. Both help you normalize request content so that AWS WAF inspects…",
-        "date": "2026年7月30日",
-        "date_iso": "2026-07-30",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS announces AWS Interconnect - multicloud connectivity with Oracle Cloud Infrastructure in GA",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-announces-AWS-interconnect-multicloud-OCI-GA/",
-        "summary": "AWS announces the general availability (GA) of AWS Interconnect — multicloud with Oracle Cloud Infrastructure (OCI). Customers have been adopting multicloud strategies while migrating more…",
-        "date": "2026年7月30日",
-        "date_iso": "2026-07-30",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Connect Customer now automatically finds example agent evaluations for tailored coaching",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-connect-customer-example-evaluations-for-agent-coaching/",
-        "summary": "Amazon Connect Customer now automatically surfaces relevant examples of an agent's evaluations when managers are preparing coaching feedback, so they can deliver actionable, evidence-backed coaching…",
-        "date": "2026年7月29日",
-        "date_iso": "2026-07-29",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EFS now supports cross-account Replication in AWS GovCloud (US)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-efs-cross-account-replication-aws-gov-cloud-us",
-        "summary": "Amazon EFS now supports cross-account Replication in AWS GovCloud (US), allowing customers to replicate file systems between AWS accounts. EFS Replication enables you to easily maintain an up-to-date…",
-        "date": "2026年7月29日",
-        "date_iso": "2026-07-29",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS IAM Identity Center extends multi-Region support to Identity Center directory",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-iam-identity-center-extends-multi-region-support-to-identity-center-directory",
-        "summary": "IAM Identity Center helps you configure the single sign-on experience of your workforce to AWS accounts and applications. You can now replicate IAM Identity Center from the primary AWS Region where…",
-        "date": "2026年7月29日",
-        "date_iso": "2026-07-29",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "July 31, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#July_31_2026",
+        "summary": "Apigee hybrid Announcement v1.15.7 On July 31, 2026 we released an updated version of the Apigee hybrid software, v1.15.7. For information on upgrading, see Upgrading Apigee hybrid to version v1.15.7…",
+        "date": "2026年7月31日",
+        "date_iso": "2026-07-31",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "GCP"
+      },
       {
         "title": "July 30, 2026",
         "link": "https://docs.cloud.google.com/release-notes#July_30_2026",
@@ -595,19 +605,19 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
-      },
-      {
-        "title": "July 11, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#July_11_2026",
-        "summary": "Google SecOps SOAR Announcement Release 6.3.92 is now available for all regions.",
-        "date": "2026年7月11日",
-        "date_iso": "2026-07-11",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
       }
     ],
     "oci": [
+      {
+        "title": "OpenShift Container Platform on OCI adds autoscaling support",
+        "link": "https://docs.oracle.com/iaas/releasenotes/openshift-container-platform-on-oci/autoscaling-compute-openshift.htm",
+        "summary": "",
+        "date": "2026年7月30日",
+        "date_iso": "2026-07-30",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
       {
         "title": "New Hardware Unit Shapes Available for Cohere and Meta Models in OCI Generative AI",
         "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/cohere-meta-hardware-shapes.htm",
@@ -796,16 +806,6 @@
         "date_iso": "2026-07-15",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "New Experience in Oracle Cloud Console",
-        "link": "https://docs.oracle.com/iaas/releasenotes/speech/console-experience.htm",
-        "summary": "",
-        "date": "2026年7月15日",
-        "date_iso": "2026-07-15",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
         "tag": "OCI"
       }
     ]
