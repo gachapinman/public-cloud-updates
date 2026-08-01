@@ -1,5 +1,5 @@
 {
-  "updated": "2026年08月01日 15:14 JST",
+  "updated": "2026年08月01日 20:06 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "August 01, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_01_2026",
+        "summary": "Google SecOps SOAR Announcement Release 6.3.95 is now available for all regions.",
+        "date": "2026年8月1日",
+        "date_iso": "2026-08-01",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "July 31, 2026",
         "link": "https://docs.cloud.google.com/release-notes#July_31_2026",
         "summary": "Apigee hybrid Announcement v1.15.7 On July 31, 2026 we released an updated version of the Apigee hybrid software, v1.15.7. For information on upgrading, see Upgrading Apigee hybrid to version v1.15.7…",
@@ -592,16 +602,6 @@
         "summary": "Agent Platform Workbench Feature Agent Platform Workbench image release The following Agent Platform Workbench instances image releases are available: 20260712-2130-rc0 ( workbench-instances-2603 -…",
         "date": "2026年7月13日",
         "date_iso": "2026-07-13",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "July 12, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#July_12_2026",
-        "summary": "Google SecOps Feature Publisher Agent Version 2.7.0 Publisher Agent Version 2.7.0 is now available for all regions. This release includes the following updates for the remote agent: High Availability…",
-        "date": "2026年7月12日",
-        "date_iso": "2026-07-12",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
