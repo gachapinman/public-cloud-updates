@@ -1,5 +1,5 @@
 {
-  "updated": "2026年08月01日 20:06 JST",
+  "updated": "2026年08月02日 12:53 JST",
   "clouds": {
     "azure": [
       {
@@ -225,6 +225,16 @@
         "tag": "AWS"
       },
       {
+        "title": "Amazon Location Service adds Search Nearby support for GrabMaps in Southeast Asia",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-location-service-search-nearby-grabmaps",
+        "summary": "Amazon Location Service now supports proximity-based point of interest discovery with GrabMaps data in the Asia Pacific (Singapore) and Asia Pacific (Malaysia) AWS Regions. Builders creating local…",
+        "date": "2026年7月31日",
+        "date_iso": "2026-07-31",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
         "title": "AWS Lambda now supports Java 8, 11, and 17 on Amazon Linux 2023",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-java-amazon-linux/",
         "summary": "AWS Lambda now supports Java 8, Java 11, and Java 17 runtimes on Amazon Linux 2023 (AL2023), available as both managed runtimes and container base images. These new runtimes enable customers running…",
@@ -335,6 +345,46 @@
         "tag": "AWS"
       },
       {
+        "title": "Amazon EC2 Auto Scaling が CloudFormation のインスタンスの更新をサポート開始",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/07/ec2-auto-scaling-instance-refresh-cloudformation",
+        "summary": "",
+        "date": "2026年7月30日",
+        "date_iso": "2026-07-30",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Redshift Data API がロングポーリング、セッション管理、柔軟なバッチ実行に対応",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/07/amazon-redshift-data-api-longpolling-listsession-flexiblebatchexecute/",
+        "summary": "",
+        "date": "2026年7月30日",
+        "date_iso": "2026-07-30",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS が Oracle Cloud Infrastructure との AWS Interconnect – マルチクラウド接続の一般提供を発表",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/07/aws-announces-AWS-interconnect-multicloud-OCI-GA/",
+        "summary": "",
+        "date": "2026年7月30日",
+        "date_iso": "2026-07-30",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS WAF が解析前テキスト変換と新しいテキスト変換を追加",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/07/aws-waf/",
+        "summary": "",
+        "date": "2026年7月30日",
+        "date_iso": "2026-07-30",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon MSK Express brokers now delivers Apache Kafka data to Amazon S3",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-msk-express-brokers-delivers-to-amazon-s3",
         "summary": "Amazon MSK Express brokers now delivers data to Amazon S3 general purpose buckets, providing a fully managed capability to deliver Apache Kafka data in Amazon S3 for downstream processing in the…",
@@ -352,56 +402,6 @@
         "date_iso": "2026-07-30",
         "category": "container-tag",
         "cat_label": "コンテナ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Grok 4.3 from xAI is now available on Amazon Bedrock in AWS GovCloud (US-West)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/grok-4-3-bedrock-govcloud/",
-        "summary": "xAI's Grok 4.3 model is now available on Amazon Bedrock in AWS GovCloud (US-West). With this launch, xAI joins Amazon Bedrock as a model provider in AWS GovCloud (US-West), giving you even more…",
-        "date": "2026年7月30日",
-        "date_iso": "2026-07-30",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Gemma 4 models are now available on Amazon Bedrock in AWS GovCloud (US-West)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/gemma-4-bedrock-govcloud/",
-        "summary": "The Gemma 4 family of open-weight models from Google DeepMind on Amazon Bedrock in AWS GovCloud (US-West). With Gemma 4, you can build generative AI applications across reasoning, multimodal…",
-        "date": "2026年7月30日",
-        "date_iso": "2026-07-30",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Managed Microsoft AD now supports Standard to Enterprise Edition upgrade",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-microsoft-ad-edition-upgrade/",
-        "summary": "AWS Directory Service now allows you to upgrade your AWS Managed Microsoft AD directory from Standard Edition to Enterprise Edition directly through the AWS Management Console, AWS CLI, and API…",
-        "date": "2026年7月30日",
-        "date_iso": "2026-07-30",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon OpenSearch Service now supports OpenSearch version 3.7",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-opensearch-service/",
-        "summary": "You can now run OpenSearch version 3.7 on Amazon OpenSearch Service. OpenSearch 3.7 introduces improvements in vector search performance, search relevance, and Query Insights. With this launch, 1-bit…",
-        "date": "2026年7月30日",
-        "date_iso": "2026-07-30",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 Auto Scaling now supports Instance Refresh in CloudFormation",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-auto-scaling-instance-refresh-cloudformation",
-        "summary": "Amazon EC2 Auto Scaling now supports Instance Refresh as a new AWS CloudFormation update policy. When you configure the new AutoScalingInstanceRefresh update policy and update properties that require…",
-        "date": "2026年7月30日",
-        "date_iso": "2026-07-30",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
         "tag": "AWS"
       }
     ],
