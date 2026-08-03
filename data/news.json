@@ -1,5 +1,5 @@
 {
-  "updated": "2026年08月03日 15:45 JST",
+  "updated": "2026年08月03日 21:45 JST",
   "clouds": {
     "azure": [
       {
@@ -407,9 +407,19 @@
     ],
     "gcp": [
       {
+        "title": "August 03, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_03_2026",
+        "summary": "Cloud Workstations Change Updated the following JetBrains preconfigured base images to version 2026.x: CLion 2026.1 GoLand 2026.2 IntelliJ Ultimate 2026.1 PhpStorm 2026.2 WebStorm 2026.1 RubyMine…",
+        "date": "2026年8月3日",
+        "date_iso": "2026-08-03",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "August 02, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_02_2026",
-        "summary": "Google SecOps Announcement Scheduled Maintenance SOAR database and infrastructure maintenance is scheduled to take place during the standard maintenance window on August 2. During this window,…",
+        "summary": "Google SecOps SOAR Announcement Release 6.3.96 is being rolled out to the first phase of regions as listed here . This release contains internal and customer bug fixes.",
         "date": "2026年8月2日",
         "date_iso": "2026-08-02",
         "category": "ai-tag",
@@ -594,16 +604,6 @@
         "date_iso": "2026-07-15",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "GCP"
-      },
-      {
-        "title": "July 14, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#July_14_2026",
-        "summary": "BigQuery Feature Conversational analytics now supports the AI.AGG function . This function is in Preview . Announcement As part of Gemini in BigQuery , conversational analytics now supports HIPAA…",
-        "date": "2026年7月14日",
-        "date_iso": "2026-07-14",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "GCP"
       }
     ],
