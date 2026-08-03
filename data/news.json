@@ -1,5 +1,5 @@
 {
-  "updated": "2026年08月02日 20:07 JST",
+  "updated": "2026年08月03日 12:55 JST",
   "clouds": {
     "azure": [
       {
@@ -225,16 +225,6 @@
         "tag": "AWS"
       },
       {
-        "title": "AWS Lambda now supports Java 8, 11, and 17 on Amazon Linux 2023",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-java-amazon-linux/",
-        "summary": "AWS Lambda now supports Java 8, Java 11, and Java 17 runtimes on Amazon Linux 2023 (AL2023), available as both managed runtimes and container base images. These new runtimes enable customers running…",
-        "date": "2026年7月31日",
-        "date_iso": "2026-07-31",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
         "title": "Amazon Location Service adds Search Nearby support for GrabMaps in Southeast Asia",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-location-service-search-nearby-grabmaps",
         "summary": "Amazon Location Service now supports proximity-based point of interest discovery with GrabMaps data in the Asia Pacific (Singapore) and Asia Pacific (Malaysia) AWS Regions. Builders creating local…",
@@ -242,6 +232,16 @@
         "date_iso": "2026-07-31",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Lambda now supports Java 8, 11, and 17 on Amazon Linux 2023",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-java-amazon-linux/",
+        "summary": "AWS Lambda now supports Java 8, Java 11, and Java 17 runtimes on Amazon Linux 2023 (AL2023), available as both managed runtimes and container base images. These new runtimes enable customers running…",
+        "date": "2026年7月31日",
+        "date_iso": "2026-07-31",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "AWS"
       },
       {
@@ -406,6 +406,16 @@
       }
     ],
     "gcp": [
+      {
+        "title": "August 02, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_02_2026",
+        "summary": "Google SecOps Announcement Scheduled Maintenance SOAR database and infrastructure maintenance is scheduled to take place during the standard maintenance window on August 2. During this window,…",
+        "date": "2026年8月2日",
+        "date_iso": "2026-08-02",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
       {
         "title": "August 01, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_01_2026",
@@ -592,16 +602,6 @@
         "summary": "BigQuery Feature Conversational analytics now supports the AI.AGG function . This function is in Preview . Announcement As part of Gemini in BigQuery , conversational analytics now supports HIPAA…",
         "date": "2026年7月14日",
         "date_iso": "2026-07-14",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "July 13, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#July_13_2026",
-        "summary": "Agent Platform Workbench Feature Agent Platform Workbench image release The following Agent Platform Workbench instances image releases are available: 20260712-2130-rc0 ( workbench-instances-2603 -…",
-        "date": "2026年7月13日",
-        "date_iso": "2026-07-13",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
