@@ -1,5 +1,5 @@
 {
-  "updated": "2026年08月03日 12:55 JST",
+  "updated": "2026年08月03日 15:45 JST",
   "clouds": {
     "azure": [
       {
@@ -225,16 +225,6 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon Location Service adds Search Nearby support for GrabMaps in Southeast Asia",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-location-service-search-nearby-grabmaps",
-        "summary": "Amazon Location Service now supports proximity-based point of interest discovery with GrabMaps data in the Asia Pacific (Singapore) and Asia Pacific (Malaysia) AWS Regions. Builders creating local…",
-        "date": "2026年7月31日",
-        "date_iso": "2026-07-31",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
         "title": "AWS Lambda now supports Java 8, 11, and 17 on Amazon Linux 2023",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-java-amazon-linux/",
         "summary": "AWS Lambda now supports Java 8, Java 11, and Java 17 runtimes on Amazon Linux 2023 (AL2023), available as both managed runtimes and container base images. These new runtimes enable customers running…",
@@ -242,6 +232,16 @@
         "date_iso": "2026-07-31",
         "category": "ai-tag",
         "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Location Service adds Search Nearby support for GrabMaps in Southeast Asia",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-location-service-search-nearby-grabmaps",
+        "summary": "Amazon Location Service now supports proximity-based point of interest discovery with GrabMaps data in the Asia Pacific (Singapore) and Asia Pacific (Malaysia) AWS Regions. Builders creating local…",
+        "date": "2026年7月31日",
+        "date_iso": "2026-07-31",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "AWS"
       },
       {
@@ -609,16 +609,6 @@
     ],
     "oci": [
       {
-        "title": "OpenShift Container Platform on OCI adds autoscaling support",
-        "link": "https://docs.oracle.com/iaas/releasenotes/openshift-container-platform-on-oci/autoscaling-compute-openshift.htm",
-        "summary": "",
-        "date": "2026年7月30日",
-        "date_iso": "2026-07-30",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
         "title": "New Hardware Unit Shapes Available for Cohere and Meta Models in OCI Generative AI",
         "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/cohere-meta-hardware-shapes.htm",
         "summary": "",
@@ -629,11 +619,11 @@
         "tag": "OCI"
       },
       {
-        "title": "Background Mode Available for the OCI Responses API",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/responses-api-background-mode.htm",
+        "title": "OpenShift Container Platform on OCI adds autoscaling support",
+        "link": "https://docs.oracle.com/iaas/releasenotes/openshift-container-platform-on-oci/autoscaling-compute-openshift.htm",
         "summary": "",
-        "date": "2026年7月29日",
-        "date_iso": "2026-07-29",
+        "date": "2026年7月30日",
+        "date_iso": "2026-07-30",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "OCI"
@@ -646,6 +636,16 @@
         "date_iso": "2026-07-29",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Background Mode Available for the OCI Responses API",
+        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/responses-api-background-mode.htm",
+        "summary": "",
+        "date": "2026年7月29日",
+        "date_iso": "2026-07-29",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "OCI"
       },
       {
