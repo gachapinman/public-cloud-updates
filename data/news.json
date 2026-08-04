@@ -1,5 +1,5 @@
 {
-  "updated": "2026年08月04日 12:38 JST",
+  "updated": "2026年08月04日 15:12 JST",
   "clouds": {
     "azure": [
       {
@@ -355,16 +355,6 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon Location Service adds Search Nearby support for GrabMaps in Southeast Asia",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-location-service-search-nearby-grabmaps",
-        "summary": "Amazon Location Service now supports proximity-based point of interest discovery with GrabMaps data in the Asia Pacific (Singapore) and Asia Pacific (Malaysia) AWS Regions. Builders creating local…",
-        "date": "2026年7月31日",
-        "date_iso": "2026-07-31",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
         "title": "AWS Lambda now supports Java 8, 11, and 17 on Amazon Linux 2023",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-java-amazon-linux/",
         "summary": "AWS Lambda now supports Java 8, Java 11, and Java 17 runtimes on Amazon Linux 2023 (AL2023), available as both managed runtimes and container base images. These new runtimes enable customers running…",
@@ -372,6 +362,16 @@
         "date_iso": "2026-07-31",
         "category": "ai-tag",
         "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Location Service adds Search Nearby support for GrabMaps in Southeast Asia",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-location-service-search-nearby-grabmaps",
+        "summary": "Amazon Location Service now supports proximity-based point of interest discovery with GrabMaps data in the Asia Pacific (Singapore) and Asia Pacific (Malaysia) AWS Regions. Builders creating local…",
+        "date": "2026年7月31日",
+        "date_iso": "2026-07-31",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "AWS"
       },
       {
