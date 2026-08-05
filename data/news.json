@@ -1,5 +1,5 @@
 {
-  "updated": "2026年08月05日 15:08 JST",
+  "updated": "2026年08月05日 20:45 JST",
   "clouds": {
     "azure": [
       {
@@ -439,7 +439,7 @@
       {
         "title": "August 01, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_01_2026",
-        "summary": "Google Cloud VMware Engine Feature Preview : Google Cloud VMware Engine capacity allocations are available in preview. A capacity allocation is a global reservation of physical nodes for your Cloud…",
+        "summary": "Gemini Enterprise Feature Gemini Enterprise: Pay for what you consume with the Pay-as-you-go edition The Gemini Enterprise Pay-as-you-go edition is generally available. With this edition, you pay for…",
         "date": "2026年8月1日",
         "date_iso": "2026-08-01",
         "category": "ai-tag",
