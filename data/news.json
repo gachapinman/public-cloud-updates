@@ -1,7 +1,37 @@
 {
-  "updated": "2026年08月05日 20:45 JST",
+  "updated": "2026年08月06日 12:39 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Generally Available: SharePoint Connector for Azure Databricks",
+        "link": "https://azure.microsoft.com/updates?id=568905",
+        "summary": "The SharePoint connector for Azure Databricks is now generally available. Organizations can use Lakeflow Connect to ingest files from SharePoint into Azure Databricks, helping unify enterprise…",
+        "date": "2026年8月6日",
+        "date_iso": "2026-08-06",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Unity AI Gateway on Azure Databricks",
+        "link": "https://azure.microsoft.com/updates?id=568910",
+        "summary": "Unity AI Gateway is now generally available on Azure Databricks. Unity AI Gateway provides centralized governance for AI models, agents, tools, and MCP services, helping organizations monitor usage,…",
+        "date": "2026年8月6日",
+        "date_iso": "2026-08-06",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Explicit proxy in Azure Firewall",
+        "link": "https://azure.microsoft.com/updates?id=568825",
+        "summary": "Azure Firewall explicit proxy is now generally available. Explicit proxy enables customers to configure applications and browsers to send HTTP and HTTPS traffic directly to Azure Firewall using proxy…",
+        "date": "2026年8月5日",
+        "date_iso": "2026-08-05",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Retirement: Nested confidential (cc_v5) VMs will be retired on September 1, 2026",
         "link": "https://azure.microsoft.com/updates?id=568661",
@@ -171,39 +201,79 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Azure Enclave",
-        "link": "https://azure.microsoft.com/updates?id=568377",
-        "summary": "Announcing the public preview of Azure Enclave for Microsoft Azure, Azure Government, Azure Government Secret, and Azure Government Top Secret. Azure Enclave helps streamline the deployment and…",
-        "date": "2026年7月29日",
-        "date_iso": "2026-07-29",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: NAT64 on StandardV2 NAT Gateway",
-        "link": "https://azure.microsoft.com/updates?id=568409",
-        "summary": "StandardV2 NAT Gateway now supports NAT64, enabling IPv6 workloads to communicate with IPv4-only internet destinations by translating synthesized outbound IPv6 traffic into IPv4 traffic. NAT64 relies…",
-        "date": "2026年7月29日",
-        "date_iso": "2026-07-29",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Application Routing with Gateway API",
-        "link": "https://azure.microsoft.com/updates?id=567944",
-        "summary": "Managing ingress routing while adopting newer Kubernetes standards can require balancing modernization efforts with existing deployments. Application Routing with Gateway API is now generally…",
-        "date": "2026年7月29日",
-        "date_iso": "2026-07-29",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "AWS Lambda announces scalable network bandwidth up to 3,000 Mbps for functions outside a VPC",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-lambda-network-bandwidth/",
+        "summary": "AWS Lambda now supports scalable network bandwidth for Lambda functions, enabling faster data transfer to and from your execution environment for latency-sensitive workloads. This feature enables…",
+        "date": "2026年8月6日",
+        "date_iso": "2026-08-06",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Keyspaces (for Apache Cassandra) is now available in the Canada West (Calgary) Region (ca-west-1)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-keyspaces-apache-cassandra-canada-west/",
+        "summary": "Amazon Keyspaces (for Apache Cassandra) is now available in the Canada West (Calgary) Region (ca-west-1), allowing customers in the Canada West Region to build Cassandra-compatible applications with…",
+        "date": "2026年8月6日",
+        "date_iso": "2026-08-06",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Glue Data Quality makes ETL anomaly detection free and improves anomaly predictions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-glue-data-quality-anomaly-detection-free",
+        "summary": "AWS Glue Data Quality now offers improved anomaly detection with a new observation mode that reduces detection of false anomalies and removes pricing for anomaly detection in ETL jobs.&nbsp;Customers…",
+        "date": "2026年8月6日",
+        "date_iso": "2026-08-06",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Marketplace adds AI Insights so buyers can understand pricing before they buy",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-marketplace-ai-insights/",
+        "summary": "You can now understand how a product's pricing works before you buy it. Available in the pricing section of the listing in AWS Marketplace, AI Insights explains each product's pricing in plain…",
+        "date": "2026年8月6日",
+        "date_iso": "2026-08-06",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon DynamoDB now supports real-time vector search",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-dynamodb-vector-search",
+        "summary": "Today, AWS announces the general availability of vector search for Amazon DynamoDB, a new feature to index and search vectors in real time. As vector datasets grow into the billions or trillions,…",
+        "date": "2026年8月6日",
+        "date_iso": "2026-08-06",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS IAM Identity Center makes management of AWS account access optional for new organization instances",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-identity-center-accounts-optional/",
+        "summary": "AWS IAM Identity Center now lets you decide whether to enable management of AWS account access when you create a new organization instance. This allows you to use IAM Identity Center to manage access…",
+        "date": "2026年8月6日",
+        "date_iso": "2026-08-06",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Aurora serverless now scales faster to support agentic AI and other bursty workloads",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aurora-serverless-instant-12-acu-scaling",
+        "summary": "Amazon Aurora serverless now delivers higher initial capacity during scale-up events, reaching up to 12 ACUs within a second and continuing to scale up to 256 ACUs as your workload grows. When the…",
+        "date": "2026年8月6日",
+        "date_iso": "2026-08-06",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
       {
         "title": "[Preview Announcement] Re-introducing Forward Proxy as AWS Network Firewall Functionality",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-network-firewall-forward-proxy-preview/",
@@ -305,16 +375,6 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon GameLift Streams now supports sharing streams with stream URLs",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-gamelift-streams/",
-        "summary": "Amazon GameLift Streams now offers stream URLs, which give end users temporary, unauthenticated access to a playable stream session in a supported web browser. Recipients need no AWS account, no…",
-        "date": "2026年8月4日",
-        "date_iso": "2026-08-04",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
         "title": "Amazon RDS for SQL Server now support BYOM in additional commercial regions",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/rds-sql-server-supports-byom-in-additional-aws-regions/",
         "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports Bring Your Own Media (BYOM) in 10 additional AWS Regions: Asia Pacific (Taipei, Hyderabad, Jakarta, Malaysia, Melbourne,…",
@@ -343,69 +403,19 @@
         "category": "database-tag",
         "cat_label": "データベース",
         "tag": "AWS"
-      },
-      {
-        "title": "AWS Transform continuous modernization is now generally available",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/7/aws-transform-continuous-general-available",
-        "summary": "AWS Transform continuous modernization is now generally available in all AWS Regions where AWS Transform is supported . This capability helps engineering teams analyze and remediate technical debt…",
-        "date": "2026年8月4日",
-        "date_iso": "2026-08-04",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "OpenAI GPT-5.6 Sol, Terra, and Luna now support 1 million token context windows on Amazon Bedrock",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/gpt-sol-terra-luna-long-context-bedrock",
-        "summary": "GPT-5.6 Sol, Terra, and Luna now support 1 million token context windows on Amazon Bedrock, enabling you to process full codebases, lengthy documents, and multi-turn agent histories in a single…",
-        "date": "2026年8月4日",
-        "date_iso": "2026-08-04",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Resilience Hub now provides recommended resilience tests",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-resilience-hub/",
-        "summary": "AWS Resilience Hub now offers recommended resilience tests that help platform engineering and site reliability teams validate how their services respond to and recover from known failure…",
-        "date": "2026年8月4日",
-        "date_iso": "2026-08-04",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Organizations now provides maximum account quota visibility in Service Quotas",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-organizations/",
-        "summary": "AWS Organizations customers can now view their maximum number of accounts quota and its utilization directly through AWS Service Quotas instead of relying on AWS Support or AWS account teams to…",
-        "date": "2026年8月4日",
-        "date_iso": "2026-08-04",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Lambda Provisioned Mode for Amazon SQS event source mappings now supports up to 10,000 event pollers",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-Lambda-provisioned-sqs-esm-max-pollers/",
-        "summary": "AWS Lambda now supports a maximum of 10,000 event pollers for Provisioned Mode for Amazon SQS event source mappings (ESMs), a 5x increase from the previous limit of 2,000. This enables you to reach…",
-        "date": "2026年8月4日",
-        "date_iso": "2026-08-04",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 I7i instances now available in Asia Pacific (Thailand) and Israel (Tel Aviv) Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-i7i-instances-in-additional-regions/",
-        "summary": "Amazon Web Services (AWS) announces the availability of high performance Storage Optimized Amazon EC2 I7i instances in the Asia Pacific (Thailand) and Israel (Tel Aviv) Regions. Powered by 5th Gen…",
-        "date": "2026年8月4日",
-        "date_iso": "2026-08-04",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "August 05, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_05_2026",
+        "summary": "Cloud Monitoring Announcement The Telemetry API for metric ingestion is generally available (GA) . You can ingest OTLP metrics into Cloud Monitoring by using an OpenTelemetry Collector, an OTLP…",
+        "date": "2026年8月5日",
+        "date_iso": "2026-08-05",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
       {
         "title": "August 04, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_04_2026",
@@ -595,19 +605,29 @@
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "GCP"
-      },
-      {
-        "title": "July 16, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#July_16_2026",
-        "summary": "Apigee UI Announcement On July 16, 2026, we released an updated version of the Apigee UI. Fixed Updated PDU and basepath limits display in the Apigee UI Removed the ambiguous org-wide PDU limit…",
-        "date": "2026年7月16日",
-        "date_iso": "2026-07-16",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "GCP"
       }
     ],
     "oci": [
+      {
+        "title": "Big Data Service 3.4.0 new features and updates",
+        "link": "https://docs.oracle.com/iaas/releasenotes/big-data/v3-4-0.htm",
+        "summary": "",
+        "date": "2026年8月5日",
+        "date_iso": "2026-08-05",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Oracle database Patch Compliance in Oracle Data Safe",
+        "link": "https://docs.oracle.com/iaas/releasenotes/data-safe/patch-compliance.htm",
+        "summary": "",
+        "date": "2026年8月4日",
+        "date_iso": "2026-08-04",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "OCI"
+      },
       {
         "title": "Kubernetes Engine support for deploying the AMD GPU Operator cluster add-on",
         "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-AMD-GPU-Operator-addon.htm",
@@ -784,26 +804,6 @@
         "summary": "",
         "date": "2026年7月21日",
         "date_iso": "2026-07-21",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Expanded On-Demand Model Availability in OCI Generative AI",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/expanded-on-demand-model-availability.htm",
-        "summary": "",
-        "date": "2026年7月15日",
-        "date_iso": "2026-07-15",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "H100 Multi-Node Serving Now Available for Model Import in OCI Generative AI",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/h100-multinode-imported-models.htm",
-        "summary": "",
-        "date": "2026年7月15日",
-        "date_iso": "2026-07-15",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "OCI"
