@@ -1,5 +1,5 @@
 {
-  "updated": "2026年08月08日 13:36 JST",
+  "updated": "2026年08月08日 19:13 JST",
   "clouds": {
     "azure": [
       {
@@ -245,6 +245,16 @@
         "tag": "AWS"
       },
       {
+        "title": "Amazon VPC IPAM now supports BGP route protection monitoring and delegated RPKI for BYOIP prefixes",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-vpc-ipam-bgp-rpki-byoip/",
+        "summary": "Amazon Virtual Private Cloud (VPC) IP Address Manager (IPAM) now supports BGP route protection monitoring and delegated Resource Public Key Infrastructure (RPKI) management for Bring Your Own IP…",
+        "date": "2026年8月8日",
+        "date_iso": "2026-08-08",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon Bedrock AgentCore adds memory, policy, and harness in AWS GovCloud (US-West)",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/agentcore-memory-policy-harness-govcloud/",
         "summary": "Today, Amazon Bedrock AgentCore introduces new capabilities in AWS GovCloud (US-West). AgentCore is the platform to build, connect, and optimize agents. With these capabilities, teams operating in…",
@@ -392,16 +402,6 @@
         "date_iso": "2026-08-07",
         "category": "database-tag",
         "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Security Agent now supports email-based MFA for penetration testing",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-security-agent-mfa/",
-        "summary": "AWS Security Agent (now part of AWS Continuum ) now enables penetration testing of applications that use email-based multi-factor authentication (MFA) as part of their login flow. Previously,…",
-        "date": "2026年8月7日",
-        "date_iso": "2026-08-07",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "AWS"
       }
     ],
