@@ -1,9 +1,19 @@
 {
-  "updated": "2026年08月07日 19:36 JST",
+  "updated": "2026年08月08日 11:21 JST",
   "clouds": {
     "azure": [
       {
-        "title": "Announcing: Azure Databricks Genie One and Genie Agents Free Usage Extended Through January 31, 2027",
+        "title": "Public Preview: Azure ExpressRoute resiliency guard",
+        "link": "https://azure.microsoft.com/updates?id=568666",
+        "summary": "Azure ExpressRoute resiliency guard is now available in public preview for ExpressRoute virtual network gateways. The new resiliency model property lets you specify whether a gateway is intended for…",
+        "date": "2026年8月8日",
+        "date_iso": "2026-08-08",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Announcing: Azure Databricks Genie One and Genie Agents Free Usage extended through January 31, 2027",
         "link": "https://azure.microsoft.com/updates?id=568964",
         "summary": "Free usage of Genie One and Genie Agents in Azure Databricks is now extended through January 31, 2027, from the previous end date of July 31, 2026. Budget controls do not apply to these products…",
         "date": "2026年8月7日",
@@ -191,19 +201,99 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Support for SMB Opportunistic Locking (Oplocks) configuration",
-        "link": "https://azure.microsoft.com/updates?id=568396",
-        "summary": "Azure NetApp Files now supports configuration of SMB opportunistic locking (oplocks) for SMB and dual-protocol volumes. Opportunistic locks (Oplocks) improve SMB client caching and are enabled by…",
-        "date": "2026年7月31日",
-        "date_iso": "2026-07-31",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Amazon EC2 R8i and R8i-Flex instances are now available in Europe (Milan) region",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8i-r8i-flex/",
+        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8i and R8i-flex instances are available in the Europe (Milan) region. These instances are powered by custom Intel Xeon 6 processors,…",
+        "date": "2026年8月8日",
+        "date_iso": "2026-08-08",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Timestream for InfluxDB now supports backup and restore",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/timestream-influxdb-backup-restore/",
+        "summary": "Amazon Timestream for InfluxDB now lets you create and manage your own backups and restore your data on demand. You can trigger one-time, on-demand backups, schedule automated recurring backups at…",
+        "date": "2026年8月8日",
+        "date_iso": "2026-08-08",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Cognito now available as a skill in the Agent Toolkit for AWS",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-auth-agent-skill/",
+        "summary": "Amazon Cognito is now available as a core skill (aws-auth) in the Agent Toolkit for AWS . AI coding agents using the toolkit can now set up, configure, secure, and troubleshoot Amazon Cognito using…",
+        "date": "2026年8月8日",
+        "date_iso": "2026-08-08",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS IAM Identity Center supports one-click multi-Region option for new organization instances",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iam-identity-center-supports-one-click-multi-region-option-new-organization-instances",
+        "summary": "AWS IAM Identity Center now makes it easier to enable multi-Region support when creating a new organization instance. Previously, enabling multi-Region support required multiple steps including…",
+        "date": "2026年8月8日",
+        "date_iso": "2026-08-08",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Bedrock AgentCore adds memory, policy, and harness in AWS GovCloud (US-West)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/agentcore-memory-policy-harness-govcloud/",
+        "summary": "Today, Amazon Bedrock AgentCore introduces new capabilities in AWS GovCloud (US-West). AgentCore is the platform to build, connect, and optimize agents. With these capabilities, teams operating in…",
+        "date": "2026年8月8日",
+        "date_iso": "2026-08-08",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon GameLift Servers now supports 21 new EC2 instance types",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/gamelift-ec2-instance-expansion/",
+        "summary": "Amazon GameLift Servers now supports 21 additional Amazon EC2 instance types for managed EC2 fleets and managed container fleets. Amazon GameLift Servers is a fully managed service that enables game…",
+        "date": "2026年8月7日",
+        "date_iso": "2026-08-07",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon OpenSearch Service announces additional upgrade runway for existing domains and support dates for additional…",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-opensearch-service-additional-upgrade-runway-support-dates",
+        "summary": "In November 2024, Amazon OpenSearch Service announced Extended Support for legacy Elasticsearch and OpenSearch engine versions (see also the detailed blog post ). Since that announcement, many…",
+        "date": "2026年8月7日",
+        "date_iso": "2026-08-07",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon SES now helps identify automated open and click events in event notifications",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ses-automated-email-interactions/",
+        "summary": "Amazon Simple Email Service (SES) now helps you identify automated email interactions. Open and Click event notifications now include an isBotEvent field that indicates whether the event was likely…",
+        "date": "2026年8月7日",
+        "date_iso": "2026-08-07",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Parallel Computing Service is now in scope for FedRAMP, SOC, ISO, CSA STAR, and PCI",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-pcs-august/",
+        "summary": "AWS Parallel Computing Service (PCS), a managed service that simplifies running and scaling high performance computing (HPC) workloads on AWS using Slurm, has expanded its security and compliance…",
+        "date": "2026年8月7日",
+        "date_iso": "2026-08-07",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
       {
         "title": "Amazon ECS now supports fractional GPU scheduling with Amazon EC2 G6f instances",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ecs-fractional-gpu/",
@@ -222,6 +312,16 @@
         "date_iso": "2026-08-07",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS WAF now supports a Salt Security managed rule group for API and MCP threat detection",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-waf-salt-security-managed-rules/",
+        "summary": "AWS WAF now supports the Salt Security managed rule group, available through AWS Marketplace: Salt Managed Rules for AWS WAF - AI Agent &amp; API Security . This rule group gives AWS WAF customers…",
+        "date": "2026年8月7日",
+        "date_iso": "2026-08-07",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "AWS"
       },
       {
@@ -265,6 +365,16 @@
         "tag": "AWS"
       },
       {
+        "title": "Amazon OpenSearch UI now supports Network Access Control",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/opensearch-ui-network-access-control",
+        "summary": "Amazon OpenSearch Service now supports network access controls for OpenSearch UI applications. OpenSearch UI is the fully managed web service for search, analytics, and unified observability across…",
+        "date": "2026年8月7日",
+        "date_iso": "2026-08-07",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
+        "tag": "AWS"
+      },
+      {
         "title": "AWS Transform for migrations automates post-launch actions",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-transform-for-migrations-automates-post-launch-actions",
         "summary": "AWS Transform now automates the configuration and execution of post-launch actions through the migration workflow. Define actions at the account level and apply them automatically to each source…",
@@ -272,6 +382,16 @@
         "date_iso": "2026-08-07",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Connect Customer adds one-click drill-down on real-time metrics dashboards",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-drill-down-metrics/",
+        "summary": "Amazon Connect Customer dashboards now support drilling down into real-time queue and routing profile performance. With a single click, supervisors can drill from a summary view into pre-filtered…",
+        "date": "2026年8月7日",
+        "date_iso": "2026-08-07",
+        "category": "database-tag",
+        "cat_label": "データベース",
         "tag": "AWS"
       },
       {
@@ -283,129 +403,19 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon RDS now provides visibility into storage volume initialization status",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-storage-volume-initialization-visibility",
-        "summary": "Amazon RDS now provides visibility into the initialization status of database storage volumes created from snapshots. You can use this status to determine when your storage is fully initialized after…",
-        "date": "2026年8月7日",
-        "date_iso": "2026-08-07",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon WorkSpaces now publishes enhanced observability metrics",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-workspaces-observability-metrics",
-        "summary": "Amazon WorkSpaces now publishes additional performance and session health metrics to Amazon CloudWatch, enabling IT administrators to gain deeper visibility into their virtual desktop workloads.…",
-        "date": "2026年8月7日",
-        "date_iso": "2026-08-07",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon WorkSpaces Applications now publishes enhanced observability metrics",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-workspaces-applications-observability-metrics",
-        "summary": "Amazon WorkSpaces Applications now publishes additional performance and session health metrics to Amazon CloudWatch, enabling IT administrators to gain deeper visibility into their application…",
-        "date": "2026年8月7日",
-        "date_iso": "2026-08-07",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Marketplace now lets sellers configure net payment terms on private offers",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-marketplace-net-payment-terms-for-private-offers",
-        "summary": "AWS Marketplace now supports configurable net payment terms on private offers, with options including Net 30, Net 45, Net 60, or Net 90. Prior to this launch, net payment terms were uniform across…",
-        "date": "2026年8月6日",
-        "date_iso": "2026-08-06",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon MSK now delivers Kafka Authorizer Logs to customers",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-msk-kafka-authorizer-logs/",
-        "summary": "Amazon Managed Streaming for Apache Kafka (MSK) now supports Authorizer Log Delivery for Provisioned clusters, including both Standard and Express brokers, at no additional cost. With authorizer…",
-        "date": "2026年8月6日",
-        "date_iso": "2026-08-06",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Backup for Amazon S3 now supports direct access to backup data",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-backup-amazon-s3-direct-access/",
-        "summary": "AWS Backup for Amazon S3 now supports creating S3 Access Points, providing immediate read-only access to backup data using standard S3 APIs without initiating a restore. This enables targeted file…",
-        "date": "2026年8月6日",
-        "date_iso": "2026-08-06",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SES now helps identify automated open and click events in event notifications",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ses-automated-email-interactions/",
-        "summary": "Amazon Simple Email Service (SES) now helps you identify automated email interactions. Open and Click event notifications now include an isBotEvent field that indicates whether the event was likely…",
-        "date": "2026年8月6日",
-        "date_iso": "2026-08-06",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Backup extends logically air-gapped vault support for Amazon Neptune to three additional AWS Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-backup-logically-air-gapped-vault-neptune-regions/",
-        "summary": "AWS Backup logically air-gapped vault support for Amazon Neptune is now available in three additional AWS Regions: Asia Pacific (Melbourne), Europe (Spain), and Europe (Zurich). With this expansion,…",
-        "date": "2026年8月6日",
-        "date_iso": "2026-08-06",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Quick supports multi-dataset analytical capabiity",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-quick/",
-        "summary": "Today, Amazon Quick announces supporting multi-dataset topics, enabling users to model relationships across multiple datasets in a single topic and use that model to build dashboards and answer…",
-        "date": "2026年8月6日",
-        "date_iso": "2026-08-06",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "Announcing temporal policies and rate limiting in Amazon Bedrock AgentCore",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/temporal-policies-agentcore/",
-        "summary": "Amazon Bedrock AgentCore announces two new controls: temporal policies for stateful agent authorization and rate limiting for AI traffic. Temporal policies let you define stateful authorization rules…",
-        "date": "2026年8月6日",
-        "date_iso": "2026-08-06",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 M8g instances now available in additional regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-m8g-instances-additional-regions/",
-        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) M8g instances are available in AWS Asia Pacific (Taipei), and AWS Mexico (Central) regions. These instances are powered by AWS Graviton4…",
-        "date": "2026年8月6日",
-        "date_iso": "2026-08-06",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Lambda announces scalable network bandwidth up to 3,000 Mbps for functions outside a VPC",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-lambda-network-bandwidth/",
-        "summary": "AWS Lambda now supports scalable network bandwidth for Lambda functions, enabling faster data transfer to and from your execution environment for latency-sensitive workloads. This feature enables…",
-        "date": "2026年8月6日",
-        "date_iso": "2026-08-06",
-        "category": "network-tag",
-        "cat_label": "ネットワーク",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "August 07, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_07_2026",
+        "summary": "AlloyDB for PostgreSQL Feature You can now sync tables from BigQuery into your AlloyDB instance, either as a one-time operation or on a periodic schedule. This feature (in Preview ) lets you enable…",
+        "date": "2026年8月7日",
+        "date_iso": "2026-08-07",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "GCP"
+      },
       {
         "title": "August 06, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_06_2026",
@@ -559,7 +569,7 @@
       {
         "title": "July 22, 2026",
         "link": "https://docs.cloud.google.com/release-notes#July_22_2026",
-        "summary": "Access Approval Feature Agent Identity is available in Preview for Access Approval. Feature Privileged Access Manager is available in Preview . Access Transparency Feature Agent Identity is available…",
+        "summary": "Access Approval Feature Agent Identity is available in Preview for Access Approval. Feature Privileged Access Manager is available in Preview . Gemini Enterprise Feature Gemini Enterprise: Support…",
         "date": "2026年7月22日",
         "date_iso": "2026-07-22",
         "category": "ai-tag",
@@ -592,16 +602,6 @@
         "summary": "Google SecOps SOAR Announcement Release 6.3.94 is being rolled out to the first phase of regions as listed here . This release contains internal and customer bug fixes.",
         "date": "2026年7月19日",
         "date_iso": "2026-07-19",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "July 18, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#July_18_2026",
-        "summary": "Google SecOps SOAR Announcement Release 6.3.93 is now available for all regions.",
-        "date": "2026年7月18日",
-        "date_iso": "2026-07-18",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
