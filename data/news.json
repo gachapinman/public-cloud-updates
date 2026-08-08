@@ -1,5 +1,5 @@
 {
-  "updated": "2026年08月08日 11:21 JST",
+  "updated": "2026年08月08日 13:36 JST",
   "clouds": {
     "azure": [
       {
@@ -569,7 +569,7 @@
       {
         "title": "July 22, 2026",
         "link": "https://docs.cloud.google.com/release-notes#July_22_2026",
-        "summary": "Access Approval Feature Agent Identity is available in Preview for Access Approval. Feature Privileged Access Manager is available in Preview . Gemini Enterprise Feature Gemini Enterprise: Support…",
+        "summary": "Access Approval Feature Agent Identity is available in Preview for Access Approval. Feature Privileged Access Manager is available in Preview . Access Transparency Feature Agent Identity is available…",
         "date": "2026年7月22日",
         "date_iso": "2026-07-22",
         "category": "ai-tag",
