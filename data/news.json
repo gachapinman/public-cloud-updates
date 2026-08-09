@@ -1,5 +1,5 @@
 {
-  "updated": "2026年08月08日 19:13 JST",
+  "updated": "2026年08月09日 11:29 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "August 08, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_08_2026",
+        "summary": "Google SecOps SOAR Announcement Release 6.3.96 is now available for all regions.",
+        "date": "2026年8月8日",
+        "date_iso": "2026-08-08",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "August 07, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_07_2026",
         "summary": "AlloyDB for PostgreSQL Feature You can now sync tables from BigQuery into your AlloyDB instance, either as a one-time operation or on a periodic schedule. This feature (in Preview ) lets you enable…",
@@ -594,16 +604,6 @@
         "date_iso": "2026-07-20",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "GCP"
-      },
-      {
-        "title": "July 19, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#July_19_2026",
-        "summary": "Google SecOps SOAR Announcement Release 6.3.94 is being rolled out to the first phase of regions as listed here . This release contains internal and customer bug fixes.",
-        "date": "2026年7月19日",
-        "date_iso": "2026-07-19",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "GCP"
       }
     ],
