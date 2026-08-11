@@ -1,7 +1,17 @@
 {
-  "updated": "2026年08月10日 19:48 JST",
+  "updated": "2026年08月11日 11:27 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Announcing: Microsoft Fabric Item Recovery will be enabled by default for tenants without an explicit setting",
+        "link": "https://azure.microsoft.com/updates?id=569140",
+        "summary": "Starting August 23, 2026, Microsoft Fabric will enable Item Recovery by default for tenants that have not explicitly configured the setting. Supported item types will have a 3-day recovery window by…",
+        "date": "2026年8月11日",
+        "date_iso": "2026-08-11",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AZURE"
+      },
       {
         "title": "Public Preview: Azure ExpressRoute resiliency guard",
         "link": "https://azure.microsoft.com/updates?id=568666",
@@ -191,19 +201,89 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Symmetric keys on Azure Key Vault Premium",
-        "link": "https://azure.microsoft.com/updates?id=566746",
-        "summary": "We’re announcing symmetric keys on Azure Key Vault Premium are now available in public preview. This preview enables customers and partners to evaluate symmetric encryption capabilities using the…",
-        "date": "2026年7月31日",
-        "date_iso": "2026-07-31",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "FLUX.2-small-decoder and gemma-4-12B-it models now available on Amazon SageMaker JumpStart",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/flux.2-small-decoder-gemma-4-12B-it-on-sagemaker-jumpstart/",
+        "summary": "Black Forest Labs' FLUX.2-small-decoder and Google's gemma-4-12B-it models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers.…",
+        "date": "2026年8月11日",
+        "date_iso": "2026-08-11",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "langcache-embed-v3-small, Mellum2-12B-A2.5B-Thinking, and LightOnOCR-2-1B models now available on Amazon SageMaker…",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/langcache-embed-v3-small-mellum2-12B-A2.5B-thinking-lightOnOCR-2-1B-on-sagemaker-jumpstart/",
+        "summary": "Redis's langcache-embed-v3-small, JetBrains' Mellum2-12B-A2.5B-Thinking, and LightOn's LightOnOCR-2-1B models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation…",
+        "date": "2026年8月11日",
+        "date_iso": "2026-08-11",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 High Memory U7i instances now available in AWS South America (São Paulo) region",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-high-memory-u7i-south-america",
+        "summary": "Amazon EC2 High Memory U7in-24TB instances (u7in-24tb.224xlarge) are now available in AWS South America (São Paulo) region. U7i instances are part of the AWS 7th generation and are powered by custom…",
+        "date": "2026年8月11日",
+        "date_iso": "2026-08-11",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "GLM-5.2 FP8, NVIDIA-Nemotron-Nano-12B-v2 and GLM-OCR models now available on Amazon SageMaker JumpStart",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/glm-5.2-fp8-nemotron-nano-12b-v2-glm-ocr-on-sagemaker-jumpstart/",
+        "summary": "Z.ai's GLM-5.2 FP8, NVIDIA's Nemotron-Nano-12B-v2, and Z.ai's GLM-OCR models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers.…",
+        "date": "2026年8月11日",
+        "date_iso": "2026-08-11",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon GameLift Streams Now Offers Service-managed Shader Caching",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/Amazon-GameLift-Streams-Shader-Caching/",
+        "summary": "Amazon GameLift Streams now manages shader cache capture and distribution for your applications. You capture a shader cache from a stream session, and the service automatically makes it available for…",
+        "date": "2026年8月11日",
+        "date_iso": "2026-08-11",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 introduces application status checks",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-application-status-checks",
+        "summary": "Amazon EC2 introduces application status checks, a new status check that helps customers detect and respond to application-level issues on their EC2 instances. With application status checks, EC2…",
+        "date": "2026年8月11日",
+        "date_iso": "2026-08-11",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon OpenSearch Serverless now supports up to 10,000 collections per collection group",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-opensearch-serverless-supports-10000-collections-per-collection-group/",
+        "summary": "The next generation of Amazon OpenSearch Serverless now supports up to 10,000 collections within a single collection group, increased from the previous limit of 1,500. Collection groups organize…",
+        "date": "2026年8月11日",
+        "date_iso": "2026-08-11",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Elastic Disaster Recovery now preserves UEFI boot mode for Linux servers",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-drs-linux-uefi",
+        "summary": "AWS Elastic Disaster Recovery (AWS DRS) now preserves UEFI boot mode when recovering Linux source servers that boot with UEFI firmware. Previously, DRS launched these Linux servers in legacy BIOS…",
+        "date": "2026年8月10日",
+        "date_iso": "2026-08-10",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
       {
         "title": "Amazon EC2 R8i and R8i-Flex instances are now available in Europe (Milan) region",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8i-r8i-flex/",
@@ -323,89 +403,19 @@
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "AWS"
-      },
-      {
-        "title": "AWS WAF now supports a Salt Security managed rule group for API and MCP threat detection",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-waf-salt-security-managed-rules/",
-        "summary": "AWS WAF now supports the Salt Security managed rule group, available through AWS Marketplace: Salt Managed Rules for AWS WAF - AI Agent &amp; API Security . This rule group gives AWS WAF customers…",
-        "date": "2026年8月7日",
-        "date_iso": "2026-08-07",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 G7 instances are now available in the AWS Europe (Spain) Region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-g7-available-spain",
-        "summary": "Amazon Elastic Compute Cloud (Amazon EC2) G7 instances powered by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs are now available in Europe (Spain) Region. G7 instances deliver up to 4.6x AI…",
-        "date": "2026年8月7日",
-        "date_iso": "2026-08-07",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AgentCore runtime instances are now generally available",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-bedrock-agentcore-runtime-instances-generally-available/",
-        "summary": "Today, AWS announces runtime instances, a new feature in Amazon Bedrock AgentCore that lets you run agents on your own Amazon EC2 instances without managing infrastructure. AgentCore runtime provides…",
-        "date": "2026年8月7日",
-        "date_iso": "2026-08-07",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon ElastiCache now supports Graviton4-based M8g, R8g, and C8gn nodes",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-elasticache-graviton4-m8g-r8g-c8gn/",
-        "summary": "Amazon ElastiCache now supports Graviton4-based M8g, R8g, and C8gn node families for Valkey and Memcached. Graviton4-based nodes provide up to 47% higher throughput, up to 43% lower P99 latency, and…",
-        "date": "2026年8月7日",
-        "date_iso": "2026-08-07",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Glue Schema Registry is now available in ten more AWS regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-gsr-10-more-regions",
-        "summary": "You can now use the AWS Glue Schema Registry , a serverless and free feature of AWS Glue , in the Asia Pacific (New Zealand), Asia Pacific (Thailand), Asia Pacific (Hyderabad), Asia Pacific (Osaka),…",
-        "date": "2026年8月7日",
-        "date_iso": "2026-08-07",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon OpenSearch UI now supports Network Access Control",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/opensearch-ui-network-access-control",
-        "summary": "Amazon OpenSearch Service now supports network access controls for OpenSearch UI applications. OpenSearch UI is the fully managed web service for search, analytics, and unified observability across…",
-        "date": "2026年8月7日",
-        "date_iso": "2026-08-07",
-        "category": "network-tag",
-        "cat_label": "ネットワーク",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Transform for migrations automates post-launch actions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-transform-for-migrations-automates-post-launch-actions",
-        "summary": "AWS Transform now automates the configuration and execution of post-launch actions through the migration workflow. Define actions at the account level and apply them automatically to each source…",
-        "date": "2026年8月7日",
-        "date_iso": "2026-08-07",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Connect Customer adds one-click drill-down on real-time metrics dashboards",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-drill-down-metrics/",
-        "summary": "Amazon Connect Customer dashboards now support drilling down into real-time queue and routing profile performance. With a single click, supervisors can drill from a summary view into pre-filtered…",
-        "date": "2026年8月7日",
-        "date_iso": "2026-08-07",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "August 10, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_10_2026",
+        "summary": "BigQuery Feature BigQuery now supports the gemini-3.1-flash-lite and gemini-3.5-flash GA models, which are available for the us , eu , and global multi-regional endpoints. You can use these models in…",
+        "date": "2026年8月10日",
+        "date_iso": "2026-08-10",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
       {
         "title": "August 09, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_09_2026",
@@ -449,11 +459,11 @@
       {
         "title": "August 05, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_05_2026",
-        "summary": "Cloud Monitoring Announcement The Telemetry API for metric ingestion is generally available (GA) . You can ingest OTLP metrics into Cloud Monitoring by using an OpenTelemetry Collector, an OTLP…",
+        "summary": "Cloud Database Migration Service Feature You can now manage your Database Migration Service migration jobs directly from the destination Cloud SQL instance or AlloyDB for PostgreSQL cluster pages in…",
         "date": "2026年8月5日",
         "date_iso": "2026-08-05",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
+        "category": "database-tag",
+        "cat_label": "データベース",
         "tag": "GCP"
       },
       {
@@ -595,19 +605,19 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
-      },
-      {
-        "title": "July 21, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#July_21_2026",
-        "summary": "Anthos Attached Clusters Announcement You can now launch clusters with the following Kubernetes versions. Click on the following links to see the release notes associated with these patches:…",
-        "date": "2026年7月21日",
-        "date_iso": "2026-07-21",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "GCP"
       }
     ],
     "oci": [
+      {
+        "title": "Updates to OCI Kubernetes Engine (OKE) cluster add-ons",
+        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-Add-on-release-notes-July-2026-Release-Note.htm",
+        "summary": "",
+        "date": "2026年8月10日",
+        "date_iso": "2026-08-10",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "OCI"
+      },
       {
         "title": "Database Tools MCP Server Enhancements",
         "link": "https://docs.oracle.com/iaas/releasenotes/database-tools/gen-ai.htm",
@@ -729,6 +739,16 @@
         "tag": "OCI"
       },
       {
+        "title": "HeatWave: Support for Versions 26.7.0, 9.7.2, and 8.4.11",
+        "link": "https://docs.oracle.com/iaas/releasenotes/mysql-database/heatwave-2670-972-8411.htm",
+        "summary": "",
+        "date": "2026年7月28日",
+        "date_iso": "2026-07-28",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "OCI"
+      },
+      {
         "title": "Select AI Supervisor Agent",
         "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-07-select-ai-agent.htm",
         "summary": "",
@@ -784,26 +804,6 @@
         "summary": "",
         "date": "2026年7月23日",
         "date_iso": "2026-07-23",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Export Sunburst and Treemap widget data to CSV",
-        "link": "https://docs.oracle.com/iaas/releasenotes/management-dashboard/sunburst-treemap-export-csv.htm",
-        "summary": "",
-        "date": "2026年7月23日",
-        "date_iso": "2026-07-23",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Oracle Critical Patch Update (CPU) July 2026 for Oracle Java SE",
-        "link": "https://docs.oracle.com/iaas/releasenotes/java-management/jdk-cpu-july-2026.htm",
-        "summary": "",
-        "date": "2026年7月21日",
-        "date_iso": "2026-07-21",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "OCI"
