@@ -1,5 +1,5 @@
 {
-  "updated": "2026年08月11日 13:50 JST",
+  "updated": "2026年08月11日 19:35 JST",
   "clouds": {
     "azure": [
       {
@@ -489,11 +489,11 @@
       {
         "title": "August 02, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_02_2026",
-        "summary": "Google SecOps SOAR Announcement Release 6.3.96 is being rolled out to the first phase of regions as listed here . This release contains internal and customer bug fixes.",
+        "summary": "Agent Platform Workbench Change 20260802-2330-rc0 Release Change 20260802-2330-rc0 Release Change Installed latest packages from upstream dependencies. Change Installed latest packages from upstream…",
         "date": "2026年8月2日",
         "date_iso": "2026-08-02",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "GCP"
       },
       {
@@ -519,11 +519,11 @@
       {
         "title": "July 30, 2026",
         "link": "https://docs.cloud.google.com/release-notes#July_30_2026",
-        "summary": "BigQuery Feature You can add tables, views, data sources, and data quality tests as tasks to BigQuery pipelines. For more information, see Add a pipeline task . This feature is generally available .…",
+        "summary": "Agent Platform Workbench Change M145 Release Change 20260730-2130-rc0 Release Change Installed latest packages from upstream dependencies. Change Installed latest packages from upstream dependencies.…",
         "date": "2026年7月30日",
         "date_iso": "2026-07-30",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "GCP"
       },
       {
