@@ -1,5 +1,5 @@
 {
-  "updated": "2026年08月12日 14:15 JST",
+  "updated": "2026年08月12日 19:43 JST",
   "clouds": {
     "azure": [
       {
@@ -409,11 +409,11 @@
       {
         "title": "August 11, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_11_2026",
-        "summary": "BigQuery Feature Query templates for data clean rooms are generally available (GA). Query templates allow data clean room owners and publishers to share predefined queries without exposing the…",
+        "summary": "Apigee hybrid Announcement v1.16.9 On August 11, 2026 we released an updated version of the Apigee hybrid software, v1.16.9. For information on upgrading, see Upgrading Apigee hybrid to version…",
         "date": "2026年8月11日",
         "date_iso": "2026-08-11",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "GCP"
       },
       {
@@ -609,6 +609,26 @@
     ],
     "oci": [
       {
+        "title": "Object Storage supports dual-stack endpoints for IPv6",
+        "link": "https://docs.oracle.com/iaas/releasenotes/objectstorage/ipv6-support.htm",
+        "summary": "",
+        "date": "2026年8月11日",
+        "date_iso": "2026-08-11",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
+        "tag": "OCI"
+      },
+      {
+        "title": "OCI Block Storage Adds Ransomware-Resilient Backup Protection",
+        "link": "https://docs.oracle.com/iaas/releasenotes/blockvolume/retention-lock.htm",
+        "summary": "",
+        "date": "2026年8月11日",
+        "date_iso": "2026-08-11",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
+        "tag": "OCI"
+      },
+      {
         "title": "OCI Generative AI now available in Oracle US Government Cloud and Oracle US Defense Cloud",
         "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/generative-ai-government.htm",
         "summary": "",
@@ -636,16 +656,6 @@
         "date_iso": "2026-08-11",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "OCI Block Storage Adds Ransomware-Resilient Backup Protection",
-        "link": "https://docs.oracle.com/iaas/releasenotes/blockvolume/retention-lock.htm",
-        "summary": "",
-        "date": "2026年8月11日",
-        "date_iso": "2026-08-11",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
         "tag": "OCI"
       },
       {
@@ -689,16 +699,6 @@
         "tag": "OCI"
       },
       {
-        "title": "Import New Models into OCI Generative AI",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/imported-models-august-05-2026.htm",
-        "summary": "",
-        "date": "2026年8月5日",
-        "date_iso": "2026-08-05",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
         "title": "Big Data Service 3.4.0 new features and updates",
         "link": "https://docs.oracle.com/iaas/releasenotes/big-data/v3-4-0.htm",
         "summary": "",
@@ -706,6 +706,16 @@
         "date_iso": "2026-08-05",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Import New Models into OCI Generative AI",
+        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/imported-models-august-05-2026.htm",
+        "summary": "",
+        "date": "2026年8月5日",
+        "date_iso": "2026-08-05",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "OCI"
       },
       {
@@ -791,16 +801,6 @@
       {
         "title": "Database Developer Portal for Database Tools",
         "link": "https://docs.oracle.com/iaas/releasenotes/database-tools/dev-db.htm",
-        "summary": "",
-        "date": "2026年7月28日",
-        "date_iso": "2026-07-28",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "OCI"
-      },
-      {
-        "title": "HeatWave: Support for Versions 26.7.0, 9.7.2, and 8.4.11",
-        "link": "https://docs.oracle.com/iaas/releasenotes/mysql-database/heatwave-2670-972-8411.htm",
         "summary": "",
         "date": "2026年7月28日",
         "date_iso": "2026-07-28",
