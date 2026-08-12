@@ -1,7 +1,17 @@
 {
-  "updated": "2026年08月11日 19:35 JST",
+  "updated": "2026年08月12日 11:45 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Generally Available: 2.2X IDPS performance optimization in Azure Firewall",
+        "link": "https://azure.microsoft.com/updates?id=569256",
+        "summary": "Azure Firewall Premium now delivers up to 22 Gbps throughput with TLS inspection and IDPS in Deny mode, a 120% increase from 10 Gbps, and up to 600 Mbps per TCP connection with IDPS enabled in either…",
+        "date": "2026年8月12日",
+        "date_iso": "2026-08-12",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Announcing: Microsoft Fabric Item Recovery will be enabled by default for tenants without an explicit setting",
         "link": "https://azure.microsoft.com/updates?id=569140",
@@ -191,19 +201,99 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Announcing: Reservation exchanges for Azure services supported by savings plans will no longer be available starting…",
-        "link": "https://azure.microsoft.com/updates?id=568514",
-        "summary": "Starting February 1, 2027, Azure reservations exchanges will no longer be available for services covered by savings plans. At the time of this announcement, this includes reservations for the…",
-        "date": "2026年7月31日",
-        "date_iso": "2026-07-31",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Amazon EC2 R8a instances are now available in Canada (Central) region",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8a-instances-canada-central/",
+        "summary": "Starting today, Amazon EC2 R8a instances are now available in&nbsp;Canada (Central)&nbsp;Region. These instances, feature 5th Gen AMD EPYC processors (formerly code named Turin) with a maximum…",
+        "date": "2026年8月12日",
+        "date_iso": "2026-08-12",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Bedrock expands IAM principal cost allocation to the bedrock-mantle endpoint",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-expands-iam-principal-cost-allocation-bedrock-mantle/",
+        "summary": "Amazon Bedrock is a fully managed service that provides secure, enterprise-grade access to high-performing foundation models from leading AI companies, enabling you to build and scale generative AI…",
+        "date": "2026年8月12日",
+        "date_iso": "2026-08-12",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "LocateAnything-3B, Qwen-AgentWorld-35B-A3B, and Qwen3.5-122B-A10B models now available on Amazon SageMaker JumpStart",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/locateAnything-3B-qwen-agentworld-35B-A3B-qwen3.5-122B-A10B-on-sagemaker-jumpstart/",
+        "summary": "NVIDIA's LocateAnything-3B, Qwen's Qwen-AgentWorld-35B-A3B, and Qwen's Qwen3.5-122B-A10B models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available…",
+        "date": "2026年8月12日",
+        "date_iso": "2026-08-12",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "NVIDIA Nemotron 3.5 Lightning model is now available on Amazon SageMaker JumpStart",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/nvidia-nemotron-3.5-lightning-on-sagemaker-jumpstart/",
+        "summary": "NVIDIA's Nemotron 3.5 Lightning is now available on Amazon SageMaker JumpStart, giving AWS customers access to the fastest open model in its class for persistent agent workloads and rapid task…",
+        "date": "2026年8月12日",
+        "date_iso": "2026-08-12",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Glue adds one-click access to SageMaker Unified Studio from the AWS console",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/smus-glue-access",
+        "summary": "AWS Glue now provides direct access to Amazon SageMaker Unified Studio, helping data engineers and analysts move from viewing the catalog in the Glue console to querying their data, running data…",
+        "date": "2026年8月11日",
+        "date_iso": "2026-08-11",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Secrets Manager adds managed external secrets support for Jenkins and SonarQube",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/secrets-manager-integration-jenkins-sonarqube/",
+        "summary": "AWS Secrets Manager now extends its managed external secrets capability to include Jenkins API Tokens and SonarQube Tokens, enabling you to automatically rotate these third-party credentials directly…",
+        "date": "2026年8月11日",
+        "date_iso": "2026-08-11",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Connect Customer launches performance dashboard for Cases",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-cases-dashboard/",
+        "summary": "Amazon Connect Customer now provides a performance dashboard for cases that helps managers monitor case volume, resolution trends, and performance against service level agreement (SLA) targets.…",
+        "date": "2026年8月11日",
+        "date_iso": "2026-08-11",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Clean Rooms supports exporting privacy-enhanced analysis logs for SQL",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-clean-rooms-export-analysis-log-sql",
+        "summary": "AWS Clean Rooms now supports exporting privacy-enhanced analysis logs for SQL analyses , offering customers greater optimization and troubleshooting capabilities. With this launch, you can export…",
+        "date": "2026年8月11日",
+        "date_iso": "2026-08-11",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon RDS for MariaDB now supports MariaDB 12.3",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-mariadb-1232-available/",
+        "summary": "Starting today, Amazon RDS for MariaDB supports MariaDB major version 12.3, the latest Long-Term Support release from the MariaDB community. This release supports MariaDB 12.3.2 minor version. &nbsp;…",
+        "date": "2026年8月11日",
+        "date_iso": "2026-08-11",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
       {
         "title": "FLUX.2-small-decoder and gemma-4-12B-it models now available on Amazon SageMaker JumpStart",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/flux.2-small-decoder-gemma-4-12B-it-on-sagemaker-jumpstart/",
@@ -248,6 +338,16 @@
         "title": "Amazon GameLift Streams Now Offers Service-managed Shader Caching",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/Amazon-GameLift-Streams-Shader-Caching/",
         "summary": "Amazon GameLift Streams now manages shader cache capture and distribution for your applications. You capture a shader cache from a stream session, and the service automatically makes it available for…",
+        "date": "2026年8月11日",
+        "date_iso": "2026-08-11",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Identity and Access Management streamlines assignment of IAM roles to workforce users with account access manager",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iam-aam/",
+        "summary": "AWS Identity and Access Management (IAM) launched account access manager, a feature that streamlines assignment of IAM roles to workforce users. Administrators use account access manager to assign…",
         "date": "2026年8月11日",
         "date_iso": "2026-08-11",
         "category": "ai-tag",
@@ -303,109 +403,19 @@
         "category": "database-tag",
         "cat_label": "データベース",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon Cognito now available as a skill in the Agent Toolkit for AWS",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-auth-agent-skill/",
-        "summary": "Amazon Cognito is now available as a core skill (aws-auth) in the Agent Toolkit for AWS . AI coding agents using the toolkit can now set up, configure, secure, and troubleshoot Amazon Cognito using…",
-        "date": "2026年8月8日",
-        "date_iso": "2026-08-08",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS IAM Identity Center supports one-click multi-Region option for new organization instances",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iam-identity-center-supports-one-click-multi-region-option-new-organization-instances",
-        "summary": "AWS IAM Identity Center now makes it easier to enable multi-Region support when creating a new organization instance. Previously, enabling multi-Region support required multiple steps including…",
-        "date": "2026年8月8日",
-        "date_iso": "2026-08-08",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon VPC IPAM now supports BGP route protection monitoring and delegated RPKI for BYOIP prefixes",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-vpc-ipam-bgp-rpki-byoip/",
-        "summary": "Amazon Virtual Private Cloud (VPC) IP Address Manager (IPAM) now supports BGP route protection monitoring and delegated Resource Public Key Infrastructure (RPKI) management for Bring Your Own IP…",
-        "date": "2026年8月8日",
-        "date_iso": "2026-08-08",
-        "category": "network-tag",
-        "cat_label": "ネットワーク",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Bedrock AgentCore adds memory, policy, and harness in AWS GovCloud (US-West)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/agentcore-memory-policy-harness-govcloud/",
-        "summary": "Today, Amazon Bedrock AgentCore introduces new capabilities in AWS GovCloud (US-West). AgentCore is the platform to build, connect, and optimize agents. With these capabilities, teams operating in…",
-        "date": "2026年8月8日",
-        "date_iso": "2026-08-08",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon GameLift Servers now supports 21 new EC2 instance types",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/gamelift-ec2-instance-expansion/",
-        "summary": "Amazon GameLift Servers now supports 21 additional Amazon EC2 instance types for managed EC2 fleets and managed container fleets. Amazon GameLift Servers is a fully managed service that enables game…",
-        "date": "2026年8月7日",
-        "date_iso": "2026-08-07",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon OpenSearch Service announces additional upgrade runway for existing domains and support dates for additional…",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-opensearch-service-additional-upgrade-runway-support-dates",
-        "summary": "In November 2024, Amazon OpenSearch Service announced Extended Support for legacy Elasticsearch and OpenSearch engine versions (see also the detailed blog post ). Since that announcement, many…",
-        "date": "2026年8月7日",
-        "date_iso": "2026-08-07",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SES now helps identify automated open and click events in event notifications",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ses-automated-email-interactions/",
-        "summary": "Amazon Simple Email Service (SES) now helps you identify automated email interactions. Open and Click event notifications now include an isBotEvent field that indicates whether the event was likely…",
-        "date": "2026年8月7日",
-        "date_iso": "2026-08-07",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Parallel Computing Service is now in scope for FedRAMP, SOC, ISO, CSA STAR, and PCI",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-pcs-august/",
-        "summary": "AWS Parallel Computing Service (PCS), a managed service that simplifies running and scaling high performance computing (HPC) workloads on AWS using Slurm, has expanded its security and compliance…",
-        "date": "2026年8月7日",
-        "date_iso": "2026-08-07",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon ECS now supports fractional GPU scheduling with Amazon EC2 G6f instances",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ecs-fractional-gpu/",
-        "summary": "Amazon Elastic Container Service (Amazon ECS) now supports fractional GPU scheduling with Amazon EC2 G6f instances, enabling you to run your workloads on GPU partitions as small as one-eighth of an…",
-        "date": "2026年8月7日",
-        "date_iso": "2026-08-07",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Lambda console extends console-to-IDE integration to Kiro and Cursor",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-lambda-ide-kiro-cursor/",
-        "summary": "AWS Lambda console now extends its console-to-IDE integration to support Kiro and Cursor IDEs. This expansion builds on the existing console-to-IDE transition for Visual Studio Code (VS Code),…",
-        "date": "2026年8月7日",
-        "date_iso": "2026-08-07",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "August 11, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_11_2026",
+        "summary": "BigQuery Feature Query templates for data clean rooms are generally available (GA). Query templates allow data clean room owners and publishers to share predefined queries without exposing the…",
+        "date": "2026年8月11日",
+        "date_iso": "2026-08-11",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
       {
         "title": "August 10, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_10_2026",
@@ -595,19 +605,29 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
-      },
-      {
-        "title": "July 22, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#July_22_2026",
-        "summary": "Access Approval Feature Agent Identity is available in Preview for Access Approval. Feature Privileged Access Manager is available in Preview . Access Transparency Feature Agent Identity is available…",
-        "date": "2026年7月22日",
-        "date_iso": "2026-07-22",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
       }
     ],
     "oci": [
+      {
+        "title": "OCI Generative AI now available in Oracle US Government Cloud and Oracle US Defense Cloud",
+        "link": "https://docs.oracle.com/iaas/releasenotes/multiple/generative-ai-government.htm",
+        "summary": "",
+        "date": "2026年8月11日",
+        "date_iso": "2026-08-11",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "OCI Block Storage Adds Ransomware-Resilient Backup Protection",
+        "link": "https://docs.oracle.com/iaas/releasenotes/blockvolume/retention-lock.htm",
+        "summary": "",
+        "date": "2026年8月11日",
+        "date_iso": "2026-08-11",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
+        "tag": "OCI"
+      },
       {
         "title": "Updates to OCI Kubernetes Engine (OKE) cluster add-ons",
         "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-Add-on-release-notes-July-2026-Release-Note.htm",
@@ -786,26 +806,6 @@
         "date_iso": "2026-07-27",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Explore Database Management Using Demo Mode",
-        "link": "https://docs.oracle.com/iaas/releasenotes/database-management/enable-demo-mode.htm",
-        "summary": "",
-        "date": "2026年7月23日",
-        "date_iso": "2026-07-23",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "OCI"
-      },
-      {
-        "title": "Compare Period ADDM",
-        "link": "https://docs.oracle.com/iaas/releasenotes/database-management/compare-period-addm.htm",
-        "summary": "",
-        "date": "2026年7月23日",
-        "date_iso": "2026-07-23",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
         "tag": "OCI"
       }
     ]
