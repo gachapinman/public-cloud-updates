@@ -1,7 +1,47 @@
 {
-  "updated": "2026年08月12日 19:43 JST",
+  "updated": "2026年08月13日 11:47 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Retirement: Containerized data connector agent for the Microsoft Sentinel solution for SAP applications",
+        "link": "https://azure.microsoft.com/updates?id=568457",
+        "summary": "On September 14, 2026 we will retire the containerized data connector agent for the Microsoft Sentinel solution for SAP applications. After this date the agent will be permanently disabled and will…",
+        "date": "2026年8月13日",
+        "date_iso": "2026-08-13",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Batch rule updates for Azure Front Door",
+        "link": "https://azure.microsoft.com/updates?id=569246",
+        "summary": "Batch rule updates are now generally available for Azure Front Door Standard and Premium. This capability enables customers to add, update, delete, or reorder multiple rules in a rule set as a…",
+        "date": "2026年8月13日",
+        "date_iso": "2026-08-13",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Azure Front Door mutual TLS",
+        "link": "https://azure.microsoft.com/updates?id=569251",
+        "summary": "Mutual TLS, also known as client certificate authentication, enables Azure Front Door to authenticate clients using X.509 certificates before requests reach an application. It helps protect sensitive…",
+        "date": "2026年8月13日",
+        "date_iso": "2026-08-13",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Markdown for Agents in Azure App Service",
+        "link": "https://azure.microsoft.com/updates?id=568979",
+        "summary": "Today, we are announcing the public preview of Markdown for Agents in Azure App Service. This feature gives AI agents and other tools a cleaner way to consume content from an App Service app. When a…",
+        "date": "2026年8月13日",
+        "date_iso": "2026-08-13",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Generally Available: 2.2X IDPS performance optimization in Azure Firewall",
         "link": "https://azure.microsoft.com/updates?id=569256",
@@ -161,49 +201,79 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Route-Maps for Azure Route Server",
-        "link": "https://azure.microsoft.com/updates?id=568631",
-        "summary": "Route maps for Azure Route Server are now available in public preview, providing fine-grained control over inbound and outbound routing across hybrid connections. Customers can manage routes…",
-        "date": "2026年8月1日",
-        "date_iso": "2026-08-01",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Azure SQL updates for late-July",
-        "link": "https://azure.microsoft.com/updates?id=568139",
-        "summary": "In late-July 2026, the following update and enhancement was made to Azure SQL: Regex-based dynamic data masking (DDM) extends the built-in DDM feature with pattern‑based masking to hide sensitive…",
-        "date": "2026年8月1日",
-        "date_iso": "2026-08-01",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Azure Database for PostgreSQL flexible server in India South Central",
-        "link": "https://azure.microsoft.com/updates?id=568334",
-        "summary": "Now you can deploy Azure Database for PostgreSQL flexible server in the India South Central Azure region. Learn more.",
-        "date": "2026年7月31日",
-        "date_iso": "2026-07-31",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Azure Automation supports PowerShell 7.6 runbooks and Runtime environment",
-        "link": "https://azure.microsoft.com/updates?id=568102",
-        "summary": "Azure Automation is pleased to announce: General Availability of in-support PowerShell 7.6 runbooksRuntime Environment GA, enabling customers to seamlessly upgrade their outdated scripts to supported…",
-        "date": "2026年7月31日",
-        "date_iso": "2026-07-31",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "AWS Global View now offers an interactive map view for AWS Regions and AWS Local Zones",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-global-view-map-view/",
+        "summary": "Today, AWS announces the addition of an interactive map view to AWS Global View in the AWS Management Console, providing a visual way to explore AWS Global Infrastructure. Previously, customers had…",
+        "date": "2026年8月13日",
+        "date_iso": "2026-08-13",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS IAM now provides role manager to set up IAM roles automatically",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iam-role-manager",
+        "summary": "Today, AWS announces the general availability of role manager, a capability in AWS Identity and Access Management (IAM) that automatically sets up the IAM roles your AWS services need. When you set…",
+        "date": "2026年8月13日",
+        "date_iso": "2026-08-13",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EKS now supports advanced Kubernetes control plane configuration parameters",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-control-plane-configuration-parameters",
+        "summary": "Amazon Elastic Kubernetes Service (Amazon EKS) now supports configuring parameters for Kubernetes control plane components including the scheduler, controller manager, and API server. You can tune…",
+        "date": "2026年8月13日",
+        "date_iso": "2026-08-13",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Quick adds deny by default for custom permissions",
+        "link": "https://aws.amazon.com/whats-new/2026/08/amazon-quick-deny-by-default-permissions/",
+        "summary": "Amazon Quick custom permissions now include deny by default, a governance setting that automatically restricts new AI capabilities before they reach users. Previously, new AI capabilities were…",
+        "date": "2026年8月13日",
+        "date_iso": "2026-08-13",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Connect Customer supports manual assignment of queued agent-first callbacks",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-agent-callbacks/",
+        "summary": "Amazon Connect Customer now lets agents view and self-assign queued agent-first callbacks alongside emails, tasks, and chats. This gives agents the option to prioritize work that needs immediate…",
+        "date": "2026年8月13日",
+        "date_iso": "2026-08-13",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Quick now supports data loss prevention with Microsoft Purview",
+        "link": "https://aws.amazon.com/whats-new/2026/08/amazon-quick-dlp-purview/",
+        "summary": "Amazon Quick now integrates with Microsoft Purview to enforce data loss prevention (DLP) policies across your Quick environment. Organizations need to ensure that sensitive files aren't shared…",
+        "date": "2026年8月13日",
+        "date_iso": "2026-08-13",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Quick agentic AI capabilities are now available in AWS GovCloud (US-West)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-quick-aws-govcloud-us-west/",
+        "summary": "Today, AWS announces that Amazon Quick's agentic AI capabilities are now available in AWS GovCloud (US-West), bringing an agentic AI teammate to government and regulated-industry teams within an…",
+        "date": "2026年8月12日",
+        "date_iso": "2026-08-12",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
       {
         "title": "Amazon EC2 R8a instances are now available in Canada (Central) region",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8a-instances-canada-central/",
@@ -242,6 +312,46 @@
         "date_iso": "2026-08-12",
         "category": "ai-tag",
         "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 High Memory U7i インスタンスが AWS 南米 (サンパウロ) リージョンで利用可能に",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/08/amazon-ec2-high-memory-u7i-south-america",
+        "summary": "",
+        "date": "2026年8月11日",
+        "date_iso": "2026-08-11",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon GameLift Streams がサービスマネージドのシェーダーキャッシュの提供を開始",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/08/Amazon-GameLift-Streams-Shader-Caching/",
+        "summary": "",
+        "date": "2026年8月11日",
+        "date_iso": "2026-08-11",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 がアプリケーションステータスチェックを導入",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/08/amazon-ec2-application-status-checks",
+        "summary": "",
+        "date": "2026年8月11日",
+        "date_iso": "2026-08-11",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon OpenSearch Serverless がコレクショングループあたり最大 10,000 個のコレクションのサポートを開始",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/08/amazon-opensearch-serverless-supports-10000-collections-per-collection-group/",
+        "summary": "",
+        "date": "2026年8月11日",
+        "date_iso": "2026-08-11",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "AWS"
       },
       {
@@ -293,119 +403,19 @@
         "category": "database-tag",
         "cat_label": "データベース",
         "tag": "AWS"
-      },
-      {
-        "title": "FLUX.2-small-decoder and gemma-4-12B-it models now available on Amazon SageMaker JumpStart",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/flux.2-small-decoder-gemma-4-12B-it-on-sagemaker-jumpstart/",
-        "summary": "Black Forest Labs' FLUX.2-small-decoder and Google's gemma-4-12B-it models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers.…",
-        "date": "2026年8月11日",
-        "date_iso": "2026-08-11",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "langcache-embed-v3-small, Mellum2-12B-A2.5B-Thinking, and LightOnOCR-2-1B models now available on Amazon SageMaker…",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/langcache-embed-v3-small-mellum2-12B-A2.5B-thinking-lightOnOCR-2-1B-on-sagemaker-jumpstart/",
-        "summary": "Redis's langcache-embed-v3-small, JetBrains' Mellum2-12B-A2.5B-Thinking, and LightOn's LightOnOCR-2-1B models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation…",
-        "date": "2026年8月11日",
-        "date_iso": "2026-08-11",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 High Memory U7i instances now available in AWS South America (São Paulo) region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-high-memory-u7i-south-america",
-        "summary": "Amazon EC2 High Memory U7in-24TB instances (u7in-24tb.224xlarge) are now available in AWS South America (São Paulo) region. U7i instances are part of the AWS 7th generation and are powered by custom…",
-        "date": "2026年8月11日",
-        "date_iso": "2026-08-11",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "GLM-5.2 FP8, NVIDIA-Nemotron-Nano-12B-v2 and GLM-OCR models now available on Amazon SageMaker JumpStart",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/glm-5.2-fp8-nemotron-nano-12b-v2-glm-ocr-on-sagemaker-jumpstart/",
-        "summary": "Z.ai's GLM-5.2 FP8, NVIDIA's Nemotron-Nano-12B-v2, and Z.ai's GLM-OCR models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers.…",
-        "date": "2026年8月11日",
-        "date_iso": "2026-08-11",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon GameLift Streams Now Offers Service-managed Shader Caching",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/Amazon-GameLift-Streams-Shader-Caching/",
-        "summary": "Amazon GameLift Streams now manages shader cache capture and distribution for your applications. You capture a shader cache from a stream session, and the service automatically makes it available for…",
-        "date": "2026年8月11日",
-        "date_iso": "2026-08-11",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Identity and Access Management streamlines assignment of IAM roles to workforce users with account access manager",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iam-aam/",
-        "summary": "AWS Identity and Access Management (IAM) launched account access manager, a feature that streamlines assignment of IAM roles to workforce users. Administrators use account access manager to assign…",
-        "date": "2026年8月11日",
-        "date_iso": "2026-08-11",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 introduces application status checks",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-application-status-checks",
-        "summary": "Amazon EC2 introduces application status checks, a new status check that helps customers detect and respond to application-level issues on their EC2 instances. With application status checks, EC2…",
-        "date": "2026年8月11日",
-        "date_iso": "2026-08-11",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon OpenSearch Serverless now supports up to 10,000 collections per collection group",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-opensearch-serverless-supports-10000-collections-per-collection-group/",
-        "summary": "The next generation of Amazon OpenSearch Serverless now supports up to 10,000 collections within a single collection group, increased from the previous limit of 1,500. Collection groups organize…",
-        "date": "2026年8月11日",
-        "date_iso": "2026-08-11",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Elastic Disaster Recovery now preserves UEFI boot mode for Linux servers",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-drs-linux-uefi",
-        "summary": "AWS Elastic Disaster Recovery (AWS DRS) now preserves UEFI boot mode when recovering Linux source servers that boot with UEFI firmware. Previously, DRS launched these Linux servers in legacy BIOS…",
-        "date": "2026年8月10日",
-        "date_iso": "2026-08-10",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 R8i and R8i-Flex instances are now available in Europe (Milan) region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8i-r8i-flex/",
-        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8i and R8i-flex instances are available in the Europe (Milan) region. These instances are powered by custom Intel Xeon 6 processors,…",
-        "date": "2026年8月8日",
-        "date_iso": "2026-08-08",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Timestream for InfluxDB now supports backup and restore",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/timestream-influxdb-backup-restore/",
-        "summary": "Amazon Timestream for InfluxDB now lets you create and manage your own backups and restore your data on demand. You can trigger one-time, on-demand backups, schedule automated recurring backups at…",
-        "date": "2026年8月8日",
-        "date_iso": "2026-08-08",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "August 12, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_12_2026",
+        "summary": "Apigee API hub Feature Configure and deploy MCP servers with gcloud CLI You can use the gcloud apihub locations configure-and-deploy-server command to configure and deploy API hub Model Context…",
+        "date": "2026年8月12日",
+        "date_iso": "2026-08-12",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "GCP"
+      },
       {
         "title": "August 11, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_11_2026",
@@ -429,7 +439,7 @@
       {
         "title": "August 09, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_09_2026",
-        "summary": "Google SecOps Feature [Spotlight Feature] Analyze feed activity with Cloud Logging This feature is in public preview. You can now monitor, debug, and troubleshoot Google SecOps ingestion pipelines…",
+        "summary": "Google SecOps Feature Updated rich-text editor Upgraded the rich-text editor across Google SecOps, including the Cases Wall, Use Case Upload dialog, Report Template dialog, and Dashboard Editor…",
         "date": "2026年8月9日",
         "date_iso": "2026-08-09",
         "category": "compute-tag",
@@ -595,27 +605,37 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
-      },
-      {
-        "title": "July 23, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#July_23_2026",
-        "summary": "Agent Registry Feature Agent skill governance is available in Preview . Agent Registry supports standalone skill governance, helping enable secure, enterprise-level management and governance of…",
-        "date": "2026年7月23日",
-        "date_iso": "2026-07-23",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
       }
     ],
     "oci": [
       {
-        "title": "Object Storage supports dual-stack endpoints for IPv6",
-        "link": "https://docs.oracle.com/iaas/releasenotes/objectstorage/ipv6-support.htm",
+        "title": "Time Travel for Apache Iceberg Tables",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-08-time-travel.htm",
         "summary": "",
         "date": "2026年8月11日",
         "date_iso": "2026-08-11",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Import and Export Select AI Agent Teams",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-08-import-export-select-ai.htm",
+        "summary": "",
+        "date": "2026年8月11日",
+        "date_iso": "2026-08-11",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "GET_DEFINITION Functions for DBMS_CLOUD Packages",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-08-get-definition-function.htm",
+        "summary": "",
+        "date": "2026年8月11日",
+        "date_iso": "2026-08-11",
+        "category": "database-tag",
+        "cat_label": "データベース",
         "tag": "OCI"
       },
       {
@@ -669,6 +689,16 @@
         "tag": "OCI"
       },
       {
+        "title": "Object Storage supports dual-stack endpoints for IPv6",
+        "link": "https://docs.oracle.com/iaas/releasenotes/objectstorage/ipv6-support.htm",
+        "summary": "",
+        "date": "2026年8月11日",
+        "date_iso": "2026-08-11",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
+        "tag": "OCI"
+      },
+      {
         "title": "Updates to OCI Kubernetes Engine (OKE) cluster add-ons",
         "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-Add-on-release-notes-July-2026-Release-Note.htm",
         "summary": "",
@@ -699,6 +729,16 @@
         "tag": "OCI"
       },
       {
+        "title": "Configure HTTP Retry Behavior for DBMS_CLOUD.SEND_REQUEST",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-08-configure-http.htm",
+        "summary": "",
+        "date": "2026年8月5日",
+        "date_iso": "2026-08-05",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "OCI"
+      },
+      {
         "title": "Big Data Service 3.4.0 new features and updates",
         "link": "https://docs.oracle.com/iaas/releasenotes/big-data/v3-4-0.htm",
         "summary": "",
@@ -716,16 +756,6 @@
         "date_iso": "2026-08-05",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Configure HTTP Retry Behavior for DBMS_CLOUD.SEND_REQUEST",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-08-configure-http.htm",
-        "summary": "",
-        "date": "2026年8月5日",
-        "date_iso": "2026-08-05",
-        "category": "database-tag",
-        "cat_label": "データベース",
         "tag": "OCI"
       },
       {
@@ -776,36 +806,6 @@
         "date_iso": "2026-07-29",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Oracle Interconnect for AWS",
-        "link": "https://docs.oracle.com/iaas/releasenotes/console/interconnect-aws.htm",
-        "summary": "",
-        "date": "2026年7月29日",
-        "date_iso": "2026-07-29",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Console AI Experience Preview Availability",
-        "link": "https://docs.oracle.com/iaas/releasenotes/console/consoleai-preview-oc1-july-2026.htm",
-        "summary": "",
-        "date": "2026年7月28日",
-        "date_iso": "2026-07-28",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Database Developer Portal for Database Tools",
-        "link": "https://docs.oracle.com/iaas/releasenotes/database-tools/dev-db.htm",
-        "summary": "",
-        "date": "2026年7月28日",
-        "date_iso": "2026-07-28",
-        "category": "database-tag",
-        "cat_label": "データベース",
         "tag": "OCI"
       }
     ]
