@@ -1,5 +1,5 @@
 {
-  "updated": "2026年08月14日 11:46 JST",
+  "updated": "2026年08月14日 14:16 JST",
   "clouds": {
     "azure": [
       {
@@ -205,6 +205,16 @@
     ],
     "aws": [
       {
+        "title": "AWS Billing and Cost Management introduces Managed Dashboards",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-billing-and-cost-management-managed-dashboards/",
+        "summary": "AWS Billing and Cost Management (BCM) Dashboards now include Managed Dashboards. These are a collection of preconfigured and read-only dashboards located in your dashboard list. They deliver…",
+        "date": "2026年8月14日",
+        "date_iso": "2026-08-14",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
         "title": "AWS Client VPN now supports CLI, administration controls, and faster connections",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-client-vpn-cli/",
         "summary": "AWS Client VPN introduces a rebuilt AWS VPN Client v6.0.x which offers new features like command-line interface (CLI) support, enterprise administrative controls, and faster connection establishment…",
@@ -393,16 +403,6 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon Bedrock expands IAM principal cost allocation to the bedrock-mantle endpoint",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-expands-iam-principal-cost-allocation-bedrock-mantle/",
-        "summary": "Amazon Bedrock is a fully managed service that provides secure, enterprise-grade access to high-performing foundation models from leading AI companies, enabling you to build and scale generative AI…",
-        "date": "2026年8月12日",
-        "date_iso": "2026-08-12",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
       }
     ],
     "gcp": [
@@ -439,11 +439,11 @@
       {
         "title": "August 10, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_10_2026",
-        "summary": "BigQuery Feature BigQuery now supports the gemini-3.1-flash-lite and gemini-3.5-flash GA models, which are available for the us , eu , and global multi-regional endpoints. You can use these models in…",
+        "summary": "Bigtable Libraries Go 1.52.0 (2026-08-03) Features bigtable: Add AFE picker (Simple / LeastInFlight / LeastLatency) ( #20204 ) ( bcbf714 ) bigtable: Add ClientConfig.DisableSession to opt out of…",
         "date": "2026年8月10日",
         "date_iso": "2026-08-10",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
+        "category": "database-tag",
+        "cat_label": "データベース",
         "tag": "GCP"
       },
       {
