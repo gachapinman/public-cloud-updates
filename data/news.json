@@ -1,7 +1,17 @@
 {
-  "updated": "2026年08月14日 19:40 JST",
+  "updated": "2026年08月15日 10:49 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Announcing: Azure Databricks Runtime 10.4 LTS will reach end of life on November 1, 2026",
+        "link": "https://azure.microsoft.com/updates?id=569353",
+        "summary": "Azure Databricks Runtime 10.4 LTS, a Databricks-managed runtime available on Azure Databricks, reached end of support on March 18, 2025 and will reach end of life on November 1, 2026. After this…",
+        "date": "2026年8月15日",
+        "date_iso": "2026-08-15",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Generally Available: Control plane metrics collection for AKS with Managed Prometheus",
         "link": "https://azure.microsoft.com/updates?id=568830",
@@ -191,19 +201,29 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Azure Virtual Network routing appliance",
-        "link": "https://azure.microsoft.com/updates?id=568605",
-        "summary": "Azure Virtual Network routing appliance is now generally available. It delivers private connectivity across virtual networks, using specialized hardware for low latency, high throughput, and better…",
-        "date": "2026年8月5日",
-        "date_iso": "2026-08-05",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Amazon RDS for Oracle now supports Oracle Application Express (APEX) version 26.1",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-oracle-apex-26-1/",
+        "summary": "Amazon Relational Database Service (Amazon RDS) for Oracle now supports Oracle Application Express (APEX) version 26.1. Amazon RDS for Oracle is a managed database service that makes it simple to set…",
+        "date": "2026年8月15日",
+        "date_iso": "2026-08-15",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon SES click tracking now supports custom URL paths for mobile app deep linking",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ses-supports-customurl-deeplinking",
+        "summary": "Amazon Simple Email Service (SES) &nbsp;now makes it easier to support mobile deep linking with the new ses:custom-path HTML attribute. When you add this attribute to an &lt;a&gt; tag, SES carries…",
+        "date": "2026年8月14日",
+        "date_iso": "2026-08-14",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
       {
         "title": "AWS Billing and Cost Management introduces Managed Dashboards",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-billing-and-cost-management-managed-dashboards/",
@@ -222,6 +242,16 @@
         "date_iso": "2026-08-14",
         "category": "network-tag",
         "cat_label": "ネットワーク",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Redshift adds rg.large and rg.12xlarge instance sizes in AWS GovCloud (US) Regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-redshift-adds-rg-large-12xlarge-aws-govcloud-regions/",
+        "summary": "Amazon Redshift now offers rg.large and rg.12xlarge instance sizes for RG instances in the AWS GovCloud (US-West) and AWS GovCloud (US-East) Regions. RG instances deliver better performance, running…",
+        "date": "2026年8月14日",
+        "date_iso": "2026-08-14",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "AWS"
       },
       {
@@ -373,39 +403,19 @@
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon Nova Multimodal Embeddings is now available in AWS GovCloud (US-West)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-nova-mme-govcloud/",
-        "summary": "We are excited to announce the general availability of Amazon Nova Multimodal Embeddings, a state-of-the-art embedding model for agentic RAG and semantic search, in AWS GovCloud (US-West). It is the…",
-        "date": "2026年8月12日",
-        "date_iso": "2026-08-12",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Quick agentic AI capabilities are now available in AWS GovCloud (US-West)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-quick-aws-govcloud-us-west/",
-        "summary": "Today, AWS announces that Amazon Quick's agentic AI capabilities are now available in AWS GovCloud (US-West), bringing an agentic AI teammate to government and regulated-industry teams within an…",
-        "date": "2026年8月12日",
-        "date_iso": "2026-08-12",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 R8a instances are now available in Canada (Central) region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8a-instances-canada-central/",
-        "summary": "Starting today, Amazon EC2 R8a instances are now available in&nbsp;Canada (Central)&nbsp;Region. These instances, feature 5th Gen AMD EPYC processors (formerly code named Turin) with a maximum…",
-        "date": "2026年8月12日",
-        "date_iso": "2026-08-12",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "August 14, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_14_2026",
+        "summary": "App Engine flexible environment .NET Feature To improve security, starting in August 2026, App Engine opts your application into TLS version 1.2 and later. You can opt out until the end of August…",
+        "date": "2026年8月14日",
+        "date_iso": "2026-08-14",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "GCP"
+      },
       {
         "title": "August 13, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_13_2026",
@@ -595,19 +605,19 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
-      },
-      {
-        "title": "July 25, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#July_25_2026",
-        "summary": "Google SecOps SOAR Announcement Release 6.3.94 is now available for all regions.",
-        "date": "2026年7月25日",
-        "date_iso": "2026-07-25",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
       }
     ],
     "oci": [
+      {
+        "title": "OCI Kubernetes Engine (OKE) support for rolling back managed nodes to an earlier Kubernetes version",
+        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng_K8s-version-rollback.htm",
+        "summary": "",
+        "date": "2026年8月14日",
+        "date_iso": "2026-08-14",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "OCI"
+      },
       {
         "title": "OCI Logging supports dual-stack endpoints for IPv6",
         "link": "https://docs.oracle.com/iaas/releasenotes/logging/IPv6.htm",
@@ -796,16 +806,6 @@
         "date_iso": "2026-08-03",
         "category": "container-tag",
         "cat_label": "コンテナ",
-        "tag": "OCI"
-      },
-      {
-        "title": "New Hardware Unit Shapes Available for Cohere and Meta Models in OCI Generative AI",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/cohere-meta-hardware-shapes.htm",
-        "summary": "",
-        "date": "2026年7月30日",
-        "date_iso": "2026-07-30",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "OCI"
       }
     ]
