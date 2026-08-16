@@ -1,5 +1,5 @@
 {
-  "updated": "2026年08月15日 18:59 JST",
+  "updated": "2026年08月16日 10:57 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "August 15, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_15_2026",
+        "summary": "Gemini Enterprise Agent Platform Feature Monitor semantic governance policies with built-in metrics (Preview) Built-in Cloud Monitoring metrics for the semantic governance policy engine are available…",
+        "date": "2026年8月15日",
+        "date_iso": "2026-08-15",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "August 14, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_14_2026",
         "summary": "App Engine flexible environment .NET Feature To improve security, starting in August 2026, App Engine opts your application into TLS version 1.2 and later. You can opt out until the end of August…",
@@ -592,16 +602,6 @@
         "summary": "AlloyDB for PostgreSQL Feature AlloyDB write endpoints are now available in Preview . Write endpoints simplify database connection management by providing a stable domain name service (DNS) name for…",
         "date": "2026年7月27日",
         "date_iso": "2026-07-27",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "July 26, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#July_26_2026",
-        "summary": "Google SecOps Feature Customizable schedules for multi-event rules Customizable schedules for multi-event rules are available in public preview. You can customize rule execution schedules on the Rule…",
-        "date": "2026年7月26日",
-        "date_iso": "2026-07-26",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
