@@ -1,5 +1,5 @@
 {
-  "updated": "2026年08月16日 19:00 JST",
+  "updated": "2026年08月17日 10:55 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "August 16, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_16_2026",
+        "summary": "Google SecOps SOAR Announcement Release 6.3.98 is being rolled out to the first phase of regions as listed here . This release contains internal and customer bug fixes.",
+        "date": "2026年8月16日",
+        "date_iso": "2026-08-16",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "August 15, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_15_2026",
         "summary": "Gemini Enterprise Agent Platform Feature Monitor semantic governance policies with built-in metrics (Preview) Built-in Cloud Monitoring metrics for the semantic governance policy engine are available…",
@@ -459,11 +469,11 @@
       {
         "title": "August 10, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_10_2026",
-        "summary": "Bigtable Libraries Go 1.52.0 (2026-08-03) Features bigtable: Add AFE picker (Simple / LeastInFlight / LeastLatency) ( #20204 ) ( bcbf714 ) bigtable: Add ClientConfig.DisableSession to opt out of…",
+        "summary": "BigQuery Feature BigQuery now supports the gemini-3.1-flash-lite and gemini-3.5-flash GA models, which are available for the us , eu , and global multi-regional endpoints. You can use these models in…",
         "date": "2026年8月10日",
         "date_iso": "2026-08-10",
-        "category": "database-tag",
-        "cat_label": "データベース",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "GCP"
       },
       {
@@ -592,16 +602,6 @@
         "summary": "AlloyDB for PostgreSQL Feature Note: IAM group authentication is available in Preview for new AlloyDB clusters. To enable this feature on an existing cluster, contact your Google Cloud account team.…",
         "date": "2026年7月28日",
         "date_iso": "2026-07-28",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "July 27, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#July_27_2026",
-        "summary": "AlloyDB for PostgreSQL Feature AlloyDB write endpoints are now available in Preview . Write endpoints simplify database connection management by providing a stable domain name service (DNS) name for…",
-        "date": "2026年7月27日",
-        "date_iso": "2026-07-27",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
