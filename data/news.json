@@ -1,7 +1,37 @@
 {
-  "updated": "2026年08月17日 19:15 JST",
+  "updated": "2026年08月18日 10:50 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Public Preview: Zone redundancy for Azure SQL Managed Instance Next-gen General Purpose",
+        "link": "https://azure.microsoft.com/updates?id=568344",
+        "summary": "You can now benefit from enhanced resilience with the public preview of zone redundancy for Azure SQL Managed Instance Next-gen General Purpose. This update helps you improve business continuity by…",
+        "date": "2026年8月18日",
+        "date_iso": "2026-08-18",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Dragon Copilot Physician Apps and Agents on Microsoft Marketplace",
+        "link": "https://azure.microsoft.com/updates?id=557775",
+        "summary": "This release adds Microsoft Marketplace as a new discovery and procurement channel for Dragon Copilot AI apps and agents. Dragon Copilot customers in the United States can now discover, evaluate and…",
+        "date": "2026年8月18日",
+        "date_iso": "2026-08-18",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Azure Linux on WSL",
+        "link": "https://azure.microsoft.com/updates?id=569376",
+        "summary": "Azure Linux on WSL is now available in Public Preview (Beta). Extending Azure Linux to the developer workstation means that teams can now:Validate behavior using production-aligned…",
+        "date": "2026年8月18日",
+        "date_iso": "2026-08-18",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Announcing: Azure Databricks Runtime 10.4 LTS will reach end of life on November 1, 2026",
         "link": "https://azure.microsoft.com/updates?id=569353",
@@ -171,43 +201,153 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Perimeter link feature in network security perimeter",
-        "link": "https://azure.microsoft.com/updates?id=568837",
-        "summary": "Perimeter link (cross-perimeter connectivity) is a network security perimeter capability that allows trusted resources in two different network security perimeters to securely communicate with each…",
-        "date": "2026年8月5日",
-        "date_iso": "2026-08-05",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Azure Private Link support over IPv6",
-        "link": "https://azure.microsoft.com/updates?id=568842",
-        "summary": "Azure Private Link over IPv6 enables you to privately access Azure PaaS services, such as Azure Storage and Azure SQL Database, over IPv6-based connectivity. You can now use IPv6 private endpoints to…",
-        "date": "2026年8月5日",
-        "date_iso": "2026-08-05",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Azure DNS enables DNS-based load balancing through Traffic Manager integration",
-        "link": "https://azure.microsoft.com/updates?id=565214",
-        "summary": "Azure DNS now offers a seamless way to integrate with Azure Traffic Manager for DNS-based traffic routing. Customers can now directly associate Azure DNS record set with Traffic Manager profiles…",
-        "date": "2026年8月5日",
-        "date_iso": "2026-08-05",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
       {
-        "title": "Amazon RDS for Oracle now supports Oracle Application Express (APEX) version 26.1",
+        "title": "Amazon Bedrock expands API support and introduces Cross Region Inferencing for OpenAI models",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-cross-region-openai-v2/",
+        "summary": "Amazon Bedrock now supports the OpenAI GPT-5.6 models (Sol, Terra, and Luna) on the bedrock-runtime endpoint, with support for the Responses, Converse, and Chat Completions APIs. It also adds support…",
+        "date": "2026年8月18日",
+        "date_iso": "2026-08-18",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon ECR now supports 25 replication rules per registry",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ecr-increased-replication-rules-limit",
+        "summary": "Amazon Elastic Container Registry (Amazon ECR) has increased the maximum number of replication rules per registry from 10 to 25. Previously, customers with complex multi-region or multi-account…",
+        "date": "2026年8月18日",
+        "date_iso": "2026-08-18",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 Auto Scaling now supports batch instance termination",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-auto-scaling-batch-termination",
+        "summary": "Amazon EC2 Auto Scaling now supports batch instance termination in a single API call. You can now pass up to 100 instance IDs to the TerminateInstanceInAutoScalingGroup API to terminate them as a…",
+        "date": "2026年8月18日",
+        "date_iso": "2026-08-18",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon MSK now supports configuring custom domain names for MSK Provisioned clusters",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/17/amazon-msk-custom-domain-names/",
+        "summary": "You can now easily configure custom domain names on Amazon MSK Provisioned clusters, on either ZooKeeper or KRaft mode for metadata management. This capability helps client applications maintain the…",
+        "date": "2026年8月18日",
+        "date_iso": "2026-08-18",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 R8i and R8i-Flex instances are now available in Canada West (Calgary) region",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8i-r8i-flex-calgary/",
+        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8i and R8i-flex instances are available in the Canada West (Calgary) region. These instances are powered by custom Intel Xeon 6 processors,…",
+        "date": "2026年8月18日",
+        "date_iso": "2026-08-18",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Connect Customer dashboards now support reporting on routing steps and agent proficiencies",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-routing-steps/",
+        "summary": "Amazon Connect Customer dashboards now support reporting on routing steps and agent proficiencies enabling supervisors to monitor and optimize how contacts are matched to agents based on agent…",
+        "date": "2026年8月18日",
+        "date_iso": "2026-08-18",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Network Firewall Now Supports Stateful Rule Hit Counts",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-network-firewall-stateful-rule-hit-counts/",
+        "summary": "AWS Network Firewall now provides rule hit counts for stateful rules, giving network administrators and security engineers visibility into how often each stateful rule in the firewall policy matches…",
+        "date": "2026年8月18日",
+        "date_iso": "2026-08-18",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Quick Microsoft 365 extensions are now generally available",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-quick-microsoft-365-extensions-generally-available",
+        "summary": "Amazon Quick announces the general availability of Microsoft 365 extensions for Excel, PowerPoint, Word, and Outlook. These extensions enable Quick to perform tasks directly within users' M365…",
+        "date": "2026年8月18日",
+        "date_iso": "2026-08-18",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon OpenSearch Service now supports automatic semantic enrichment for VPC domains",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-opensearch-service-vpc/",
+        "summary": "Amazon OpenSearch Service now extends automatic semantic enrichment to VPC-enabled domains, allowing customers with private network configurations to leverage AI-powered semantic search without…",
+        "date": "2026年8月18日",
+        "date_iso": "2026-08-18",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS CloudShell now includes a built-in visual file editor",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-cloudshell-visual-file-editor/",
+        "summary": "AWS CloudShell now includes a built-in visual file editor that you can launch directly from your shell session using a single 'edit' command, no setup required. CloudShell provides a browser-based…",
+        "date": "2026年8月17日",
+        "date_iso": "2026-08-17",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Quick now supports data loss prevention with Microsoft Purview",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-quick-dlp-purview/",
+        "summary": "Amazon Quick now integrates with Microsoft Purview to enforce data loss prevention (DLP) policies across your Quick environment. Organizations need to ensure that sensitive files aren't shared…",
+        "date": "2026年8月15日",
+        "date_iso": "2026-08-15",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Quick now supports per-user resource limits",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-quick-per-user-resource-limits/",
+        "summary": "Amazon Quick now enables administrators to set per-user limits on index storage and agent hours, giving them direct control over subscription costs. With limits management, administrators can create…",
+        "date": "2026年8月15日",
+        "date_iso": "2026-08-15",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Quick now supports approval policies for sharing",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-quick-approval-policies-sharing/",
+        "summary": "Amazon Quick now offers approval policies, giving administrators governance controls over how assets are shared within their organization. With approval policies, administrators can require…",
+        "date": "2026年8月15日",
+        "date_iso": "2026-08-15",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Quick now supports customizable no data messages for visuals",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2025/08/amazon-quick-custom-no-data-message/",
+        "summary": "Amazon Quick announces support for no data message customization, enabling authors to replace the default \"No data to display\" message with a tailored message when a visual returns no data. Authors…",
+        "date": "2026年8月15日",
+        "date_iso": "2026-08-15",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon RDS for Oracle now supports Oracle APEX version 26.1",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-oracle-apex-26-1/",
-        "summary": "Amazon Relational Database Service (Amazon RDS) for Oracle now supports Oracle Application Express (APEX) version 26.1. Amazon RDS for Oracle is a managed database service that makes it simple to set…",
+        "summary": "Amazon Relational Database Service (Amazon RDS) for Oracle now supports Oracle APEX version 26.1. Amazon RDS for Oracle is a managed database service that makes it simple to set up, operate, and…",
         "date": "2026年8月15日",
         "date_iso": "2026-08-15",
         "category": "database-tag",
@@ -263,149 +403,19 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon Quick Microsoft 365 extensions are now generally available",
-        "link": "https://aws.amazon.com/amazon-quick-microsoft-365-extensions-generally-available",
-        "summary": "Today, Amazon Quick announces the general availability of Microsoft 365 extensions for Excel, PowerPoint, Word, and Outlook. These extensions enable Quick to perform tasks directly within users' M365…",
-        "date": "2026年8月14日",
-        "date_iso": "2026-08-14",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Spot Placement Score now includes Local Zones",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/spot-placement-score-local-zones/",
-        "summary": "Today, AWS announces support for AWS Local Zones in Spot placement score, helping you identify locations where your Spot capacity request is most likely to succeed. Spot placement score evaluates…",
-        "date": "2026年8月14日",
-        "date_iso": "2026-08-14",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Daybreak Red and Daybreak Blue from OpenAI are now available to eligible customers on Amazon Bedrock",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/openai-daybreak-red-and-blue-on-amazon-bedrock/",
-        "summary": "Security teams can now access Daybreak Red and Daybreak Blue from OpenAI on Amazon Bedrock. Both are part of Daybreak, the cyber defense initiative from OpenAI that gives defenders governed access to…",
-        "date": "2026年8月14日",
-        "date_iso": "2026-08-14",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Certificate Manager supports switching from e-mail to DNS validation",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/AWS-Certificate-Manager-Email-DNS-Switch",
-        "summary": "AWS Certificate Manager (ACM) now enables you to change the domain validation method on your existing ACM issued public TLS certificates from e-mail to DNS, without reissuing the certificate or…",
-        "date": "2026年8月14日",
-        "date_iso": "2026-08-14",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon S3 adds additional policy details to access denied error messages",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/s3-additional-policy-details-access-denied-error-messages/",
-        "summary": "Amazon S3 now includes the specific AWS Identity and Access Management (IAM) and AWS Organizations policy Amazon Resource Name (ARN) in HTTP 403 Access Denied error messages for same-account and…",
-        "date": "2026年8月13日",
-        "date_iso": "2026-08-13",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Clean Rooms supports minimum aggregation thresholds in custom analysis rules",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-clean-rooms-minimum-aggregation-custom-analysis-rules",
-        "summary": "AWS Clean Rooms now supports minimum aggregation thresholds for the Custom analysis rule type . Minimum aggregation helps protect the privacy of individual data subjects by preventing queries from…",
-        "date": "2026年8月13日",
-        "date_iso": "2026-08-13",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Quick now supports approval policies for sharing",
-        "link": "https://aws.amazon.com/whats-new/2026/08/amazon-quick-approval-policies-sharing/",
-        "summary": "Amazon Quick now offers approval policies, giving administrators governance controls over how assets are shared within their organization. With approval policies, administrators can require…",
-        "date": "2026年8月13日",
-        "date_iso": "2026-08-13",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Quick now supports per-user resource limits",
-        "link": "https://aws.amazon.com/whats-new/2026/08/amazon-quick-per-user-resource-limits/",
-        "summary": "Amazon Quick now enables administrators to set per-user limits on index storage and agent hours, giving them direct control over subscription costs. With limits management, administrators can create…",
-        "date": "2026年8月13日",
-        "date_iso": "2026-08-13",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Global View now offers an interactive map view for AWS Regions and AWS Local Zones",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-global-view-map-view/",
-        "summary": "Today, AWS announces the addition of an interactive map view to AWS Global View in the AWS Management Console, providing a visual way to explore AWS Global Infrastructure. Previously, customers had…",
-        "date": "2026年8月13日",
-        "date_iso": "2026-08-13",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS IAM now provides role manager to set up IAM roles automatically",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iam-role-manager",
-        "summary": "Today, AWS announces the general availability of role manager, a capability in AWS Identity and Access Management (IAM) that automatically sets up the IAM roles your AWS services need. When you set…",
-        "date": "2026年8月13日",
-        "date_iso": "2026-08-13",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EKS now supports advanced Kubernetes control plane configuration parameters",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-control-plane-configuration-parameters",
-        "summary": "Amazon Elastic Kubernetes Service (Amazon EKS) now supports configuring parameters for Kubernetes control plane components including the scheduler, controller manager, and API server. You can tune…",
-        "date": "2026年8月13日",
-        "date_iso": "2026-08-13",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Quick adds deny by default for custom permissions",
-        "link": "https://aws.amazon.com/whats-new/2026/08/amazon-quick-deny-by-default-permissions/",
-        "summary": "Amazon Quick custom permissions now include deny by default, a governance setting that automatically restricts new AI capabilities before they reach users. Previously, new AI capabilities were…",
-        "date": "2026年8月13日",
-        "date_iso": "2026-08-13",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Connect Customer supports manual assignment of queued agent-first callbacks",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-agent-callbacks/",
-        "summary": "Amazon Connect Customer now lets agents view and self-assign queued agent-first callbacks alongside emails, tasks, and chats. This gives agents the option to prioritize work that needs immediate…",
-        "date": "2026年8月13日",
-        "date_iso": "2026-08-13",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Quick now supports data loss prevention with Microsoft Purview",
-        "link": "https://aws.amazon.com/whats-new/2026/08/amazon-quick-dlp-purview/",
-        "summary": "Amazon Quick now integrates with Microsoft Purview to enforce data loss prevention (DLP) policies across your Quick environment. Organizations need to ensure that sensitive files aren't shared…",
-        "date": "2026年8月13日",
-        "date_iso": "2026-08-13",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "August 17, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_17_2026",
+        "summary": "Backup and DR Announcement Beginning November 1, 2026, Backup and DR Service will automatically apply a project-level lien to any project containing a backup vault with backups protected by enforced…",
+        "date": "2026年8月17日",
+        "date_iso": "2026-08-17",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
       {
         "title": "August 16, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_16_2026",
@@ -592,16 +602,6 @@
         "summary": "App Engine standard environment Go Feature Support for enabling only needed legacy bundled services using the app_engine_bundled_services field is in General Availability . App Engine standard…",
         "date": "2026年7月29日",
         "date_iso": "2026-07-29",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "July 28, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#July_28_2026",
-        "summary": "AlloyDB for PostgreSQL Feature Note: IAM group authentication is available in Preview for new AlloyDB clusters. To enable this feature on an existing cluster, contact your Google Cloud account team.…",
-        "date": "2026年7月28日",
-        "date_iso": "2026-07-28",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
