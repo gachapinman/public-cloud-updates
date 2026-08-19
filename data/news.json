@@ -1,5 +1,5 @@
 {
-  "updated": "2026年08月19日 13:09 JST",
+  "updated": "2026年08月19日 19:05 JST",
   "clouds": {
     "azure": [
       {
@@ -205,6 +205,16 @@
     ],
     "aws": [
       {
+        "title": "Amazon Bedrock now supports SpaceXAI Grok 4.6",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-grok-4-6/",
+        "summary": "Amazon Bedrock now supports&nbsp;SpaceXAI Grok 4.6, SpaceXAI's latest flagship model built for long-running agents and ambitious interactive and visual work. Grok 4.6 offers a 500K context window and…",
+        "date": "2026年8月19日",
+        "date_iso": "2026-08-19",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon Bedrock now supports OpenAI models in India",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-openai-india-v1/",
         "summary": "Amazon Bedrock now supports the OpenAI GPT-5.6 models (Terra and Luna) in India, with India Geo cross-Region inference. Customers with regulatory requirements of in-country inferencing can now use…",
@@ -388,16 +398,6 @@
         "title": "Amazon Quick Microsoft 365 extensions are now generally available",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-quick-microsoft-365-extensions-generally-available",
         "summary": "Amazon Quick announces the general availability of Microsoft 365 extensions for Excel, PowerPoint, Word, and Outlook. These extensions enable Quick to perform tasks directly within users' M365…",
-        "date": "2026年8月18日",
-        "date_iso": "2026-08-18",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon OpenSearch Service now supports automatic semantic enrichment for VPC domains",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-opensearch-service-vpc/",
-        "summary": "Amazon OpenSearch Service now extends automatic semantic enrichment to VPC-enabled domains, allowing customers with private network configurations to leverage AI-powered semantic search without…",
         "date": "2026年8月18日",
         "date_iso": "2026-08-18",
         "category": "ai-tag",
