@@ -1,7 +1,37 @@
 {
-  "updated": "2026年08月18日 19:03 JST",
+  "updated": "2026年08月19日 10:53 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Retirement: Azure VMware Solution License-included service will be retired August 30, 2027",
+        "link": "https://azure.microsoft.com/updates?id=569535",
+        "summary": "In November last year Broadcom changed its VMware licensing policies across all hyperscaler platforms to require customers to “bring your own” portable license for VMware Cloud Foundation…",
+        "date": "2026年8月19日",
+        "date_iso": "2026-08-19",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Managed Instance on Azure App Service",
+        "link": "https://azure.microsoft.com/updates?id=568952",
+        "summary": "Managed Instance on Azure App Service is now generally available. Managed Instance helps organizations migrate web applications to Azure App Service with minimal configuration and no code changes.…",
+        "date": "2026年8月19日",
+        "date_iso": "2026-08-19",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Ipv6 support in Azure Firewall",
+        "link": "https://azure.microsoft.com/updates?id=569520",
+        "summary": "Azure Firewall now supports IPv6 in public preview, enabling customers to configure Azure Firewall and Firewall Policy in dual-stack mode for both IPv4 and IPv6 traffic. This preview allows native…",
+        "date": "2026年8月19日",
+        "date_iso": "2026-08-19",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
+        "tag": "AZURE"
+      },
       {
         "title": "Public Preview: Zone redundancy for Azure SQL Managed Instance Next-gen General Purpose",
         "link": "https://azure.microsoft.com/updates?id=568344",
@@ -171,39 +201,119 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Unity AI Gateway on Azure Databricks",
-        "link": "https://azure.microsoft.com/updates?id=568910",
-        "summary": "Unity AI Gateway is now generally available on Azure Databricks. Unity AI Gateway provides centralized governance for AI models, agents, tools, and MCP services, helping organizations monitor usage,…",
-        "date": "2026年8月6日",
-        "date_iso": "2026-08-06",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Explicit proxy in Azure Firewall",
-        "link": "https://azure.microsoft.com/updates?id=568825",
-        "summary": "Azure Firewall explicit proxy is now generally available. Explicit proxy enables customers to configure applications and browsers to send HTTP and HTTPS traffic directly to Azure Firewall using proxy…",
-        "date": "2026年8月5日",
-        "date_iso": "2026-08-05",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Retirement: Nested confidential (cc_v5) VMs will be retired on September 1, 2026",
-        "link": "https://azure.microsoft.com/updates?id=568661",
-        "summary": "On September 1, 2026, the cc_v5 confidential VM series will be retired and will no longer be available for use or purchase. Any affected VM that has not been resized before that date will…",
-        "date": "2026年8月5日",
-        "date_iso": "2026-08-05",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Amazon Bedrock now supports OpenAI models in India",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-openai-india-v1/",
+        "summary": "Amazon Bedrock now supports the OpenAI GPT-5.6 models (Terra and Luna) in India, with India Geo cross-Region inference. Customers with regulatory requirements of in-country inferencing can now use…",
+        "date": "2026年8月19日",
+        "date_iso": "2026-08-19",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS IAM identity federation to external services is now available in AWS European Sovereign Cloud Region",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iam-european-sovereign-cloud/",
+        "summary": "AWS Identity and Access Management (IAM) now enables AWS workloads in the AWS European Sovereign Cloud (Germany) Region to securely authenticate with external services using short-lived JSON Web…",
+        "date": "2026年8月19日",
+        "date_iso": "2026-08-19",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Corretto August 2026 Critical Security Patch Updates",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-corretto-august-2026-security-updates",
+        "summary": "On Aug 18, 2026, Amazon announced critical security patch update (CSPU) for Amazon Corretto Long-Term Support (LTS) and Feature Release (FR) versions of OpenJDK. Corretto 26.0.2.11.1, 25.0.4.8.1,…",
+        "date": "2026年8月19日",
+        "date_iso": "2026-08-19",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "AgentCore payments is now generally available in Amazon Bedrock AgentCore",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/bedrock-agentcore-payments-ga/",
+        "summary": "Today, AWS announces the general availability of AgentCore payments, a capability within Amazon Bedrock AgentCore that enables AI agents to autonomously discover, access, and pay for paid APIs, MCPs,…",
+        "date": "2026年8月19日",
+        "date_iso": "2026-08-19",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon SageMaker Unified Studio now supports data profiling and anomaly detection",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/smus-data-profiling",
+        "summary": "Amazon SageMaker Unified Studio now supports data profiling and anomaly detection, powered by AWS Glue Data Quality. Data stewards, engineers and analysts can generate statistical profiles of their…",
+        "date": "2026年8月19日",
+        "date_iso": "2026-08-19",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon MWAA Serverless now supports PythonOperator and BashOperator",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/mwaa-serverless-pythonoperator-bashoperator/",
+        "summary": "Amazon Managed Workflows for Apache Airflow (Amazon MWAA) Serverless now supports running custom Python functions and shell scripts directly in the serverless runtime using PythonOperator and…",
+        "date": "2026年8月19日",
+        "date_iso": "2026-08-19",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 R8i instances are now available in Israel (Tel Aviv) region",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8i-israel-tel-aviv/",
+        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8i instances are available in the Israel (Tel Aviv) region. These instances are powered by custom Intel Xeon 6 processors, available only on…",
+        "date": "2026年8月19日",
+        "date_iso": "2026-08-19",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "IAM Policy Autopilot now supports Terraform plan files",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/iam-policy-autopilot-now-supports-terraform-plan-files",
+        "summary": "IAM Policy Autopilot can now generate baseline IAM policies directly from a Terraform plan file. IAM Policy Autopilot is an open source tool, launched at re:Invent 2025, that analyzes your code to…",
+        "date": "2026年8月19日",
+        "date_iso": "2026-08-19",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "PostgreSQL 19 Beta 3 is now available in Amazon RDS Database Preview Environment",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/postgresql-19-beta-3-amazon-rds-database-preview-environment/",
+        "summary": "Starting today, Amazon RDS for PostgreSQL 19 Beta 3 is available in the Amazon RDS Database Preview Environment , allowing you to evaluate the pre-release of PostgreSQL 19 on Amazon RDS for…",
+        "date": "2026年8月19日",
+        "date_iso": "2026-08-19",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon WorkSpaces now supports Nested Virtualization",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/nested-virtualization-workspaces/",
+        "summary": "Amazon WorkSpaces now supports nested virtualization for Amazon WorkSpaces Personal and Amazon WorkSpaces Core Managed Bundles. With nested virtualization enabled, developers can run Docker Desktop,…",
+        "date": "2026年8月18日",
+        "date_iso": "2026-08-18",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon S3 Metadata and annotations are now available in AWS GovCloud (US) Regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-s3-metadata-annotations-govcloud-regions",
+        "summary": "Amazon S3 Metadata and annotations are now available in AWS GovCloud (US-East) and AWS GovCloud (US-West) Regions, giving you the easiest and fastest way to discover, understand, and enrich your S3…",
+        "date": "2026年8月18日",
+        "date_iso": "2026-08-18",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
       {
         "title": "Amazon Bedrock expands API support and introduces Cross Region Inferencing for OpenAI models",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-cross-region-openai-v2/",
@@ -293,133 +403,33 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "AWS CloudShell now includes a built-in visual file editor",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-cloudshell-visual-file-editor/",
-        "summary": "AWS CloudShell now includes a built-in visual file editor that you can launch directly from your shell session using a single 'edit' command, no setup required. CloudShell provides a browser-based…",
-        "date": "2026年8月17日",
-        "date_iso": "2026-08-17",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Quick now supports data loss prevention with Microsoft Purview",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-quick-dlp-purview/",
-        "summary": "Amazon Quick now integrates with Microsoft Purview to enforce data loss prevention (DLP) policies across your Quick environment. Organizations need to ensure that sensitive files aren't shared…",
-        "date": "2026年8月15日",
-        "date_iso": "2026-08-15",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Quick now supports per-user resource limits",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-quick-per-user-resource-limits/",
-        "summary": "Amazon Quick now enables administrators to set per-user limits on index storage and agent hours, giving them direct control over subscription costs. With limits management, administrators can create…",
-        "date": "2026年8月15日",
-        "date_iso": "2026-08-15",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Quick now supports approval policies for sharing",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-quick-approval-policies-sharing/",
-        "summary": "Amazon Quick now offers approval policies, giving administrators governance controls over how assets are shared within their organization. With approval policies, administrators can require…",
-        "date": "2026年8月15日",
-        "date_iso": "2026-08-15",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Quick now supports customizable no data messages for visuals",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2025/08/amazon-quick-custom-no-data-message/",
-        "summary": "Amazon Quick announces support for no data message customization, enabling authors to replace the default \"No data to display\" message with a tailored message when a visual returns no data. Authors…",
-        "date": "2026年8月15日",
-        "date_iso": "2026-08-15",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon RDS for Oracle now supports Oracle APEX version 26.1",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-oracle-apex-26-1/",
-        "summary": "Amazon Relational Database Service (Amazon RDS) for Oracle now supports Oracle APEX version 26.1. Amazon RDS for Oracle is a managed database service that makes it simple to set up, operate, and…",
-        "date": "2026年8月15日",
-        "date_iso": "2026-08-15",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SES click tracking now supports custom URL paths for mobile app deep linking",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ses-supports-customurl-deeplinking",
-        "summary": "Amazon Simple Email Service (SES) &nbsp;now makes it easier to support mobile deep linking with the new ses:custom-path HTML attribute. When you add this attribute to an &lt;a&gt; tag, SES carries…",
-        "date": "2026年8月14日",
-        "date_iso": "2026-08-14",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Billing and Cost Management introduces Managed Dashboards",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-billing-and-cost-management-managed-dashboards/",
-        "summary": "AWS Billing and Cost Management (BCM) Dashboards now include Managed Dashboards. These are a collection of preconfigured and read-only dashboards located in your dashboard list. They deliver…",
-        "date": "2026年8月14日",
-        "date_iso": "2026-08-14",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Client VPN now supports CLI, administration controls, and faster connections",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-client-vpn-cli/",
-        "summary": "AWS Client VPN introduces a rebuilt AWS VPN Client v6.0.x which offers new features like command-line interface (CLI) support, enterprise administrative controls, and faster connection establishment…",
-        "date": "2026年8月14日",
-        "date_iso": "2026-08-14",
-        "category": "network-tag",
-        "cat_label": "ネットワーク",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Redshift adds rg.large and rg.12xlarge instance sizes in AWS GovCloud (US) Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-redshift-adds-rg-large-12xlarge-aws-govcloud-regions/",
-        "summary": "Amazon Redshift now offers rg.large and rg.12xlarge instance sizes for RG instances in the AWS GovCloud (US-West) and AWS GovCloud (US-East) Regions. RG instances deliver better performance, running…",
-        "date": "2026年8月14日",
-        "date_iso": "2026-08-14",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Claude Opus 5 is now available in AWS GovCloud (US)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/claude-opus-5-aws-govcloud/",
-        "summary": "AWS GovCloud (US) now offers Claude Opus 5 — the most advanced Opus model yet, and compatible with zero data retention (ZDR) — bringing a step-change in coding, long-running agents, and complex…",
-        "date": "2026年8月14日",
-        "date_iso": "2026-08-14",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
       }
     ],
     "gcp": [
       {
-        "title": "August 17, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_17_2026",
-        "summary": "Backup and DR Announcement Beginning November 1, 2026, Backup and DR Service will automatically apply a project-level lien to any project containing a backup vault with backups protected by enforced…",
-        "date": "2026年8月17日",
-        "date_iso": "2026-08-17",
+        "title": "August 18, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_18_2026",
+        "summary": "App Engine standard environment Java Feature Support for migrating from the App Engine Images service to Cloud Run is in General Availability (GA) . App Engine standard environment Python Feature…",
+        "date": "2026年8月18日",
+        "date_iso": "2026-08-18",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
       },
       {
+        "title": "August 17, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_17_2026",
+        "summary": "AlloyDB for PostgreSQL Feature You can now use the Model Context Protocol (MCP) Toolbox for Databases to access AlloyDB observability features and advanced query insights directly in your IDE. Backup…",
+        "date": "2026年8月17日",
+        "date_iso": "2026-08-17",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "GCP"
+      },
+      {
         "title": "August 16, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_16_2026",
-        "summary": "Google SecOps SOAR Announcement Release 6.3.98 is being rolled out to the first phase of regions as listed here . This release contains internal and customer bug fixes.",
+        "summary": "Agent Platform Workbench Security Updated the bundled Ruby gems rexml and net-imap to patched versions, addressing known vulnerabilities. Change 20260816-2330-rc0 Release Security Updated aiohttp,…",
         "date": "2026年8月16日",
         "date_iso": "2026-08-16",
         "category": "ai-tag",
@@ -595,19 +605,19 @@
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "GCP"
-      },
-      {
-        "title": "July 29, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#July_29_2026",
-        "summary": "App Engine standard environment Go Feature Support for enabling only needed legacy bundled services using the app_engine_bundled_services field is in General Availability . App Engine standard…",
-        "date": "2026年7月29日",
-        "date_iso": "2026-07-29",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
       }
     ],
     "oci": [
+      {
+        "title": "Oracle Security Critical Patch Update (CSPU) August 2026 for Oracle Java SE",
+        "link": "https://docs.oracle.com/iaas/releasenotes/java-management/jdk-cspu-august-2026.htm",
+        "summary": "",
+        "date": "2026年8月18日",
+        "date_iso": "2026-08-18",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "OCI"
+      },
       {
         "title": "OCI Kubernetes Engine (OKE) support for rolling back managed nodes to an earlier Kubernetes version",
         "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng_K8s-version-rollback.htm",
@@ -796,16 +806,6 @@
         "date_iso": "2026-08-04",
         "category": "security-tag",
         "cat_label": "セキュリティ",
-        "tag": "OCI"
-      },
-      {
-        "title": "Kubernetes Engine support for deploying the AMD GPU Operator cluster add-on",
-        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-AMD-GPU-Operator-addon.htm",
-        "summary": "",
-        "date": "2026年8月3日",
-        "date_iso": "2026-08-03",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
         "tag": "OCI"
       }
     ]
