@@ -1,5 +1,5 @@
 {
-  "updated": "2026年08月19日 10:53 JST",
+  "updated": "2026年08月19日 13:09 JST",
   "clouds": {
     "azure": [
       {
@@ -419,7 +419,7 @@
       {
         "title": "August 17, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_17_2026",
-        "summary": "AlloyDB for PostgreSQL Feature You can now use the Model Context Protocol (MCP) Toolbox for Databases to access AlloyDB observability features and advanced query insights directly in your IDE. Backup…",
+        "summary": "AlloyDB for PostgreSQL Feature You can now use the Model Context Protocol (MCP) Toolbox for Databases to access AlloyDB observability features and advanced query insights directly in your IDE.…",
         "date": "2026年8月17日",
         "date_iso": "2026-08-17",
         "category": "database-tag",
