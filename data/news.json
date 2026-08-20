@@ -1,5 +1,5 @@
 {
-  "updated": "2026年08月20日 13:09 JST",
+  "updated": "2026年08月20日 19:12 JST",
   "clouds": {
     "azure": [
       {
@@ -245,6 +245,16 @@
         "tag": "AWS"
       },
       {
+        "title": "Amazon CloudWatch pipelines adds GeoIP, RDS, and XML processors",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/cloudwatch-geoip-rds-xml/",
+        "summary": "Amazon CloudWatch pipelines now includes three new processors that parse and enrich log data as it's ingested: an Amazon RDS log parser, an XML parser and a GeoIP enrichment processor. CloudWatch…",
+        "date": "2026年8月20日",
+        "date_iso": "2026-08-20",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
         "title": "AWS Cost Anomaly Detection supports third-party models on Amazon Bedrock",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-cost-anomaly-detection-bedrock-3P/",
         "summary": "AWS Cost Anomaly Detection now monitors spend on third-party foundation models running on Amazon Bedrock, such as Anthropic Claude and other provider-hosted models. Cost Anomaly Detection uses…",
@@ -393,16 +403,6 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon SageMaker Unified Studio now supports data profiling and anomaly detection",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/smus-data-profiling",
-        "summary": "Amazon SageMaker Unified Studio now supports data profiling and anomaly detection, powered by AWS Glue Data Quality. Data stewards, engineers and analysts can generate statistical profiles of their…",
-        "date": "2026年8月19日",
-        "date_iso": "2026-08-19",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
       }
     ],
     "gcp": [
@@ -517,16 +517,6 @@
         "tag": "GCP"
       },
       {
-        "title": "August 08, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_08_2026",
-        "summary": "Google SecOps SOAR Announcement Release 6.3.96 is now available for all regions.",
-        "date": "2026年8月8日",
-        "date_iso": "2026-08-08",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
         "title": "August 07, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_07_2026",
         "summary": "AlloyDB for PostgreSQL Feature You can now sync tables from BigQuery into your AlloyDB instance, either as a one-time operation or on a periodic schedule. This feature (in Preview ) lets you enable…",
@@ -604,6 +594,16 @@
         "date_iso": "2026-07-31",
         "category": "ai-tag",
         "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
+        "title": "July 30, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#July_30_2026",
+        "summary": "Agent Platform Workbench Change M145 Release Change 20260730-2130-rc0 Release Change Installed latest packages from upstream dependencies. Change Installed latest packages from upstream dependencies.…",
+        "date": "2026年7月30日",
+        "date_iso": "2026-07-30",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "GCP"
       }
     ],
