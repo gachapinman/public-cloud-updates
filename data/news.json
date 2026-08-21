@@ -1,5 +1,5 @@
 {
-  "updated": "2026年08月21日 13:11 JST",
+  "updated": "2026年08月21日 19:12 JST",
   "clouds": {
     "azure": [
       {
@@ -409,11 +409,11 @@
       {
         "title": "August 20, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_20_2026",
-        "summary": "BigQuery Deprecated Starting April 26, 2027, core graph processing for BigQuery Graph will be restricted to the BigQuery Enterprise and Enterprise Plus editions . Consequently, we are deprecating…",
+        "summary": "App Engine flexible environment .NET Feature Starting from August 2026, to provide modern security patches and support for MySQL 8.4 and later, the App Engine flexible environment uses Cloud SQL Auth…",
         "date": "2026年8月20日",
         "date_iso": "2026-08-20",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
         "tag": "GCP"
       },
       {
