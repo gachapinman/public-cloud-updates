@@ -1,5 +1,5 @@
 {
-  "updated": "2026年08月21日 19:12 JST",
+  "updated": "2026年08月22日 10:50 JST",
   "clouds": {
     "azure": [
       {
@@ -205,6 +205,56 @@
     ],
     "aws": [
       {
+        "title": "Amazon Connect Customer now lets managers chat with their data",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-customer-ai-data-analytics",
+        "summary": "Amazon Connect Customer now lets managers chat with their data in plain language and get back the answer, the evidence behind it, and the fix, in seconds. Managers have always had the data. What they…",
+        "date": "2026年8月22日",
+        "date_iso": "2026-08-22",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Deadline Cloud now tracks automatic download status in the Deadline Cloud Monitor",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-deadline-cloud-auto-download-status-tracking/",
+        "summary": "The AWS Deadline Cloud monitor now shows the progress, status, and health of your automatic file downlaods from jobs running in the cloud. Deadline Cloud is a fully managed service that helps teams…",
+        "date": "2026年8月22日",
+        "date_iso": "2026-08-22",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EKS Capability for Argo CD now supports custom configuration",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-argo-cd-configuration",
+        "summary": "The Amazon Elastic Kubernetes Service (Amazon EKS) Capability for Argo CD now supports custom configuration through a standard argocd-cm ConfigMap in your cluster. This capability gives you a fully…",
+        "date": "2026年8月22日",
+        "date_iso": "2026-08-22",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Glue 6.0 delivers 30% price reduction and Iceberg v3 support",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-glue-6-0-price-reduction-iceberg-v3",
+        "summary": "AWS Glue 6.0 is now generally available, delivering a 30% price reduction and introducing full support for Apache Iceberg v3, newer versions of Apache Hudi and Delta Lake, and new capabilities to…",
+        "date": "2026年8月22日",
+        "date_iso": "2026-08-22",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon SES now supports open and click tracking override parameters",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ses-adds-open-click-tracking-override/",
+        "summary": "Amazon Simple Email Service (SES) now supports open and click tracking override parameters in the SendEmail and SendBulkEmail APIs. Senders can enable or disable open tracking and click tracking on…",
+        "date": "2026年8月21日",
+        "date_iso": "2026-08-21",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
         "title": "AWS announces the general availability of a new AWS Local Zone in Las Vegas, Nevada",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-local-zones-las-vegas-nevada/",
         "summary": "AWS Local Zone in Las Vegas, Nevada is now generally available. The new AWS Local Zone supports Amazon Elastic Compute Cloud (Amazon EC2) C7i, M7i, R7i, and C8gn instances, Amazon Elastic Block Store…",
@@ -222,6 +272,16 @@
         "date_iso": "2026-08-21",
         "category": "security-tag",
         "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 C8gd, M8gd and R8gd instances are now available in additional AWS Regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-c8gd-m8gd/",
+        "summary": "Amazon Elastic Compute Cloud (Amazon EC2) C8gd, M8gd, and R8gd instances with up to 11.4 TB of local NVMe-based SSD block-level storage are now available in additional regions. C8gd instances are now…",
+        "date": "2026年8月21日",
+        "date_iso": "2026-08-21",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "AWS"
       },
       {
@@ -285,6 +345,16 @@
         "tag": "AWS"
       },
       {
+        "title": "Amazon Aurora DSQL now supports Amazon CloudWatch Database Insights",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aurora-dsql-cloudwatch-database-insights/",
+        "summary": "Amazon Aurora DSQL now features a new Amazon CloudWatch Database Insights metric that delivers per-statement, cluster-level performance monitoring details. Aurora DSQL database insights captures…",
+        "date": "2026年8月21日",
+        "date_iso": "2026-08-21",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
         "title": "AWS Direct Connect introduces inbound prefix controls and higher prefix scale",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-direct-connect-new-prefix-controls",
         "summary": "Today, AWS Direct Connect announced inbound prefix controls, a new capability that lets you allocate and manage inbound route-prefix allocations for your private and transit virtual interfaces (VIFs)…",
@@ -333,79 +403,19 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 enables AMI creation with local snapshots from instances on Outposts",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/ec2-create-image-local-snapshot-outpost",
-        "summary": "Amazon EC2 now supports creating Amazon Machine Images (AMIs) with local snapshots from instances running on AWS Outposts. This capability makes it easier for customers to create AMIs while storing…",
-        "date": "2026年8月20日",
-        "date_iso": "2026-08-20",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon CloudWatch log Centralization now supports log group tag propagation",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudwatch-centralization-tag-propogation/",
-        "summary": "Amazon CloudWatch Centralization now copies log group tags from source accounts to the destination log groups created by centralization rules. CloudWatch Centralization aggregates log data from…",
-        "date": "2026年8月20日",
-        "date_iso": "2026-08-20",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon DynamoDB Streams now supports attribute-based access control",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-dynamodb-streams-abac/",
-        "summary": "Amazon DynamoDB Streams now supports attribute-based access control (ABAC), enabling you to use tag-based conditions in your Identity and Access Management (IAM) policies to control access to your…",
-        "date": "2026年8月20日",
-        "date_iso": "2026-08-20",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SageMaker notebooks now support trusted identity propagation",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-sagemaker/",
-        "summary": "Amazon SageMaker Notebooks now support Trusted Identity Propagation (TIP) with Amazon Athena, Amazon Redshift, and Amazon EMR Serverless, enabling per-user access control for data analytics. When…",
-        "date": "2026年8月20日",
-        "date_iso": "2026-08-20",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon CloudWatch pipelines adds GeoIP, RDS, and XML processors",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/cloudwatch-geoip-rds-xml/",
-        "summary": "Amazon CloudWatch pipelines now includes three new processors that parse and enrich log data as it's ingested: an Amazon RDS log parser, an XML parser and a GeoIP enrichment processor. CloudWatch…",
-        "date": "2026年8月20日",
-        "date_iso": "2026-08-20",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Security Agent (now part of AWS Continuum) now supports budget controls and finding revalidation",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-security-agent/",
-        "summary": "AWS Security Agent (now part of AWS Continuum) has a on-demand penetration testing service that uses an AI agent to autonomously test web applications for vulnerabilities, billing based on cumulative…",
-        "date": "2026年8月20日",
-        "date_iso": "2026-08-20",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Elemental MediaConnect Router now supports configurable recovery latency modes",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/mediaconnect-router-latency-modes/",
-        "summary": "AWS Elemental MediaConnect Router now enables customers to configure latency settings, providing control over the internal connection latency between inputs and outputs within the router. Previously,…",
-        "date": "2026年8月20日",
-        "date_iso": "2026-08-20",
-        "category": "network-tag",
-        "cat_label": "ネットワーク",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "August 21, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_21_2026",
+        "summary": "AlloyDB for PostgreSQL Fixed AlloyDB now provides more accurate memory usage estimation, and it prevents out-of-memory (OOM) errors when you build a ScaNN four-level tree index . This feature is in…",
+        "date": "2026年8月21日",
+        "date_iso": "2026-08-21",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "GCP"
+      },
       {
         "title": "August 20, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_20_2026",
@@ -595,19 +605,19 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
-      },
-      {
-        "title": "August 01, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_01_2026",
-        "summary": "Gemini Enterprise Feature Gemini Enterprise: Pay for what you consume with the Pay-as-you-go edition The Gemini Enterprise Pay-as-you-go edition is generally available. With this edition, you pay for…",
-        "date": "2026年8月1日",
-        "date_iso": "2026-08-01",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
       }
     ],
     "oci": [
+      {
+        "title": "Service Logs for Database Tools MCP Servers",
+        "link": "https://docs.oracle.com/iaas/releasenotes/database-tools/logging.htm",
+        "summary": "",
+        "date": "2026年8月21日",
+        "date_iso": "2026-08-21",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "OCI"
+      },
       {
         "title": "Support for Kubernetes version 1.34.10",
         "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-K8s-1-34-10-support.htm",
@@ -709,6 +719,16 @@
         "tag": "OCI"
       },
       {
+        "title": "OCI Block Storage Adds Ransomware-Resilient Backup Protection",
+        "link": "https://docs.oracle.com/iaas/releasenotes/blockvolume/retention-lock.htm",
+        "summary": "",
+        "date": "2026年8月11日",
+        "date_iso": "2026-08-11",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
+        "tag": "OCI"
+      },
+      {
         "title": "OCI Generative AI now available in Oracle US Government Cloud and Oracle US Defense Cloud",
         "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/generative-ai-government.htm",
         "summary": "",
@@ -736,16 +756,6 @@
         "date_iso": "2026-08-11",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "OCI Block Storage Adds Ransomware-Resilient Backup Protection",
-        "link": "https://docs.oracle.com/iaas/releasenotes/blockvolume/retention-lock.htm",
-        "summary": "",
-        "date": "2026年8月11日",
-        "date_iso": "2026-08-11",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
         "tag": "OCI"
       },
       {
@@ -796,16 +806,6 @@
         "date_iso": "2026-08-11",
         "category": "database-tag",
         "cat_label": "データベース",
-        "tag": "OCI"
-      },
-      {
-        "title": "Updates to OCI Kubernetes Engine (OKE) cluster add-ons",
-        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-Add-on-release-notes-July-2026-Release-Note.htm",
-        "summary": "",
-        "date": "2026年8月10日",
-        "date_iso": "2026-08-10",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
         "tag": "OCI"
       }
     ]
