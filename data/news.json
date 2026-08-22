@@ -1,5 +1,5 @@
 {
-  "updated": "2026年08月22日 10:50 JST",
+  "updated": "2026年08月22日 13:07 JST",
   "clouds": {
     "azure": [
       {
@@ -205,6 +205,16 @@
     ],
     "aws": [
       {
+        "title": "Amazon Bedrock announces reduced pricing for OpenAI GPT-5.6 Sol",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/bedrock-openai-gpt-56-sol-reduced-pricing/",
+        "summary": "Today, OpenAI announced that they are lowering API prices for GPT-5.6 Sol. Following the recent Terra and Luna price reductions, Sol now costs $4 per million input tokens and $20 per million output…",
+        "date": "2026年8月22日",
+        "date_iso": "2026-08-22",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon Connect Customer now lets managers chat with their data",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-customer-ai-data-analytics",
         "summary": "Amazon Connect Customer now lets managers chat with their data in plain language and get back the answer, the evidence behind it, and the fix, in seconds. Managers have always had the data. What they…",
@@ -388,16 +398,6 @@
         "title": "Launching External Web Access for Web Search on Amazon Bedrock",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-web-access-web-search/",
         "summary": "Earlier this month, we announced Web Search on Amazon Bedrock , a built-in server-side tool that allows you to ground model responses with current web knowledge, while maintaining data within your…",
-        "date": "2026年8月20日",
-        "date_iso": "2026-08-20",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Web Search in Amazon Bedrock AgentCore adds domain and published date filtering, expands to Europe and Asia Pacific",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/web-search-amazon-bedrock/",
-        "summary": "Web Search in Amazon Bedrock AgentCore now supports domain filtering and published-date filtering, giving agents per-request control over which web sources and time windows they search. Amazon…",
         "date": "2026年8月20日",
         "date_iso": "2026-08-20",
         "category": "ai-tag",
