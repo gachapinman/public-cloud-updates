@@ -1,5 +1,5 @@
 {
-  "updated": "2026年08月22日 19:00 JST",
+  "updated": "2026年08月23日 10:59 JST",
   "clouds": {
     "azure": [
       {
@@ -407,13 +407,23 @@
     ],
     "gcp": [
       {
+        "title": "August 22, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_22_2026",
+        "summary": "Apigee UI Fixed Bug ID Description 543626585 ServiceCallout policy can now be added in the Apigee UI Adding a ServiceCallout policy in the Apigee UI no longer leaves the Create or Add button…",
+        "date": "2026年8月22日",
+        "date_iso": "2026-08-22",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "GCP"
+      },
+      {
         "title": "August 21, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_21_2026",
-        "summary": "AlloyDB for PostgreSQL Fixed AlloyDB now provides more accurate memory usage estimation, and it prevents out-of-memory (OOM) errors when you build a ScaNN four-level tree index . This feature is in…",
+        "summary": "AI Hypercomputer Change AI Hypercomputer has expanded to cover all GPU machine series. Specifically, the documentation for AI Hypercomputer has been significantly updated as follows: Documentation…",
         "date": "2026年8月21日",
         "date_iso": "2026-08-21",
-        "category": "database-tag",
-        "cat_label": "データベース",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "GCP"
       },
       {
@@ -592,16 +602,6 @@
         "summary": "API Gateway Feature Route LLM requests with model routing You can now use model routing in API Gateway as a managed traffic management layer to accept OpenAI-compatible prompt requests, transcode…",
         "date": "2026年8月3日",
         "date_iso": "2026-08-03",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "August 02, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_02_2026",
-        "summary": "Agent Platform Workbench Change 20260802-2330-rc0 Release Change 20260802-2330-rc0 Release Fixed Fixed issue with JupyterLab UI silently reverting file changes and interrupting kernels due to Gemini…",
-        "date": "2026年8月2日",
-        "date_iso": "2026-08-02",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
