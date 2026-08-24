@@ -1,5 +1,5 @@
 {
-  "updated": "2026年08月23日 19:01 JST",
+  "updated": "2026年08月24日 10:57 JST",
   "clouds": {
     "azure": [
       {
@@ -509,21 +509,21 @@
       {
         "title": "August 12, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_12_2026",
-        "summary": "Apigee API hub Feature Configure and deploy MCP servers with gcloud CLI You can use the gcloud apihub locations configure-and-deploy-server command to configure and deploy API hub Model Context…",
+        "summary": "Access Approval Feature Agent Identity is generally available (GA) . Access Transparency Feature Agent Identity is generally available (GA) . Apigee API hub Feature Configure and deploy MCP servers…",
         "date": "2026年8月12日",
         "date_iso": "2026-08-12",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "GCP"
       },
       {
         "title": "August 11, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_11_2026",
-        "summary": "Apigee hybrid Announcement v1.16.9 On August 11, 2026 we released an updated version of the Apigee hybrid software, v1.16.9. For information on upgrading, see Upgrading Apigee hybrid to version…",
+        "summary": "Access Approval Feature Datastream is generally available (GA) . Access Transparency Feature Datastream is generally available (GA) . Apigee hybrid Announcement v1.16.9 On August 11, 2026 we released…",
         "date": "2026年8月11日",
         "date_iso": "2026-08-11",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "GCP"
       },
       {
@@ -699,6 +699,16 @@
         "tag": "OCI"
       },
       {
+        "title": "IPv6 support for Search API",
+        "link": "https://docs.oracle.com/iaas/releasenotes/search/search-api-ipv6.htm",
+        "summary": "",
+        "date": "2026年8月13日",
+        "date_iso": "2026-08-13",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
         "title": "OCI Logging supports dual-stack endpoints for IPv6",
         "link": "https://docs.oracle.com/iaas/releasenotes/logging/IPv6.htm",
         "summary": "",
@@ -796,16 +806,6 @@
         "date_iso": "2026-08-11",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "GET_DEFINITION Functions for DBMS_CLOUD Packages",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-08-get-definition-function.htm",
-        "summary": "",
-        "date": "2026年8月11日",
-        "date_iso": "2026-08-11",
-        "category": "database-tag",
-        "cat_label": "データベース",
         "tag": "OCI"
       }
     ]
