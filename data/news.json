@@ -1,5 +1,5 @@
 {
-  "updated": "2026年08月25日 10:52 JST",
+  "updated": "2026年08月25日 13:10 JST",
   "clouds": {
     "azure": [
       {
@@ -385,6 +385,16 @@
         "tag": "AWS"
       },
       {
+        "title": "Amazon Bedrock AgentCore Memory now supports extracting memories from non-conversational JSON payloads",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/agentcore-memory-json-payloads",
+        "summary": "Amazon Bedrock AgentCore memory now accepts a JSON payload type on the CreateEvent API, so agents can extract and consolidate long-term memories from structured data as well as from multi-turn…",
+        "date": "2026年8月21日",
+        "date_iso": "2026-08-21",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon EC2 C8gd, M8gd and R8gd instances are now available in additional AWS Regions",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-c8gd-m8gd/",
         "summary": "Amazon Elastic Compute Cloud (Amazon EC2) C8gd, M8gd, and R8gd instances with up to 11.4 TB of local NVMe-based SSD block-level storage are now available in additional regions. C8gd instances are now…",
@@ -393,27 +403,17 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon Redshift now supports concurrency scaling of streaming ingestion workloads from Amazon Kinesis data streams",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/redshift-concurrencyscaling-for-kds-streams/",
-        "summary": "Amazon Redshift , starting with patch P203 , supports concurrency scaling for refreshes of Amazon Kinesis Data Streams (KDS)-connected streaming materialized views (MVs). Amazon Web Services (AWS)…",
-        "date": "2026年8月21日",
-        "date_iso": "2026-08-21",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
       }
     ],
     "gcp": [
       {
         "title": "August 24, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_24_2026",
-        "summary": "Cloud Trace Feature You can update the display name, description, and Cloud KMS key applied to a _Trace observability bucket. For more information, see Update observability buckets . Feature You can…",
+        "summary": "Backup and DR Feature Backup vault support for Filestore instances encrypted with customer-managed encryption keys (CMEK) is now generally available (GA). When you back up Filestore instances to a…",
         "date": "2026年8月24日",
         "date_iso": "2026-08-24",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "GCP"
       },
       {
