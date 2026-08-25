@@ -1,5 +1,5 @@
 {
-  "updated": "2026年08月25日 13:10 JST",
+  "updated": "2026年08月25日 19:13 JST",
   "clouds": {
     "azure": [
       {
@@ -205,6 +205,16 @@
     ],
     "aws": [
       {
+        "title": "AWS Lambda functions now support full IAM resource-based policies",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-lambda-full-iam-resource-based-policies/",
+        "summary": "AWS Lambda functions now support full Identity and Access Management (IAM) resource-based policies , enabling platform admins and security teams to define granular access permissions using the full…",
+        "date": "2026年8月25日",
+        "date_iso": "2026-08-25",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon ECS now automatically detects and repairs container instances with impaired agent connectivity",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ecs-agent-connectivity-health",
         "summary": "Amazon Elastic Container Service (Amazon ECS) now&nbsp;automatically detects and repairs container instances, enabling customers to reduce undetected workload failures and improve application…",
@@ -382,16 +392,6 @@
         "date_iso": "2026-08-21",
         "category": "security-tag",
         "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Bedrock AgentCore Memory now supports extracting memories from non-conversational JSON payloads",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/agentcore-memory-json-payloads",
-        "summary": "Amazon Bedrock AgentCore memory now accepts a JSON payload type on the CreateEvent API, so agents can extract and consolidate long-term memories from structured data as well as from multi-turn…",
-        "date": "2026年8月21日",
-        "date_iso": "2026-08-21",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "AWS"
       },
       {
@@ -609,6 +609,16 @@
     ],
     "oci": [
       {
+        "title": "Console Support for Network Firewall Enhancements",
+        "link": "https://docs.oracle.com/iaas/releasenotes/network-firewall/console-support-ngfw-enhancements.htm",
+        "summary": "",
+        "date": "2026年8月25日",
+        "date_iso": "2026-08-25",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
+        "tag": "OCI"
+      },
+      {
         "title": "Service Logs for Database Tools MCP Servers",
         "link": "https://docs.oracle.com/iaas/releasenotes/database-tools/logging.htm",
         "summary": "",
@@ -659,16 +669,6 @@
         "tag": "OCI"
       },
       {
-        "title": "Autonomous Container Database (ACD) cloning enhancements",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-dedicated/adbd-acd-cloning-enh.htm",
-        "summary": "",
-        "date": "2026年8月18日",
-        "date_iso": "2026-08-18",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
         "title": "Oracle Security Critical Patch Update (CSPU) August 2026 for Oracle Java SE",
         "link": "https://docs.oracle.com/iaas/releasenotes/java-management/jdk-cspu-august-2026.htm",
         "summary": "",
@@ -676,6 +676,16 @@
         "date_iso": "2026-08-18",
         "category": "security-tag",
         "cat_label": "セキュリティ",
+        "tag": "OCI"
+      },
+      {
+        "title": "Autonomous Container Database (ACD) cloning enhancements",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-dedicated/adbd-acd-cloning-enh.htm",
+        "summary": "",
+        "date": "2026年8月18日",
+        "date_iso": "2026-08-18",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "OCI"
       },
       {
@@ -734,16 +744,6 @@
         "summary": "",
         "date": "2026年8月12日",
         "date_iso": "2026-08-12",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "View total backup storage for an Autonomous Container Database (ACD)",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-dedicated/adbd-view-backup-storage.htm",
-        "summary": "",
-        "date": "2026年8月11日",
-        "date_iso": "2026-08-11",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "OCI"
