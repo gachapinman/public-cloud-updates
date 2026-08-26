@@ -1,5 +1,5 @@
 {
-  "updated": "2026年08月26日 13:11 JST",
+  "updated": "2026年08月26日 19:18 JST",
   "clouds": {
     "azure": [
       {
@@ -245,16 +245,6 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon Connect Customer now lets you update the customer profile on a case or add a profile after a case is opened",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-cases-flexible-profiles/",
-        "summary": "Amazon Connect Customer now lets agents change the profile on a case or choose a profile after the case is opened. If a case is linked to the wrong customer, agents can update the profile to keep…",
-        "date": "2026年8月26日",
-        "date_iso": "2026-08-26",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
         "title": "Amazon RDS for PostgreSQL supports minor versions 18.6, 17.11, 16.15, 15.19, and 14.24",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-postgresql-18-6-17-11-16-15-15-19-14-24/",
         "summary": "Amazon Relational Database Service (RDS) for PostgreSQL now supports the latest minor versions 18.6, 17.11, 16.15, 15.19, and 14.24. We recommend that you upgrade to the latest minor versions to…",
@@ -262,6 +252,16 @@
         "date_iso": "2026-08-26",
         "category": "database-tag",
         "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Connect Customer now lets you update the customer profile on a case or add a profile after a case is opened",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-cases-flexible-profiles/",
+        "summary": "Amazon Connect Customer now lets agents change the profile on a case or choose a profile after the case is opened. If a case is linked to the wrong customer, agents can update the profile to keep…",
+        "date": "2026年8月26日",
+        "date_iso": "2026-08-26",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "AWS"
       },
       {
@@ -282,6 +282,16 @@
         "date_iso": "2026-08-25",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 M8i and M8i-flex instances are now available in Canada West (Calgary) region",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/ec2-m8i-m8i-flex-canada-west/",
+        "summary": "Starting today, Amazon EC2 M8i and M8i-flex instances are now available in Canada West (Calgary) region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS,…",
+        "date": "2026年8月25日",
+        "date_iso": "2026-08-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "AWS"
       },
       {
@@ -322,6 +332,16 @@
         "date_iso": "2026-08-25",
         "category": "security-tag",
         "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon GameLift Servers enhanced DDoS Protection now available",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-gamelift-servers-enhanced-ddos-protection",
+        "summary": "Amazon GameLift Servers now offers Enhanced DDoS Protection, a new layer of protection that defends game servers from common network and transport layer DDoS attacks with no configuration required.…",
+        "date": "2026年8月25日",
+        "date_iso": "2026-08-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "AWS"
       },
       {
@@ -383,37 +403,17 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon Connect Customer now supports information extraction for agent voice and chat conversations",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-customer-information/",
-        "summary": "Amazon Connect Customer now supports information extraction, which automatically captures key data from voice and chat interactions, reducing manual data capture and improving agent and supervisor…",
-        "date": "2026年8月24日",
-        "date_iso": "2026-08-24",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS ParallelCluster 3.16 adds an on-node diagnostics tool",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-parallelcluster/",
-        "summary": "AWS ParallelCluster 3.16 is now generally available with a new on-node diagnostics tool, cluster stability improvements, and an updated HPC and AI/ML software stack. pcluster-diag is a diagnostics…",
-        "date": "2026年8月24日",
-        "date_iso": "2026-08-24",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
       }
     ],
     "gcp": [
       {
         "title": "August 25, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_25_2026",
-        "summary": "BigQuery Feature BigQuery data governance tags are supported in Terraform. This feature is in Preview . Cloud SDK Breaking 582.0.0 (2026-08-25) Breaking Changes (Google Cloud CLI) Removed the legacy…",
+        "summary": "BigQuery Feature BigQuery data governance tags are supported in Terraform. This feature is in Preview . Cloud Run Feature Cloud Run instances are available in Preview . Instances are specifically…",
         "date": "2026年8月25日",
         "date_iso": "2026-08-25",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "GCP"
       },
       {
@@ -609,6 +609,16 @@
     ],
     "oci": [
       {
+        "title": "HeatWave: Blue/Green Deployment",
+        "link": "https://docs.oracle.com/iaas/releasenotes/mysql-database/heatwave-blue-green-deployments.htm",
+        "summary": "",
+        "date": "2026年8月25日",
+        "date_iso": "2026-08-25",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "OCI"
+      },
+      {
         "title": "Console Support for Network Firewall Enhancements",
         "link": "https://docs.oracle.com/iaas/releasenotes/network-firewall/console-support-ngfw-enhancements.htm",
         "summary": "",
@@ -796,16 +806,6 @@
         "date_iso": "2026-08-11",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Object Storage supports dual-stack endpoints for IPv6",
-        "link": "https://docs.oracle.com/iaas/releasenotes/objectstorage/ipv6-support.htm",
-        "summary": "",
-        "date": "2026年8月11日",
-        "date_iso": "2026-08-11",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
         "tag": "OCI"
       }
     ]
