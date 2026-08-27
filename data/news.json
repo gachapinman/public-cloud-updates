@@ -1,5 +1,5 @@
 {
-  "updated": "2026年08月27日 18:51 JST",
+  "updated": "2026年08月27日 23:32 JST",
   "clouds": {
     "azure": [
       {
@@ -325,16 +325,6 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon Connect Customer now lets you update the customer profile on a case or add a profile after a case is opened",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-cases-flexible-profiles/",
-        "summary": "Amazon Connect Customer now lets agents change the profile on a case or choose a profile after the case is opened. If a case is linked to the wrong customer, agents can update the profile to keep…",
-        "date": "2026年8月26日",
-        "date_iso": "2026-08-26",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
         "title": "Amazon RDS for PostgreSQL supports minor versions 18.6, 17.11, 16.15, 15.19, and 14.24",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-postgresql-18-6-17-11-16-15-15-19-14-24/",
         "summary": "Amazon Relational Database Service (RDS) for PostgreSQL now supports the latest minor versions 18.6, 17.11, 16.15, 15.19, and 14.24. We recommend that you upgrade to the latest minor versions to…",
@@ -342,6 +332,16 @@
         "date_iso": "2026-08-26",
         "category": "database-tag",
         "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Connect Customer now lets you update the customer profile on a case or add a profile after a case is opened",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-cases-flexible-profiles/",
+        "summary": "Amazon Connect Customer now lets agents change the profile on a case or choose a profile after the case is opened. If a case is linked to the wrong customer, agents can update the profile to keep…",
+        "date": "2026年8月26日",
+        "date_iso": "2026-08-26",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "AWS"
       },
       {
@@ -406,6 +406,16 @@
       }
     ],
     "gcp": [
+      {
+        "title": "August 27, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_27_2026",
+        "summary": "Google SecOps Announcement Scheduled maintenance SOAR database and infrastructure maintenance is scheduled to take place during the standard maintenance window on Sunday, August 30. During this…",
+        "date": "2026年8月27日",
+        "date_iso": "2026-08-27",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
       {
         "title": "August 26, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_26_2026",
@@ -595,19 +605,19 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
-      },
-      {
-        "title": "August 07, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_07_2026",
-        "summary": "AlloyDB for PostgreSQL Feature You can now sync tables from BigQuery into your AlloyDB instance, either as a one-time operation or on a periodic schedule. This feature (in Preview ) lets you enable…",
-        "date": "2026年8月7日",
-        "date_iso": "2026-08-07",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "GCP"
       }
     ],
     "oci": [
+      {
+        "title": "Network Firewall as a VTAP Source",
+        "link": "https://docs.oracle.com/iaas/releasenotes/network-firewall/network-firewall-as-vtap-source.htm",
+        "summary": "",
+        "date": "2026年8月26日",
+        "date_iso": "2026-08-26",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
+        "tag": "OCI"
+      },
       {
         "title": "Model Selection, Scheduled Enrichment, and Background SQL Generation Available for Enterprise AI NL2SQL",
         "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/nl2sql-model-selection-background-generation.htm",
@@ -616,6 +626,16 @@
         "date_iso": "2026-08-26",
         "category": "ai-tag",
         "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Console Support for Network Firewall Enhancements",
+        "link": "https://docs.oracle.com/iaas/releasenotes/network-firewall/console-support-ngfw-enhancements.htm",
+        "summary": "",
+        "date": "2026年8月25日",
+        "date_iso": "2026-08-25",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
         "tag": "OCI"
       },
       {
@@ -636,16 +656,6 @@
         "date_iso": "2026-08-25",
         "category": "database-tag",
         "cat_label": "データベース",
-        "tag": "OCI"
-      },
-      {
-        "title": "Console Support for Network Firewall Enhancements",
-        "link": "https://docs.oracle.com/iaas/releasenotes/network-firewall/console-support-ngfw-enhancements.htm",
-        "summary": "",
-        "date": "2026年8月25日",
-        "date_iso": "2026-08-25",
-        "category": "network-tag",
-        "cat_label": "ネットワーク",
         "tag": "OCI"
       },
       {
@@ -791,16 +801,6 @@
       {
         "title": "OCI Generative AI now available in Oracle US Government Cloud and Oracle US Defense Cloud",
         "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/generative-ai-government.htm",
-        "summary": "",
-        "date": "2026年8月11日",
-        "date_iso": "2026-08-11",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Import Moonshot AI Kimi K3 into OCI Generative AI",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/moonshot-ai-kimi-k3.htm",
         "summary": "",
         "date": "2026年8月11日",
         "date_iso": "2026-08-11",
