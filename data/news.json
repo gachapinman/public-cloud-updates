@@ -1,5 +1,5 @@
 {
-  "updated": "2026年08月27日 23:32 JST",
+  "updated": "2026年08月28日 05:00 JST",
   "clouds": {
     "azure": [
       {
@@ -205,6 +205,16 @@
     ],
     "aws": [
       {
+        "title": "AWS Elastic Disaster Recovery introduces Recovery Plans for orchestrated application recovery",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/elastic-disaster-recovery-plans/",
+        "summary": "AWS Elastic Disaster Recovery (AWS DRS) now offers Recovery Plans, a capability that automates the sequential launch of multi-server applications during recovery and drills. Instead of launching…",
+        "date": "2026年8月28日",
+        "date_iso": "2026-08-28",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon Cognito adds admin API operation to reset user TOTP configurations",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cognito-totp-reset/",
         "summary": "Amazon Cognito now provides a new admin API operation to reset a user's time-based one-time Password (TOTP) multi-factor authentication (MFA) configuration. When users lose access to their TOTP…",
@@ -325,16 +335,6 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon RDS for PostgreSQL supports minor versions 18.6, 17.11, 16.15, 15.19, and 14.24",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-postgresql-18-6-17-11-16-15-15-19-14-24/",
-        "summary": "Amazon Relational Database Service (RDS) for PostgreSQL now supports the latest minor versions 18.6, 17.11, 16.15, 15.19, and 14.24. We recommend that you upgrade to the latest minor versions to…",
-        "date": "2026年8月26日",
-        "date_iso": "2026-08-26",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
         "title": "Amazon Connect Customer now lets you update the customer profile on a case or add a profile after a case is opened",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-cases-flexible-profiles/",
         "summary": "Amazon Connect Customer now lets agents change the profile on a case or choose a profile after the case is opened. If a case is linked to the wrong customer, agents can update the profile to keep…",
@@ -342,6 +342,16 @@
         "date_iso": "2026-08-26",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon RDS for PostgreSQL supports minor versions 18.6, 17.11, 16.15, 15.19, and 14.24",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-postgresql-18-6-17-11-16-15-15-19-14-24/",
+        "summary": "Amazon Relational Database Service (RDS) for PostgreSQL now supports the latest minor versions 18.6, 17.11, 16.15, 15.19, and 14.24. We recommend that you upgrade to the latest minor versions to…",
+        "date": "2026年8月26日",
+        "date_iso": "2026-08-26",
+        "category": "database-tag",
+        "cat_label": "データベース",
         "tag": "AWS"
       },
       {
@@ -393,27 +403,17 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "AWS Secrets Manager adds managed external secrets support for Cisco Security Platform and Netskope",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/secrets-manager-cisco-netskope/",
-        "summary": "AWS Secrets Manager now extends its managed external secrets capability to include Cisco Security Platform API keys and Netskope API tokens, enabling you to automatically rotate these third-party…",
-        "date": "2026年8月25日",
-        "date_iso": "2026-08-25",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
       }
     ],
     "gcp": [
       {
         "title": "August 27, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_27_2026",
-        "summary": "Google SecOps Announcement Scheduled maintenance SOAR database and infrastructure maintenance is scheduled to take place during the standard maintenance window on Sunday, August 30. During this…",
+        "summary": "Cloud Load Balancing Feature For regional external passthrough Network Load Balancers, reserving specific or automatically allocated bring your own IP (BYOIP) IPv6 addresses before creating a load…",
         "date": "2026年8月27日",
         "date_iso": "2026-08-27",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
         "tag": "GCP"
       },
       {
@@ -609,13 +609,13 @@
     ],
     "oci": [
       {
-        "title": "Network Firewall as a VTAP Source",
-        "link": "https://docs.oracle.com/iaas/releasenotes/network-firewall/network-firewall-as-vtap-source.htm",
+        "title": "Attach a file when creating a technical support request",
+        "link": "https://docs.oracle.com/iaas/releasenotes/support/attach-new-request.htm",
         "summary": "",
-        "date": "2026年8月26日",
-        "date_iso": "2026-08-26",
-        "category": "network-tag",
-        "cat_label": "ネットワーク",
+        "date": "2026年8月27日",
+        "date_iso": "2026-08-27",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "OCI"
       },
       {
@@ -629,13 +629,23 @@
         "tag": "OCI"
       },
       {
-        "title": "Console Support for Network Firewall Enhancements",
-        "link": "https://docs.oracle.com/iaas/releasenotes/network-firewall/console-support-ngfw-enhancements.htm",
+        "title": "Network Firewall as a VTAP Source",
+        "link": "https://docs.oracle.com/iaas/releasenotes/network-firewall/network-firewall-as-vtap-source.htm",
         "summary": "",
-        "date": "2026年8月25日",
-        "date_iso": "2026-08-25",
+        "date": "2026年8月26日",
+        "date_iso": "2026-08-26",
         "category": "network-tag",
         "cat_label": "ネットワーク",
+        "tag": "OCI"
+      },
+      {
+        "title": "Add ZPR security attributes for Recovery Service subnets",
+        "link": "https://docs.oracle.com/iaas/releasenotes/recovery-service/zpr-support.htm",
+        "summary": "",
+        "date": "2026年8月26日",
+        "date_iso": "2026-08-26",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
         "tag": "OCI"
       },
       {
@@ -656,6 +666,26 @@
         "date_iso": "2026-08-25",
         "category": "database-tag",
         "cat_label": "データベース",
+        "tag": "OCI"
+      },
+      {
+        "title": "Console Support for Network Firewall Enhancements",
+        "link": "https://docs.oracle.com/iaas/releasenotes/network-firewall/console-support-ngfw-enhancements.htm",
+        "summary": "",
+        "date": "2026年8月25日",
+        "date_iso": "2026-08-25",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
+        "tag": "OCI"
+      },
+      {
+        "title": "Maintenance Schedule Selection in OCI",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-08-maintenance-schedule.htm",
+        "summary": "",
+        "date": "2026年8月25日",
+        "date_iso": "2026-08-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "OCI"
       },
       {
@@ -776,36 +806,6 @@
         "date_iso": "2026-08-13",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "View and download detailed logs for Resource Manager work requests",
-        "link": "https://docs.oracle.com/iaas/releasenotes/resource-manager/resource-manager-work-request-logs.htm",
-        "summary": "",
-        "date": "2026年8月12日",
-        "date_iso": "2026-08-12",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "OCI Block Storage Adds Ransomware-Resilient Backup Protection",
-        "link": "https://docs.oracle.com/iaas/releasenotes/blockvolume/retention-lock.htm",
-        "summary": "",
-        "date": "2026年8月11日",
-        "date_iso": "2026-08-11",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
-        "tag": "OCI"
-      },
-      {
-        "title": "OCI Generative AI now available in Oracle US Government Cloud and Oracle US Defense Cloud",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/generative-ai-government.htm",
-        "summary": "",
-        "date": "2026年8月11日",
-        "date_iso": "2026-08-11",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "OCI"
       }
     ]
