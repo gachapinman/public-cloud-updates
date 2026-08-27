@@ -1,7 +1,67 @@
 {
-  "updated": "2026年08月26日 19:18 JST",
+  "updated": "2026年08月27日 18:51 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Generally Available: Azure Bastion shareable link expiration",
+        "link": "https://azure.microsoft.com/updates?id=570020",
+        "summary": "Azure Bastion shareable link expiration is now generally available. When creating a shareable link, administrators can specify the date and time when the link should expire. After the configured…",
+        "date": "2026年8月27日",
+        "date_iso": "2026-08-27",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: IPv6 dual-stack support for Azure Bastion",
+        "link": "https://azure.microsoft.com/updates?id=570025",
+        "summary": "Azure Bastion support for IPv4 and IPv6 dual-stack configurations is now available in public preview. Customers can configure a newly created Bastion deployment with both IPv4 and IPv6 public IP…",
+        "date": "2026年8月27日",
+        "date_iso": "2026-08-27",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Connect to AKS clusters using Azure Bastion",
+        "link": "https://azure.microsoft.com/updates?id=570030",
+        "summary": "Azure Bastion integration with Azure Kubernetes Service is now generally available. Customers can establish a secure tunnel from their local machine through Azure Bastion to an AKS cluster API…",
+        "date": "2026年8月27日",
+        "date_iso": "2026-08-27",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Introducing Live Reports for Azure SRE Agent",
+        "link": "https://azure.microsoft.com/updates?id=569690",
+        "summary": "We're excited to announce Live Reports, now in Public Preview for Azure SRE Agent. Live Reports help operations teams create dynamic operational views directly from SRE Agent conversations and keep…",
+        "date": "2026年8月27日",
+        "date_iso": "2026-08-27",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Azure SRE Agent VNet Integration",
+        "link": "https://azure.microsoft.com/updates?id=569695",
+        "summary": "Azure SRE Agent VNet Integration is now generally available. VNet integration enables Azure SRE Agent to operate within your existing network controls, including Network Security Groups (NSGs),…",
+        "date": "2026年8月27日",
+        "date_iso": "2026-08-27",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Azure SRE Agent 30-Day Trial",
+        "link": "https://azure.microsoft.com/updates?id=569760",
+        "summary": "New customers can now get started with Azure SRE Agent through a 30-day trial experience. During the trial, customers can create SRE Agents and connect them to your operational tools and data…",
+        "date": "2026年8月27日",
+        "date_iso": "2026-08-27",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Announcing: Aspire 13.5 has shipped",
         "link": "https://azure.microsoft.com/updates?id=569910",
@@ -141,69 +201,89 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Retirement: Azure VMware Solution License-included service will be retired August 30, 2027",
-        "link": "https://azure.microsoft.com/updates?id=569535",
-        "summary": "In November last year, Broadcom changed its VMware licensing policies across all hyperscaler platforms to require customers to “bring your own” portable license for VMware Cloud Foundation…",
-        "date": "2026年8月19日",
-        "date_iso": "2026-08-19",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Managed Instance on Azure App Service",
-        "link": "https://azure.microsoft.com/updates?id=568952",
-        "summary": "Managed Instance on Azure App Service is now generally available. Managed Instance helps organizations migrate web applications to Azure App Service with minimal configuration and no code changes.…",
-        "date": "2026年8月19日",
-        "date_iso": "2026-08-19",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Ipv6 support in Azure Firewall",
-        "link": "https://azure.microsoft.com/updates?id=569520",
-        "summary": "Azure Firewall now supports IPv6 in public preview, enabling customers to configure Azure Firewall and Firewall Policy in dual-stack mode for both IPv4 and IPv6 traffic. This preview allows native…",
-        "date": "2026年8月19日",
-        "date_iso": "2026-08-19",
-        "category": "network-tag",
-        "cat_label": "ネットワーク",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Zone redundancy for Azure SQL Managed Instance Next-gen General Purpose",
-        "link": "https://azure.microsoft.com/updates?id=568344",
-        "summary": "You can now benefit from enhanced resilience with the public preview of zone redundancy for Azure SQL Managed Instance Next-gen General Purpose. This update helps you improve business continuity by…",
-        "date": "2026年8月18日",
-        "date_iso": "2026-08-18",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Dragon Copilot Physician Apps and Agents on Microsoft Marketplace",
-        "link": "https://azure.microsoft.com/updates?id=557775",
-        "summary": "This release adds Microsoft Marketplace as a new discovery and procurement channel for Dragon Copilot AI apps and agents. Dragon Copilot customers in the United States can now discover, evaluate and…",
-        "date": "2026年8月18日",
-        "date_iso": "2026-08-18",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Azure Linux on WSL",
-        "link": "https://azure.microsoft.com/updates?id=569376",
-        "summary": "Azure Linux on WSL is now available in Public Preview (Beta). Extending Azure Linux to the developer workstation means that teams can now:Validate behavior using production-aligned…",
-        "date": "2026年8月18日",
-        "date_iso": "2026-08-18",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Amazon Cognito adds admin API operation to reset user TOTP configurations",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cognito-totp-reset/",
+        "summary": "Amazon Cognito now provides a new admin API operation to reset a user's time-based one-time Password (TOTP) multi-factor authentication (MFA) configuration. When users lose access to their TOTP…",
+        "date": "2026年8月27日",
+        "date_iso": "2026-08-27",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Connect Customer now supports unplanned shrinkage in agent schedules",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-customer-unplanned-shrinkage/",
+        "summary": "Amazon Connect Customer now enables managers to input unplanned shrinkage in agent schedules, providing a more accurate picture of staffing due to unscheduled agent absences such as late logins or…",
+        "date": "2026年8月27日",
+        "date_iso": "2026-08-27",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Mountpoint for Amazon S3 adds memory usage controls",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/mountpoint-for-S3-adds-memory-usage-controls",
+        "summary": "Mountpoint for Amazon S3 can now limit memory usage, either automatically based on the environment it runs in or with a limit that you define. This lets you run Mountpoint alongside memory-intensive…",
+        "date": "2026年8月27日",
+        "date_iso": "2026-08-27",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Connect Customer now supports points-based scoring in performance evaluations",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-customer-points-based-scoring-evaluations/",
+        "summary": "Amazon Connect Customer now supports points-based scoring to evaluate human and AI agent performance, giving managers more flexibility in configuring evaluation scores. With points-based scoring,…",
+        "date": "2026年8月27日",
+        "date_iso": "2026-08-27",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Glue 5.1 is now available in AWS European Sovereign Cloud Region",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-glue-5-1-european-sovereign-cloud",
+        "summary": "AWS Glue 5.1 is now available in the AWS European Sovereign Cloud Region. AWS Glue is a serverless, scalable data integration service that simplifies discovering, preparing, moving, and integrating…",
+        "date": "2026年8月27日",
+        "date_iso": "2026-08-27",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Backup adds cross-Region backup copy and logically air-gapped vault support for Amazon DocumentDB in nine…",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-backup-cross-region-air-gapped-docdb/",
+        "summary": "AWS Backup now supports copying Amazon DocumentDB backups across AWS Regions and storing them in logically air-gapped vaults in nine additional AWS Regions: Asia Pacific (Hong Kong, Jakarta,…",
+        "date": "2026年8月26日",
+        "date_iso": "2026-08-26",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 R8id instances are now available in additional AWS Regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8id/",
+        "summary": "Amazon Elastic Compute Cloud (Amazon EC2) R8id instances are now available in additional regions. R8id instances are now available in Asia Pacific (Mumbai, Malaysia, Sydney), Canada (Central), and…",
+        "date": "2026年8月26日",
+        "date_iso": "2026-08-26",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 C8id and M8id instances are now available in additional AWS Regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-c8id-m8id-aws-regions/",
+        "summary": "Amazon Elastic Compute Cloud (Amazon EC2) C8id and M8id instances with up to 22.8 TB of local NVMe-based SSD block-level storage are now available in additional regions. C8id instances are now…",
+        "date": "2026年8月26日",
+        "date_iso": "2026-08-26",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
       {
         "title": "AWS IoT Core now supports native InfluxDB routing for time-series data",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iot-core-influxdb/",
@@ -245,16 +325,6 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon RDS for PostgreSQL supports minor versions 18.6, 17.11, 16.15, 15.19, and 14.24",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-postgresql-18-6-17-11-16-15-15-19-14-24/",
-        "summary": "Amazon Relational Database Service (RDS) for PostgreSQL now supports the latest minor versions 18.6, 17.11, 16.15, 15.19, and 14.24. We recommend that you upgrade to the latest minor versions to…",
-        "date": "2026年8月26日",
-        "date_iso": "2026-08-26",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
         "title": "Amazon Connect Customer now lets you update the customer profile on a case or add a profile after a case is opened",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-cases-flexible-profiles/",
         "summary": "Amazon Connect Customer now lets agents change the profile on a case or choose a profile after the case is opened. If a case is linked to the wrong customer, agents can update the profile to keep…",
@@ -262,6 +332,16 @@
         "date_iso": "2026-08-26",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon RDS for PostgreSQL supports minor versions 18.6, 17.11, 16.15, 15.19, and 14.24",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-postgresql-18-6-17-11-16-15-15-19-14-24/",
+        "summary": "Amazon Relational Database Service (RDS) for PostgreSQL now supports the latest minor versions 18.6, 17.11, 16.15, 15.19, and 14.24. We recommend that you upgrade to the latest minor versions to…",
+        "date": "2026年8月26日",
+        "date_iso": "2026-08-26",
+        "category": "database-tag",
+        "cat_label": "データベース",
         "tag": "AWS"
       },
       {
@@ -323,89 +403,19 @@
         "category": "security-tag",
         "cat_label": "セキュリティ",
         "tag": "AWS"
-      },
-      {
-        "title": "AWS Lambda functions now support full IAM resource-based policies",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-lambda-full-iam-resource-based-policies/",
-        "summary": "AWS Lambda functions now support full Identity and Access Management (IAM) resource-based policies , enabling platform admins and security teams to define granular access permissions using the full…",
-        "date": "2026年8月25日",
-        "date_iso": "2026-08-25",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon GameLift Servers enhanced DDoS Protection now available",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-gamelift-servers-enhanced-ddos-protection",
-        "summary": "Amazon GameLift Servers now offers Enhanced DDoS Protection, a new layer of protection that defends game servers from common network and transport layer DDoS attacks with no configuration required.…",
-        "date": "2026年8月25日",
-        "date_iso": "2026-08-25",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon ECS now automatically detects and repairs container instances with impaired agent connectivity",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ecs-agent-connectivity-health",
-        "summary": "Amazon Elastic Container Service (Amazon ECS) now&nbsp;automatically detects and repairs container instances, enabling customers to reduce undetected workload failures and improve application…",
-        "date": "2026年8月25日",
-        "date_iso": "2026-08-25",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "SageMaker MLflow now supports customer managed keys",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/sagemaker-mlflow-custom-keys",
-        "summary": "SageMaker MLflow now enables customers to encrypt their data using customer-managed keys (CMK) through AWS Key Management Service (KMS). This enhancement allows organizations with strict security and…",
-        "date": "2026年8月25日",
-        "date_iso": "2026-08-25",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EKS now supports multiple external OIDC identity providers per cluster",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-multiple-oidc-providers",
-        "summary": "Amazon Elastic Kubernetes Service (Amazon EKS) now supports multiple external OpenID Connect (OIDC) identity providers per cluster. You can associate up to 10 OIDC identity providers with a single…",
-        "date": "2026年8月25日",
-        "date_iso": "2026-08-25",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Aurora now supports PostgreSQL 18.4, 17.10, 16.14, 15.18, and 14.23",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-aurora-postgresql-18-4-17-10-16-14-15-18-14-23/",
-        "summary": "Amazon Aurora PostgreSQL-Compatible Edition now supports PostgreSQL versions 18.4, 17.10, 16.14, 15.18, and 14.23 which include bug fixes from the PostgreSQL community and Aurora-specific…",
-        "date": "2026年8月25日",
-        "date_iso": "2026-08-25",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "MSK Replicator now supports OAuth 2.0 (SASL/OAUTHBEARER) authentication for replication from external Apache Kafka…",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-msk-replicator-OAuth-support",
-        "summary": "Amazon MSK Replicator now supports OAuth 2.0 (SASL/OAUTHBEARER) authentication for data replication from external Apache Kafka clusters - including on-premises, self-managed on AWS, or other cloud…",
-        "date": "2026年8月25日",
-        "date_iso": "2026-08-25",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SageMaker HyperPod enhances support for Ray",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-sagemaker-hyperpod-ray",
-        "summary": "Amazon SageMaker HyperPod now enhances support for Ray with built-in observability, resilient training, accelerated inference and managed development environments. Ray is a popular open-source…",
-        "date": "2026年8月25日",
-        "date_iso": "2026-08-25",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "August 26, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_26_2026",
+        "summary": "Apigee hybrid Announcement v1.14.8 On August 26, 2026 we released an updated version of the Apigee hybrid software, v1.14.8. For information on upgrading, see Upgrading Apigee hybrid to version…",
+        "date": "2026年8月26日",
+        "date_iso": "2026-08-26",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "GCP"
+      },
       {
         "title": "August 25, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_25_2026",
@@ -595,19 +605,29 @@
         "category": "database-tag",
         "cat_label": "データベース",
         "tag": "GCP"
-      },
-      {
-        "title": "August 06, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_06_2026",
-        "summary": "Cloud Key Management Service Feature Preview: Cloud KMS supports quantum-safe key import. You can use the following quantum-safe import methods: HPKE_KEM_XWING_HKDF_SHA256_AES_256_GCM…",
-        "date": "2026年8月6日",
-        "date_iso": "2026-08-06",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "GCP"
       }
     ],
     "oci": [
+      {
+        "title": "Model Selection, Scheduled Enrichment, and Background SQL Generation Available for Enterprise AI NL2SQL",
+        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/nl2sql-model-selection-background-generation.htm",
+        "summary": "",
+        "date": "2026年8月26日",
+        "date_iso": "2026-08-26",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Console AI Experience Preview: Expanded OC1 Availability and Support Integration",
+        "link": "https://docs.oracle.com/iaas/releasenotes/console/consoleai-preview-oc1-aug-2026.htm",
+        "summary": "",
+        "date": "2026年8月25日",
+        "date_iso": "2026-08-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
       {
         "title": "HeatWave: Blue/Green Deployment",
         "link": "https://docs.oracle.com/iaas/releasenotes/mysql-database/heatwave-blue-green-deployments.htm",
@@ -781,26 +801,6 @@
       {
         "title": "Import Moonshot AI Kimi K3 into OCI Generative AI",
         "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/moonshot-ai-kimi-k3.htm",
-        "summary": "",
-        "date": "2026年8月11日",
-        "date_iso": "2026-08-11",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Import NVIDIA Nemotron 3.5 Lightning Models into OCI Generative AI",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/nvidia-nemotron-3-5-lightning.htm",
-        "summary": "",
-        "date": "2026年8月11日",
-        "date_iso": "2026-08-11",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "OCI Generative AI now available in Oracle US Government Cloud and Oracle US Defense Cloud",
-        "link": "https://docs.oracle.com/iaas/releasenotes/multiple/generative-ai-government.htm",
         "summary": "",
         "date": "2026年8月11日",
         "date_iso": "2026-08-11",
