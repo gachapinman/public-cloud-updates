@@ -1,7 +1,27 @@
 {
-  "updated": "2026年08月29日 00:36 JST",
+  "updated": "2026年08月29日 05:59 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Generally Available: Workload identity support for Azure Files CSI driver (SMB) in Azure",
+        "link": "https://azure.microsoft.com/updates?id=570120",
+        "summary": "The Azure Files Container Storage Interface (CSI) driver in Azure Kubernetes Service (AKS) now supports workload identity for pod-level authentication to SMB file shares. Previously, managed identity…",
+        "date": "2026年8月29日",
+        "date_iso": "2026-08-29",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Azure VM Image Builder in sovereign and air-gapped clouds",
+        "link": "https://azure.microsoft.com/updates?id=570105",
+        "summary": "Overview:Azure VM Image Builder is now generally available in Azure Government, China North 3, Azure Government Secret, and Azure Government Top Secret.You can now use the same managed image-building…",
+        "date": "2026年8月29日",
+        "date_iso": "2026-08-29",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Generally Available: Azure Bastion shareable link expiration",
         "link": "https://azure.microsoft.com/updates?id=570020",
@@ -181,29 +201,59 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: vCore Customization: Disable Multithreading and Configurable Constrained Cores",
-        "link": "https://azure.microsoft.com/updates?id=569051",
-        "summary": "Today, we are announcing the General Availability of VM vCore Customization for Azure Virtual Machines, introducing two new capabilities: Disable Simultaneous Multi-Threading/Hyper-Threading (SMT/HT)…",
-        "date": "2026年8月20日",
-        "date_iso": "2026-08-20",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: BYON (Bring Your Own NIC) in Azure Site Recovery",
-        "link": "https://azure.microsoft.com/updates?id=569515",
-        "summary": "Azure Site Recovery now lets you use and attach an existing, pre-provisioned Network Interface Card (NIC) in the target region for test-failover and failover in the Azure-to-Azure scenario. This…",
-        "date": "2026年8月20日",
-        "date_iso": "2026-08-20",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "AWS Transform now in scope for FedRAMP Class C",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-transform-fedramp-class-c/",
+        "summary": "AWS Transform is now in scope for FedRAMP Class C (formerly Moderate baseline) in the US East (Ohio) Region. You can now use AWS Transform to build applications and run workloads that are subject to…",
+        "date": "2026年8月29日",
+        "date_iso": "2026-08-29",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 P6-B300 instances are now available in additional AWS Regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-p6-b300-instances-available-additional-regions",
+        "summary": "Starting today, Amazon Elastic Cloud Compute (Amazon EC2) P6-B300 instances are available in Asia Pacific (Hyderabad) and South America (Sao Paulo) Regions. P6-B300 instances provide 8xNVIDIA…",
+        "date": "2026年8月29日",
+        "date_iso": "2026-08-29",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Aurora MySQL 3.13 (compatible with MySQL 8.0.45) is generally available",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-aurora-mysql-313-available/",
+        "summary": "Starting today, Amazon Aurora MySQL-Compatible Edition 3 (compatible with MySQL 8.0) supports MySQL 8.0.45, which includes community MySQL fixes and Aurora-specific improvements. For detailed…",
+        "date": "2026年8月29日",
+        "date_iso": "2026-08-29",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon CloudWatch agent adds support for journald logs",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudwatch-agent-journald/",
+        "summary": "AWS announces support for collecting systemd journal (journald) logs with the Amazon CloudWatch agent. You can now configure the CloudWatch agent to read log entries directly from the systemd journal…",
+        "date": "2026年8月29日",
+        "date_iso": "2026-08-29",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "SpaceXAI Grok 4.6 now available on Amazon Bedrock in AWS GovCloud (US)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/spacexai-grok-4-6-govcloud/",
+        "summary": "Amazon Bedrock in AWS GovCloud (US) now supports SpaceXAI Grok 4.6, a frontier model built for coding, agentic tasks, and knowledge work. Grok 4.6 is SpaceXAI’s latest flagship model, built for…",
+        "date": "2026年8月28日",
+        "date_iso": "2026-08-28",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
       {
         "title": "Cosmos3-Edge, Cosmos3-Nano, and Cosmos3-Super models now available on Amazon SageMaker JumpStart",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/cosmos3-edge-cosmos3-nano-cosmos3-super-on-sagemaker-jumpstart/",
@@ -237,7 +287,7 @@
       {
         "title": "Amazon Redshift integrates with Agent Toolkit for AWS for AI-assisted data warehouse management",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/redshift-agenttoolkit-for-ai-assisted-datawarehouse-mgmt",
-        "summary": "Amazon Redshift now integrates with the Agent Toolkit for AWS , enabling you to build, query, troubleshoot, and migrate to Amazon Redshift data warehouses and date lakes directly from AI agents such…",
+        "summary": "Amazon Redshift now integrates with the Agent Toolkit for AWS , enabling you to build, query, troubleshoot, and migrate to Amazon Redshift data warehouses and data lakes directly from AI agents such…",
         "date": "2026年8月28日",
         "date_iso": "2026-08-28",
         "category": "ai-tag",
@@ -353,59 +403,19 @@
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "AWS"
-      },
-      {
-        "title": "Mountpoint for Amazon S3 adds memory usage controls",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/mountpoint-for-S3-adds-memory-usage-controls",
-        "summary": "Mountpoint for Amazon S3 can now limit memory usage, either automatically based on the environment it runs in or with a limit that you define. This lets you run Mountpoint alongside memory-intensive…",
-        "date": "2026年8月27日",
-        "date_iso": "2026-08-27",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Connect Customer now supports points-based scoring in performance evaluations",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-customer-points-based-scoring-evaluations/",
-        "summary": "Amazon Connect Customer now supports points-based scoring to evaluate human and AI agent performance, giving managers more flexibility in configuring evaluation scores. With points-based scoring,…",
-        "date": "2026年8月27日",
-        "date_iso": "2026-08-27",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Glue 5.1 is now available in AWS European Sovereign Cloud Region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-glue-5-1-european-sovereign-cloud",
-        "summary": "AWS Glue 5.1 is now available in the AWS European Sovereign Cloud Region. AWS Glue is a serverless, scalable data integration service that simplifies discovering, preparing, moving, and integrating…",
-        "date": "2026年8月27日",
-        "date_iso": "2026-08-27",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Backup adds cross-Region backup copy and logically air-gapped vault support for Amazon DocumentDB in nine…",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-backup-cross-region-air-gapped-docdb/",
-        "summary": "AWS Backup now supports copying Amazon DocumentDB backups across AWS Regions and storing them in logically air-gapped vaults in nine additional AWS Regions: Asia Pacific (Hong Kong, Jakarta,…",
-        "date": "2026年8月26日",
-        "date_iso": "2026-08-26",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 R8id instances are now available in additional AWS Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8id/",
-        "summary": "Amazon Elastic Compute Cloud (Amazon EC2) R8id instances are now available in additional regions. R8id instances are now available in Asia Pacific (Mumbai, Malaysia, Sydney), Canada (Central), and…",
-        "date": "2026年8月26日",
-        "date_iso": "2026-08-26",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "August 28, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_28_2026",
+        "summary": "Application Integration Announcement Upcoming authorization changes for integration runs Application Integration is updating how identities are handled for integration runs. Every run will act as…",
+        "date": "2026年8月28日",
+        "date_iso": "2026-08-28",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "GCP"
+      },
       {
         "title": "August 27, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_27_2026",
@@ -594,16 +604,6 @@
         "date_iso": "2026-08-09",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "GCP"
-      },
-      {
-        "title": "August 08, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_08_2026",
-        "summary": "Google SecOps SOAR Announcement Release 6.3.96 is now available for all regions.",
-        "date": "2026年8月8日",
-        "date_iso": "2026-08-08",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "GCP"
       }
     ],
