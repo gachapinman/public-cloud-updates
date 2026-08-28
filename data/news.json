@@ -1,5 +1,5 @@
 {
-  "updated": "2026年08月28日 20:25 JST",
+  "updated": "2026年08月29日 00:36 JST",
   "clouds": {
     "azure": [
       {
@@ -609,6 +609,16 @@
     ],
     "oci": [
       {
+        "title": "OCI Kubernetes Engine (OKE) support for virtual nodes using persistent volumes backed by File Storage service",
+        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng_virtual-nodes-persistent-storage-support.htm",
+        "summary": "",
+        "date": "2026年8月28日",
+        "date_iso": "2026-08-28",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "OCI"
+      },
+      {
         "title": "Attach a file when creating a technical support request",
         "link": "https://docs.oracle.com/iaas/releasenotes/support/attach-new-request.htm",
         "summary": "",
@@ -779,16 +789,6 @@
         "tag": "OCI"
       },
       {
-        "title": "Use BFD and BGP authentication with Google Cloud",
-        "link": "https://docs.oracle.com/iaas/releasenotes/multicloud/google-cloud-bfd-bgp.htm",
-        "summary": "",
-        "date": "2026年8月14日",
-        "date_iso": "2026-08-14",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "OCI"
-      },
-      {
         "title": "OCI Kubernetes Engine (OKE) support for rolling back managed nodes to an earlier Kubernetes version",
         "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng_K8s-version-rollback.htm",
         "summary": "",
@@ -799,13 +799,13 @@
         "tag": "OCI"
       },
       {
-        "title": "OCI Logging supports dual-stack endpoints for IPv6",
-        "link": "https://docs.oracle.com/iaas/releasenotes/logging/IPv6.htm",
+        "title": "Use BFD and BGP authentication with Google Cloud",
+        "link": "https://docs.oracle.com/iaas/releasenotes/multicloud/google-cloud-bfd-bgp.htm",
         "summary": "",
-        "date": "2026年8月13日",
-        "date_iso": "2026-08-13",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
+        "date": "2026年8月14日",
+        "date_iso": "2026-08-14",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
         "tag": "OCI"
       }
     ]
