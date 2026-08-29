@@ -1,5 +1,5 @@
 {
-  "updated": "2026年08月29日 05:59 JST",
+  "updated": "2026年08月29日 16:06 JST",
   "clouds": {
     "azure": [
       {
@@ -205,6 +205,36 @@
     ],
     "aws": [
       {
+        "title": "Amazon EC2 C8gn instances are now available in AWS Europe (Paris) region",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-c8gn-europe-paris/",
+        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8gn instances, powered by the latest-generation AWS Graviton4 processors, are available in the AWS Europe (Paris) region. The C8gn instances…",
+        "date": "2026年8月29日",
+        "date_iso": "2026-08-29",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Bedrock AgentCore Memory now supports fine-grained access control",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/agentcorememory-fine-grained-access-control",
+        "summary": "Amazon Bedrock AgentCore Memory now supports fine-grained access control (FGAC), enabling you to enforce per-user and per-tenant memory isolation through AgentCore Gateway without building custom…",
+        "date": "2026年8月29日",
+        "date_iso": "2026-08-29",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Bedrock AgentCore Memory now supports flexible namespace variables",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/agentcorememory-flexible-namespaces",
+        "summary": "Amazon Bedrock AgentCore Memory now lets developers define flexible namespace variables to scope long-term memories along any application-specific dimension - such as organization, tenant, team, or…",
+        "date": "2026年8月29日",
+        "date_iso": "2026-08-29",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
         "title": "AWS Transform now in scope for FedRAMP Class C",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-transform-fedramp-class-c/",
         "summary": "AWS Transform is now in scope for FedRAMP Class C (formerly Moderate baseline) in the US East (Ohio) Region. You can now use AWS Transform to build applications and run workloads that are subject to…",
@@ -225,16 +255,6 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon Aurora MySQL 3.13 (compatible with MySQL 8.0.45) is generally available",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-aurora-mysql-313-available/",
-        "summary": "Starting today, Amazon Aurora MySQL-Compatible Edition 3 (compatible with MySQL 8.0) supports MySQL 8.0.45, which includes community MySQL fixes and Aurora-specific improvements. For detailed…",
-        "date": "2026年8月29日",
-        "date_iso": "2026-08-29",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
         "title": "Amazon CloudWatch agent adds support for journald logs",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudwatch-agent-journald/",
         "summary": "AWS announces support for collecting systemd journal (journald) logs with the Amazon CloudWatch agent. You can now configure the CloudWatch agent to read log entries directly from the systemd journal…",
@@ -242,6 +262,16 @@
         "date_iso": "2026-08-29",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Aurora MySQL 3.13 (compatible with MySQL 8.0.45) is generally available",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-aurora-mysql-313-available/",
+        "summary": "Starting today, Amazon Aurora MySQL-Compatible Edition 3 (compatible with MySQL 8.0) supports MySQL 8.0.45, which includes community MySQL fixes and Aurora-specific improvements. For detailed…",
+        "date": "2026年8月29日",
+        "date_iso": "2026-08-29",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "AWS"
       },
       {
@@ -370,36 +400,6 @@
         "summary": "Today, we're announcing that Amazon Elastic VMware Service (Amazon EVS) now supports the i7i.metal-48xl Amazon Elastic Cloud Compute (Amazon EC2) bare-metal instance type, offering a higher…",
         "date": "2026年8月28日",
         "date_iso": "2026-08-28",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Aurora DSQL now supports foreign key constraints",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aurora-dsql-foreign-key-constraints/",
-        "summary": "Amazon Aurora DSQL now lets you add foreign key constraints to new and existing tables. Aurora DSQL is a serverless, distributed SQL database with PostgreSQL compatibility and active-active…",
-        "date": "2026年8月27日",
-        "date_iso": "2026-08-27",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Cognito adds admin API operation to reset user TOTP configurations",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cognito-totp-reset/",
-        "summary": "Amazon Cognito now provides a new admin API operation to reset a user's time-based one-time Password (TOTP) multi-factor authentication (MFA) configuration. When users lose access to their TOTP…",
-        "date": "2026年8月27日",
-        "date_iso": "2026-08-27",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Connect Customer now supports unplanned shrinkage in agent schedules",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-customer-unplanned-shrinkage/",
-        "summary": "Amazon Connect Customer now enables managers to input unplanned shrinkage in agent schedules, providing a more accurate picture of staffing due to unscheduled agent absences such as late logins or…",
-        "date": "2026年8月27日",
-        "date_iso": "2026-08-27",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "AWS"
