@@ -1,5 +1,5 @@
 {
-  "updated": "2026年08月29日 23:41 JST",
+  "updated": "2026年08月30日 14:25 JST",
   "clouds": {
     "azure": [
       {
@@ -255,16 +255,6 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon Aurora MySQL 3.13 (compatible with MySQL 8.0.45) is generally available",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-aurora-mysql-313-available/",
-        "summary": "Starting today, Amazon Aurora MySQL-Compatible Edition 3 (compatible with MySQL 8.0) supports MySQL 8.0.45, which includes community MySQL fixes and Aurora-specific improvements. For detailed…",
-        "date": "2026年8月29日",
-        "date_iso": "2026-08-29",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
         "title": "Amazon CloudWatch agent adds support for journald logs",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudwatch-agent-journald/",
         "summary": "AWS announces support for collecting systemd journal (journald) logs with the Amazon CloudWatch agent. You can now configure the CloudWatch agent to read log entries directly from the systemd journal…",
@@ -272,6 +262,16 @@
         "date_iso": "2026-08-29",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Aurora MySQL 3.13 (compatible with MySQL 8.0.45) is generally available",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-aurora-mysql-313-available/",
+        "summary": "Starting today, Amazon Aurora MySQL-Compatible Edition 3 (compatible with MySQL 8.0) supports MySQL 8.0.45, which includes community MySQL fixes and Aurora-specific improvements. For detailed…",
+        "date": "2026年8月29日",
+        "date_iso": "2026-08-29",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "AWS"
       },
       {
@@ -459,11 +459,11 @@
       {
         "title": "August 24, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_24_2026",
-        "summary": "Backup and DR Feature Backup vault support for Filestore instances encrypted with customer-managed encryption keys (CMEK) is now generally available (GA). When you back up Filestore instances to a…",
+        "summary": "Anthos Config Management Change Addressed multiple Common Vulnerabilities and Exposures (CVEs) by updating dependencies. Feature You can now disable monitoring for specific custom RootSync or…",
         "date": "2026年8月24日",
         "date_iso": "2026-08-24",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "GCP"
       },
       {
