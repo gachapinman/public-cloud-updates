@@ -1,5 +1,5 @@
 {
-  "updated": "2026年08月31日 19:02 JST",
+  "updated": "2026年09月01日 02:14 JST",
   "clouds": {
     "azure": [
       {
@@ -205,6 +205,16 @@
     ],
     "aws": [
       {
+        "title": "Amazon OpenSearch Service adds new Cluster Insights for faster diagnosis of cluster status",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/opensearch-cluster-status-insight/",
+        "summary": "Amazon OpenSearch Service has expanded Cluster Insights with 17 new insights that identify the root causes behind Red and Yellow cluster status and provide actionable recommendations to resolve them.…",
+        "date": "2026年9月1日",
+        "date_iso": "2026-09-01",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon EC2 C8gn instances are now available in AWS Europe (Paris) region",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-c8gn-europe-paris/",
         "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8gn instances, powered by the latest-generation AWS Graviton4 processors, are available in the AWS Europe (Paris) region. The C8gn instances…",
@@ -255,13 +265,13 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon Aurora MySQL 3.13 (compatible with MySQL 8.0.45) is generally available",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-aurora-mysql-313-available/",
-        "summary": "Starting today, Amazon Aurora MySQL-Compatible Edition 3 (compatible with MySQL 8.0) supports MySQL 8.0.45, which includes community MySQL fixes and Aurora-specific improvements. For detailed…",
+        "title": "Amazon EMR on EKS now supports job run concurrency controls",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-emr-eks/",
+        "summary": "Amazon EMR on EKS lets you run open-source big data frameworks such as Apache Spark and Flink on AWS EKS(Elastic Kubernetes Service) clusters. You submit jobs to a virtual cluster, which maps to a…",
         "date": "2026年8月29日",
         "date_iso": "2026-08-29",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
         "tag": "AWS"
       },
       {
@@ -272,6 +282,16 @@
         "date_iso": "2026-08-29",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Aurora MySQL 3.13 (compatible with MySQL 8.0.45) is generally available",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-aurora-mysql-313-available/",
+        "summary": "Starting today, Amazon Aurora MySQL-Compatible Edition 3 (compatible with MySQL 8.0) supports MySQL 8.0.45, which includes community MySQL fixes and Aurora-specific improvements. For detailed…",
+        "date": "2026年8月29日",
+        "date_iso": "2026-08-29",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "AWS"
       },
       {
@@ -383,29 +403,19 @@
         "category": "storage-tag",
         "cat_label": "ストレージ",
         "tag": "AWS"
-      },
-      {
-        "title": "AWS Backup adds cross-Region and cross-account backup support for Amazon FSx for NetApp ONTAP",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-backup-amazon-fsx-netapp-cross-account-region/",
-        "summary": "AWS Backup now supports copying Amazon FSx for NetApp ONTAP backups across AWS Regions and accounts. You can copy your FSx for NetApp ONTAP backups to another AWS Region, another AWS account, or…",
-        "date": "2026年8月28日",
-        "date_iso": "2026-08-28",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EVS now supports i7i.metal-48xl Amazon EC2 instance type",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-evs-i7i-48xl",
-        "summary": "Today, we're announcing that Amazon Elastic VMware Service (Amazon EVS) now supports the i7i.metal-48xl Amazon Elastic Cloud Compute (Amazon EC2) bare-metal instance type, offering a higher…",
-        "date": "2026年8月28日",
-        "date_iso": "2026-08-28",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "August 31, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_31_2026",
+        "summary": "Datastream Feature You can now create a Datastream stream directly from the overview page of your Cloud SQL instances using the automated flow. For more information, see Create a Cloud SQL stream…",
+        "date": "2026年8月31日",
+        "date_iso": "2026-08-31",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "GCP"
+      },
       {
         "title": "August 30, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_30_2026",
@@ -592,16 +602,6 @@
         "summary": "Access Approval Feature Agent Identity is generally available (GA) . Access Transparency Feature Agent Identity is generally available (GA) . Apigee API hub Feature Configure and deploy MCP servers…",
         "date": "2026年8月12日",
         "date_iso": "2026-08-12",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "August 11, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_11_2026",
-        "summary": "Access Approval Feature Datastream is generally available (GA) . Access Transparency Feature Datastream is generally available (GA) . Apigee hybrid Announcement v1.16.9 On August 11, 2026 we released…",
-        "date": "2026年8月11日",
-        "date_iso": "2026-08-11",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
