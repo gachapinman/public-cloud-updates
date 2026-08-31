@@ -1,5 +1,5 @@
 {
-  "updated": "2026年08月30日 23:31 JST",
+  "updated": "2026年08月31日 14:37 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "August 30, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#August_30_2026",
+        "summary": "Google SecOps SOAR Announcement Release 6.3.99 is being rolled out to the first phase of regions as listed here . This release contains internal and customer bug fixes.",
+        "date": "2026年8月30日",
+        "date_iso": "2026-08-30",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "August 29, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_29_2026",
         "summary": "Google SecOps SOAR Announcement Release 6.3.98 is now available for all regions.",
@@ -592,16 +602,6 @@
         "summary": "Access Approval Feature Datastream is generally available (GA) . Access Transparency Feature Datastream is generally available (GA) . Apigee hybrid Announcement v1.16.9 On August 11, 2026 we released…",
         "date": "2026年8月11日",
         "date_iso": "2026-08-11",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "August 10, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_10_2026",
-        "summary": "BigQuery Feature BigQuery now supports the gemini-3.1-flash-lite and gemini-3.5-flash GA models, which are available for the us , eu , and global multi-regional endpoints. You can use these models in…",
-        "date": "2026年8月10日",
-        "date_iso": "2026-08-10",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
