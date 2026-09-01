@@ -1,5 +1,5 @@
 {
-  "updated": "2026年09月01日 14:11 JST",
+  "updated": "2026年09月01日 17:52 JST",
   "clouds": {
     "azure": [
       {
@@ -255,6 +255,16 @@
         "tag": "AWS"
       },
       {
+        "title": "Amazon Connect Global Resiliency now supports cross-region routing of contacts across two active AWS regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-global-resiliency-cross-region-routing/",
+        "summary": "Amazon Connect Global Resiliency now supports cross-region routing of contacts to agents across two linked AWS regions. For example, a contact arriving in US East (N. Virginia) is offered to the…",
+        "date": "2026年9月1日",
+        "date_iso": "2026-09-01",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon Redshift now supports Apache Iceberg v3 tables",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-redshift-supports-apache-iceberg-v3",
         "summary": "Amazon Redshift now supports reading from and writing to Apache Iceberg v3 tables in your data lake. Apache Iceberg is an open table format, and its v3 release adds several new features.&nbsp;With…",
@@ -388,16 +398,6 @@
         "title": "Amazon Kinesis Data Streams announces data delivery to general purpose Amazon S3 buckets",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/kinesis/data-delivery-general-purpose-s3-buckets",
         "summary": "Amazon Kinesis Data Streams now delivers streaming data directly to general purpose Amazon S3 buckets, providing the easiest way to ingest and deliver streaming data to S3 without building or…",
-        "date": "2026年8月29日",
-        "date_iso": "2026-08-29",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Kinesis Data Streams announces streaming tables, delivering data to Apache Iceberg tables on Amazon S3 Tables",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/kinesis/data-delivery-s3-tables",
-        "summary": "Amazon Kinesis Data Streams introduces streaming tables, a new fully serverless capability that continuously delivers data from Kinesis streams to Amazon S3 Tables in Apache Iceberg format. Streaming…",
         "date": "2026年8月29日",
         "date_iso": "2026-08-29",
         "category": "storage-tag",
