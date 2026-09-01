@@ -1,5 +1,5 @@
 {
-  "updated": "2026年09月01日 17:52 JST",
+  "updated": "2026年09月01日 23:18 JST",
   "clouds": {
     "azure": [
       {
@@ -205,6 +205,16 @@
     ],
     "aws": [
       {
+        "title": "Amazon CloudWatch now supports warm-up periods for alarms",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudwatch-alarms-warmup-period",
+        "summary": "Amazon CloudWatch now lets you configure a warm-up period for metric alarms and log alarms, delaying alarm evaluation for a set time after the alarm is created. This reduces noise from missing data…",
+        "date": "2026年9月1日",
+        "date_iso": "2026-09-01",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon DocumentDB now supports direct major version upgrades to version 8.0",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/documentdb-major-version-upgrade-8-0/",
         "summary": "Amazon DocumentDB (with MongoDB compatibility) now supports in-place major version upgrades (MVU) directly from engine versions 3.6 and 4.0 to version 8.0. This upgrade capability removes the need…",
@@ -392,16 +402,6 @@
         "date_iso": "2026-08-31",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Kinesis Data Streams announces data delivery to general purpose Amazon S3 buckets",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/kinesis/data-delivery-general-purpose-s3-buckets",
-        "summary": "Amazon Kinesis Data Streams now delivers streaming data directly to general purpose Amazon S3 buckets, providing the easiest way to ingest and deliver streaming data to S3 without building or…",
-        "date": "2026年8月29日",
-        "date_iso": "2026-08-29",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
         "tag": "AWS"
       }
     ],
@@ -609,6 +609,46 @@
     ],
     "oci": [
       {
+        "title": "Monitor and Manage Scheduler Jobs",
+        "link": "https://docs.oracle.com/iaas/releasenotes/database-management/scheduler-jobs.htm",
+        "summary": "",
+        "date": "2026年9月1日",
+        "date_iso": "2026-09-01",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Manage SQL Profiles",
+        "link": "https://docs.oracle.com/iaas/releasenotes/database-management/sql-profiles.htm",
+        "summary": "",
+        "date": "2026年9月1日",
+        "date_iso": "2026-09-01",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "OCI"
+      },
+      {
+        "title": "Monitor SQL Firewall",
+        "link": "https://docs.oracle.com/iaas/releasenotes/database-management/sql-firewall.htm",
+        "summary": "",
+        "date": "2026年9月1日",
+        "date_iso": "2026-09-01",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "OCI"
+      },
+      {
+        "title": "New Autonomous AI Database Activity Overview Dashboard",
+        "link": "https://docs.oracle.com/iaas/releasenotes/database-management/adb-activity-overview-dashboard.htm",
+        "summary": "",
+        "date": "2026年9月1日",
+        "date_iso": "2026-09-01",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
         "title": "OCI Kubernetes Engine (OKE) support for virtual nodes using persistent volumes backed by File Storage service",
         "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng_virtual-nodes-persistent-storage-support.htm",
         "summary": "",
@@ -766,46 +806,6 @@
         "date_iso": "2026-08-18",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Changes to DBMS_CLOUD.EXPORT_DATA Parquet Type Mappings",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-08-export-data-changes.htm",
-        "summary": "",
-        "date": "2026年8月18日",
-        "date_iso": "2026-08-18",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "OCI"
-      },
-      {
-        "title": "External File System Support for Workload Capture and Replay",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-08-external-file-system.htm",
-        "summary": "",
-        "date": "2026年8月18日",
-        "date_iso": "2026-08-18",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "OCI Kubernetes Engine (OKE) support for rolling back managed nodes to an earlier Kubernetes version",
-        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng_K8s-version-rollback.htm",
-        "summary": "",
-        "date": "2026年8月14日",
-        "date_iso": "2026-08-14",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "OCI"
-      },
-      {
-        "title": "Use BFD and BGP authentication with Google Cloud",
-        "link": "https://docs.oracle.com/iaas/releasenotes/multicloud/google-cloud-bfd-bgp.htm",
-        "summary": "",
-        "date": "2026年8月14日",
-        "date_iso": "2026-08-14",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
         "tag": "OCI"
       }
     ]
