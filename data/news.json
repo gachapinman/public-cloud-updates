@@ -1,5 +1,5 @@
 {
-  "updated": "2026年09月02日 17:05 JST",
+  "updated": "2026年09月02日 22:53 JST",
   "clouds": {
     "azure": [
       {
@@ -609,6 +609,16 @@
     ],
     "oci": [
       {
+        "title": "Update Multiple Credential Attributes with DBMS_CLOUD.UPDATE_CREDENTIAL",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-09-update-multiple-credential.htm",
+        "summary": "",
+        "date": "2026年9月1日",
+        "date_iso": "2026-09-01",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "OCI"
+      },
+      {
         "title": "Monitor and Manage Scheduler Jobs",
         "link": "https://docs.oracle.com/iaas/releasenotes/database-management/scheduler-jobs.htm",
         "summary": "",
@@ -699,6 +709,16 @@
         "tag": "OCI"
       },
       {
+        "title": "Maintenance Schedule Selection in OCI",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-08-maintenance-schedule.htm",
+        "summary": "",
+        "date": "2026年8月25日",
+        "date_iso": "2026-08-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
         "title": "Console AI Experience Preview: Expanded OC1 Availability and Support Integration",
         "link": "https://docs.oracle.com/iaas/releasenotes/console/consoleai-preview-oc1-aug-2026.htm",
         "summary": "",
@@ -726,16 +746,6 @@
         "date_iso": "2026-08-25",
         "category": "network-tag",
         "cat_label": "ネットワーク",
-        "tag": "OCI"
-      },
-      {
-        "title": "Maintenance Schedule Selection in OCI",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-08-maintenance-schedule.htm",
-        "summary": "",
-        "date": "2026年8月25日",
-        "date_iso": "2026-08-25",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "OCI"
       },
       {
@@ -789,23 +799,13 @@
         "tag": "OCI"
       },
       {
-        "title": "Oracle Security Critical Patch Update (CSPU) August 2026 for Oracle Java SE",
-        "link": "https://docs.oracle.com/iaas/releasenotes/java-management/jdk-cspu-august-2026.htm",
+        "title": "Changes to DBMS_CLOUD.EXPORT_DATA Parquet Type Mappings",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-08-export-data-changes.htm",
         "summary": "",
         "date": "2026年8月18日",
         "date_iso": "2026-08-18",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "OCI"
-      },
-      {
-        "title": "Autonomous Container Database (ACD) cloning enhancements",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-dedicated/adbd-acd-cloning-enh.htm",
-        "summary": "",
-        "date": "2026年8月18日",
-        "date_iso": "2026-08-18",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
+        "category": "database-tag",
+        "cat_label": "データベース",
         "tag": "OCI"
       }
     ]
