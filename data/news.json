@@ -1,7 +1,97 @@
 {
-  "updated": "2026年09月01日 23:18 JST",
+  "updated": "2026年09月02日 13:36 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Generally Available: Microsoft Defender for Cloud support for Azure Container Apps (Serverless Containers…",
+        "link": "https://azure.microsoft.com/updates?id=570282",
+        "summary": "Customers can now bring Azure Container Apps environments into Microsoft Defender for Cloud’s Serverless Containers Posture experience, helping security teams extend posture management across more of…",
+        "date": "2026年9月2日",
+        "date_iso": "2026-09-02",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Windows Server 2025 on AKS",
+        "link": "https://azure.microsoft.com/updates?id=570090",
+        "summary": "Organizations running Windows-based workloads on Azure Kubernetes Service (AKS) face increasing pressure to modernize as support timelines for older Windows Server versions approach retirement. To…",
+        "date": "2026年9月2日",
+        "date_iso": "2026-09-02",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Artifact Streaming on AKS",
+        "link": "https://azure.microsoft.com/updates?id=570095",
+        "summary": "You can now accelerate your containerized workloads on Azure Kubernetes Service (AKS) using Azure Container Registry (ACR) with Artifact streaming. Artifact streaming will allow you to scale your…",
+        "date": "2026年9月2日",
+        "date_iso": "2026-09-02",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Confidential VMs for Azure Linux",
+        "link": "https://azure.microsoft.com/updates?id=570100",
+        "summary": "Confidential Virtual Machines (CVM) offer strong security and confidentiality for tenants. CVM for Azure Linux in AKS is now generally available and enables node pools with CVM to target the…",
+        "date": "2026年9月2日",
+        "date_iso": "2026-09-02",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Purchase order mapping available in Microsoft Marketplace",
+        "link": "https://azure.microsoft.com/updates?id=569700",
+        "summary": "Align Microsoft Marketplace purchases to your business's accounting needs. Purchase order mapping helps allocate your Microsoft invoice, including Marketplace purchases, making it easier to reconcile…",
+        "date": "2026年9月2日",
+        "date_iso": "2026-09-02",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Azure Firewall auto-learn SNAT routes",
+        "link": "https://azure.microsoft.com/updates?id=570474",
+        "summary": "Azure Firewall’s auto-learn SNAT routes is now generally available, automatically learning registered and private destination prefixes periodically and applying them as No-SNAT ranges to preserve…",
+        "date": "2026年9月2日",
+        "date_iso": "2026-09-02",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Azure Copilot Observability Agent supports Basic and Auxiliary table plans",
+        "link": "https://azure.microsoft.com/updates?id=570250",
+        "summary": "Azure Copilot Observability Agent, an AI-powered operational companion in Azure Monitor, is now covering Log Analytics data in Basic and Auxiliary table plans during interactive analysis and deep…",
+        "date": "2026年9月2日",
+        "date_iso": "2026-09-02",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Azure Monitor Auxiliary Logs Plan in Azure Government and China regions",
+        "link": "https://azure.microsoft.com/updates?id=569899",
+        "summary": "The Auxiliary table plan in Azure Monitor Logs is a cost-effective option for ingesting and retaining high-volume, verbose logs used for compliance and auditing. Auxiliary Logs is now generally…",
+        "date": "2026年9月2日",
+        "date_iso": "2026-09-02",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Azure Monitor Auxiliary Logs Plan support for Azure tables and plan switching",
+        "link": "https://azure.microsoft.com/updates?id=569904",
+        "summary": "The Auxiliary table plan in Azure Monitor Logs gives you a cost-effective way to ingest and retain high-volume, verbose logs that you keep for compliance and auditing but rarely query. Two highly…",
+        "date": "2026年9月2日",
+        "date_iso": "2026-09-02",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Public Preview: Per-disk resiliency for Azure VMs",
         "link": "https://azure.microsoft.com/updates?id=569711",
@@ -111,99 +201,89 @@
         "category": "container-tag",
         "cat_label": "コンテナ",
         "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Azure 248 and 372 vCPU sizes for D/E v7 series VMs",
-        "link": "https://azure.microsoft.com/updates?id=569546",
-        "summary": "Azure announces the general availability of 248 and 372 vCPU Dl/D/E v7 VM sizes, powered by Intel® Xeon® 6 processors. These general-purpose and memory-optimized VMs deliver up to 20% better compute…",
-        "date": "2026年8月26日",
-        "date_iso": "2026-08-26",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Announcing: Extended Support for Azure Database for PostgreSQL Flexible Server",
-        "link": "https://azure.microsoft.com/updates?id=569526",
-        "summary": "Extended Support for Azure Database for PostgreSQL Flexible Server helps you maintain secure, supported workloads while transitioning to newer PostgreSQL versions. With access to critical security…",
-        "date": "2026年8月25日",
-        "date_iso": "2026-08-25",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: eBPF host routing in Advanced Container Networking Services for AKS",
-        "link": "https://azure.microsoft.com/updates?id=569873",
-        "summary": "eBPF Host Routing in Advanced Container Networking Services for Azure Kubernetes Service (AKS) is now generally available. eBPF Host Routing improves Kubernetes networking performance by moving…",
-        "date": "2026年8月25日",
-        "date_iso": "2026-08-25",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Retirement: Support for Node 22 LTS ends on April 30, 2027",
-        "link": "https://azure.microsoft.com/updates?id=567334",
-        "summary": "On April 30 2027, support for Node 22 LTS will end. Your apps that are hosted on App Service will continue to run, but security updates will no longer be available, and we’ll no longer provide…",
-        "date": "2026年8月25日",
-        "date_iso": "2026-08-25",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Custom block response code and body for Application Gateway WAF",
-        "link": "https://azure.microsoft.com/updates?id=569504",
-        "summary": "Announcing the General Availability of custom block response code and body for WAF integrated with Application Gateway Azure WAF integrated with Application Gateway now supports customizable response…",
-        "date": "2026年8月25日",
-        "date_iso": "2026-08-25",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Summarized advertised gateway prefixes for route advertisement",
-        "link": "https://azure.microsoft.com/updates?id=569743",
-        "summary": "Summarized advertised gateway prefixes for route advertisement is now generally available. You can specify aggregated (summarized) prefixes for an Azure gateway to advertise to your on-premises…",
-        "date": "2026年8月21日",
-        "date_iso": "2026-08-21",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Announcing: Azure Copilot introduces direct access to agents",
-        "link": "https://azure.microsoft.com/updates?id=569685",
-        "summary": "Starting in August 2026, customers can engage directly with Azure Copilot agents to move more quickly from questions to action.With this update:Choose the right agent for your goal. Customers can…",
-        "date": "2026年8月21日",
-        "date_iso": "2026-08-21",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Azure Databricks Lakebase in four additional regions",
-        "link": "https://azure.microsoft.com/updates?id=569684",
-        "summary": "Lakebase is now generally available in four additional Azure regions: North Central US, France Central, Germany West Central, and East Asia. This expansion provides customers with additional…",
-        "date": "2026年8月20日",
-        "date_iso": "2026-08-20",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Azure SQL updates for mid-August 2026",
-        "link": "https://azure.microsoft.com/updates?id=569145",
-        "summary": "In mid-August 2026, the following updates and enhancements were made to Azure SQL: You can customize keyboard shortcuts for Quick Queries, the Results Grid, and the Query Editor directly within…",
-        "date": "2026年8月20日",
-        "date_iso": "2026-08-20",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Amazon Quick now lets you build custom apps with natural language -",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-quick-custom-apps-natural-language/",
+        "summary": "Now generally available, Amazon Quick lets you build custom applications by simply describing them in natural language. Create project trackers, customer dashboards, and training portals in minutes…",
+        "date": "2026年9月2日",
+        "date_iso": "2026-09-02",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Deadline Cloud now supports sharing job bundles",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/deadline-cloud/job-bundle-sharing",
+        "summary": "AWS Deadline Cloud now supports sharing job bundles, giving teams a simple way to distribute and reuse render job templates without manual file distribution. Deadline Cloud is a fully managed service…",
+        "date": "2026年9月2日",
+        "date_iso": "2026-09-02",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon CloudWatch Database Insights now supports self-managed PostgreSQL",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/database-insights-self-managed-postgresql/",
+        "summary": "Today, AWS announces support for self-managed PostgreSQL databases in Amazon CloudWatch Database Insights. Using CloudWatch Database Insights, you can now monitor your self-managed PostgreSQL…",
+        "date": "2026年9月2日",
+        "date_iso": "2026-09-02",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Kinesis Data Streams now supports a dry run feature to validate API requests",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-kinesis-data-streams-api/",
+        "summary": "Amazon Kinesis Data Streams now supports a dry run feature to check whether an API request would succeed without executing the operation. Customers can now set the new optional parameter ‘DryRun’ to…",
+        "date": "2026年9月2日",
+        "date_iso": "2026-09-02",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Backup now supports protecting more than 1,000 Amazon S3 buckets per account",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-backup-more-than-1000-s3-buckets/",
+        "summary": "AWS Backup now supports backup and restore of more than 1,000 Amazon S3 buckets per account, matching the Amazon S3 bucket quota configured for your account. Previously, AWS Backup for Amazon S3…",
+        "date": "2026年9月2日",
+        "date_iso": "2026-09-02",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Connect Customer dashboards now support compact mode",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/connect-dashboards-compact-mode/",
+        "summary": "Amazon Connect Customer now offers compact mode on the analytics dashboards, increasing data density so supervisors can see more of their operational data without scrolling. Compact mode reduces…",
+        "date": "2026年9月2日",
+        "date_iso": "2026-09-02",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon MWAA supports Apache Airflow version 3.3.1",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-mwaa-apache-airflow-3-3-1/",
+        "summary": "Amazon Managed Workflows for Apache Airflow (MWAA) now supports Apache Airflow version 3.3.1, the latest release of the popular open-source workflow orchestration framework. Amazon MWAA is a managed…",
+        "date": "2026年9月2日",
+        "date_iso": "2026-09-02",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Claude Fable 5.1, Anthropic's new frontier model is now available on AWS",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-fable-5-1-aws/",
+        "summary": "Claude Fable 5.1 is generally available on AWS and brings Anthropic's most capable frontier model to all customers. Fable 5.1 delivers frontier intelligence for ambitious tasks across coding,…",
+        "date": "2026年9月1日",
+        "date_iso": "2026-09-01",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
       {
         "title": "Amazon CloudWatch now supports warm-up periods for alarms",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudwatch-alarms-warmup-period",
@@ -212,6 +292,16 @@
         "date_iso": "2026-09-01",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon RDS Custom now supports the latest CU and GDR updates for Microsoft SQL Server",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-custom-supports-latest-cu-gdr-microsoft-sql-server/",
+        "summary": "Amazon Relational Database Service (Amazon RDS) Custom for SQL Server now supports the latest Cumulative Updates (CU) and General Distribution Release (GDR) updates for Microsoft SQL Server. This…",
+        "date": "2026年9月1日",
+        "date_iso": "2026-09-01",
+        "category": "database-tag",
+        "cat_label": "データベース",
         "tag": "AWS"
       },
       {
@@ -232,6 +322,16 @@
         "date_iso": "2026-09-01",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Elemental MediaTailor introduces in-console analytics dashboard for ad monetization and streaming performance",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/mediatailor-analytics-dashboard",
+        "summary": "AWS Elemental MediaTailor now includes an analytics dashboard built directly into the AWS Management Console, giving publishers a global and multi-region view of ad monetization and streaming…",
+        "date": "2026年9月1日",
+        "date_iso": "2026-09-01",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "AWS"
       },
       {
@@ -303,109 +403,19 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "AWS Lambda recursive loop detection is now available in all commercial AWS Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/lambda-recursion-regions",
-        "summary": "AWS Lambda recursive loop detection has expanded support to all commercial AWS Regions. This feature, which is enabled by default, is a guardrail that automatically detects and stops recursive…",
-        "date": "2026年9月1日",
-        "date_iso": "2026-09-01",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Aurora serverless is now available with 30% better performance and smarter scaling in additional AWS Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-aurora-serverless-performance-improvement-additional-regions/",
-        "summary": "Amazon Aurora serverless &nbsp; now delivers up to 30% better performance and enhanced scaling in additional AWS Regions: Asia Pacific (New Zealand), Asia Pacific (Thailand), Africa (Cape Town),…",
-        "date": "2026年9月1日",
-        "date_iso": "2026-09-01",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon OpenSearch Service adds new Cluster Insights for faster diagnosis of cluster status",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/opensearch-cluster-status-insight/",
-        "summary": "Amazon OpenSearch Service has expanded Cluster Insights with 17 new insights that identify the root causes behind Red and Yellow cluster status and provide actionable recommendations to resolve them.…",
-        "date": "2026年9月1日",
-        "date_iso": "2026-09-01",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Agent Registry for centralized agent discovery and governance is now generally available",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-agent-registry-generally-available",
-        "summary": "AWS Agent Registry is now generally available. It provides a private, governed catalog and discovery layer for agents, tools, skills, MCP servers, and custom resources within your organization. Teams…",
-        "date": "2026年9月1日",
-        "date_iso": "2026-09-01",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS announces AWS Interconnect - multicloud connectivity with Microsoft Azure in preview",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-announces-AWS-interconnect-multicloud-microsoft-azure-preview/",
-        "summary": "AWS announces the public preview of AWS Interconnect — multicloud with Microsoft Azure. Customers have been adopting multicloud strategies while migrating more applications to the cloud. They do so…",
-        "date": "2026年9月1日",
-        "date_iso": "2026-09-01",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon MSK Connect now supports restarting connectors",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-msk-connect-restart/",
-        "summary": "Amazon MSK Connect (Amazon Managed Streaming for Apache Kafka Connect) supports restarting newly created connectors and their tasks, enabling fast recovery for streaming data pipelines. Amazon MSK…",
-        "date": "2026年9月1日",
-        "date_iso": "2026-09-01",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon WorkSpaces Applications is now available in three new AWS Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-workspaces-applications-region-expansion",
-        "summary": "Amazon Web Services (AWS) has expanded the regional availability for Amazon WorkSpaces Applications. Starting today, AWS customers can deploy their applications and desktops in the Europe (Zurich),…",
-        "date": "2026年9月1日",
-        "date_iso": "2026-09-01",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Workload Credentials Provider is now available as a one-click install for Linux and Windows",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/workload-credentials-provider-install/",
-        "summary": "Today, AWS Secrets Manager announces one-click installation for the AWS Workload Credentials Provider (AWCP) on Amazon Linux and Windows, reducing setup from a multi-step build-from-source process to…",
-        "date": "2026年8月31日",
-        "date_iso": "2026-08-31",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Automated Security Response on AWS adds AI Toolkit for custom remediations",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/automated-security-response-adds-AI-toolkit/",
-        "summary": "Today, AWS announced four new capabilities for Automated Security Response on AWS (ASR). Customers can now use an AI-driven Toolkit that generates custom remediations using any AI assistant with…",
-        "date": "2026年8月31日",
-        "date_iso": "2026-08-31",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Elastic Beanstalk now supports Active Directory domain join for Windows Server environments",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/elastic-beanstalk-active-directory-domain-join/",
-        "summary": "AWS Elastic Beanstalk now automatically joins the Windows Server instances in your environment to an Active Directory domain that you manage with AWS Directory Service. Previously, running…",
-        "date": "2026年8月31日",
-        "date_iso": "2026-08-31",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "September 01, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_01_2026",
+        "summary": "Apigee UI Announcement On September 1, 2026, we released an updated version of the Apigee UI. Fixed Bug ID Description 547582067 Revisions can now be imported for API proxies and shared flows in a…",
+        "date": "2026年9月1日",
+        "date_iso": "2026-09-01",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "GCP"
+      },
       {
         "title": "August 31, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_31_2026",
@@ -419,11 +429,11 @@
       {
         "title": "August 30, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_30_2026",
-        "summary": "Google SecOps SOAR Announcement Release 6.3.99 is being rolled out to the first phase of regions as listed here . This release contains internal and customer bug fixes.",
+        "summary": "Agent Platform Workbench Change 20260830-2330-rc0 Release Change 20260831.01_p0 Release Change Installed latest packages from upstream dependencies. Change Installed latest packages from upstream…",
         "date": "2026年8月30日",
         "date_iso": "2026-08-30",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "GCP"
       },
       {
@@ -489,7 +499,7 @@
       {
         "title": "August 23, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_23_2026",
-        "summary": "Agent Platform Workbench Change Installed latest packages from upstream dependencies. Change 20260823-2330-rc0 Release Change Installed latest packages from upstream dependencies. Change…",
+        "summary": "Agent Platform Workbench Change 20260823-2330-rc0 Release Change 20260823-2330-rc0 Release Change Installed latest packages from upstream dependencies. Change Installed latest packages from upstream…",
         "date": "2026年8月23日",
         "date_iso": "2026-08-23",
         "category": "compute-tag",
@@ -559,7 +569,7 @@
       {
         "title": "August 16, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_16_2026",
-        "summary": "Agent Platform Workbench Security Updated the bundled Ruby gems rexml and net-imap to patched versions, addressing known vulnerabilities. Change 20260816-2330-rc0 Release Security Updated aiohttp,…",
+        "summary": "Agent Platform Workbench Change 20260816-2330-rc0 Release Change 20260816-2330-rc0 Release Security Updated the bundled Ruby gems rexml and net-imap to patched versions, addressing known…",
         "date": "2026年8月16日",
         "date_iso": "2026-08-16",
         "category": "ai-tag",
@@ -592,16 +602,6 @@
         "summary": "Apigee X Announcement On August 13th, 2026, we began maintenance updates of Apigee instances configured for maintenance windows . If you set a preferred window for maintenance for your instance, and…",
         "date": "2026年8月13日",
         "date_iso": "2026-08-13",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "August 12, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_12_2026",
-        "summary": "Access Approval Feature Agent Identity is generally available (GA) . Access Transparency Feature Agent Identity is generally available (GA) . Apigee API hub Feature Configure and deploy MCP servers…",
-        "date": "2026年8月12日",
-        "date_iso": "2026-08-12",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
