@@ -1,5 +1,5 @@
 {
-  "updated": "2026年09月03日 17:15 JST",
+  "updated": "2026年09月03日 22:53 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "September 03, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_03_2026",
+        "summary": "VPC Service Controls Feature VPC Service Controls feature (Status: Preview ) : VPC Service Controls supports retrieving and updating service perimeters that contain deleted IAM principals. When you…",
+        "date": "2026年9月3日",
+        "date_iso": "2026-09-03",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "September 02, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_02_2026",
         "summary": "AlloyDB for PostgreSQL Feature AlloyDB real-time data access to BigQuery (in Preview ) now offers limit pushdown and runtime projects: Limit pushdown: when you query foreign tables, some LIMIT and…",
@@ -594,16 +604,6 @@
         "date_iso": "2026-08-15",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "August 14, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_14_2026",
-        "summary": "App Engine flexible environment .NET Feature To improve security, starting in August 2026, App Engine opts your application into TLS version 1.2 and later. You can opt out until the end of August…",
-        "date": "2026年8月14日",
-        "date_iso": "2026-08-14",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
         "tag": "GCP"
       }
     ],
