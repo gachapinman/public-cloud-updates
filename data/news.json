@@ -1,7 +1,27 @@
 {
-  "updated": "2026年09月02日 22:53 JST",
+  "updated": "2026年09月03日 13:35 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Public Preview: Azure Front Door profile and route level WAF policies",
+        "link": "https://azure.microsoft.com/updates?id=569804",
+        "summary": "Azure Front Door’s Web Application Firewall (WAF) now supports profile and route level WAF policy associations in public preview. This gives you more flexibility to apply broad baseline protection…",
+        "date": "2026年9月3日",
+        "date_iso": "2026-09-03",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Reader Endpoint for Azure Database for MySQL",
+        "link": "https://azure.microsoft.com/updates?id=569653",
+        "summary": "We’re happy to announce the public preview of reader endpoint support to simplify connection management when using multiple replicas in Azure Database for MySQL - Flexible Server. A reader endpoint…",
+        "date": "2026年9月3日",
+        "date_iso": "2026-09-03",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AZURE"
+      },
       {
         "title": "Generally Available: Microsoft Defender for Cloud support for Azure Container Apps (Serverless Containers…",
         "link": "https://azure.microsoft.com/updates?id=570282",
@@ -181,29 +201,109 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Azure SRE Agent 30-Day Trial",
-        "link": "https://azure.microsoft.com/updates?id=569760",
-        "summary": "New customers can now get started with Azure SRE Agent through a 30-day trial experience. During the trial, customers can create SRE Agents and connect them to your operational tools and data…",
-        "date": "2026年8月27日",
-        "date_iso": "2026-08-27",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Announcing: Aspire 13.5 has shipped",
-        "link": "https://azure.microsoft.com/updates?id=569910",
-        "summary": "Aspire 13.5 refreshes the dashboard and aspire.dev, expands the Interaction Service, adds cross-scope Azure references and persistent Kubernetes volumes, and brings live terminals into the…",
-        "date": "2026年8月26日",
-        "date_iso": "2026-08-26",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Web Search on Amazon Bedrock is now available in AWS GovCloud (US-West)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-web-aws-govcloud/",
+        "summary": "The Web Search built-in server-side tool on Amazon Bedrock is now available in AWS GovCloud (US-West), helping bring grounded web results to compliance-sensitive government and public-sector…",
+        "date": "2026年9月3日",
+        "date_iso": "2026-09-03",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Connect Customer expands automated performance evaluations to Malay",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-customer-automated-evaluations-malay/",
+        "summary": "Amazon Connect Customer now automates evaluations of human and AI agents in Malay using generative AI. Managers define custom evaluation criteria in natural language and receive AI-generated…",
+        "date": "2026年9月3日",
+        "date_iso": "2026-09-03",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Quick adds new tool settings and Model Context Protocol (MCP) sync support for connectors",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-quick-adds-tool-settings-mcp-sync/",
+        "summary": "Amazon Quick connectors let users leverage tools and services such as Outlook, Slack, Salesforce, Jira, and homegrown MCP servers directly into their workflows across chat, agents, apps, flows, and…",
+        "date": "2026年9月3日",
+        "date_iso": "2026-09-03",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Connect Customer announces general availability of agentic CX designer",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/agentic-cx-designer/",
+        "summary": "Amazon Connect Customer announces the general availability of agentic CX designer, a no-code canvas for designing and deploying AI-powered self-service experiences. You can now build and launch voice…",
+        "date": "2026年9月3日",
+        "date_iso": "2026-09-03",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Second-generation AWS Outposts racks now in the AWS GovCloud (US) Regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-outposts-govcloud-us-regions/",
+        "summary": "Second-generation AWS Outposts racks are now supported in the AWS GovCloud (US-East) and AWS GovCloud (US-West) Regions. Outposts racks extend AWS infrastructure, AWS services, APIs, and tools to…",
+        "date": "2026年9月3日",
+        "date_iso": "2026-09-03",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Config now supports 60 new resource types",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-config-new-resource-types/",
+        "summary": "AWS Config now supports 60 additional AWS resource types across key services including Amazon Bedrock,&nbsp; Amazon EC2, Amazon SageMaker, and AWS Organizations. This expansion provides greater…",
+        "date": "2026年9月3日",
+        "date_iso": "2026-09-03",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS User Experience Customization (UXC) is now available in all commercial AWS Regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-uxc-aws-regions",
+        "summary": "AWS User Experience Customization (UXC) is now available in all commercial AWS Regions. UXC enables account administrators to set a custom account color and control which services and Regions appear…",
+        "date": "2026年9月2日",
+        "date_iso": "2026-09-02",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Lambda now supports SnapStart for container image functions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-snapstart-container/",
+        "summary": "Starting today, AWS Lambda supports SnapStart for functions packaged as container images , reducing startup times from several seconds to as low as sub-second. Lambda SnapStart is an opt-in…",
+        "date": "2026年9月2日",
+        "date_iso": "2026-09-02",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon SageMaker Unified Studio CI/CD adds notebook promotion and AI-assisted manifest generation",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-cicd-notebook-ai-manifest/",
+        "summary": "Amazon SageMaker Unified Studio CI/CD expands its open-source deployment toolkit with two new capabilities: (1) an AI agent skill that automates manifest authoring, and (2) native notebook promotion…",
+        "date": "2026年9月2日",
+        "date_iso": "2026-09-02",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon RDS for SQL Server supports additional SQL trace flags",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/rds-sqlserver-supports-additional-trace-flags/",
+        "summary": "Amazon RDS for SQL Server &nbsp;supports 18 additional SQL trace flags that you can enable through database parameter groups. Trace flags are configuration switches that modify SQL Server engine…",
+        "date": "2026年9月2日",
+        "date_iso": "2026-09-02",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
       {
         "title": "Amazon Quick now lets you build custom apps with natural language -",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-quick-custom-apps-natural-language/",
@@ -245,6 +345,16 @@
         "tag": "AWS"
       },
       {
+        "title": "AWS Marketplace reduces listing fee for professional services in multi-product solutions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-marketplace-fee-professional-services/",
+        "summary": "AWS Marketplace now offers a 0% listing fee for professional services purchased as part of a qualifying multi-product solution. This builds on the recent reduction of professional services listing…",
+        "date": "2026年9月2日",
+        "date_iso": "2026-09-02",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
         "title": "AWS Backup now supports protecting more than 1,000 Amazon S3 buckets per account",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-backup-more-than-1000-s3-buckets/",
         "summary": "AWS Backup now supports backup and restore of more than 1,000 Amazon S3 buckets per account, matching the Amazon S3 bucket quota configured for your account. Previously, AWS Backup for Amazon S3…",
@@ -275,6 +385,16 @@
         "tag": "AWS"
       },
       {
+        "title": "AWS Marketplace now supports auto-renewals for private offers",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-marketplace-auto-renewals-for-private-offers",
+        "summary": "AWS Marketplace now supports auto-renewals for private offers. This capability helps sellers and buyers maintain active software and service subscriptions without re-negotiation or re-purchasing at…",
+        "date": "2026年9月2日",
+        "date_iso": "2026-09-02",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
         "title": "Claude Fable 5.1, Anthropic's new frontier model is now available on AWS",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-fable-5-1-aws/",
         "summary": "Claude Fable 5.1 is generally available on AWS and brings Anthropic's most capable frontier model to all customers. Fable 5.1 delivers frontier intelligence for ambitious tasks across coding,…",
@@ -283,129 +403,19 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon CloudWatch now supports warm-up periods for alarms",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudwatch-alarms-warmup-period",
-        "summary": "Amazon CloudWatch now lets you configure a warm-up period for metric alarms and log alarms, delaying alarm evaluation for a set time after the alarm is created. This reduces noise from missing data…",
-        "date": "2026年9月1日",
-        "date_iso": "2026-09-01",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon RDS Custom now supports the latest CU and GDR updates for Microsoft SQL Server",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-custom-supports-latest-cu-gdr-microsoft-sql-server/",
-        "summary": "Amazon Relational Database Service (Amazon RDS) Custom for SQL Server now supports the latest Cumulative Updates (CU) and General Distribution Release (GDR) updates for Microsoft SQL Server. This…",
-        "date": "2026年9月1日",
-        "date_iso": "2026-09-01",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon DocumentDB now supports direct major version upgrades to version 8.0",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/documentdb-major-version-upgrade-8-0/",
-        "summary": "Amazon DocumentDB (with MongoDB compatibility) now supports in-place major version upgrades (MVU) directly from engine versions 3.6 and 4.0 to version 8.0. This upgrade capability removes the need…",
-        "date": "2026年9月1日",
-        "date_iso": "2026-09-01",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "Partner Revenue Measurement expands service coverage for User Agent string capability",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/partner-revenue-measurement-user-agent-expansion/",
-        "summary": "Partner Revenue Measurement User Agent string now supports additional AWS services. Partner Revenue Measurement allows Partners to better understand their AWS revenue impact and product consumption…",
-        "date": "2026年9月1日",
-        "date_iso": "2026-09-01",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Elemental MediaTailor introduces in-console analytics dashboard for ad monetization and streaming performance",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/mediatailor-analytics-dashboard",
-        "summary": "AWS Elemental MediaTailor now includes an analytics dashboard built directly into the AWS Management Console, giving publishers a global and multi-region view of ad monetization and streaming…",
-        "date": "2026年9月1日",
-        "date_iso": "2026-09-01",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Agent Registry agents and MCP servers now available in Amazon Quick",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-agent-registry-agents-mcp-servers-quick/",
-        "summary": "Today, Amazon Quick announces integration with AWS Agent Registry, enabling users to discover and use resources from their organization's AWS Agent Registry directly within Amazon Quick. AWS Agent…",
-        "date": "2026年9月1日",
-        "date_iso": "2026-09-01",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Redshift now supports AWS IAM Identity Center authentication with enhanced VPC routing",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-redshift-supports-idc-evr",
-        "summary": "Amazon Redshift now supports AWS IAM Identity Center authentication for provisioned clusters and serverless workgroups configured with enhanced VPC routing (EVR). You can access Amazon Redshift with…",
-        "date": "2026年9月1日",
-        "date_iso": "2026-09-01",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Timestream for InfluxDB is now available in 8 additional AWS Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-timestream-influxdb-regions/",
-        "summary": "You can now use Amazon Timestream for InfluxDB in the Africa (Cape Town), Asia Pacific (Bangkok), Asia Pacific (Hong Kong), Asia Pacific (Hyderabad), Asia Pacific (Melbourne), Asia Pacific (Seoul),…",
-        "date": "2026年9月1日",
-        "date_iso": "2026-09-01",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Connect Global Resiliency now supports cross-region routing of contacts across two active AWS regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-global-resiliency-cross-region-routing/",
-        "summary": "Amazon Connect Global Resiliency now supports cross-region routing of contacts to agents across two linked AWS regions. For example, a contact arriving in US East (N. Virginia) is offered to the…",
-        "date": "2026年9月1日",
-        "date_iso": "2026-09-01",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Redshift now supports Apache Iceberg v3 tables",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-redshift-supports-apache-iceberg-v3",
-        "summary": "Amazon Redshift now supports reading from and writing to Apache Iceberg v3 tables in your data lake. Apache Iceberg is an open table format, and its v3 release adds several new features.&nbsp;With…",
-        "date": "2026年9月1日",
-        "date_iso": "2026-09-01",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 R9g and R9gd memory optimized instances are now available",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r9g-and-r9gd-memory-optimized-instances-are-now-available/",
-        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R9g and R9gd instances, powered by AWS Graviton5 processors, are generally available. AWS Graviton5 processors are the fifth generation of…",
-        "date": "2026年9月1日",
-        "date_iso": "2026-09-01",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Cognito now supports machine-to-machine authorization without a user pool domain",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cognito-get-client-token/",
-        "summary": "Amazon Cognito now supports the GetClientToken API operation, enabling app clients to obtain access tokens for machine-to-machine (M2M) authorization directly through the AWS SDK, CLI, or API —…",
-        "date": "2026年9月1日",
-        "date_iso": "2026-09-01",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "September 02, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_02_2026",
+        "summary": "AlloyDB for PostgreSQL Feature AlloyDB real-time data access to BigQuery (in Preview ) now offers limit pushdown and runtime projects: Limit pushdown: when you query foreign tables, some LIMIT and…",
+        "date": "2026年9月2日",
+        "date_iso": "2026-09-02",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "GCP"
+      },
       {
         "title": "September 01, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_01_2026",
@@ -595,27 +605,17 @@
         "category": "security-tag",
         "cat_label": "セキュリティ",
         "tag": "GCP"
-      },
-      {
-        "title": "August 13, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_13_2026",
-        "summary": "Apigee X Announcement On August 13th, 2026, we began maintenance updates of Apigee instances configured for maintenance windows . If you set a preferred window for maintenance for your instance, and…",
-        "date": "2026年8月13日",
-        "date_iso": "2026-08-13",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
       }
     ],
     "oci": [
       {
-        "title": "Update Multiple Credential Attributes with DBMS_CLOUD.UPDATE_CREDENTIAL",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-09-update-multiple-credential.htm",
+        "title": "Internet of Things (IoT) introduces Flow Runtime",
+        "link": "https://docs.oracle.com/iaas/releasenotes/internet-of-things/update-09012026.htm",
         "summary": "",
         "date": "2026年9月1日",
         "date_iso": "2026-09-01",
-        "category": "database-tag",
-        "cat_label": "データベース",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "OCI"
       },
       {
@@ -656,6 +656,16 @@
         "date_iso": "2026-09-01",
         "category": "ai-tag",
         "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Update Multiple Credential Attributes with DBMS_CLOUD.UPDATE_CREDENTIAL",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-09-update-multiple-credential.htm",
+        "summary": "",
+        "date": "2026年9月1日",
+        "date_iso": "2026-09-01",
+        "category": "database-tag",
+        "cat_label": "データベース",
         "tag": "OCI"
       },
       {
@@ -709,16 +719,6 @@
         "tag": "OCI"
       },
       {
-        "title": "Maintenance Schedule Selection in OCI",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-08-maintenance-schedule.htm",
-        "summary": "",
-        "date": "2026年8月25日",
-        "date_iso": "2026-08-25",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
         "title": "Console AI Experience Preview: Expanded OC1 Availability and Support Integration",
         "link": "https://docs.oracle.com/iaas/releasenotes/console/consoleai-preview-oc1-aug-2026.htm",
         "summary": "",
@@ -746,6 +746,16 @@
         "date_iso": "2026-08-25",
         "category": "network-tag",
         "cat_label": "ネットワーク",
+        "tag": "OCI"
+      },
+      {
+        "title": "Maintenance Schedule Selection in OCI",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-08-maintenance-schedule.htm",
+        "summary": "",
+        "date": "2026年8月25日",
+        "date_iso": "2026-08-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "OCI"
       },
       {
@@ -796,16 +806,6 @@
         "date_iso": "2026-08-19",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Changes to DBMS_CLOUD.EXPORT_DATA Parquet Type Mappings",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-08-export-data-changes.htm",
-        "summary": "",
-        "date": "2026年8月18日",
-        "date_iso": "2026-08-18",
-        "category": "database-tag",
-        "cat_label": "データベース",
         "tag": "OCI"
       }
     ]
