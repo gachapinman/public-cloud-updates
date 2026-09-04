@@ -1,5 +1,5 @@
 {
-  "updated": "2026年09月04日 13:36 JST",
+  "updated": "2026年09月04日 17:11 JST",
   "clouds": {
     "azure": [
       {
@@ -599,7 +599,7 @@
       {
         "title": "August 15, 2026",
         "link": "https://docs.cloud.google.com/release-notes#August_15_2026",
-        "summary": "Google SecOps SOAR Announcement Release 6.3.97 is now available for all regions. Secure Source Manager Feature The Secure Source Manager Model Context Protocol (MCP) server is available in Preview .…",
+        "summary": "Gemini Enterprise Agent Platform Feature Monitor semantic governance policies with built-in metrics (Preview) Built-in Cloud Monitoring metrics for the semantic governance policy engine are available…",
         "date": "2026年8月15日",
         "date_iso": "2026-08-15",
         "category": "ai-tag",
