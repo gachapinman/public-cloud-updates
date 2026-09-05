@@ -1,5 +1,5 @@
 {
-  "updated": "2026年09月04日 22:48 JST",
+  "updated": "2026年09月05日 13:32 JST",
   "clouds": {
     "azure": [
       {
@@ -205,9 +205,119 @@
     ],
     "aws": [
       {
+        "title": "Amazon Bedrock Managed Knowledge Base introduces user-managed setup for SharePoint, OneDrive, and Confluence data…",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-user-managed-setup-sharepoint-onedrive-confluence/",
+        "summary": "AWS announces user-managed setup (3LO) for SharePoint, OneDrive, and Confluence data sources in Amazon Bedrock Managed Knowledge Base. Previously, configuring these data sources required generating…",
+        "date": "2026年9月5日",
+        "date_iso": "2026-09-05",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Bedrock Managed Knowledge Base now supports ServiceNow as a native data source connector",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-servicenow-native-data-source-connector/",
+        "summary": "AWS announces the ServiceNow data source connector for Amazon Bedrock Managed Knowledge Base, a fully managed retrieval-augmented generation (RAG) service. Customers can now connect their ServiceNow…",
+        "date": "2026年9月5日",
+        "date_iso": "2026-09-05",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Bedrock Managed Knowledge Base now supports automatic sync scheduling for data source connectors",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-automatic-sync-scheduling-data-source-connectors/",
+        "summary": "AWS announces automatic sync scheduling for Amazon Bedrock Managed Knowledge Base, a fully managed retrieval-augmented generation (RAG) service that handles data ingestion, storage optimization, and…",
+        "date": "2026年9月5日",
+        "date_iso": "2026-09-05",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 now supports specifying compatible instance types on AMIs",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-images-supported-instances",
+        "summary": "Amazon EC2 now enables AMI owners to define which instance types are compatible with their AMIs. Owners can specify supported instance types, unsupported instance types, or both — and any launch…",
+        "date": "2026年9月5日",
+        "date_iso": "2026-09-05",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon ECS introduces Early Success Criteria for service deployments",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-deployments-early-success/",
+        "summary": "Amazon Elastic Container Service (Amazon ECS)&nbsp;now supports Early Success Criteria for rolling service deployments, giving you the flexibility to define when a deployment is considered successful…",
+        "date": "2026年9月5日",
+        "date_iso": "2026-09-05",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS MCP Server adds a serverless capability for AWS Lambda functions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-mcp-server-serverless/",
+        "summary": "Today, AWS Model Context Protocol Server (AWS MCP Server) added a serverless capability so that coding agents such as Claude Code and Kiro can efficiently diagnose issues with your Lambda functions.…",
+        "date": "2026年9月5日",
+        "date_iso": "2026-09-05",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 C8g instances now available in additional regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-c8g-instances-additional-regions/",
+        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8g instances are available in AWS Asia Pacific (Taipei, New Zealand), and&nbsp;AWS GovCloud (US-East) regions. These instances are powered…",
+        "date": "2026年9月4日",
+        "date_iso": "2026-09-04",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Transfer Family SFTP Connectors now support continuing file transfers during credential rotation",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/transfer-family-sftp-credential-rotation/",
+        "summary": "AWS Transfer Family SFTP Connectors now continue running file transfers while you rotate the credentials used to authenticate with remote SFTP servers. You no longer need to update the connector to…",
+        "date": "2026年9月4日",
+        "date_iso": "2026-09-04",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon SageMaker AI Batch Transform now supports G6e instances",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-batch-transform-g6e-instances/",
+        "summary": "Amazon SageMaker AI now supports Amazon EC2 G6e instances for batch transform. Batch Transform enables you to run predictions on datasets stored in Amazon S3 and is suited for large datasets that do…",
+        "date": "2026年9月4日",
+        "date_iso": "2026-09-04",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 C9g and C9gd instances are now available in Asia Pacific (Tokyo) region",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-c9g-c9gd-asia-pacific-tokyo/",
+        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C9g and C9gd instances, powered by AWS Graviton5 processors, are available in the Asia Pacific (Tokyo) region. AWS Graviton5 processors are…",
+        "date": "2026年9月4日",
+        "date_iso": "2026-09-04",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon ECS Managed Daemons now support non-critical daemons",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ecs-managed-daemons-non-critical/",
         "summary": "Amazon Elastic Container Service (Amazon ECS) now support non-critical Managed Daemons for ECS Managed Instances . You can configure a daemon as non-critical so that your mission-critical application…",
+        "date": "2026年9月4日",
+        "date_iso": "2026-09-04",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 M9g and M9gd instances are now available in four additional regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-m9g-m9gd-four-regions/",
+        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) M9g and M9gd instances, powered by AWS Graviton5 processors, are available in Europe (Ireland) and Asia Pacific (Singapore, Sydney, Tokyo)…",
         "date": "2026年9月4日",
         "date_iso": "2026-09-04",
         "category": "ai-tag",
@@ -293,119 +403,19 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon Aurora MySQL now supports multi-source replication and delayed replication",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-aurora-mysql-multisourcerep-delayedrep/",
-        "summary": "Starting today, Amazon Aurora MySQL supports two new replication capabilities: multi-source replication and delayed replication. Multi-source replication lets a single Aurora MySQL cluster replicate…",
-        "date": "2026年9月4日",
-        "date_iso": "2026-09-04",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SageMaker Unified Studio Workflows support Python and Bash operators",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-workflows-python-bash/",
-        "summary": "Amazon SageMaker Unified Studio Workflows now supports PythonOperator and BashOperator, enabling you to run custom Python functions and shell commands directly in your serverless workflows without…",
-        "date": "2026年9月4日",
-        "date_iso": "2026-09-04",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon MWAA adds built-in monitoring with Amazon CloudWatch",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-mwaa-cloudwatch-monitoring/",
-        "summary": "Amazon Managed Workflows for Apache Airflow (MWAA) now includes a built-in monitoring experience on the environment detail page in the AWS Management Console . A new metrics dashboard displays key…",
-        "date": "2026年9月4日",
-        "date_iso": "2026-09-04",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Linux 2027 is now available in public preview",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/announcing-amazon-linux-2027/",
-        "summary": "Today, AWS announces the public preview of Amazon Linux 2027 (AL2027), the next version of the Amazon Linux operating system, purpose-built for cloud-native workloads on AWS with performance, scale,…",
-        "date": "2026年9月3日",
-        "date_iso": "2026-09-03",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SES now supports S/MIME email signing",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ses-supports-smime-signing",
-        "summary": "Amazon Simple Email Service (SES) now supports Secure/Multipurpose Internet Mail Extensions (S/MIME) signing, giving you a way to help recipients verify your emails are authentic.&nbsp;An S/MIME…",
-        "date": "2026年9月3日",
-        "date_iso": "2026-09-03",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon S3 now supports PrivateLink for FIPS endpoints",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-s3-privatelink-fips-endpoints",
-        "summary": "Amazon S3 now supports AWS PrivateLink for endpoints that have been validated under the Federal Information Processing Standard (FIPS) 140-3 program. Customers with security and compliance…",
-        "date": "2026年9月3日",
-        "date_iso": "2026-09-03",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Transform announces general availability of Amazon FSx for NetApp ONTAP support",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-transform-fsx-netapp-ontap-support/",
-        "summary": "AWS Transform for migrations adds Amazon FSx for NetApp ONTAP as a generally available storage target for block storage workloads, alongside Amazon EBS. With AWS Transform, you can now migrate block…",
-        "date": "2026年9月3日",
-        "date_iso": "2026-09-03",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Web Search on Amazon Bedrock is now available in AWS GovCloud (US-West)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-web-aws-govcloud/",
-        "summary": "The Web Search built-in server-side tool on Amazon Bedrock is now available in AWS GovCloud (US-West), helping bring grounded web results to compliance-sensitive government and public-sector…",
-        "date": "2026年9月3日",
-        "date_iso": "2026-09-03",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Connect Customer expands automated performance evaluations to Malay",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-customer-automated-evaluations-malay/",
-        "summary": "Amazon Connect Customer now automates evaluations of human and AI agents in Malay using generative AI. Managers define custom evaluation criteria in natural language and receive AI-generated…",
-        "date": "2026年9月3日",
-        "date_iso": "2026-09-03",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Quick adds new tool settings and Model Context Protocol (MCP) sync support for connectors",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-quick-adds-tool-settings-mcp-sync/",
-        "summary": "Amazon Quick connectors let users leverage tools and services such as Outlook, Slack, Salesforce, Jira, and homegrown MCP servers directly into their workflows across chat, agents, apps, flows, and…",
-        "date": "2026年9月3日",
-        "date_iso": "2026-09-03",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Connect Customer announces general availability of agentic CX designer",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/agentic-cx-designer/",
-        "summary": "Amazon Connect Customer announces the general availability of agentic CX designer, a no-code canvas for designing and deploying AI-powered self-service experiences. You can now build and launch voice…",
-        "date": "2026年9月3日",
-        "date_iso": "2026-09-03",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "September 04, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_04_2026",
+        "summary": "Cloud Billing Change Introducing the Incentives page, for tracking spend-based milestone credits, RaMP, and other conditional incentives If you have a custom pricing contract, you might be enrolled…",
+        "date": "2026年9月4日",
+        "date_iso": "2026-09-04",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "GCP"
+      },
       {
         "title": "September 03, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_03_2026",
@@ -595,19 +605,19 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
-      },
-      {
-        "title": "August 15, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_15_2026",
-        "summary": "Gemini Enterprise Agent Platform Feature Monitor semantic governance policies with built-in metrics (Preview) Built-in Cloud Monitoring metrics for the semantic governance policy engine are available…",
-        "date": "2026年8月15日",
-        "date_iso": "2026-08-15",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
       }
     ],
     "oci": [
+      {
+        "title": "OS Management Hub now supports IPv6",
+        "link": "https://docs.oracle.com/iaas/releasenotes/os-management-hub/release-3.7_ipv6.htm",
+        "summary": "",
+        "date": "2026年9月4日",
+        "date_iso": "2026-09-04",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
       {
         "title": "IPv6 support for OCI Monitoring",
         "link": "https://docs.oracle.com/iaas/releasenotes/monitoring/monitoring-ipv6.htm",
@@ -796,16 +806,6 @@
         "date_iso": "2026-08-20",
         "category": "container-tag",
         "cat_label": "コンテナ",
-        "tag": "OCI"
-      },
-      {
-        "title": "Import Xiaomi MiMo V2.5 Pro into OCI Generative AI",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/xiaomi-mimo-v2-5-pro.htm",
-        "summary": "",
-        "date": "2026年8月19日",
-        "date_iso": "2026-08-19",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "OCI"
       }
     ]
