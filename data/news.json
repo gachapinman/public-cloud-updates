@@ -1,5 +1,5 @@
 {
-  "updated": "2026年09月06日 17:05 JST",
+  "updated": "2026年09月06日 22:10 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,26 @@
     ],
     "gcp": [
       {
+        "title": "September 06, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_06_2026",
+        "summary": "Google SecOps SOAR Feature Case playbooks This feature is in preview. Google SecOps now supports case playbooks. You can run playbooks or execute manual actions across an entire case container rather…",
+        "date": "2026年9月6日",
+        "date_iso": "2026-09-06",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
+        "title": "September 05, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_05_2026",
+        "summary": "Google SecOps SOAR Announcement Release 6.3.99 is now available for all regions.",
+        "date": "2026年9月5日",
+        "date_iso": "2026-09-05",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "September 04, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_04_2026",
         "summary": "Cloud Billing Change Introducing the Incentives page, for tracking spend-based milestone credits, RaMP, and other conditional incentives If you have a custom pricing contract, you might be enrolled…",
@@ -582,26 +602,6 @@
         "summary": "App Engine standard environment Java Feature Support for migrating from the App Engine Images service to Cloud Run is in General Availability (GA) . App Engine standard environment Python Feature…",
         "date": "2026年8月18日",
         "date_iso": "2026-08-18",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "August 17, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_17_2026",
-        "summary": "AlloyDB for PostgreSQL Feature You can now use the Model Context Protocol (MCP) Toolbox for Databases to access AlloyDB observability features and advanced query insights directly in your IDE.…",
-        "date": "2026年8月17日",
-        "date_iso": "2026-08-17",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "GCP"
-      },
-      {
-        "title": "August 16, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_16_2026",
-        "summary": "Agent Platform Workbench Change 20260816-2330-rc0 Release Change 20260816-2330-rc0 Release Security Updated the bundled Ruby gems rexml and net-imap to patched versions, addressing known…",
-        "date": "2026年8月16日",
-        "date_iso": "2026-08-16",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
