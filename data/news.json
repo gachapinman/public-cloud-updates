@@ -1,5 +1,5 @@
 {
-  "updated": "2026年09月07日 17:35 JST",
+  "updated": "2026年09月08日 00:17 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "September 07, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_07_2026",
+        "summary": "Access Approval Feature Privileged Access Manager is generally available (GA) . Access Transparency Feature Privileged Access Manager is generally available (GA) .",
+        "date": "2026年9月7日",
+        "date_iso": "2026-09-07",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "September 06, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_06_2026",
         "summary": "Google SecOps Feature [Spotlight Feature] Case playbooks This feature is in preview. Google SecOps now supports case playbooks. You can run playbooks or execute manual actions across an entire case…",
@@ -594,16 +604,6 @@
         "date_iso": "2026-08-19",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "GCP"
-      },
-      {
-        "title": "August 18, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_18_2026",
-        "summary": "App Engine standard environment Java Feature Support for migrating from the App Engine Images service to Cloud Run is in General Availability (GA) . App Engine standard environment Python Feature…",
-        "date": "2026年8月18日",
-        "date_iso": "2026-08-18",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "GCP"
       }
     ],
