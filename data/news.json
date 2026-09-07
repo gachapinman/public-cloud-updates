@@ -1,5 +1,5 @@
 {
-  "updated": "2026年09月06日 22:10 JST",
+  "updated": "2026年09月07日 13:44 JST",
   "clouds": {
     "azure": [
       {
@@ -409,11 +409,11 @@
       {
         "title": "September 06, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_06_2026",
-        "summary": "Google SecOps SOAR Feature Case playbooks This feature is in preview. Google SecOps now supports case playbooks. You can run playbooks or execute manual actions across an entire case container rather…",
+        "summary": "Google SecOps Feature [Spotlight Feature] Case playbooks This feature is in preview. Google SecOps now supports case playbooks. You can run playbooks or execute manual actions across an entire case…",
         "date": "2026年9月6日",
         "date_iso": "2026-09-06",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "GCP"
       },
       {
