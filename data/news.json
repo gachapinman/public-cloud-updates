@@ -1,5 +1,5 @@
 {
-  "updated": "2026年09月08日 17:17 JST",
+  "updated": "2026年09月08日 22:53 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "September 08, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_08_2026",
+        "summary": "Compute Engine Feature Generally available : You can convert a single-project reservation into a shared reservation, or a shared reservation into a single-project reservation. Modify the share type…",
+        "date": "2026年9月8日",
+        "date_iso": "2026-09-08",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "September 07, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_07_2026",
         "summary": "AI Hypercomputer Security Google addressed a security vulnerability (CVE-2026-65107) that affects Slurm clusters. Based on the Google Cloud product that you used to create your Slurm cluster, see one…",
@@ -594,16 +604,6 @@
         "date_iso": "2026-08-20",
         "category": "security-tag",
         "cat_label": "セキュリティ",
-        "tag": "GCP"
-      },
-      {
-        "title": "August 19, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_19_2026",
-        "summary": "App Engine flexible environment Go Feature Support for the Go 1.27 runtime is in Preview . Feature Starting from Go runtime version 1.26 and later, the lifecycle support dates align more closely with…",
-        "date": "2026年8月19日",
-        "date_iso": "2026-08-19",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
         "tag": "GCP"
       }
     ],
