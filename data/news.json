@@ -1,5 +1,5 @@
 {
-  "updated": "2026年09月08日 00:17 JST",
+  "updated": "2026年09月08日 13:38 JST",
   "clouds": {
     "azure": [
       {
@@ -409,7 +409,7 @@
       {
         "title": "September 07, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_07_2026",
-        "summary": "Access Approval Feature Privileged Access Manager is generally available (GA) . Access Transparency Feature Privileged Access Manager is generally available (GA) .",
+        "summary": "AI Hypercomputer Security Google addressed a security vulnerability (CVE-2026-65107) that affects Slurm clusters. Based on the Google Cloud product that you used to create your Slurm cluster, see one…",
         "date": "2026年9月7日",
         "date_iso": "2026-09-07",
         "category": "ai-tag",
@@ -619,6 +619,16 @@
         "tag": "OCI"
       },
       {
+        "title": "Limit access to OCI Generative AI models with IAM policies",
+        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/limit-model-access.htm",
+        "summary": "",
+        "date": "2026年9月3日",
+        "date_iso": "2026-09-03",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
         "title": "IPv6 support for OCI Monitoring",
         "link": "https://docs.oracle.com/iaas/releasenotes/monitoring/monitoring-ipv6.htm",
         "summary": "",
@@ -796,16 +806,6 @@
         "date_iso": "2026-08-21",
         "category": "database-tag",
         "cat_label": "データベース",
-        "tag": "OCI"
-      },
-      {
-        "title": "Support for Kubernetes version 1.34.10",
-        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-K8s-1-34-10-support.htm",
-        "summary": "",
-        "date": "2026年8月20日",
-        "date_iso": "2026-08-20",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
         "tag": "OCI"
       }
     ]
