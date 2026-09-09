@@ -1,7 +1,27 @@
 {
-  "updated": "2026年09月08日 22:53 JST",
+  "updated": "2026年09月09日 13:44 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Generally Available: Playwright Workspaces in Australia East, Japan East, and Switzerland North",
+        "link": "https://azure.microsoft.com/updates?id=570919",
+        "summary": "Playwright Workspaces in Azure App Testing is now generally available in Switzerland North, Japan East, and Australia East.Playwright Workspaces provides fully managed cloud-hosted browsers for…",
+        "date": "2026年9月9日",
+        "date_iso": "2026-09-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Azure Developer CLI (azd) Extension Framework",
+        "link": "https://azure.microsoft.com/updates?id=570881",
+        "summary": "The Azure Developer CLI (azd) Extension Framework is now generally available. The framework enables developers, teams, and partners to extend Azure Developer CLI with custom capabilities that support…",
+        "date": "2026年9月9日",
+        "date_iso": "2026-09-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Generally Available: Azure Virtual Network Manager IPAM in additional Azure regions",
         "link": "https://azure.microsoft.com/updates?id=570557",
@@ -23,7 +43,7 @@
         "tag": "AZURE"
       },
       {
-        "title": "Public Preview: Reader Endpoint for Azure Database for MySQL",
+        "title": "Private Preview: Reader Endpoint for Azure Database for MySQL",
         "link": "https://azure.microsoft.com/updates?id=569653",
         "summary": "We’re happy to announce the public preview of reader endpoint support to simplify connection management when using multiple replicas in Azure Database for MySQL - Flexible Server. A reader endpoint…",
         "date": "2026年9月3日",
@@ -181,29 +201,149 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Connect to AKS clusters using Azure Bastion",
-        "link": "https://azure.microsoft.com/updates?id=570030",
-        "summary": "Azure Bastion integration with Azure Kubernetes Service is now generally available. Customers can establish a secure tunnel from their local machine through Azure Bastion to an AKS cluster API…",
-        "date": "2026年8月27日",
-        "date_iso": "2026-08-27",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Introducing Live Reports for Azure SRE Agent",
-        "link": "https://azure.microsoft.com/updates?id=569690",
-        "summary": "We're excited to announce Live Reports, now in Public Preview for Azure SRE Agent. Live Reports help operations teams create dynamic operational views directly from SRE Agent conversations and keep…",
-        "date": "2026年8月27日",
-        "date_iso": "2026-08-27",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "OpenAI GPT-6 Astra is now generally available on Amazon Bedrock",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/openai-gpt-6-astra-on-amazon-bedrock/",
+        "summary": "Today, AWS announces the general availability of GPT-6 Astra from OpenAI on Amazon Bedrock. The latest and most capable model from OpenAI to date, GPT-6 Astra brings deeper reasoning and judgment,…",
+        "date": "2026年9月9日",
+        "date_iso": "2026-09-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Timestream for InfluxDB 3 now supports custom plugins",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/timestream-influxdb-custom-plugins/",
+        "summary": "Amazon Timestream for InfluxDB now lets you run your own custom Python plugins on the managed versions of InfluxDB 3 Core and Enterprise editions. You host your plugin code in public or private…",
+        "date": "2026年9月9日",
+        "date_iso": "2026-09-09",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon SageMaker Feature Store now supports individual feature updates to lower write latency",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/sgm-feature-store-update-record/",
+        "summary": "Amazon SageMaker Feature Store is a fully managed capability that makes it easy to compute, store, and retrieve features for training and deploying AI models. SageMaker Feature Store now supports…",
+        "date": "2026年9月9日",
+        "date_iso": "2026-09-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Transform is now available in AWS GovCloud (US-West)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-transform-govcloud-us-west/",
+        "summary": "AWS Transform is now available in the AWS GovCloud (US-West) Region, enabling government agencies and regulated organizations to plan and execute large-scale migrations to AWS. With this launch,…",
+        "date": "2026年9月9日",
+        "date_iso": "2026-09-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon API Gateway now supports mutual TLS for backend integrations",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-api-gateway-mutual-tls-backend/",
+        "summary": "You can now configure Amazon API Gateway REST APIs to present an AWS Certificate Manager (ACM) certificate to your backend during the TLS handshake, enabling mutual TLS (mTLS). Previously, API…",
+        "date": "2026年9月9日",
+        "date_iso": "2026-09-09",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon RDS for MariaDB now supports community MariaDB minor versions 10.6.28, 10.11.19, 11.4.13, 11.8.9, and 12.3.3",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-mariadb-community-versions/",
+        "summary": "Starting today, Amazon Relational Database Service (Amazon RDS) for MariaDB now supports MariaDB minor versions 10.6.28, 10.11.19, 11.4.13, 11.8.9, and 12.3.3, the latest minors released by community…",
+        "date": "2026年9月9日",
+        "date_iso": "2026-09-09",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Bedrock AgentCore Memory now supports direct ingestion to long-term memory",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/agentcore-memory-direct-ingest",
+        "summary": "Amazon Bedrock AgentCore Memory now lets developers submit content directly for long-term memory extraction without persisting it as a short-term memory event. The new IngestData API accepts content,…",
+        "date": "2026年9月9日",
+        "date_iso": "2026-09-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS HealthOmics introduces resource fallback order for WDL workflows",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-healthomics-resourcefallback-wdl/",
+        "summary": "Today, AWS HealthOmics introduces the resource fallback directive, enabling you to define an ordered list of preferred accelerator types, including an option to fallback to CPU instances, for tasks…",
+        "date": "2026年9月9日",
+        "date_iso": "2026-09-09",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Dynamic Image Transformation for Amazon CloudFront adds four new features",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/dynamic-image-transfromation-adds-new-features/",
+        "summary": "Today, AWS announced four new features for Dynamic Image Transformation for Amazon CloudFront (DIT). Customers can now use enhanced smart cropping with custom label detection and advanced composition…",
+        "date": "2026年9月8日",
+        "date_iso": "2026-09-08",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Builder ID adds recovery options and multi-factor authentication for third-party logins",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-builder-id-recovery-mfa-third-party/",
+        "summary": "AWS Builder ID, your personal profile for accessing AWS applications including AWS Builder Center, AWS Training and Certification, Amazon Quick and Kiro, now offers new ways to protect and recover…",
+        "date": "2026年9月8日",
+        "date_iso": "2026-09-08",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS announces Nx Plugin for AWS for scaffolding full-stack applications",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/nx-plugin-for-aws/",
+        "summary": "Version 1.0 of the Nx Plugin for AWS, an open source toolkit for scaffolding full-stack applications on AWS, is now available. AI assistants can stand up an application on AWS in minutes, but rarely…",
+        "date": "2026年9月8日",
+        "date_iso": "2026-09-08",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon RDS now supports the latest CU and GDR updates for Microsoft SQL Server",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-supports-latest-cu-gdr-microsoft-sql-server/",
+        "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports the latest Cumulative Updates (CU) and General Distribution Release (GDR) updates for Microsoft SQL Server. This release…",
+        "date": "2026年9月8日",
+        "date_iso": "2026-09-08",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon S3 Object Lock now supports variable retention with event holds",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-s3-object-lock-variable-retention/",
+        "summary": "Amazon S3 Object Lock now supports variable retention, allowing you to apply write-once-read-many (WORM) protection to objects whose required retention period starts with a future event, such as a…",
+        "date": "2026年9月8日",
+        "date_iso": "2026-09-08",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon MWAA Serverless is now available in AWS GovCloud (US)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-mwaa-serverless-aws-govcloud/",
+        "summary": "Amazon Managed Workflows for Apache Airflow (MWAA) Serverless is now available in AWS GovCloud (US-East) and AWS GovCloud (US-West). Amazon MWAA Serverless eliminates the operational overhead of…",
+        "date": "2026年9月5日",
+        "date_iso": "2026-09-05",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
       {
         "title": "Amazon Bedrock Managed Knowledge Base introduces user-managed setup for SharePoint, OneDrive, and Confluence data…",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-user-managed-setup-sharepoint-onedrive-confluence/",
@@ -245,161 +385,21 @@
         "tag": "AWS"
       },
       {
+        "title": "Amazon GuardDuty adds optional threat detection rules",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/guardduty-optional-detection-rules/",
+        "summary": "Amazon GuardDuty now offers Custom Detection Rules, a library of 35 prebuilt, opt-in rules for CloudTrail management events that let you extend threat detection coverage to match your environment.…",
+        "date": "2026年9月5日",
+        "date_iso": "2026-09-05",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon ECS introduces Early Success Criteria for service deployments",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-deployments-early-success/",
         "summary": "Amazon Elastic Container Service (Amazon ECS)&nbsp;now supports Early Success Criteria for rolling service deployments, giving you the flexibility to define when a deployment is considered successful…",
         "date": "2026年9月5日",
         "date_iso": "2026-09-05",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS MCP Server adds a serverless capability for AWS Lambda functions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-mcp-server-serverless/",
-        "summary": "Today, AWS Model Context Protocol Server (AWS MCP Server) added a serverless capability so that coding agents such as Claude Code and Kiro can efficiently diagnose issues with your Lambda functions.…",
-        "date": "2026年9月5日",
-        "date_iso": "2026-09-05",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 C8g instances now available in additional regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-c8g-instances-additional-regions/",
-        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8g instances are available in AWS Asia Pacific (Taipei, New Zealand), and&nbsp;AWS GovCloud (US-East) regions. These instances are powered…",
-        "date": "2026年9月4日",
-        "date_iso": "2026-09-04",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Transfer Family SFTP Connectors now support continuing file transfers during credential rotation",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/transfer-family-sftp-credential-rotation/",
-        "summary": "AWS Transfer Family SFTP Connectors now continue running file transfers while you rotate the credentials used to authenticate with remote SFTP servers. You no longer need to update the connector to…",
-        "date": "2026年9月4日",
-        "date_iso": "2026-09-04",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SageMaker AI Batch Transform now supports G6e instances",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-batch-transform-g6e-instances/",
-        "summary": "Amazon SageMaker AI now supports Amazon EC2 G6e instances for batch transform. Batch Transform enables you to run predictions on datasets stored in Amazon S3 and is suited for large datasets that do…",
-        "date": "2026年9月4日",
-        "date_iso": "2026-09-04",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 C9g and C9gd instances are now available in Asia Pacific (Tokyo) region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-c9g-c9gd-asia-pacific-tokyo/",
-        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C9g and C9gd instances, powered by AWS Graviton5 processors, are available in the Asia Pacific (Tokyo) region. AWS Graviton5 processors are…",
-        "date": "2026年9月4日",
-        "date_iso": "2026-09-04",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon ECS Managed Daemons now support non-critical daemons",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ecs-managed-daemons-non-critical/",
-        "summary": "Amazon Elastic Container Service (Amazon ECS) now support non-critical Managed Daemons for ECS Managed Instances . You can configure a daemon as non-critical so that your mission-critical application…",
-        "date": "2026年9月4日",
-        "date_iso": "2026-09-04",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 M9g and M9gd instances are now available in four additional regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-m9g-m9gd-four-regions/",
-        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) M9g and M9gd instances, powered by AWS Graviton5 processors, are available in Europe (Ireland) and Asia Pacific (Singapore, Sydney, Tokyo)…",
-        "date": "2026年9月4日",
-        "date_iso": "2026-09-04",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 P6-B200 instances are now available in the AWS Asia Pacific (Hyderabad) Region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-p6-b200-instances-available-asia-pacific-hyderabad",
-        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) P6-B200 instances accelerated by NVIDIA Blackwell GPUs are available in the AWS Asia Pacific (Hyderabad) Region. These instances offer up to…",
-        "date": "2026年9月4日",
-        "date_iso": "2026-09-04",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 P6-B300 instances are now available in the AWS Asia Pacific (Jakarta) Region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-p6-b300-instances-available-asia-pacific-jakarta",
-        "summary": "Starting today, Amazon Elastic Cloud Compute (Amazon EC2) P6-B300 instances are available in the AWS Asia Pacific (Jakarta) Region. P6-B300 instances provide 8xNVIDIA Blackwell Ultra GPUs with 2.1 TB…",
-        "date": "2026年9月4日",
-        "date_iso": "2026-09-04",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon CloudFront announces API support for flat-rate pricing plans",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/cloudfront-flat-rate-pricing-plans-api/",
-        "summary": "Starting today, customers can subscribe and manage flat-rate pricing plans programmatically using the AWS CLI, AWS SDKs, CloudFormation, CDK, or the PricingPlanManager API. CloudFront flat-rate plans…",
-        "date": "2026年9月4日",
-        "date_iso": "2026-09-04",
-        "category": "network-tag",
-        "cat_label": "ネットワーク",
-        "tag": "AWS"
-      },
-      {
-        "title": "Introducing Amazon Quick Max: 5x the usage for power users who want the most out of Quick",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-quick-max-5x-usage-power-users/",
-        "summary": "Amazon Quick now offers Quick Max, a new plan for power users who want to get the absolute most out of Quick. With 5x the usage and 5x the storage of Plus, Max gives you the room to do more: more…",
-        "date": "2026年9月4日",
-        "date_iso": "2026-09-04",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Gateway Load Balancer now supports TCP Reset for faster failure recovery",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-gateway-load-balancer-tcp-reset/",
-        "summary": "A WS Gateway Load Balancer (GWLB) now supports sending TCP Reset (RST) packets when a target becomes unhealthy, is deregistered, or when a flow's idle timeout expires. This feature helps reduce…",
-        "date": "2026年9月4日",
-        "date_iso": "2026-09-04",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon WorkSpaces Applications adds support for NVIDIA Blackwell GPU instances",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-workspaces-applications-nvidia-blackwell-gpu-instances/",
-        "summary": "Amazon WorkSpaces Applications now supports Graphics G7 instances, powered by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs and Intel Xeon Scalable (6th Gen) processors. G7 instances deliver up…",
-        "date": "2026年9月4日",
-        "date_iso": "2026-09-04",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Redshift rg.large instances now support single-node clusters",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/redshift-rg-large-single-node",
-        "summary": "Amazon Redshift rg.large instances, powered by AWS Graviton processors, now support single-node clusters. Single-node support for rg.large clusters is available on P204 or later patch versions.…",
-        "date": "2026年9月4日",
-        "date_iso": "2026-09-04",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Aurora MySQL 8.4.8 (compatible with MySQL 8.4.8) is now generally available",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-aurora-mysql-848-available/",
-        "summary": "Starting today, Amazon Aurora MySQL-Compatible Edition 8.4 will support MySQL 8.4.8. In addition to several security enhancements and bug fixes, Aurora MySQL 8.4.8 includes several improvements, such…",
-        "date": "2026年9月4日",
-        "date_iso": "2026-09-04",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
@@ -409,7 +409,7 @@
       {
         "title": "September 08, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_08_2026",
-        "summary": "Compute Engine Feature Generally available : You can convert a single-project reservation into a shared reservation, or a shared reservation into a single-project reservation. Modify the share type…",
+        "summary": "BigQuery Feature Conversational analytics now supports predictive modeling questions using the AI.PREDICT function . This feature is in Preview . Cloud Run Feature To take advantage of reduced…",
         "date": "2026年9月8日",
         "date_iso": "2026-09-08",
         "category": "ai-tag",
@@ -449,11 +449,11 @@
       {
         "title": "September 04, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_04_2026",
-        "summary": "Cloud Billing Change Introducing the Incentives page, for tracking spend-based milestone credits, RaMP, and other conditional incentives If you have a custom pricing contract, you might be enrolled…",
+        "summary": "Audit Manager Feature The remote Model Context Protocol (MCP) server for Audit Manager is generally available ( GA ). Cloud Billing Change Introducing the Incentives page, for tracking spend-based…",
         "date": "2026年9月4日",
         "date_iso": "2026-09-04",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "GCP"
       },
       {
