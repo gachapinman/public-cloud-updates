@@ -1,5 +1,5 @@
 {
-  "updated": "2026年09月10日 17:21 JST",
+  "updated": "2026年09月10日 22:51 JST",
   "clouds": {
     "azure": [
       {
@@ -275,16 +275,6 @@
         "tag": "AWS"
       },
       {
-        "title": "AWS Systems Manager now diagnoses more issues that cause EC2 instances to be unmanaged",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/systems-manager-diagnoses-ec2-unmanaged/",
-        "summary": "Today, AWS Systems Manager extends its diagnosis capability to identify six additional categories of issues that can prevent Amazon EC2 instances and hybrid-activated nodes from becoming managed by…",
-        "date": "2026年9月9日",
-        "date_iso": "2026-09-09",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
         "title": "AWS Private CA EKS add-on and Connector for AD now available in AWS GovCloud (US)",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/private-ca-eks-addon-ad-govcloud/",
         "summary": "AWS Private Certificate Authority (AWS Private CA) announces the availability of the AWS Private CA Connector for Kubernetes as a managed Amazon EKS add-on and the AWS Private CA Connector for Active…",
@@ -292,6 +282,16 @@
         "date_iso": "2026-09-09",
         "category": "ai-tag",
         "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Systems Manager now diagnoses more issues that cause EC2 instances to be unmanaged",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/systems-manager-diagnoses-ec2-unmanaged/",
+        "summary": "Today, AWS Systems Manager extends its diagnosis capability to identify six additional categories of issues that can prevent Amazon EC2 instances and hybrid-activated nodes from becoming managed by…",
+        "date": "2026年9月9日",
+        "date_iso": "2026-09-09",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "AWS"
       },
       {
