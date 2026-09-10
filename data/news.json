@@ -1,7 +1,27 @@
 {
-  "updated": "2026年09月09日 22:56 JST",
+  "updated": "2026年09月10日 13:44 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Generally Available: User-bound user delegation SAS for Azure Storage",
+        "link": "https://azure.microsoft.com/updates?id=569241",
+        "summary": "Announcing the addition of enhanced secure authentication in Azure Storage that combines the flexibility of user-delegation shared access signature (SAS) with the user-bound access of Entra ID.…",
+        "date": "2026年9月10日",
+        "date_iso": "2026-09-10",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Azure Ephemeral OS Disk with full caching for VM/VMSS",
+        "link": "https://azure.microsoft.com/updates?id=570551",
+        "summary": "Azure Ephemeral OS Disk with full caching is now generally available for new virtual machines and Virtual Machine Scale Sets. The capability caches the complete OS image on a VM’s local storage,…",
+        "date": "2026年9月10日",
+        "date_iso": "2026-09-10",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Generally Available: Playwright Workspaces in Australia East, Japan East, and Switzerland North",
         "link": "https://azure.microsoft.com/updates?id=570919",
@@ -181,29 +201,109 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Azure Bastion shareable link expiration",
-        "link": "https://azure.microsoft.com/updates?id=570020",
-        "summary": "Azure Bastion shareable link expiration is now generally available. When creating a shareable link, administrators can specify the date and time when the link should expire. After the configured…",
-        "date": "2026年8月27日",
-        "date_iso": "2026-08-27",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: IPv6 dual-stack support for Azure Bastion",
-        "link": "https://azure.microsoft.com/updates?id=570025",
-        "summary": "Azure Bastion support for IPv4 and IPv6 dual-stack configurations is now available in public preview. Customers can configure a newly created Bastion deployment with both IPv4 and IPv6 public IP…",
-        "date": "2026年8月27日",
-        "date_iso": "2026-08-27",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Amazon Connect Customer now lets you set specific capacity limits for different types of Tasks and Emails",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-capacity-limits/",
+        "summary": "Amazon Connect Customer now gives contact center managers the ability to set specific capacity limits for different kinds of work. Previously, concurrency settings were applied at the channel level…",
+        "date": "2026年9月10日",
+        "date_iso": "2026-09-10",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Transform for .NET modernization is now generally available via CLI",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-transform-dotnet-cli",
+        "summary": "Today, AWS announced the general availability of an AWS-managed transformation for .NET modernization in AWS Transform custom that you can trigger with a single one-line CLI command. You can run this…",
+        "date": "2026年9月10日",
+        "date_iso": "2026-09-10",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Lambda now supports 90-minute function timeout on Lambda Managed Instances",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-90-minute-function/",
+        "summary": "AWS Lambda now supports a 90-minute function timeout for asynchronous and event source mapping (ESM) invocations on Lambda Managed Instances (LMI) , a 6x increase from the previous 15-minute limit.…",
+        "date": "2026年9月10日",
+        "date_iso": "2026-09-10",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Lambda now supports Graviton5-powered EC2 instances on Lambda Managed Instances",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-graviton5-ec2/",
+        "summary": "AWS Lambda now supports AWS Graviton5-powered C9g, C9gd, M9g, and M9gd instances on Lambda Managed Instances . You can now run your Lambda functions on the latest generation of Graviton processors,…",
+        "date": "2026年9月10日",
+        "date_iso": "2026-09-10",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Bedrock Managed Knowledge Base adds APIs and console support for debugging document-level access control",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-knowledge-base-debugging-document-access-control/",
+        "summary": "AWS announces the CheckIngestedDocumentAcl and GetIngestedDocumentAcl APIs for Amazon Bedrock Managed Knowledge Base, giving customers a self-service way to debug document access issues and audit…",
+        "date": "2026年9月10日",
+        "date_iso": "2026-09-10",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Bedrock Managed Knowledge Base now supports Confluence Data Center as a native data source connector",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-confluence-data-center-native-data-source-connector/",
+        "summary": "AWS announces the Confluence Data Center data source connector for Amazon Bedrock Managed Knowledge Base, a fully managed retrieval-augmented generation (RAG) service. Customers running self-hosted…",
+        "date": "2026年9月9日",
+        "date_iso": "2026-09-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EBS Volume Clones now supports copying volumes across accounts",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ebs-volume-clones-cross-account-copy/",
+        "summary": "Amazon Elastic Block Store (Amazon EBS) Volume Clones now supports copying EBS volumes across AWS accounts with re-encryption. You can copy EBS volumes to any AWS account, re-encrypting with an AWS…",
+        "date": "2026年9月9日",
+        "date_iso": "2026-09-09",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Systems Manager now diagnoses more issues that cause EC2 instances to be unmanaged",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/systems-manager-diagnoses-ec2-unmanaged/",
+        "summary": "Today, AWS Systems Manager extends its diagnosis capability to identify six additional categories of issues that can prevent Amazon EC2 instances and hybrid-activated nodes from becoming managed by…",
+        "date": "2026年9月9日",
+        "date_iso": "2026-09-09",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Private CA EKS add-on and Connector for AD now available in AWS GovCloud (US)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/private-ca-eks-addon-ad-govcloud/",
+        "summary": "AWS Private Certificate Authority (AWS Private CA) announces the availability of the AWS Private CA Connector for Kubernetes as a managed Amazon EKS add-on and the AWS Private CA Connector for Active…",
+        "date": "2026年9月9日",
+        "date_iso": "2026-09-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Connect Customer Profiles now sends events when customers enter or exit segments",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/connect-customer-profiles-segment-events/",
+        "summary": "Amazon Connect Customer Profiles now sends segment membership events, providing the ability to receive real-time and scheduled notifications when customer profiles enter or exit a segment, such as…",
+        "date": "2026年9月9日",
+        "date_iso": "2026-09-09",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
       {
         "title": "OpenAI GPT-6 Astra is now generally available on Amazon Bedrock",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/openai-gpt-6-astra-on-amazon-bedrock/",
@@ -286,8 +386,8 @@
       },
       {
         "title": "Dynamic Image Transformation for Amazon CloudFront adds four new features",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/dynamic-image-transfromation-adds-new-features/",
-        "summary": "Today, AWS announced four new features for Dynamic Image Transformation for Amazon CloudFront (DIT). Customers can now use enhanced smart cropping with custom label detection and advanced composition…",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/dynamic-image-transformation-adds-new-features/",
+        "summary": "Today, AWS announced four new features for Dynamic Image Transformation for Amazon CloudFront (DIT), an AWS supported solution that helps customers transform images in response to their…",
         "date": "2026年9月8日",
         "date_iso": "2026-09-08",
         "category": "network-tag",
@@ -303,117 +403,27 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "AWS announces Nx Plugin for AWS for scaffolding full-stack applications",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/nx-plugin-for-aws/",
-        "summary": "Version 1.0 of the Nx Plugin for AWS, an open source toolkit for scaffolding full-stack applications on AWS, is now available. AI assistants can stand up an application on AWS in minutes, but rarely…",
-        "date": "2026年9月8日",
-        "date_iso": "2026-09-08",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon RDS now supports the latest CU and GDR updates for Microsoft SQL Server",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-supports-latest-cu-gdr-microsoft-sql-server/",
-        "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports the latest Cumulative Updates (CU) and General Distribution Release (GDR) updates for Microsoft SQL Server. This release…",
-        "date": "2026年9月8日",
-        "date_iso": "2026-09-08",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon S3 Object Lock now supports variable retention with event holds",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-s3-object-lock-variable-retention/",
-        "summary": "Amazon S3 Object Lock now supports variable retention, allowing you to apply write-once-read-many (WORM) protection to objects whose required retention period starts with a future event, such as a…",
-        "date": "2026年9月8日",
-        "date_iso": "2026-09-08",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon MWAA Serverless is now available in AWS GovCloud (US)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-mwaa-serverless-aws-govcloud/",
-        "summary": "Amazon Managed Workflows for Apache Airflow (MWAA) Serverless is now available in AWS GovCloud (US-East) and AWS GovCloud (US-West). Amazon MWAA Serverless eliminates the operational overhead of…",
-        "date": "2026年9月5日",
-        "date_iso": "2026-09-05",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Bedrock Managed Knowledge Base introduces user-managed setup for SharePoint, OneDrive, and Confluence data…",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-user-managed-setup-sharepoint-onedrive-confluence/",
-        "summary": "AWS announces user-managed setup (3LO) for SharePoint, OneDrive, and Confluence data sources in Amazon Bedrock Managed Knowledge Base. Previously, configuring these data sources required generating…",
-        "date": "2026年9月5日",
-        "date_iso": "2026-09-05",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Bedrock Managed Knowledge Base now supports ServiceNow as a native data source connector",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-servicenow-native-data-source-connector/",
-        "summary": "AWS announces the ServiceNow data source connector for Amazon Bedrock Managed Knowledge Base, a fully managed retrieval-augmented generation (RAG) service. Customers can now connect their ServiceNow…",
-        "date": "2026年9月5日",
-        "date_iso": "2026-09-05",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Bedrock Managed Knowledge Base now supports automatic sync scheduling for data source connectors",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-automatic-sync-scheduling-data-source-connectors/",
-        "summary": "AWS announces automatic sync scheduling for Amazon Bedrock Managed Knowledge Base, a fully managed retrieval-augmented generation (RAG) service that handles data ingestion, storage optimization, and…",
-        "date": "2026年9月5日",
-        "date_iso": "2026-09-05",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 now supports specifying compatible instance types on AMIs",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-images-supported-instances",
-        "summary": "Amazon EC2 now enables AMI owners to define which instance types are compatible with their AMIs. Owners can specify supported instance types, unsupported instance types, or both — and any launch…",
-        "date": "2026年9月5日",
-        "date_iso": "2026-09-05",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon GuardDuty adds optional threat detection rules",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/guardduty-optional-detection-rules/",
-        "summary": "Amazon GuardDuty now offers Custom Detection Rules, a library of 35 prebuilt, opt-in rules for CloudTrail management events that let you extend threat detection coverage to match your environment.…",
-        "date": "2026年9月5日",
-        "date_iso": "2026-09-05",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon ECS introduces Early Success Criteria for service deployments",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-deployments-early-success/",
-        "summary": "Amazon Elastic Container Service (Amazon ECS)&nbsp;now supports Early Success Criteria for rolling service deployments, giving you the flexibility to define when a deployment is considered successful…",
-        "date": "2026年9月5日",
-        "date_iso": "2026-09-05",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
       }
     ],
     "gcp": [
       {
-        "title": "September 08, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_08_2026",
-        "summary": "BigQuery Feature Conversational analytics now supports predictive modeling questions using the AI.PREDICT function . This feature is in Preview . Cloud Run Feature To take advantage of reduced…",
-        "date": "2026年9月8日",
-        "date_iso": "2026-09-08",
+        "title": "September 09, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_09_2026",
+        "summary": "Apigee X Feature SemanticCacheLookup policy supports non-default Vector Search distance measures Available in Apigee 1-18-0-apigee-4 and later. A new optional &lt;DistanceMeasureType&gt; element…",
+        "date": "2026年9月9日",
+        "date_iso": "2026-09-09",
         "category": "ai-tag",
         "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
+        "title": "September 08, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_08_2026",
+        "summary": "Agent Platform Workbench Fixed Scheduled upgrade metadata is validated The value of the notebook-upgrade-schedule metadata key is now validated when you create or update an Agent Platform Workbench…",
+        "date": "2026年9月8日",
+        "date_iso": "2026-09-08",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "GCP"
       },
       {
@@ -594,16 +604,6 @@
         "date_iso": "2026-08-21",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "August 20, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_20_2026",
-        "summary": "App Engine flexible environment .NET Feature Starting from August 2026, to provide modern security patches and support for MySQL 8.4 and later, the App Engine flexible environment uses Cloud SQL Auth…",
-        "date": "2026年8月20日",
-        "date_iso": "2026-08-20",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
         "tag": "GCP"
       }
     ],
