@@ -1,5 +1,5 @@
 {
-  "updated": "2026年09月10日 13:44 JST",
+  "updated": "2026年09月10日 17:21 JST",
   "clouds": {
     "azure": [
       {
@@ -295,6 +295,16 @@
         "tag": "AWS"
       },
       {
+        "title": "AWS Entity Resolution adds record-level confidence scores for ML matching",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/entity-resolution-record-confidence/",
+        "summary": "AWS Entity Resolution now provides record-level confidence scores for Machine Learning (ML) based matching workflows, giving you a per-record signal of how confident the model is in each individual…",
+        "date": "2026年9月9日",
+        "date_iso": "2026-09-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon Connect Customer Profiles now sends events when customers enter or exit segments",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/connect-customer-profiles-segment-events/",
         "summary": "Amazon Connect Customer Profiles now sends segment membership events, providing the ability to receive real-time and scheduled notifications when customer profiles enter or exit a segment, such as…",
@@ -392,16 +402,6 @@
         "date_iso": "2026-09-08",
         "category": "network-tag",
         "cat_label": "ネットワーク",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Builder ID adds recovery options and multi-factor authentication for third-party logins",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-builder-id-recovery-mfa-third-party/",
-        "summary": "AWS Builder ID, your personal profile for accessing AWS applications including AWS Builder Center, AWS Training and Certification, Amazon Quick and Kiro, now offers new ways to protect and recover…",
-        "date": "2026年9月8日",
-        "date_iso": "2026-09-08",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "AWS"
       }
     ],
@@ -609,6 +609,16 @@
     ],
     "oci": [
       {
+        "title": "Cross-Region Replication for OCI Cache",
+        "link": "https://docs.oracle.com/iaas/releasenotes/oci-cache/sep2026-cross-region-replication.htm",
+        "summary": "",
+        "date": "2026年9月9日",
+        "date_iso": "2026-09-09",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
         "title": "OS Management Hub now supports IPv6",
         "link": "https://docs.oracle.com/iaas/releasenotes/os-management-hub/release-3.7_ipv6.htm",
         "summary": "",
@@ -796,16 +806,6 @@
         "date_iso": "2026-08-25",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Service Logs for Database Tools MCP Servers",
-        "link": "https://docs.oracle.com/iaas/releasenotes/database-tools/logging.htm",
-        "summary": "",
-        "date": "2026年8月21日",
-        "date_iso": "2026-08-21",
-        "category": "database-tag",
-        "cat_label": "データベース",
         "tag": "OCI"
       }
     ]
