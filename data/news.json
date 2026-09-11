@@ -1,5 +1,5 @@
 {
-  "updated": "2026年09月11日 13:42 JST",
+  "updated": "2026年09月11日 17:15 JST",
   "clouds": {
     "azure": [
       {
@@ -609,6 +609,16 @@
     ],
     "oci": [
       {
+        "title": "Oracle Cloud Migrations supports ARM migrations for AWS EC2 instances",
+        "link": "https://docs.oracle.com/iaas/releasenotes/cloud-migration/ocm_aws_ec2_instance_migration-arm.htm",
+        "summary": "",
+        "date": "2026年9月9日",
+        "date_iso": "2026-09-09",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
         "title": "Cross-Region Replication for OCI Cache",
         "link": "https://docs.oracle.com/iaas/releasenotes/oci-cache/sep2026-cross-region-replication.htm",
         "summary": "",
@@ -796,16 +806,6 @@
         "date_iso": "2026-08-26",
         "category": "network-tag",
         "cat_label": "ネットワーク",
-        "tag": "OCI"
-      },
-      {
-        "title": "Add ZPR security attributes for Recovery Service subnets",
-        "link": "https://docs.oracle.com/iaas/releasenotes/recovery-service/zpr-support.htm",
-        "summary": "",
-        "date": "2026年8月26日",
-        "date_iso": "2026-08-26",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
         "tag": "OCI"
       }
     ]
