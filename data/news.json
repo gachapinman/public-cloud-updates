@@ -1,5 +1,5 @@
 {
-  "updated": "2026年09月12日 13:37 JST",
+  "updated": "2026年09月12日 17:05 JST",
   "clouds": {
     "azure": [
       {
@@ -419,7 +419,7 @@
       {
         "title": "September 10, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_10_2026",
-        "summary": "BigQuery Feature Conversational analytics in BigQuery now supports the ML.CORRELATION function to calculate statistical correlations between a target column and one or more metric columns in a table.…",
+        "summary": "Apigee X Fixed Addendum to Apigee release notes dated August 27, 2026 (1-18-0-apigee-4). Bug ID Description 502540992 Fixed an issue where the SemanticCacheLookup policy was incompatible with Vertex…",
         "date": "2026年9月10日",
         "date_iso": "2026-09-10",
         "category": "ai-tag",
@@ -609,8 +609,18 @@
     ],
     "oci": [
       {
-        "title": "Oracle Cloud Migrations supports ARM migrations for AWS EC2 instances",
-        "link": "https://docs.oracle.com/iaas/releasenotes/cloud-migration/ocm_aws_ec2_instance_migration-arm.htm",
+        "title": "Export Marketplace Customer Instance Reports as CSV",
+        "link": "https://docs.oracle.com/iaas/releasenotes/marketplace/customer-instance-report-csv-export.htm",
+        "summary": "",
+        "date": "2026年9月11日",
+        "date_iso": "2026-09-11",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Cross-Region Replication for OCI Cache",
+        "link": "https://docs.oracle.com/iaas/releasenotes/oci-cache/sep2026-cross-region-replication.htm",
         "summary": "",
         "date": "2026年9月9日",
         "date_iso": "2026-09-09",
@@ -619,8 +629,8 @@
         "tag": "OCI"
       },
       {
-        "title": "Cross-Region Replication for OCI Cache",
-        "link": "https://docs.oracle.com/iaas/releasenotes/oci-cache/sep2026-cross-region-replication.htm",
+        "title": "Oracle Cloud Migrations supports ARM migrations for AWS EC2 instances",
+        "link": "https://docs.oracle.com/iaas/releasenotes/cloud-migration/ocm_aws_ec2_instance_migration-arm.htm",
         "summary": "",
         "date": "2026年9月9日",
         "date_iso": "2026-09-09",
@@ -796,16 +806,6 @@
         "date_iso": "2026-08-26",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Network Firewall as a VTAP Source",
-        "link": "https://docs.oracle.com/iaas/releasenotes/network-firewall/network-firewall-as-vtap-source.htm",
-        "summary": "",
-        "date": "2026年8月26日",
-        "date_iso": "2026-08-26",
-        "category": "network-tag",
-        "cat_label": "ネットワーク",
         "tag": "OCI"
       }
     ]
