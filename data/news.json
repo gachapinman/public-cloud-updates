@@ -1,7 +1,27 @@
 {
-  "updated": "2026年09月11日 22:50 JST",
+  "updated": "2026年09月12日 13:37 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Retirement: Azure Linux with OS Guard in Azure Kubernetes Service",
+        "link": "https://azure.microsoft.com/updates?id=571257",
+        "summary": "Support for Azure Linux with OS Guard in Azure Kubernetes Service will end on December 10, 2026. Azure Container Linux is the replacement for Azure Linux with OS Guard (preview). Starting on December…",
+        "date": "2026年9月12日",
+        "date_iso": "2026-09-12",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Agentless migration of on-premises SMB file shares to Azure Files (SMB)",
+        "link": "https://azure.microsoft.com/updates?id=570910",
+        "summary": "Azure Storage Mover now supports agentless migration of on-premises SMB file shares to Azure Files (SMB), in public preview. You can move file data from Windows Server or NAS shares into Azure…",
+        "date": "2026年9月12日",
+        "date_iso": "2026-09-12",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
+        "tag": "AZURE"
+      },
       {
         "title": "Generally Available: TLS/SSL certificate and end-to-end TLS encryption support for Azure Functions Flex…",
         "link": "https://azure.microsoft.com/updates?id=570940",
@@ -181,29 +201,79 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Per-disk resiliency for Azure VMs",
-        "link": "https://azure.microsoft.com/updates?id=569711",
-        "summary": "Azure automatically recovers a VM when it loses access to an attached managed disk for an extended period. The VM is shut down and powered back on after disk connectivity is restored, with no…",
-        "date": "2026年9月1日",
-        "date_iso": "2026-09-01",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Azure Multicloud Interconnect",
-        "link": "https://azure.microsoft.com/updates?id=570364",
-        "summary": "Announcing the public preview of Azure Multicloud Interconnect, a managed service that provides private connectivity between Azure and supported cloud providers, with Amazon Web Services (AWS)…",
-        "date": "2026年9月1日",
-        "date_iso": "2026-09-01",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Amazon EC2 X2idn instances are now available in Asia Pacific (Hong Kong)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-x2idn-asia-pacific-hong-kong/",
+        "summary": "Memory-optimized Amazon Elastic Compute Cloud (Amazon EC2) X2idn instances are now available in Asia Pacific (Hong Kong) Region. These instances, powered by 3rd generation Intel Xeon Scalable…",
+        "date": "2026年9月12日",
+        "date_iso": "2026-09-12",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon SageMaker HyperPod now supports model caching for faster inference autoscaling and reduced cold starts",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/sgm-hyperpod-model-caching-inf/",
+        "summary": "Amazon SageMaker HyperPod now supports model caching, an inference optimization that pre-loads model weights and container images onto cluster nodes so pods start in seconds instead of minutes. When…",
+        "date": "2026年9月12日",
+        "date_iso": "2026-09-12",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Lambda now supports direct read configuration for Amazon S3 Files",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-direct-read-s3files/",
+        "summary": "AWS Lambda now supports direct read &nbsp;configuration for Amazon S3 Files, letting you configure which storage your functions read from: S3 Files high-performance storage or your S3 bucket. With…",
+        "date": "2026年9月12日",
+        "date_iso": "2026-09-12",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Bedrock Managed Knowledge Base now supports multimodal embeddings for video, audio, and image content with…",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-multimodal-embeddings-twelvelabs-marengo/",
+        "summary": "AWS announces the availability of TwelveLabs Marengo 3.0 as an embedding model in Amazon Bedrock Managed Knowledge Base, enabling customers to create multimodal embeddings for video, audio, and image…",
+        "date": "2026年9月12日",
+        "date_iso": "2026-09-12",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS HealthOmics now publishes real-time run metrics to Amazon CloudWatch",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-healthomics-realtime-run-metrics/",
+        "summary": "AWS HealthOmics now publishes real-time run metrics to Amazon CloudWatch, giving you visibility into workflow resource utilization as runs execute. The 14 new run metrics span CPU and GPU usage,…",
+        "date": "2026年9月12日",
+        "date_iso": "2026-09-12",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS DevOps Agent adds support for bidirectional Slack communication",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-devops-agent-bidirectional-slack-communication",
+        "summary": "AWS DevOps Agent now enables engineers to manage&nbsp;production operations&nbsp;across AWS, multicloud, and on-premises environments with the complete investigation lifecycle directly within Slack.…",
+        "date": "2026年9月12日",
+        "date_iso": "2026-09-12",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon RDS for Oracle now supports Supplemental Patch Bundle for July 2026 Release Update",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-oracle-supports-spatial-patch-bundle-jul-2026-ru/",
+        "summary": "Amazon Relational Database Service (Amazon RDS) for Oracle now supports the Supplemental Patch Bundle (SPB) for the July 2026 Release Update (RU) for Oracle Database version 19c and 26ai.&nbsp;…",
+        "date": "2026年9月11日",
+        "date_iso": "2026-09-11",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
       {
         "title": "AWS Lambda recursive loop detection is now available in Europe Sovereign Cloud",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/lambda-recursion-europe-sovereign-cloud",
@@ -333,79 +403,19 @@
         "category": "security-tag",
         "cat_label": "セキュリティ",
         "tag": "AWS"
-      },
-      {
-        "title": "AWS Elemental MediaTailor now supports Low-Latency HLS ad insertion",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-elemental-mediatailor-low-latency-hls-ad-insertion",
-        "summary": "AWS Elemental MediaTailor now supports Low-Latency HTTP Live Streaming (LL-HLS) ad insertion using HLS Interstitials. MediaTailor is a channel assembly and personalized ad insertion service for video…",
-        "date": "2026年9月10日",
-        "date_iso": "2026-09-10",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Elemental introduces Dynamic Multiview for live video",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-elemental-dynamic-multiview-video/",
-        "summary": "AWS Elemental MediaPackage now offers Dynamic Multiview, a server-side capability that composes multiple live video sources into viewer-selected tiled layouts on demand. Content providers can deliver…",
-        "date": "2026年9月10日",
-        "date_iso": "2026-09-10",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Storage Gateway now supports FIPS-compliant private connectivity for Amazon S3 File Gateway",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/storage-gateway-fips-privatelink-s3/",
-        "summary": "AWS Storage Gateway now supports FIPS 140-3 validated endpoints over AWS PrivateLink for Amazon S3 File Gateway. Previously, FIPS endpoints for File Gateway were available only over the public…",
-        "date": "2026年9月10日",
-        "date_iso": "2026-09-10",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EVS is now available in more regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-evs-available-in-additional-regions/",
-        "summary": "Today, we're announcing that Amazon Elastic VMware Service (Amazon EVS) is now available in the Asia Pacific (Osaka), Asia Pacific (Taipei),&nbsp;Europe (Spain), and Israel (Tel Aviv)&nbsp;Regions.…",
-        "date": "2026年9月10日",
-        "date_iso": "2026-09-10",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Connect Customer now lets you set specific capacity limits for different types of Tasks and Emails",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-capacity-limits/",
-        "summary": "Amazon Connect Customer now gives contact center managers the ability to set specific capacity limits for different kinds of work. Previously, concurrency settings were applied at the channel level…",
-        "date": "2026年9月10日",
-        "date_iso": "2026-09-10",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Transform for .NET modernization is now generally available via CLI",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-transform-dotnet-cli",
-        "summary": "Today, AWS announced the general availability of an AWS-managed transformation for .NET modernization in AWS Transform custom that you can trigger with a single one-line CLI command. You can run this…",
-        "date": "2026年9月10日",
-        "date_iso": "2026-09-10",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Lambda now supports 90-minute function timeout on Lambda Managed Instances",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-90-minute-function/",
-        "summary": "AWS Lambda now supports a 90-minute function timeout for asynchronous and event source mapping (ESM) invocations on Lambda Managed Instances (LMI) , a 6x increase from the previous 15-minute limit.…",
-        "date": "2026年9月10日",
-        "date_iso": "2026-09-10",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "September 11, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_11_2026",
+        "summary": "API Gateway Feature Enable Model Context Protocol (MCP) You can now configure API Gateway to act as a remote Model Context Protocol (MCP) server. This Public Preview feature allows you to expose your…",
+        "date": "2026年9月11日",
+        "date_iso": "2026-09-11",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "GCP"
+      },
       {
         "title": "September 10, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_10_2026",
@@ -592,16 +602,6 @@
         "summary": "Agent Platform Workbench Change 20260823-2330-rc0 Release Change 20260823-2330-rc0 Release Change Installed latest packages from upstream dependencies. Change Installed latest packages from upstream…",
         "date": "2026年8月23日",
         "date_iso": "2026-08-23",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "GCP"
-      },
-      {
-        "title": "August 22, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_22_2026",
-        "summary": "Apigee UI Fixed Bug ID Description 543626585 ServiceCallout policy can now be added in the Apigee UI Adding a ServiceCallout policy in the Apigee UI no longer leaves the Create or Add button…",
-        "date": "2026年8月22日",
-        "date_iso": "2026-08-22",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "GCP"
