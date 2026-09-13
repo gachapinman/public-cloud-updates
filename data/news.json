@@ -1,5 +1,5 @@
 {
-  "updated": "2026年09月12日 22:09 JST",
+  "updated": "2026年09月13日 13:50 JST",
   "clouds": {
     "azure": [
       {
@@ -205,6 +205,16 @@
     ],
     "aws": [
       {
+        "title": "AWS Elemental MediaLive enables frame-accurate pipeline locking for streams without timecode",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/medialive-pipeline-locking/",
+        "summary": "AWS Elemental MediaLive now supports Video Aligned Locking, a new feature to synchronize video pipelines without requiring timecode from the source. Previously, achieving frame-accurate locking…",
+        "date": "2026年9月12日",
+        "date_iso": "2026-09-12",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon EC2 X2idn instances are now available in Asia Pacific (Hong Kong)",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-x2idn-asia-pacific-hong-kong/",
         "summary": "Memory-optimized Amazon Elastic Compute Cloud (Amazon EC2) X2idn instances are now available in Asia Pacific (Hong Kong) Region. These instances, powered by 3rd generation Intel Xeon Scalable…",
@@ -392,16 +402,6 @@
         "date_iso": "2026-09-10",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Elemental MediaLive adds support for A/B forensic watermarking",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/medialive-ab-forensic-watermarking/",
-        "summary": "AWS Elemental MediaLive now supports A/B forensic watermarking, enabling content owners to trace the source of unauthorized redistribution of live video content. A single MediaLive channel produces…",
-        "date": "2026年9月10日",
-        "date_iso": "2026-09-10",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
         "tag": "AWS"
       }
     ],
