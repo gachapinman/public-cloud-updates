@@ -1,5 +1,5 @@
 {
-  "updated": "2026年09月14日 18:12 JST",
+  "updated": "2026年09月15日 01:00 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "September 14, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_14_2026",
+        "summary": "Backup and DR Feature You can now monitor restore jobs for Filestore instances directly from the Backup and DR Jobs page in the Google Cloud console. When you trigger a restore on a Filestore…",
+        "date": "2026年9月14日",
+        "date_iso": "2026-09-14",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
+        "tag": "GCP"
+      },
+      {
         "title": "September 11, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_11_2026",
         "summary": "API Gateway Feature Enable Model Context Protocol (MCP) You can now configure API Gateway to act as a remote Model Context Protocol (MCP) server. This Public Preview feature allows you to expose your…",
@@ -592,16 +602,6 @@
         "summary": "Anthos Config Management Change Addressed multiple Common Vulnerabilities and Exposures (CVEs) by updating dependencies. Feature You can now disable monitoring for specific custom RootSync or…",
         "date": "2026年8月24日",
         "date_iso": "2026-08-24",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "GCP"
-      },
-      {
-        "title": "August 23, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_23_2026",
-        "summary": "Agent Platform Workbench Change 20260823-2330-rc0 Release Change 20260823-2330-rc0 Release Change Installed latest packages from upstream dependencies. Change Installed latest packages from upstream…",
-        "date": "2026年8月23日",
-        "date_iso": "2026-08-23",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "GCP"
