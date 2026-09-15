@@ -1,7 +1,27 @@
 {
-  "updated": "2026年09月15日 01:00 JST",
+  "updated": "2026年09月15日 13:56 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Announcing: New Windows App client-side endpoints for Azure Virtual Desktop",
+        "link": "https://azure.microsoft.com/updates?id=571360",
+        "summary": "Beginning in early October 2026, Windows App will begin using three new wildcard fully qualified domain names (FQDNs) for client-side service traffic to Azure Virtual Desktop. These domains are…",
+        "date": "2026年9月15日",
+        "date_iso": "2026-09-15",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: HTTP/3 over QUIC support in Azure Application Gateway",
+        "link": "https://azure.microsoft.com/updates?id=571123",
+        "summary": "Announcing public preview support for HTTP/3 over QUIC on Azure Application Gateway. HTTP/3 is the next evolution of HTTP and uses QUIC to improve connection setup time, reduce latency, and provide…",
+        "date": "2026年9月15日",
+        "date_iso": "2026-09-15",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AZURE"
+      },
       {
         "title": "Retirement: Azure Linux with OS Guard in Azure Kubernetes Service",
         "link": "https://azure.microsoft.com/updates?id=571257",
@@ -181,29 +201,79 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Azure Monitor Auxiliary Logs Plan in Azure Government and China regions",
-        "link": "https://azure.microsoft.com/updates?id=569899",
-        "summary": "The Auxiliary table plan in Azure Monitor Logs is a cost-effective option for ingesting and retaining high-volume, verbose logs used for compliance and auditing. Auxiliary Logs is now generally…",
-        "date": "2026年9月2日",
-        "date_iso": "2026-09-02",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Azure Monitor Auxiliary Logs Plan support for Azure tables and plan switching",
-        "link": "https://azure.microsoft.com/updates?id=569904",
-        "summary": "The Auxiliary table plan in Azure Monitor Logs gives you a cost-effective way to ingest and retain high-volume, verbose logs that you keep for compliance and auditing but rarely query. Two highly…",
-        "date": "2026年9月2日",
-        "date_iso": "2026-09-02",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Qwen3.6-35B-A3B-NVFP4 and Wan2.1-T2V-1.3B-Diffusers models now available on Amazon SageMaker JumpStart",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/qwen3.6-35b-a3b-nvfp4-wan2.1-t2v-1.3B-diffusers-jumpstart/",
+        "summary": "NVIDIA's Qwen3.6-35B-A3B-NVFP4 and Alibaba's Wan2.1-T2V-1.3B-Diffusers models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers.…",
+        "date": "2026年9月15日",
+        "date_iso": "2026-09-15",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Ministral-3-3B-Instruct-2512 and Ministral-3-8B-Instruct-2512 models now available on Amazon SageMaker JumpStart",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/ministral-3-3b-instruct-2512-ministral-3-8B-Instruct-2512-jumpstart/",
+        "summary": "Mistral AI's Ministral-3-3B-Instruct-2512 and Ministral-3-8B-Instruct-2512 models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS…",
+        "date": "2026年9月15日",
+        "date_iso": "2026-09-15",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Gemma-4-31B-it-assistant and Gemma-4-31B-IT-NVFP4 models now available on Amazon SageMaker JumpStart",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/gemma-4-31b-it-assistant-gemma-4-31b-it-nvfp4-jumpstart/",
+        "summary": "Google DeepMind's Gemma-4-31B-it-assistant and NVIDIA's Gemma-4-31B-IT-NVFP4 models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS…",
+        "date": "2026年9月15日",
+        "date_iso": "2026-09-15",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "granite-speech-4.1-2b, kanana-2-30b-a3b-instruct, and OpenFold3 models now available on Amazon SageMaker JumpStart",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/granite-speech-4.1-2b-edge-kanana-2-30b-a3b-instruct-openfold3-jumpstart/",
+        "summary": "BM's granite-speech-4.1-2b, Kakao's kanana-2-30b-a3b-instruct, and the OpenFold Consortium's OpenFold3 models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation…",
+        "date": "2026年9月15日",
+        "date_iso": "2026-09-15",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Glue zero-ETL adds target table property ownership and conflict detection",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/glue-zero-etl-ownership-conflicts/",
+        "summary": "AWS Glue zero-ETL integrations now detect table property conflicts and track integration ownership. When you configure a source table and target catalog, Glue associates the resulting table…",
+        "date": "2026年9月14日",
+        "date_iso": "2026-09-14",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS End User Messaging now supports Dynamic Flows in WhatsApp",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-end-user-messaging-whatsapp-dynamic-flows",
+        "summary": "AWS End User Messaging now supports dynamic WhatsApp flows so you can turn WhatsApp conversations into rich, interactive experiences that end-users complete directly in WhatsApp. Instead of pushing…",
+        "date": "2026年9月14日",
+        "date_iso": "2026-09-14",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS End User Messaging strengthens SMS deliverability with automatic failover",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-end-user-messaging-improves-deliverability",
+        "summary": "AWS End User Messaging is advancing its deliverability capabilities in phone pools. Now, customers sending through phone pools automatically benefit from automatic failover to the next best…",
+        "date": "2026年9月14日",
+        "date_iso": "2026-09-14",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
       {
         "title": "AWS Elemental MediaLive enables frame-accurate pipeline locking for streams without timecode",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/medialive-pipeline-locking/",
@@ -333,87 +403,17 @@
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "AWS"
-      },
-      {
-        "title": "Announcing second-generation single-rack AWS Outposts",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/single-rack-aws-outposts/",
-        "summary": "Today, AWS announces the general availability of second-generation single-rack AWS Outposts, a self-contained 42U rack that integrates compute, storage and networking into a single compact unit…",
-        "date": "2026年9月11日",
-        "date_iso": "2026-09-11",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon OpenSearch Serverless is now available on v0 by Vercel",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-opensearch-serverless-available-V0-vercel/",
-        "summary": "You can now build full-stack search and AI applications in minutes using Amazon OpenSearch Serverless on v0 by Vercel, an AI-powered platform that transforms your ideas into production-ready web…",
-        "date": "2026年9月11日",
-        "date_iso": "2026-09-11",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon ECS expands IAM condition key support for RunTask and StartTask APIs",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-expands-condition-key-support/",
-        "summary": "Amazon Elastic Container Service (Amazon ECS) now supports the IAM condition keys for CPU and memory resources on the RunTask and StartTask APIs. Administrators can use these keys to enforce…",
-        "date": "2026年9月11日",
-        "date_iso": "2026-09-11",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Redshift RG instances now available in Europe (Zurich) Region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-redshift-rg-available-zurich",
-        "summary": "Amazon Redshift RG instances, powered by AWS Graviton processors, are now available in the AWS Europe (Zurich) Region. RG instances deliver better performance, running data warehouse and data lake…",
-        "date": "2026年9月11日",
-        "date_iso": "2026-09-11",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon CloudWatch now supports network health indicator for TGW inter-Region peering using synthetic monitors",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/cloudwatch-network-monitoring-tgw-support/",
-        "summary": "With synthetic monitors in Amazon CloudWatch Network Monitoring, you can now determine whether a network performance issue on a path that crosses an AWS Transit Gateway inter-Region peering…",
-        "date": "2026年9月10日",
-        "date_iso": "2026-09-10",
-        "category": "network-tag",
-        "cat_label": "ネットワーク",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Elemental Inference now generates contextual metadata from live video in real time",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/elemental-inference-contextual-metadata/",
-        "summary": "AWS Elemental Inference now generates contextual metadata from live video streams in real time, using AI to produce scene-level intelligence without custom machine learning infrastructure. The new…",
-        "date": "2026年9月10日",
-        "date_iso": "2026-09-10",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Elemental MediaTailor now offers Yield Optimization to automatically fill ad breaks with Amazon Ads demand",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/mediatailor-yield-optimization/",
-        "summary": "AWS Elemental MediaTailor now offers Yield Optimization, a new capability that automatically monetizes unused ad inventory with Amazon Ads demand during server-side ad insertion (SSAI) for…",
-        "date": "2026年9月10日",
-        "date_iso": "2026-09-10",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
       }
     ],
     "gcp": [
       {
         "title": "September 14, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_14_2026",
-        "summary": "Backup and DR Feature You can now monitor restore jobs for Filestore instances directly from the Backup and DR Jobs page in the Google Cloud console. When you trigger a restore on a Filestore…",
+        "summary": "Apigee hybrid Announcement hybrid v1.17.0 On September 14, 2026 we released an updated version of the Apigee hybrid software, 1.17.0. For information on upgrading, see Upgrading Apigee hybrid to…",
         "date": "2026年9月14日",
         "date_iso": "2026-09-14",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "GCP"
       },
       {
