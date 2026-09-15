@@ -1,5 +1,5 @@
 {
-  "updated": "2026年09月15日 13:56 JST",
+  "updated": "2026年09月15日 17:55 JST",
   "clouds": {
     "azure": [
       {
@@ -609,6 +609,16 @@
     ],
     "oci": [
       {
+        "title": "Cohere Command A Vision and Cohere Embed 4 on-demand models deprecated in Abu Dhabi",
+        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/cohere-command-a-vision-embed-4-on-demand-deprecated-abudhabi.htm",
+        "summary": "",
+        "date": "2026年9月14日",
+        "date_iso": "2026-09-14",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
         "title": "Export Marketplace Customer Instance Reports as CSV",
         "link": "https://docs.oracle.com/iaas/releasenotes/marketplace/customer-instance-report-csv-export.htm",
         "summary": "",
@@ -796,16 +806,6 @@
         "date_iso": "2026-08-27",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Model Selection, Scheduled Enrichment, and Background SQL Generation Available for Enterprise AI NL2SQL",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/nl2sql-model-selection-background-generation.htm",
-        "summary": "",
-        "date": "2026年8月26日",
-        "date_iso": "2026-08-26",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "OCI"
       }
     ]
