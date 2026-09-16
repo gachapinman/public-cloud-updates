@@ -1,5 +1,5 @@
 {
-  "updated": "2026年09月15日 23:28 JST",
+  "updated": "2026年09月16日 13:51 JST",
   "clouds": {
     "azure": [
       {
@@ -205,6 +205,86 @@
     ],
     "aws": [
       {
+        "title": "Monitor cost anomalies directly in Billing and Cost Management Dashboards with the new Detected Anomalies widget",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/monitor-detected-anomalies-using-dashboards",
+        "summary": "Today, AWS Billing and Cost Management (BCM) announces support for the Detected Anomalies widget in BCM Dashboards. You can now review cost anomalies alongside cost and usage, budgets, cost…",
+        "date": "2026年9月16日",
+        "date_iso": "2026-09-16",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Direct Connect announces flat-rate pricing for dedicated connections",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-direct-connect-announces-flat-rate-pricing/",
+        "summary": "AWS Direct Connect announces flat-rate pricing for 10G and 100G dedicated connections AWS Direct Connect provides dedicated network connectivity from on-premises environments to AWS. Customers value…",
+        "date": "2026年9月16日",
+        "date_iso": "2026-09-16",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Billing Conductor now supports custom rates and usage tier pricing configurations",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/AWS-Billing-Conductor-custom-rates-usage-tier",
+        "summary": "AWS Billing Conductor now lets you define custom rate pricing for AWS services, including defining custom usage tiers to configure rates by the desired usage volume.&nbsp; Customers and Partners…",
+        "date": "2026年9月16日",
+        "date_iso": "2026-09-16",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon SageMaker AI now supports instance preference lists for training and processing jobs",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-sagemaker-training-processing-instance-pref-lists/",
+        "summary": "Today, Amazon SageMaker AI announces instance preference lists for training and processing jobs, making it easier and faster to find compute capacity for your workloads. Many AI training,…",
+        "date": "2026年9月16日",
+        "date_iso": "2026-09-16",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Analyze your CloudTrail events using natural language in Amazon Q Console",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/cloudtrail-amazon-q-console/",
+        "summary": "AWS CloudTrail, a service that records API activity across your AWS account for security auditing, compliance, and operational troubleshooting, now integrates with Amazon Q Console to help you…",
+        "date": "2026年9月16日",
+        "date_iso": "2026-09-16",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Connect Customer now enables agents to bid on preferred shifts",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-customer-shift-bidding/",
+        "summary": "Amazon Connect Customer now enables agents to bid on preferred shifts, giving them more control over their work schedules. Schedulers first establish agent ranking either by uploading a CSV file or…",
+        "date": "2026年9月16日",
+        "date_iso": "2026-09-16",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Glue zero-ETL now captures archived Salesforce records",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/glue-zero-etl-archived-salesforce/",
+        "summary": "AWS Glue zero-ETL integrations for Salesforce now capture archived records in your target tables, giving you a complete replica of your Salesforce data for analytics and reporting. Archived records…",
+        "date": "2026年9月15日",
+        "date_iso": "2026-09-15",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS improves regional resiliency for root user sign-in",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/root-user-regional-resiliency/",
+        "summary": "AWS root user sign-in is now served across US East (N. Virginia), US East (Ohio), and US West (Oregon), with sign-in traffic distributed across all three Regions. This change reduces reliance on US…",
+        "date": "2026年9月15日",
+        "date_iso": "2026-09-15",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
         "title": "Qwen3.6-35B-A3B-NVFP4 and Wan2.1-T2V-1.3B-Diffusers models now available on Amazon SageMaker JumpStart",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/qwen3.6-35b-a3b-nvfp4-wan2.1-t2v-1.3B-diffusers-jumpstart/",
         "summary": "NVIDIA's Qwen3.6-35B-A3B-NVFP4 and Alibaba's Wan2.1-T2V-1.3B-Diffusers models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers.…",
@@ -323,95 +403,35 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "AWS HealthOmics now publishes real-time run metrics to Amazon CloudWatch",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-healthomics-realtime-run-metrics/",
-        "summary": "AWS HealthOmics now publishes real-time run metrics to Amazon CloudWatch, giving you visibility into workflow resource utilization as runs execute. The 14 new run metrics span CPU and GPU usage,…",
-        "date": "2026年9月12日",
-        "date_iso": "2026-09-12",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS DevOps Agent adds support for bidirectional Slack communication",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-devops-agent-bidirectional-slack-communication",
-        "summary": "AWS DevOps Agent now enables engineers to manage&nbsp;production operations&nbsp;across AWS, multicloud, and on-premises environments with the complete investigation lifecycle directly within Slack.…",
-        "date": "2026年9月12日",
-        "date_iso": "2026-09-12",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon RDS for Oracle now supports Supplemental Patch Bundle for July 2026 Release Update",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-oracle-supports-spatial-patch-bundle-jul-2026-ru/",
-        "summary": "Amazon Relational Database Service (Amazon RDS) for Oracle now supports the Supplemental Patch Bundle (SPB) for the July 2026 Release Update (RU) for Oracle Database version 19c and 26ai.&nbsp;…",
-        "date": "2026年9月11日",
-        "date_iso": "2026-09-11",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Lambda recursive loop detection is now available in Europe Sovereign Cloud",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/lambda-recursion-europe-sovereign-cloud",
-        "summary": "AWS Lambda recursive loop detection is now supported for functions running in Europe Sovereign Cloud. Recursive loop detection automatically detects and stops recursive invocations between Lambda…",
-        "date": "2026年9月11日",
-        "date_iso": "2026-09-11",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Transform for .NET now generates unit tests for modernized code",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-transform-net-unit-tests",
-        "summary": "Today, AWS announced that AWS Transform for .NET can automatically generate unit tests for the code it modernizes. When enabled, AWS Transform generates unit tests that target the testable classes in…",
-        "date": "2026年9月11日",
-        "date_iso": "2026-09-11",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon API Gateway now supports 1 MB execution logs with configurable delivery destinations",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-api-gateway-1-mb-execution-logs/",
-        "summary": "Amazon API Gateway now supports configurable delivery destinations and larger log events for REST API execution logs. Previously, execution logs were delivered to a single API Gateway-managed…",
-        "date": "2026年9月11日",
-        "date_iso": "2026-09-11",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Lambda durable functions integrates with Pydantic AI",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-durable-pydantic-ai/",
-        "summary": "Today, AWS Lambda durable functions announces an integration with Pydantic AI , an open source framework for building AI agents in Python. AWS Lambda durable functions saves your Pydantic AI agent's…",
-        "date": "2026年9月11日",
-        "date_iso": "2026-09-11",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon MQ now supports RabbitMQ 4.3",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-mq-rabbitmq-43/",
-        "summary": "Amazon MQ now supports RabbitMQ version 4.3 which adds quorum queue feature enhancements such as compaction, increased priority levels, native delayed retries, and graceful consumer…",
-        "date": "2026年9月11日",
-        "date_iso": "2026-09-11",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "September 15, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_15_2026",
+        "summary": "Artifact Registry Feature Artifact Registry support for managing Conda packages with Artifact Registry repositories is in Preview . For more information, see Get started with Conda packages . Batch…",
+        "date": "2026年9月15日",
+        "date_iso": "2026-09-15",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "GCP"
+      },
       {
         "title": "September 14, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_14_2026",
         "summary": "Apigee hybrid Announcement hybrid v1.17.0 On September 14, 2026 we released an updated version of the Apigee hybrid software, 1.17.0. For information on upgrading, see Upgrading Apigee hybrid to…",
         "date": "2026年9月14日",
         "date_iso": "2026-09-14",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "GCP"
+      },
+      {
+        "title": "September 13, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_13_2026",
+        "summary": "Agent Platform Workbench Change 20260911.00_p0 Release Change 20260913.00_p0 Release Change Installed latest packages from upstream dependencies. Change Installed latest packages from upstream…",
+        "date": "2026年9月13日",
+        "date_iso": "2026-09-13",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "GCP"
@@ -585,26 +605,6 @@
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "GCP"
-      },
-      {
-        "title": "August 25, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_25_2026",
-        "summary": "Access Approval Feature Gemini Data Analytics is generally available ( GA ). Access Transparency Feature Gemini Data Analytics is generally available ( GA ). BigQuery Feature BigQuery data governance…",
-        "date": "2026年8月25日",
-        "date_iso": "2026-08-25",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "August 24, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_24_2026",
-        "summary": "Anthos Config Management Change Addressed multiple Common Vulnerabilities and Exposures (CVEs) by updating dependencies. Feature You can now disable monitoring for specific custom RootSync or…",
-        "date": "2026年8月24日",
-        "date_iso": "2026-08-24",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "GCP"
       }
     ],
     "oci": [
@@ -729,6 +729,16 @@
         "tag": "OCI"
       },
       {
+        "title": "ODH-Based Versioning in OCI Big Data Service",
+        "link": "https://docs.oracle.com/iaas/releasenotes/big-data/odh-based-versioning.htm",
+        "summary": "",
+        "date": "2026年9月1日",
+        "date_iso": "2026-09-01",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
         "title": "Monitor and Manage Scheduler Jobs",
         "link": "https://docs.oracle.com/iaas/releasenotes/database-management/scheduler-jobs.htm",
         "summary": "",
@@ -796,16 +806,6 @@
         "date_iso": "2026-08-28",
         "category": "container-tag",
         "cat_label": "コンテナ",
-        "tag": "OCI"
-      },
-      {
-        "title": "Attach a file when creating a technical support request",
-        "link": "https://docs.oracle.com/iaas/releasenotes/support/attach-new-request.htm",
-        "summary": "",
-        "date": "2026年8月27日",
-        "date_iso": "2026-08-27",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
         "tag": "OCI"
       }
     ]
