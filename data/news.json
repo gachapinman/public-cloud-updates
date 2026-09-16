@@ -1,5 +1,5 @@
 {
-  "updated": "2026年09月16日 17:48 JST",
+  "updated": "2026年09月16日 23:22 JST",
   "clouds": {
     "azure": [
       {
@@ -639,6 +639,16 @@
         "tag": "OCI"
       },
       {
+        "title": "Configurable Fault Domain Host Balancing",
+        "link": "https://docs.oracle.com/iaas/releasenotes/oracle-cloud-vmware-solution/configurable-fault-domain-host-balancing.htm",
+        "summary": "",
+        "date": "2026年9月9日",
+        "date_iso": "2026-09-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
         "title": "Cross-Region Replication for OCI Cache",
         "link": "https://docs.oracle.com/iaas/releasenotes/oci-cache/sep2026-cross-region-replication.htm",
         "summary": "",
@@ -796,16 +806,6 @@
         "date_iso": "2026-09-01",
         "category": "database-tag",
         "cat_label": "データベース",
-        "tag": "OCI"
-      },
-      {
-        "title": "Internet of Things (IoT) introduces Flow Runtime",
-        "link": "https://docs.oracle.com/iaas/releasenotes/internet-of-things/update-09012026.htm",
-        "summary": "",
-        "date": "2026年9月1日",
-        "date_iso": "2026-09-01",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
         "tag": "OCI"
       }
     ]
