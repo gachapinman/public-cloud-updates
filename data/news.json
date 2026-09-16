@@ -1,5 +1,5 @@
 {
-  "updated": "2026年09月16日 13:51 JST",
+  "updated": "2026年09月16日 17:48 JST",
   "clouds": {
     "azure": [
       {
@@ -609,6 +609,16 @@
     ],
     "oci": [
       {
+        "title": "Oracle JDK 27 - Released September 15, 2026",
+        "link": "https://docs.oracle.com/iaas/releasenotes/java-management/jdk-27-release-note.htm",
+        "summary": "",
+        "date": "2026年9月15日",
+        "date_iso": "2026-09-15",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
         "title": "Cohere Command A Vision and Cohere Embed 4 on-demand models deprecated in Abu Dhabi",
         "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/cohere-command-a-vision-embed-4-on-demand-deprecated-abudhabi.htm",
         "summary": "",
@@ -796,16 +806,6 @@
         "date_iso": "2026-09-01",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "OCI Kubernetes Engine (OKE) support for virtual nodes using persistent volumes backed by File Storage service",
-        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng_virtual-nodes-persistent-storage-support.htm",
-        "summary": "",
-        "date": "2026年8月28日",
-        "date_iso": "2026-08-28",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
         "tag": "OCI"
       }
     ]
