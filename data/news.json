@@ -1,5 +1,5 @@
 {
-  "updated": "2026年09月17日 17:51 JST",
+  "updated": "2026年09月17日 23:27 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "September 17, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_17_2026",
+        "summary": "Oracle Database@Google Cloud Feature For Exadata Database Service, Oracle Database@Google Cloud is available in europe-west12 (Turin, Italy) region. For a list of supported locations, see Supported…",
+        "date": "2026年9月17日",
+        "date_iso": "2026-09-17",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "September 16, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_16_2026",
         "summary": "Backup and DR Feature You can now use auto-protection policies and resource labels to automatically protect Compute Engine instances and Persistent Disks at scale in Backup and DR. This feature…",
@@ -594,16 +604,6 @@
         "date_iso": "2026-08-28",
         "category": "security-tag",
         "cat_label": "セキュリティ",
-        "tag": "GCP"
-      },
-      {
-        "title": "August 27, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_27_2026",
-        "summary": "Apigee X Announcement On August 27th, 2026, we released an updated version of Apigee (1-18-0-apigee-4). Note: Rollouts of this release began today and may take four or more business days to be…",
-        "date": "2026年8月27日",
-        "date_iso": "2026-08-27",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
         "tag": "GCP"
       }
     ],
