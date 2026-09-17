@@ -1,7 +1,47 @@
 {
-  "updated": "2026年09月16日 23:22 JST",
+  "updated": "2026年09月17日 13:54 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Retirement Update: SAP container images removed October 14, 2026",
+        "link": "https://azure.microsoft.com/updates?id=571342",
+        "summary": "The containerized SAP data connector retired on September 14, 2026 and is unsupported and unmaintained. Existing TLS-compliant agents may continue sending logs through the retired HTTP Data Collector…",
+        "date": "2026年9月17日",
+        "date_iso": "2026-09-17",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Azure SQL updates for mid-September 2026",
+        "link": "https://azure.microsoft.com/updates?id=571056",
+        "summary": "In mid-September 2026, the following updates and enhancements were made to Azure SQL:Configure soft delete for the Azure SQL logical server. When the logical server is deleted, it goes into a soft…",
+        "date": "2026年9月17日",
+        "date_iso": "2026-09-17",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Azure Red Hat OpenShift with hosted control planes",
+        "link": "https://azure.microsoft.com/updates?id=571621",
+        "summary": "Azure Red Hat OpenShift with hosted control planes is now in public preview. It is a new deployment option for Azure Red Hat OpenShift that runs the OpenShift control plane as a fully managed…",
+        "date": "2026年9月16日",
+        "date_iso": "2026-09-16",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: PostgreSQL skills and MCP plugin for Azure Database for PostgreSQL",
+        "link": "https://azure.microsoft.com/updates?id=569664",
+        "summary": "The PostgreSQL skills and MCP plugin turns supported AI coding assistants into context-aware PostgreSQL experts that can both provide guidance and act on a connected database. The bundled plugin…",
+        "date": "2026年9月16日",
+        "date_iso": "2026-09-16",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Announcing: New Windows App client-side endpoints for Azure Virtual Desktop",
         "link": "https://azure.microsoft.com/updates?id=571360",
@@ -161,49 +201,119 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Confidential VMs for Azure Linux",
-        "link": "https://azure.microsoft.com/updates?id=570100",
-        "summary": "Confidential Virtual Machines (CVM) offer strong security and confidentiality for tenants. CVM for Azure Linux in AKS is now generally available and enables node pools with CVM to target the…",
-        "date": "2026年9月2日",
-        "date_iso": "2026-09-02",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Purchase order mapping available in Microsoft Marketplace",
-        "link": "https://azure.microsoft.com/updates?id=569700",
-        "summary": "Align Microsoft Marketplace purchases to your business's accounting needs. Purchase order mapping helps allocate your Microsoft invoice, including Marketplace purchases, making it easier to reconcile…",
-        "date": "2026年9月2日",
-        "date_iso": "2026-09-02",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Azure Firewall auto-learn SNAT routes",
-        "link": "https://azure.microsoft.com/updates?id=570474",
-        "summary": "Azure Firewall’s auto-learn SNAT routes is now generally available, automatically learning registered and private destination prefixes periodically and applying them as No-SNAT ranges to preserve…",
-        "date": "2026年9月2日",
-        "date_iso": "2026-09-02",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Azure Copilot Observability Agent supports Basic and Auxiliary table plans",
-        "link": "https://azure.microsoft.com/updates?id=570250",
-        "summary": "Azure Copilot Observability Agent, an AI-powered operational companion in Azure Monitor, is now covering Log Analytics data in Basic and Auxiliary table plans during interactive analysis and deep…",
-        "date": "2026年9月2日",
-        "date_iso": "2026-09-02",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Amazon Corretto 27 is now generally available",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-corretto-27-generally-available/",
+        "summary": "Amazon Corretto 27, a Feature Release (FR) version, is now available for download. Amazon Corretto is a no-cost, multi-platform, production-ready distribution of OpenJDK . You can download Corretto…",
+        "date": "2026年9月17日",
+        "date_iso": "2026-09-17",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon SageMaker AI now supports serverless model customization for NVIDIA Nemotron 3.5 Lightning",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-sagemaker-ft-nemotron-3-5-lightning/",
+        "summary": "Amazon SageMaker AI now supports serverless model customization for the NVIDIA Nemotron 3.5 Lightning model using supervised fine-tuning (SFT), Direct Preference Optimization (DPO), and reinforcement…",
+        "date": "2026年9月17日",
+        "date_iso": "2026-09-17",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Client VPN is now supporting MacOS 27 Golden Gate",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-client-vpn-macos-golden-gate/",
+        "summary": "AWS Client VPN now supports MacOS 27 Golden Gate client with versions 6.0+ You can now run the AWS supplied VPN client on the latest MacOS versions. AWS Client VPN desktop clients are available free…",
+        "date": "2026年9月17日",
+        "date_iso": "2026-09-17",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "New AWS experience helps builders get started and ship faster",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/New-AWS-Builder-Experience",
+        "summary": "Builders can now sign up for a new simplified experience that makes it faster to turn ideas into running code on AWS. AWS services provide an array of configuration options so that the largest…",
+        "date": "2026年9月17日",
+        "date_iso": "2026-09-17",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon WorkSpaces adds support for NVIDIA Blackwell GPU instances",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-workspaces-nvidia-blackwell-gpu-instances/",
+        "summary": "Amazon WorkSpaces Personal and Amazon WorkSpaces Core now support Graphics G7 bundles, built on NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs and Intel Xeon 6 processors. Graphics G7 delivers up…",
+        "date": "2026年9月17日",
+        "date_iso": "2026-09-17",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Connect Customer custom metrics now supports tag-based access control",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/connect-customer-custom-metrics-tag/",
+        "summary": "Amazon Connect Customer now supports tag-based access control for custom metrics, so you can govern which users and roles can view, create, or modify each custom metric. As more teams across your…",
+        "date": "2026年9月17日",
+        "date_iso": "2026-09-17",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Connect Customer can now import evaluation form PDFs using AI",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-customer-import-evaluation-form-PDF/",
+        "summary": "Amazon Connect Customer now lets managers import a PDF of an evaluation form from a third-party quality management application, and automatically recreates it in Connect using AI, making it easier to…",
+        "date": "2026年9月17日",
+        "date_iso": "2026-09-17",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Elemental MediaTailor Monetization Functions adds ad response hooks",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-elemental-mediatailor-functions-ad-response-hooks",
+        "summary": "AWS Elemental MediaTailor now supports two additional lifecycle hooks for monetization functions: post ad decision server (ADS) response, and pre manifest insertion. MediaTailor is a video service…",
+        "date": "2026年9月17日",
+        "date_iso": "2026-09-17",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon ECS extends Amazon S3 Files support to the Amazon EC2 compute type",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-s3-files-ec2/",
+        "summary": "Amazon Elastic Container Service (Amazon ECS) now supports Amazon S3 Files for tasks running on the Amazon EC2 launch type, enabling customers to connect their containerized applications directly to…",
+        "date": "2026年9月17日",
+        "date_iso": "2026-09-17",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Connect Customer now lets you create, manage, and search custom metrics through APIs",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/connect-customer-custom-metrics-apis/",
+        "summary": "Amazon Connect Customer provides a library of standard metrics. Custom metrics let you go further; defining the measurements unique to your business. But managing them across various instances…",
+        "date": "2026年9月17日",
+        "date_iso": "2026-09-17",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS STS simplifies session token size limits and adds session token size monitoring",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-sts/",
+        "summary": "AWS Security Token Service (STS) now enforces a single 4,096-byte size limit on session tokens. Previously, STS enforced separate limits on session token size and passed-in parameters (i.e., inline…",
+        "date": "2026年9月16日",
+        "date_iso": "2026-09-16",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
       {
         "title": "Monitor cost anomalies directly in Billing and Cost Management Dashboards with the new Detected Anomalies widget",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/monitor-detected-anomalies-using-dashboards",
@@ -232,6 +342,16 @@
         "date_iso": "2026-09-16",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Step Functions adds new AWS service integrations automatically, starting with AWS Lambda MicroVMs",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-step-functions-integrations/",
+        "summary": "AWS Step Functions now automatically adds AWS SDK integrations for new AWS services and capabilities within weeks of their release, starting with AWS Lambda MicroVMs, AWS Lambda Core and others. Now,…",
+        "date": "2026年9月16日",
+        "date_iso": "2026-09-16",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
         "tag": "AWS"
       },
       {
@@ -283,129 +403,19 @@
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "AWS"
-      },
-      {
-        "title": "Qwen3.6-35B-A3B-NVFP4 and Wan2.1-T2V-1.3B-Diffusers models now available on Amazon SageMaker JumpStart",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/qwen3.6-35b-a3b-nvfp4-wan2.1-t2v-1.3B-diffusers-jumpstart/",
-        "summary": "NVIDIA's Qwen3.6-35B-A3B-NVFP4 and Alibaba's Wan2.1-T2V-1.3B-Diffusers models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers.…",
-        "date": "2026年9月15日",
-        "date_iso": "2026-09-15",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Ministral-3-3B-Instruct-2512 and Ministral-3-8B-Instruct-2512 models now available on Amazon SageMaker JumpStart",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/ministral-3-3b-instruct-2512-ministral-3-8B-Instruct-2512-jumpstart/",
-        "summary": "Mistral AI's Ministral-3-3B-Instruct-2512 and Ministral-3-8B-Instruct-2512 models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS…",
-        "date": "2026年9月15日",
-        "date_iso": "2026-09-15",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Gemma-4-31B-it-assistant and Gemma-4-31B-IT-NVFP4 models now available on Amazon SageMaker JumpStart",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/gemma-4-31b-it-assistant-gemma-4-31b-it-nvfp4-jumpstart/",
-        "summary": "Google DeepMind's Gemma-4-31B-it-assistant and NVIDIA's Gemma-4-31B-IT-NVFP4 models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS…",
-        "date": "2026年9月15日",
-        "date_iso": "2026-09-15",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "granite-speech-4.1-2b, kanana-2-30b-a3b-instruct, and OpenFold3 models now available on Amazon SageMaker JumpStart",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/granite-speech-4.1-2b-edge-kanana-2-30b-a3b-instruct-openfold3-jumpstart/",
-        "summary": "BM's granite-speech-4.1-2b, Kakao's kanana-2-30b-a3b-instruct, and the OpenFold Consortium's OpenFold3 models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation…",
-        "date": "2026年9月15日",
-        "date_iso": "2026-09-15",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Glue zero-ETL adds target table property ownership and conflict detection",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/glue-zero-etl-ownership-conflicts/",
-        "summary": "AWS Glue zero-ETL integrations now detect table property conflicts and track integration ownership. When you configure a source table and target catalog, Glue associates the resulting table…",
-        "date": "2026年9月14日",
-        "date_iso": "2026-09-14",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS End User Messaging now supports Dynamic Flows in WhatsApp",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-end-user-messaging-whatsapp-dynamic-flows",
-        "summary": "AWS End User Messaging now supports dynamic WhatsApp flows so you can turn WhatsApp conversations into rich, interactive experiences that end-users complete directly in WhatsApp. Instead of pushing…",
-        "date": "2026年9月14日",
-        "date_iso": "2026-09-14",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS End User Messaging strengthens SMS deliverability with automatic failover",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-end-user-messaging-improves-deliverability",
-        "summary": "AWS End User Messaging is advancing its deliverability capabilities in phone pools. Now, customers sending through phone pools automatically benefit from automatic failover to the next best…",
-        "date": "2026年9月14日",
-        "date_iso": "2026-09-14",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Elemental MediaLive enables frame-accurate pipeline locking for streams without timecode",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/medialive-pipeline-locking/",
-        "summary": "AWS Elemental MediaLive now supports Video Aligned Locking, a new feature to synchronize video pipelines without requiring timecode from the source. Previously, achieving frame-accurate locking…",
-        "date": "2026年9月12日",
-        "date_iso": "2026-09-12",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 X2idn instances are now available in Asia Pacific (Hong Kong)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-x2idn-asia-pacific-hong-kong/",
-        "summary": "Memory-optimized Amazon Elastic Compute Cloud (Amazon EC2) X2idn instances are now available in Asia Pacific (Hong Kong) Region. These instances, powered by 3rd generation Intel Xeon Scalable…",
-        "date": "2026年9月12日",
-        "date_iso": "2026-09-12",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SageMaker HyperPod now supports model caching for faster inference autoscaling and reduced cold starts",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/sgm-hyperpod-model-caching-inf/",
-        "summary": "Amazon SageMaker HyperPod now supports model caching, an inference optimization that pre-loads model weights and container images onto cluster nodes so pods start in seconds instead of minutes. When…",
-        "date": "2026年9月12日",
-        "date_iso": "2026-09-12",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Lambda now supports direct read configuration for Amazon S3 Files",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-direct-read-s3files/",
-        "summary": "AWS Lambda now supports direct read &nbsp;configuration for Amazon S3 Files, letting you configure which storage your functions read from: S3 Files high-performance storage or your S3 bucket. With…",
-        "date": "2026年9月12日",
-        "date_iso": "2026-09-12",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Bedrock Managed Knowledge Base now supports multimodal embeddings for video, audio, and image content with…",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-multimodal-embeddings-twelvelabs-marengo/",
-        "summary": "AWS announces the availability of TwelveLabs Marengo 3.0 as an embedding model in Amazon Bedrock Managed Knowledge Base, enabling customers to create multimodal embeddings for video, audio, and image…",
-        "date": "2026年9月12日",
-        "date_iso": "2026-09-12",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "September 16, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_16_2026",
+        "summary": "Backup and DR Feature You can now use auto-protection policies and resource labels to automatically protect Compute Engine instances and Persistent Disks at scale in Backup and DR. This feature…",
+        "date": "2026年9月16日",
+        "date_iso": "2026-09-16",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
+        "tag": "GCP"
+      },
       {
         "title": "September 15, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_15_2026",
@@ -489,11 +499,11 @@
       {
         "title": "September 06, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_06_2026",
-        "summary": "Google SecOps Feature [Spotlight Feature] Case playbooks This feature is in preview. Google SecOps now supports case playbooks. You can run playbooks or execute manual actions across an entire case…",
+        "summary": "Google SecOps SOAR Announcement Release 6.3.100 is being rolled out to the first phase of regions as listed here . This release contains internal and customer bug fixes. Feature Reaction triggers…",
         "date": "2026年9月6日",
         "date_iso": "2026-09-06",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "GCP"
       },
       {
@@ -595,19 +605,49 @@
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "GCP"
-      },
-      {
-        "title": "August 26, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_26_2026",
-        "summary": "Apigee hybrid Announcement v1.14.8 On August 26, 2026 we released an updated version of the Apigee hybrid software, v1.14.8. For information on upgrading, see Upgrading Apigee hybrid to version…",
-        "date": "2026年8月26日",
-        "date_iso": "2026-08-26",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "GCP"
       }
     ],
     "oci": [
+      {
+        "title": "FastConnect Enhancements",
+        "link": "https://docs.oracle.com/iaas/releasenotes/network/fast-connect-enhancements.htm",
+        "summary": "",
+        "date": "2026年9月16日",
+        "date_iso": "2026-09-16",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Use your own encryption key in OCI Database with PostgreSQL",
+        "link": "https://docs.oracle.com/iaas/releasenotes/postgresql/byok.htm",
+        "summary": "",
+        "date": "2026年9月15日",
+        "date_iso": "2026-09-15",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "OCI"
+      },
+      {
+        "title": "Import Z.ai GLM-5.3 into OCI Generative AI",
+        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/zai-glm-5-3-model-import.htm",
+        "summary": "",
+        "date": "2026年9月15日",
+        "date_iso": "2026-09-15",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Cohere Command A Vision and Cohere Embed 4 are available on-demand in Dubai",
+        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/cohere-command-a-vision-embed-4-on-demand-dubai.htm",
+        "summary": "",
+        "date": "2026年9月15日",
+        "date_iso": "2026-09-15",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
       {
         "title": "Oracle JDK 27 - Released September 15, 2026",
         "link": "https://docs.oracle.com/iaas/releasenotes/java-management/jdk-27-release-note.htm",
@@ -639,16 +679,6 @@
         "tag": "OCI"
       },
       {
-        "title": "Configurable Fault Domain Host Balancing",
-        "link": "https://docs.oracle.com/iaas/releasenotes/oracle-cloud-vmware-solution/configurable-fault-domain-host-balancing.htm",
-        "summary": "",
-        "date": "2026年9月9日",
-        "date_iso": "2026-09-09",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
         "title": "Cross-Region Replication for OCI Cache",
         "link": "https://docs.oracle.com/iaas/releasenotes/oci-cache/sep2026-cross-region-replication.htm",
         "summary": "",
@@ -666,6 +696,16 @@
         "date_iso": "2026-09-09",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Configurable Fault Domain Host Balancing",
+        "link": "https://docs.oracle.com/iaas/releasenotes/oracle-cloud-vmware-solution/configurable-fault-domain-host-balancing.htm",
+        "summary": "",
+        "date": "2026年9月9日",
+        "date_iso": "2026-09-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "OCI"
       },
       {
@@ -766,46 +806,6 @@
         "date_iso": "2026-09-01",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Manage SQL Profiles",
-        "link": "https://docs.oracle.com/iaas/releasenotes/database-management/sql-profiles.htm",
-        "summary": "",
-        "date": "2026年9月1日",
-        "date_iso": "2026-09-01",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "OCI"
-      },
-      {
-        "title": "Monitor SQL Firewall",
-        "link": "https://docs.oracle.com/iaas/releasenotes/database-management/sql-firewall.htm",
-        "summary": "",
-        "date": "2026年9月1日",
-        "date_iso": "2026-09-01",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "OCI"
-      },
-      {
-        "title": "New Autonomous AI Database Activity Overview Dashboard",
-        "link": "https://docs.oracle.com/iaas/releasenotes/database-management/adb-activity-overview-dashboard.htm",
-        "summary": "",
-        "date": "2026年9月1日",
-        "date_iso": "2026-09-01",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Update Multiple Credential Attributes with DBMS_CLOUD.UPDATE_CREDENTIAL",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-09-update-multiple-credential.htm",
-        "summary": "",
-        "date": "2026年9月1日",
-        "date_iso": "2026-09-01",
-        "category": "database-tag",
-        "cat_label": "データベース",
         "tag": "OCI"
       }
     ]
