@@ -1,7 +1,27 @@
 {
-  "updated": "2026年09月17日 23:27 JST",
+  "updated": "2026年09月18日 13:45 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Public Preview: Azure Payments HSM v2",
+        "link": "https://azure.microsoft.com/updates?id=570509",
+        "summary": "Azure Payments HSM v2 is a highly available, single-tenant Payment HSM service for payment processing, credential issuance, PIN processing, key management, and authentication data protection.…",
+        "date": "2026年9月18日",
+        "date_iso": "2026-09-18",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: High-scale mesh in Azure Virtual Network Manager",
+        "link": "https://azure.microsoft.com/updates?id=571572",
+        "summary": "High-scale mesh using connected group in Azure Virtual Network Manager is now in general availability. In available regions, customers may connect up to 3,000 virtual networks in a single mesh…",
+        "date": "2026年9月18日",
+        "date_iso": "2026-09-18",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Retirement Update: SAP container images removed October 14, 2026",
         "link": "https://azure.microsoft.com/updates?id=571342",
@@ -181,29 +201,89 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Windows Server 2025 on AKS",
-        "link": "https://azure.microsoft.com/updates?id=570090",
-        "summary": "Organizations running Windows-based workloads on Azure Kubernetes Service (AKS) face increasing pressure to modernize as support timelines for older Windows Server versions approach retirement. To…",
-        "date": "2026年9月2日",
-        "date_iso": "2026-09-02",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Artifact Streaming on AKS",
-        "link": "https://azure.microsoft.com/updates?id=570095",
-        "summary": "You can now accelerate your containerized workloads on Azure Kubernetes Service (AKS) using Azure Container Registry (ACR) with Artifact streaming. Artifact streaming will allow you to scale your…",
-        "date": "2026年9月2日",
-        "date_iso": "2026-09-02",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "AWS Transfer Family now supports source IP preservation for SFTP servers behind a Network Load Balancer (NLB)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/transfer-family-sftp-source-ip-nlb/",
+        "summary": "AWS Transfer Family now preserves the client's source IP address using Proxy Protocol v2 (PPv2) when you place a Network Load Balancer (NLB) in front of your SFTP server that uses a VPC-hosted…",
+        "date": "2026年9月18日",
+        "date_iso": "2026-09-18",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS HealthOmics now supports IAM session policies",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/omics-iam-session-policy/",
+        "summary": "AWS HealthOmics now supports IAM session policies, enabling you to restrict permissions for individual runs without creating and managing multiple IAM roles. Until now, there was no way to…",
+        "date": "2026年9月18日",
+        "date_iso": "2026-09-18",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Batch now supports bulk job cancellation and termination",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-batch-bulk-cancellation/",
+        "summary": "AWS Batch now supports bulk job cancellation and termination, enabling you to cancel or terminate up to 50 jobs with a single API call. The new CancelJobs, TerminateJobs, and TerminateServiceJobs…",
+        "date": "2026年9月18日",
+        "date_iso": "2026-09-18",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Introducing Amazon EC2 T8i instances",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-t8i-instances-ga/",
+        "summary": "AWS is announcing the general availability of new low-cost burstable Amazon EC2 T8i instances. These instances are powered by custom sixth generation Intel Xeon 6 processors, available exclusively on…",
+        "date": "2026年9月18日",
+        "date_iso": "2026-09-18",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Elastic Beanstalk introduces Cluster Mode to run multiple applications on shared infrastructure",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/elastic-beanstalk-cluster-mode/",
+        "summary": "AWS Elastic Beanstalk introduces Cluster Mode, a new deployment mode that lets you run and manage multiple applications on shared infrastructure in your account. Provide your source code, a…",
+        "date": "2026年9月17日",
+        "date_iso": "2026-09-17",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon S3 Express One Zone is now available in 7 additional AWS Regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/s3-express-one-zone-7-regions/",
+        "summary": "The Amazon S3 Express One Zone storage class is now available in 7 additional AWS Regions: Asia Pacific (Singapore), South America (Sao Paulo), US West (N. California), Canada (Central), Europe…",
+        "date": "2026年9月17日",
+        "date_iso": "2026-09-17",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Builder Center now available as mobile app on iOS and Android",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-builder-center-now-available-as-mobile-app/",
+        "summary": "AWS Builder Center is a platform that brings together the global builder community, offering articles, workshops, sandbox environments, events, and learning resources in one place. Previously limited…",
+        "date": "2026年9月17日",
+        "date_iso": "2026-09-17",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Quick now generates individual sheets and builds analyses from an image",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/generate-sheet-and-generate-analysis-from-an-image/",
+        "summary": "Amazon Quick now expands Generate Analysis with two new ways to create dashboards faster. You can generate a single sheet inside an existing analysis by describing it in natural language, and you can…",
+        "date": "2026年9月17日",
+        "date_iso": "2026-09-17",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
       {
         "title": "Amazon Corretto 27 is now generally available",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-corretto-27-generally-available/",
@@ -218,6 +298,16 @@
         "title": "Amazon SageMaker AI now supports serverless model customization for NVIDIA Nemotron 3.5 Lightning",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-sagemaker-ft-nemotron-3-5-lightning/",
         "summary": "Amazon SageMaker AI now supports serverless model customization for the NVIDIA Nemotron 3.5 Lightning model using supervised fine-tuning (SFT), Direct Preference Optimization (DPO), and reinforcement…",
+        "date": "2026年9月17日",
+        "date_iso": "2026-09-17",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon ECS deployment observability for Amazon ECS Managed Daemons in AWS Management Console",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-daemon-deployment-console/",
+        "summary": "Amazon Elastic Container Service (Amazon ECS) now provides a consolidated deployment view for Amazon ECS Managed Daemons, giving you a single place to see how far a deployment has progressed, what is…",
         "date": "2026年9月17日",
         "date_iso": "2026-09-17",
         "category": "ai-tag",
@@ -255,16 +345,6 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon Connect Customer custom metrics now supports tag-based access control",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/connect-customer-custom-metrics-tag/",
-        "summary": "Amazon Connect Customer now supports tag-based access control for custom metrics, so you can govern which users and roles can view, create, or modify each custom metric. As more teams across your…",
-        "date": "2026年9月17日",
-        "date_iso": "2026-09-17",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
         "title": "Amazon Connect Customer can now import evaluation form PDFs using AI",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-customer-import-evaluation-form-PDF/",
         "summary": "Amazon Connect Customer now lets managers import a PDF of an evaluation form from a third-party quality management application, and automatically recreates it in Connect using AI, making it easier to…",
@@ -272,6 +352,16 @@
         "date_iso": "2026-09-17",
         "category": "ai-tag",
         "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Connect Customer custom metrics now supports tag-based access control",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/connect-customer-custom-metrics-tag/",
+        "summary": "Amazon Connect Customer now supports tag-based access control for custom metrics, so you can govern which users and roles can view, create, or modify each custom metric. As more teams across your…",
+        "date": "2026年9月17日",
+        "date_iso": "2026-09-17",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "AWS"
       },
       {
@@ -305,103 +395,13 @@
         "tag": "AWS"
       },
       {
-        "title": "AWS STS simplifies session token size limits and adds session token size monitoring",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-sts/",
-        "summary": "AWS Security Token Service (STS) now enforces a single 4,096-byte size limit on session tokens. Previously, STS enforced separate limits on session token size and passed-in parameters (i.e., inline…",
-        "date": "2026年9月16日",
-        "date_iso": "2026-09-16",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Monitor cost anomalies directly in Billing and Cost Management Dashboards with the new Detected Anomalies widget",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/monitor-detected-anomalies-using-dashboards",
-        "summary": "Today, AWS Billing and Cost Management (BCM) announces support for the Detected Anomalies widget in BCM Dashboards. You can now review cost anomalies alongside cost and usage, budgets, cost…",
-        "date": "2026年9月16日",
-        "date_iso": "2026-09-16",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Direct Connect announces flat-rate pricing for dedicated connections",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-direct-connect-announces-flat-rate-pricing/",
-        "summary": "AWS Direct Connect announces flat-rate pricing for 10G and 100G dedicated connections AWS Direct Connect provides dedicated network connectivity from on-premises environments to AWS. Customers value…",
-        "date": "2026年9月16日",
-        "date_iso": "2026-09-16",
-        "category": "network-tag",
-        "cat_label": "ネットワーク",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Billing Conductor now supports custom rates and usage tier pricing configurations",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/AWS-Billing-Conductor-custom-rates-usage-tier",
-        "summary": "AWS Billing Conductor now lets you define custom rate pricing for AWS services, including defining custom usage tiers to configure rates by the desired usage volume.&nbsp; Customers and Partners…",
-        "date": "2026年9月16日",
-        "date_iso": "2026-09-16",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Step Functions adds new AWS service integrations automatically, starting with AWS Lambda MicroVMs",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-step-functions-integrations/",
-        "summary": "AWS Step Functions now automatically adds AWS SDK integrations for new AWS services and capabilities within weeks of their release, starting with AWS Lambda MicroVMs, AWS Lambda Core and others. Now,…",
-        "date": "2026年9月16日",
-        "date_iso": "2026-09-16",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SageMaker AI now supports instance preference lists for training and processing jobs",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-sagemaker-training-processing-instance-pref-lists/",
-        "summary": "Today, Amazon SageMaker AI announces instance preference lists for training and processing jobs, making it easier and faster to find compute capacity for your workloads. Many AI training,…",
-        "date": "2026年9月16日",
-        "date_iso": "2026-09-16",
+        "title": "Amazon Keyspaces (for Apache Cassandra) is now generally available in 11 additional Regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-keyspaces/",
+        "summary": "Amazon Keyspaces (for Apache Cassandra) is now generally available in 11 additional Regions,&nbsp;allowing customers in those Regions to build Cassandra-compatible applications with lower latency…",
+        "date": "2026年9月17日",
+        "date_iso": "2026-09-17",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Analyze your CloudTrail events using natural language in Amazon Q Console",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/cloudtrail-amazon-q-console/",
-        "summary": "AWS CloudTrail, a service that records API activity across your AWS account for security auditing, compliance, and operational troubleshooting, now integrates with Amazon Q Console to help you…",
-        "date": "2026年9月16日",
-        "date_iso": "2026-09-16",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Connect Customer now enables agents to bid on preferred shifts",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-customer-shift-bidding/",
-        "summary": "Amazon Connect Customer now enables agents to bid on preferred shifts, giving them more control over their work schedules. Schedulers first establish agent ranking either by uploading a CSV file or…",
-        "date": "2026年9月16日",
-        "date_iso": "2026-09-16",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Glue zero-ETL now captures archived Salesforce records",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/glue-zero-etl-archived-salesforce/",
-        "summary": "AWS Glue zero-ETL integrations for Salesforce now capture archived records in your target tables, giving you a complete replica of your Salesforce data for analytics and reporting. Archived records…",
-        "date": "2026年9月15日",
-        "date_iso": "2026-09-15",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS improves regional resiliency for root user sign-in",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/root-user-regional-resiliency/",
-        "summary": "AWS root user sign-in is now served across US East (N. Virginia), US East (Ohio), and US West (Oregon), with sign-in traffic distributed across all three Regions. This change reduces reliance on US…",
-        "date": "2026年9月15日",
-        "date_iso": "2026-09-15",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
         "tag": "AWS"
       }
     ],
@@ -409,7 +409,7 @@
       {
         "title": "September 17, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_17_2026",
-        "summary": "Oracle Database@Google Cloud Feature For Exadata Database Service, Oracle Database@Google Cloud is available in europe-west12 (Turin, Italy) region. For a list of supported locations, see Supported…",
+        "summary": "BigQuery Feature You can add unit tests to pipelines to validate your SQL transformation logic against mock datasets. Unit tests for pipelines are generally available (GA). Cloud SQL for MySQL Change…",
         "date": "2026年9月17日",
         "date_iso": "2026-09-17",
         "category": "ai-tag",
@@ -609,8 +609,8 @@
     ],
     "oci": [
       {
-        "title": "FastConnect Enhancements",
-        "link": "https://docs.oracle.com/iaas/releasenotes/network/fast-connect-enhancements.htm",
+        "title": "Management Agent Updates",
+        "link": "https://docs.oracle.com/iaas/releasenotes/management-agent/sep26-macs-updates.htm",
         "summary": "",
         "date": "2026年9月16日",
         "date_iso": "2026-09-16",
@@ -619,13 +619,13 @@
         "tag": "OCI"
       },
       {
-        "title": "Use your own encryption key in OCI Database with PostgreSQL",
-        "link": "https://docs.oracle.com/iaas/releasenotes/postgresql/byok.htm",
+        "title": "FastConnect Enhancements",
+        "link": "https://docs.oracle.com/iaas/releasenotes/network/fast-connect-enhancements.htm",
         "summary": "",
-        "date": "2026年9月15日",
-        "date_iso": "2026-09-15",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
+        "date": "2026年9月16日",
+        "date_iso": "2026-09-16",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "OCI"
       },
       {
@@ -656,6 +656,16 @@
         "date_iso": "2026-09-15",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Use your own encryption key in OCI Database with PostgreSQL",
+        "link": "https://docs.oracle.com/iaas/releasenotes/postgresql/byok.htm",
+        "summary": "",
+        "date": "2026年9月15日",
+        "date_iso": "2026-09-15",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
         "tag": "OCI"
       },
       {
@@ -791,16 +801,6 @@
       {
         "title": "ODH-Based Versioning in OCI Big Data Service",
         "link": "https://docs.oracle.com/iaas/releasenotes/big-data/odh-based-versioning.htm",
-        "summary": "",
-        "date": "2026年9月1日",
-        "date_iso": "2026-09-01",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Monitor and Manage Scheduler Jobs",
-        "link": "https://docs.oracle.com/iaas/releasenotes/database-management/scheduler-jobs.htm",
         "summary": "",
         "date": "2026年9月1日",
         "date_iso": "2026-09-01",
