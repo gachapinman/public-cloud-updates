@@ -1,5 +1,5 @@
 {
-  "updated": "2026年09月18日 17:27 JST",
+  "updated": "2026年09月18日 22:52 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "September 18, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_18_2026",
+        "summary": "Cloud Load Balancing Feature Managed workload identity for backend mTLS is generally available for the following Application Load Balancers: Global external Application Load Balancers Regional…",
+        "date": "2026年9月18日",
+        "date_iso": "2026-09-18",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "September 17, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_17_2026",
         "summary": "BigQuery Feature You can add unit tests to pipelines to validate your SQL transformation logic against mock datasets. Unit tests for pipelines are generally available (GA). Cloud SQL for MySQL Change…",
@@ -594,16 +604,6 @@
         "date_iso": "2026-08-29",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "August 28, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_28_2026",
-        "summary": "Application Integration Announcement Upcoming authorization changes for integration runs Application Integration is updating how identities are handled for integration runs. Every run will act as…",
-        "date": "2026年8月28日",
-        "date_iso": "2026-08-28",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
         "tag": "GCP"
       }
     ],
