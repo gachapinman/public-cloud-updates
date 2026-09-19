@@ -1,7 +1,87 @@
 {
-  "updated": "2026年09月18日 22:52 JST",
+  "updated": "2026年09月19日 13:39 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Public Preview: Foundry Routines in Foundry Agent Service",
+        "link": "https://azure.microsoft.com/updates?id=563536",
+        "summary": "In public preview, Foundry Agent Service adds Foundry Routines, a native trigger primitive for running published agents automatically. Production agents often need to run on a schedule or when a…",
+        "date": "2026年9月19日",
+        "date_iso": "2026-09-19",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Mdsv4 and Msv4 Series Virtual Machines for SAP",
+        "link": "https://azure.microsoft.com/updates?id=571530",
+        "summary": "The Mdsv4 and Msv4 Series are memory-optimized virtual machine series built on 6th Generation Intel® Xeon® Scalable processors and enhanced with advanced security capabilities and the latest Azure…",
+        "date": "2026年9月19日",
+        "date_iso": "2026-09-19",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Enable and disable controls for Microsoft Foundry agents in Agent 365",
+        "link": "https://azure.microsoft.com/updates?id=571826",
+        "summary": "Microsoft Foundry now exposes enable and disable actions for Foundry agent objects within the Agent 365 governance surface in Microsoft Admin Center, generally available. Administrators can control…",
+        "date": "2026年9月19日",
+        "date_iso": "2026-09-19",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Network egress controls for hosted agents in Microsoft Foundry",
+        "link": "https://azure.microsoft.com/updates?id=571821",
+        "summary": "In public preview, Microsoft Foundry now lets customers govern the outbound connections a hosted agent can make. Customers author ordered rules matched on destination host, including FQDN with…",
+        "date": "2026年9月19日",
+        "date_iso": "2026-09-19",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Publishing Microsoft Foundry agents to Microsoft 365 Copilot and Teams",
+        "link": "https://azure.microsoft.com/updates?id=571816",
+        "summary": "Publishing Microsoft Foundry agents to Microsoft 365 Copilot and Teams is now generally available. An agent only delivers value once it reaches the people who need it, and Foundry developers…",
+        "date": "2026年9月19日",
+        "date_iso": "2026-09-19",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Logical replication slot sync status metric for Azure PostgreSQL Flexible Server",
+        "link": "https://azure.microsoft.com/updates?id=568414",
+        "summary": "You can now monitor the synchronization status of your logical replication slots in Azure Database for PostgreSQL – Flexible Server using the new logical_replication_slot_sync_status metric. This…",
+        "date": "2026年9月19日",
+        "date_iso": "2026-09-19",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: New and improved troubleshooting guides for Azure Database for PostgreSQL",
+        "link": "https://azure.microsoft.com/updates?id=571042",
+        "summary": "Updated troubleshooting guidance is now available for Azure Database for PostgreSQL flexible server. You can use the expanded documentation to diagnose high CPU, memory, IOPS, temporary file usage,…",
+        "date": "2026年9月19日",
+        "date_iso": "2026-09-19",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: PG18 support for Azure Database for PostgreSQL elastic clusters",
+        "link": "https://azure.microsoft.com/updates?id=571047",
+        "summary": "Azure Database for PostgreSQL elastic clusters now support PostgreSQL 18, bringing the latest PostgreSQL capabilities to distributed, cloud-scale workloads. You can build new applications or…",
+        "date": "2026年9月19日",
+        "date_iso": "2026-09-19",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Public Preview: Azure Payments HSM v2",
         "link": "https://azure.microsoft.com/updates?id=570509",
@@ -121,89 +201,89 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: User-bound user delegation SAS for Azure Storage",
-        "link": "https://azure.microsoft.com/updates?id=569241",
-        "summary": "Announcing the addition of enhanced secure authentication in Azure Storage that combines the flexibility of user-delegation shared access signature (SAS) with the user-bound access of Entra ID.…",
-        "date": "2026年9月10日",
-        "date_iso": "2026-09-10",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Azure Ephemeral OS Disk with full caching for VM/VMSS",
-        "link": "https://azure.microsoft.com/updates?id=570551",
-        "summary": "Azure Ephemeral OS Disk with full caching is now generally available for new virtual machines and Virtual Machine Scale Sets. The capability caches the complete OS image on a VM’s local storage,…",
-        "date": "2026年9月10日",
-        "date_iso": "2026-09-10",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Playwright Workspaces in Australia East, Japan East, and Switzerland North",
-        "link": "https://azure.microsoft.com/updates?id=570919",
-        "summary": "Playwright Workspaces in Azure App Testing is now generally available in Switzerland North, Japan East, and Australia East.Playwright Workspaces provides fully managed cloud-hosted browsers for…",
-        "date": "2026年9月9日",
-        "date_iso": "2026-09-09",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Azure Developer CLI (azd) Extension Framework",
-        "link": "https://azure.microsoft.com/updates?id=570881",
-        "summary": "The Azure Developer CLI (azd) Extension Framework is now generally available. The framework enables developers, teams, and partners to extend Azure Developer CLI with custom capabilities that support…",
-        "date": "2026年9月9日",
-        "date_iso": "2026-09-09",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Azure Virtual Network Manager IPAM in additional Azure regions",
-        "link": "https://azure.microsoft.com/updates?id=570557",
-        "summary": "Azure Virtual Network Manager IP address management is now generally available in additional regions: US Gov Virginia, US Gov Texas and US Gov Arizona, and China North 3 and China East 3. In complex…",
-        "date": "2026年9月4日",
-        "date_iso": "2026-09-04",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Azure Front Door profile and route level WAF policies",
-        "link": "https://azure.microsoft.com/updates?id=569804",
-        "summary": "Azure Front Door’s Web Application Firewall (WAF) now supports profile and route level WAF policy associations in public preview. This gives you more flexibility to apply broad baseline protection…",
-        "date": "2026年9月3日",
-        "date_iso": "2026-09-03",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Private Preview: Reader Endpoint for Azure Database for MySQL",
-        "link": "https://azure.microsoft.com/updates?id=569653",
-        "summary": "We’re happy to announce the public preview of reader endpoint support to simplify connection management when using multiple replicas in Azure Database for MySQL - Flexible Server. A reader endpoint…",
-        "date": "2026年9月3日",
-        "date_iso": "2026-09-03",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Microsoft Defender for Cloud support for Azure Container Apps (Serverless Containers…",
-        "link": "https://azure.microsoft.com/updates?id=570282",
-        "summary": "Customers can now bring Azure Container Apps environments into Microsoft Defender for Cloud’s Serverless Containers Posture experience, helping security teams extend posture management across more of…",
-        "date": "2026年9月2日",
-        "date_iso": "2026-09-02",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "AWS Continuum now supports credential testing and accessible domain suggestions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-security-agent/",
+        "summary": "AWS Continuum for penetration testing is a frontier agent that proactively secures applications throughout the development lifecycle by offering on-demand, customized penetration testing with real…",
+        "date": "2026年9月19日",
+        "date_iso": "2026-09-19",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon ECS Express Mode now supports AWS Graviton (ARM64) workloads",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-express-mode-arm-architecture/",
+        "summary": "Amazon Elastic Container Service Express Mode now supports specifying ARM64 as the CPU architecture for your service, making it easy to deploy ARM-based container images on AWS Graviton-powered…",
+        "date": "2026年9月19日",
+        "date_iso": "2026-09-19",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Resilience Hub adds three new capabilities",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/resilience-hub-eks-dependency-policy/",
+        "summary": "The next generation of AWS Resilience Hub is a central location in the AWS that helps platform engineering and site reliability teams assess and strengthen the resilience of their workloads running…",
+        "date": "2026年9月19日",
+        "date_iso": "2026-09-19",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS RTB Fabric now supports configurable Availability Zone affinity",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-rtb-fabric-configurable-availability-zone-affinity/",
+        "summary": "AWS RTB Fabric now supports configurable Availability Zone (AZ) affinity for responder gateways. With this capability, you can configure how your partners connect to your responder gateway: either in…",
+        "date": "2026年9月19日",
+        "date_iso": "2026-09-19",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Kimi K3 by Moonshot AI is now generally available on Amazon Bedrock",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/moonshot-ai-kimi-k3-on-amazon-bedrock/",
+        "summary": "Amazon Bedrock continues to expand its open weight model portfolio with the same security and governance that customers rely on.&nbsp;Today, Kimi K3 from Moonshot AI is generally available on Amazon…",
+        "date": "2026年9月19日",
+        "date_iso": "2026-09-19",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon SNS now supports message payloads up to 1 MiB",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-sns-1mib-support",
+        "summary": "Amazon Simple Notification Service (Amazon SNS) &nbsp;now supports message payloads up to 1 MiB, a 4x increase from the previous 256 KiB limit, so you can publish larger messages to your SNS topics.…",
+        "date": "2026年9月19日",
+        "date_iso": "2026-09-19",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "The new AgentCore Runtime is now available in Amazon Bedrock AgentCore",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/new-agentcore-runtime-generally-available",
+        "summary": "Today, AWS announces the availability of&nbsp;the next generation of AgentCore Runtime , the serverless microVM compute within Amazon Bedrock AgentCore. The new Runtime delivers elastic memory…",
+        "date": "2026年9月18日",
+        "date_iso": "2026-09-18",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS PrivateLink announces Tunnel Endpoints to access network segments",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/9/privatelink-tunnel-endpoint/",
+        "summary": "AWS PrivateLink customers can now use VPC endpoint to privately and securely access network segments in another VPC/account. They can use a ‘tunnel’ endpoint, a new type of VPC endpoint, to tunnel…",
+        "date": "2026年9月18日",
+        "date_iso": "2026-09-18",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
+        "tag": "AWS"
+      },
       {
         "title": "AWS Transfer Family now supports source IP preservation for SFTP servers behind a Network Load Balancer (NLB)",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/transfer-family-sftp-source-ip-nlb/",
@@ -275,6 +355,16 @@
         "tag": "AWS"
       },
       {
+        "title": "Amazon SES now supports tenant-level deliverability insights",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ses-vdm-tenants/",
+        "summary": "Amazon Simple Email Service (SES) now supports tenant-level deliverability insights in Virtual Deliverability Manager (VDM). Tenant management allows email senders to isolate email sending across…",
+        "date": "2026年9月17日",
+        "date_iso": "2026-09-17",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon Quick now generates individual sheets and builds analyses from an image",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/generate-sheet-and-generate-analysis-from-an-image/",
         "summary": "Amazon Quick now expands Generate Analysis with two new ways to create dashboards faster. You can generate a single sheet inside an existing analysis by describing it in natural language, and you can…",
@@ -313,96 +403,6 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "AWS Client VPN is now supporting MacOS 27 Golden Gate",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-client-vpn-macos-golden-gate/",
-        "summary": "AWS Client VPN now supports MacOS 27 Golden Gate client with versions 6.0+ You can now run the AWS supplied VPN client on the latest MacOS versions. AWS Client VPN desktop clients are available free…",
-        "date": "2026年9月17日",
-        "date_iso": "2026-09-17",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "New AWS experience helps builders get started and ship faster",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/New-AWS-Builder-Experience",
-        "summary": "Builders can now sign up for a new simplified experience that makes it faster to turn ideas into running code on AWS. AWS services provide an array of configuration options so that the largest…",
-        "date": "2026年9月17日",
-        "date_iso": "2026-09-17",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon WorkSpaces adds support for NVIDIA Blackwell GPU instances",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-workspaces-nvidia-blackwell-gpu-instances/",
-        "summary": "Amazon WorkSpaces Personal and Amazon WorkSpaces Core now support Graphics G7 bundles, built on NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs and Intel Xeon 6 processors. Graphics G7 delivers up…",
-        "date": "2026年9月17日",
-        "date_iso": "2026-09-17",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Connect Customer can now import evaluation form PDFs using AI",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-customer-import-evaluation-form-PDF/",
-        "summary": "Amazon Connect Customer now lets managers import a PDF of an evaluation form from a third-party quality management application, and automatically recreates it in Connect using AI, making it easier to…",
-        "date": "2026年9月17日",
-        "date_iso": "2026-09-17",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Connect Customer custom metrics now supports tag-based access control",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/connect-customer-custom-metrics-tag/",
-        "summary": "Amazon Connect Customer now supports tag-based access control for custom metrics, so you can govern which users and roles can view, create, or modify each custom metric. As more teams across your…",
-        "date": "2026年9月17日",
-        "date_iso": "2026-09-17",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Elemental MediaTailor Monetization Functions adds ad response hooks",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-elemental-mediatailor-functions-ad-response-hooks",
-        "summary": "AWS Elemental MediaTailor now supports two additional lifecycle hooks for monetization functions: post ad decision server (ADS) response, and pre manifest insertion. MediaTailor is a video service…",
-        "date": "2026年9月17日",
-        "date_iso": "2026-09-17",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon ECS extends Amazon S3 Files support to the Amazon EC2 compute type",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-s3-files-ec2/",
-        "summary": "Amazon Elastic Container Service (Amazon ECS) now supports Amazon S3 Files for tasks running on the Amazon EC2 launch type, enabling customers to connect their containerized applications directly to…",
-        "date": "2026年9月17日",
-        "date_iso": "2026-09-17",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Connect Customer now lets you create, manage, and search custom metrics through APIs",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/connect-customer-custom-metrics-apis/",
-        "summary": "Amazon Connect Customer provides a library of standard metrics. Custom metrics let you go further; defining the measurements unique to your business. But managing them across various instances…",
-        "date": "2026年9月17日",
-        "date_iso": "2026-09-17",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Keyspaces (for Apache Cassandra) is now generally available in 11 additional Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-keyspaces/",
-        "summary": "Amazon Keyspaces (for Apache Cassandra) is now generally available in 11 additional Regions,&nbsp;allowing customers in those Regions to build Cassandra-compatible applications with lower latency…",
-        "date": "2026年9月17日",
-        "date_iso": "2026-09-17",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
       }
     ],
     "gcp": [
@@ -419,11 +419,11 @@
       {
         "title": "September 17, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_17_2026",
-        "summary": "BigQuery Feature You can add unit tests to pipelines to validate your SQL transformation logic against mock datasets. Unit tests for pipelines are generally available (GA). Cloud SQL for MySQL Change…",
+        "summary": "Apigee hybrid Announcement v1.16.10 On September 17, 2026 we released an updated version of the Apigee hybrid software, v1.16.10. For information on upgrading, see Upgrading Apigee hybrid to version…",
         "date": "2026年9月17日",
         "date_iso": "2026-09-17",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "GCP"
       },
       {
@@ -749,6 +749,16 @@
         "tag": "OCI"
       },
       {
+        "title": "Enhanced Rack Visualization and Component Details in Exadata Insights",
+        "link": "https://docs.oracle.com/iaas/releasenotes/operations-insights/exadata-rack-components.htm",
+        "summary": "",
+        "date": "2026年9月7日",
+        "date_iso": "2026-09-07",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
         "title": "Use Imported Models with the OCI Responses API in OCI Generative AI",
         "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/responses-api-for-imported-models-september-06-2026.htm",
         "summary": "",
@@ -794,16 +804,6 @@
         "summary": "",
         "date": "2026年9月3日",
         "date_iso": "2026-09-03",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "ODH-Based Versioning in OCI Big Data Service",
-        "link": "https://docs.oracle.com/iaas/releasenotes/big-data/odh-based-versioning.htm",
-        "summary": "",
-        "date": "2026年9月1日",
-        "date_iso": "2026-09-01",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "OCI"
