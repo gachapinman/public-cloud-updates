@@ -1,5 +1,5 @@
 {
-  "updated": "2026年09月21日 18:14 JST",
+  "updated": "2026年09月22日 01:01 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "September 21, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_21_2026",
+        "summary": "Apigee X Announcement On September 21st, 2026, we began maintenance updates of Apigee instances configured for maintenance windows . If you set a preferred window for maintenance for your instance,…",
+        "date": "2026年9月21日",
+        "date_iso": "2026-09-21",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "September 18, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_18_2026",
         "summary": "Cloud Load Balancing Feature Managed workload identity for backend mTLS is generally available for the following Application Load Balancers: Global external Application Load Balancers Regional…",
@@ -595,16 +605,6 @@
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "GCP"
-      },
-      {
-        "title": "August 29, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_29_2026",
-        "summary": "Google SecOps SOAR Announcement Release 6.3.98 is now available for all regions.",
-        "date": "2026年8月29日",
-        "date_iso": "2026-08-29",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
       }
     ],
     "oci": [
@@ -626,6 +626,16 @@
         "date_iso": "2026-09-16",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Additional Profile Attributes for the DBMS_CLOUD_AI Package",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-dedicated/adbd-dbms-cloud-ai-updates.htm",
+        "summary": "",
+        "date": "2026年9月15日",
+        "date_iso": "2026-09-15",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "OCI"
       },
       {
@@ -791,16 +801,6 @@
       {
         "title": "IPv6 support for OCI Monitoring",
         "link": "https://docs.oracle.com/iaas/releasenotes/monitoring/monitoring-ipv6.htm",
-        "summary": "",
-        "date": "2026年9月3日",
-        "date_iso": "2026-09-03",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Resource Analytics - September 2026",
-        "link": "https://docs.oracle.com/iaas/releasenotes/resource-analytics/resource-analytics-v2-7.htm",
         "summary": "",
         "date": "2026年9月3日",
         "date_iso": "2026-09-03",
