@@ -1,5 +1,5 @@
 {
-  "updated": "2026年09月21日 13:58 JST",
+  "updated": "2026年09月21日 18:14 JST",
   "clouds": {
     "azure": [
       {
@@ -205,6 +205,16 @@
     ],
     "aws": [
       {
+        "title": "Amazon EC2 X8i instances are now available in the South America (São Paulo) Region",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-x8i-south-america-sao-paulo/",
+        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) X8i instances are available in the South America (São Paulo) region. These instances are powered by custom Intel Xeon 6 processors available…",
+        "date": "2026年9月19日",
+        "date_iso": "2026-09-19",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
         "title": "AWS Continuum now supports credential testing and accessible domain suggestions",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-security-agent/",
         "summary": "AWS Continuum for penetration testing is a frontier agent that proactively secures applications throughout the development lifecycle by offering on-demand, customized penetration testing with real…",
@@ -388,16 +398,6 @@
         "title": "Amazon SageMaker AI now supports serverless model customization for NVIDIA Nemotron 3.5 Lightning",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-sagemaker-ft-nemotron-3-5-lightning/",
         "summary": "Amazon SageMaker AI now supports serverless model customization for the NVIDIA Nemotron 3.5 Lightning model using supervised fine-tuning (SFT), Direct Preference Optimization (DPO), and reinforcement…",
-        "date": "2026年9月17日",
-        "date_iso": "2026-09-17",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon ECS deployment observability for Amazon ECS Managed Daemons in AWS Management Console",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-daemon-deployment-console/",
-        "summary": "Amazon Elastic Container Service (Amazon ECS) now provides a consolidated deployment view for Amazon ECS Managed Daemons, giving you a single place to see how far a deployment has progressed, what is…",
         "date": "2026年9月17日",
         "date_iso": "2026-09-17",
         "category": "ai-tag",
