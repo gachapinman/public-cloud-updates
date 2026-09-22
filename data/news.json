@@ -1,7 +1,37 @@
 {
-  "updated": "2026年09月22日 01:01 JST",
+  "updated": "2026年09月22日 13:58 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Generally Available: Azure Sphere OS version 26.09 is now available",
+        "link": "https://azure.microsoft.com/updates?id=572579",
+        "summary": "Azure Sphere OS version 26.09 is now available in the Retail feed. This release includes updates to the Azure Sphere OS only, with no update to the SDK. If your devices are connected to the internet,…",
+        "date": "2026年9月22日",
+        "date_iso": "2026-09-22",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Introducing a Guided Copilot Experience for Building Azure Apps in VS Code",
+        "link": "https://azure.microsoft.com/updates?id=572214",
+        "summary": "Today we're previewing a new way to build cloud apps with GitHub Copilot in VS Code: a guided Copilot experience that takes you from idea to a deployed Azure app through a structured, predictable…",
+        "date": "2026年9月22日",
+        "date_iso": "2026-09-22",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Azure Functions support for PowerShell 7.6",
+        "link": "https://azure.microsoft.com/updates?id=572219",
+        "summary": "Azure Functions support for PowerShell 7.6 is now generally available. You can now develop apps using PowerShell 7.6 locally and deploy them to Azure Functions plans. Learn more: Updating your app to…",
+        "date": "2026年9月22日",
+        "date_iso": "2026-09-22",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Public Preview: Foundry Routines in Foundry Agent Service",
         "link": "https://azure.microsoft.com/updates?id=563536",
@@ -171,39 +201,29 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Agentless migration of on-premises SMB file shares to Azure Files (SMB)",
-        "link": "https://azure.microsoft.com/updates?id=570910",
-        "summary": "Azure Storage Mover now supports agentless migration of on-premises SMB file shares to Azure Files (SMB), in public preview. You can move file data from Windows Server or NAS shares into Azure…",
-        "date": "2026年9月12日",
-        "date_iso": "2026-09-12",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: TLS/SSL certificate and end-to-end TLS encryption support for Azure Functions Flex…",
-        "link": "https://azure.microsoft.com/updates?id=570940",
-        "summary": "Azure Functions Flex Consumption support for TLS/SSL certificates is now generally available through a new site-scoped certificate model. Each function app can hold up to 3 private (.pfx) and 3…",
-        "date": "2026年9月11日",
-        "date_iso": "2026-09-11",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Azure Copilot Troubleshooting Agent",
-        "link": "https://azure.microsoft.com/updates?id=570980",
-        "summary": "Azure Copilot Troubleshooting Agent is now generally available. Troubleshooting Agent is a unified, built-in Azure Copilot capability that helps customers investigate and resolve operational issues…",
-        "date": "2026年9月11日",
-        "date_iso": "2026-09-11",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Amazon ECS now provides real-time deployment observability in the AWS Management Console",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-console-deployment-observability/",
+        "summary": "Amazon Elastic Container Service (Amazon ECS) now provides real-time service deployment observability in the Amazon ECS Console for native Linear, Canary, and Blue/Green deployment strategies. With…",
+        "date": "2026年9月22日",
+        "date_iso": "2026-09-22",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EVS now in scope for FedRAMP Class C",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-evs-fedramp-class-c/",
+        "summary": "The&nbsp;Amazon Elastic VMware Service (EVS) service is now in scope for FedRAMP Class C (formerly Moderate baseline) in all United States Regions.&nbsp; The&nbsp;&nbsp; Federal Risk and…",
+        "date": "2026年9月22日",
+        "date_iso": "2026-09-22",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
       {
         "title": "Amazon EC2 X8i instances are now available in the South America (São Paulo) Region",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-x8i-south-america-sao-paulo/",
@@ -242,6 +262,16 @@
         "date_iso": "2026-09-19",
         "category": "security-tag",
         "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 I7ie instances now available in AWS Israel region",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-i7ie-instances-israel-telaviv-region/",
+        "summary": "AWS is announcing starting today, Amazon EC2 I7ie instances are now available in AWS Israel (Tel Aviv) region. Designed for large storage I/O intensive workloads, I7ie instances are powered by 5th…",
+        "date": "2026年9月19日",
+        "date_iso": "2026-09-19",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "AWS"
       },
       {
@@ -357,7 +387,7 @@
       {
         "title": "AWS Builder Center now available as mobile app on iOS and Android",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-builder-center-now-available-as-mobile-app/",
-        "summary": "AWS Builder Center is a platform that brings together the global builder community, offering articles, workshops, sandbox environments, events, and learning resources in one place. Previously limited…",
+        "summary": "AWS Builder Center is now available as a mobile app on iOS and Android. Builder Center brings together the global builder community with articles on trending topics, hands-on workshops with free…",
         "date": "2026年9月17日",
         "date_iso": "2026-09-17",
         "category": "ai-tag",
@@ -373,57 +403,27 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon Quick now generates individual sheets and builds analyses from an image",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/generate-sheet-and-generate-analysis-from-an-image/",
-        "summary": "Amazon Quick now expands Generate Analysis with two new ways to create dashboards faster. You can generate a single sheet inside an existing analysis by describing it in natural language, and you can…",
-        "date": "2026年9月17日",
-        "date_iso": "2026-09-17",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Corretto 27 is now generally available",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-corretto-27-generally-available/",
-        "summary": "Amazon Corretto 27, a Feature Release (FR) version, is now available for download. Amazon Corretto is a no-cost, multi-platform, production-ready distribution of OpenJDK . You can download Corretto…",
-        "date": "2026年9月17日",
-        "date_iso": "2026-09-17",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SageMaker AI now supports serverless model customization for NVIDIA Nemotron 3.5 Lightning",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-sagemaker-ft-nemotron-3-5-lightning/",
-        "summary": "Amazon SageMaker AI now supports serverless model customization for the NVIDIA Nemotron 3.5 Lightning model using supervised fine-tuning (SFT), Direct Preference Optimization (DPO), and reinforcement…",
-        "date": "2026年9月17日",
-        "date_iso": "2026-09-17",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
       }
     ],
     "gcp": [
       {
         "title": "September 21, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_21_2026",
-        "summary": "Apigee X Announcement On September 21st, 2026, we began maintenance updates of Apigee instances configured for maintenance windows . If you set a preferred window for maintenance for your instance,…",
+        "summary": "Access Context Manager Feature Access Context Manager supports extended session length for Workforce Identity Federation. This feature is in Preview for Looker (Google Cloud core) customers. For more…",
         "date": "2026年9月21日",
         "date_iso": "2026-09-21",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
         "tag": "GCP"
       },
       {
         "title": "September 18, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_18_2026",
-        "summary": "Cloud Load Balancing Feature Managed workload identity for backend mTLS is generally available for the following Application Load Balancers: Global external Application Load Balancers Regional…",
+        "summary": "Agent Platform Workbench Change 20260918-2230-rc0 Release Change 20260918-2230-rc0 Release Change Installed latest packages from upstream dependencies. Change Installed latest packages from upstream…",
         "date": "2026年9月18日",
         "date_iso": "2026-09-18",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "GCP"
       },
       {
@@ -459,7 +459,7 @@
       {
         "title": "September 14, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_14_2026",
-        "summary": "Apigee hybrid Announcement hybrid v1.17.0 On September 14, 2026 we released an updated version of the Apigee hybrid software, 1.17.0. For information on upgrading, see Upgrading Apigee hybrid to…",
+        "summary": "Agent Platform Workbench Change M150 Release Change Installed latest packages from upstream dependencies. Apigee hybrid Announcement hybrid v1.17.0 On September 14, 2026 we released an updated…",
         "date": "2026年9月14日",
         "date_iso": "2026-09-14",
         "category": "compute-tag",
@@ -499,11 +499,11 @@
       {
         "title": "September 09, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_09_2026",
-        "summary": "Apigee X Feature SemanticCacheLookup policy supports non-default Vector Search distance measures Available in Apigee 1-18-0-apigee-4 and later. A new optional &lt;DistanceMeasureType&gt; element…",
+        "summary": "Agent Platform Workbench Feature New configuration options for scheduled notebook runs When you schedule a notebook run from an Agent Platform Workbench instance, you can now configure the following:…",
         "date": "2026年9月9日",
         "date_iso": "2026-09-09",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "GCP"
       },
       {
@@ -609,6 +609,16 @@
     ],
     "oci": [
       {
+        "title": "New Retirement Date for On-Demand Models in Abu Dhabi",
+        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/new-on-demand-retirement-date-AUH.htm",
+        "summary": "",
+        "date": "2026年9月21日",
+        "date_iso": "2026-09-21",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
         "title": "Management Agent Updates",
         "link": "https://docs.oracle.com/iaas/releasenotes/management-agent/sep26-macs-updates.htm",
         "summary": "",
@@ -626,16 +636,6 @@
         "date_iso": "2026-09-16",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Additional Profile Attributes for the DBMS_CLOUD_AI Package",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-dedicated/adbd-dbms-cloud-ai-updates.htm",
-        "summary": "",
-        "date": "2026年9月15日",
-        "date_iso": "2026-09-15",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "OCI"
       },
       {
@@ -676,6 +676,26 @@
         "date_iso": "2026-09-15",
         "category": "security-tag",
         "cat_label": "セキュリティ",
+        "tag": "OCI"
+      },
+      {
+        "title": "Use Azure Key Management Service (Azure KMS) to manage Master Encryption Keys in Oracle Database@Azure",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-dedicated/adbd-azure-kms-support.htm",
+        "summary": "",
+        "date": "2026年9月15日",
+        "date_iso": "2026-09-15",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "OCI"
+      },
+      {
+        "title": "Additional Profile Attributes for the DBMS_CLOUD_AI Package",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-dedicated/adbd-dbms-cloud-ai-updates.htm",
+        "summary": "",
+        "date": "2026年9月15日",
+        "date_iso": "2026-09-15",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "OCI"
       },
       {
@@ -784,26 +804,6 @@
         "summary": "",
         "date": "2026年9月4日",
         "date_iso": "2026-09-04",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Limit access to OCI Generative AI models with IAM policies",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/limit-model-access.htm",
-        "summary": "",
-        "date": "2026年9月3日",
-        "date_iso": "2026-09-03",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "IPv6 support for OCI Monitoring",
-        "link": "https://docs.oracle.com/iaas/releasenotes/monitoring/monitoring-ipv6.htm",
-        "summary": "",
-        "date": "2026年9月3日",
-        "date_iso": "2026-09-03",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "OCI"
