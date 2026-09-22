@@ -1,5 +1,5 @@
 {
-  "updated": "2026年09月22日 17:46 JST",
+  "updated": "2026年09月22日 23:11 JST",
   "clouds": {
     "azure": [
       {
@@ -365,9 +365,19 @@
         "tag": "AWS"
       },
       {
-        "title": "AWS Elastic Beanstalk introduces Cluster Mode to run multiple applications on shared infrastructure",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/elastic-beanstalk-cluster-mode/",
-        "summary": "AWS Elastic Beanstalk introduces Cluster Mode, a new deployment mode that lets you run and manage multiple applications on shared infrastructure in your account. Provide your source code, a…",
+        "title": "AWS Client VPN が macOS 27 Golden Gate をサポート",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/aws-client-vpn-macos-golden-gate/",
+        "summary": "",
+        "date": "2026年9月17日",
+        "date_iso": "2026-09-17",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS の新しいエクスペリエンスでビルダーの開発開始からリリースまでを迅速化",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/New-AWS-Builder-Experience",
+        "summary": "",
         "date": "2026年9月17日",
         "date_iso": "2026-09-17",
         "category": "compute-tag",
@@ -375,29 +385,19 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon S3 Express One Zone is now available in 7 additional AWS Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/s3-express-one-zone-7-regions/",
-        "summary": "The Amazon S3 Express One Zone storage class is now available in 7 additional AWS Regions: Asia Pacific (Singapore), South America (Sao Paulo), US West (N. California), Canada (Central), Europe…",
+        "title": "Amazon WorkSpaces が NVIDIA Blackwell GPU インスタンスをサポート",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/amazon-workspaces-nvidia-blackwell-gpu-instances/",
+        "summary": "",
         "date": "2026年9月17日",
         "date_iso": "2026-09-17",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "AWS"
       },
       {
-        "title": "AWS Builder Center now available as mobile app on iOS and Android",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-builder-center-now-available-as-mobile-app/",
-        "summary": "AWS Builder Center is now available as a mobile app on iOS and Android. Builder Center brings together the global builder community with articles on trending topics, hands-on workshops with free…",
-        "date": "2026年9月17日",
-        "date_iso": "2026-09-17",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SES now supports tenant-level deliverability insights",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ses-vdm-tenants/",
-        "summary": "Amazon Simple Email Service (SES) now supports tenant-level deliverability insights in Virtual Deliverability Manager (VDM). Tenant management allows email senders to isolate email sending across…",
+        "title": "Amazon Connect Customer で AI を使用した評価フォーム PDF のインポートが可能に",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/amazon-connect-customer-import-evaluation-form-PDF/",
+        "summary": "",
         "date": "2026年9月17日",
         "date_iso": "2026-09-17",
         "category": "ai-tag",
@@ -406,6 +406,16 @@
       }
     ],
     "gcp": [
+      {
+        "title": "September 22, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_22_2026",
+        "summary": "Compute Engine Deprecated As of September 15, 2026, NVIDIA P100 ( nvidia-tesla-p100 and nvidia-tesla-p100-vws ) GPUs have reached end of support (EOS) and are shut down. You can no longer create,…",
+        "date": "2026年9月22日",
+        "date_iso": "2026-09-22",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "GCP"
+      },
       {
         "title": "September 21, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_21_2026",
@@ -594,16 +604,6 @@
         "date_iso": "2026-08-31",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "August 30, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_30_2026",
-        "summary": "Agent Platform Workbench Change 20260830-2330-rc0 Release Change 20260831.01_p0 Release Change Installed latest packages from upstream dependencies. Change Installed latest packages from upstream…",
-        "date": "2026年8月30日",
-        "date_iso": "2026-08-30",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
         "tag": "GCP"
       }
     ],
