@@ -1,7 +1,27 @@
 {
-  "updated": "2026年09月22日 23:11 JST",
+  "updated": "2026年09月23日 13:46 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Retirement: Support for Node.js 22 ends on April 30, 2027",
+        "link": "https://azure.microsoft.com/updates?id=572771",
+        "summary": "Support for Node.js 22 will end on April 30, 2027, please transition to Node.js 24 by that date. Your Azure Function apps will continue to run, but security patches and updates will no longer be…",
+        "date": "2026年9月23日",
+        "date_iso": "2026-09-23",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Flex Nodes for AKS",
+        "link": "https://azure.microsoft.com/updates?id=571919",
+        "summary": "Flex Nodes for AKS is a deployment option for application and platform teams to use hybrid and edge infrastructure as connected worker nodes to an AKS control plane in Azure. Flex Nodes provide a…",
+        "date": "2026年9月23日",
+        "date_iso": "2026-09-23",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "AZURE"
+      },
       {
         "title": "Generally Available: Azure Sphere OS version 26.09 is now available",
         "link": "https://azure.microsoft.com/updates?id=572579",
@@ -181,29 +201,119 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: HTTP/3 over QUIC support in Azure Application Gateway",
-        "link": "https://azure.microsoft.com/updates?id=571123",
-        "summary": "Announcing public preview support for HTTP/3 over QUIC on Azure Application Gateway. HTTP/3 is the next evolution of HTTP and uses QUIC to improve connection setup time, reduce latency, and provide…",
-        "date": "2026年9月15日",
-        "date_iso": "2026-09-15",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Retirement: Azure Linux with OS Guard in Azure Kubernetes Service",
-        "link": "https://azure.microsoft.com/updates?id=571257",
-        "summary": "Support for Azure Linux with OS Guard in Azure Kubernetes Service will end on December 10, 2026. Azure Container Linux is the replacement for Azure Linux with OS Guard (preview). Starting on December…",
-        "date": "2026年9月12日",
-        "date_iso": "2026-09-12",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Amazon CloudWatch Omni: AI-first observability for agents and applications",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-cloudwatch-omni-ai/",
+        "summary": "AWS announces the general availability of Amazon CloudWatch Omni, an evolution of Amazon CloudWatch. Omni is an AI-powered observability experience organized around your teams and the applications…",
+        "date": "2026年9月23日",
+        "date_iso": "2026-09-23",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Billing Transfer now supports automatic billing group creation for two-level transfers",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-billing-transfer-supports-automatic-billing-group-creation/",
+        "summary": "AWS Billing Transfer users can now enable the Auto-Billing Transfer Billing Group Creation, a new AWS Billing Conductor preference that eliminates the manual billing group configuration in two-level…",
+        "date": "2026年9月23日",
+        "date_iso": "2026-09-23",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "OpenAI GPT-6 Sol and GPT-6 Luna are now generally available on Amazon Bedrock",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/openai-gpt-6-sol-luna-on-amazon-bedrock/",
+        "summary": "Today, AWS announces the general availability of GPT-6 Sol and GPT-6 Luna from OpenAI on Amazon Bedrock. Expanding the GPT-6 family alongside Astra, these two models give teams more ways to balance…",
+        "date": "2026年9月23日",
+        "date_iso": "2026-09-23",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Claude Opus 5.5 is now available on AWS GovCloud (US)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-opus-5-5-aws-govcloud/",
+        "summary": "AWS GovCloud (US) now offers Claude Opus 5.5, Anthropic’s most capable Opus model yet and, the first of the Claude 5.5 model family, a better collaborator that handles long-running coding and…",
+        "date": "2026年9月23日",
+        "date_iso": "2026-09-23",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Claude Opus 5.5 is now available on AWS",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-opus-5-5-aws/",
+        "summary": "AWS now offers Claude Opus 5.5, Anthropic’s most capable Opus model yet and, the first of the Claude 5.5 model family, a better collaborator that handles long-running coding and knowledge work,…",
+        "date": "2026年9月23日",
+        "date_iso": "2026-09-23",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Security Hub AI Inventory adds Azure self-hosted instance support",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/security-hub-ai-inventory-azure-support/",
+        "summary": "AWS Security Hub AI Inventory now supports discovering and cataloging AI assets running on self-hosted instances in Microsoft Azure. This expansion extends Security Hub's existing self-hosted…",
+        "date": "2026年9月22日",
+        "date_iso": "2026-09-22",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Route 53 Resolver is now generally available on second-generation AWS Outposts racks",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/route-53-resolver-gen2-outposts/",
+        "summary": "Amazon Route 53 Resolver is now generally available on second-generation AWS Outposts, providing local, managed recursive DNS resolution directly on your Outpost. DNS queries from workloads running…",
+        "date": "2026年9月22日",
+        "date_iso": "2026-09-22",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EMR introduces Long Term Support with Apache Spark 4.1",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-emr-long-term-support-spark-4-1/",
+        "summary": "Amazon EMR introduces Long Term Support (LTS) releases, starting with emr-spark-8.1.0 and Apache Spark 4.1. With LTS, designated versions of the AWS runtime for Apache Spark receive 36 months of…",
+        "date": "2026年9月22日",
+        "date_iso": "2026-09-22",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Glue Data Quality delivers context-specific rule recommendations in seconds",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/glue-data-quality-rule-recommendations/",
+        "summary": "AWS Glue Data Quality now generates data quality rules in seconds, reducing the time to establish data quality checks for your tables in the AWS Glue Data Catalog. You get a ready-to-use set of rules…",
+        "date": "2026年9月22日",
+        "date_iso": "2026-09-22",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EMR 7.14 is now available",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-emr-7-14-available/",
+        "summary": "Amazon EMR 7.14 is now available with new features across Amazon EMR on EC2, Amazon EMR on EKS, and Amazon EMR Serverless, along with version upgrades for additional applications. This release also…",
+        "date": "2026年9月22日",
+        "date_iso": "2026-09-22",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon RDS Custom now supports the latest CU for Microsoft SQL Server",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-custom-supports-latest-cu-gdr-microsoft-sql-server/",
+        "summary": "Amazon Relational Database Service (Amazon RDS) Custom for SQL Server now supports the latest Cumulative Updates (CU) for Microsoft SQL Server. This release includes support for SQL Server 2022 CU26…",
+        "date": "2026年9月22日",
+        "date_iso": "2026-09-22",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
       {
         "title": "Amazon ECS now provides real-time deployment observability in the AWS Management Console",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-console-deployment-observability/",
@@ -293,127 +403,17 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon SNS now supports message payloads up to 1 MiB",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-sns-1mib-support",
-        "summary": "Amazon Simple Notification Service (Amazon SNS) &nbsp;now supports message payloads up to 1 MiB, a 4x increase from the previous 256 KiB limit, so you can publish larger messages to your SNS topics.…",
-        "date": "2026年9月19日",
-        "date_iso": "2026-09-19",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "The new AgentCore Runtime is now available in Amazon Bedrock AgentCore",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/new-agentcore-runtime-generally-available",
-        "summary": "Today, AWS announces the availability of&nbsp;the next generation of AgentCore Runtime , the serverless microVM compute within Amazon Bedrock AgentCore. The new Runtime delivers elastic memory…",
-        "date": "2026年9月18日",
-        "date_iso": "2026-09-18",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS PrivateLink announces Tunnel Endpoints to access network segments",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/9/privatelink-tunnel-endpoint/",
-        "summary": "AWS PrivateLink customers can now use VPC endpoint to privately and securely access network segments in another VPC/account. They can use a ‘tunnel’ endpoint, a new type of VPC endpoint, to tunnel…",
-        "date": "2026年9月18日",
-        "date_iso": "2026-09-18",
-        "category": "network-tag",
-        "cat_label": "ネットワーク",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Transfer Family now supports source IP preservation for SFTP servers behind a Network Load Balancer (NLB)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/transfer-family-sftp-source-ip-nlb/",
-        "summary": "AWS Transfer Family now preserves the client's source IP address using Proxy Protocol v2 (PPv2) when you place a Network Load Balancer (NLB) in front of your SFTP server that uses a VPC-hosted…",
-        "date": "2026年9月18日",
-        "date_iso": "2026-09-18",
-        "category": "network-tag",
-        "cat_label": "ネットワーク",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS HealthOmics now supports IAM session policies",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/omics-iam-session-policy/",
-        "summary": "AWS HealthOmics now supports IAM session policies, enabling you to restrict permissions for individual runs without creating and managing multiple IAM roles. Until now, there was no way to…",
-        "date": "2026年9月18日",
-        "date_iso": "2026-09-18",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Batch now supports bulk job cancellation and termination",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-batch-bulk-cancellation/",
-        "summary": "AWS Batch now supports bulk job cancellation and termination, enabling you to cancel or terminate up to 50 jobs with a single API call. The new CancelJobs, TerminateJobs, and TerminateServiceJobs…",
-        "date": "2026年9月18日",
-        "date_iso": "2026-09-18",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Introducing Amazon EC2 T8i instances",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-t8i-instances-ga/",
-        "summary": "AWS is announcing the general availability of new low-cost burstable Amazon EC2 T8i instances. These instances are powered by custom sixth generation Intel Xeon 6 processors, available exclusively on…",
-        "date": "2026年9月18日",
-        "date_iso": "2026-09-18",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Client VPN が macOS 27 Golden Gate をサポート",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/aws-client-vpn-macos-golden-gate/",
-        "summary": "",
-        "date": "2026年9月17日",
-        "date_iso": "2026-09-17",
-        "category": "network-tag",
-        "cat_label": "ネットワーク",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS の新しいエクスペリエンスでビルダーの開発開始からリリースまでを迅速化",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/New-AWS-Builder-Experience",
-        "summary": "",
-        "date": "2026年9月17日",
-        "date_iso": "2026-09-17",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon WorkSpaces が NVIDIA Blackwell GPU インスタンスをサポート",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/amazon-workspaces-nvidia-blackwell-gpu-instances/",
-        "summary": "",
-        "date": "2026年9月17日",
-        "date_iso": "2026-09-17",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Connect Customer で AI を使用した評価フォーム PDF のインポートが可能に",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/amazon-connect-customer-import-evaluation-form-PDF/",
-        "summary": "",
-        "date": "2026年9月17日",
-        "date_iso": "2026-09-17",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
       }
     ],
     "gcp": [
       {
         "title": "September 22, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_22_2026",
-        "summary": "Compute Engine Deprecated As of September 15, 2026, NVIDIA P100 ( nvidia-tesla-p100 and nvidia-tesla-p100-vws ) GPUs have reached end of support (EOS) and are shut down. You can no longer create,…",
+        "summary": "BigQuery Feature You can now publish a BigQuery data agent in Gemini Enterprise by registering the agent with Agent Registry and importing it using default Google-managed credentials. When BigQuery…",
         "date": "2026年9月22日",
         "date_iso": "2026-09-22",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "GCP"
       },
       {
