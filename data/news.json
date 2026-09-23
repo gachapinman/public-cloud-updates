@@ -1,5 +1,5 @@
 {
-  "updated": "2026年09月23日 17:47 JST",
+  "updated": "2026年09月23日 23:27 JST",
   "clouds": {
     "azure": [
       {
@@ -335,39 +335,9 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon EC2 X8i instances are now available in the South America (São Paulo) Region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-x8i-south-america-sao-paulo/",
-        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) X8i instances are available in the South America (São Paulo) region. These instances are powered by custom Intel Xeon 6 processors available…",
-        "date": "2026年9月19日",
-        "date_iso": "2026-09-19",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Continuum now supports credential testing and accessible domain suggestions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-security-agent/",
-        "summary": "AWS Continuum for penetration testing is a frontier agent that proactively secures applications throughout the development lifecycle by offering on-demand, customized penetration testing with real…",
-        "date": "2026年9月19日",
-        "date_iso": "2026-09-19",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon ECS Express Mode now supports AWS Graviton (ARM64) workloads",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-express-mode-arm-architecture/",
-        "summary": "Amazon Elastic Container Service Express Mode now supports specifying ARM64 as the CPU architecture for your service, making it easy to deploy ARM-based container images on AWS Graviton-powered…",
-        "date": "2026年9月19日",
-        "date_iso": "2026-09-19",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Resilience Hub adds three new capabilities",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/resilience-hub-eks-dependency-policy/",
-        "summary": "The next generation of AWS Resilience Hub is a central location in the AWS that helps platform engineering and site reliability teams assess and strengthen the resilience of their workloads running…",
+        "title": "AWS Continuum が認証情報のテストとアクセス可能なドメインの提案をサポート",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/aws-security-agent/",
+        "summary": "",
         "date": "2026年9月19日",
         "date_iso": "2026-09-19",
         "category": "security-tag",
@@ -375,9 +345,39 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon EC2 I7ie instances now available in AWS Israel region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-i7ie-instances-israel-telaviv-region/",
-        "summary": "AWS is announcing starting today, Amazon EC2 I7ie instances are now available in AWS Israel (Tel Aviv) region. Designed for large storage I/O intensive workloads, I7ie instances are powered by 5th…",
+        "title": "Amazon ECS Express Mode が AWS Graviton (ARM64) ワークロードをサポート",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/amazon-ecs-express-mode-arm-architecture/",
+        "summary": "",
+        "date": "2026年9月19日",
+        "date_iso": "2026-09-19",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Resilience Hub に 3 つの新機能が追加",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/resilience-hub-eks-dependency-policy/",
+        "summary": "",
+        "date": "2026年9月19日",
+        "date_iso": "2026-09-19",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS RTB Fabric が設定可能なアベイラビリティーゾーンアフィニティをサポート",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/aws-rtb-fabric-configurable-availability-zone-affinity/",
+        "summary": "",
+        "date": "2026年9月19日",
+        "date_iso": "2026-09-19",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Bedrock で Moonshot AI の Kimi K3 の一般提供を開始",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/moonshot-ai-kimi-k3-on-amazon-bedrock/",
+        "summary": "",
         "date": "2026年9月19日",
         "date_iso": "2026-09-19",
         "category": "ai-tag",
@@ -385,19 +385,19 @@
         "tag": "AWS"
       },
       {
-        "title": "AWS RTB Fabric now supports configurable Availability Zone affinity",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-rtb-fabric-configurable-availability-zone-affinity/",
-        "summary": "AWS RTB Fabric now supports configurable Availability Zone (AZ) affinity for responder gateways. With this capability, you can configure how your partners connect to your responder gateway: either in…",
+        "title": "Amazon SNS が最大 1 MiB のメッセージペイロードをサポート",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/amazon-sns-1mib-support",
+        "summary": "",
         "date": "2026年9月19日",
         "date_iso": "2026-09-19",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "AWS"
       },
       {
-        "title": "Kimi K3 by Moonshot AI is now generally available on Amazon Bedrock",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/moonshot-ai-kimi-k3-on-amazon-bedrock/",
-        "summary": "Amazon Bedrock continues to expand its open weight model portfolio with the same security and governance that customers rely on.&nbsp;Today, Kimi K3 from Moonshot AI is generally available on Amazon…",
+        "title": "Amazon EC2 X8i instances are now available in the South America (São Paulo) Region",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-x8i-south-america-sao-paulo/",
+        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) X8i instances are available in the South America (São Paulo) region. These instances are powered by custom Intel Xeon 6 processors available…",
         "date": "2026年9月19日",
         "date_iso": "2026-09-19",
         "category": "ai-tag",
@@ -609,6 +609,26 @@
     ],
     "oci": [
       {
+        "title": "Share and Run the Select AI Agent Framework teams Across Schemas",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-09-share-run-select-ai.htm",
+        "summary": "",
+        "date": "2026年9月22日",
+        "date_iso": "2026-09-22",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Select AI for Java",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-09-select-ai-java.htm",
+        "summary": "",
+        "date": "2026年9月22日",
+        "date_iso": "2026-09-22",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
         "title": "New Retirement Date for On-Demand Models in Abu Dhabi",
         "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/new-on-demand-retirement-date-AUH.htm",
         "summary": "",
@@ -786,26 +806,6 @@
         "date_iso": "2026-09-07",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Use Imported Models with the OCI Responses API in OCI Generative AI",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/responses-api-for-imported-models-september-06-2026.htm",
-        "summary": "",
-        "date": "2026年9月6日",
-        "date_iso": "2026-09-06",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "OS Management Hub now supports IPv6",
-        "link": "https://docs.oracle.com/iaas/releasenotes/os-management-hub/release-3.7_ipv6.htm",
-        "summary": "",
-        "date": "2026年9月4日",
-        "date_iso": "2026-09-04",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
         "tag": "OCI"
       }
     ]
