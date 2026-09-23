@@ -1,5 +1,5 @@
 {
-  "updated": "2026年09月23日 13:46 JST",
+  "updated": "2026年09月23日 17:47 JST",
   "clouds": {
     "azure": [
       {
@@ -255,13 +255,13 @@
         "tag": "AWS"
       },
       {
-        "title": "AWS Security Hub AI Inventory adds Azure self-hosted instance support",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/security-hub-ai-inventory-azure-support/",
-        "summary": "AWS Security Hub AI Inventory now supports discovering and cataloging AI assets running on self-hosted instances in Microsoft Azure. This expansion extends Security Hub's existing self-hosted…",
+        "title": "Amazon EMR introduces Long Term Support with Apache Spark 4.1",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-emr-long-term-support-spark-4-1/",
+        "summary": "Amazon EMR introduces Long Term Support (LTS) releases, starting with emr-spark-8.1.0 and Apache Spark 4.1. With LTS, designated versions of the AWS runtime for Apache Spark receive 36 months of…",
         "date": "2026年9月22日",
         "date_iso": "2026-09-22",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "AWS"
       },
       {
@@ -275,23 +275,13 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon EMR introduces Long Term Support with Apache Spark 4.1",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-emr-long-term-support-spark-4-1/",
-        "summary": "Amazon EMR introduces Long Term Support (LTS) releases, starting with emr-spark-8.1.0 and Apache Spark 4.1. With LTS, designated versions of the AWS runtime for Apache Spark receive 36 months of…",
+        "title": "AWS Security Hub AI Inventory adds Azure self-hosted instance support",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/security-hub-ai-inventory-azure-support/",
+        "summary": "AWS Security Hub AI Inventory now supports discovering and cataloging AI assets running on self-hosted instances in Microsoft Azure. This expansion extends Security Hub's existing self-hosted…",
         "date": "2026年9月22日",
         "date_iso": "2026-09-22",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Glue Data Quality delivers context-specific rule recommendations in seconds",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/glue-data-quality-rule-recommendations/",
-        "summary": "AWS Glue Data Quality now generates data quality rules in seconds, reducing the time to establish data quality checks for your tables in the AWS Glue Data Catalog. You get a ready-to-use set of rules…",
-        "date": "2026年9月22日",
-        "date_iso": "2026-09-22",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "AWS"
       },
       {
@@ -302,6 +292,16 @@
         "date_iso": "2026-09-22",
         "category": "ai-tag",
         "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Glue Data Quality delivers context-specific rule recommendations in seconds",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/glue-data-quality-rule-recommendations/",
+        "summary": "AWS Glue Data Quality now generates data quality rules in seconds, reducing the time to establish data quality checks for your tables in the AWS Glue Data Catalog. You get a ready-to-use set of rules…",
+        "date": "2026年9月22日",
+        "date_iso": "2026-09-22",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "AWS"
       },
       {
