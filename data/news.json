@@ -1,5 +1,5 @@
 {
-  "updated": "2026年09月24日 13:53 JST",
+  "updated": "2026年09月24日 17:42 JST",
   "clouds": {
     "azure": [
       {
@@ -609,6 +609,36 @@
     ],
     "oci": [
       {
+        "title": "Route on-demand inference requests across regions with smart model router",
+        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/regional-router.htm",
+        "summary": "",
+        "date": "2026年9月23日",
+        "date_iso": "2026-09-23",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Import DeepSeek V4.1 Flash into OCI Generative AI",
+        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/deepseek-v4-1-flash.htm",
+        "summary": "",
+        "date": "2026年9月23日",
+        "date_iso": "2026-09-23",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Import Google Gemma 4 26B A4B IT into OCI Generative AI",
+        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/google-gemma-4-26b-a4b-it.htm",
+        "summary": "",
+        "date": "2026年9月23日",
+        "date_iso": "2026-09-23",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
         "title": "Bring Your Own Reservations for Data Science",
         "link": "https://docs.oracle.com/iaas/releasenotes/data-science/bring_your_own_reservations.htm",
         "summary": "",
@@ -774,36 +804,6 @@
         "summary": "",
         "date": "2026年9月9日",
         "date_iso": "2026-09-09",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Import Alibaba Qwen3.8-27B and Qwen3.5-397B-A17B into OCI Generative AI",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/alibaba-qwen-3-8-27b-3-5-397b.htm",
-        "summary": "",
-        "date": "2026年9月7日",
-        "date_iso": "2026-09-07",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Import DeepSeek V4 Pro 0813 into OCI Generative AI",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/deepseek-v4-pro-0813.htm",
-        "summary": "",
-        "date": "2026年9月7日",
-        "date_iso": "2026-09-07",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Import Google Gemma 4 31B IT into OCI Generative AI",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/google-gemma-4-31b-it.htm",
-        "summary": "",
-        "date": "2026年9月7日",
-        "date_iso": "2026-09-07",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "OCI"
