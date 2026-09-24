@@ -1,7 +1,27 @@
 {
-  "updated": "2026年09月23日 23:27 JST",
+  "updated": "2026年09月24日 13:53 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Retirement: Support for PowerShell 7.4 ends on November 10, 2026",
+        "link": "https://azure.microsoft.com/updates?id=572770",
+        "summary": "Support for PowerShell 7.4 will end on November 10, 2026, please transition to PowerShell 7.6. Your Azure Function apps will continue to run, but security patches and updates will no longer be…",
+        "date": "2026年9月24日",
+        "date_iso": "2026-09-24",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Retirement: Support for .NET 8 and .NET 9 ends on November 10, 2026—upgrade your apps to .NET 10",
+        "link": "https://azure.microsoft.com/updates?id=572838",
+        "summary": "Support for .NET 8 and .NET 9 will end on November 10, 2026. Please transition to .NET 10 by that date. Your Azure Function Apps will continue to operate, but security updates will no longer be…",
+        "date": "2026年9月24日",
+        "date_iso": "2026-09-24",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AZURE"
+      },
       {
         "title": "Retirement: Support for Node.js 22 ends on April 30, 2027",
         "link": "https://azure.microsoft.com/updates?id=572771",
@@ -181,29 +201,59 @@
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: PostgreSQL skills and MCP plugin for Azure Database for PostgreSQL",
-        "link": "https://azure.microsoft.com/updates?id=569664",
-        "summary": "The PostgreSQL skills and MCP plugin turns supported AI coding assistants into context-aware PostgreSQL experts that can both provide guidance and act on a connected database. The bundled plugin…",
-        "date": "2026年9月16日",
-        "date_iso": "2026-09-16",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Announcing: New Windows App client-side endpoints for Azure Virtual Desktop",
-        "link": "https://azure.microsoft.com/updates?id=571360",
-        "summary": "Beginning in early October 2026, Windows App will begin using three new wildcard fully qualified domain names (FQDNs) for client-side service traffic to Azure Virtual Desktop. These domains are…",
-        "date": "2026年9月15日",
-        "date_iso": "2026-09-15",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Amazon Kinesis Data Streams announces Service-Managed Partition Keys for simplified data ingestion",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/kinesis/service-managed-partition-keys",
+        "summary": "Amazon Kinesis Data Streams now supports service-managed partition keys for On-Demand Standard and On-Demand Advantage streams, automatically distributing records across shards without requiring…",
+        "date": "2026年9月24日",
+        "date_iso": "2026-09-24",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Bedrock Managed Knowledge Base now supports Salesforce and Zendesk as native data source connectors",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-salesforce-zendesk-native-data-source-connectors/",
+        "summary": "AWS announces Salesforce and Zendesk data source connectors for Amazon Bedrock Managed Knowledge Base, a fully managed retrieval-augmented generation (RAG) service. Customers can now sync Salesforce…",
+        "date": "2026年9月24日",
+        "date_iso": "2026-09-24",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Connect Customer now provides routing step data in the analytics data lake",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-routing-step-data/",
+        "summary": "Amazon Connect Customer now provides routing step data in the analytics data lake, making it easier for customers to generate insights from routing decisions. Using the data lake, customers can…",
+        "date": "2026年9月24日",
+        "date_iso": "2026-09-24",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EMR on EKS now supports IPv6 Amazon EKS clusters",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-emr-eks-ipv6-support",
+        "summary": "Today, AWS announces that Amazon EMR on EKS now supports running workloads on IPv6 Amazon Elastic Kubernetes Service (Amazon EKS) clusters. Amazon EMR on EKS enables data platform and analytics teams…",
+        "date": "2026年9月24日",
+        "date_iso": "2026-09-24",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon DynamoDB global tables with multi-Region strong consistency now supports additional AWS Regions and…",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/dynamodb-mrsc-additional-regions/",
+        "summary": "Starting today, Amazon DynamoDB global tables with multi-Region strong consistency (MRSC) is available in five additional AWS Regions: Canada (Central), Europe (Stockholm), Europe (Spain), Asia…",
+        "date": "2026年9月23日",
+        "date_iso": "2026-09-23",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
       {
         "title": "Amazon CloudWatch Omni: AI-first observability for agents and applications",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-cloudwatch-omni-ai/",
@@ -285,16 +335,6 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon EMR 7.14 is now available",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-emr-7-14-available/",
-        "summary": "Amazon EMR 7.14 is now available with new features across Amazon EMR on EC2, Amazon EMR on EKS, and Amazon EMR Serverless, along with version upgrades for additional applications. This release also…",
-        "date": "2026年9月22日",
-        "date_iso": "2026-09-22",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
         "title": "AWS Glue Data Quality delivers context-specific rule recommendations in seconds",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/glue-data-quality-rule-recommendations/",
         "summary": "AWS Glue Data Quality now generates data quality rules in seconds, reducing the time to establish data quality checks for your tables in the AWS Glue Data Catalog. You get a ready-to-use set of rules…",
@@ -305,6 +345,16 @@
         "tag": "AWS"
       },
       {
+        "title": "Amazon EMR 7.14 is now available",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-emr-7-14-available/",
+        "summary": "Amazon EMR 7.14 is now available with new features across Amazon EMR on EC2, Amazon EMR on EKS, and Amazon EMR Serverless, along with version upgrades for additional applications. This release also…",
+        "date": "2026年9月22日",
+        "date_iso": "2026-09-22",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon RDS Custom now supports the latest CU for Microsoft SQL Server",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-custom-supports-latest-cu-gdr-microsoft-sql-server/",
         "summary": "Amazon Relational Database Service (Amazon RDS) Custom for SQL Server now supports the latest Cumulative Updates (CU) for Microsoft SQL Server. This release includes support for SQL Server 2022 CU26…",
@@ -312,6 +362,16 @@
         "date_iso": "2026-09-22",
         "category": "database-tag",
         "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Connect Customer launches agent-to-agent collaboration",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/Amazon-Connect-Customer-A2A",
+        "summary": "Amazon Connect Customer now supports agent-to-agent collaboration, giving customers the choice to bring in specialized AI agents during a live interaction to resolve a customer request. With this…",
+        "date": "2026年9月22日",
+        "date_iso": "2026-09-22",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "AWS"
       },
       {
@@ -343,69 +403,19 @@
         "category": "security-tag",
         "cat_label": "セキュリティ",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon ECS Express Mode が AWS Graviton (ARM64) ワークロードをサポート",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/amazon-ecs-express-mode-arm-architecture/",
-        "summary": "",
-        "date": "2026年9月19日",
-        "date_iso": "2026-09-19",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Resilience Hub に 3 つの新機能が追加",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/resilience-hub-eks-dependency-policy/",
-        "summary": "",
-        "date": "2026年9月19日",
-        "date_iso": "2026-09-19",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS RTB Fabric が設定可能なアベイラビリティーゾーンアフィニティをサポート",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/aws-rtb-fabric-configurable-availability-zone-affinity/",
-        "summary": "",
-        "date": "2026年9月19日",
-        "date_iso": "2026-09-19",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Bedrock で Moonshot AI の Kimi K3 の一般提供を開始",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/moonshot-ai-kimi-k3-on-amazon-bedrock/",
-        "summary": "",
-        "date": "2026年9月19日",
-        "date_iso": "2026-09-19",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SNS が最大 1 MiB のメッセージペイロードをサポート",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/amazon-sns-1mib-support",
-        "summary": "",
-        "date": "2026年9月19日",
-        "date_iso": "2026-09-19",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 X8i instances are now available in the South America (São Paulo) Region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-x8i-south-america-sao-paulo/",
-        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) X8i instances are available in the South America (São Paulo) region. These instances are powered by custom Intel Xeon 6 processors available…",
-        "date": "2026年9月19日",
-        "date_iso": "2026-09-19",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "September 23, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_23_2026",
+        "summary": "Apigee API hub Feature Preview launch of AWS API Gateway and Azure API Management plugins API hub now includes two new built-in plugins for ingesting API metadata from third-party gateways: AWS API…",
+        "date": "2026年9月23日",
+        "date_iso": "2026-09-23",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "GCP"
+      },
       {
         "title": "September 22, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_22_2026",
@@ -595,19 +605,19 @@
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "GCP"
-      },
-      {
-        "title": "August 31, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#August_31_2026",
-        "summary": "BigQuery Feature You can now create, store , and manage pipelines in Git folders. This feature is in Preview . Feature BigQuery now supports TabFM , Google's pre-trained foundation model for tabular…",
-        "date": "2026年8月31日",
-        "date_iso": "2026-08-31",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
       }
     ],
     "oci": [
+      {
+        "title": "Bring Your Own Reservations for Data Science",
+        "link": "https://docs.oracle.com/iaas/releasenotes/data-science/bring_your_own_reservations.htm",
+        "summary": "",
+        "date": "2026年9月23日",
+        "date_iso": "2026-09-23",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
       {
         "title": "Share and Run the Select AI Agent Framework teams Across Schemas",
         "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-09-share-run-select-ai.htm",
@@ -791,16 +801,6 @@
       {
         "title": "Import Google Gemma 4 31B IT into OCI Generative AI",
         "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/google-gemma-4-31b-it.htm",
-        "summary": "",
-        "date": "2026年9月7日",
-        "date_iso": "2026-09-07",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Enhanced Rack Visualization and Component Details in Exadata Insights",
-        "link": "https://docs.oracle.com/iaas/releasenotes/operations-insights/exadata-rack-components.htm",
         "summary": "",
         "date": "2026年9月7日",
         "date_iso": "2026-09-07",
