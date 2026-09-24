@@ -1,5 +1,5 @@
 {
-  "updated": "2026年09月24日 17:42 JST",
+  "updated": "2026年09月24日 23:27 JST",
   "clouds": {
     "azure": [
       {
@@ -335,16 +335,6 @@
         "tag": "AWS"
       },
       {
-        "title": "AWS Glue Data Quality delivers context-specific rule recommendations in seconds",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/glue-data-quality-rule-recommendations/",
-        "summary": "AWS Glue Data Quality now generates data quality rules in seconds, reducing the time to establish data quality checks for your tables in the AWS Glue Data Catalog. You get a ready-to-use set of rules…",
-        "date": "2026年9月22日",
-        "date_iso": "2026-09-22",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
         "title": "Amazon EMR 7.14 is now available",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-emr-7-14-available/",
         "summary": "Amazon EMR 7.14 is now available with new features across Amazon EMR on EC2, Amazon EMR on EKS, and Amazon EMR Serverless, along with version upgrades for additional applications. This release also…",
@@ -352,6 +342,16 @@
         "date_iso": "2026-09-22",
         "category": "ai-tag",
         "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Glue Data Quality delivers context-specific rule recommendations in seconds",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/glue-data-quality-rule-recommendations/",
+        "summary": "AWS Glue Data Quality now generates data quality rules in seconds, reducing the time to establish data quality checks for your tables in the AWS Glue Data Catalog. You get a ready-to-use set of rules…",
+        "date": "2026年9月22日",
+        "date_iso": "2026-09-22",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "AWS"
       },
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "September 24, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_24_2026",
+        "summary": "Model Armor Feature You can use the following filters in Melbourne ( australia-southeast2 ) with data residency enforcement enabled : Prompt injection and jailbreak detection Responsible AI For…",
+        "date": "2026年9月24日",
+        "date_iso": "2026-09-24",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "September 23, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_23_2026",
         "summary": "Apigee API hub Feature Preview launch of AWS API Gateway and Azure API Management plugins API hub now includes two new built-in plugins for ingesting API metadata from third-party gateways: AWS API…",
@@ -449,11 +459,11 @@
       {
         "title": "September 17, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_17_2026",
-        "summary": "Apigee hybrid Announcement v1.16.10 On September 17, 2026 we released an updated version of the Apigee hybrid software, v1.16.10. For information on upgrading, see Upgrading Apigee hybrid to version…",
+        "summary": "Anti Money Laundering AI Announcement New minor engine versions released for the retail line of business within the v004.005 , v004.009 , and v004.010 version lines (…",
         "date": "2026年9月17日",
         "date_iso": "2026-09-17",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "GCP"
       },
       {
@@ -595,19 +605,29 @@
         "category": "database-tag",
         "cat_label": "データベース",
         "tag": "GCP"
-      },
-      {
-        "title": "September 01, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_01_2026",
-        "summary": "Apigee UI Announcement On September 1, 2026, we released an updated version of the Apigee UI. Fixed Bug ID Description 547582067 Revisions can now be imported for API proxies and shared flows in a…",
-        "date": "2026年9月1日",
-        "date_iso": "2026-09-01",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "GCP"
       }
     ],
     "oci": [
+      {
+        "title": "Code-only deployment for OCI Functions is now available",
+        "link": "https://docs.oracle.com/iaas/releasenotes/functions/functions-code-only-functions.htm",
+        "summary": "",
+        "date": "2026年9月24日",
+        "date_iso": "2026-09-24",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Bring Your Own Reservations for Data Science",
+        "link": "https://docs.oracle.com/iaas/releasenotes/data-science/bring_your_own_reservations.htm",
+        "summary": "",
+        "date": "2026年9月23日",
+        "date_iso": "2026-09-23",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
       {
         "title": "Route on-demand inference requests across regions with smart model router",
         "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/regional-router.htm",
@@ -636,16 +656,6 @@
         "date_iso": "2026-09-23",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Bring Your Own Reservations for Data Science",
-        "link": "https://docs.oracle.com/iaas/releasenotes/data-science/bring_your_own_reservations.htm",
-        "summary": "",
-        "date": "2026年9月23日",
-        "date_iso": "2026-09-23",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
         "tag": "OCI"
       },
       {
@@ -796,16 +806,6 @@
         "date_iso": "2026-09-09",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Configurable Fault Domain Host Balancing",
-        "link": "https://docs.oracle.com/iaas/releasenotes/oracle-cloud-vmware-solution/configurable-fault-domain-host-balancing.htm",
-        "summary": "",
-        "date": "2026年9月9日",
-        "date_iso": "2026-09-09",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "OCI"
       }
     ]
