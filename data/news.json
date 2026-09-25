@@ -1,7 +1,27 @@
 {
-  "updated": "2026年09月24日 23:27 JST",
+  "updated": "2026年09月25日 13:59 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Retirement: Azure Communication Services (ACS) standalone services will be retired on September 30, 2028",
+        "link": "https://azure.microsoft.com/updates?id=557117",
+        "summary": "Microsoft will retire several standalone Azure Communication Services (ACS) offerings on September 30, 2028. After this date, the affected services will no longer be available. Details Beginning…",
+        "date": "2026年9月25日",
+        "date_iso": "2026-09-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Instant Access for VM restore points",
+        "link": "https://azure.microsoft.com/updates?id=572573",
+        "summary": "Instant Access for application-consistent restore points on virtual machines (that have Premium v2 or Ultra disks as data disks) is now generally available. With Instant Access, you can begin…",
+        "date": "2026年9月25日",
+        "date_iso": "2026-09-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Retirement: Support for PowerShell 7.4 ends on November 10, 2026",
         "link": "https://azure.microsoft.com/updates?id=572770",
@@ -181,29 +201,129 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Azure SQL updates for mid-September 2026",
-        "link": "https://azure.microsoft.com/updates?id=571056",
-        "summary": "In mid-September 2026, the following updates and enhancements were made to Azure SQL:Configure soft delete for the Azure SQL logical server. When the logical server is deleted, it goes into a soft…",
-        "date": "2026年9月17日",
-        "date_iso": "2026-09-17",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Azure Red Hat OpenShift with hosted control planes",
-        "link": "https://azure.microsoft.com/updates?id=571621",
-        "summary": "Azure Red Hat OpenShift with hosted control planes is now in public preview. It is a new deployment option for Azure Red Hat OpenShift that runs the OpenShift control plane as a fully managed…",
-        "date": "2026年9月16日",
-        "date_iso": "2026-09-16",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "AWS Billing and Cost Management now provides billing context for your account through a new API",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-billing-and-cost-management-billing-context-api/",
+        "summary": "AWS Billing and Cost Management now offers the ListBillingViewSegments API, which returns the billing context of your account over a time period you specify. You can use the API to retrieve…",
+        "date": "2026年9月25日",
+        "date_iso": "2026-09-25",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EventBridge relaunches event buses for enterprise scale",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/eventbridge-relaunches-custom-event-buses/",
+        "summary": "Amazon EventBridge relaunches event buses with a new enhanced Custom event bus that lets you build event-driven applications that decouple teams and can scale with your organization. Create a custom…",
+        "date": "2026年9月25日",
+        "date_iso": "2026-09-25",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Lambda durable functions are now available in AWS European Sovereign Cloud region",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/durablefunctions-european-sovereign-cloud/",
+        "summary": "AWS Lambda durable functions are now available in the AWS European Sovereign Cloud. Lambda durable functions enable developers to build reliable multi-step applications and AI workflows within the…",
+        "date": "2026年9月25日",
+        "date_iso": "2026-09-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon RDS for MySQL announces Extended Support minor versions 5.7.44-rds.20260902 and 8.0.46-rds.20260908",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-mysql-extended-support-minor-5744-8046-rds/",
+        "summary": "Amazon Relational Database Service (RDS) for MySQL announces Amazon RDS Extended Support minor versions 5.7.44-rds.20260902 and 8.0.46-rds.20260908. Amazon RDS Extended Support provides up to three…",
+        "date": "2026年9月25日",
+        "date_iso": "2026-09-25",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon RDS for PostgreSQL now supports PostgreSQL 19 Beta 4 in the Amazon RDS Database Preview Environment",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/postgresql-19-beta-4-amazon-rds-database-preview-environment/",
+        "summary": "Starting today, Amazon RDS for PostgreSQL 19 Beta 4 is available in the Amazon RDS Database Preview Environment , allowing you to evaluate the pre-release of PostgreSQL 19 on Amazon RDS for…",
+        "date": "2026年9月25日",
+        "date_iso": "2026-09-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon RDS for PostgreSQL now supports post-quantum TLS key exchange",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/postgresql-post-quantum-tls-key-exchange/",
+        "summary": "Starting today, Amazon RDS for PostgreSQL introduces support for post-quantum TLS (PQ-TLS) key exchange, providing you with post-quantum cryptography options for encrypting your data in-transit. RDS…",
+        "date": "2026年9月25日",
+        "date_iso": "2026-09-25",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Network Security Manager is now generally available in US East (N. Virginia) Region",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/network-security-manager-us-east-va/",
+        "summary": "Today, AWS announces the general availability of AWS Network Security Manager, a comprehensive network security management solution designed to simplify security policy deployment and enforcement at…",
+        "date": "2026年9月25日",
+        "date_iso": "2026-09-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon SageMaker HyperPod Inference Gateway for scalable LLM inference",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-hyperpod-inference-gateway/",
+        "summary": "Amazon SageMaker HyperPod Inference Gateway is a Kubernetes-native, GPU-aware routing system that deploys as a single EKS managed add-on on existing SageMaker HyperPod infrastructure with zero…",
+        "date": "2026年9月24日",
+        "date_iso": "2026-09-24",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Run interactive workloads on Amazon EMR on EKS with Spark Connect",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/emr-eks-spark-connect-interactive/",
+        "summary": "Amazon EMR on EKS now supports interactive Apache Spark sessions with Spark Connect. Data engineers and data scientists can develop and debug Apache Spark applications interactively from managed…",
+        "date": "2026年9月24日",
+        "date_iso": "2026-09-24",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon GameLift Servers now available in 5 new regions and 8 Local Zones",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-gamelift-servers-region-expansion-2026",
+        "summary": "Amazon GameLift Servers is a fully managed service for deploying, operating, and scaling dedicated game servers for multiplayer games. High latency caused by geographic distance between players and…",
+        "date": "2026年9月24日",
+        "date_iso": "2026-09-24",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon ElastiCache Global Datastore now supports tagging and tag-based access control",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-elasticache-global-datastore-tagging/",
+        "summary": "Amazon ElastiCache now supports resource tagging and tag-based access control (TBAC) for Global Datastore. Previously, ElastiCache supported tagging on all resources except Global Datastore, which…",
+        "date": "2026年9月24日",
+        "date_iso": "2026-09-24",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon RDS supports Multi-AZ for SQL Server Developer Edition",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-sql-server-multi-az-developer-edition/",
+        "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports Multi-AZ deployments using Always On Availability Groups for SQL Server Developer Edition. Multi-AZ deployments maintain a…",
+        "date": "2026年9月24日",
+        "date_iso": "2026-09-24",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
       {
         "title": "Amazon Kinesis Data Streams announces Service-Managed Partition Keys for simplified data ingestion",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/kinesis/service-managed-partition-keys",
@@ -245,163 +365,43 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon DynamoDB global tables with multi-Region strong consistency now supports additional AWS Regions and…",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/dynamodb-mrsc-additional-regions/",
-        "summary": "Starting today, Amazon DynamoDB global tables with multi-Region strong consistency (MRSC) is available in five additional AWS Regions: Canada (Central), Europe (Stockholm), Europe (Spain), Asia…",
-        "date": "2026年9月23日",
-        "date_iso": "2026-09-23",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon CloudWatch Omni: AI-first observability for agents and applications",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-cloudwatch-omni-ai/",
-        "summary": "AWS announces the general availability of Amazon CloudWatch Omni, an evolution of Amazon CloudWatch. Omni is an AI-powered observability experience organized around your teams and the applications…",
-        "date": "2026年9月23日",
-        "date_iso": "2026-09-23",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Billing Transfer now supports automatic billing group creation for two-level transfers",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-billing-transfer-supports-automatic-billing-group-creation/",
-        "summary": "AWS Billing Transfer users can now enable the Auto-Billing Transfer Billing Group Creation, a new AWS Billing Conductor preference that eliminates the manual billing group configuration in two-level…",
-        "date": "2026年9月23日",
-        "date_iso": "2026-09-23",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "OpenAI GPT-6 Sol and GPT-6 Luna are now generally available on Amazon Bedrock",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/openai-gpt-6-sol-luna-on-amazon-bedrock/",
-        "summary": "Today, AWS announces the general availability of GPT-6 Sol and GPT-6 Luna from OpenAI on Amazon Bedrock. Expanding the GPT-6 family alongside Astra, these two models give teams more ways to balance…",
-        "date": "2026年9月23日",
-        "date_iso": "2026-09-23",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Claude Opus 5.5 is now available on AWS GovCloud (US)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-opus-5-5-aws-govcloud/",
-        "summary": "AWS GovCloud (US) now offers Claude Opus 5.5, Anthropic’s most capable Opus model yet and, the first of the Claude 5.5 model family, a better collaborator that handles long-running coding and…",
-        "date": "2026年9月23日",
-        "date_iso": "2026-09-23",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Claude Opus 5.5 is now available on AWS",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-opus-5-5-aws/",
-        "summary": "AWS now offers Claude Opus 5.5, Anthropic’s most capable Opus model yet and, the first of the Claude 5.5 model family, a better collaborator that handles long-running coding and knowledge work,…",
-        "date": "2026年9月23日",
-        "date_iso": "2026-09-23",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EMR introduces Long Term Support with Apache Spark 4.1",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-emr-long-term-support-spark-4-1/",
-        "summary": "Amazon EMR introduces Long Term Support (LTS) releases, starting with emr-spark-8.1.0 and Apache Spark 4.1. With LTS, designated versions of the AWS runtime for Apache Spark receive 36 months of…",
-        "date": "2026年9月22日",
-        "date_iso": "2026-09-22",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Route 53 Resolver is now generally available on second-generation AWS Outposts racks",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/route-53-resolver-gen2-outposts/",
-        "summary": "Amazon Route 53 Resolver is now generally available on second-generation AWS Outposts, providing local, managed recursive DNS resolution directly on your Outpost. DNS queries from workloads running…",
-        "date": "2026年9月22日",
-        "date_iso": "2026-09-22",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Security Hub AI Inventory adds Azure self-hosted instance support",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/security-hub-ai-inventory-azure-support/",
-        "summary": "AWS Security Hub AI Inventory now supports discovering and cataloging AI assets running on self-hosted instances in Microsoft Azure. This expansion extends Security Hub's existing self-hosted…",
-        "date": "2026年9月22日",
-        "date_iso": "2026-09-22",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EMR 7.14 is now available",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-emr-7-14-available/",
-        "summary": "Amazon EMR 7.14 is now available with new features across Amazon EMR on EC2, Amazon EMR on EKS, and Amazon EMR Serverless, along with version upgrades for additional applications. This release also…",
-        "date": "2026年9月22日",
-        "date_iso": "2026-09-22",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Glue Data Quality delivers context-specific rule recommendations in seconds",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/glue-data-quality-rule-recommendations/",
-        "summary": "AWS Glue Data Quality now generates data quality rules in seconds, reducing the time to establish data quality checks for your tables in the AWS Glue Data Catalog. You get a ready-to-use set of rules…",
-        "date": "2026年9月22日",
-        "date_iso": "2026-09-22",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon RDS Custom now supports the latest CU for Microsoft SQL Server",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-custom-supports-latest-cu-gdr-microsoft-sql-server/",
-        "summary": "Amazon Relational Database Service (Amazon RDS) Custom for SQL Server now supports the latest Cumulative Updates (CU) for Microsoft SQL Server. This release includes support for SQL Server 2022 CU26…",
-        "date": "2026年9月22日",
-        "date_iso": "2026-09-22",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Connect Customer launches agent-to-agent collaboration",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/Amazon-Connect-Customer-A2A",
-        "summary": "Amazon Connect Customer now supports agent-to-agent collaboration, giving customers the choice to bring in specialized AI agents during a live interaction to resolve a customer request. With this…",
-        "date": "2026年9月22日",
-        "date_iso": "2026-09-22",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon ECS now provides real-time deployment observability in the AWS Management Console",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-console-deployment-observability/",
-        "summary": "Amazon Elastic Container Service (Amazon ECS) now provides real-time service deployment observability in the Amazon ECS Console for native Linear, Canary, and Blue/Green deployment strategies. With…",
-        "date": "2026年9月22日",
-        "date_iso": "2026-09-22",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EVS now in scope for FedRAMP Class C",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-evs-fedramp-class-c/",
-        "summary": "The&nbsp;Amazon Elastic VMware Service (EVS) service is now in scope for FedRAMP Class C (formerly Moderate baseline) in all United States Regions.&nbsp; The&nbsp;&nbsp; Federal Risk and…",
-        "date": "2026年9月22日",
-        "date_iso": "2026-09-22",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Continuum が認証情報のテストとアクセス可能なドメインの提案をサポート",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/aws-security-agent/",
+        "title": "Amazon CloudWatch Omni を発表: エージェントとアプリケーション向けの AI ファーストの統合オブザーバビリティ",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/amazon-cloudwatch-omni/",
         "summary": "",
-        "date": "2026年9月19日",
-        "date_iso": "2026-09-19",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
+        "date": "2026年9月23日",
+        "date_iso": "2026-09-23",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Billing Transfer が 2 段階の移管における請求グループの自動作成をサポート",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/aws-billing-transfer-supports-automatic-billing-group-creation/",
+        "summary": "",
+        "date": "2026年9月23日",
+        "date_iso": "2026-09-23",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "OpenAI の GPT-6 Sol と GPT-6 Luna が Amazon Bedrock で一般提供開始",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/openai-gpt-6-sol-luna-on-amazon-bedrock/",
+        "summary": "",
+        "date": "2026年9月23日",
+        "date_iso": "2026-09-23",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Claude Opus 5.5 が AWS で利用可能に",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/claude-opus-5-5-aws/",
+        "summary": "",
+        "date": "2026年9月23日",
+        "date_iso": "2026-09-23",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "AWS"
       }
     ],
@@ -409,11 +409,11 @@
       {
         "title": "September 24, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_24_2026",
-        "summary": "Model Armor Feature You can use the following filters in Melbourne ( australia-southeast2 ) with data residency enforcement enabled : Prompt injection and jailbreak detection Responsible AI For…",
+        "summary": "Apigee hybrid Announcement v1.15.8 On September 24, 2026 we released an updated version of the Apigee hybrid software, v1.15.8. For information on upgrading, see Upgrading Apigee hybrid to version…",
         "date": "2026年9月24日",
         "date_iso": "2026-09-24",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "GCP"
       },
       {
@@ -609,6 +609,16 @@
     ],
     "oci": [
       {
+        "title": "HeatWave: Automatic Storage Expansion Enhanced",
+        "link": "https://docs.oracle.com/iaas/releasenotes/mysql-database/heatwave-automatic-storage-expansion-enhanced.htm",
+        "summary": "",
+        "date": "2026年9月24日",
+        "date_iso": "2026-09-24",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "OCI"
+      },
+      {
         "title": "Code-only deployment for OCI Functions is now available",
         "link": "https://docs.oracle.com/iaas/releasenotes/functions/functions-code-only-functions.htm",
         "summary": "",
@@ -789,18 +799,8 @@
         "tag": "OCI"
       },
       {
-        "title": "Cross-Region Replication for OCI Cache",
-        "link": "https://docs.oracle.com/iaas/releasenotes/oci-cache/sep2026-cross-region-replication.htm",
-        "summary": "",
-        "date": "2026年9月9日",
-        "date_iso": "2026-09-09",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Oracle Cloud Migrations supports ARM migrations for AWS EC2 instances",
-        "link": "https://docs.oracle.com/iaas/releasenotes/cloud-migration/ocm_aws_ec2_instance_migration-arm.htm",
+        "title": "Fixed issues and enhancements in OS Management Hub releases 3.7 and 3.8",
+        "link": "https://docs.oracle.com/iaas/releasenotes/os-management-hub/release-3.7-3.8.htm",
         "summary": "",
         "date": "2026年9月9日",
         "date_iso": "2026-09-09",
