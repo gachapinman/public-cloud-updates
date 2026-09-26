@@ -1,7 +1,17 @@
 {
-  "updated": "2026年09月25日 23:44 JST",
+  "updated": "2026年09月26日 14:00 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Public Preview: Azure HorizonDB supports PostgreSQL 18",
+        "link": "https://azure.microsoft.com/updates?id=573048",
+        "summary": "Azure HorizonDB is a fully managed, PostgreSQL-compatible, cloud-native database service designed for scalable, high-performance workloads.Azure HorizonDB, now in public preview, includes PostgreSQL…",
+        "date": "2026年9月26日",
+        "date_iso": "2026-09-26",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AZURE"
+      },
       {
         "title": "Retirement: Azure Communication Services (ACS) standalone services will be retired on September 30, 2028",
         "link": "https://azure.microsoft.com/updates?id=557117",
@@ -191,19 +201,99 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Retirement Update: SAP container images removed October 14, 2026",
-        "link": "https://azure.microsoft.com/updates?id=571342",
-        "summary": "The containerized SAP data connector retired on September 14, 2026 and is unsupported and unmaintained. Existing TLS-compliant agents may continue sending logs through the retired HTTP Data Collector…",
-        "date": "2026年9月17日",
-        "date_iso": "2026-09-17",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Amazon Transcribe adds customer-managed KMS keys for custom resources",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-transcribe/",
+        "summary": "Amazon Transcribe now lets you encrypt your custom vocabularies, custom vocabulary filters, and custom language models at rest with a customer-managed AWS KMS key that you own and control.…",
+        "date": "2026年9月26日",
+        "date_iso": "2026-09-26",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 M8i and M8i-flex instances are now available in additional regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-m8i-m8i-flex-thf/",
+        "summary": "Starting today, Amazon EC2 M8i and M8i-flex instances are now available in the AWS European Sovereign Cloud (Germany) region. These instances are powered by custom Intel Xeon 6 processors, available…",
+        "date": "2026年9月26日",
+        "date_iso": "2026-09-26",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 R8i and R8i-flex instances are now available in additional regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-r8i-r8i-flex-thf/",
+        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8i and R8i-flex instances are available in the AWS European Sovereign Cloud (Germany) region. These instances are powered by custom Intel…",
+        "date": "2026年9月26日",
+        "date_iso": "2026-09-26",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 C8i and C8i-flex instances are now available in additional regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/c8i-c8i-flex-thf-september-2026/",
+        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8i and C8i-flex instances are available in the AWS European Sovereign Cloud (Germany) region. These instances are powered by custom Intel…",
+        "date": "2026年9月26日",
+        "date_iso": "2026-09-26",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS IAM outbound identity federation now supports interface VPC endpoints for OIDC discovery",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-sts-vpc-oidc/",
+        "summary": "AWS Identity and Access Management (IAM) outbound identity federation now supports Amazon Virtual Private Cloud (VPC) endpoints for the OpenID Connect (OIDC) discovery APIs. You can now access the…",
+        "date": "2026年9月26日",
+        "date_iso": "2026-09-26",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS DataSync launches a monitoring dashboard for tracking task executions across your account",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/datasync-monitoring-dashboard",
+        "summary": "AWS DataSync now provides a monitoring dashboard in the DataSync console that gives you visibility into your data transfers across your account. For each task execution, you can see its status, data…",
+        "date": "2026年9月26日",
+        "date_iso": "2026-09-26",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Elastic Disaster Recovery now supports AWS Graviton-based source servers",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/elastic-disaster-recovery-graviton/",
+        "summary": "AWS Elastic Disaster Recovery (AWS DRS) now supports disaster recovery for AWS Graviton-based (arm64) source servers. You can now protect and recover your Graviton workloads with the same simple,…",
+        "date": "2026年9月25日",
+        "date_iso": "2026-09-25",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS End User Messaging now supports voice calling on WhatsApp",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-end-user-messaging-voice-calling-whatsapp",
+        "summary": "AWS End User Messaging now lets businesses place and receive voice calls with their customers directly inside WhatsApp, using the same verified business identity they already use for messaging. With…",
+        "date": "2026年9月25日",
+        "date_iso": "2026-09-25",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS End User Messaging and Amazon SES now offer AI agent skills for the AWS MCP Server",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-messaging-ses-ai-skills-mcp-server/",
+        "summary": "AWS End User Messaging and Amazon SES now publish AI agent skills for the AWS MCP Server, enabling developers to build and send messages by asking their AI coding agent in plain language. Previously,…",
+        "date": "2026年9月25日",
+        "date_iso": "2026-09-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
       {
         "title": "AWS Billing and Cost Management now provides billing context for your account through a new API",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-billing-and-cost-management-billing-context-api/",
@@ -305,16 +395,6 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon ElastiCache Global Datastore now supports tagging and tag-based access control",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-elasticache-global-datastore-tagging/",
-        "summary": "Amazon ElastiCache now supports resource tagging and tag-based access control (TBAC) for Global Datastore. Previously, ElastiCache supported tagging on all resources except Global Datastore, which…",
-        "date": "2026年9月24日",
-        "date_iso": "2026-09-24",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
         "title": "Amazon RDS supports Multi-AZ for SQL Server Developer Edition",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-sql-server-multi-az-developer-edition/",
         "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports Multi-AZ deployments using Always On Availability Groups for SQL Server Developer Edition. Multi-AZ deployments maintain a…",
@@ -323,89 +403,19 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon Kinesis Data Streams announces Service-Managed Partition Keys for simplified data ingestion",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/kinesis/service-managed-partition-keys",
-        "summary": "Amazon Kinesis Data Streams now supports service-managed partition keys for On-Demand Standard and On-Demand Advantage streams, automatically distributing records across shards without requiring…",
-        "date": "2026年9月24日",
-        "date_iso": "2026-09-24",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Bedrock Managed Knowledge Base now supports Salesforce and Zendesk as native data source connectors",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-salesforce-zendesk-native-data-source-connectors/",
-        "summary": "AWS announces Salesforce and Zendesk data source connectors for Amazon Bedrock Managed Knowledge Base, a fully managed retrieval-augmented generation (RAG) service. Customers can now sync Salesforce…",
-        "date": "2026年9月24日",
-        "date_iso": "2026-09-24",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Connect Customer now provides routing step data in the analytics data lake",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-routing-step-data/",
-        "summary": "Amazon Connect Customer now provides routing step data in the analytics data lake, making it easier for customers to generate insights from routing decisions. Using the data lake, customers can…",
-        "date": "2026年9月24日",
-        "date_iso": "2026-09-24",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EMR on EKS now supports IPv6 Amazon EKS clusters",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-emr-eks-ipv6-support",
-        "summary": "Today, AWS announces that Amazon EMR on EKS now supports running workloads on IPv6 Amazon Elastic Kubernetes Service (Amazon EKS) clusters. Amazon EMR on EKS enables data platform and analytics teams…",
-        "date": "2026年9月24日",
-        "date_iso": "2026-09-24",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon CloudWatch Omni を発表: エージェントとアプリケーション向けの AI ファーストの統合オブザーバビリティ",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/amazon-cloudwatch-omni/",
-        "summary": "",
-        "date": "2026年9月23日",
-        "date_iso": "2026-09-23",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Billing Transfer が 2 段階の移管における請求グループの自動作成をサポート",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/aws-billing-transfer-supports-automatic-billing-group-creation/",
-        "summary": "",
-        "date": "2026年9月23日",
-        "date_iso": "2026-09-23",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "OpenAI の GPT-6 Sol と GPT-6 Luna が Amazon Bedrock で一般提供開始",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/openai-gpt-6-sol-luna-on-amazon-bedrock/",
-        "summary": "",
-        "date": "2026年9月23日",
-        "date_iso": "2026-09-23",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Claude Opus 5.5 が AWS で利用可能に",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/claude-opus-5-5-aws/",
-        "summary": "",
-        "date": "2026年9月23日",
-        "date_iso": "2026-09-23",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "September 25, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_25_2026",
+        "summary": "API Keys API Feature The API Keys remote Model Context Protocol (MCP) server is available in Preview . You can connect to the API Keys remote MCP server from AI applications to create, inspect,…",
+        "date": "2026年9月25日",
+        "date_iso": "2026-09-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
       {
         "title": "September 24, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_24_2026",
@@ -595,19 +605,19 @@
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "GCP"
-      },
-      {
-        "title": "September 02, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_02_2026",
-        "summary": "AlloyDB for PostgreSQL Feature AlloyDB real-time data access to BigQuery (in Preview ) now offers limit pushdown and runtime projects: Limit pushdown: when you query foreign tables, some LIMIT and…",
-        "date": "2026年9月2日",
-        "date_iso": "2026-09-02",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "GCP"
       }
     ],
     "oci": [
+      {
+        "title": "Import Z.ai GLM-5.3-Flash into OCI Generative AI",
+        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/zai-glm-5-3-flash.htm",
+        "summary": "",
+        "date": "2026年9月24日",
+        "date_iso": "2026-09-24",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
       {
         "title": "HeatWave: Automatic Storage Expansion Enhanced",
         "link": "https://docs.oracle.com/iaas/releasenotes/mysql-database/heatwave-automatic-storage-expansion-enhanced.htm",
@@ -629,13 +639,13 @@
         "tag": "OCI"
       },
       {
-        "title": "Bring Your Own Reservations for Data Science",
-        "link": "https://docs.oracle.com/iaas/releasenotes/data-science/bring_your_own_reservations.htm",
+        "title": "Find models by region with model discovery in OCI Generative AI",
+        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/model-discovery.htm",
         "summary": "",
         "date": "2026年9月23日",
         "date_iso": "2026-09-23",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "OCI"
       },
       {
@@ -666,6 +676,16 @@
         "date_iso": "2026-09-23",
         "category": "ai-tag",
         "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Bring Your Own Reservations for Data Science",
+        "link": "https://docs.oracle.com/iaas/releasenotes/data-science/bring_your_own_reservations.htm",
+        "summary": "",
+        "date": "2026年9月23日",
+        "date_iso": "2026-09-23",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "OCI"
       },
       {
@@ -784,26 +804,6 @@
         "summary": "",
         "date": "2026年9月14日",
         "date_iso": "2026-09-14",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Export Marketplace Customer Instance Reports as CSV",
-        "link": "https://docs.oracle.com/iaas/releasenotes/marketplace/customer-instance-report-csv-export.htm",
-        "summary": "",
-        "date": "2026年9月11日",
-        "date_iso": "2026-09-11",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Fixed issues and enhancements in OS Management Hub releases 3.7 and 3.8",
-        "link": "https://docs.oracle.com/iaas/releasenotes/os-management-hub/release-3.7-3.8.htm",
-        "summary": "",
-        "date": "2026年9月9日",
-        "date_iso": "2026-09-09",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "OCI"
