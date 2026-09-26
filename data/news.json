@@ -1,5 +1,5 @@
 {
-  "updated": "2026年09月26日 14:00 JST",
+  "updated": "2026年09月26日 17:47 JST",
   "clouds": {
     "azure": [
       {
@@ -395,13 +395,13 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon RDS supports Multi-AZ for SQL Server Developer Edition",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-sql-server-multi-az-developer-edition/",
-        "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports Multi-AZ deployments using Always On Availability Groups for SQL Server Developer Edition. Multi-AZ deployments maintain a…",
+        "title": "Amazon ElastiCache Global Datastore now supports tagging and tag-based access control",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-elasticache-global-datastore-tagging/",
+        "summary": "Amazon ElastiCache now supports resource tagging and tag-based access control (TBAC) for Global Datastore. Previously, ElastiCache supported tagging on all resources except Global Datastore, which…",
         "date": "2026年9月24日",
         "date_iso": "2026-09-24",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "AWS"
       }
     ],
