@@ -1,5 +1,5 @@
 {
-  "updated": "2026年09月26日 22:53 JST",
+  "updated": "2026年09月27日 14:20 JST",
   "clouds": {
     "azure": [
       {
@@ -275,16 +275,6 @@
         "tag": "AWS"
       },
       {
-        "title": "AWS End User Messaging now supports voice calling on WhatsApp",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-end-user-messaging-voice-calling-whatsapp",
-        "summary": "AWS End User Messaging now lets businesses place and receive voice calls with their customers directly inside WhatsApp, using the same verified business identity they already use for messaging. With…",
-        "date": "2026年9月25日",
-        "date_iso": "2026-09-25",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
         "title": "AWS End User Messaging and Amazon SES now offer AI agent skills for the AWS MCP Server",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-messaging-ses-ai-skills-mcp-server/",
         "summary": "AWS End User Messaging and Amazon SES now publish AI agent skills for the AWS MCP Server, enabling developers to build and send messages by asking their AI coding agent in plain language. Previously,…",
@@ -292,6 +282,16 @@
         "date_iso": "2026-09-25",
         "category": "ai-tag",
         "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS End User Messaging now supports voice calling on WhatsApp",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-end-user-messaging-voice-calling-whatsapp",
+        "summary": "AWS End User Messaging now lets businesses place and receive voice calls with their customers directly inside WhatsApp, using the same verified business identity they already use for messaging. With…",
+        "date": "2026年9月25日",
+        "date_iso": "2026-09-25",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
         "tag": "AWS"
       },
       {
@@ -365,9 +365,19 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon SageMaker HyperPod Inference Gateway for scalable LLM inference",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-hyperpod-inference-gateway/",
-        "summary": "Amazon SageMaker HyperPod Inference Gateway is a Kubernetes-native, GPU-aware routing system that deploys as a single EKS managed add-on on existing SageMaker HyperPod infrastructure with zero…",
+        "title": "Amazon Kinesis Data Streams がデータインジェストを簡素化するサービスマネージドパーティションキーの提供を開始",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/kinesis/service-managed-partition-keys",
+        "summary": "",
+        "date": "2026年9月24日",
+        "date_iso": "2026-09-24",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Bedrock マネージドナレッジベースが Salesforce および Zendesk をネイティブデータソースコネクタとしてサポート",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-salesforce-zendesk-native-data-source-connectors/",
+        "summary": "",
         "date": "2026年9月24日",
         "date_iso": "2026-09-24",
         "category": "ai-tag",
@@ -375,33 +385,23 @@
         "tag": "AWS"
       },
       {
-        "title": "Run interactive workloads on Amazon EMR on EKS with Spark Connect",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/emr-eks-spark-connect-interactive/",
-        "summary": "Amazon EMR on EKS now supports interactive Apache Spark sessions with Spark Connect. Data engineers and data scientists can develop and debug Apache Spark applications interactively from managed…",
+        "title": "Amazon Connect Customer が分析データレイクでルーティングステップデータを提供開始",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/amazon-connect-routing-step-data/",
+        "summary": "",
+        "date": "2026年9月24日",
+        "date_iso": "2026-09-24",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EMR on EKS が IPv6 の Amazon EKS クラスターをサポート",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/amazon-emr-eks-ipv6-support",
+        "summary": "",
         "date": "2026年9月24日",
         "date_iso": "2026-09-24",
         "category": "container-tag",
         "cat_label": "コンテナ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon GameLift Servers now available in 5 new regions and 8 Local Zones",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-gamelift-servers-region-expansion-2026",
-        "summary": "Amazon GameLift Servers is a fully managed service for deploying, operating, and scaling dedicated game servers for multiplayer games. High latency caused by geographic distance between players and…",
-        "date": "2026年9月24日",
-        "date_iso": "2026-09-24",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon RDS supports Multi-AZ for SQL Server Developer Edition",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-sql-server-multi-az-developer-edition/",
-        "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports Multi-AZ deployments using Always On Availability Groups for SQL Server Developer Edition. Multi-AZ deployments maintain a…",
-        "date": "2026年9月24日",
-        "date_iso": "2026-09-24",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "AWS"
       }
     ],
