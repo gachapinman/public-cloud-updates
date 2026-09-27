@@ -1,5 +1,5 @@
 {
-  "updated": "2026年09月27日 18:29 JST",
+  "updated": "2026年09月27日 23:49 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "September 26, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_26_2026",
+        "summary": "Google SecOps SOAR Announcement Release 6.3.100 is now available for all regions.",
+        "date": "2026年9月26日",
+        "date_iso": "2026-09-26",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "September 25, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_25_2026",
         "summary": "API Keys API Feature The API Keys remote Model Context Protocol (MCP) server is available in Preview . You can connect to the API Keys remote MCP server from AI applications to create, inspect,…",
@@ -594,16 +604,6 @@
         "date_iso": "2026-09-04",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "September 03, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_03_2026",
-        "summary": "API Gateway Change New model routing gateways might use a gateway.dev default hostname If you create a gateway that uses model routing on or after September 3, 2026, it might receive a gateway.dev…",
-        "date": "2026年9月3日",
-        "date_iso": "2026-09-03",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
         "tag": "GCP"
       }
     ],
