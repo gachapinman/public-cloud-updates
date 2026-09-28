@@ -1,7 +1,17 @@
 {
-  "updated": "2026年09月28日 19:06 JST",
+  "updated": "2026年09月29日 02:49 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Generally Available: Luxembourg - Azure Extended Zones",
+        "link": "https://azure.microsoft.com/updates?id=572968",
+        "summary": "We are announcing the general availability of the Luxembourg Azure Extended Zone. Azure Extended Zones are small-footprint extensions of Azure placed in metro areas, industry centers, or specific…",
+        "date": "2026年9月29日",
+        "date_iso": "2026-09-29",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Public Preview: Azure HorizonDB supports PostgreSQL 18",
         "link": "https://azure.microsoft.com/updates?id=573048",
@@ -186,16 +196,6 @@
         "title": "Public Preview: Azure Payments HSM v2",
         "link": "https://azure.microsoft.com/updates?id=570509",
         "summary": "Azure Payments HSM v2 is a highly available, single-tenant Payment HSM service for payment processing, credential issuance, PIN processing, key management, and authentication data protection.…",
-        "date": "2026年9月18日",
-        "date_iso": "2026-09-18",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: High-scale mesh in Azure Virtual Network Manager",
-        "link": "https://azure.microsoft.com/updates?id=571572",
-        "summary": "High-scale mesh using connected group in Azure Virtual Network Manager is now in general availability. In available regions, customers may connect up to 3,000 virtual networks in a single mesh…",
         "date": "2026年9月18日",
         "date_iso": "2026-09-18",
         "category": "ai-tag",
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "September 28, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_28_2026",
+        "summary": "Application Integration Security A Confused Deputy vulnerability was discovered in the Email Task component in Application Integration versions prior to June 30, 2026. For more information, see the…",
+        "date": "2026年9月28日",
+        "date_iso": "2026-09-28",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "September 27, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_27_2026",
         "summary": "Google SecOps SOAR Announcement Release 6.3.101 is being rolled out to the first phase of regions as listed here . This release contains internal and customer bug fixes.",
@@ -594,16 +604,6 @@
         "date_iso": "2026-09-06",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "GCP"
-      },
-      {
-        "title": "September 05, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_05_2026",
-        "summary": "Google SecOps SOAR Announcement Release 6.3.99 is now available for all regions.",
-        "date": "2026年9月5日",
-        "date_iso": "2026-09-05",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "GCP"
       }
     ],
