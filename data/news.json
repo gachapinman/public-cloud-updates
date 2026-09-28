@@ -1,5 +1,5 @@
 {
-  "updated": "2026年09月27日 23:49 JST",
+  "updated": "2026年09月28日 14:26 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "September 27, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_27_2026",
+        "summary": "Google SecOps SOAR Announcement Release 6.3.101 is being rolled out to the first phase of regions as listed here . This release contains internal and customer bug fixes.",
+        "date": "2026年9月27日",
+        "date_iso": "2026-09-27",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "September 26, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_26_2026",
         "summary": "Google SecOps SOAR Announcement Release 6.3.100 is now available for all regions.",
@@ -592,16 +602,6 @@
         "summary": "Google SecOps SOAR Announcement Release 6.3.99 is now available for all regions.",
         "date": "2026年9月5日",
         "date_iso": "2026-09-05",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "September 04, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_04_2026",
-        "summary": "Audit Manager Feature The remote Model Context Protocol (MCP) server for Audit Manager is generally available ( GA ). Cloud Billing Change Introducing the Incentives page, for tracking spend-based…",
-        "date": "2026年9月4日",
-        "date_iso": "2026-09-04",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
