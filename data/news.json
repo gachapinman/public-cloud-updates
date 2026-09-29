@@ -1,7 +1,37 @@
 {
-  "updated": "2026年09月29日 02:49 JST",
+  "updated": "2026年09月29日 14:45 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Generally Available: Vector search and vector indexes in Azure SQL",
+        "link": "https://azure.microsoft.com/updates?id=571800",
+        "summary": "Vector search and vector indexes are now generally available in Azure SQL Database. Using the CREATE VECTOR INDEX and VECTOR_SEARCH T-SQL capabilities, you can perform efficient approximate nearest…",
+        "date": "2026年9月29日",
+        "date_iso": "2026-09-29",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Azure SQL Dev Hub",
+        "link": "https://azure.microsoft.com/updates?id=572998",
+        "summary": "Azure SQL Dev Hub gives you a central starting point for building applications with Azure SQL, whether you’re developing directly or using AI agents. You can find guidance for connecting to Azure SQL…",
+        "date": "2026年9月29日",
+        "date_iso": "2026-09-29",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Azure SQL Managed Instance updates for late-September 2026",
+        "link": "https://azure.microsoft.com/updates?id=571632",
+        "summary": "In late September 2026, the following updates and enhancements were made to Azure SQL Managed Instance: Use the flexible memory feature in Azure SQL Managed Instance to change the amount of memory…",
+        "date": "2026年9月29日",
+        "date_iso": "2026-09-29",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Generally Available: Luxembourg - Azure Extended Zones",
         "link": "https://azure.microsoft.com/updates?id=572968",
@@ -171,39 +201,99 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: New and improved troubleshooting guides for Azure Database for PostgreSQL",
-        "link": "https://azure.microsoft.com/updates?id=571042",
-        "summary": "Updated troubleshooting guidance is now available for Azure Database for PostgreSQL flexible server. You can use the expanded documentation to diagnose high CPU, memory, IOPS, temporary file usage,…",
-        "date": "2026年9月19日",
-        "date_iso": "2026-09-19",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: PG18 support for Azure Database for PostgreSQL elastic clusters",
-        "link": "https://azure.microsoft.com/updates?id=571047",
-        "summary": "Azure Database for PostgreSQL elastic clusters now support PostgreSQL 18, bringing the latest PostgreSQL capabilities to distributed, cloud-scale workloads. You can build new applications or…",
-        "date": "2026年9月19日",
-        "date_iso": "2026-09-19",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Azure Payments HSM v2",
-        "link": "https://azure.microsoft.com/updates?id=570509",
-        "summary": "Azure Payments HSM v2 is a highly available, single-tenant Payment HSM service for payment processing, credential issuance, PIN processing, key management, and authentication data protection.…",
-        "date": "2026年9月18日",
-        "date_iso": "2026-09-18",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Amazon EC2 Future-dated Capacity Reservations Now Supports Postponing Start Dates",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-fcr-postpone-start-date/",
+        "summary": "Amazon EC2 Future-dated Capacity Reservations let you secure capacity up to 120 days in advance by specifying the capacity you need, the start date, and a commitment duration. If your plans change…",
+        "date": "2026年9月29日",
+        "date_iso": "2026-09-29",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Rekognition Face Liveness now returns Feedback Codes",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/rekognition-liveness-feedback-codes/",
+        "summary": "Amazon Rekognition Face Liveness now returns Feedback Codes that help customers understand why a liveness check&nbsp;received a low score and how users could retry successfully. The codes are…",
+        "date": "2026年9月29日",
+        "date_iso": "2026-09-29",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "Grok 4.7 is now available on Amazon Bedrock",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-grok-4-7/",
+        "summary": "Amazon Bedrock now supports SpaceXAI Grok 4.7, a frontier model built for coding, agentic tasks, and knowledge work, with US Geo and Global cross-Region inference. &nbsp; Grok 4.7 builds on Grok 4.6…",
+        "date": "2026年9月29日",
+        "date_iso": "2026-09-29",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Claude Sonnet 5.5 now available on AWS",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-sonnet-5-5-aws/",
+        "summary": "AWS now offers Claude Sonnet 5.5, a smarter and more efficient Sonnet that delivers a clear leap forward on coding and knowledge work with at a lower cost per task for most work at faster speed.…",
+        "date": "2026年9月29日",
+        "date_iso": "2026-09-29",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Claude Sonnet 5.5 now available on AWS GovCloud (US)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-sonnet-5-5-aws-govcloud-us/",
+        "summary": "AWS GovCloud (US) now offers Claude Sonnet 5.5, a smarter and more efficient Sonnet that delivers a clear leap forward on coding and knowledge work with at a lower cost per task for most work ag…",
+        "date": "2026年9月29日",
+        "date_iso": "2026-09-29",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Corretto September 2026 Patch Updates",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-corretto-sept-2026-updates/",
+        "summary": "On September 25, 2026, Amazon announced a patch update for the following Amazon Corretto Long-Term Support (LTS) and Feature Release (FR) versions of OpenJDK: Corretto 25.0.4.10.1, 21.0.12.11.1,…",
+        "date": "2026年9月28日",
+        "date_iso": "2026-09-28",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon DocumentDB (with MongoDB compatibility) adds support for 5 MongoDB aggregation stages and change stream…",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-documentdb-8-0-2/",
+        "summary": "Amazon DocumentDB (with MongoDB compatibility) now supports&nbsp;retryable writes, 5 new aggregation stages, and change stream enhancements starting from minor version 8.0.2. This release expands…",
+        "date": "2026年9月28日",
+        "date_iso": "2026-09-28",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon DocumentDB (with MongoDB compatibility) now supports retryable writes",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-documentdb-retryable-writes/",
+        "summary": "For developers building MongoDB-compatible applications, retryable writes improve application resilience during transient errors such as network interruptions or primary failovers. Amazon DocumentDB…",
+        "date": "2026年9月28日",
+        "date_iso": "2026-09-28",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Backup adds logically air-gapped vault support for Amazon FSx for NetApp ONTAP",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-backup-air-gapped-vault-fsx-ontap/",
+        "summary": "AWS Backup logically air-gapped vault now supports Amazon FSx for NetApp ONTAP. Logically air-gapped vaults are a type of AWS Backup vault that allows secure sharing of backups across accounts and…",
+        "date": "2026年9月28日",
+        "date_iso": "2026-09-28",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
       {
         "title": "Amazon Transcribe adds customer-managed KMS keys for custom resources",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-transcribe/",
@@ -313,117 +403,27 @@
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "AWS"
-      },
-      {
-        "title": "AWS Lambda durable functions are now available in AWS European Sovereign Cloud region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/durablefunctions-european-sovereign-cloud/",
-        "summary": "AWS Lambda durable functions are now available in the AWS European Sovereign Cloud. Lambda durable functions enable developers to build reliable multi-step applications and AI workflows within the…",
-        "date": "2026年9月25日",
-        "date_iso": "2026-09-25",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon RDS for MySQL announces Extended Support minor versions 5.7.44-rds.20260902 and 8.0.46-rds.20260908",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-mysql-extended-support-minor-5744-8046-rds/",
-        "summary": "Amazon Relational Database Service (RDS) for MySQL announces Amazon RDS Extended Support minor versions 5.7.44-rds.20260902 and 8.0.46-rds.20260908. Amazon RDS Extended Support provides up to three…",
-        "date": "2026年9月25日",
-        "date_iso": "2026-09-25",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon RDS for PostgreSQL now supports PostgreSQL 19 Beta 4 in the Amazon RDS Database Preview Environment",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/postgresql-19-beta-4-amazon-rds-database-preview-environment/",
-        "summary": "Starting today, Amazon RDS for PostgreSQL 19 Beta 4 is available in the Amazon RDS Database Preview Environment , allowing you to evaluate the pre-release of PostgreSQL 19 on Amazon RDS for…",
-        "date": "2026年9月25日",
-        "date_iso": "2026-09-25",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon RDS for PostgreSQL now supports post-quantum TLS key exchange",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/postgresql-post-quantum-tls-key-exchange/",
-        "summary": "Starting today, Amazon RDS for PostgreSQL introduces support for post-quantum TLS (PQ-TLS) key exchange, providing you with post-quantum cryptography options for encrypting your data in-transit. RDS…",
-        "date": "2026年9月25日",
-        "date_iso": "2026-09-25",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Network Security Manager is now generally available in US East (N. Virginia) Region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/network-security-manager-us-east-va/",
-        "summary": "Today, AWS announces the general availability of AWS Network Security Manager, a comprehensive network security management solution designed to simplify security policy deployment and enforcement at…",
-        "date": "2026年9月25日",
-        "date_iso": "2026-09-25",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Kinesis Data Streams がデータインジェストを簡素化するサービスマネージドパーティションキーの提供を開始",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/kinesis/service-managed-partition-keys",
-        "summary": "",
-        "date": "2026年9月24日",
-        "date_iso": "2026-09-24",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Bedrock マネージドナレッジベースが Salesforce および Zendesk をネイティブデータソースコネクタとしてサポート",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-salesforce-zendesk-native-data-source-connectors/",
-        "summary": "",
-        "date": "2026年9月24日",
-        "date_iso": "2026-09-24",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Connect Customer が分析データレイクでルーティングステップデータを提供開始",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/amazon-connect-routing-step-data/",
-        "summary": "",
-        "date": "2026年9月24日",
-        "date_iso": "2026-09-24",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EMR on EKS が IPv6 の Amazon EKS クラスターをサポート",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/amazon-emr-eks-ipv6-support",
-        "summary": "",
-        "date": "2026年9月24日",
-        "date_iso": "2026-09-24",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "AWS"
       }
     ],
     "gcp": [
       {
         "title": "September 28, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_28_2026",
-        "summary": "Application Integration Security A Confused Deputy vulnerability was discovered in the Email Task component in Application Integration versions prior to June 30, 2026. For more information, see the…",
+        "summary": "Agent Platform Workbench Change 20260927.00_p0 Release Change Installed latest packages from upstream dependencies. Security Bulk security patch remediating Critical and High-severity CVEs in the…",
         "date": "2026年9月28日",
         "date_iso": "2026-09-28",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
         "tag": "GCP"
       },
       {
         "title": "September 27, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_27_2026",
-        "summary": "Google SecOps SOAR Announcement Release 6.3.101 is being rolled out to the first phase of regions as listed here . This release contains internal and customer bug fixes.",
+        "summary": "Agent Platform Workbench Change 20260927-2130-rc0 Release Change Installed latest packages from upstream dependencies. Change M151 Release Change Installed latest packages from upstream dependencies.…",
         "date": "2026年9月27日",
         "date_iso": "2026-09-27",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "GCP"
       },
       {
