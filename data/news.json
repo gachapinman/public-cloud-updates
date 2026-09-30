@@ -1,5 +1,5 @@
 {
-  "updated": "2026年09月30日 18:57 JST",
+  "updated": "2026年10月01日 01:05 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "September 30, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#September_30_2026",
+        "summary": "Apigee API hub Feature AI performance and Tool performance dashboards in API insights API insights in API hub now includes two dashboards for AI and agent traffic: AI performance reports token usage…",
+        "date": "2026年9月30日",
+        "date_iso": "2026-09-30",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "September 29, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_29_2026",
         "summary": "API Gateway Feature Configure streaming for LLM responses and other traffic You can now create API Gateway gateways that stream requests and responses instead of buffering them. This Public Preview…",
@@ -594,16 +604,6 @@
         "date_iso": "2026-09-08",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "GCP"
-      },
-      {
-        "title": "September 07, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_07_2026",
-        "summary": "AI Hypercomputer Security Google addressed a security vulnerability (CVE-2026-65107) that affects Slurm clusters. Based on the Google Cloud product that you used to create your Slurm cluster, see one…",
-        "date": "2026年9月7日",
-        "date_iso": "2026-09-07",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "GCP"
       }
     ],
