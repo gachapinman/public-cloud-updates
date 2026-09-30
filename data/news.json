@@ -1,5 +1,5 @@
 {
-  "updated": "2026年09月30日 14:34 JST",
+  "updated": "2026年09月30日 18:57 JST",
   "clouds": {
     "azure": [
       {
@@ -609,6 +609,26 @@
     ],
     "oci": [
       {
+        "title": "OCI Cache Supports Dual-Stack Endpoints for IPv6",
+        "link": "https://docs.oracle.com/iaas/releasenotes/oci-cache/sep2026-ipv6-support.htm",
+        "summary": "",
+        "date": "2026年9月30日",
+        "date_iso": "2026-09-30",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "HeatWave: Default MySQL Version Changes to 9.7 LTS",
+        "link": "https://docs.oracle.com/iaas/releasenotes/mysql-database/heatwave-97x-default-track.htm",
+        "summary": "",
+        "date": "2026年9月29日",
+        "date_iso": "2026-09-29",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "OCI"
+      },
+      {
         "title": "Simplify linking widgets to dashboard filters",
         "link": "https://docs.oracle.com/iaas/releasenotes/management-dashboard/linking-widgets-dashboard-filters.htm",
         "summary": "",
@@ -649,23 +669,13 @@
         "tag": "OCI"
       },
       {
-        "title": "New 26.3.2.xxx Release for App Gateway Docker, OVA, and Patch Releases",
-        "link": "https://docs.oracle.com/iaas/releasenotes/identity/app-gateway-docker-ova-supported-releases-patches.htm",
-        "summary": "",
-        "date": "2026年9月28日",
-        "date_iso": "2026-09-28",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "OCI"
-      },
-      {
-        "title": "Changes to OTP Messages for Spain Phone Numbers",
-        "link": "https://docs.oracle.com/iaas/releasenotes/identity/changes-otp-messages-spain.htm",
+        "title": "HeatWave: Automatic Storage Expansion Enhanced",
+        "link": "https://docs.oracle.com/iaas/releasenotes/mysql-database/heatwave-automatic-storage-expansion-enhanced.htm",
         "summary": "",
         "date": "2026年9月24日",
         "date_iso": "2026-09-24",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
+        "category": "database-tag",
+        "cat_label": "データベース",
         "tag": "OCI"
       },
       {
@@ -676,16 +686,6 @@
         "date_iso": "2026-09-24",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "HeatWave: Automatic Storage Expansion Enhanced",
-        "link": "https://docs.oracle.com/iaas/releasenotes/mysql-database/heatwave-automatic-storage-expansion-enhanced.htm",
-        "summary": "",
-        "date": "2026年9月24日",
-        "date_iso": "2026-09-24",
-        "category": "database-tag",
-        "cat_label": "データベース",
         "tag": "OCI"
       },
       {
