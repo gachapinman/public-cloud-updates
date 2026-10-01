@@ -1,5 +1,5 @@
 {
-  "updated": "2026年10月01日 19:24 JST",
+  "updated": "2026年10月02日 01:42 JST",
   "clouds": {
     "azure": [
       {
@@ -345,9 +345,9 @@
         "tag": "AWS"
       },
       {
-        "title": "AWS Transfer Family now automatically approves SFTP connector quota increases up to 1,000",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-transfer-family-sftp-connector-quota-1000/",
-        "summary": "AWS Transfer Family now automatically approves requests to increase your SFTP connector quota up to 1,000 connectors per AWS account in each AWS Region. You can add more connectors as your file…",
+        "title": "AWS accounts now support phone number verification",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-accounts-phone-number-verification/",
+        "summary": "AWS Accounts now support phone number verification for primary contact phone numbers. Previously, phone numbers in AWS account contact information were validated for format but never verified through…",
         "date": "2026年9月30日",
         "date_iso": "2026-09-30",
         "category": "compute-tag",
@@ -355,9 +355,9 @@
         "tag": "AWS"
       },
       {
-        "title": "AWS accounts now support phone number verification",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-accounts-phone-number-verification/",
-        "summary": "AWS Accounts now support phone number verification for primary contact phone numbers. Previously, phone numbers in AWS account contact information were validated for format but never verified through…",
+        "title": "AWS Transfer Family now automatically approves SFTP connector quota increases up to 1,000",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-transfer-family-sftp-connector-quota-1000/",
+        "summary": "AWS Transfer Family now automatically approves requests to increase your SFTP connector quota up to 1,000 connectors per AWS account in each AWS Region. You can add more connectors as your file…",
         "date": "2026年9月30日",
         "date_iso": "2026-09-30",
         "category": "compute-tag",
@@ -559,11 +559,11 @@
       {
         "title": "September 13, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_13_2026",
-        "summary": "Agent Platform Workbench Change 20260911.00_p0 Release Change 20260913.00_p0 Release Change Installed latest packages from upstream dependencies. Change Installed latest packages from upstream…",
+        "summary": "Access Approval Feature Application Design Center is generally available (GA) . Access Transparency Feature Application Design Center is generally available (GA) . Agent Platform Workbench Change…",
         "date": "2026年9月13日",
         "date_iso": "2026-09-13",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "GCP"
       },
       {
@@ -608,6 +608,26 @@
       }
     ],
     "oci": [
+      {
+        "title": "New connection support for GoldenGate Veridata",
+        "link": "https://docs.oracle.com/iaas/releasenotes/goldengate/veridata-connections.htm",
+        "summary": "",
+        "date": "2026年10月1日",
+        "date_iso": "2026-10-01",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Support for Kubernetes version 1.36.4",
+        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-K8s-1-36-4-support.htm",
+        "summary": "",
+        "date": "2026年10月1日",
+        "date_iso": "2026-10-01",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "OCI"
+      },
       {
         "title": "OCI Cache Supports Dual-Stack Endpoints for IPv6",
         "link": "https://docs.oracle.com/iaas/releasenotes/oci-cache/sep2026-ipv6-support.htm",
@@ -699,16 +719,6 @@
         "tag": "OCI"
       },
       {
-        "title": "Client ID Metadata Document Support for OAuth Clients",
-        "link": "https://docs.oracle.com/iaas/releasenotes/identity/client-id-metadata-documents.htm",
-        "summary": "",
-        "date": "2026年9月23日",
-        "date_iso": "2026-09-23",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "OCI"
-      },
-      {
         "title": "Bring Your Own Reservations for Data Science",
         "link": "https://docs.oracle.com/iaas/releasenotes/data-science/bring_your_own_reservations.htm",
         "summary": "",
@@ -791,16 +801,6 @@
       {
         "title": "Management Agent Updates",
         "link": "https://docs.oracle.com/iaas/releasenotes/management-agent/sep26-macs-updates.htm",
-        "summary": "",
-        "date": "2026年9月16日",
-        "date_iso": "2026-09-16",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "FastConnect Enhancements",
-        "link": "https://docs.oracle.com/iaas/releasenotes/network/fast-connect-enhancements.htm",
         "summary": "",
         "date": "2026年9月16日",
         "date_iso": "2026-09-16",
