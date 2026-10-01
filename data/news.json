@@ -1,5 +1,5 @@
 {
-  "updated": "2026年10月01日 14:57 JST",
+  "updated": "2026年10月01日 19:24 JST",
   "clouds": {
     "azure": [
       {
@@ -345,9 +345,9 @@
         "tag": "AWS"
       },
       {
-        "title": "AWS accounts now support phone number verification",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-accounts-phone-number-verification/",
-        "summary": "AWS Accounts now support phone number verification for primary contact phone numbers. Previously, phone numbers in AWS account contact information were validated for format but never verified through…",
+        "title": "AWS Transfer Family now automatically approves SFTP connector quota increases up to 1,000",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-transfer-family-sftp-connector-quota-1000/",
+        "summary": "AWS Transfer Family now automatically approves requests to increase your SFTP connector quota up to 1,000 connectors per AWS account in each AWS Region. You can add more connectors as your file…",
         "date": "2026年9月30日",
         "date_iso": "2026-09-30",
         "category": "compute-tag",
@@ -355,9 +355,9 @@
         "tag": "AWS"
       },
       {
-        "title": "AWS Transfer Family now automatically approves SFTP connector quota increases up to 1,000",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-transfer-family-sftp-connector-quota-1000/",
-        "summary": "AWS Transfer Family now automatically approves requests to increase your SFTP connector quota up to 1,000 connectors per AWS account in each AWS Region. You can add more connectors as your file…",
+        "title": "AWS accounts now support phone number verification",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-accounts-phone-number-verification/",
+        "summary": "AWS Accounts now support phone number verification for primary contact phone numbers. Previously, phone numbers in AWS account contact information were validated for format but never verified through…",
         "date": "2026年9月30日",
         "date_iso": "2026-09-30",
         "category": "compute-tag",
