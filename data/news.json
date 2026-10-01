@@ -1,7 +1,67 @@
 {
-  "updated": "2026年10月01日 01:05 JST",
+  "updated": "2026年10月01日 14:57 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Public Preview: SQL performance monitoring for SQL Server on Azure Virtual Machines",
+        "link": "https://azure.microsoft.com/updates?id=571894",
+        "summary": "The public preview of Microsoft-managed performance monitoring for SQL Server on Azure Virtual Machines is now available. You can now monitor SQL Server on Azure Virtual Machines without building…",
+        "date": "2026年10月1日",
+        "date_iso": "2026-10-01",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Retirement: NVv3-series Azure Virtual Machines",
+        "link": "https://azure.microsoft.com/updates?id=573414",
+        "summary": "On September 30, 2026, Microsoft Azure retired the Standard_NV12s_v3, Standard_NV12hs_v3, Standard_NV24s_v3, Standard_NV24ms_v3, Standard_NV32ms_v3, and Standard_NV48s_v3 virtual machines (VMs) in…",
+        "date": "2026年10月1日",
+        "date_iso": "2026-10-01",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Retirement: NVv4-series Azure Virtual Machines",
+        "link": "https://azure.microsoft.com/updates?id=573415",
+        "summary": "On September 30, 2026, Microsoft Azure retired the Standard_NV4as_v4, Standard_NV4ahs_v4, Standard_NV8as_v4, Standard_NV8ahs_v4, Standard_NV16as_v4, Standard_NV16ahs_v4, Standard_NV32as_v4, and…",
+        "date": "2026年10月1日",
+        "date_iso": "2026-10-01",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Ubuntu 26.04 support in AKS",
+        "link": "https://azure.microsoft.com/updates?id=573214",
+        "summary": "Teams running Ubuntu node pools on AKS need to stay current with Ubuntu LTS releases, but each OS transition can introduce package footprint, security, and compatibility concerns. Ubuntu 26.04…",
+        "date": "2026年10月1日",
+        "date_iso": "2026-10-01",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Announcing: Azure canvases for GitHub Copilot",
+        "link": "https://azure.microsoft.com/updates?id=573385",
+        "summary": "Discover Azure canvases for GitHub Copilot, interactive shared workspaces that bring Azure tools, dashboards, and guided workflows directly alongside your Copilot conversations. Explore Azure…",
+        "date": "2026年10月1日",
+        "date_iso": "2026-10-01",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Retirement: Dv3, Dsv3, Ev3, and Esv3 Azure VMs",
+        "link": "https://azure.microsoft.com/updates?id=572346",
+        "summary": "As part of the Microsoft Azure VM lifecycle policy, Microsoft is announcing the retirement of the Dv3, Dsv3, Ev3, and Esv3 Azure VM series in public cloud Azure regions. These VMs will enter the…",
+        "date": "2026年10月1日",
+        "date_iso": "2026-10-01",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AZURE"
+      },
       {
         "title": "Retirement: Azure Functions v1 hosting model on Azure Container Apps",
         "link": "https://azure.microsoft.com/updates?id=570800",
@@ -141,153 +201,183 @@
         "category": "database-tag",
         "cat_label": "データベース",
         "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Database DevOps in SSMS powered by SQL projects",
-        "link": "https://azure.microsoft.com/updates?id=571852",
-        "summary": "In SSMS, you can now use Microsoft.Build.Sql projects to help you implement, manage, and collaborate on database changes, by providing a local definition of the database objects. A SQL database…",
-        "date": "2026年9月30日",
-        "date_iso": "2026-09-30",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Azure SQL Database Hyperscale Serverless auto-pause and auto-resume",
-        "link": "https://azure.microsoft.com/updates?id=571857",
-        "summary": "Auto-pause and auto-resume are now available in public preview for Azure SQL Hyperscale databases using the Serverless compute tier. You can configure databases to automatically pause during periods…",
-        "date": "2026年9月30日",
-        "date_iso": "2026-09-30",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: SQL Formatter",
-        "link": "https://azure.microsoft.com/updates?id=571872",
-        "summary": "You can now format SQL scripts directly in Visual Studio Code using SQL Formatter for more consistent, readable code. Customizable formatting options help you match your preferred coding style, so…",
-        "date": "2026年9月30日",
-        "date_iso": "2026-09-30",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: SQL Migration Agent Skills for assessment, migration, and validation",
-        "link": "https://azure.microsoft.com/updates?id=571899",
-        "summary": "SQL Migration Agent Skills help you automate and streamline the end-to-end migration journey from SQL Server to Azure. These reusable AI-powered skills help guide you through assessment, target…",
-        "date": "2026年9月30日",
-        "date_iso": "2026-09-30",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Retirement: Azure Arc enabled System Center Virtual Machine Manager will be retired September 30, 2029",
-        "link": "https://azure.microsoft.com/updates?id=570283",
-        "summary": "Microsoft is retiring Azure Arc-enabled System Center Virtual Machine Manager (SCVMM) in September 2029. Customers must plan and transition to alternative solutions.What does this mean for you?If you…",
-        "date": "2026年9月30日",
-        "date_iso": "2026-09-30",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Migrate directly from Azure Arc to Azure SQL Database, including Hyperscale",
-        "link": "https://azure.microsoft.com/updates?id=571795",
-        "summary": "You can now select Azure SQL Database, including Hyperscale, as a migration target directly from the database migration experience in Azure Arc. The workflow brings Azure Database Migration Service…",
-        "date": "2026年9月30日",
-        "date_iso": "2026-09-30",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AZURE"
       }
     ],
     "aws": [
       {
-        "title": "Amazon Bedrock Managed Agents, powered by OpenAI, is now available in preview",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/bedrock-managed-agents-preview/",
-        "summary": "Developed jointly by AWS and OpenAI, Bedrock Managed Agents (BMA) is built on a customized version of&nbsp;OpenAI's Agents API engineered to be AWS-native and integrated with AWS resources.&nbsp;You…",
-        "date": "2026年9月30日",
-        "date_iso": "2026-09-30",
+        "title": "Amazon WorkSpaces Core Managed Instances adds support for NVIDIA Blackwell GPU",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-workspaces-cmi-g7/",
+        "summary": "Amazon WorkSpaces Core Managed Instances now supports Graphics G7 instances, powered by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs and Intel Xeon 6 processors. G7 instances deliver up to 2.1X…",
+        "date": "2026年10月1日",
+        "date_iso": "2026-10-01",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
       },
       {
-        "title": "Amazon RDS now adds full snapshot size information to the Console and API",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-full-snapshot-size-available/",
-        "summary": "Amazon RDS now displays the full snapshot size for RDS Snapshots. With this enhancement, customers can now retrieve full snapshot sizes programmatically through the DescribeDBSnapshots API using the…",
-        "date": "2026年9月30日",
-        "date_iso": "2026-09-30",
+        "title": "AWS CLI now supports bulk skill updates and version checks for the Agent Toolkit for AWS",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-cli-agent-toolkit-update-skill/",
+        "summary": "Today, AWS expanded the AWS Command Line Interface (CLI) commands for the Agent Toolkit for AWS with two new capabilities that make it easier to keep agent skills up to date. Customers can now run…",
+        "date": "2026年10月1日",
+        "date_iso": "2026-10-01",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon S3 Vectors introduces metadata pre-filtering for up to 5x higher recall on filtered search",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/s3-vectors-introduces-metadata-pre-filtering/",
+        "summary": "Amazon S3 Vectors now supports pre-filtering, which evaluates metadata filters before running similarity search, returning up to 5x more of the matching vectors when your filter is selective. S3…",
+        "date": "2026年10月1日",
+        "date_iso": "2026-10-01",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Managed Grafana now supports creating Grafana 13.2 workspaces",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-managed-grafana-now-supports-creating-grafana-13-2-workspaces",
+        "summary": "Amazon Managed Grafana now supports creating new workspaces with Grafana version 13.2. This release brings features from open-source Grafana versions 13.0 to 13.2, including Git Sync for dashboards,…",
+        "date": "2026年10月1日",
+        "date_iso": "2026-10-01",
         "category": "database-tag",
         "cat_label": "データベース",
         "tag": "AWS"
       },
       {
-        "title": "OpenAI GPT-6.1 Sol is now generally available on Amazon Bedrock",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/openai-gpt-6-1-sol-on-amazon-bedrock/",
-        "summary": "Today, AWS announces the general availability of GPT-6.1 Sol from OpenAI on Amazon Bedrock. An upgrade to GPT-6 Sol, GPT-6.1 Sol delivers exceptionally strong performance on agentic coding, computer…",
-        "date": "2026年9月30日",
-        "date_iso": "2026-09-30",
+        "title": "OpenAI GPT-6 Astra now supports UltraFast mode on Amazon Bedrock",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/openai-gpt-6-astra-ultrafast-on-amazon-bedrock/",
+        "summary": "&nbsp;Today, AWS announces the availability of UltraFast mode for GPT-6 Astra from OpenAI on Amazon Bedrock. Ultrafast is a premium speed tier for GPT-6 Astra built for workloads where speed matters…",
+        "date": "2026年10月1日",
+        "date_iso": "2026-10-01",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
       },
       {
-        "title": "Amazon Connect Customer now lets business users manage more reference data to adjust contact center configurations in…",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-manage-data-tables/",
-        "summary": "Amazon Connect Customer now lets administrators store more of the reference data that drives their contact center configurations. Administrators can now use data tables to hold up to 20,000 values…",
-        "date": "2026年9月30日",
-        "date_iso": "2026-09-30",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon WorkSpaces Applications introduces unified graphics images",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-workspaces-applications-unified-graphics-images/",
-        "summary": "Today, Amazon WorkSpaces Applications announces unified graphics images, a single image type that works across all supported graphics instance families, including G4dn, G5, G6, and G7. Previously,…",
-        "date": "2026年9月30日",
-        "date_iso": "2026-09-30",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Service Availability Updates",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-service-availability/",
-        "summary": "We're announcing availability changes to the following AWS services and features. Services moving to Maintenance Services moving to maintenance will no longer be accessible to new customers starting…",
-        "date": "2026年9月30日",
-        "date_iso": "2026-09-30",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon RDS for PostgreSQL announces Extended Support minor versions 13.23-rds.20260514, 12.22-rds.20260514 and…",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-postgresql-extended-support/",
-        "summary": "Amazon Relational Database Service (RDS) for PostgreSQL announces Amazon RDS Extended Support minor versions 13.23-rds.20260514, 12.22-rds.20260514, and 11.22-rds.20260514. Amazon RDS Extended…",
-        "date": "2026年9月30日",
-        "date_iso": "2026-09-30",
+        "title": "AWS Parallel Computing Service now supports scaling logs",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-pcs-scaling-logs/",
+        "summary": "AWS Parallel Computing Service (AWS PCS) now supports scaling logs, which record how AWS PCS scales the compute node groups in your cluster. Each log entry records one state transition for one…",
+        "date": "2026年10月1日",
+        "date_iso": "2026-10-01",
         "category": "database-tag",
         "cat_label": "データベース",
         "tag": "AWS"
       },
       {
-        "title": "Amazon Aurora now supports PostgreSQL 18.6, 17.11, 16.15, 15.19, 14.24",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-aurora-postgresql-18-6-17-11-16-15-15-19-14-24/",
-        "summary": "Amazon Aurora PostgreSQL-Compatible Edition now supports PostgreSQL versions 18.6, 17.11, 16.15, 15.19, and 14.24, which include bug fixes from the PostgreSQL community and Aurora-specific…",
-        "date": "2026年9月30日",
-        "date_iso": "2026-09-30",
+        "title": "Amazon Aurora serverless now scales faster to support agentic AI and other bursty workloads",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aurora-serverless-instant-16-acu-scaling/",
+        "summary": "Amazon Aurora serverless now scales in even larger steps, adding up to 16 ACUs to its current capacity within a second and continuing to scale up to 256 ACUs as your workload grows. With this launch,…",
+        "date": "2026年10月1日",
+        "date_iso": "2026-10-01",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Aurora and RDS now support AMD-based R8a instances",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aurora-rds-amd-r8a/",
+        "summary": "Amazon Aurora and Amazon RDS now support R8a database instances powered by 5th generation AMD EPYC processors, expanding the choice available for your database workloads. Each vCPU in R8a database…",
+        "date": "2026年10月1日",
+        "date_iso": "2026-10-01",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon RDS now supports AMD-based M8a instances",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aurora-rds-amd-m8a/",
+        "summary": "Amazon RDS for PostgreSQL, MySQL, and MariaDB now support M8a database instances powered by 5th generation AMD EPYC processors, expanding the choice available for your database workloads. Each vCPU…",
+        "date": "2026年10月1日",
+        "date_iso": "2026-10-01",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Bedrock expands Claude models in-region support in the UK (London)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-region-expansion-lhr/",
+        "summary": "We're excited to announce in-region support for Anthropic's Claude Opus 5.5 and Claude Sonnet 5 on Amazon Bedrock in the UK (London) Region. Customers who need to process data within the United…",
+        "date": "2026年10月1日",
+        "date_iso": "2026-10-01",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Aurora PostgreSQL now supports querying of Apache Iceberg and Parquet data",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aurora-postgresql-query-apache-iceberg-and-parquet/",
+        "summary": "Starting today, you can directly query operational data together with data stored in data lakes in Apache Iceberg and Parquet formats using your existing PostgreSQL applications and tools, without…",
+        "date": "2026年10月1日",
+        "date_iso": "2026-10-01",
         "category": "database-tag",
         "cat_label": "データベース",
         "tag": "AWS"
       },
       {
-        "title": "Amazon Bedrock expands Claude model availability to India, South Korea, and Singapore",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-region-expansion-in-sk/",
-        "summary": "We're excited to announce the availability of Anthropic's Claude Opus 5, Claude Sonnet 5 , and Claude Haiku 4.5 on Amazon Bedrock in India, Claude Opus 5 and Claude Sonnet 5 in South Korea, as well…",
+        "title": "Amazon RDS for MySQL supports MySQL 26.7 in Amazon RDS Database Preview Environment",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/rds-mysql-26-7-preview-environment/",
+        "summary": "Starting today, Amazon RDS for MySQL 26.7 is available in the Amazon RDS Database Preview Environment , allowing you to evaluate the pre-release of MySQL 26.7 on Amazon RDS for MySQL. MySQL 26.7 is…",
+        "date": "2026年10月1日",
+        "date_iso": "2026-10-01",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Uncover blind spots in AWS data plane operations with CloudTrail Event Coverage",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-cloudtrail-event-coverage/",
+        "summary": "AWS CloudTrail introduces Event Coverage, a new console experience that gives customers visibility into their data plane operations coverage at the account and organization level. You can now see…",
+        "date": "2026年10月1日",
+        "date_iso": "2026-10-01",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Partner Revenue Measurement adds Multi-Partner support to Resource Tagging",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/partner-revenue-measurement-multi-partner-resource-tagging",
+        "summary": "Partner Revenue Measurement (PRM) provides measurement of AWS consumption driven by Partner solutions. Today, PRM adds multi-Partner support to Resource Tagging, so that multiple AWS Partners can…",
+        "date": "2026年9月30日",
+        "date_iso": "2026-09-30",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS accounts now support phone number verification",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-accounts-phone-number-verification/",
+        "summary": "AWS Accounts now support phone number verification for primary contact phone numbers. Previously, phone numbers in AWS account contact information were validated for format but never verified through…",
+        "date": "2026年9月30日",
+        "date_iso": "2026-09-30",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Transfer Family now automatically approves SFTP connector quota increases up to 1,000",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-transfer-family-sftp-connector-quota-1000/",
+        "summary": "AWS Transfer Family now automatically approves requests to increase your SFTP connector quota up to 1,000 connectors per AWS account in each AWS Region. You can add more connectors as your file…",
+        "date": "2026年9月30日",
+        "date_iso": "2026-09-30",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS IAM Identity Center Identity Store APIs now accept resource ARNs in addition to resource IDs",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/iam-identity-center-apis-arns/",
+        "summary": "AWS IAM Identity Center's Identity Store APIs now accept the Amazon Resource Name (ARN) for a user, group, group membership, or identity store anywhere the APIs previously accepted the resource ID.…",
+        "date": "2026年9月30日",
+        "date_iso": "2026-09-30",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Marketplace launches an AI agent skill for usage-based metering integration",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/marketplace-ai-agent-metering/",
+        "summary": "AWS announces the general availability of the AWS Marketplace metering agent skill, an AI-guided experience that helps sellers build, deploy, and validate a usage-based (pay-as-you-go) SaaS metering…",
         "date": "2026年9月30日",
         "date_iso": "2026-09-30",
         "category": "ai-tag",
@@ -295,113 +385,23 @@
         "tag": "AWS"
       },
       {
-        "title": "AWS Transform now supports Apache Kafka migration assessments for Amazon MSK",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-msk-migration-assessment-with-aws-transform",
-        "summary": "You can now use AWS Transform agentic migration assessments to evaluate the migration of on-premises Apache Kafka clusters to Amazon Managed Streaming for Apache Kafka (Amazon MSK) . AWS Transform…",
+        "title": "Amazon S3 Tables now support all Apache Iceberg V3 data types",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-s3-tables-iceberg-v3-data-types",
+        "summary": "Amazon S3 Tables add support for geometry, geography, unknown, and nanosecond timestamp data types, along with column default values, as defined in the Apache Iceberg Version 3 (V3) specification.…",
+        "date": "2026年9月30日",
+        "date_iso": "2026-09-30",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Deadline Cloud now supports expressions in job templates",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-deadline-cloud-expressions-job-templates/",
+        "summary": "AWS Deadline Cloud now supports flexible expressions and rich parameter types in job templates, giving customers a cleaner, more powerful way to fit the service to existing production pipelines.…",
         "date": "2026年9月30日",
         "date_iso": "2026-09-30",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Systems Manager now supports sharing documents through AWS Resource Access Manager",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/systems-manager-sharing-documents-ram/",
-        "summary": "AWS Systems Manager now lets you share your Systems Manager Documents (SSM Documents) with an entire AWS organization or with specific organizational units (OUs) using AWS Resource Access Manager…",
-        "date": "2026年9月29日",
-        "date_iso": "2026-09-29",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS DataSync now supports shared VPCs",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-datasync-shared-vpcs/",
-        "summary": "AWS DataSync now supports shared Virtual Private Clouds (VPCs). You can create DataSync agents and run transfer tasks using subnets shared across AWS accounts with AWS Resource Access Manager (RAM).…",
-        "date": "2026年9月29日",
-        "date_iso": "2026-09-29",
-        "category": "network-tag",
-        "cat_label": "ネットワーク",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Transfer Family now supports downloading multiple files and folders in web apps",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/transfer-family-web-apps-download-multiple-files-folders",
-        "summary": "AWS Transfer Family now lets web app users download multiple files and folders at once. End users can select any combination of files and folders and download them together in a single action. The…",
-        "date": "2026年9月29日",
-        "date_iso": "2026-09-29",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon ElastiCache Serverless for Valkey now supports public endpoints",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-elasticache-serverless-public-endpoints/",
-        "summary": "Amazon ElastiCache Serverless for Valkey now supports public endpoints, letting you connect to your cache directly from a laptop, a serverless function, or any application running outside AWS,…",
-        "date": "2026年9月29日",
-        "date_iso": "2026-09-29",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Route 53 Resolver DNS Firewall support for Palo Alto Networks Advanced DNS Security is now Generally Available…",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/route-53-dns-firewall-panw-dns-security-generally-available",
-        "summary": "​​Amazon Route 53 Resolver DNS Firewall support for Palo Alto Networks (PANW) Advanced DNS Security is now generally available across 32 AWS Regions, allowing security teams to detect and block…",
-        "date": "2026年9月29日",
-        "date_iso": "2026-09-29",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 Future-dated Capacity Reservations Now Supports Postponing Start Dates",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-fcr-postpone-start-date/",
-        "summary": "Amazon EC2 Future-dated Capacity Reservations let you secure capacity up to 120 days in advance by specifying the capacity you need, the start date, and a commitment duration. If your plans change…",
-        "date": "2026年9月29日",
-        "date_iso": "2026-09-29",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Rekognition Face Liveness now returns Feedback Codes",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/rekognition-liveness-feedback-codes/",
-        "summary": "Amazon Rekognition Face Liveness now returns Feedback Codes that help customers understand why a liveness check&nbsp;received a low score and how users could retry successfully. The codes are…",
-        "date": "2026年9月29日",
-        "date_iso": "2026-09-29",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "Grok 4.7 is now available on Amazon Bedrock",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-grok-4-7/",
-        "summary": "Amazon Bedrock now supports SpaceXAI Grok 4.7, a frontier model built for coding, agentic tasks, and knowledge work, with US Geo and Global cross-Region inference. &nbsp; Grok 4.7 builds on Grok 4.6…",
-        "date": "2026年9月29日",
-        "date_iso": "2026-09-29",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Claude Sonnet 5.5 now available on AWS",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-sonnet-5-5-aws/",
-        "summary": "AWS now offers Claude Sonnet 5.5, a smarter and more efficient Sonnet that delivers a clear leap forward on coding and knowledge work with at a lower cost per task for most work at faster speed.…",
-        "date": "2026年9月29日",
-        "date_iso": "2026-09-29",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Claude Sonnet 5.5 now available on AWS GovCloud (US)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-sonnet-5-5-aws-govcloud-us/",
-        "summary": "AWS GovCloud (US) now offers Claude Sonnet 5.5, a smarter and more efficient Sonnet that delivers a clear leap forward on coding and knowledge work with at a lower cost per task for most work ag…",
-        "date": "2026年9月29日",
-        "date_iso": "2026-09-29",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "AWS"
       }
     ],
@@ -409,11 +409,11 @@
       {
         "title": "September 30, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_30_2026",
-        "summary": "Apigee API hub Feature AI performance and Tool performance dashboards in API insights API insights in API hub now includes two dashboards for AI and agent traffic: AI performance reports token usage…",
+        "summary": "API Gateway Feature Authenticate MCP tool discovery with an API key API key authentication is now supported for the Model Context Protocol (MCP) tools/list method. You can name an API key security…",
         "date": "2026年9月30日",
         "date_iso": "2026-09-30",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
         "tag": "GCP"
       },
       {
@@ -619,16 +619,6 @@
         "tag": "OCI"
       },
       {
-        "title": "HeatWave: Default MySQL Version Changes to 9.7 LTS",
-        "link": "https://docs.oracle.com/iaas/releasenotes/mysql-database/heatwave-97x-default-track.htm",
-        "summary": "",
-        "date": "2026年9月29日",
-        "date_iso": "2026-09-29",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "OCI"
-      },
-      {
         "title": "Simplify linking widgets to dashboard filters",
         "link": "https://docs.oracle.com/iaas/releasenotes/management-dashboard/linking-widgets-dashboard-filters.htm",
         "summary": "",
@@ -669,11 +659,11 @@
         "tag": "OCI"
       },
       {
-        "title": "HeatWave: Automatic Storage Expansion Enhanced",
-        "link": "https://docs.oracle.com/iaas/releasenotes/mysql-database/heatwave-automatic-storage-expansion-enhanced.htm",
+        "title": "HeatWave: Default MySQL Version Changes to 9.7 LTS",
+        "link": "https://docs.oracle.com/iaas/releasenotes/mysql-database/heatwave-97x-default-track.htm",
         "summary": "",
-        "date": "2026年9月24日",
-        "date_iso": "2026-09-24",
+        "date": "2026年9月29日",
+        "date_iso": "2026-09-29",
         "category": "database-tag",
         "cat_label": "データベース",
         "tag": "OCI"
@@ -689,6 +679,16 @@
         "tag": "OCI"
       },
       {
+        "title": "HeatWave: Automatic Storage Expansion Enhanced",
+        "link": "https://docs.oracle.com/iaas/releasenotes/mysql-database/heatwave-automatic-storage-expansion-enhanced.htm",
+        "summary": "",
+        "date": "2026年9月24日",
+        "date_iso": "2026-09-24",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "OCI"
+      },
+      {
         "title": "Code-only deployment for OCI Functions is now available",
         "link": "https://docs.oracle.com/iaas/releasenotes/functions/functions-code-only-functions.htm",
         "summary": "",
@@ -696,6 +696,16 @@
         "date_iso": "2026-09-24",
         "category": "ai-tag",
         "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Client ID Metadata Document Support for OAuth Clients",
+        "link": "https://docs.oracle.com/iaas/releasenotes/identity/client-id-metadata-documents.htm",
+        "summary": "",
+        "date": "2026年9月23日",
+        "date_iso": "2026-09-23",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
         "tag": "OCI"
       },
       {
@@ -796,16 +806,6 @@
         "date_iso": "2026-09-16",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Import Z.ai GLM-5.3 into OCI Generative AI",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/zai-glm-5-3-model-import.htm",
-        "summary": "",
-        "date": "2026年9月15日",
-        "date_iso": "2026-09-15",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "OCI"
       }
     ]
