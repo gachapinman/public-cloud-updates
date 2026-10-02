@@ -1,7 +1,17 @@
 {
-  "updated": "2026年10月02日 01:42 JST",
+  "updated": "2026年10月02日 14:40 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Retirement: DCsv3 and DCdsv3-series Azure Virtual Machines will be retired on October 31, 2029",
+        "link": "https://azure.microsoft.com/updates?id=569592",
+        "summary": "On October 31, 2029, DCsv3 and DCdsv3-series Azure Linux, Windows and Dedicated Host virtual machines will be retired. After that date, they will no longer be available for use or purchase. Before…",
+        "date": "2026年10月2日",
+        "date_iso": "2026-10-02",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Public Preview: SQL performance monitoring for SQL Server on Azure Virtual Machines",
         "link": "https://azure.microsoft.com/updates?id=571894",
@@ -63,9 +73,9 @@
         "tag": "AZURE"
       },
       {
-        "title": "Retirement: Azure Functions v1 hosting model on Azure Container Apps",
+        "title": "Retirement: Functions on Azure Container Apps V1",
         "link": "https://azure.microsoft.com/updates?id=570800",
-        "summary": "The Azure Functions v1 hosting model on Azure Container Apps will be retired on September 29, 2027. After this date, existing Functions v1 apps on Azure Container Apps will stop running and will no…",
+        "summary": "The Functions on Azure Container Apps (ACA) V1 will be retired on September 29, 2027. After this date, existing Functions on ACA V1 Apps will stop running and no longer process requests or…",
         "date": "2026年9月30日",
         "date_iso": "2026-09-30",
         "category": "ai-tag",
@@ -191,19 +201,179 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Azure SQL updates for late-September 2026",
-        "link": "https://azure.microsoft.com/updates?id=571846",
-        "summary": "In late September 2026, the following updates and enhancements were made to Azure SQL: Database Hub in Microsoft Fabric is a unified experience for discovering, managing, monitoring, and optimizing…",
-        "date": "2026年9月30日",
-        "date_iso": "2026-09-30",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "GuardDuty Runtime Monitoring is now included in the AWS Security Hub Threat Analytics plan",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-security-hub-runtime-monitoring/",
+        "summary": "Today, AWS announces that Amazon GuardDuty Runtime Monitoring is now included in the AWS Security Hub Threat Analytics plan. Runtime Monitoring inspects operating system, network, and file activity…",
+        "date": "2026年10月2日",
+        "date_iso": "2026-10-02",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Well-Architected Agent is now available in preview",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-well-architected-agent/",
+        "summary": "AWS announces the preview of AWS Well-Architected Agent, a AI-powered service that is the next-gen evolution of AWS Trusted Advisor and the AWS Well-Architected Tool. The agent analyzes and optimizes…",
+        "date": "2026年10月2日",
+        "date_iso": "2026-10-02",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Redshift now supports cross-Region queries for your data lake",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/redshift-cross-Region-queries-for-data-lake",
+        "summary": "Amazon Redshift now supports querying Amazon S3 data lake tables located in a different AWS Region. With enhanced VPC routing, data lake query traffic between Amazon S3 and Amazon Redshift stays…",
+        "date": "2026年10月2日",
+        "date_iso": "2026-10-02",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon DynamoDB introduces filtered export to Amazon S3",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-dynamodb-introduces-filtered-export/",
+        "summary": "Amazon DynamoDB now supports filtered export for tables. Export to Amazon S3 allows you to export your table data for analytics, data sharing, and other offline uses, as either a full export or an…",
+        "date": "2026年10月2日",
+        "date_iso": "2026-10-02",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon DynamoDB Accelerator (DAX) is now available in additional Regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-dynamodb-accelerator/",
+        "summary": "Today, AWS announces the availability of Amazon DynamoDB Accelerator (DAX) in 17 additional AWS Regions: Asia Pacific (Hong Kong), Asia Pacific (Hyderabad), Asia Pacific (Jakarta), Asia Pacific…",
+        "date": "2026年10月2日",
+        "date_iso": "2026-10-02",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon GuardDuty now supports centralized management using AWS Organizations declarative policies",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/guardduty-org-enablement-policies/",
+        "summary": "Amazon GuardDuty now supports AWS Organizations declarative policies, enabling you to centrally enable GuardDuty threat detection across every account and Region in your AWS organization. Using an…",
+        "date": "2026年10月2日",
+        "date_iso": "2026-10-02",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Corretto 8 September 2026 Patch Updates",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-corretto-8-sept-2026-updates/",
+        "summary": "On September 30, 2026, Amazon announced a patch update for the following Amazon Corretto Long-Term Support (LTS) version of OpenJDK: Corretto&nbsp;8u504 is now available for download . Amazon…",
+        "date": "2026年10月1日",
+        "date_iso": "2026-10-01",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon S3 Object Lock variable retention with event holds is now available in AWS GovCloud (US) Regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/s3-object-lock-variable-retention-event-holds-aws-govcloud/",
+        "summary": "Amazon S3 Object Lock support for variable retention with event holds is now available in AWS GovCloud (US-East) and AWS GovCloud (US-West). Amazon S3 Object Lock variable retention allows you to…",
+        "date": "2026年10月1日",
+        "date_iso": "2026-10-01",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Security Hub introduces remediation plans to prioritize and fix security exposures",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-security-hub-remediation-plans/",
+        "summary": "AWS Security Hub now offers remediation plans that group related exposure findings sharing a root cause. Instead of addressing each exposure individually, you can now fix a single underlying…",
+        "date": "2026年10月1日",
+        "date_iso": "2026-10-01",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Transfer Family now supports custom CloudWatch log groups for managed workflows",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/transfer-family-custom-cloudwatch-log-groups/",
+        "summary": "AWS Transfer Family now lets you choose a custom log group in Amazon CloudWatch Logs for managed workflow execution logs. You can organize workflow logs to monitor individual workflows separately or…",
+        "date": "2026年10月1日",
+        "date_iso": "2026-10-01",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Glue Data Catalog now supports table optimization, statistics, and crawlers for Apache Iceberg V3",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-glue-iceberg-v3-optimization/",
+        "summary": "AWS Glue Data Catalog now supports table optimization, statistics, and crawlers for Apache Iceberg Version 3 (V3) tables. With these new capabilities, you can automatically maintain V3 tables,…",
+        "date": "2026年10月1日",
+        "date_iso": "2026-10-01",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Budgets now supports email verification for notification subscribers",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-budgets/",
+        "summary": "AWS Budgets lets you set custom cost and usage thresholds and alerts you by email when your spending crosses the threshold. AWS Budgets now verifies new email subscribers before sending them budget…",
+        "date": "2026年10月1日",
+        "date_iso": "2026-10-01",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Serverless Storage on Amazon EMR Serverless now supports terabyte-scale shuffle",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/emr-serverless-terabyte-scale-shuffle/",
+        "summary": "Amazon EMR Serverless now offers enhanced serverless storage capabilities with support for up to 1TB shuffle operations, raising the previous 200 GB per-job limit. Amazon EMR Serverless makes it…",
+        "date": "2026年10月1日",
+        "date_iso": "2026-10-01",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Announcing DNS analytics and insights for Route 53 Global Resolver and DNS Firewall",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/route-53-dns-analytics-insights/",
+        "summary": "Route 53 Global Resolver and DNS Firewall now provide DNS analytics and insights through native Amazon CloudWatch integration. These new capabilities enable network administrators and security teams…",
+        "date": "2026年10月1日",
+        "date_iso": "2026-10-01",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS IAM Identity Center extends multi-Region support to more AWS Regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-iam-identity-center-extends-multi-region-support-to-more-aws-regions",
+        "summary": "IAM Identity Center helps you connect your workforce identities to AWS once and streamline access management to AWS accounts and applications. You can now replicate IAM Identity Center to opt-in AWS…",
+        "date": "2026年10月1日",
+        "date_iso": "2026-10-01",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Improve your secrets security posture with actionable recommendations in the AWS Secrets Manager console",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-secrets-manager-security-posture-recommendations",
+        "summary": "​​​AWS Secrets Manager now integrates with the AWS Recommended Actions framework to surface contextual, actionable suggestions for your secrets directly in the Secrets Manager console. ​​ ​​With this…",
+        "date": "2026年10月1日",
+        "date_iso": "2026-10-01",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon S3 Tables now support up to 100 table buckets per AWS Region in an AWS account",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-s3-tables-table-bucket-increase",
+        "summary": "Amazon S3 Tables now support up to 100 table buckets per AWS Region in an AWS account, increased from 10. This allows you to create up to 1 million tables per AWS Region in an AWS account. With a…",
+        "date": "2026年10月1日",
+        "date_iso": "2026-10-01",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
+        "tag": "AWS"
+      },
       {
         "title": "Amazon WorkSpaces Core Managed Instances adds support for NVIDIA Blackwell GPU",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-workspaces-cmi-g7/",
@@ -215,6 +385,16 @@
         "tag": "AWS"
       },
       {
+        "title": "Apache Iceberg materialized views now support system-managed write protection",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/system-managed-iceberg-materialized-views",
+        "summary": "Today, AWS announces system-managed materialized views for Apache Iceberg. Materialized views let you precompute an expensive query once and reuse the result across engines. Because this result is an…",
+        "date": "2026年10月1日",
+        "date_iso": "2026-10-01",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
         "title": "AWS CLI now supports bulk skill updates and version checks for the Agent Toolkit for AWS",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-cli-agent-toolkit-update-skill/",
         "summary": "Today, AWS expanded the AWS Command Line Interface (CLI) commands for the Agent Toolkit for AWS with two new capabilities that make it easier to keep agent skills up to date. Customers can now run…",
@@ -223,189 +403,19 @@
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon S3 Vectors introduces metadata pre-filtering for up to 5x higher recall on filtered search",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/s3-vectors-introduces-metadata-pre-filtering/",
-        "summary": "Amazon S3 Vectors now supports pre-filtering, which evaluates metadata filters before running similarity search, returning up to 5x more of the matching vectors when your filter is selective. S3…",
-        "date": "2026年10月1日",
-        "date_iso": "2026-10-01",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Managed Grafana now supports creating Grafana 13.2 workspaces",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-managed-grafana-now-supports-creating-grafana-13-2-workspaces",
-        "summary": "Amazon Managed Grafana now supports creating new workspaces with Grafana version 13.2. This release brings features from open-source Grafana versions 13.0 to 13.2, including Git Sync for dashboards,…",
-        "date": "2026年10月1日",
-        "date_iso": "2026-10-01",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "OpenAI GPT-6 Astra now supports UltraFast mode on Amazon Bedrock",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/openai-gpt-6-astra-ultrafast-on-amazon-bedrock/",
-        "summary": "&nbsp;Today, AWS announces the availability of UltraFast mode for GPT-6 Astra from OpenAI on Amazon Bedrock. Ultrafast is a premium speed tier for GPT-6 Astra built for workloads where speed matters…",
-        "date": "2026年10月1日",
-        "date_iso": "2026-10-01",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Parallel Computing Service now supports scaling logs",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-pcs-scaling-logs/",
-        "summary": "AWS Parallel Computing Service (AWS PCS) now supports scaling logs, which record how AWS PCS scales the compute node groups in your cluster. Each log entry records one state transition for one…",
-        "date": "2026年10月1日",
-        "date_iso": "2026-10-01",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Aurora serverless now scales faster to support agentic AI and other bursty workloads",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aurora-serverless-instant-16-acu-scaling/",
-        "summary": "Amazon Aurora serverless now scales in even larger steps, adding up to 16 ACUs to its current capacity within a second and continuing to scale up to 256 ACUs as your workload grows. With this launch,…",
-        "date": "2026年10月1日",
-        "date_iso": "2026-10-01",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Aurora and RDS now support AMD-based R8a instances",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aurora-rds-amd-r8a/",
-        "summary": "Amazon Aurora and Amazon RDS now support R8a database instances powered by 5th generation AMD EPYC processors, expanding the choice available for your database workloads. Each vCPU in R8a database…",
-        "date": "2026年10月1日",
-        "date_iso": "2026-10-01",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon RDS now supports AMD-based M8a instances",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aurora-rds-amd-m8a/",
-        "summary": "Amazon RDS for PostgreSQL, MySQL, and MariaDB now support M8a database instances powered by 5th generation AMD EPYC processors, expanding the choice available for your database workloads. Each vCPU…",
-        "date": "2026年10月1日",
-        "date_iso": "2026-10-01",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Bedrock expands Claude models in-region support in the UK (London)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-region-expansion-lhr/",
-        "summary": "We're excited to announce in-region support for Anthropic's Claude Opus 5.5 and Claude Sonnet 5 on Amazon Bedrock in the UK (London) Region. Customers who need to process data within the United…",
-        "date": "2026年10月1日",
-        "date_iso": "2026-10-01",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Aurora PostgreSQL now supports querying of Apache Iceberg and Parquet data",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aurora-postgresql-query-apache-iceberg-and-parquet/",
-        "summary": "Starting today, you can directly query operational data together with data stored in data lakes in Apache Iceberg and Parquet formats using your existing PostgreSQL applications and tools, without…",
-        "date": "2026年10月1日",
-        "date_iso": "2026-10-01",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon RDS for MySQL supports MySQL 26.7 in Amazon RDS Database Preview Environment",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/rds-mysql-26-7-preview-environment/",
-        "summary": "Starting today, Amazon RDS for MySQL 26.7 is available in the Amazon RDS Database Preview Environment , allowing you to evaluate the pre-release of MySQL 26.7 on Amazon RDS for MySQL. MySQL 26.7 is…",
-        "date": "2026年10月1日",
-        "date_iso": "2026-10-01",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Uncover blind spots in AWS data plane operations with CloudTrail Event Coverage",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-cloudtrail-event-coverage/",
-        "summary": "AWS CloudTrail introduces Event Coverage, a new console experience that gives customers visibility into their data plane operations coverage at the account and organization level. You can now see…",
-        "date": "2026年10月1日",
-        "date_iso": "2026-10-01",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Partner Revenue Measurement adds Multi-Partner support to Resource Tagging",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/partner-revenue-measurement-multi-partner-resource-tagging",
-        "summary": "Partner Revenue Measurement (PRM) provides measurement of AWS consumption driven by Partner solutions. Today, PRM adds multi-Partner support to Resource Tagging, so that multiple AWS Partners can…",
-        "date": "2026年9月30日",
-        "date_iso": "2026-09-30",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS accounts now support phone number verification",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-accounts-phone-number-verification/",
-        "summary": "AWS Accounts now support phone number verification for primary contact phone numbers. Previously, phone numbers in AWS account contact information were validated for format but never verified through…",
-        "date": "2026年9月30日",
-        "date_iso": "2026-09-30",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Transfer Family now automatically approves SFTP connector quota increases up to 1,000",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-transfer-family-sftp-connector-quota-1000/",
-        "summary": "AWS Transfer Family now automatically approves requests to increase your SFTP connector quota up to 1,000 connectors per AWS account in each AWS Region. You can add more connectors as your file…",
-        "date": "2026年9月30日",
-        "date_iso": "2026-09-30",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS IAM Identity Center Identity Store APIs now accept resource ARNs in addition to resource IDs",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/iam-identity-center-apis-arns/",
-        "summary": "AWS IAM Identity Center's Identity Store APIs now accept the Amazon Resource Name (ARN) for a user, group, group membership, or identity store anywhere the APIs previously accepted the resource ID.…",
-        "date": "2026年9月30日",
-        "date_iso": "2026-09-30",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Marketplace launches an AI agent skill for usage-based metering integration",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/marketplace-ai-agent-metering/",
-        "summary": "AWS announces the general availability of the AWS Marketplace metering agent skill, an AI-guided experience that helps sellers build, deploy, and validate a usage-based (pay-as-you-go) SaaS metering…",
-        "date": "2026年9月30日",
-        "date_iso": "2026-09-30",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon S3 Tables now support all Apache Iceberg V3 data types",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-s3-tables-iceberg-v3-data-types",
-        "summary": "Amazon S3 Tables add support for geometry, geography, unknown, and nanosecond timestamp data types, along with column default values, as defined in the Apache Iceberg Version 3 (V3) specification.…",
-        "date": "2026年9月30日",
-        "date_iso": "2026-09-30",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Deadline Cloud now supports expressions in job templates",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-deadline-cloud-expressions-job-templates/",
-        "summary": "AWS Deadline Cloud now supports flexible expressions and rich parameter types in job templates, giving customers a cleaner, more powerful way to fit the service to existing production pipelines.…",
-        "date": "2026年9月30日",
-        "date_iso": "2026-09-30",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "October 01, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_01_2026",
+        "summary": "BigQuery Change An updated version of the Simba JDBC driver for BigQuery is now available. Feature Chatting with graphs in conversational analytics is now generally available . You can use a…",
+        "date": "2026年10月1日",
+        "date_iso": "2026-10-01",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
       {
         "title": "September 30, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_30_2026",
@@ -595,19 +605,19 @@
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "GCP"
-      },
-      {
-        "title": "September 08, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_08_2026",
-        "summary": "Agent Platform Workbench Fixed Scheduled upgrade metadata is validated The value of the notebook-upgrade-schedule metadata key is now validated when you create or update an Agent Platform Workbench…",
-        "date": "2026年9月8日",
-        "date_iso": "2026-09-08",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "GCP"
       }
     ],
     "oci": [
+      {
+        "title": "Support for Kubernetes version 1.36.4",
+        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-K8s-1-36-4-support.htm",
+        "summary": "",
+        "date": "2026年10月1日",
+        "date_iso": "2026-10-01",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "OCI"
+      },
       {
         "title": "New connection support for GoldenGate Veridata",
         "link": "https://docs.oracle.com/iaas/releasenotes/goldengate/veridata-connections.htm",
@@ -619,13 +629,43 @@
         "tag": "OCI"
       },
       {
-        "title": "Support for Kubernetes version 1.36.4",
-        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-K8s-1-36-4-support.htm",
+        "title": "Network Address Translation (NAT) Now Available for Dynamic Routing Gateway (DRG)",
+        "link": "https://docs.oracle.com/iaas/releasenotes/network/nat-drg.htm",
         "summary": "",
         "date": "2026年10月1日",
         "date_iso": "2026-10-01",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Automatic Target Registration for ExaDB-D in Oracle Data Safe",
+        "link": "https://docs.oracle.com/iaas/releasenotes/data-safe/auto-register.htm",
+        "summary": "",
+        "date": "2026年9月30日",
+        "date_iso": "2026-09-30",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "OCI"
+      },
+      {
+        "title": "Data Subsetting in Oracle Data Safe",
+        "link": "https://docs.oracle.com/iaas/releasenotes/data-safe/data-subsetting.htm",
+        "summary": "",
+        "date": "2026年9月30日",
+        "date_iso": "2026-09-30",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Cloud Shell now Supports Regional Launch",
+        "link": "https://docs.oracle.com/iaas/releasenotes/cloud-shell/regional_launch.htm",
+        "summary": "",
+        "date": "2026年9月30日",
+        "date_iso": "2026-09-30",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "OCI"
       },
       {
@@ -766,46 +806,6 @@
         "date_iso": "2026-09-23",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Share and Run the Select AI Agent Framework teams Across Schemas",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-09-share-run-select-ai.htm",
-        "summary": "",
-        "date": "2026年9月22日",
-        "date_iso": "2026-09-22",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Select AI for Java",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-09-select-ai-java.htm",
-        "summary": "",
-        "date": "2026年9月22日",
-        "date_iso": "2026-09-22",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "New Retirement Date for On-Demand Models in Abu Dhabi",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/new-on-demand-retirement-date-AUH.htm",
-        "summary": "",
-        "date": "2026年9月21日",
-        "date_iso": "2026-09-21",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Management Agent Updates",
-        "link": "https://docs.oracle.com/iaas/releasenotes/management-agent/sep26-macs-updates.htm",
-        "summary": "",
-        "date": "2026年9月16日",
-        "date_iso": "2026-09-16",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
         "tag": "OCI"
       }
     ]
