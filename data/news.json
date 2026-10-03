@@ -1,5 +1,5 @@
 {
-  "updated": "2026年10月03日 14:21 JST",
+  "updated": "2026年10月03日 18:23 JST",
   "clouds": {
     "azure": [
       {
@@ -225,16 +225,6 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon EKS and Amazon EKS Distro now support Kubernetes version 1.37",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-eks-distro-kubernetes-version-1-37",
-        "summary": "Kubernetes version 1.37 introduced several new features and bug fixes, and AWS is excited to announce that you can now use Amazon Elastic Kubernetes Service (EKS) and Amazon EKS Distro to run…",
-        "date": "2026年10月3日",
-        "date_iso": "2026-10-03",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "AWS"
-      },
-      {
         "title": "Amazon Aurora DSQL now supports partial indexes",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aurora-dsql-partial-indexes/",
         "summary": "Amazon Aurora DSQL now lets you build an index over a specific subset of a table, storing only qualifying rows rather than every row in the entire table, which improves query performance and lowers…",
@@ -242,6 +232,16 @@
         "date_iso": "2026-10-03",
         "category": "database-tag",
         "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EKS and Amazon EKS Distro now support Kubernetes version 1.37",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-eks-distro-kubernetes-version-1-37",
+        "summary": "Kubernetes version 1.37 introduced several new features and bug fixes, and AWS is excited to announce that you can now use Amazon Elastic Kubernetes Service (EKS) and Amazon EKS Distro to run…",
+        "date": "2026年10月3日",
+        "date_iso": "2026-10-03",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
         "tag": "AWS"
       },
       {
@@ -385,9 +385,9 @@
         "tag": "AWS"
       },
       {
-        "title": "AWS Glue Data Catalog now supports table optimization, statistics, and crawlers for Apache Iceberg V3",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-glue-iceberg-v3-optimization/",
-        "summary": "AWS Glue Data Catalog now supports table optimization, statistics, and crawlers for Apache Iceberg Version 3 (V3) tables. With these new capabilities, you can automatically maintain V3 tables,…",
+        "title": "AWS Budgets now supports email verification for notification subscribers",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-budgets/",
+        "summary": "AWS Budgets lets you set custom cost and usage thresholds and alerts you by email when your spending crosses the threshold. AWS Budgets now verifies new email subscribers before sending them budget…",
         "date": "2026年10月1日",
         "date_iso": "2026-10-01",
         "category": "ai-tag",
@@ -395,9 +395,9 @@
         "tag": "AWS"
       },
       {
-        "title": "AWS Budgets now supports email verification for notification subscribers",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-budgets/",
-        "summary": "AWS Budgets lets you set custom cost and usage thresholds and alerts you by email when your spending crosses the threshold. AWS Budgets now verifies new email subscribers before sending them budget…",
+        "title": "AWS Glue Data Catalog now supports table optimization, statistics, and crawlers for Apache Iceberg V3",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-glue-iceberg-v3-optimization/",
+        "summary": "AWS Glue Data Catalog now supports table optimization, statistics, and crawlers for Apache Iceberg Version 3 (V3) tables. With these new capabilities, you can automatically maintain V3 tables,…",
         "date": "2026年10月1日",
         "date_iso": "2026-10-01",
         "category": "ai-tag",
