@@ -1,7 +1,17 @@
 {
-  "updated": "2026年10月03日 00:58 JST",
+  "updated": "2026年10月03日 14:21 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Public Preview: Major version upgrades (MVU) for Azure Database for PostgreSQL elastic clusters",
+        "link": "https://azure.microsoft.com/updates?id=571504",
+        "summary": "MVUs are now available for elastic clusters in Azure Database for PostgreSQL. You can upgrade an existing elastic cluster to a supported newer PostgreSQL version in place without provisioning a…",
+        "date": "2026年10月3日",
+        "date_iso": "2026-10-03",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Retirement: DCsv3 and DCdsv3-series Azure Virtual Machines will be retired on October 31, 2029",
         "link": "https://azure.microsoft.com/updates?id=569592",
@@ -191,19 +201,89 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: SQL Server support on Azure Local connected mode",
-        "link": "https://azure.microsoft.com/updates?id=571841",
-        "summary": "With SQL Server on Azure Local, you can run SQL Server workloads on Azure Local infrastructure while leveraging Azure services for centralized management, governance, monitoring, security, and…",
-        "date": "2026年9月30日",
-        "date_iso": "2026-09-30",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Amazon ECS adds Amazon VPC Lattice support for blue/green, linear, and canary deployments",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ecs-vpc-lattice-blue-green-deployments",
+        "summary": "Amazon Elastic Container Service (Amazon ECS) now supports built-in blue/green, linear, and canary deployment strategies for ECS services using Amazon VPC Lattice . Applications that use VPC Lattice…",
+        "date": "2026年10月3日",
+        "date_iso": "2026-10-03",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Health introduces the version catalog for software lifecycle management",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-health-introduces-version-catalog-software-lifecycle-management",
+        "summary": "Today, AWS Health introduces the version catalog which provides a centralized source of lifecycle information for software versions across AWS services. The version catalog helps customers move from…",
+        "date": "2026年10月3日",
+        "date_iso": "2026-10-03",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EKS and Amazon EKS Distro now support Kubernetes version 1.37",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-eks-distro-kubernetes-version-1-37",
+        "summary": "Kubernetes version 1.37 introduced several new features and bug fixes, and AWS is excited to announce that you can now use Amazon Elastic Kubernetes Service (EKS) and Amazon EKS Distro to run…",
+        "date": "2026年10月3日",
+        "date_iso": "2026-10-03",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Aurora DSQL now supports partial indexes",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aurora-dsql-partial-indexes/",
+        "summary": "Amazon Aurora DSQL now lets you build an index over a specific subset of a table, storing only qualifying rows rather than every row in the entire table, which improves query performance and lowers…",
+        "date": "2026年10月3日",
+        "date_iso": "2026-10-03",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Brazil automates distribution of non-Brazilian software product licenses to Brazilian customers",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-brazil-software-license-distribution/",
+        "summary": "AWS Brazil now provides an automated distribution workflow through the AWS Brazil 2P Distribution Program. Eligible non-Brazilian independent software vendors (ISVs) grant AWS Brazil the right to…",
+        "date": "2026年10月3日",
+        "date_iso": "2026-10-03",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "The AWS MCP Server is now available in six additional AWS Regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-mcp-server-six-additional-regions/",
+        "summary": "The AWS MCP Server is now available in six additional AWS Regions: Asia Pacific (Singapore), Asia Pacific (Sydney), Asia Pacific (Tokyo), Europe (Ireland), Europe (London), and US West (Oregon). The…",
+        "date": "2026年10月2日",
+        "date_iso": "2026-10-02",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AgentCore Gateway supports private TLS certificates for VPC endpoints",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/agentcore-gateway-private-tls-vpc/",
+        "summary": "Amazon Bedrock AgentCore Gateway now supports TLS certificates signed by private certificate authorities (CAs) on MCP, OpenAPI, and HTTP proxy targets. This feature enables you to connect securely to…",
+        "date": "2026年10月2日",
+        "date_iso": "2026-10-02",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon ElastiCache for Valkey now supports OpenTelemetry metrics and detailed monitoring",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-elasticache-valkey-opentelemetry-metrics-detailed-monitoring",
+        "summary": "Amazon ElastiCache for Valkey now publishes OpenTelemetry metrics to Amazon CloudWatch for your node-based clusters, and each metric carries attributes you can filter and aggregate on with Prometheus…",
+        "date": "2026年10月2日",
+        "date_iso": "2026-10-02",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
       {
         "title": "GuardDuty Runtime Monitoring is now included in the AWS Security Hub Threat Analytics plan",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-security-hub-runtime-monitoring/",
@@ -323,89 +403,19 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "Serverless Storage on Amazon EMR Serverless now supports terabyte-scale shuffle",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/emr-serverless-terabyte-scale-shuffle/",
-        "summary": "Amazon EMR Serverless now offers enhanced serverless storage capabilities with support for up to 1TB shuffle operations, raising the previous 200 GB per-job limit. Amazon EMR Serverless makes it…",
-        "date": "2026年10月1日",
-        "date_iso": "2026-10-01",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Announcing DNS analytics and insights for Route 53 Global Resolver and DNS Firewall",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/route-53-dns-analytics-insights/",
-        "summary": "Route 53 Global Resolver and DNS Firewall now provide DNS analytics and insights through native Amazon CloudWatch integration. These new capabilities enable network administrators and security teams…",
-        "date": "2026年10月1日",
-        "date_iso": "2026-10-01",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS IAM Identity Center extends multi-Region support to more AWS Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-iam-identity-center-extends-multi-region-support-to-more-aws-regions",
-        "summary": "IAM Identity Center helps you connect your workforce identities to AWS once and streamline access management to AWS accounts and applications. You can now replicate IAM Identity Center to opt-in AWS…",
-        "date": "2026年10月1日",
-        "date_iso": "2026-10-01",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Improve your secrets security posture with actionable recommendations in the AWS Secrets Manager console",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-secrets-manager-security-posture-recommendations",
-        "summary": "​​​AWS Secrets Manager now integrates with the AWS Recommended Actions framework to surface contextual, actionable suggestions for your secrets directly in the Secrets Manager console. ​​ ​​With this…",
-        "date": "2026年10月1日",
-        "date_iso": "2026-10-01",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon S3 Tables now support up to 100 table buckets per AWS Region in an AWS account",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-s3-tables-table-bucket-increase",
-        "summary": "Amazon S3 Tables now support up to 100 table buckets per AWS Region in an AWS account, increased from 10. This allows you to create up to 1 million tables per AWS Region in an AWS account. With a…",
-        "date": "2026年10月1日",
-        "date_iso": "2026-10-01",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon WorkSpaces Core Managed Instances adds support for NVIDIA Blackwell GPU",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-workspaces-cmi-g7/",
-        "summary": "Amazon WorkSpaces Core Managed Instances now supports Graphics G7 instances, powered by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs and Intel Xeon 6 processors. G7 instances deliver up to 2.1X…",
-        "date": "2026年10月1日",
-        "date_iso": "2026-10-01",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Apache Iceberg materialized views now support system-managed write protection",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/system-managed-iceberg-materialized-views",
-        "summary": "Today, AWS announces system-managed materialized views for Apache Iceberg. Materialized views let you precompute an expensive query once and reuse the result across engines. Because this result is an…",
-        "date": "2026年10月1日",
-        "date_iso": "2026-10-01",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS CLI now supports bulk skill updates and version checks for the Agent Toolkit for AWS",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-cli-agent-toolkit-update-skill/",
-        "summary": "Today, AWS expanded the AWS Command Line Interface (CLI) commands for the Agent Toolkit for AWS with two new capabilities that make it easier to keep agent skills up to date. Customers can now run…",
-        "date": "2026年10月1日",
-        "date_iso": "2026-10-01",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "October 02, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_02_2026",
+        "summary": "Apigee X Announcement On October 2, 2026, we released an updated version of Apigee (1-18-0-apigee-6). Note: Rollouts of this release began today and can take four or more business days to complete…",
+        "date": "2026年10月2日",
+        "date_iso": "2026-10-02",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "GCP"
+      },
       {
         "title": "October 01, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_01_2026",
@@ -595,16 +605,6 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
-      },
-      {
-        "title": "September 09, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_09_2026",
-        "summary": "Agent Platform Workbench Feature New configuration options for scheduled notebook runs When you schedule a notebook run from an Agent Platform Workbench instance, you can now configure the following:…",
-        "date": "2026年9月9日",
-        "date_iso": "2026-09-09",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "GCP"
       }
     ],
     "oci": [
@@ -639,6 +639,26 @@
         "tag": "OCI"
       },
       {
+        "title": "Managing One-Click Sign-In with Passkeys",
+        "link": "https://docs.oracle.com/iaas/releasenotes/identity/one-click-sign-in-with-passkeys.htm",
+        "summary": "",
+        "date": "2026年9月30日",
+        "date_iso": "2026-09-30",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Cloud Shell now Supports Regional Launch",
+        "link": "https://docs.oracle.com/iaas/releasenotes/cloud-shell/regional_launch.htm",
+        "summary": "",
+        "date": "2026年9月30日",
+        "date_iso": "2026-09-30",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
         "title": "Automatic Target Registration for ExaDB-D in Oracle Data Safe",
         "link": "https://docs.oracle.com/iaas/releasenotes/data-safe/auto-register.htm",
         "summary": "",
@@ -651,16 +671,6 @@
       {
         "title": "Data Subsetting in Oracle Data Safe",
         "link": "https://docs.oracle.com/iaas/releasenotes/data-safe/data-subsetting.htm",
-        "summary": "",
-        "date": "2026年9月30日",
-        "date_iso": "2026-09-30",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Cloud Shell now Supports Regional Launch",
-        "link": "https://docs.oracle.com/iaas/releasenotes/cloud-shell/regional_launch.htm",
         "summary": "",
         "date": "2026年9月30日",
         "date_iso": "2026-09-30",
@@ -729,6 +739,26 @@
         "tag": "OCI"
       },
       {
+        "title": "New 26.3.2.xxx Release for App Gateway Docker, OVA, and Patch Releases",
+        "link": "https://docs.oracle.com/iaas/releasenotes/identity/app-gateway-docker-ova-supported-releases-patches.htm",
+        "summary": "",
+        "date": "2026年9月28日",
+        "date_iso": "2026-09-28",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "OCI"
+      },
+      {
+        "title": "Changes to OTP Messages for Spain Phone Numbers",
+        "link": "https://docs.oracle.com/iaas/releasenotes/identity/changes-otp-messages-spain.htm",
+        "summary": "",
+        "date": "2026年9月24日",
+        "date_iso": "2026-09-24",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
         "title": "Import Z.ai GLM-5.3-Flash into OCI Generative AI",
         "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/zai-glm-5-3-flash.htm",
         "summary": "",
@@ -759,6 +789,16 @@
         "tag": "OCI"
       },
       {
+        "title": "Client ID Metadata Document Support for OAuth Clients",
+        "link": "https://docs.oracle.com/iaas/releasenotes/identity/client-id-metadata-documents.htm",
+        "summary": "",
+        "date": "2026年9月23日",
+        "date_iso": "2026-09-23",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "OCI"
+      },
+      {
         "title": "Bring Your Own Reservations for Data Science",
         "link": "https://docs.oracle.com/iaas/releasenotes/data-science/bring_your_own_reservations.htm",
         "summary": "",
@@ -766,46 +806,6 @@
         "date_iso": "2026-09-23",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Find models by region with model discovery in OCI Generative AI",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/model-discovery.htm",
-        "summary": "",
-        "date": "2026年9月23日",
-        "date_iso": "2026-09-23",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Route on-demand inference requests across regions with smart model router",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/regional-router.htm",
-        "summary": "",
-        "date": "2026年9月23日",
-        "date_iso": "2026-09-23",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Import DeepSeek V4.1 Flash into OCI Generative AI",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/deepseek-v4-1-flash.htm",
-        "summary": "",
-        "date": "2026年9月23日",
-        "date_iso": "2026-09-23",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Import Google Gemma 4 26B A4B IT into OCI Generative AI",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/google-gemma-4-26b-a4b-it.htm",
-        "summary": "",
-        "date": "2026年9月23日",
-        "date_iso": "2026-09-23",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "OCI"
       }
     ]
