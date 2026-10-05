@@ -1,5 +1,5 @@
 {
-  "updated": "2026年10月05日 14:43 JST",
+  "updated": "2026年10月05日 19:47 JST",
   "clouds": {
     "azure": [
       {
@@ -225,16 +225,6 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon EKS and Amazon EKS Distro now support Kubernetes version 1.37",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-eks-distro-kubernetes-version-1-37",
-        "summary": "Kubernetes version 1.37 introduced several new features and bug fixes, and AWS is excited to announce that you can now use Amazon Elastic Kubernetes Service (EKS) and Amazon EKS Distro to run…",
-        "date": "2026年10月3日",
-        "date_iso": "2026-10-03",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "AWS"
-      },
-      {
         "title": "Amazon Aurora DSQL now supports partial indexes",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aurora-dsql-partial-indexes/",
         "summary": "Amazon Aurora DSQL now lets you build an index over a specific subset of a table, storing only qualifying rows rather than every row in the entire table, which improves query performance and lowers…",
@@ -242,6 +232,16 @@
         "date_iso": "2026-10-03",
         "category": "database-tag",
         "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EKS and Amazon EKS Distro now support Kubernetes version 1.37",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-eks-distro-kubernetes-version-1-37",
+        "summary": "Kubernetes version 1.37 introduced several new features and bug fixes, and AWS is excited to announce that you can now use Amazon Elastic Kubernetes Service (EKS) and Amazon EKS Distro to run…",
+        "date": "2026年10月3日",
+        "date_iso": "2026-10-03",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
         "tag": "AWS"
       },
       {
@@ -385,9 +385,9 @@
         "tag": "AWS"
       },
       {
-        "title": "AWS Glue Data Catalog now supports table optimization, statistics, and crawlers for Apache Iceberg V3",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-glue-iceberg-v3-optimization/",
-        "summary": "AWS Glue Data Catalog now supports table optimization, statistics, and crawlers for Apache Iceberg Version 3 (V3) tables. With these new capabilities, you can automatically maintain V3 tables,…",
+        "title": "AWS Budgets now supports email verification for notification subscribers",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-budgets/",
+        "summary": "AWS Budgets lets you set custom cost and usage thresholds and alerts you by email when your spending crosses the threshold. AWS Budgets now verifies new email subscribers before sending them budget…",
         "date": "2026年10月1日",
         "date_iso": "2026-10-01",
         "category": "ai-tag",
@@ -395,9 +395,9 @@
         "tag": "AWS"
       },
       {
-        "title": "AWS Budgets now supports email verification for notification subscribers",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-budgets/",
-        "summary": "AWS Budgets lets you set custom cost and usage thresholds and alerts you by email when your spending crosses the threshold. AWS Budgets now verifies new email subscribers before sending them budget…",
+        "title": "AWS Glue Data Catalog now supports table optimization, statistics, and crawlers for Apache Iceberg V3",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-glue-iceberg-v3-optimization/",
+        "summary": "AWS Glue Data Catalog now supports table optimization, statistics, and crawlers for Apache Iceberg Version 3 (V3) tables. With these new capabilities, you can automatically maintain V3 tables,…",
         "date": "2026年10月1日",
         "date_iso": "2026-10-01",
         "category": "ai-tag",
@@ -419,7 +419,7 @@
       {
         "title": "October 03, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_03_2026",
-        "summary": "Google SecOps SOAR Announcement Release 6.3.101 is now available for all regions.",
+        "summary": "Google SecOps SOAR Announcement Release 6.3.101 is now available for all regions. Sensitive Data Protection Change A new version with an updated name dictionary is available for the PERSON_NAME…",
         "date": "2026年10月3日",
         "date_iso": "2026-10-03",
         "category": "ai-tag",
@@ -639,16 +639,6 @@
         "tag": "OCI"
       },
       {
-        "title": "Managing One-Click Sign-In with Passkeys",
-        "link": "https://docs.oracle.com/iaas/releasenotes/identity/one-click-sign-in-with-passkeys.htm",
-        "summary": "",
-        "date": "2026年9月30日",
-        "date_iso": "2026-09-30",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
         "title": "Cloud Shell now Supports Regional Launch",
         "link": "https://docs.oracle.com/iaas/releasenotes/cloud-shell/regional_launch.htm",
         "summary": "",
@@ -739,26 +729,6 @@
         "tag": "OCI"
       },
       {
-        "title": "New 26.3.2.xxx Release for App Gateway Docker, OVA, and Patch Releases",
-        "link": "https://docs.oracle.com/iaas/releasenotes/identity/app-gateway-docker-ova-supported-releases-patches.htm",
-        "summary": "",
-        "date": "2026年9月28日",
-        "date_iso": "2026-09-28",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "OCI"
-      },
-      {
-        "title": "Changes to OTP Messages for Spain Phone Numbers",
-        "link": "https://docs.oracle.com/iaas/releasenotes/identity/changes-otp-messages-spain.htm",
-        "summary": "",
-        "date": "2026年9月24日",
-        "date_iso": "2026-09-24",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
         "title": "Import Z.ai GLM-5.3-Flash into OCI Generative AI",
         "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/zai-glm-5-3-flash.htm",
         "summary": "",
@@ -789,16 +759,6 @@
         "tag": "OCI"
       },
       {
-        "title": "Client ID Metadata Document Support for OAuth Clients",
-        "link": "https://docs.oracle.com/iaas/releasenotes/identity/client-id-metadata-documents.htm",
-        "summary": "",
-        "date": "2026年9月23日",
-        "date_iso": "2026-09-23",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "OCI"
-      },
-      {
         "title": "Bring Your Own Reservations for Data Science",
         "link": "https://docs.oracle.com/iaas/releasenotes/data-science/bring_your_own_reservations.htm",
         "summary": "",
@@ -806,6 +766,46 @@
         "date_iso": "2026-09-23",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Find models by region with model discovery in OCI Generative AI",
+        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/model-discovery.htm",
+        "summary": "",
+        "date": "2026年9月23日",
+        "date_iso": "2026-09-23",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Route on-demand inference requests across regions with smart model router",
+        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/regional-router.htm",
+        "summary": "",
+        "date": "2026年9月23日",
+        "date_iso": "2026-09-23",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Import DeepSeek V4.1 Flash into OCI Generative AI",
+        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/deepseek-v4-1-flash.htm",
+        "summary": "",
+        "date": "2026年9月23日",
+        "date_iso": "2026-09-23",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Import Google Gemma 4 26B A4B IT into OCI Generative AI",
+        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/google-gemma-4-26b-a4b-it.htm",
+        "summary": "",
+        "date": "2026年9月23日",
+        "date_iso": "2026-09-23",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "OCI"
       }
     ]
