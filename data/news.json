@@ -1,7 +1,27 @@
 {
-  "updated": "2026年10月05日 19:47 JST",
+  "updated": "2026年10月06日 03:51 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Public Preview: Azure Backup for PostgreSQL flexible server and elastic cluster (v2)",
+        "link": "https://azure.microsoft.com/updates?id=573425",
+        "summary": "Azure Backup for PostgreSQL flexible server and elastic cluster (v2) preview brings enterprise-grade long-term retention to PostgreSQL. Backups are taken as physical backups from managed disk…",
+        "date": "2026年10月6日",
+        "date_iso": "2026-10-06",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: IPv6 Support for Application Gateway WAF",
+        "link": "https://azure.microsoft.com/updates?id=573861",
+        "summary": "Announcing the Public Preview of IPv6 support for Application Gateway WAF.Application Gateway Web Application Firewall (WAF) now supports inspection and enforcement for IPv6 traffic in Public…",
+        "date": "2026年10月6日",
+        "date_iso": "2026-10-06",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AZURE"
+      },
       {
         "title": "Public Preview: Major version upgrades (MVU) for Azure Database for PostgreSQL elastic clusters",
         "link": "https://azure.microsoft.com/updates?id=571504",
@@ -181,29 +201,19 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Public preview: Script-based deployment for SQL Server on Linux Azure VM",
-        "link": "https://azure.microsoft.com/updates?id=571810",
-        "summary": "A new deployment experience for SQL Server on Linux Azure Virtual Machines (VMs) replaces legacy marketplace images with automated script-based provisioning. This release provides greater…",
-        "date": "2026年9月30日",
-        "date_iso": "2026-09-30",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: SQL Server on Azure Local Disconnected (ALDO)",
-        "link": "https://azure.microsoft.com/updates?id=571836",
-        "summary": "Now you can use ALDO to extend SQL Server support to environments that can’t maintain continuous connectivity to Azure. ALDO is designed for operations in highly regulated, secure, remote, or…",
-        "date": "2026年9月30日",
-        "date_iso": "2026-09-30",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "AWS Private CA now provides detailed certificate issuance logs",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-private-ca-certificate-issuance-logs/",
+        "summary": "AWS Private CA announces detailed certificate issuance logs, a new AWS CloudTrail service event that records the complete certificate content, issuing CA information, requester identity, and signing…",
+        "date": "2026年10月5日",
+        "date_iso": "2026-10-05",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
       {
         "title": "Amazon ECS adds Amazon VPC Lattice support for blue/green, linear, and canary deployments",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ecs-vpc-lattice-blue-green-deployments",
@@ -225,16 +235,6 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon Aurora DSQL now supports partial indexes",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aurora-dsql-partial-indexes/",
-        "summary": "Amazon Aurora DSQL now lets you build an index over a specific subset of a table, storing only qualifying rows rather than every row in the entire table, which improves query performance and lowers…",
-        "date": "2026年10月3日",
-        "date_iso": "2026-10-03",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
         "title": "Amazon EKS and Amazon EKS Distro now support Kubernetes version 1.37",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-eks-distro-kubernetes-version-1-37",
         "summary": "Kubernetes version 1.37 introduced several new features and bug fixes, and AWS is excited to announce that you can now use Amazon Elastic Kubernetes Service (EKS) and Amazon EKS Distro to run…",
@@ -242,6 +242,16 @@
         "date_iso": "2026-10-03",
         "category": "container-tag",
         "cat_label": "コンテナ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Aurora DSQL now supports partial indexes",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aurora-dsql-partial-indexes/",
+        "summary": "Amazon Aurora DSQL now lets you build an index over a specific subset of a table, storing only qualifying rows rather than every row in the entire table, which improves query performance and lowers…",
+        "date": "2026年10月3日",
+        "date_iso": "2026-10-03",
+        "category": "database-tag",
+        "cat_label": "データベース",
         "tag": "AWS"
       },
       {
@@ -315,6 +325,16 @@
         "tag": "AWS"
       },
       {
+        "title": "Amazon Q Developer now delivers enhanced visualizations in the AWS Management Console",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-q-developer-enhanced-visualizations-aws-management-console",
+        "summary": "Today, AWS announces enhanced visualization for Amazon Q Developer in the AWS Management Console. Amazon Q now reasons across hundreds of AWS APIs to answer complex questions and deliver complete…",
+        "date": "2026年10月2日",
+        "date_iso": "2026-10-02",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon DynamoDB introduces filtered export to Amazon S3",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-dynamodb-introduces-filtered-export/",
         "summary": "Amazon DynamoDB now supports filtered export for tables. Export to Amazon S3 allows you to export your table data for analytics, data sharing, and other offline uses, as either a full export or an…",
@@ -383,29 +403,19 @@
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "AWS"
-      },
-      {
-        "title": "AWS Budgets now supports email verification for notification subscribers",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-budgets/",
-        "summary": "AWS Budgets lets you set custom cost and usage thresholds and alerts you by email when your spending crosses the threshold. AWS Budgets now verifies new email subscribers before sending them budget…",
-        "date": "2026年10月1日",
-        "date_iso": "2026-10-01",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Glue Data Catalog now supports table optimization, statistics, and crawlers for Apache Iceberg V3",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-glue-iceberg-v3-optimization/",
-        "summary": "AWS Glue Data Catalog now supports table optimization, statistics, and crawlers for Apache Iceberg Version 3 (V3) tables. With these new capabilities, you can automatically maintain V3 tables,…",
-        "date": "2026年10月1日",
-        "date_iso": "2026-10-01",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "October 05, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_05_2026",
+        "summary": "Cloud Load Balancing Feature External IPv6 addresses are now supported for Standard Tier . For more information, see IPv6 subnet ranges . This feature is in Preview. Compute Engine Feature Preview :…",
+        "date": "2026年10月5日",
+        "date_iso": "2026-10-05",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
+        "tag": "GCP"
+      },
       {
         "title": "October 04, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_04_2026",
@@ -529,7 +539,7 @@
       {
         "title": "September 22, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_22_2026",
-        "summary": "BigQuery Feature You can now publish a BigQuery data agent in Gemini Enterprise by registering the agent with Agent Registry and importing it using default Google-managed credentials. When BigQuery…",
+        "summary": "Access Approval Feature Developer Connect is generally available ( GA ). Access Transparency Feature Developer Connect is generally available ( GA ). BigQuery Feature You can now publish a BigQuery…",
         "date": "2026年9月22日",
         "date_iso": "2026-09-22",
         "category": "ai-tag",
@@ -595,19 +605,19 @@
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "GCP"
-      },
-      {
-        "title": "September 13, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_13_2026",
-        "summary": "Access Approval Feature Application Design Center is generally available (GA) . Access Transparency Feature Application Design Center is generally available (GA) . Agent Platform Workbench Change…",
-        "date": "2026年9月13日",
-        "date_iso": "2026-09-13",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
       }
     ],
     "oci": [
+      {
+        "title": "OCI Kubernetes Engine (OKE) support for GPU host repair",
+        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng_node-auto-repair.htm",
+        "summary": "",
+        "date": "2026年10月2日",
+        "date_iso": "2026-10-02",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
       {
         "title": "Support for Kubernetes version 1.36.4",
         "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-K8s-1-36-4-support.htm",
@@ -729,6 +739,26 @@
         "tag": "OCI"
       },
       {
+        "title": "Internet of Things expands Flow Runtime and Digital Twin capabilities",
+        "link": "https://docs.oracle.com/iaas/releasenotes/internet-of-things/update-09292026.htm",
+        "summary": "",
+        "date": "2026年9月29日",
+        "date_iso": "2026-09-29",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "VCN-Native Pod Networking CNI plugin version 3.3.1 now available",
+        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-VCN-native-CNI-v331-Release-Note.htm",
+        "summary": "",
+        "date": "2026年9月25日",
+        "date_iso": "2026-09-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
         "title": "Import Z.ai GLM-5.3-Flash into OCI Generative AI",
         "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/zai-glm-5-3-flash.htm",
         "summary": "",
@@ -771,36 +801,6 @@
       {
         "title": "Find models by region with model discovery in OCI Generative AI",
         "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/model-discovery.htm",
-        "summary": "",
-        "date": "2026年9月23日",
-        "date_iso": "2026-09-23",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Route on-demand inference requests across regions with smart model router",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/regional-router.htm",
-        "summary": "",
-        "date": "2026年9月23日",
-        "date_iso": "2026-09-23",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Import DeepSeek V4.1 Flash into OCI Generative AI",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/deepseek-v4-1-flash.htm",
-        "summary": "",
-        "date": "2026年9月23日",
-        "date_iso": "2026-09-23",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Import Google Gemma 4 26B A4B IT into OCI Generative AI",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/google-gemma-4-26b-a4b-it.htm",
         "summary": "",
         "date": "2026年9月23日",
         "date_iso": "2026-09-23",
