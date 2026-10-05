@@ -1,5 +1,5 @@
 {
-  "updated": "2026年10月04日 23:59 JST",
+  "updated": "2026年10月05日 14:43 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,26 @@
     ],
     "gcp": [
       {
+        "title": "October 04, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_04_2026",
+        "summary": "Google SecOps SOAR Announcement Release 6.3.102 is being rolled out to the first phase of regions as listed here . This release contains internal and customer bug fixes.",
+        "date": "2026年10月4日",
+        "date_iso": "2026-10-04",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
+        "title": "October 03, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_03_2026",
+        "summary": "Google SecOps SOAR Announcement Release 6.3.101 is now available for all regions.",
+        "date": "2026年10月3日",
+        "date_iso": "2026-10-03",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "October 02, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_02_2026",
         "summary": "Apigee X Announcement On October 2, 2026, we released an updated version of Apigee (1-18-0-apigee-6). Note: Rollouts of this release began today and can take four or more business days to complete…",
@@ -582,26 +602,6 @@
         "summary": "Access Approval Feature Application Design Center is generally available (GA) . Access Transparency Feature Application Design Center is generally available (GA) . Agent Platform Workbench Change…",
         "date": "2026年9月13日",
         "date_iso": "2026-09-13",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "September 11, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_11_2026",
-        "summary": "API Gateway Feature Enable Model Context Protocol (MCP) You can now configure API Gateway to act as a remote Model Context Protocol (MCP) server. This Public Preview feature allows you to expose your…",
-        "date": "2026年9月11日",
-        "date_iso": "2026-09-11",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "GCP"
-      },
-      {
-        "title": "September 10, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_10_2026",
-        "summary": "Apigee X Fixed Addendum to Apigee release notes dated August 27, 2026 (1-18-0-apigee-4). Bug ID Description 502540992 Fixed an issue where the SemanticCacheLookup policy was incompatible with Vertex…",
-        "date": "2026年9月10日",
-        "date_iso": "2026-09-10",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
