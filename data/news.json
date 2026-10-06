@@ -1,5 +1,5 @@
 {
-  "updated": "2026年10月06日 19:42 JST",
+  "updated": "2026年10月07日 01:17 JST",
   "clouds": {
     "azure": [
       {
@@ -205,6 +205,16 @@
     ],
     "aws": [
       {
+        "title": "AWS Certificate Manager now supports ACME issuance through AWS PrivateLink",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/AWS-Certificate-Manager-ACME-Privatelink",
+        "summary": "AWS Certificate Manager (ACM) now supports AWS PrivateLink for ACME public certificate issuance, allowing you to request and renew public TLS certificates over a private network path that stays…",
+        "date": "2026年10月6日",
+        "date_iso": "2026-10-06",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon Redshift adds support for creating and refreshing Apache Iceberg materialized views",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/redshift-iceberg-materialized-views",
         "summary": "Amazon Redshift now supports the creation and refresh of Apache Iceberg materialized views. Materialized views pre-compute expensive joins and aggregations once and store the results in an Apache…",
@@ -235,6 +245,16 @@
         "tag": "AWS"
       },
       {
+        "title": "AWS Control Tower AFT now supports plan-only customization runs",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-control-tower-aft/",
+        "summary": "AWS Control Tower Account Factory for Terraform (AFT) now supports plan-only customization runs, giving administrators the ability to preview Terraform changes before applying them across their…",
+        "date": "2026年10月6日",
+        "date_iso": "2026-10-06",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
         "title": "AWS Continuum for Penetration Testing now supports continuous penetration testing integrated directly into your CI/CD…",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-continuum-penetration-testing/",
         "summary": "AWS Continuum for Penetration Testing now integrates continuous penetration testing directly into your CI/CD pipeline (public preview) AWS Continuum for Penetration Testing (formerly AWS Security…",
@@ -242,6 +262,16 @@
         "date_iso": "2026-10-06",
         "category": "security-tag",
         "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 introduces shared tags for Amazon Machine Images",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/ec2-ami-shared-tags",
+        "summary": "Amazon EC2 now supports AMI tag sharing, a new feature that lets AMI owners make selected tags visible to all AWS accounts an AMI is shared with. Whether an AMI is shared with an account, across an…",
+        "date": "2026年10月6日",
+        "date_iso": "2026-10-06",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "AWS"
       },
       {
@@ -372,36 +402,6 @@
         "date_iso": "2026-10-02",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "GuardDuty Runtime Monitoring is now included in the AWS Security Hub Threat Analytics plan",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-security-hub-runtime-monitoring/",
-        "summary": "Today, AWS announces that Amazon GuardDuty Runtime Monitoring is now included in the AWS Security Hub Threat Analytics plan. Runtime Monitoring inspects operating system, network, and file activity…",
-        "date": "2026年10月2日",
-        "date_iso": "2026-10-02",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Well-Architected Agent is now available in preview",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-well-architected-agent/",
-        "summary": "AWS announces the preview of AWS Well-Architected Agent, an AI-powered service that is the next-gen evolution of AWS Trusted Advisor and the AWS Well-Architected Tool. The agent analyzes and…",
-        "date": "2026年10月2日",
-        "date_iso": "2026-10-02",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Redshift now supports cross-Region queries for your data lake",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/redshift-cross-Region-queries-for-data-lake",
-        "summary": "Amazon Redshift now supports querying Amazon S3 data lake tables located in a different AWS Region. With enhanced VPC routing, data lake query traffic between Amazon S3 and Amazon Redshift stays…",
-        "date": "2026年10月2日",
-        "date_iso": "2026-10-02",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
         "tag": "AWS"
       }
     ],
@@ -609,6 +609,16 @@
     ],
     "oci": [
       {
+        "title": "Console AI Availability",
+        "link": "https://docs.oracle.com/iaas/releasenotes/console/consoleai-availability-oct-2026.htm",
+        "summary": "",
+        "date": "2026年10月6日",
+        "date_iso": "2026-10-06",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
         "title": "OCI Kubernetes Engine (OKE) support for GPU host repair",
         "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng_node-auto-repair.htm",
         "summary": "",
@@ -796,16 +806,6 @@
         "date_iso": "2026-09-23",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Find models by region with model discovery in OCI Generative AI",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/model-discovery.htm",
-        "summary": "",
-        "date": "2026年9月23日",
-        "date_iso": "2026-09-23",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "OCI"
       }
     ]
