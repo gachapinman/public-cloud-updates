@@ -1,5 +1,5 @@
 {
-  "updated": "2026年10月07日 15:02 JST",
+  "updated": "2026年10月07日 19:31 JST",
   "clouds": {
     "azure": [
       {
@@ -609,6 +609,26 @@
     ],
     "oci": [
       {
+        "title": "Improve Iceberg External Table Query Performance with Partition Pruning",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-10-partition-pruning.htm",
+        "summary": "",
+        "date": "2026年10月6日",
+        "date_iso": "2026-10-06",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Multidimensional Analytics with Oracle Essbase",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-10-oracle-essbase.htm",
+        "summary": "",
+        "date": "2026年10月6日",
+        "date_iso": "2026-10-06",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
         "title": "Console AI Availability",
         "link": "https://docs.oracle.com/iaas/releasenotes/console/consoleai-availability-oct-2026.htm",
         "summary": "",
@@ -786,26 +806,6 @@
         "date_iso": "2026-09-24",
         "category": "database-tag",
         "cat_label": "データベース",
-        "tag": "OCI"
-      },
-      {
-        "title": "Code-only deployment for OCI Functions is now available",
-        "link": "https://docs.oracle.com/iaas/releasenotes/functions/functions-code-only-functions.htm",
-        "summary": "",
-        "date": "2026年9月24日",
-        "date_iso": "2026-09-24",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Bring Your Own Reservations for Data Science",
-        "link": "https://docs.oracle.com/iaas/releasenotes/data-science/bring_your_own_reservations.htm",
-        "summary": "",
-        "date": "2026年9月23日",
-        "date_iso": "2026-09-23",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
         "tag": "OCI"
       }
     ]
