@@ -1,7 +1,27 @@
 {
-  "updated": "2026年10月07日 19:31 JST",
+  "updated": "2026年10月08日 15:07 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Generally Available: Anyscale on Azure",
+        "link": "https://azure.microsoft.com/updates?id=573744",
+        "summary": "Anyscale on Azure is now Generally Available. Anyscale on Azure is a managed platform for running distributed Python workloads on Ray. It deploys directly onto your Azure Kubernetes Service (AKS)…",
+        "date": "2026年10月8日",
+        "date_iso": "2026-10-08",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Enabling the Bulk admin role for SQL Server on Linux",
+        "link": "https://azure.microsoft.com/updates?id=573443",
+        "summary": "Starting with SQL Server 2025 CU9 and SQL Server 2022 CU27, SQL Server on Linux supports the bulkadmin fixed server role and the ADMINISTER BULK OPERATIONS permission for performing bulk data import…",
+        "date": "2026年10月8日",
+        "date_iso": "2026-10-08",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Retirement: Pod name dimension in AKS pod platform metrics",
         "link": "https://azure.microsoft.com/updates?id=570232",
@@ -181,29 +201,49 @@
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "AZURE"
-      },
-      {
-        "title": "Retirement: Functions on Azure Container Apps V1",
-        "link": "https://azure.microsoft.com/updates?id=570800",
-        "summary": "The Functions on Azure Container Apps (ACA) V1 will be retired on September 29, 2027. After this date, existing Functions on ACA V1 Apps will stop running and no longer process requests or…",
-        "date": "2026年9月30日",
-        "date_iso": "2026-09-30",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Storage optimized Lasv5 and Laosv5 Azure VM series",
-        "link": "https://azure.microsoft.com/updates?id=572630",
-        "summary": "The Laosv5 series and Lasv5 storage optimized VMs, based on the 5th Gen AMD EPYC™ processor (Turin), are now generally available.Lasv5 and Laosv5 VMs have sizes ranging from 2-160 vCPUs, with 8GiB of…",
-        "date": "2026年9月30日",
-        "date_iso": "2026-09-30",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "AWS Capabilities by Region now offers availability notifications for individual features and advanced filters",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/awscapabilities-enhancements/",
+        "summary": "Today, AWS announces feature-level availability notifications and advanced filters for AWS Capabilities by Region in AWS Builder Center. You can now set availability notifications for AWS service, or…",
+        "date": "2026年10月8日",
+        "date_iso": "2026-10-08",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Config now supports 77 new resource types",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-config-new-resource-types",
+        "summary": "AWS Config now supports 77 additional AWS resource types across key services including Amazon EC2, Amazon S3 Files, and Amazon Q Business. This expansion provides greater coverage over your AWS…",
+        "date": "2026年10月8日",
+        "date_iso": "2026-10-08",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Claude Haiku 5.5 is now available on AWS",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/claude-haiku-5-5-aws/",
+        "summary": "AWS now offers Claude Haiku 5.5, the fastest and most efficient model in the Claude 5.5 family, built for subagents and high-volume, cost-sensitive work. According to Anthropic, it costs around 75%…",
+        "date": "2026年10月7日",
+        "date_iso": "2026-10-07",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Claude Haiku 5.5 is now available on AWS GovCloud (US)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/claude-haiku-5-5-aws-govcloud/",
+        "summary": "AWS GovCloud (US) now offers Claude Haiku 5.5, the fastest and most efficient model in the Claude 5.5 family, built for subagents and high-volume, cost-sensitive work. According to Anthropic, it…",
+        "date": "2026年10月7日",
+        "date_iso": "2026-10-07",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
       {
         "title": "AWS Batch now publishes job metrics to Amazon CloudWatch",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-batch-job-cloudwatch-metrics/",
@@ -295,16 +335,6 @@
         "tag": "AWS"
       },
       {
-        "title": "AWS Advanced Ruby Driver Wrapper is generally available",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-ruby-driver-wrapper-available/",
-        "summary": "The Amazon Web Services (AWS) Advanced Ruby Driver Wrapper is now generally available for use with Amazon RDS and Amazon Aurora PostgreSQL and MySQL-compatible databases. This advanced database…",
-        "date": "2026年10月6日",
-        "date_iso": "2026-10-06",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
         "title": "AWS Client VPN now supports device posture assessment",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-client-vpn-device-posture/",
         "summary": "AWS Client VPN now supports device posture assessment, allowing you to verify that connecting user devices meet your security and compliance requirements before granting network access. This feature…",
@@ -312,6 +342,16 @@
         "date_iso": "2026-10-06",
         "category": "security-tag",
         "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Advanced Ruby Driver Wrapper is generally available",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-ruby-driver-wrapper-available/",
+        "summary": "The Amazon Web Services (AWS) Advanced Ruby Driver Wrapper is now generally available for use with Amazon RDS and Amazon Aurora PostgreSQL and MySQL-compatible databases. This advanced database…",
+        "date": "2026年10月6日",
+        "date_iso": "2026-10-06",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "AWS"
       },
       {
@@ -363,49 +403,19 @@
         "category": "security-tag",
         "cat_label": "セキュリティ",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon EKS and Amazon EKS Distro now support Kubernetes version 1.37",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-eks-distro-kubernetes-version-1-37",
-        "summary": "Kubernetes version 1.37 introduced several new features and bug fixes, and AWS is excited to announce that you can now use Amazon Elastic Kubernetes Service (EKS) and Amazon EKS Distro to run…",
-        "date": "2026年10月3日",
-        "date_iso": "2026-10-03",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Aurora DSQL now supports partial indexes",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aurora-dsql-partial-indexes/",
-        "summary": "Amazon Aurora DSQL now lets you build an index over a specific subset of a table, storing only qualifying rows rather than every row in the entire table, which improves query performance and lowers…",
-        "date": "2026年10月3日",
-        "date_iso": "2026-10-03",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Brazil automates distribution of non-Brazilian software product licenses to Brazilian customers",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-brazil-software-license-distribution/",
-        "summary": "AWS Brazil now provides an automated distribution workflow through the AWS Brazil 2P Distribution Program. Eligible non-Brazilian independent software vendors (ISVs) grant AWS Brazil the right to…",
-        "date": "2026年10月3日",
-        "date_iso": "2026-10-03",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "The AWS MCP Server is now available in six additional AWS Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-mcp-server-six-additional-regions/",
-        "summary": "The AWS MCP Server is now available in six additional AWS Regions: Asia Pacific (Singapore), Asia Pacific (Sydney), Asia Pacific (Tokyo), Europe (Ireland), Europe (London), and US West (Oregon). The…",
-        "date": "2026年10月2日",
-        "date_iso": "2026-10-02",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "October 07, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_07_2026",
+        "summary": "Apigee hybrid Announcement v1.14.9 On October 7, 2026 we released an updated version of the Apigee hybrid software, v1.14.9. For information on upgrading, see Upgrading Apigee hybrid to version…",
+        "date": "2026年10月7日",
+        "date_iso": "2026-10-07",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "GCP"
+      },
       {
         "title": "October 06, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_06_2026",
@@ -595,19 +605,29 @@
         "category": "storage-tag",
         "cat_label": "ストレージ",
         "tag": "GCP"
-      },
-      {
-        "title": "September 15, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_15_2026",
-        "summary": "Artifact Registry Feature Artifact Registry support for managing Conda packages with Artifact Registry repositories is in Preview . For more information, see Get started with Conda packages . Batch…",
-        "date": "2026年9月15日",
-        "date_iso": "2026-09-15",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "GCP"
       }
     ],
     "oci": [
+      {
+        "title": "Use OAuth resource indicators with identity domains",
+        "link": "https://docs.oracle.com/iaas/releasenotes/identity/oauth-resource-indicators-for-identity-domains.htm",
+        "summary": "",
+        "date": "2026年10月7日",
+        "date_iso": "2026-10-07",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Console AI Availability",
+        "link": "https://docs.oracle.com/iaas/releasenotes/console/consoleai-availability-oct-2026.htm",
+        "summary": "",
+        "date": "2026年10月6日",
+        "date_iso": "2026-10-06",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
       {
         "title": "Improve Iceberg External Table Query Performance with Partition Pruning",
         "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-10-partition-pruning.htm",
@@ -626,16 +646,6 @@
         "date_iso": "2026-10-06",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Console AI Availability",
-        "link": "https://docs.oracle.com/iaas/releasenotes/console/consoleai-availability-oct-2026.htm",
-        "summary": "",
-        "date": "2026年10月6日",
-        "date_iso": "2026-10-06",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "OCI"
       },
       {
@@ -676,6 +686,16 @@
         "date_iso": "2026-10-01",
         "category": "ai-tag",
         "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Managing One-Click Sign-In with Passkeys",
+        "link": "https://docs.oracle.com/iaas/releasenotes/identity/one-click-sign-in-with-passkeys.htm",
+        "summary": "",
+        "date": "2026年9月30日",
+        "date_iso": "2026-09-30",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "OCI"
       },
       {
@@ -779,33 +799,13 @@
         "tag": "OCI"
       },
       {
-        "title": "VCN-Native Pod Networking CNI plugin version 3.3.1 now available",
-        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-VCN-native-CNI-v331-Release-Note.htm",
+        "title": "New 26.3.2.xxx Release for App Gateway Docker, OVA, and Patch Releases",
+        "link": "https://docs.oracle.com/iaas/releasenotes/identity/app-gateway-docker-ova-supported-releases-patches.htm",
         "summary": "",
-        "date": "2026年9月25日",
-        "date_iso": "2026-09-25",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Import Z.ai GLM-5.3-Flash into OCI Generative AI",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/zai-glm-5-3-flash.htm",
-        "summary": "",
-        "date": "2026年9月24日",
-        "date_iso": "2026-09-24",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "HeatWave: Automatic Storage Expansion Enhanced",
-        "link": "https://docs.oracle.com/iaas/releasenotes/mysql-database/heatwave-automatic-storage-expansion-enhanced.htm",
-        "summary": "",
-        "date": "2026年9月24日",
-        "date_iso": "2026-09-24",
-        "category": "database-tag",
-        "cat_label": "データベース",
+        "date": "2026年9月28日",
+        "date_iso": "2026-09-28",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
         "tag": "OCI"
       }
     ]
