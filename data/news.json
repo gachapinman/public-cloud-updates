@@ -1,5 +1,5 @@
 {
-  "updated": "2026年10月09日 19:51 JST",
+  "updated": "2026年10月10日 01:37 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "October 09, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_09_2026",
+        "summary": "Datastream Feature Datastream now supports replicating SQL Server GEOMETRY and GEOGRAPHY spatial data types. For more information, see the following: Map SQL Server data types to Datastream unified…",
+        "date": "2026年10月9日",
+        "date_iso": "2026-10-09",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "GCP"
+      },
+      {
         "title": "October 08, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_08_2026",
         "summary": "BigQuery Feature The following table types now support flexible column names by default: Iceberg external tables and Iceberg managed tables in BigQuery Apache Iceberg tables managed by the Lakehouse…",
@@ -594,16 +604,6 @@
         "date_iso": "2026-09-18",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "GCP"
-      },
-      {
-        "title": "September 17, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_17_2026",
-        "summary": "Anti Money Laundering AI Announcement New minor engine versions released for the retail line of business within the v004.005 , v004.009 , and v004.010 version lines (…",
-        "date": "2026年9月17日",
-        "date_iso": "2026-09-17",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "GCP"
       }
     ],
