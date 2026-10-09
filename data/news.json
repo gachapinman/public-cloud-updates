@@ -1,7 +1,67 @@
 {
-  "updated": "2026年10月09日 01:58 JST",
+  "updated": "2026年10月09日 15:11 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Generally Available: Managed StandardV2 NAT Gateway for AKS",
+        "link": "https://azure.microsoft.com/updates?id=574430",
+        "summary": "AKS will now provision and manage a StandardV2 NAT Gateway for clusters using an AKS-managed virtual network.StandardV2 is now the default managed NAT Gateway SKU for new clusters in supported…",
+        "date": "2026年10月9日",
+        "date_iso": "2026-10-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Azure Database for PostgreSQL flexible server in East US 3",
+        "link": "https://azure.microsoft.com/updates?id=573691",
+        "summary": "Now you can deploy Azure Database for PostgreSQL flexible server in the East US 3 Azure region. Learn more.",
+        "date": "2026年10月9日",
+        "date_iso": "2026-10-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Retirement: Microsoft Dev Box will be retired on September 18, 2028",
+        "link": "https://azure.microsoft.com/updates?id=567933",
+        "summary": "Microsoft Dev Box will retire on September 18, 2028. Beginning on September 14, 2026, Microsoft Dev Box will begin the closing-down process. After retirement, Microsoft Dev Box will no longer be…",
+        "date": "2026年10月9日",
+        "date_iso": "2026-10-09",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Retirement: Azure Deployment Environments will be retired on February 22, 2027",
+        "link": "https://azure.microsoft.com/updates?id=567934",
+        "summary": "Azure Deployment Environments will retire on February 22, 2027. Beginning on September 14, 2026, Azure Deployment Environments will begin the closing-down process. After retirement, the service will…",
+        "date": "2026年10月9日",
+        "date_iso": "2026-10-09",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Exceptions in WAF for Azure Application Gateway and Azure Front Door",
+        "link": "https://azure.microsoft.com/updates?id=574343",
+        "summary": "Announcing the general availability of exceptions for Web Application Firewall on Azure Application Gateway and Azure Front Door.Azure Web Application Firewall (WAF) helps protect your web…",
+        "date": "2026年10月9日",
+        "date_iso": "2026-10-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Microsoft Agent 365 integration with Azure API Management",
+        "link": "https://azure.microsoft.com/updates?id=574204",
+        "summary": "The integration between Microsoft Agent 365 and Azure API Management is now available in public preview, helping organizations connect centralized governance with runtime enforcement for MCP servers…",
+        "date": "2026年10月9日",
+        "date_iso": "2026-10-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Announcing: Multiparty private offers in Microsoft Marketplace expands to Hong Kong",
         "link": "https://azure.microsoft.com/updates?id=571831",
@@ -141,73 +201,73 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Retirement: DCsv3 and DCdsv3-series Azure Virtual Machines will be retired on October 31, 2029",
-        "link": "https://azure.microsoft.com/updates?id=569592",
-        "summary": "On October 31, 2029, DCsv3 and DCdsv3-series Azure Linux, Windows and Dedicated Host virtual machines will be retired. After that date, they will no longer be available for use or purchase. Before…",
-        "date": "2026年10月2日",
-        "date_iso": "2026-10-02",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: SQL performance monitoring for SQL Server on Azure Virtual Machines",
-        "link": "https://azure.microsoft.com/updates?id=571894",
-        "summary": "The public preview of Microsoft-managed performance monitoring for SQL Server on Azure Virtual Machines is now available. You can now monitor SQL Server on Azure Virtual Machines without building…",
-        "date": "2026年10月1日",
-        "date_iso": "2026-10-01",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Retirement: NVv3-series Azure Virtual Machines",
-        "link": "https://azure.microsoft.com/updates?id=573414",
-        "summary": "On September 30, 2026, Microsoft Azure retired the Standard_NV12s_v3, Standard_NV12hs_v3, Standard_NV24s_v3, Standard_NV24ms_v3, Standard_NV32ms_v3, and Standard_NV48s_v3 virtual machines (VMs) in…",
-        "date": "2026年10月1日",
-        "date_iso": "2026-10-01",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Retirement: NVv4-series Azure Virtual Machines",
-        "link": "https://azure.microsoft.com/updates?id=573415",
-        "summary": "On September 30, 2026, Microsoft Azure retired the Standard_NV4as_v4, Standard_NV4ahs_v4, Standard_NV8as_v4, Standard_NV8ahs_v4, Standard_NV16as_v4, Standard_NV16ahs_v4, Standard_NV32as_v4, and…",
-        "date": "2026年10月1日",
-        "date_iso": "2026-10-01",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Ubuntu 26.04 support in AKS",
-        "link": "https://azure.microsoft.com/updates?id=573214",
-        "summary": "Teams running Ubuntu node pools on AKS need to stay current with Ubuntu LTS releases, but each OS transition can introduce package footprint, security, and compatibility concerns. Ubuntu 26.04…",
-        "date": "2026年10月1日",
-        "date_iso": "2026-10-01",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Announcing: Azure canvases for GitHub Copilot",
-        "link": "https://azure.microsoft.com/updates?id=573385",
-        "summary": "Discover Azure canvases for GitHub Copilot, interactive shared workspaces that bring Azure tools, dashboards, and guided workflows directly alongside your Copilot conversations. Explore Azure…",
-        "date": "2026年10月1日",
-        "date_iso": "2026-10-01",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AZURE"
       }
     ],
     "aws": [
       {
+        "title": "OpenAI GPT-6.1 Sol now supports Ultrafast mode on Amazon Bedrock",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/openai-gpt-sol-ultrafast-amazon/",
+        "summary": "Today, AWS announces the availability of Ultrafast mode for GPT-6.1 Sol from OpenAI on Amazon Bedrock.&nbsp;Ultrafast mode provides faster inference for workloads where speed matters most. The Amazon…",
+        "date": "2026年10月9日",
+        "date_iso": "2026-10-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Cost Explorer, Budgets, and Dashboards now support Amazon Bedrock product attributes",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-bedrock-attributes-in-cost-explorer/",
+        "summary": "AWS Cost Explorer, AWS Budgets, and AWS Cost Management Dashboards now let you analyze Amazon Bedrock costs by product attributes, a new dimension that breaks down Bedrock cost by model, model…",
+        "date": "2026年10月9日",
+        "date_iso": "2026-10-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon RDS for Oracle now supports minor version upgrade prechecks and a new RDS event to help reduce patching downtime",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-rds-oracle-minor-version-upgrade-precheck-new-patching-rds-event/",
+        "summary": "Amazon Relational Database Service (Amazon RDS) for Oracle now lets you run a minor version upgrade precheck yourself, before you start an upgrade or before your scheduled maintenance window. RDS for…",
+        "date": "2026年10月9日",
+        "date_iso": "2026-10-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Network Firewall adds wildcard support for container attribute filters",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-network-firewall-container-attributes-wildcard",
+        "summary": "AWS Network Firewall now supports wildcard matching in container attribute-based inspection filters for Amazon Elastic Kubernetes Service (Amazon EKS) and Amazon Elastic Container Service (Amazon…",
+        "date": "2026年10月9日",
+        "date_iso": "2026-10-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
         "title": "AWS Capabilities by Region now offers availability notifications for individual features and advanced filters",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/awscapabilities-enhancements/",
         "summary": "Today, AWS announces feature-level availability notifications and advanced filters for AWS Capabilities by Region in AWS Builder Center. You can now set availability notifications for AWS service, or…",
+        "date": "2026年10月8日",
+        "date_iso": "2026-10-08",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon GameLift Servers adds CPU burstability for container fleets",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-gamelift-servers-cpu-burstability",
+        "summary": "Amazon GameLift Servers now supports CPU burstability for container fleets, giving game developers greater flexibility in how compute resources are allocated and consumed at runtime. Previously,…",
+        "date": "2026年10月8日",
+        "date_iso": "2026-10-08",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 C8gb instances now generally available in additional regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ec2-c8gb/",
+        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8gb instances, powered by the latest-generation AWS Graviton4 processors, are available in the US East (Ohio), US West (N. California), EU…",
         "date": "2026年10月8日",
         "date_iso": "2026-10-08",
         "category": "ai-tag",
@@ -222,6 +282,16 @@
         "date_iso": "2026-10-08",
         "category": "storage-tag",
         "cat_label": "ストレージ",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Batch が Amazon CloudWatch にジョブメトリクスを公開開始",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/aws-batch-job-cloudwatch-metrics/",
+        "summary": "",
+        "date": "2026年10月7日",
+        "date_iso": "2026-10-07",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "AWS"
       },
       {
@@ -245,19 +315,79 @@
         "tag": "AWS"
       },
       {
-        "title": "AWS Batch now publishes job metrics to Amazon CloudWatch",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-batch-job-cloudwatch-metrics/",
-        "summary": "AWS Batch now publishes job metrics to Amazon CloudWatch, providing native observability for batch workloads. AWS Batch emits metrics throughout the job lifecycle, giving you visibility into job…",
-        "date": "2026年10月7日",
-        "date_iso": "2026-10-07",
+        "title": "AWS Certificate Manager が AWS PrivateLink による ACME 発行をサポート開始",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/AWS-Certificate-Manager-ACME-Privatelink",
+        "summary": "",
+        "date": "2026年10月6日",
+        "date_iso": "2026-10-06",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "AWS"
       },
       {
-        "title": "AWS Certificate Manager now supports ACME issuance through AWS PrivateLink",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/AWS-Certificate-Manager-ACME-Privatelink",
-        "summary": "AWS Certificate Manager (ACM) now supports AWS PrivateLink for ACME public certificate issuance, allowing you to request and renew public TLS certificates over a private network path that stays…",
+        "title": "Amazon Redshift で Apache Iceberg マテリアライズドビューの作成と更新のサポートを追加",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/redshift-iceberg-materialized-views",
+        "summary": "",
+        "date": "2026年10月6日",
+        "date_iso": "2026-10-06",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Z.ai の GLM 5.3 が Amazon Bedrock で一般提供開始",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/amazon-bedrock-glm-5-3/",
+        "summary": "",
+        "date": "2026年10月6日",
+        "date_iso": "2026-10-06",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS IAM アイデンティティセンターでアイデンティティストアのネットワークアクセスコントロールのサポートを開始",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/aws-identity-store-network-controls/",
+        "summary": "",
+        "date": "2026年10月6日",
+        "date_iso": "2026-10-06",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Control Tower AFT がプランのみのカスタマイズ実行をサポート開始",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/aws-control-tower-aft/",
+        "summary": "",
+        "date": "2026年10月6日",
+        "date_iso": "2026-10-06",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Continuum for Penetration Testing で CI/CD パイプラインに直接統合された継続的なペネトレーションテストのサポートを開始",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/aws-continuum-penetration-testing/",
+        "summary": "",
+        "date": "2026年10月6日",
+        "date_iso": "2026-10-06",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 に Amazon Machine Images 用の共有タグが導入される",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/ec2-ami-shared-tags",
+        "summary": "",
+        "date": "2026年10月6日",
+        "date_iso": "2026-10-06",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Client VPN でデバイスポスチャの評価のサポートを開始",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/aws-client-vpn-device-posture/",
+        "summary": "",
         "date": "2026年10月6日",
         "date_iso": "2026-10-06",
         "category": "network-tag",
@@ -265,155 +395,35 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon Redshift adds support for creating and refreshing Apache Iceberg materialized views",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/redshift-iceberg-materialized-views",
-        "summary": "Amazon Redshift now supports the creation and refresh of Apache Iceberg materialized views. Materialized views pre-compute expensive joins and aggregations once and store the results in an Apache…",
+        "title": "AWS Advanced Ruby Driver Wrapper の一般提供を開始",
+        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/aws-ruby-driver-wrapper-available/",
+        "summary": "",
         "date": "2026年10月6日",
         "date_iso": "2026-10-06",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "GLM 5.3 by Z.ai is now generally available on Amazon Bedrock",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-glm-5-3/",
-        "summary": "Amazon Bedrock now supports GLM 5.3 from Z.ai, giving you a powerful new option for agentic coding and long-horizon software engineering work. Customers using GLM 5.3 on Amazon Bedrock have access to…",
-        "date": "2026年10月6日",
-        "date_iso": "2026-10-06",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS IAM Identity Center now supports network access controls for Identity Store",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-identity-store-network-controls/",
-        "summary": "AWS IAM Identity Center helps you configure the single sign-on experience for your workforce to AWS accounts and applications. IAM Identity Center now supports network access controls for Identity…",
-        "date": "2026年10月6日",
-        "date_iso": "2026-10-06",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 Hpc8a instances are now available in Asia Pacific (Singapore)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ec2-hpc8a-asia-pacific/",
-        "summary": "Starting today, Amazon EC2 Hpc8a instances are available in&nbsp;Asia Pacific (Singapore) region. These instances are powered by 5th Gen AMD EPYC processors (formerly code named Turin). With a…",
-        "date": "2026年10月6日",
-        "date_iso": "2026-10-06",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Control Tower AFT now supports plan-only customization runs",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-control-tower-aft/",
-        "summary": "AWS Control Tower Account Factory for Terraform (AFT) now supports plan-only customization runs, giving administrators the ability to preview Terraform changes before applying them across their…",
-        "date": "2026年10月6日",
-        "date_iso": "2026-10-06",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Continuum for Penetration Testing now supports continuous penetration testing integrated directly into your CI/CD…",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-continuum-penetration-testing/",
-        "summary": "AWS Continuum for Penetration Testing now integrates continuous penetration testing directly into your CI/CD pipeline (public preview) AWS Continuum for Penetration Testing (formerly AWS Security…",
-        "date": "2026年10月6日",
-        "date_iso": "2026-10-06",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 introduces shared tags for Amazon Machine Images",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/ec2-ami-shared-tags",
-        "summary": "Amazon EC2 now supports AMI tag sharing, a new feature that lets AMI owners make selected tags visible to all AWS accounts an AMI is shared with. Whether an AMI is shared with an account, across an…",
-        "date": "2026年10月6日",
-        "date_iso": "2026-10-06",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Client VPN now supports device posture assessment",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-client-vpn-device-posture/",
-        "summary": "AWS Client VPN now supports device posture assessment, allowing you to verify that connecting user devices meet your security and compliance requirements before granting network access. This feature…",
-        "date": "2026年10月6日",
-        "date_iso": "2026-10-06",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Advanced Ruby Driver Wrapper is generally available",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-ruby-driver-wrapper-available/",
-        "summary": "The Amazon Web Services (AWS) Advanced Ruby Driver Wrapper is now generally available for use with Amazon RDS and Amazon Aurora PostgreSQL and MySQL-compatible databases. This advanced database…",
-        "date": "2026年10月6日",
-        "date_iso": "2026-10-06",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Batch now supports Amazon EKS access entry authentication",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-batch-access-entries/",
-        "summary": "AWS Batch now supports Amazon EKS access entry authentication for compute environments. EKS access entries provide an API-driven approach to granting IAM principals access to Kubernetes clusters,…",
-        "date": "2026年10月6日",
-        "date_iso": "2026-10-06",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Private CA now provides detailed certificate issuance logs",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-private-ca-certificate-issuance-logs/",
-        "summary": "AWS Private CA announces detailed certificate issuance logs, a new AWS CloudTrail service event that records the complete certificate content, issuing CA information, requester identity, and signing…",
-        "date": "2026年10月5日",
-        "date_iso": "2026-10-05",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Announcing Amazon Nova 2.5 Sonic with improved reasoning for voice agents",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-nova-2.5-sonic/",
-        "summary": "Today, we announce the general availability of Amazon Nova 2.5 Sonic, our latest speech-to-speech model for natural, real-time voice agents. This release brings improved reasoning, instruction…",
-        "date": "2026年10月5日",
-        "date_iso": "2026-10-05",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon ECS adds Amazon VPC Lattice support for blue/green, linear, and canary deployments",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ecs-vpc-lattice-blue-green-deployments",
-        "summary": "Amazon Elastic Container Service (Amazon ECS) now supports built-in blue/green, linear, and canary deployment strategies for ECS services using Amazon VPC Lattice . Applications that use VPC Lattice…",
-        "date": "2026年10月3日",
-        "date_iso": "2026-10-03",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Health introduces the version catalog for software lifecycle management",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-health-introduces-version-catalog-software-lifecycle-management",
-        "summary": "Today, AWS Health introduces the version catalog which provides a centralized source of lifecycle information for software versions across AWS services. The version catalog helps customers move from…",
-        "date": "2026年10月3日",
-        "date_iso": "2026-10-03",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
         "tag": "AWS"
       }
     ],
     "gcp": [
       {
-        "title": "October 07, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_07_2026",
-        "summary": "Apigee hybrid Announcement v1.14.9 On October 7, 2026 we released an updated version of the Apigee hybrid software, v1.14.9. For information on upgrading, see Upgrading Apigee hybrid to version…",
-        "date": "2026年10月7日",
-        "date_iso": "2026-10-07",
+        "title": "October 08, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_08_2026",
+        "summary": "BigQuery Feature The following table types now support flexible column names by default: Iceberg external tables and Iceberg managed tables in BigQuery Apache Iceberg tables managed by the Lakehouse…",
+        "date": "2026年10月8日",
+        "date_iso": "2026-10-08",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
+        "tag": "GCP"
+      },
+      {
+        "title": "October 07, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_07_2026",
+        "summary": "Anti Money Laundering AI Announcement New minor engine version released for the commercial line of business within the v004.005 version line ( aml-commercial.default.v004.005.202609-000 ). This…",
+        "date": "2026年10月7日",
+        "date_iso": "2026-10-07",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "GCP"
       },
       {
@@ -595,27 +605,27 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
-      },
-      {
-        "title": "September 16, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_16_2026",
-        "summary": "Backup and DR Feature You can now use auto-protection policies and resource labels to automatically protect Compute Engine instances and Persistent Disks at scale in Backup and DR. This feature…",
-        "date": "2026年9月16日",
-        "date_iso": "2026-09-16",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
-        "tag": "GCP"
       }
     ],
     "oci": [
       {
-        "title": "Use OAuth resource indicators with identity domains",
-        "link": "https://docs.oracle.com/iaas/releasenotes/identity/oauth-resource-indicators-for-identity-domains.htm",
+        "title": "Support for Kubernetes version 1.37.0 in a preview release of Kubernetes Engine",
+        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-K8s-1-37-0-preview-support-Release-Note.htm",
+        "summary": "",
+        "date": "2026年10月8日",
+        "date_iso": "2026-10-08",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "OCI"
+      },
+      {
+        "title": "Automatic Target Registration for Exadata Exascale in Oracle Data Safe",
+        "link": "https://docs.oracle.com/iaas/releasenotes/data-safe/auto-register-exascale.htm",
         "summary": "",
         "date": "2026年10月7日",
         "date_iso": "2026-10-07",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "OCI"
       },
       {
@@ -689,26 +699,6 @@
         "tag": "OCI"
       },
       {
-        "title": "Managing One-Click Sign-In with Passkeys",
-        "link": "https://docs.oracle.com/iaas/releasenotes/identity/one-click-sign-in-with-passkeys.htm",
-        "summary": "",
-        "date": "2026年9月30日",
-        "date_iso": "2026-09-30",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Cloud Shell now Supports Regional Launch",
-        "link": "https://docs.oracle.com/iaas/releasenotes/cloud-shell/regional_launch.htm",
-        "summary": "",
-        "date": "2026年9月30日",
-        "date_iso": "2026-09-30",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
         "title": "Automatic Target Registration for ExaDB-D in Oracle Data Safe",
         "link": "https://docs.oracle.com/iaas/releasenotes/data-safe/auto-register.htm",
         "summary": "",
@@ -721,6 +711,16 @@
       {
         "title": "Data Subsetting in Oracle Data Safe",
         "link": "https://docs.oracle.com/iaas/releasenotes/data-safe/data-subsetting.htm",
+        "summary": "",
+        "date": "2026年9月30日",
+        "date_iso": "2026-09-30",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Cloud Shell now Supports Regional Launch",
+        "link": "https://docs.oracle.com/iaas/releasenotes/cloud-shell/regional_launch.htm",
         "summary": "",
         "date": "2026年9月30日",
         "date_iso": "2026-09-30",
@@ -799,13 +799,13 @@
         "tag": "OCI"
       },
       {
-        "title": "New 26.3.2.xxx Release for App Gateway Docker, OVA, and Patch Releases",
-        "link": "https://docs.oracle.com/iaas/releasenotes/identity/app-gateway-docker-ova-supported-releases-patches.htm",
+        "title": "VCN-Native Pod Networking CNI plugin version 3.3.1 now available",
+        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-VCN-native-CNI-v331-Release-Note.htm",
         "summary": "",
-        "date": "2026年9月28日",
-        "date_iso": "2026-09-28",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
+        "date": "2026年9月25日",
+        "date_iso": "2026-09-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "OCI"
       }
     ]
