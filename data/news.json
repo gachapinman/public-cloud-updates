@@ -1,7 +1,17 @@
 {
-  "updated": "2026年10月10日 01:37 JST",
+  "updated": "2026年10月10日 14:54 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Retirement: Azure Key Vault Secrets Provider Extension for Azure Arc enabled Kubernetes clusters",
+        "link": "https://azure.microsoft.com/updates?id=570313",
+        "summary": "The Azure Key Vault Secrets Provider Extension for Azure Arc-enabled Kubernetes will be retired on October 9, 2027.Customers currently using the extension should plan to migrate to the Azure Key…",
+        "date": "2026年10月10日",
+        "date_iso": "2026-10-10",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AZURE"
+      },
       {
         "title": "Generally Available: Managed StandardV2 NAT Gateway for AKS",
         "link": "https://azure.microsoft.com/updates?id=574430",
@@ -191,19 +201,119 @@
         "category": "security-tag",
         "cat_label": "セキュリティ",
         "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Major version upgrades (MVU) for Azure Database for PostgreSQL elastic clusters",
-        "link": "https://azure.microsoft.com/updates?id=571504",
-        "summary": "MVUs are now available for elastic clusters in Azure Database for PostgreSQL. You can upgrade an existing elastic cluster to a supported newer PostgreSQL version in place without provisioning a…",
-        "date": "2026年10月3日",
-        "date_iso": "2026-10-03",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "AWS Security Hub now exports findings to S3 in CSV or JSON format",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/security-hub-exports-s3-csv-json/",
+        "summary": "Today, AWS Security Hub announces support for exporting findings to Amazon S3 in CSV or JSON (OCSF) format. Security teams that need findings outside the console for use cases such as compliance…",
+        "date": "2026年10月10日",
+        "date_iso": "2026-10-10",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 R8gd instances are now available in additional regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ec2-r8gd-thf/",
+        "summary": "Amazon Elastic Compute Cloud (Amazon EC2) R8gd instances are available in AWS European Sovereign Cloud (Germany) region. These instances feature up to 11.4 TB of local NVMe-based SSD block-level…",
+        "date": "2026年10月10日",
+        "date_iso": "2026-10-10",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 R8g instances now available in additional regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ec2-r8g-instances-thf/",
+        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8g instances are available in the AWS European Sovereign Cloud (Germany) region. These instances are powered by AWS Graviton4 processors and…",
+        "date": "2026年10月10日",
+        "date_iso": "2026-10-10",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Bedrock now supports reasoning summaries for OpenAI models",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-reasoning-summaries-openai/",
+        "summary": "Amazon Bedrock now supports the reasoning.summary parameter for OpenAI models through the Responses API. This capability lets you request a human-readable summary of a model’s reasoning alongside its…",
+        "date": "2026年10月10日",
+        "date_iso": "2026-10-10",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Anthropic Claude Sonnet 5.5 and Claude Opus 5.5 are now available on Kiro in AWS GovCloud (US)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/kiro-claude-5-5-aws-govcloud-us/",
+        "summary": "Two new Anthropic models are now available in the Kiro IDE and CLI for the AWS GovCloud (US) Regions. Claude Opus 5.5 is Anthropic's most capable Opus model yet and a step up from Opus 5 on…",
+        "date": "2026年10月10日",
+        "date_iso": "2026-10-10",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Connect Customer now provides automated checks to improve performance evaluation forms",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-connect-customer-automated-checks-evaluation-forms/",
+        "summary": "Amazon Connect Customer now suggests changes to performance evaluation forms that improve the accuracy of evaluations automatically filled by AI. While setting up an evaluation form, managers can run…",
+        "date": "2026年10月10日",
+        "date_iso": "2026-10-10",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon S3 Vectors metadata pre-filtering is now available in AWS GovCloud (US) Regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/s3-vectors-metadata-pre-filtering-in-govcloud-regions/",
+        "summary": "Amazon S3 Vectors metadata pre-filtering is now available in the AWS GovCloud (US-East) and AWS GovCloud (US-West) Regions. Pre-filtering evaluates metadata filters before running similarity search,…",
+        "date": "2026年10月10日",
+        "date_iso": "2026-10-10",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Lambda supports OAuth authentication for self-managed Apache Kafka event sources",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-Lambda-supports-oauth-kafka-esm/",
+        "summary": "AWS Lambda now supports OAuth authentication for self-managed Apache Kafka event source mappings (ESM), including&nbsp;Kafka clusters that customers run themselves and managed offerings such as…",
+        "date": "2026年10月10日",
+        "date_iso": "2026-10-10",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Quick now supports brand templates for on-brand presentations and documents",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-quick-brand-templates-on-brand-presentations-documents/",
+        "summary": "Starting today, you can upload brand templates in Amazon Quick, allowing you to create presentations and documents that match your approved visual identity. Brand managers set up a template once and…",
+        "date": "2026年10月10日",
+        "date_iso": "2026-10-10",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon SageMaker Unified Studio now supports custom Tooling blueprints",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-custom-tooling-blueprints/",
+        "summary": "Amazon SageMaker Unified Studio now supports custom Tooling blueprints, giving domain administrators the ability to define the foundation of every project by using their own AWS CloudFormation…",
+        "date": "2026年10月9日",
+        "date_iso": "2026-10-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "TwelveLabs Pegasus 1.5 model now available on Amazon Bedrock",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/twelve-labs-pegasus-1-5-aws/",
+        "summary": "Amazon Bedrock now supports TwelveLabs Pegasus 1.5, a video-to-text model that generates structured, time-coded metadata from video. Until now, finding a moment in a large video library meant knowing…",
+        "date": "2026年10月9日",
+        "date_iso": "2026-10-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
       {
         "title": "OpenAI GPT-6.1 Sol now supports Ultrafast mode on Amazon Bedrock",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/openai-gpt-sol-ultrafast-amazon/",
@@ -265,6 +375,16 @@
         "tag": "AWS"
       },
       {
+        "title": "Amazon GuardDuty RDS Protection now detects data exfiltration and destruction in Aurora and RDS databases",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/guardduty-rds-data-exfiltration/",
+        "summary": "Amazon GuardDuty announces an expansion of RDS Protection that extends threat detection beyond login anomalies to identify data exfiltration and data destruction attacks targeting Amazon Aurora…",
+        "date": "2026年10月8日",
+        "date_iso": "2026-10-08",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon EC2 C8gb instances now generally available in additional regions",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ec2-c8gb/",
         "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8gb instances, powered by the latest-generation AWS Graviton4 processors, are available in the US East (Ohio), US West (N. California), EU…",
@@ -283,133 +403,13 @@
         "category": "storage-tag",
         "cat_label": "ストレージ",
         "tag": "AWS"
-      },
-      {
-        "title": "AWS Batch が Amazon CloudWatch にジョブメトリクスを公開開始",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/aws-batch-job-cloudwatch-metrics/",
-        "summary": "",
-        "date": "2026年10月7日",
-        "date_iso": "2026-10-07",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Claude Haiku 5.5 is now available on AWS",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/claude-haiku-5-5-aws/",
-        "summary": "AWS now offers Claude Haiku 5.5, the fastest and most efficient model in the Claude 5.5 family, built for subagents and high-volume, cost-sensitive work. According to Anthropic, it costs around 75%…",
-        "date": "2026年10月7日",
-        "date_iso": "2026-10-07",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Claude Haiku 5.5 is now available on AWS GovCloud (US)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/claude-haiku-5-5-aws-govcloud/",
-        "summary": "AWS GovCloud (US) now offers Claude Haiku 5.5, the fastest and most efficient model in the Claude 5.5 family, built for subagents and high-volume, cost-sensitive work. According to Anthropic, it…",
-        "date": "2026年10月7日",
-        "date_iso": "2026-10-07",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Certificate Manager が AWS PrivateLink による ACME 発行をサポート開始",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/AWS-Certificate-Manager-ACME-Privatelink",
-        "summary": "",
-        "date": "2026年10月6日",
-        "date_iso": "2026-10-06",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Redshift で Apache Iceberg マテリアライズドビューの作成と更新のサポートを追加",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/redshift-iceberg-materialized-views",
-        "summary": "",
-        "date": "2026年10月6日",
-        "date_iso": "2026-10-06",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Z.ai の GLM 5.3 が Amazon Bedrock で一般提供開始",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/amazon-bedrock-glm-5-3/",
-        "summary": "",
-        "date": "2026年10月6日",
-        "date_iso": "2026-10-06",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS IAM アイデンティティセンターでアイデンティティストアのネットワークアクセスコントロールのサポートを開始",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/aws-identity-store-network-controls/",
-        "summary": "",
-        "date": "2026年10月6日",
-        "date_iso": "2026-10-06",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Control Tower AFT がプランのみのカスタマイズ実行をサポート開始",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/aws-control-tower-aft/",
-        "summary": "",
-        "date": "2026年10月6日",
-        "date_iso": "2026-10-06",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Continuum for Penetration Testing で CI/CD パイプラインに直接統合された継続的なペネトレーションテストのサポートを開始",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/aws-continuum-penetration-testing/",
-        "summary": "",
-        "date": "2026年10月6日",
-        "date_iso": "2026-10-06",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 に Amazon Machine Images 用の共有タグが導入される",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/ec2-ami-shared-tags",
-        "summary": "",
-        "date": "2026年10月6日",
-        "date_iso": "2026-10-06",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Client VPN でデバイスポスチャの評価のサポートを開始",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/aws-client-vpn-device-posture/",
-        "summary": "",
-        "date": "2026年10月6日",
-        "date_iso": "2026-10-06",
-        "category": "network-tag",
-        "cat_label": "ネットワーク",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Advanced Ruby Driver Wrapper の一般提供を開始",
-        "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/aws-ruby-driver-wrapper-available/",
-        "summary": "",
-        "date": "2026年10月6日",
-        "date_iso": "2026-10-06",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
       }
     ],
     "gcp": [
       {
         "title": "October 09, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_09_2026",
-        "summary": "Datastream Feature Datastream now supports replicating SQL Server GEOMETRY and GEOGRAPHY spatial data types. For more information, see the following: Map SQL Server data types to Datastream unified…",
+        "summary": "Cloud SQL for MySQL Feature When you enable Knowledge Catalog (formerly Dataplex Universal Catalog) integration on an eligible Cloud SQL for MySQL instance created before April 18, 2026 where the…",
         "date": "2026年10月9日",
         "date_iso": "2026-10-09",
         "category": "database-tag",
@@ -419,11 +419,11 @@
       {
         "title": "October 08, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_08_2026",
-        "summary": "BigQuery Feature The following table types now support flexible column names by default: Iceberg external tables and Iceberg managed tables in BigQuery Apache Iceberg tables managed by the Lakehouse…",
+        "summary": "Cloud SQL for MySQL Feature Cloud SQL for MySQL now supports the innodb_cloudsql_managed_buffer_pool_tuneup_pct database flag. Managed buffer pool automatically adjusts the InnoDB buffer pool size to…",
         "date": "2026年10月8日",
         "date_iso": "2026-10-08",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
+        "category": "database-tag",
+        "cat_label": "データベース",
         "tag": "GCP"
       },
       {
@@ -539,7 +539,7 @@
       {
         "title": "September 26, 2026",
         "link": "https://docs.cloud.google.com/release-notes#September_26_2026",
-        "summary": "Google SecOps SOAR Announcement Release 6.3.100 is now available for all regions.",
+        "summary": "Backup and DR Security Note: These fixes and updates are available starting with Backup and DR release 11.0.17.496. These fixes are not rolled out to the 11.0.16 release; we recommend upgrading the…",
         "date": "2026年9月26日",
         "date_iso": "2026-09-26",
         "category": "ai-tag",
@@ -609,6 +609,16 @@
     ],
     "oci": [
       {
+        "title": "ID-JAG token exchange across trust domains",
+        "link": "https://docs.oracle.com/iaas/releasenotes/identity/id-jag-token-exchange-across-trust-domains.htm",
+        "summary": "",
+        "date": "2026年10月9日",
+        "date_iso": "2026-10-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
         "title": "Support for Kubernetes version 1.37.0 in a preview release of Kubernetes Engine",
         "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-K8s-1-37-0-preview-support-Release-Note.htm",
         "summary": "",
@@ -616,6 +626,16 @@
         "date_iso": "2026-10-08",
         "category": "container-tag",
         "cat_label": "コンテナ",
+        "tag": "OCI"
+      },
+      {
+        "title": "Use OAuth resource indicators with identity domains",
+        "link": "https://docs.oracle.com/iaas/releasenotes/identity/oauth-resource-indicators-for-identity-domains.htm",
+        "summary": "",
+        "date": "2026年10月7日",
+        "date_iso": "2026-10-07",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "OCI"
       },
       {
@@ -699,6 +719,26 @@
         "tag": "OCI"
       },
       {
+        "title": "Managing One-Click Sign-In with Passkeys",
+        "link": "https://docs.oracle.com/iaas/releasenotes/identity/one-click-sign-in-with-passkeys.htm",
+        "summary": "",
+        "date": "2026年9月30日",
+        "date_iso": "2026-09-30",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Cloud Shell now Supports Regional Launch",
+        "link": "https://docs.oracle.com/iaas/releasenotes/cloud-shell/regional_launch.htm",
+        "summary": "",
+        "date": "2026年9月30日",
+        "date_iso": "2026-09-30",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
         "title": "Automatic Target Registration for ExaDB-D in Oracle Data Safe",
         "link": "https://docs.oracle.com/iaas/releasenotes/data-safe/auto-register.htm",
         "summary": "",
@@ -711,16 +751,6 @@
       {
         "title": "Data Subsetting in Oracle Data Safe",
         "link": "https://docs.oracle.com/iaas/releasenotes/data-safe/data-subsetting.htm",
-        "summary": "",
-        "date": "2026年9月30日",
-        "date_iso": "2026-09-30",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Cloud Shell now Supports Regional Launch",
-        "link": "https://docs.oracle.com/iaas/releasenotes/cloud-shell/regional_launch.htm",
         "summary": "",
         "date": "2026年9月30日",
         "date_iso": "2026-09-30",
@@ -776,36 +806,6 @@
         "date_iso": "2026-09-29",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "HeatWave: Default MySQL Version Changes to 9.7 LTS",
-        "link": "https://docs.oracle.com/iaas/releasenotes/mysql-database/heatwave-97x-default-track.htm",
-        "summary": "",
-        "date": "2026年9月29日",
-        "date_iso": "2026-09-29",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "OCI"
-      },
-      {
-        "title": "Internet of Things expands Flow Runtime and Digital Twin capabilities",
-        "link": "https://docs.oracle.com/iaas/releasenotes/internet-of-things/update-09292026.htm",
-        "summary": "",
-        "date": "2026年9月29日",
-        "date_iso": "2026-09-29",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "VCN-Native Pod Networking CNI plugin version 3.3.1 now available",
-        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-VCN-native-CNI-v331-Release-Note.htm",
-        "summary": "",
-        "date": "2026年9月25日",
-        "date_iso": "2026-09-25",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "OCI"
       }
     ]
