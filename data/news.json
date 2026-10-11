@@ -1,5 +1,5 @@
 {
-  "updated": "2026年10月11日 00:34 JST",
+  "updated": "2026年10月11日 14:49 JST",
   "clouds": {
     "azure": [
       {
@@ -407,13 +407,23 @@
     ],
     "gcp": [
       {
-        "title": "October 09, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_09_2026",
-        "summary": "Cloud SQL for MySQL Feature When you enable Knowledge Catalog (formerly Dataplex Universal Catalog) integration on an eligible Cloud SQL for MySQL instance created before April 18, 2026 where the…",
-        "date": "2026年10月9日",
-        "date_iso": "2026-10-09",
+        "title": "October 10, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_10_2026",
+        "summary": "Cloud SQL for MySQL Change MySQL 8.0.46 is now the default minor version for Cloud SQL for MySQL 8.0. For more information about minor version support in Cloud SQL for MySQL, see MySQL 8.0 .",
+        "date": "2026年10月10日",
+        "date_iso": "2026-10-10",
         "category": "database-tag",
         "cat_label": "データベース",
+        "tag": "GCP"
+      },
+      {
+        "title": "October 09, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_09_2026",
+        "summary": "BigQuery Feature The BigQuery Data Engineering Agent is now available in the asia-northeast1 (Tokyo) regional endpoint and supports the gemini-3.5-flash model. For more information, see Where Gemini…",
+        "date": "2026年10月9日",
+        "date_iso": "2026-10-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "GCP"
       },
       {
@@ -594,16 +604,6 @@
         "date_iso": "2026-09-21",
         "category": "security-tag",
         "cat_label": "セキュリティ",
-        "tag": "GCP"
-      },
-      {
-        "title": "September 18, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_18_2026",
-        "summary": "Agent Platform Workbench Change 20260918-2230-rc0 Release Change 20260918-2230-rc0 Release Change Installed latest packages from upstream dependencies. Change Installed latest packages from upstream…",
-        "date": "2026年9月18日",
-        "date_iso": "2026-09-18",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
         "tag": "GCP"
       }
     ],
