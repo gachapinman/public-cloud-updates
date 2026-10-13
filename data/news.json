@@ -1,5 +1,5 @@
 {
-  "updated": "2026年10月13日 19:57 JST",
+  "updated": "2026年10月14日 02:08 JST",
   "clouds": {
     "azure": [
       {
@@ -205,6 +205,16 @@
     ],
     "aws": [
       {
+        "title": "Bring deep SageMaker AI expertise to your coding agent with the AWS AI/ML skill in the Agent Toolkit for AWS",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/bring-sagemaker-ai-expertise-to-your-coding-agent/",
+        "summary": "Your coding agent can select, train, optimize and deploy models on Amazon SageMaker AI while working across the rest of your AWS environment in a single natural-language workflow. The AWS AI/ML skill…",
+        "date": "2026年10月13日",
+        "date_iso": "2026-10-13",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon CloudFront now supports AWS Lambda Web Functions as an origin",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/cloudfront-lambda-web-functions-origin/",
         "summary": "Starting today, you can deliver web applications built on AWS Lambda Web Functions through CloudFront's global edge network. &nbsp; With CloudFront in front of a Lambda Web Function, you get TLS…",
@@ -392,16 +402,6 @@
         "date_iso": "2026-10-10",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Lambda supports OAuth authentication for self-managed Apache Kafka event sources",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-Lambda-supports-oauth-kafka-esm/",
-        "summary": "AWS Lambda now supports OAuth authentication for self-managed Apache Kafka event source mappings (ESM), including&nbsp;Kafka clusters that customers run themselves and managed offerings such as…",
-        "date": "2026年10月10日",
-        "date_iso": "2026-10-10",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
         "tag": "AWS"
       }
     ],
