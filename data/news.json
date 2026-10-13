@@ -1,5 +1,5 @@
 {
-  "updated": "2026年10月13日 04:22 JST",
+  "updated": "2026年10月13日 15:48 JST",
   "clouds": {
     "azure": [
       {
@@ -205,9 +205,79 @@
     ],
     "aws": [
       {
+        "title": "Amazon CloudFront now supports AWS Lambda Web Functions as an origin",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/cloudfront-lambda-web-functions-origin/",
+        "summary": "Starting today, you can deliver web applications built on AWS Lambda Web Functions through CloudFront's global edge network. &nbsp; With CloudFront in front of a Lambda Web Function, you get TLS…",
+        "date": "2026年10月13日",
+        "date_iso": "2026-10-13",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 G7 instances now available in Europe (Frankfurt) and Europe (Stockholm) Regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-g7-european-regions/",
+        "summary": "Amazon Elastic Compute Cloud (Amazon EC2) G7 instances powered by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs are now available in Europe (Frankfurt) and Europe (Stockholm) Regions. G7…",
+        "date": "2026年10月13日",
+        "date_iso": "2026-10-13",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Connect Customer now prefills step-by-step guides for after contact work",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-customer-prefills-guides-acw",
+        "summary": "Amazon Connect Customer can now fill in the step-by-step guides that agents complete after a contact, using information extracted from customer conversations, such as booking identifiers, claim…",
+        "date": "2026年10月13日",
+        "date_iso": "2026-10-13",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Lambda announces Lambda Web Functions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-lambda-web-functions/",
+        "summary": "AWS Lambda announces Lambda Web Functions, a new serverless compute primitive where your code handles HTTP requests directly. Your code listens on a port and handles requests as it would on any HTTP…",
+        "date": "2026年10月13日",
+        "date_iso": "2026-10-13",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Announcing consumption-based pricing for short-term memory in Amazon Bedrock AgentCore",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/agentcore-memory-consumption-based-pricing",
+        "summary": "Announcing consumption-based pricing for short-term memory in Amazon Bedrock AgentCore Amazon Bedrock AgentCore memory now prices short-term memory (STM) based on the data your agents ingest,…",
+        "date": "2026年10月13日",
+        "date_iso": "2026-10-13",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
         "title": "AWS Transfer Family supports custom ports for public SFTP servers",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/transfer-family-custom-ports-sftp/",
         "summary": "AWS Transfer Family now lets you configure custom ports on public SFTP servers and choose a communication mode for each port. You can support clients that require different ports or start SFTP…",
+        "date": "2026年10月12日",
+        "date_iso": "2026-10-12",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon S3 Express One Zone is now available in 4 additional AWS Regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/s3-express-one-zone-4-additional-regions/",
+        "summary": "The Amazon S3 Express One Zone storage class is now available in 4 additional AWS Regions: Europe (London), Asia Pacific (Jakarta), Asia Pacific (Hong Kong), and Africa (Cape Town). Amazon S3 Express…",
+        "date": "2026年10月12日",
+        "date_iso": "2026-10-12",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Secrets Manager adds managed external secrets support for Databricks and Twilio",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/secrets-manager-managed-external-secrets-databricks-twilio/",
+        "summary": "AWS Secrets Manager now extends its managed external secrets capability to include Databricks and Twilio, enabling you to automatically rotate the credentials that your data pipelines and messaging…",
         "date": "2026年10月12日",
         "date_iso": "2026-10-12",
         "category": "compute-tag",
@@ -225,6 +295,16 @@
         "tag": "AWS"
       },
       {
+        "title": "Amazon EMR now supports native data quality checks in Apache Spark jobs",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-emr-data-quality-spark/",
+        "summary": "Amazon EMR now validates data quality natively within Apache Spark jobs. Data engineering teams can catch quality issues inline before bad data reaches downstream systems, without building or…",
+        "date": "2026年10月12日",
+        "date_iso": "2026-10-12",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon OpenSearch Service now supports index-level encryption",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/opensearch-index-level-encryption",
         "summary": "Amazon OpenSearch Service now supports index-level encryption, letting you encrypt each index at rest with its own AWS Key Management Service (AWS KMS) customer managed key.&nbsp;This helps you…",
@@ -232,6 +312,16 @@
         "date_iso": "2026-10-12",
         "category": "security-tag",
         "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS now lets customers sign up for AWS and pay invoices using ACH direct debit",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-sign-up-invoices-ach-direct-debit/",
+        "summary": "Starting today, AWS customers in the United States can use a US bank account to sign up for AWS and pay for their AWS services through ACH direct debit. This feature provides a convenient and secure…",
+        "date": "2026年10月11日",
+        "date_iso": "2026-10-11",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "AWS"
       },
       {
@@ -313,107 +403,27 @@
         "category": "security-tag",
         "cat_label": "セキュリティ",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon Quick now supports brand templates for on-brand presentations and documents",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-quick-brand-templates-on-brand-presentations-documents/",
-        "summary": "Starting today, you can upload brand templates in Amazon Quick, allowing you to create presentations and documents that match your approved visual identity. Brand managers set up a template once and…",
-        "date": "2026年10月10日",
-        "date_iso": "2026-10-10",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SageMaker Unified Studio now supports custom Tooling blueprints",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-custom-tooling-blueprints/",
-        "summary": "Amazon SageMaker Unified Studio now supports custom Tooling blueprints, giving domain administrators the ability to define the foundation of every project by using their own AWS CloudFormation…",
-        "date": "2026年10月9日",
-        "date_iso": "2026-10-09",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "TwelveLabs Pegasus 1.5 model now available on Amazon Bedrock",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/twelve-labs-pegasus-1-5-aws/",
-        "summary": "Amazon Bedrock now supports TwelveLabs Pegasus 1.5, a video-to-text model that generates structured, time-coded metadata from video. Until now, finding a moment in a large video library meant knowing…",
-        "date": "2026年10月9日",
-        "date_iso": "2026-10-09",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "OpenAI GPT-6.1 Sol now supports Ultrafast mode on Amazon Bedrock",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/openai-gpt-sol-ultrafast-amazon/",
-        "summary": "Today, AWS announces the availability of Ultrafast mode for GPT-6.1 Sol from OpenAI on Amazon Bedrock.&nbsp;Ultrafast mode provides faster inference for workloads where speed matters most. The Amazon…",
-        "date": "2026年10月9日",
-        "date_iso": "2026-10-09",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Cost Explorer, Budgets, and Dashboards now support Amazon Bedrock product attributes",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-bedrock-attributes-in-cost-explorer/",
-        "summary": "AWS Cost Explorer, AWS Budgets, and AWS Cost Management Dashboards now let you analyze Amazon Bedrock costs by product attributes, a new dimension that breaks down Bedrock cost by model, model…",
-        "date": "2026年10月9日",
-        "date_iso": "2026-10-09",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon RDS for Oracle now supports minor version upgrade prechecks and a new RDS event to help reduce patching downtime",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-rds-oracle-minor-version-upgrade-precheck-new-patching-rds-event/",
-        "summary": "Amazon Relational Database Service (Amazon RDS) for Oracle now lets you run a minor version upgrade precheck yourself, before you start an upgrade or before your scheduled maintenance window. RDS for…",
-        "date": "2026年10月9日",
-        "date_iso": "2026-10-09",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Network Firewall adds wildcard support for container attribute filters",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-network-firewall-container-attributes-wildcard",
-        "summary": "AWS Network Firewall now supports wildcard matching in container attribute-based inspection filters for Amazon Elastic Kubernetes Service (Amazon EKS) and Amazon Elastic Container Service (Amazon…",
-        "date": "2026年10月9日",
-        "date_iso": "2026-10-09",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon GameLift Servers adds CPU burstability for container fleets",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-gamelift-servers-cpu-burstability",
-        "summary": "Amazon GameLift Servers now supports CPU burstability for container fleets, giving game developers greater flexibility in how compute resources are allocated and consumed at runtime. Previously,…",
-        "date": "2026年10月8日",
-        "date_iso": "2026-10-08",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon GuardDuty RDS Protection now detects data exfiltration and destruction in Aurora and RDS databases",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/guardduty-rds-data-exfiltration/",
-        "summary": "Amazon GuardDuty announces an expansion of RDS Protection that extends threat detection beyond login anomalies to identify data exfiltration and data destruction attacks targeting Amazon Aurora…",
-        "date": "2026年10月8日",
-        "date_iso": "2026-10-08",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
       }
     ],
     "gcp": [
       {
         "title": "October 12, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_12_2026",
-        "summary": "BigQuery Feature Incremental data transfers for the BigQuery Data Transfer Service for PostgreSQL and ServiceNow are now generally available (GA). Cloud Build Announcement You can now choose the…",
+        "summary": "Agent Platform Workbench Change 20261011.00_p0 Release Change Installed latest packages from upstream dependencies. Fixed Fixed an issue where gcloud and gsutil failed to load with an AttributeError…",
         "date": "2026年10月12日",
         "date_iso": "2026-10-12",
         "category": "ai-tag",
         "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
+        "title": "October 11, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_11_2026",
+        "summary": "Agent Platform Workbench Change 20261011-2230-rc0 Release Change 20261011-2230-rc0 Release Change Installed latest packages from upstream dependencies. Change Installed latest packages from upstream…",
+        "date": "2026年10月11日",
+        "date_iso": "2026-10-11",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "GCP"
       },
       {
@@ -594,16 +604,6 @@
         "date_iso": "2026-09-23",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "GCP"
-      },
-      {
-        "title": "September 22, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_22_2026",
-        "summary": "Access Approval Feature Developer Connect is generally available ( GA ). Access Transparency Feature Developer Connect is generally available ( GA ). BigQuery Feature You can now publish a BigQuery…",
-        "date": "2026年9月22日",
-        "date_iso": "2026-09-22",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "GCP"
       }
     ],
