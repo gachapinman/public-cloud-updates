@@ -1,5 +1,5 @@
 {
-  "updated": "2026年10月16日 13:34 JST",
+  "updated": "2026年10月16日 17:27 JST",
   "clouds": {
     "azure": [
       {
@@ -305,16 +305,6 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon CloudFront announces dual-stack support for VPC origins",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/cloudfront-vpc-origin-dualstack/",
-        "summary": "Amazon CloudFront now supports end-to-end IPv6 delivery to origins inside your Amazon Virtual Private Cloud (Amazon VPC), with the new dual-stack VPC origins. With VPC origins, customers keep their…",
-        "date": "2026年10月16日",
-        "date_iso": "2026-10-16",
-        "category": "network-tag",
-        "cat_label": "ネットワーク",
-        "tag": "AWS"
-      },
-      {
         "title": "PostgreSQL 19 RC1 is now available in Amazon RDS Database Preview Environment",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/postgresql-19-rc1-amazon-rds-database-preview-environment/",
         "summary": "Starting today, Amazon RDS for PostgreSQL 19 Release Candidate 1 (RC1) is available in the Amazon RDS Database Preview Environment , allowing you to evaluate the pre-release of PostgreSQL 19 on…",
@@ -322,6 +312,16 @@
         "date_iso": "2026-10-16",
         "category": "ai-tag",
         "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon CloudFront announces dual-stack support for VPC origins",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/cloudfront-vpc-origin-dualstack/",
+        "summary": "Amazon CloudFront now supports end-to-end IPv6 delivery to origins inside your Amazon Virtual Private Cloud (Amazon VPC), with the new dual-stack VPC origins. With VPC origins, customers keep their…",
+        "date": "2026年10月16日",
+        "date_iso": "2026-10-16",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
         "tag": "AWS"
       },
       {
