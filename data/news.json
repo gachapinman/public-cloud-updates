@@ -1,5 +1,5 @@
 {
-  "updated": "2026年10月16日 17:27 JST",
+  "updated": "2026年10月16日 23:18 JST",
   "clouds": {
     "azure": [
       {
@@ -365,16 +365,6 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon Managed Workflows for Apache Airflow now offers AI agent skills",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-mwaa-ai-agent-skills/",
-        "summary": "Amazon Managed Workflows for Apache Airflow (MWAA) now integrates with the Agent Toolkit for AWS to provide built-in AI agent skills that let you author, debug, and test MWAA workflows and upgrade…",
-        "date": "2026年10月15日",
-        "date_iso": "2026-10-15",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
         "title": "Oracle Database@AWS supports aggregate and default routes for ODB peering",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/oracle-database-aws-aggregate-routes-odb/",
         "summary": "Oracle Database@AWS (ODB) now supports advertising aggregate routes and a default route (0.0.0.0/0) when configuring ODB peering between applications in an Amazon VPC and databases in an ODB network.…",
@@ -382,6 +372,16 @@
         "date_iso": "2026-10-15",
         "category": "database-tag",
         "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Managed Workflows for Apache Airflow now offers AI agent skills",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-mwaa-ai-agent-skills/",
+        "summary": "Amazon Managed Workflows for Apache Airflow (MWAA) now integrates with the Agent Toolkit for AWS to provide built-in AI agent skills that let you author, debug, and test MWAA workflows and upgrade…",
+        "date": "2026年10月15日",
+        "date_iso": "2026-10-15",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "AWS"
       },
       {
@@ -409,7 +409,7 @@
       {
         "title": "October 15, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_15_2026",
-        "summary": "Apigee Edge for Public Cloud Announcement On October 15, 2026, we began releasing Single Sign-On (SSO) updates for Apigee Edge for Public Cloud. Fixed Bug ID Component Description 560310696 SSO Fixed…",
+        "summary": "Apigee Edge for Private Cloud Announcement Released Apigee Edge for Private Cloud 4.54.00. Designated Apigee Edge for Private Cloud 4.54.00.00 a long-term support (LTS) release: 18 months of full…",
         "date": "2026年10月15日",
         "date_iso": "2026-10-15",
         "category": "compute-tag",
@@ -469,7 +469,7 @@
       {
         "title": "October 09, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_09_2026",
-        "summary": "BigQuery Feature The BigQuery Data Engineering Agent is now available in the asia-northeast1 (Tokyo) regional endpoint and supports the gemini-3.5-flash model. For more information, see Where Gemini…",
+        "summary": "Access Approval Feature Database Migration Service is generally available ( GA ). Access Transparency Feature Database Migration Service is generally available ( GA ). BigQuery Feature The BigQuery…",
         "date": "2026年10月9日",
         "date_iso": "2026-10-09",
         "category": "ai-tag",
@@ -609,8 +609,8 @@
     ],
     "oci": [
       {
-        "title": "Updated Certified Components for IAM E-Business Suite Asserter",
-        "link": "https://docs.oracle.com/iaas/releasenotes/identity/iam-ebs-asserter-support-weblogic-ebs-ngts.htm",
+        "title": "Introducing the Public Safety and Security Service and Oracle Radio",
+        "link": "https://docs.oracle.com/iaas/releasenotes/public-safety-security/service-launch.htm",
         "summary": "",
         "date": "2026年10月14日",
         "date_iso": "2026-10-14",
@@ -659,16 +659,6 @@
         "tag": "OCI"
       },
       {
-        "title": "ID-JAG token exchange across trust domains",
-        "link": "https://docs.oracle.com/iaas/releasenotes/identity/id-jag-token-exchange-across-trust-domains.htm",
-        "summary": "",
-        "date": "2026年10月9日",
-        "date_iso": "2026-10-09",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
         "title": "Support for Kubernetes version 1.37.0 in a preview release of Kubernetes Engine",
         "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-K8s-1-37-0-preview-support-Release-Note.htm",
         "summary": "",
@@ -676,16 +666,6 @@
         "date_iso": "2026-10-08",
         "category": "container-tag",
         "cat_label": "コンテナ",
-        "tag": "OCI"
-      },
-      {
-        "title": "Use OAuth resource indicators with identity domains",
-        "link": "https://docs.oracle.com/iaas/releasenotes/identity/oauth-resource-indicators-for-identity-domains.htm",
-        "summary": "",
-        "date": "2026年10月7日",
-        "date_iso": "2026-10-07",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "OCI"
       },
       {
@@ -769,16 +749,6 @@
         "tag": "OCI"
       },
       {
-        "title": "Managing One-Click Sign-In with Passkeys",
-        "link": "https://docs.oracle.com/iaas/releasenotes/identity/one-click-sign-in-with-passkeys.htm",
-        "summary": "",
-        "date": "2026年9月30日",
-        "date_iso": "2026-09-30",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
         "title": "Cloud Shell now Supports Regional Launch",
         "link": "https://docs.oracle.com/iaas/releasenotes/cloud-shell/regional_launch.htm",
         "summary": "",
@@ -804,6 +774,36 @@
         "summary": "",
         "date": "2026年9月30日",
         "date_iso": "2026-09-30",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "OCI Cache Supports Dual-Stack Endpoints for IPv6",
+        "link": "https://docs.oracle.com/iaas/releasenotes/oci-cache/sep2026-ipv6-support.htm",
+        "summary": "",
+        "date": "2026年9月30日",
+        "date_iso": "2026-09-30",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Simplify linking widgets to dashboard filters",
+        "link": "https://docs.oracle.com/iaas/releasenotes/management-dashboard/linking-widgets-dashboard-filters.htm",
+        "summary": "",
+        "date": "2026年9月29日",
+        "date_iso": "2026-09-29",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Highlight linked widgets and filters",
+        "link": "https://docs.oracle.com/iaas/releasenotes/management-dashboard/highlight-linked-widgets-filters.htm",
+        "summary": "",
+        "date": "2026年9月29日",
+        "date_iso": "2026-09-29",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "OCI"
