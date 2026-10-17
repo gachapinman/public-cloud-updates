@@ -1,5 +1,5 @@
 {
-  "updated": "2026年10月17日 13:29 JST",
+  "updated": "2026年10月17日 16:59 JST",
   "clouds": {
     "azure": [
       {
@@ -285,9 +285,9 @@
         "tag": "AWS"
       },
       {
-        "title": "AWS End User Messaging adds a guided wizard for RCS registration videos",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-end-user-messaging-adds-guided-wizard-rcs-registration-videos",
-        "summary": "Today, AWS End User Messaging adds a wizard that orchestrates the entire video capture for your RCS agent registration. RCS registrations in multiple countries, including the United States, require a…",
+        "title": "AWS End User Messaging now offers managed OTP verification end-to-end",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-end-user-messaging-adds-end-to-end-managed-OTP",
+        "summary": "Today, AWS End User Messaging announces end-to-end managed one-time passcode (OTP) verification in Notify. You get a working OTP solution in under five minutes, including AWS phone numbers and code…",
         "date": "2026年10月16日",
         "date_iso": "2026-10-16",
         "category": "compute-tag",
@@ -295,9 +295,9 @@
         "tag": "AWS"
       },
       {
-        "title": "AWS End User Messaging now offers managed OTP verification end-to-end",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-end-user-messaging-adds-end-to-end-managed-OTP",
-        "summary": "Today, AWS End User Messaging announces end-to-end managed one-time passcode (OTP) verification in Notify. You get a working OTP solution in under five minutes, including AWS phone numbers and code…",
+        "title": "AWS End User Messaging adds a guided wizard for RCS registration videos",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-end-user-messaging-adds-guided-wizard-rcs-registration-videos",
+        "summary": "Today, AWS End User Messaging adds a wizard that orchestrates the entire video capture for your RCS agent registration. RCS registrations in multiple countries, including the United States, require a…",
         "date": "2026年10月16日",
         "date_iso": "2026-10-16",
         "category": "compute-tag",
