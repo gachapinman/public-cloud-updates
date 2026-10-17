@@ -1,7 +1,27 @@
 {
-  "updated": "2026年10月16日 23:18 JST",
+  "updated": "2026年10月17日 13:29 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Public Preview: Azure Databricks Private network gateway",
+        "link": "https://azure.microsoft.com/updates?id=576556",
+        "summary": "Private network gateway for Azure Databricks is now in Public Preview, enabling serverless compute to connect to resources in your virtual network (VNet) and transitively connected networks through a…",
+        "date": "2026年10月17日",
+        "date_iso": "2026-10-17",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: External key management for Azure Key Vault Managed HSM",
+        "link": "https://azure.microsoft.com/updates?id=574296",
+        "summary": "External key management for Azure Key Vault Managed HSM is now generally available in all Azure public regions. For organizations with regulatory or sovereignty requirements to retain physical…",
+        "date": "2026年10月17日",
+        "date_iso": "2026-10-17",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Public Preview: Azure Files cross-region data copy and synchronization with Azure Storage Mover",
         "link": "https://azure.microsoft.com/updates?id=576542",
@@ -181,29 +201,109 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Retirement: Always Encrypted with Intel SGX Enclaves",
-        "link": "https://azure.microsoft.com/updates?id=569236",
-        "summary": "Always Encrypted with Intel SGX enclaves in Azure SQL Database will retire on October 31, 2027 as support for SGX-enabled DC-series hardware is phased out. Customers should transition to…",
-        "date": "2026年10月7日",
-        "date_iso": "2026-10-07",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: AKS on bare metal now on Ubuntu",
-        "link": "https://azure.microsoft.com/updates?id=573782",
-        "summary": "Running Kubernetes on-premises often means adding a virtualization layer, adapting to unfamiliar infrastructure, or giving up control over the hardware and software your applications depend on. For…",
-        "date": "2026年10月7日",
-        "date_iso": "2026-10-07",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Amazon CloudWatch log centralization now available in AWS GovCloud and additional commercial Regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-cloudwatch-centralization-region-expansion",
+        "summary": "Amazon CloudWatch log centralization is now available in AWS GovCloud (US) and 13 additional commercial Regions. CloudWatch log centralization copies log data from multiple AWS accounts and Regions…",
+        "date": "2026年10月17日",
+        "date_iso": "2026-10-17",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Lambda durable functions are now available in AWS GovCloud (US) Regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/durablefunctions-govcloud/",
+        "summary": "AWS Lambda durable functions are now available in the AWS GovCloud (US-West) and AWS GovCloud (US-East) Regions. Lambda durable functions enable developers to build reliable multi-step applications…",
+        "date": "2026年10月17日",
+        "date_iso": "2026-10-17",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Nemotron 3.5 Super VL model now available on Amazon SageMaker JumpStart",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/nvidia-nemotron-3.5-super-vl-on-sagemaker-jumpstart/",
+        "summary": "NVIDIA's Nemotron 3.5 Super VL is now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. This vision-language model from the Nemotron…",
+        "date": "2026年10月17日",
+        "date_iso": "2026-10-17",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Beam model by Reflection is now available on Amazon SageMaker JumpStart and AWS Trainium",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/reflection-beam-on-sagemaker-jumpstart-and-aws-trainium/",
+        "summary": "Beam, the first open weight model offered by US-based Reflection, is now available in Amazon SageMaker JumpStart, the model hub in Amazon SageMaker AI. According to Beam, they operate at the frontier…",
+        "date": "2026年10月17日",
+        "date_iso": "2026-10-17",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Transform announces Azure-to-AWS cloud-native code conversion",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-transform-azure-to-aws-code-conversion/",
+        "summary": "Today, AWS announced the general availability of application code conversion from Azure SDK to AWS SDK in AWS Transform, giving you an accelerated path to migrate Microsoft Azure cloud-native .NET…",
+        "date": "2026年10月16日",
+        "date_iso": "2026-10-16",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Second-generation AWS Outposts racks now supported in the AWS Mexico (Central) Region",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-outposts-racks-mexico-central/",
+        "summary": "Second-generation AWS Outposts racks are now supported in the AWS Mexico (Central) Region. Outposts racks extend AWS infrastructure, AWS services, APIs, and tools to virtually any on-premises data…",
+        "date": "2026年10月16日",
+        "date_iso": "2026-10-16",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS End User Messaging adds registration improvements for faster, higher-quality submissions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-end-user-messaging-adds-registration-improvements-for-faster-higher-quality-submissions",
+        "summary": "AWS End User Messaging now makes it easier to complete messaging registrations correctly the first time, with clearer guidance, explicit field requirements, and help avoiding the most common…",
+        "date": "2026年10月16日",
+        "date_iso": "2026-10-16",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS End User Messaging now supports Brand Profiles",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-end-user-messaging-now-supports-brand-profiles",
+        "summary": "Today, AWS End User Messaging announces Brand Profiles, which let you store your brand and company information once and reuse it across your messaging registrations. To send messages on SMS, RCS, and…",
+        "date": "2026年10月16日",
+        "date_iso": "2026-10-16",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS End User Messaging adds a guided wizard for RCS registration videos",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-end-user-messaging-adds-guided-wizard-rcs-registration-videos",
+        "summary": "Today, AWS End User Messaging adds a wizard that orchestrates the entire video capture for your RCS agent registration. RCS registrations in multiple countries, including the United States, require a…",
+        "date": "2026年10月16日",
+        "date_iso": "2026-10-16",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS End User Messaging now offers managed OTP verification end-to-end",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-end-user-messaging-adds-end-to-end-managed-OTP",
+        "summary": "Today, AWS End User Messaging announces end-to-end managed one-time passcode (OTP) verification in Notify. You get a working OTP solution in under five minutes, including AWS phone numbers and code…",
+        "date": "2026年10月16日",
+        "date_iso": "2026-10-16",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
       {
         "title": "Web Search on Amazon Bedrock AgentCore expands to AWS GovCloud and 3 Regions",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-agentcore/",
@@ -228,6 +328,16 @@
         "title": "Amazon EC2 T8i instances are now available in South America (São Paulo)",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/ec2-t8i-instances-south-america/",
         "summary": "Amazon Elastic Compute Cloud (Amazon EC2) T8i instances are now available in South America (São Paulo). These instances are powered by custom sixth generation Intel Xeon 6 processors, available…",
+        "date": "2026年10月16日",
+        "date_iso": "2026-10-16",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Transform for migrations is now available in Asia Pacific (Singapore)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-transform-singapore",
+        "summary": "AWS Transform for migrations is now available in the Asia Pacific (Singapore) Region, giving customers data residency within the region and lower latency to local source infrastructure as they…",
         "date": "2026年10月16日",
         "date_iso": "2026-10-16",
         "category": "ai-tag",
@@ -293,119 +403,19 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon MSK Connect and AWS Glue Schema Registry are now available in the AWS European Sovereign Cloud (Germany) region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-msk-connect-aws-gsr-additional-aws-regions",
-        "summary": "Starting today, Amazon MSK Connect and the AWS Glue Schema Registry are available in the AWS European Sovereign Cloud (Germany) region. Together with Amazon MSK Standard brokers, already available in…",
-        "date": "2026年10月16日",
-        "date_iso": "2026-10-16",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "PostgreSQL 19 RC1 is now available in Amazon RDS Database Preview Environment",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/postgresql-19-rc1-amazon-rds-database-preview-environment/",
-        "summary": "Starting today, Amazon RDS for PostgreSQL 19 Release Candidate 1 (RC1) is available in the Amazon RDS Database Preview Environment , allowing you to evaluate the pre-release of PostgreSQL 19 on…",
-        "date": "2026年10月16日",
-        "date_iso": "2026-10-16",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon CloudFront announces dual-stack support for VPC origins",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/cloudfront-vpc-origin-dualstack/",
-        "summary": "Amazon CloudFront now supports end-to-end IPv6 delivery to origins inside your Amazon Virtual Private Cloud (Amazon VPC), with the new dual-stack VPC origins. With VPC origins, customers keep their…",
-        "date": "2026年10月16日",
-        "date_iso": "2026-10-16",
-        "category": "network-tag",
-        "cat_label": "ネットワーク",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Redshift long-term system table retention with Amazon S3 Tables is now available in additional AWS Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/redshift-long-term-system-table-retention-expansion/",
-        "summary": "Amazon Redshift long-term retention for system table data through native integration with Amazon S3 Tables is now available in additional AWS Regions. With this feature, you can configure your…",
-        "date": "2026年10月16日",
-        "date_iso": "2026-10-16",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon S3 Metadata now available in six additional AWS Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-s3-metadata-six-additional-regions/",
-        "summary": "Amazon S3 Metadata is now available in six additional AWS Regions: Asia Pacific (Hyderabad), Asia Pacific (Malaysia), Asia Pacific (New Zealand), Asia Pacific (Taipei), Asia Pacific (Thailand), and…",
-        "date": "2026年10月15日",
-        "date_iso": "2026-10-15",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Security Hub CSPM now supports the Cyber Risk Institute profile version 2.2",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/security-hub-cspm-cri-profile-v22/",
-        "summary": "AWS Security Hub CSPM now supports automated security checks that align with the Cyber Risk Institute (CRI) profile. The CRI Profile is a cybersecurity framework developed by the Cyber Risk…",
-        "date": "2026年10月15日",
-        "date_iso": "2026-10-15",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Managed Service for Prometheus Collector now available in Asia Pacific (New Zealand) Region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/ams-prometheus-collector-apac-nz/",
-        "summary": "Amazon Managed Service for Prometheus collector, a fully-managed agentless collector for Prometheus metrics, is now available in Asia Pacific (New Zealand). Customers in New Zealand can now run their…",
-        "date": "2026年10月15日",
-        "date_iso": "2026-10-15",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Oracle Database@AWS supports aggregate and default routes for ODB peering",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/oracle-database-aws-aggregate-routes-odb/",
-        "summary": "Oracle Database@AWS (ODB) now supports advertising aggregate routes and a default route (0.0.0.0/0) when configuring ODB peering between applications in an Amazon VPC and databases in an ODB network.…",
-        "date": "2026年10月15日",
-        "date_iso": "2026-10-15",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Managed Workflows for Apache Airflow now offers AI agent skills",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-mwaa-ai-agent-skills/",
-        "summary": "Amazon Managed Workflows for Apache Airflow (MWAA) now integrates with the Agent Toolkit for AWS to provide built-in AI agent skills that let you author, debug, and test MWAA workflows and upgrade…",
-        "date": "2026年10月15日",
-        "date_iso": "2026-10-15",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Launch AWS DevOps Agent to review findings and test results from AWS Resilience Hub",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-devops-agent-test-results-aws-resilience-hub/",
-        "summary": "The next generation of AWS Resilience Hub now integrates with AWS DevOps agent allowing you to review failure mode assessment findings and implement mitigations to resolve findings and review…",
-        "date": "2026年10月15日",
-        "date_iso": "2026-10-15",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon CloudWatch announces log routing and chained log parsers",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/cloudwatch-pipelines-log-routing/",
-        "summary": "Amazon CloudWatch now supports conditional log routing and chained parsers via pipelines, giving you more control over how log data is transformed and which CloudWatch log group it's sent to.…",
-        "date": "2026年10月15日",
-        "date_iso": "2026-10-15",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "October 16, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_16_2026",
+        "summary": "BigQuery Feature Conversational analytics in BigQuery is now available in the following locations: northamerica-northeast1 (Montréal) northamerica-northeast2 (Toronto) For more information, see…",
+        "date": "2026年10月16日",
+        "date_iso": "2026-10-16",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
       {
         "title": "October 15, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_15_2026",
@@ -594,16 +604,6 @@
         "date_iso": "2026-09-27",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "GCP"
-      },
-      {
-        "title": "September 26, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_26_2026",
-        "summary": "Backup and DR Security Note: These fixes and updates are available starting with Backup and DR release 11.0.17.496. These fixes are not rolled out to the 11.0.16 release; we recommend upgrading the…",
-        "date": "2026年9月26日",
-        "date_iso": "2026-09-26",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "GCP"
       }
     ],
