@@ -1,5 +1,5 @@
 {
-  "updated": "2026年10月19日 18:14 JST",
+  "updated": "2026年10月20日 01:38 JST",
   "clouds": {
     "azure": [
       {
@@ -205,6 +205,16 @@
     ],
     "aws": [
       {
+        "title": "Amazon GuardDuty adds optional threat detection rules for Runtime Monitoring",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/guardduty-runtime-optional-detection-rules/",
+        "summary": "Amazon GuardDuty now supports optional detection rules for Runtime Monitoring. You can enable more than 50 Runtime Monitoring rules that help detect process, file, and network activity that might be…",
+        "date": "2026年10月20日",
+        "date_iso": "2026-10-20",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon CloudWatch log centralization now available in AWS GovCloud and additional commercial Regions",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-cloudwatch-centralization-region-expansion",
         "summary": "Amazon CloudWatch log centralization is now available in AWS GovCloud (US) and 13 additional commercial Regions. CloudWatch log centralization copies log data from multiple AWS accounts and Regions…",
@@ -393,19 +403,19 @@
         "category": "network-tag",
         "cat_label": "ネットワーク",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon Time Sync Service adds support for microsecond-accurate time on 135 additional EC2 instance types in all…",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/time-sync-additional-instances-all-regions",
-        "summary": "Amazon Time Sync Service introduces support for microsecond-accurate time on 135 additional EC2 instance types—spanning 12 instance families—in all commercial regions. Built on Amazon's proven…",
-        "date": "2026年10月16日",
-        "date_iso": "2026-10-16",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "October 19, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_19_2026",
+        "summary": "Compute Engine Feature Generally available : To prevent data loss or corruption when you stop or delete a Compute Engine instance, you can enable graceful shutdown. This setting gives the guest OS up…",
+        "date": "2026年10月19日",
+        "date_iso": "2026-10-19",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
       {
         "title": "October 18, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_18_2026",
@@ -414,6 +424,16 @@
         "date_iso": "2026-10-18",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
+        "tag": "GCP"
+      },
+      {
+        "title": "October 17, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_17_2026",
+        "summary": "Google SecOps SOAR Announcement Release 6.3.102 is now available for all regions.",
+        "date": "2026年10月17日",
+        "date_iso": "2026-10-17",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "GCP"
       },
       {
@@ -582,26 +602,6 @@
         "summary": "API Gateway Feature Authenticate MCP tool discovery with an API key API key authentication is now supported for the Model Context Protocol (MCP) tools/list method. You can name an API key security…",
         "date": "2026年9月30日",
         "date_iso": "2026-09-30",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "GCP"
-      },
-      {
-        "title": "September 29, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_29_2026",
-        "summary": "API Gateway Feature Configure streaming for LLM responses and other traffic You can now create API Gateway gateways that stream requests and responses instead of buffering them. This Public Preview…",
-        "date": "2026年9月29日",
-        "date_iso": "2026-09-29",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "September 28, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_28_2026",
-        "summary": "Agent Platform Workbench Change 20260927.00_p0 Release Change Installed latest packages from upstream dependencies. Security Bulk security patch remediating Critical and High-severity CVEs in the…",
-        "date": "2026年9月28日",
-        "date_iso": "2026-09-28",
         "category": "security-tag",
         "cat_label": "セキュリティ",
         "tag": "GCP"
