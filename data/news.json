@@ -1,5 +1,5 @@
 {
-  "updated": "2026年10月18日 22:35 JST",
+  "updated": "2026年10月19日 13:43 JST",
   "clouds": {
     "azure": [
       {
@@ -295,9 +295,9 @@
         "tag": "AWS"
       },
       {
-        "title": "AWS End User Messaging adds a guided wizard for RCS registration videos",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-end-user-messaging-adds-guided-wizard-rcs-registration-videos",
-        "summary": "Today, AWS End User Messaging adds a wizard that orchestrates the entire video capture for your RCS agent registration. RCS registrations in multiple countries, including the United States, require a…",
+        "title": "AWS End User Messaging now offers managed OTP verification end-to-end",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-end-user-messaging-adds-end-to-end-managed-OTP",
+        "summary": "Today, AWS End User Messaging announces end-to-end managed one-time passcode (OTP) verification in Notify. You get a working OTP solution in under five minutes, including AWS phone numbers and code…",
         "date": "2026年10月16日",
         "date_iso": "2026-10-16",
         "category": "compute-tag",
@@ -305,9 +305,9 @@
         "tag": "AWS"
       },
       {
-        "title": "AWS End User Messaging now offers managed OTP verification end-to-end",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-end-user-messaging-adds-end-to-end-managed-OTP",
-        "summary": "Today, AWS End User Messaging announces end-to-end managed one-time passcode (OTP) verification in Notify. You get a working OTP solution in under five minutes, including AWS phone numbers and code…",
+        "title": "AWS End User Messaging adds a guided wizard for RCS registration videos",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-end-user-messaging-adds-guided-wizard-rcs-registration-videos",
+        "summary": "Today, AWS End User Messaging adds a wizard that orchestrates the entire video capture for your RCS agent registration. RCS registrations in multiple countries, including the United States, require a…",
         "date": "2026年10月16日",
         "date_iso": "2026-10-16",
         "category": "compute-tag",
@@ -406,6 +406,16 @@
       }
     ],
     "gcp": [
+      {
+        "title": "October 18, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_18_2026",
+        "summary": "Google SecOps Feature Specify whether to reopen closed cases when the grouping is by Source Grouping Identifier You can now specify whether Google SecOps reopens closed cases when grouping SOAR…",
+        "date": "2026年10月18日",
+        "date_iso": "2026-10-18",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "GCP"
+      },
       {
         "title": "October 16, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_16_2026",
@@ -594,16 +604,6 @@
         "date_iso": "2026-09-28",
         "category": "security-tag",
         "cat_label": "セキュリティ",
-        "tag": "GCP"
-      },
-      {
-        "title": "September 27, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_27_2026",
-        "summary": "Agent Platform Workbench Change 20260927-2130-rc0 Release Change Installed latest packages from upstream dependencies. Change M151 Release Change Installed latest packages from upstream dependencies.…",
-        "date": "2026年9月27日",
-        "date_iso": "2026-09-27",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
         "tag": "GCP"
       }
     ],
