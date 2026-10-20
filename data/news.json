@@ -1,5 +1,5 @@
 {
-  "updated": "2026年10月20日 17:49 JST",
+  "updated": "2026年10月20日 23:30 JST",
   "clouds": {
     "azure": [
       {
@@ -609,6 +609,16 @@
     ],
     "oci": [
       {
+        "title": "Oracle Critical Patch Update (CPU) October 2026 for Oracle Java SE",
+        "link": "https://docs.oracle.com/iaas/releasenotes/java-management/jdk-cpu-october-2026.htm",
+        "summary": "",
+        "date": "2026年10月20日",
+        "date_iso": "2026-10-20",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
         "title": "Import Alibaba Qwen3.8-Flash-Next into OCI Generative AI",
         "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/alibaba-qwen-3-8-flash-next.htm",
         "summary": "",
@@ -719,16 +729,6 @@
         "tag": "OCI"
       },
       {
-        "title": "Use identity domain browser session authentication for hosted applications in OCI Generative AI",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/hosted-deployments-oauth.htm",
-        "summary": "",
-        "date": "2026年10月7日",
-        "date_iso": "2026-10-07",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
         "title": "Automatic Target Registration for Exadata Exascale in Oracle Data Safe",
         "link": "https://docs.oracle.com/iaas/releasenotes/data-safe/auto-register-exascale.htm",
         "summary": "",
@@ -736,6 +736,16 @@
         "date_iso": "2026-10-07",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Use identity domain browser session authentication for hosted applications in OCI Generative AI",
+        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/hosted-deployments-oauth.htm",
+        "summary": "",
+        "date": "2026年10月7日",
+        "date_iso": "2026-10-07",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "OCI"
       },
       {
@@ -796,16 +806,6 @@
         "date_iso": "2026-10-01",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Network Address Translation (NAT) Now Available for Dynamic Routing Gateway (DRG)",
-        "link": "https://docs.oracle.com/iaas/releasenotes/network/nat-drg.htm",
-        "summary": "",
-        "date": "2026年10月1日",
-        "date_iso": "2026-10-01",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "OCI"
       }
     ]
