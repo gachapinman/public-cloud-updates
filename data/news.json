@@ -1,7 +1,27 @@
 {
-  "updated": "2026年10月20日 01:38 JST",
+  "updated": "2026年10月20日 13:52 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Generally Available: Metrics usage insights for Azure Monitor workspace",
+        "link": "https://azure.microsoft.com/updates?id=577165",
+        "summary": "Metrics usage insights is now generally available, giving you greater visibility into what’s driving metrics usage across your Azure Monitor workspace. Monitor workspace utilization, identify unused…",
+        "date": "2026年10月20日",
+        "date_iso": "2026-10-20",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Azure DNS enables DNS-based load balancing through Traffic Manager linked records",
+        "link": "https://azure.microsoft.com/updates?id=573917",
+        "summary": "Azure DNS now provides DNS based load balancing by seamless integration with Azure Traffic Manager. Customers can directly associate an Azure DNS record set with a Traffic Manager profile,…",
+        "date": "2026年10月20日",
+        "date_iso": "2026-10-20",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Public Preview: Azure Databricks Private network gateway",
         "link": "https://azure.microsoft.com/updates?id=576556",
@@ -181,29 +201,39 @@
         "category": "container-tag",
         "cat_label": "コンテナ",
         "tag": "AZURE"
-      },
-      {
-        "title": "Retirement: Azure App Service on Azure Stack Hub",
-        "link": "https://azure.microsoft.com/updates?id=568178",
-        "summary": "Azure App Service on Azure Stack Hub will be retired on September 30, 2029. Starting September 30, 2026, new installations will no longer be supported, and no new product releases, features, or…",
-        "date": "2026年10月7日",
-        "date_iso": "2026-10-07",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Retirement: Support for Java 8, 11 and 17 will end on September 1, 2027",
-        "link": "https://azure.microsoft.com/updates?id=568585",
-        "summary": "On September 1, 2027 support for Java 8, 11 and 17 will end. Your apps that are hosted on App Service will continue to run, but security updates will no longer be available, and we’ll no longer…",
-        "date": "2026年10月7日",
-        "date_iso": "2026-10-07",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Amazon Connect Customer Global Resiliency now provides business users visibility into resiliency readiness across…",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-connect-global-resiliency-readiness-overview",
+        "summary": "Amazon Connect Customer Global Resiliency now provides a Global Resiliency page in the admin website, giving administrators a single place to review their Region switch readiness. The page shows an…",
+        "date": "2026年10月20日",
+        "date_iso": "2026-10-20",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon CloudWatch Omni is now available in additional AWS Regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-cloudwatch-omni-8-regions/",
+        "summary": "AWS announces that Amazon CloudWatch Omni is now available in eight additional AWS Regions. CloudWatch Omni is an AI-powered observability experience, organized around your teams and the applications…",
+        "date": "2026年10月20日",
+        "date_iso": "2026-10-20",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "EC2 Image Builder now integrates with ASG for faster image builds",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/ec2-image-builder-asg-faster-builds/",
+        "summary": "EC2 Image Builder now supports using existing instances from an Auto Scaling Group (ASG) for building images, enabling faster builds by eliminating the time spent in launching and bootstrapping new…",
+        "date": "2026年10月20日",
+        "date_iso": "2026-10-20",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
       {
         "title": "Amazon GuardDuty adds optional threat detection rules for Runtime Monitoring",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/guardduty-runtime-optional-detection-rules/",
@@ -215,9 +245,79 @@
         "tag": "AWS"
       },
       {
+        "title": "Grok 4.7 is now available on Amazon Bedrock in AWS GovCloud (US)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-grok-4-7-govcloud/",
+        "summary": "Amazon Bedrock now supports SpaceXAI Grok 4.7, a frontier model built for coding, agentic tasks, and knowledge work in AWS GovCloud (US). Grok 4.7 builds on Grok 4.6 with better mixed-document…",
+        "date": "2026年10月19日",
+        "date_iso": "2026-10-19",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS IAM Identity Center now supports optimistic locking for users and groups in its identity store",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/iam-identity-store-optimistic-locking/",
+        "summary": "IAM Identity Center helps you configure the single sign-on experience of your workforce to AWS accounts and applications. You can now use optimistic locking for users and groups in the identity…",
+        "date": "2026年10月19日",
+        "date_iso": "2026-10-19",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Elemental MediaConnect Router now supports high bitrate mode",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/mediaconnect-router-high-bitrate/",
+        "summary": "AWS Elemental MediaConnect Router now supports high bitrate modes with two new tiers: 250 Mbps and 500 Mbps. This allows professional broadcasters that need higher bitrates to transport high-value…",
+        "date": "2026年10月19日",
+        "date_iso": "2026-10-19",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon RDS Custom now supports the latest Cumulative Update and GDR updates for Microsoft SQL Server",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-rds-custom-supports-latest-cumulative-update-gdr-microsoft-sql-server/",
+        "summary": "Amazon Relational Database Service (Amazon RDS) Custom for SQL Server now supports the latest Cumulative Updates (CU) and General Distribution Release (GDR) updates for Microsoft SQL Server. This…",
+        "date": "2026年10月19日",
+        "date_iso": "2026-10-19",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon RDS for SQL Server now supports snapshots on read replicas",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/rds-sqlserver-supports-snapshots-on-read-replicas",
+        "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports creating DB snapshots directly on read replica instances. Previously, you could create snapshots only on standalone and…",
+        "date": "2026年10月19日",
+        "date_iso": "2026-10-19",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Partner Central adds Solution Matching Engine performance insights",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/solution-matching-engine-performance",
+        "summary": "AWS Partner Central now gives AWS Partners more visibility into how the Solution Matching Engine (SME) contributes to their co-sell pipeline. The Solution Matching Engine performance section in…",
+        "date": "2026年10月17日",
+        "date_iso": "2026-10-17",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon CloudWatch log centralization now available in AWS GovCloud and additional commercial Regions",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-cloudwatch-centralization-region-expansion",
         "summary": "Amazon CloudWatch log centralization is now available in AWS GovCloud (US) and 13 additional commercial Regions. CloudWatch log centralization copies log data from multiple AWS accounts and Regions…",
+        "date": "2026年10月17日",
+        "date_iso": "2026-10-17",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EMR Serverless now supports IPv6 and dual-stack connectivity",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-emr-serverless/",
+        "summary": "Amazon EMR Serverless now supports IPv6 and dual-stack connectivity, expanding beyond the IPv4-only connectivity that was previously available. You can now run your Apache Spark and Apache Hive jobs…",
         "date": "2026年10月17日",
         "date_iso": "2026-10-17",
         "category": "ai-tag",
@@ -303,117 +403,17 @@
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "AWS"
-      },
-      {
-        "title": "AWS End User Messaging now offers managed OTP verification end-to-end",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-end-user-messaging-adds-end-to-end-managed-OTP",
-        "summary": "Today, AWS End User Messaging announces end-to-end managed one-time passcode (OTP) verification in Notify. You get a working OTP solution in under five minutes, including AWS phone numbers and code…",
-        "date": "2026年10月16日",
-        "date_iso": "2026-10-16",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS End User Messaging adds a guided wizard for RCS registration videos",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-end-user-messaging-adds-guided-wizard-rcs-registration-videos",
-        "summary": "Today, AWS End User Messaging adds a wizard that orchestrates the entire video capture for your RCS agent registration. RCS registrations in multiple countries, including the United States, require a…",
-        "date": "2026年10月16日",
-        "date_iso": "2026-10-16",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Web Search on Amazon Bedrock AgentCore expands to AWS GovCloud and 3 Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-agentcore/",
-        "summary": "Web Search on Amazon Bedrock AgentCore is now available in four additional AWS Regions: US East (Ohio), US West (Oregon), Asia Pacific (Sydney), and AWS GovCloud (US-West). Web Search is a fully…",
-        "date": "2026年10月16日",
-        "date_iso": "2026-10-16",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SageMaker Studio simplifies getting started for new AI/ML builders with new sign-in options",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-studio-new-sign-in-options/",
-        "summary": "Amazon SageMaker Studio now lets new customers sign up with their Google, GitHub, or Apple credentials and land inside a fully configured Studio environment - no traditional AWS account setup and no…",
-        "date": "2026年10月16日",
-        "date_iso": "2026-10-16",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 T8i instances are now available in South America (São Paulo)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/ec2-t8i-instances-south-america/",
-        "summary": "Amazon Elastic Compute Cloud (Amazon EC2) T8i instances are now available in South America (São Paulo). These instances are powered by custom sixth generation Intel Xeon 6 processors, available…",
-        "date": "2026年10月16日",
-        "date_iso": "2026-10-16",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Transform for migrations is now available in Asia Pacific (Singapore)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-transform-singapore",
-        "summary": "AWS Transform for migrations is now available in the Asia Pacific (Singapore) Region, giving customers data residency within the region and lower latency to local source infrastructure as they…",
-        "date": "2026年10月16日",
-        "date_iso": "2026-10-16",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon DynamoDB Streams now supports timestamp-based stream processing",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-dynamodb-streams-timestamp-processing",
-        "summary": "Amazon DynamoDB Streams now supports timestamp-based stream processing, enabling you to begin reading stream records from a specific point in time. Previously, you could only start from the oldest…",
-        "date": "2026年10月16日",
-        "date_iso": "2026-10-16",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Lambda Durable Execution SDK for Go is now generally available",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-lambda-durable-go-sdk-support/",
-        "summary": "Today, AWS announces the general availability of the AWS Lambda Durable Execution SDK for Go, enabling Go developers to build resilient, long-running workflows using Lambda durable functions. With…",
-        "date": "2026年10月16日",
-        "date_iso": "2026-10-16",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Muse Spark Open model now available on Amazon SageMaker JumpStart",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/muse-spark-open-on-sagemaker-jumpstart/",
-        "summary": "Meta's Muse Spark Open is now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. This coding-optimized open-weight model from Meta is…",
-        "date": "2026年10月16日",
-        "date_iso": "2026-10-16",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS HealthOmics now supports shared VPCs",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/omics-workflows-shared-vpcs/",
-        "summary": "AWS HealthOmics now supports sharing VPCs across accounts, enabling your workflows to access resources in Amazon Virtual Private Clouds (VPCs) managed by other AWS accounts with AWS Resource Access…",
-        "date": "2026年10月16日",
-        "date_iso": "2026-10-16",
-        "category": "network-tag",
-        "cat_label": "ネットワーク",
-        "tag": "AWS"
       }
     ],
     "gcp": [
       {
         "title": "October 19, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_19_2026",
-        "summary": "Compute Engine Feature Generally available : To prevent data loss or corruption when you stop or delete a Compute Engine instance, you can enable graceful shutdown. This setting gives the guest OS up…",
+        "summary": "Agent Platform Workbench Change 20261018.00_p0 Release Change Installed latest packages from upstream dependencies. Fixed Fixed an issue where Jupyter Server terminal configuration could overwrite…",
         "date": "2026年10月19日",
         "date_iso": "2026-10-19",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "GCP"
       },
       {
@@ -469,11 +469,11 @@
       {
         "title": "October 13, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_13_2026",
-        "summary": "BigQuery Feature The AI.AGG function is generally available (GA). You can use this function to semantically aggregate unstructured input data based on natural language instructions. Feature BigQuery…",
+        "summary": "Agent Platform Workbench Change 20261013-2230-rc0 Release Change 20261013-2230-rc0 Release Change Installed latest packages from upstream dependencies. Change Installed latest packages from upstream…",
         "date": "2026年10月13日",
         "date_iso": "2026-10-13",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "GCP"
       },
       {
@@ -529,11 +529,11 @@
       {
         "title": "October 07, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_07_2026",
-        "summary": "Anti Money Laundering AI Announcement New minor engine version released for the commercial line of business within the v004.005 version line ( aml-commercial.default.v004.005.202609-000 ). This…",
+        "summary": "API Gateway Deprecated Negative backend deadlines are deprecated A negative backend deadline in an OpenAPI 2.0 x-google-backend extension or a gRPC BackendRule uses the default deadline, the same as…",
         "date": "2026年10月7日",
         "date_iso": "2026-10-07",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "GCP"
       },
       {
