@@ -1,5 +1,5 @@
 {
-  "updated": "2026年10月21日 17:49 JST",
+  "updated": "2026年10月21日 23:40 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "October 21, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_21_2026",
+        "summary": "Model Armor Feature You can use custom organization policies to ensure that all new or updated Model Armor Template resources enforce required filters, like responsible AI or prompt injection and…",
+        "date": "2026年10月21日",
+        "date_iso": "2026-10-21",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "October 20, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_20_2026",
         "summary": "Apigee X Announcement On October 20th, 2026, we began maintenance updates of Apigee instances configured for maintenance windows . If you set a preferred window for maintenance for your instance, and…",
@@ -594,16 +604,6 @@
         "date_iso": "2026-10-02",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "GCP"
-      },
-      {
-        "title": "October 01, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_01_2026",
-        "summary": "BigQuery Change An updated version of the Simba JDBC driver for BigQuery is now available. Feature Chatting with graphs in conversational analytics is now generally available . You can use a…",
-        "date": "2026年10月1日",
-        "date_iso": "2026-10-01",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "GCP"
       }
     ],
