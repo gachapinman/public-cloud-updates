@@ -1,7 +1,47 @@
 {
-  "updated": "2026年10月20日 23:30 JST",
+  "updated": "2026年10月21日 13:50 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Public Preview: Disable VNet peering route",
+        "link": "https://azure.microsoft.com/updates?id=576242",
+        "summary": "Announcing the public preview of disable VNet peering route, a route-table capability that gives you more control over traffic between peered virtual networks. DPR suppresses system-generated peering…",
+        "date": "2026年10月21日",
+        "date_iso": "2026-10-21",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Service tag match condition for Azure Front Door Premium WAF",
+        "link": "https://azure.microsoft.com/updates?id=577156",
+        "summary": "Announcing the general availability of the service tag match condition for Azure Web Application Firewall (WAF) custom rules on Azure Front Door Premium. Service tags represent groups of IP address…",
+        "date": "2026年10月21日",
+        "date_iso": "2026-10-21",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Keyless TLS on Application Gateway with Azure Key Vault Managed HSM",
+        "link": "https://azure.microsoft.com/updates?id=577130",
+        "summary": "Azure Application Gateway now supports keyless TLS termination using certificates whose private keys stay in Azure Key Vault Managed HSM. Each TLS handshake signature is performed inside the HSM, and…",
+        "date": "2026年10月21日",
+        "date_iso": "2026-10-21",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Advanced platform metrics for Azure Monitor",
+        "link": "https://azure.microsoft.com/updates?id=575329",
+        "summary": "Advanced platform metrics for Azure Monitor are now generally available. Advanced platform metrics provide finer-grained signals that help customers more quickly and accurately identify changes and…",
+        "date": "2026年10月21日",
+        "date_iso": "2026-10-21",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Generally Available: Metrics usage insights for Azure Monitor workspace",
         "link": "https://azure.microsoft.com/updates?id=577165",
@@ -161,49 +201,129 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Announcing: Multiparty private offers in Microsoft Marketplace expands to Hong Kong",
-        "link": "https://azure.microsoft.com/updates?id=571831",
-        "summary": "Multiparty private offers give Microsoft partners a way to procure third-party cloud and AI solutions for customers through Marketplace. Software companies can expand into new markets by working with…",
-        "date": "2026年10月8日",
-        "date_iso": "2026-10-08",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Anyscale on Azure",
-        "link": "https://azure.microsoft.com/updates?id=573744",
-        "summary": "Anyscale on Azure is now Generally Available. Anyscale on Azure is a managed platform for running distributed Python workloads on Ray. It deploys directly onto your Azure Kubernetes Service (AKS)…",
-        "date": "2026年10月8日",
-        "date_iso": "2026-10-08",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Enabling the Bulk admin role for SQL Server on Linux",
-        "link": "https://azure.microsoft.com/updates?id=573443",
-        "summary": "Starting with SQL Server 2025 CU9 and SQL Server 2022 CU27, SQL Server on Linux supports the bulkadmin fixed server role and the ADMINISTER BULK OPERATIONS permission for performing bulk data import…",
-        "date": "2026年10月8日",
-        "date_iso": "2026-10-08",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Retirement: Pod name dimension in AKS pod platform metrics",
-        "link": "https://azure.microsoft.com/updates?id=570232",
-        "summary": "Beginning September 30, 2027, support for the pod name dimension on the following Azure Monitor platform metrics is retiring, and these metrics are transitioning to aggregate pod counters:Number of…",
-        "date": "2026年10月7日",
-        "date_iso": "2026-10-07",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Announcing Amazon ECS Gateway, a managed ingress solution for your ECS services",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/announcing-amazon-ecs-gateway/",
+        "summary": "AWS announces Amazon Elastic Container Service (Amazon ECS) Gateway, a new resource that simplifies ingress networking for containerized applications by dynamically provisioning and managing…",
+        "date": "2026年10月21日",
+        "date_iso": "2026-10-21",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon DynamoDB global tables now support disassociating replicas",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/dynamodb-global-tables-disassociate/",
+        "summary": "Amazon DynamoDB global tables now support disassociating a replica without deleting its table or data. Global tables provide fully managed, multi-Region, multi-active replication. You can now stop…",
+        "date": "2026年10月21日",
+        "date_iso": "2026-10-21",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "Polly Generative engine upgraded with more natural speech, 14 new voices, and 2 new languages",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/polly-generative/",
+        "summary": "Today, we are introducing a new model behind the Amazon Polly Generative engine that delivers more natural-sounding, accurate speech output with low latency. With this upgrade, you get access to an…",
+        "date": "2026年10月21日",
+        "date_iso": "2026-10-21",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS announces TorchNeuron: Native PyTorch Support for AWS Trainium (Public Beta)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-announce-native-pytorch-support-trainium",
+        "summary": "Today, AWS launched the public beta of TorchNeuron, an open source native PyTorch backend for AWS Trainium. Trainium is a portfolio of AI chips designed to deliver high performance and cost…",
+        "date": "2026年10月21日",
+        "date_iso": "2026-10-21",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Structured outputs for Claude models available on Amazon Bedrock",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/claude-structured-outputs-bedrock/",
+        "summary": "Amazon Bedrock now supports structured outputs for all Anthropic Claude models across both the bedrock-runtime and the bedrock-mantle endpoint. Whether you call Claude through boto3 and the…",
+        "date": "2026年10月20日",
+        "date_iso": "2026-10-20",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Clean Rooms now supports Databricks as a data source",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-clean-rooms-supports-databricks",
+        "summary": "AWS Clean Rooms now supports Databricks as a data source , so collaboration members and their partners can securely analyze data managed in Databricks without moving or revealing the source data.…",
+        "date": "2026年10月20日",
+        "date_iso": "2026-10-20",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS IAM Identity Center simplifies identity source changes from Active Directory",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/iam-identity-center-chg-id-src-from-ad/",
+        "summary": "AWS IAM Identity Center now retains your workforce identities and their assignments when you change your identity source from Active Directory to an external identity provider (IdP), such as Okta or…",
+        "date": "2026年10月20日",
+        "date_iso": "2026-10-20",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Partner Central launches Program Navigator, Case Study Generator, and streamlined specialization review",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/partner-central-program-navigator/",
+        "summary": "AWS Partner Central now features Program Navigator, a unified experience that lets partners discover, apply for, and track AWS Specialization program applications in one place. Partners can browse…",
+        "date": "2026年10月20日",
+        "date_iso": "2026-10-20",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Bedrock Guardrails now supports Standard tier for contextual grounding checks",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-guardrails-grounding-standard/",
+        "summary": "Amazon Bedrock Guardrails now offers a Standard tier for contextual grounding checks, which detect and filter hallucinations by checking whether a model response is grounded in your reference source…",
+        "date": "2026年10月20日",
+        "date_iso": "2026-10-20",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Bedrock Advanced Prompt Optimization now supports prompt shortening",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-prompt-optimization-shortening/",
+        "summary": "Amazon Bedrock Advanced Prompt Optimization now supports prompt shortening, an optional setting that reduces the length of your prompt while maintaining or improving your evaluation scores. Advanced…",
+        "date": "2026年10月20日",
+        "date_iso": "2026-10-20",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Transform for migrations expands support for existing landing zones",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-transform-migrations-landing-zones/",
+        "summary": "AWS Transform now supports more types of existing AWS environments when building landing zones for your migration, including AWS Control Tower landing zones and landing zones built with AWS…",
+        "date": "2026年10月20日",
+        "date_iso": "2026-10-20",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon ElastiCache Serverless for Valkey now supports online migration with zero downtime",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-elasticache-serverless-valkey-online-migration/",
+        "summary": "Amazon ElastiCache Serverless for Valkey now supports online migration from self-managed Valkey and Redis OSS on Amazon EC2 with zero downtime. Zero downtime means zero Errors returned to the client…",
+        "date": "2026年10月20日",
+        "date_iso": "2026-10-20",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
       {
         "title": "Amazon Connect Customer Global Resiliency now provides business users visibility into resiliency readiness across…",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-connect-global-resiliency-readiness-overview",
@@ -283,129 +403,19 @@
         "category": "database-tag",
         "cat_label": "データベース",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon RDS for SQL Server now supports snapshots on read replicas",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/rds-sqlserver-supports-snapshots-on-read-replicas",
-        "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports creating DB snapshots directly on read replica instances. Previously, you could create snapshots only on standalone and…",
-        "date": "2026年10月19日",
-        "date_iso": "2026-10-19",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Partner Central adds Solution Matching Engine performance insights",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/solution-matching-engine-performance",
-        "summary": "AWS Partner Central now gives AWS Partners more visibility into how the Solution Matching Engine (SME) contributes to their co-sell pipeline. The Solution Matching Engine performance section in…",
-        "date": "2026年10月17日",
-        "date_iso": "2026-10-17",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon CloudWatch log centralization now available in AWS GovCloud and additional commercial Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-cloudwatch-centralization-region-expansion",
-        "summary": "Amazon CloudWatch log centralization is now available in AWS GovCloud (US) and 13 additional commercial Regions. CloudWatch log centralization copies log data from multiple AWS accounts and Regions…",
-        "date": "2026年10月17日",
-        "date_iso": "2026-10-17",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EMR Serverless now supports IPv6 and dual-stack connectivity",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-emr-serverless/",
-        "summary": "Amazon EMR Serverless now supports IPv6 and dual-stack connectivity, expanding beyond the IPv4-only connectivity that was previously available. You can now run your Apache Spark and Apache Hive jobs…",
-        "date": "2026年10月17日",
-        "date_iso": "2026-10-17",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Lambda durable functions are now available in AWS GovCloud (US) Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/durablefunctions-govcloud/",
-        "summary": "AWS Lambda durable functions are now available in the AWS GovCloud (US-West) and AWS GovCloud (US-East) Regions. Lambda durable functions enable developers to build reliable multi-step applications…",
-        "date": "2026年10月17日",
-        "date_iso": "2026-10-17",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Nemotron 3.5 Super VL model now available on Amazon SageMaker JumpStart",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/nvidia-nemotron-3.5-super-vl-on-sagemaker-jumpstart/",
-        "summary": "NVIDIA's Nemotron 3.5 Super VL is now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. This vision-language model from the Nemotron…",
-        "date": "2026年10月17日",
-        "date_iso": "2026-10-17",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Beam model by Reflection is now available on Amazon SageMaker JumpStart and AWS Trainium",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/reflection-beam-on-sagemaker-jumpstart-and-aws-trainium/",
-        "summary": "Beam, the first open weight model offered by US-based Reflection, is now available in Amazon SageMaker JumpStart, the model hub in Amazon SageMaker AI. According to Beam, they operate at the frontier…",
-        "date": "2026年10月17日",
-        "date_iso": "2026-10-17",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Transform announces Azure-to-AWS cloud-native code conversion",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-transform-azure-to-aws-code-conversion/",
-        "summary": "Today, AWS announced the general availability of application code conversion from Azure SDK to AWS SDK in AWS Transform, giving you an accelerated path to migrate Microsoft Azure cloud-native .NET…",
-        "date": "2026年10月16日",
-        "date_iso": "2026-10-16",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Braket now in scope for FedRAMP Class C",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/braket-fedramp-class-c/",
-        "summary": "Amazon Braket is now in scope for FedRAMP Class C in AWS US Regions where Braket is available. The Federal Risk and Authorization Management Program (FedRAMP) is a US government-wide program that…",
-        "date": "2026年10月16日",
-        "date_iso": "2026-10-16",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Second-generation AWS Outposts racks now supported in the AWS Mexico (Central) Region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-outposts-racks-mexico-central/",
-        "summary": "Second-generation AWS Outposts racks are now supported in the AWS Mexico (Central) Region. Outposts racks extend AWS infrastructure, AWS services, APIs, and tools to virtually any on-premises data…",
-        "date": "2026年10月16日",
-        "date_iso": "2026-10-16",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS End User Messaging adds registration improvements for faster, higher-quality submissions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-end-user-messaging-adds-registration-improvements-for-faster-higher-quality-submissions",
-        "summary": "AWS End User Messaging now makes it easier to complete messaging registrations correctly the first time, with clearer guidance, explicit field requirements, and help avoiding the most common…",
-        "date": "2026年10月16日",
-        "date_iso": "2026-10-16",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS End User Messaging now supports Brand Profiles",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-end-user-messaging-now-supports-brand-profiles",
-        "summary": "Today, AWS End User Messaging announces Brand Profiles, which let you store your brand and company information once and reuse it across your messaging registrations. To send messages on SMS, RCS, and…",
-        "date": "2026年10月16日",
-        "date_iso": "2026-10-16",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "October 20, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_20_2026",
+        "summary": "Apigee X Announcement On October 20th, 2026, we began maintenance updates of Apigee instances configured for maintenance windows . If you set a preferred window for maintenance for your instance, and…",
+        "date": "2026年10月20日",
+        "date_iso": "2026-10-20",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
       {
         "title": "October 19, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_19_2026",
@@ -595,25 +605,95 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
-      },
-      {
-        "title": "September 30, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#September_30_2026",
-        "summary": "API Gateway Feature Authenticate MCP tool discovery with an API key API key authentication is now supported for the Model Context Protocol (MCP) tools/list method. You can name an API key security…",
-        "date": "2026年9月30日",
-        "date_iso": "2026-09-30",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "GCP"
       }
     ],
     "oci": [
+      {
+        "title": "Use Sandboxes in OCI Generative AI",
+        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/sandboxes.htm",
+        "summary": "",
+        "date": "2026年10月20日",
+        "date_iso": "2026-10-20",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "OCI Generative AI adds CPU-only access in 30 commercial regions",
+        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/cpu-only-regions.htm",
+        "summary": "",
+        "date": "2026年10月20日",
+        "date_iso": "2026-10-20",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Import Alibaba Qwen3.6-35B-A3B-FP8 into OCI Generative AI",
+        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/alibaba-qwen-3-6-35b-a3b-fp8.htm",
+        "summary": "",
+        "date": "2026年10月20日",
+        "date_iso": "2026-10-20",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Import NVIDIA Nemotron 3.5 Super VL NVFP4 into OCI Generative AI",
+        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/nvidia-nemotron-3-5-super-vl-120b-a12b-nvfp4.htm",
+        "summary": "",
+        "date": "2026年10月20日",
+        "date_iso": "2026-10-20",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Cryptographic Assessment in Oracle Data Safe",
+        "link": "https://docs.oracle.com/iaas/releasenotes/data-safe/crypto-assessment.htm",
+        "summary": "",
+        "date": "2026年10月20日",
+        "date_iso": "2026-10-20",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
       {
         "title": "Oracle Critical Patch Update (CPU) October 2026 for Oracle Java SE",
         "link": "https://docs.oracle.com/iaas/releasenotes/java-management/jdk-cpu-october-2026.htm",
         "summary": "",
         "date": "2026年10月20日",
         "date_iso": "2026-10-20",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Automatic Target Registration for Exadata Database Service on Cloud@Customer in Oracle Data Safe",
+        "link": "https://docs.oracle.com/iaas/releasenotes/data-safe/auto-register-exaCC.htm",
+        "summary": "",
+        "date": "2026年10月19日",
+        "date_iso": "2026-10-19",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "OCI"
+      },
+      {
+        "title": "Log Analytics: Oracle-defined VCN Flow dashboard",
+        "link": "https://docs.oracle.com/iaas/releasenotes/log-analytics/oct26-vcn-flow-dashboard.htm",
+        "summary": "",
+        "date": "2026年10月19日",
+        "date_iso": "2026-10-19",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Log Analytics: Oracle-defined ExaWatcher Overview dashboard",
+        "link": "https://docs.oracle.com/iaas/releasenotes/log-analytics/oct26-exawatcher-overview-dashboard.htm",
+        "summary": "",
+        "date": "2026年10月19日",
+        "date_iso": "2026-10-19",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "OCI"
@@ -631,6 +711,16 @@
       {
         "title": "Import Xiaomi MiMo V2.6 Pro RL into OCI Generative AI",
         "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/xiaomi-mimo-v2-6-pro-rl.htm",
+        "summary": "",
+        "date": "2026年10月15日",
+        "date_iso": "2026-10-15",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Import NVIDIA Nemotron 3 Ultra FP8 into OCI Generative AI",
+        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/nvidia-nemotron-3-ultra-fp8.htm",
         "summary": "",
         "date": "2026年10月15日",
         "date_iso": "2026-10-15",
@@ -716,96 +806,6 @@
         "date_iso": "2026-10-13",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Support for Kubernetes version 1.37.0 in a preview release of Kubernetes Engine",
-        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-K8s-1-37-0-preview-support-Release-Note.htm",
-        "summary": "",
-        "date": "2026年10月8日",
-        "date_iso": "2026-10-08",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "OCI"
-      },
-      {
-        "title": "Automatic Target Registration for Exadata Exascale in Oracle Data Safe",
-        "link": "https://docs.oracle.com/iaas/releasenotes/data-safe/auto-register-exascale.htm",
-        "summary": "",
-        "date": "2026年10月7日",
-        "date_iso": "2026-10-07",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Use identity domain browser session authentication for hosted applications in OCI Generative AI",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/hosted-deployments-oauth.htm",
-        "summary": "",
-        "date": "2026年10月7日",
-        "date_iso": "2026-10-07",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Console AI Availability",
-        "link": "https://docs.oracle.com/iaas/releasenotes/console/consoleai-availability-oct-2026.htm",
-        "summary": "",
-        "date": "2026年10月6日",
-        "date_iso": "2026-10-06",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Improve Iceberg External Table Query Performance with Partition Pruning",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-10-partition-pruning.htm",
-        "summary": "",
-        "date": "2026年10月6日",
-        "date_iso": "2026-10-06",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Multidimensional Analytics with Oracle Essbase",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-10-oracle-essbase.htm",
-        "summary": "",
-        "date": "2026年10月6日",
-        "date_iso": "2026-10-06",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "OCI Kubernetes Engine (OKE) support for GPU host repair",
-        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng_node-auto-repair.htm",
-        "summary": "",
-        "date": "2026年10月2日",
-        "date_iso": "2026-10-02",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Support for Kubernetes version 1.36.4",
-        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-K8s-1-36-4-support.htm",
-        "summary": "",
-        "date": "2026年10月1日",
-        "date_iso": "2026-10-01",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "OCI"
-      },
-      {
-        "title": "New connection support for GoldenGate Veridata",
-        "link": "https://docs.oracle.com/iaas/releasenotes/goldengate/veridata-connections.htm",
-        "summary": "",
-        "date": "2026年10月1日",
-        "date_iso": "2026-10-01",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
         "tag": "OCI"
       }
     ]
