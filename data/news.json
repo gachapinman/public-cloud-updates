@@ -1,5 +1,5 @@
 {
-  "updated": "2026年10月21日 13:50 JST",
+  "updated": "2026年10月21日 17:49 JST",
   "clouds": {
     "azure": [
       {
@@ -315,6 +315,16 @@
         "tag": "AWS"
       },
       {
+        "title": "Amazon CloudWatch Alarms now supports tags in alarm actions payload",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-cloudwatch-tags-on-alarm-actions-payload",
+        "summary": "Today, Amazon CloudWatch announces support for including alarm tags in action payloads and Amazon EventBridge events, enabling customers to route and filter alarm notifications by tag without…",
+        "date": "2026年10月20日",
+        "date_iso": "2026-10-20",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon ElastiCache Serverless for Valkey now supports online migration with zero downtime",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-elasticache-serverless-valkey-online-migration/",
         "summary": "Amazon ElastiCache Serverless for Valkey now supports online migration from self-managed Valkey and Redis OSS on Amazon EC2 with zero downtime. Zero downtime means zero Errors returned to the client…",
@@ -392,16 +402,6 @@
         "date_iso": "2026-10-19",
         "category": "network-tag",
         "cat_label": "ネットワーク",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon RDS Custom now supports the latest Cumulative Update and GDR updates for Microsoft SQL Server",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-rds-custom-supports-latest-cumulative-update-gdr-microsoft-sql-server/",
-        "summary": "Amazon Relational Database Service (Amazon RDS) Custom for SQL Server now supports the latest Cumulative Updates (CU) and General Distribution Release (GDR) updates for Microsoft SQL Server. This…",
-        "date": "2026年10月19日",
-        "date_iso": "2026-10-19",
-        "category": "database-tag",
-        "cat_label": "データベース",
         "tag": "AWS"
       }
     ],
