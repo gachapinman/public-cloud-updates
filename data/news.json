@@ -1,7 +1,17 @@
 {
-  "updated": "2026年10月22日 23:41 JST",
+  "updated": "2026年10月23日 13:52 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Generally Available: ABFS Vectored Read for Azure Data Lake Storage",
+        "link": "https://azure.microsoft.com/updates?id=577618",
+        "summary": "ABFS Vectored Read helps compatible analytics engines reduce request overhead for selective reads in Azure Data Lake Storage. By combining nearby file ranges into fewer storage requests and executing…",
+        "date": "2026年10月23日",
+        "date_iso": "2026-10-23",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Announcing: Choose Your Own Telephony (CYOT) for Microsoft Entra",
         "link": "https://azure.microsoft.com/updates?id=577273",
@@ -191,19 +201,119 @@
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "AZURE"
-      },
-      {
-        "title": "Retirement: Azure Deployment Environments will be retired on February 22, 2027",
-        "link": "https://azure.microsoft.com/updates?id=567934",
-        "summary": "Azure Deployment Environments will retire on February 22, 2027. Beginning on September 14, 2026, Azure Deployment Environments will begin the closing-down process. After retirement, the service will…",
-        "date": "2026年10月9日",
-        "date_iso": "2026-10-09",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Amazon Connect Customer now supports customizing the Customer Profiles app on the agent workspace",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-customer-customize-cp",
+        "summary": "Amazon Connect Customer Profiles now allows administrators to customize which customer data that agents see in the agent workspace, and how it is displayed, using layouts they build in Profile…",
+        "date": "2026年10月23日",
+        "date_iso": "2026-10-23",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Continuum for code vulnerabilities is now generally available",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-continuum-for-code-vulnerabilities-is-now-generally-available",
+        "summary": "Today, AWS announces the general availability of AWS Continuum for code vulnerabilities. Continuum for code vulnerabilities&nbsp;discovers, validates, prioritizes, and remediates code vulnerabilities…",
+        "date": "2026年10月23日",
+        "date_iso": "2026-10-23",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon OpenSearch Serverless now supports a 5-second default refresh interval",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-opensearch-serverless-supports-5-second-refresh-interval/",
+        "summary": "Starting today, Amazon OpenSearch Serverless reduces the default refresh interval to 5 seconds for both search and vector collections. The refresh interval controls how quickly newly ingested…",
+        "date": "2026年10月23日",
+        "date_iso": "2026-10-23",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS CloudFormation now simplifies stack update rollback operations",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-cloudformation-cdk/",
+        "summary": "AWS CloudFormation &nbsp;now makes it simpler to complete an update rollback and get back to deploying. An update rollback returns your stack to a known good state. Starting today, if some resources…",
+        "date": "2026年10月23日",
+        "date_iso": "2026-10-23",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon SageMaker AI announces training session APIs for serverless model customization",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/training-session-apis-on-sagemaker-ai",
+        "summary": "Amazon SageMaker AI serverless model customization now supports training session APIs, giving customers full control over their post-training algorithm without provisioning or managing GPU…",
+        "date": "2026年10月23日",
+        "date_iso": "2026-10-23",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Direct Connect announces 100G expansion in Bangalore, India",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-direct-connect-100g-bangalore/",
+        "summary": "Today, AWS announced the expansion of 100 Gbps dedicated connections at the existing AWS Direct Connect location in the Netmagic DC2 data center near Bangalore, India. You can now establish private,…",
+        "date": "2026年10月23日",
+        "date_iso": "2026-10-23",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS announces AWS Interconnect - last mile preview with Megaport",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-announces-AWS-interconnect-last-mile-megaport-preview/",
+        "summary": "AWS launches AWS Interconnect - last mile preview with Megaport, a fully managed connectivity offering that allows customers to connect their branch offices, data centers, and remote locations to AWS…",
+        "date": "2026年10月22日",
+        "date_iso": "2026-10-22",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon SageMaker AI now supports serverless model customization for Muse Glimmer, Qwen 3.8 and Ministral 3 models",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-sagemaker-muse-qwen-ministral/",
+        "summary": "Amazon SageMaker AI now supports serverless model customization for Muse Glimmer, Qwen3.8 27B, and Ministral 3 3B, 8B, and 14B models. In addition to deploying these models on SageMaker AI, you can…",
+        "date": "2026年10月22日",
+        "date_iso": "2026-10-22",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AgentCore Gateway now supports Bedrock InvokeModel APIs and model fallback",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/agentcore-gateway-invokemodel-fallback/",
+        "summary": "Amazon Bedrock AgentCore Gateway now supports the Amazon Bedrock InvokeModel and InvokeModelWithResponseStream APIs on its inference endpoint, along with model fallback routing for inference traffic.…",
+        "date": "2026年10月22日",
+        "date_iso": "2026-10-22",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Lambda MicroVMs is now available in 4 additional AWS regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/lambda-microvms-4-additional-regions",
+        "summary": "AWS Lambda MicroVMs is now available in 4 additional AWS Regions: Asia Pacific (Hong Kong), Asia Pacific (Malaysia), Asia Pacific (Thailand), and Europe (Spain). With this launch, you can use Lambda…",
+        "date": "2026年10月22日",
+        "date_iso": "2026-10-22",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Quick Now Available in the AWS Singapore Region",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-quick-now-available-in-the-aws-singapore-region/",
+        "summary": "Amazon Quick is now available in the AWS Asia Pacific (Singapore) region (ap-southeast-1). This launch allows customers in Singapore to access the full power of Amazon Quick while meeting local…",
+        "date": "2026年10月22日",
+        "date_iso": "2026-10-22",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
       {
         "title": "AWS Transform adds storage migration assessments for Amazon S3, EBS, EFS, and FSx",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/transform-assess-s3-ebs-efs-fsx/",
@@ -212,6 +322,16 @@
         "date_iso": "2026-10-22",
         "category": "storage-tag",
         "cat_label": "ストレージ",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Service Reference Information now supports global condition keys, service names, and data plane classification",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-service-reference-information-global-condition-keys-service-names-data-plane/",
+        "summary": "AWS is expanding programmatic service reference information to help you automate IAM policy management and keep your policies aligned with the latest service updates. The service reference now…",
+        "date": "2026年10月22日",
+        "date_iso": "2026-10-22",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
         "tag": "AWS"
       },
       {
@@ -283,157 +403,37 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon SageMaker AI now supports custom sequence lengths for serverless model customization jobs",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-custom-sequence-lengths/",
-        "summary": "Today, Amazon SageMaker AI announces the ability to configure the sequence length used during your serverless model customization job. Amazon SageMaker AI serverless model customization supports…",
-        "date": "2026年10月21日",
-        "date_iso": "2026-10-21",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Network Firewall now supports Route 53 Resolved IP Validation",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/network-firewall-route-53-ip-validation/",
-        "summary": "AWS Network Firewall now supports IP validation, extending domain-based filtering beyond HTTP/HTTPS to protocols such as SFTP and SSH. This new capability validates that a connection's destination IP…",
-        "date": "2026年10月21日",
-        "date_iso": "2026-10-21",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Transform now builds new networks and modernizes security groups",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-transform-new-networks/",
-        "summary": "AWS Transform for migrations now gives you three ways to bring your network to AWS. In addition to migrating and modernizing your existing network, you can build a new network from scratch or convert…",
-        "date": "2026年10月21日",
-        "date_iso": "2026-10-21",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Announcing Amazon ECS Gateway, a managed ingress solution for your ECS services",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/announcing-amazon-ecs-gateway/",
-        "summary": "AWS announces Amazon Elastic Container Service (Amazon ECS) Gateway, a new resource that simplifies ingress networking for containerized applications by dynamically provisioning and managing…",
-        "date": "2026年10月21日",
-        "date_iso": "2026-10-21",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon DynamoDB global tables now support disassociating replicas",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/dynamodb-global-tables-disassociate/",
-        "summary": "Amazon DynamoDB global tables now support disassociating a replica without deleting its table or data. Global tables provide fully managed, multi-Region, multi-active replication. You can now stop…",
-        "date": "2026年10月21日",
-        "date_iso": "2026-10-21",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon WorkSpaces simplifies secure AI agent access to enterprise cloud desktops with less infrastructure to operate…",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/workspaces-ai-agents-oauth-connection-management",
-        "summary": "WorkSpaces for AI agents now handles authentication and desktop connections as part of the managed Model Context Protocol (MCP) service, so you can connect agents to governed cloud desktops, removing…",
-        "date": "2026年10月21日",
-        "date_iso": "2026-10-21",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Polly Generative engine upgraded with more natural speech, 14 new voices, and 2 new languages",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/polly-generative/",
-        "summary": "Today, we are introducing a new model behind the Amazon Polly Generative engine that delivers more natural-sounding, accurate speech output with low latency. With this upgrade, you get access to an…",
-        "date": "2026年10月21日",
-        "date_iso": "2026-10-21",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS announces TorchNeuron: Native PyTorch Support for AWS Trainium (Public Beta)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-announce-native-pytorch-support-trainium",
-        "summary": "Today, AWS launched the public beta of TorchNeuron, an open source native PyTorch backend for AWS Trainium. Trainium is a portfolio of AI chips designed to deliver high performance and cost…",
-        "date": "2026年10月21日",
-        "date_iso": "2026-10-21",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Structured outputs for Claude models available on Amazon Bedrock",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/claude-structured-outputs-bedrock/",
-        "summary": "Amazon Bedrock now supports structured outputs for all Anthropic Claude models across both the bedrock-runtime and the bedrock-mantle endpoint. Whether you call Claude through boto3 and the…",
-        "date": "2026年10月20日",
-        "date_iso": "2026-10-20",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Clean Rooms now supports Databricks as a data source",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-clean-rooms-supports-databricks",
-        "summary": "AWS Clean Rooms now supports Databricks as a data source , so collaboration members and their partners can securely analyze data managed in Databricks without moving or revealing the source data.…",
-        "date": "2026年10月20日",
-        "date_iso": "2026-10-20",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS IAM Identity Center simplifies identity source changes from Active Directory",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/iam-identity-center-chg-id-src-from-ad/",
-        "summary": "AWS IAM Identity Center now retains your workforce identities and their assignments when you change your identity source from Active Directory to an external identity provider (IdP), such as Okta or…",
-        "date": "2026年10月20日",
-        "date_iso": "2026-10-20",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Bedrock Guardrails now supports Standard tier for contextual grounding checks",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-guardrails-grounding-standard/",
-        "summary": "Amazon Bedrock Guardrails now offers a Standard tier for contextual grounding checks, which detect and filter hallucinations by checking whether a model response is grounded in your reference source…",
-        "date": "2026年10月20日",
-        "date_iso": "2026-10-20",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
       }
     ],
     "gcp": [
       {
         "title": "October 22, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_22_2026",
-        "summary": "Compute Engine Feature You can view how a managed instance group (MIG) distributes its instances across zones and machine types, directly from the MIG's Monitoring tab in the Google Cloud console.…",
+        "summary": "App Engine standard environment PHP Security All supported versions of PHP 8.2 and later are patched. Take immediate protective action by redeploying your resources with updated dependencies. See…",
         "date": "2026年10月22日",
         "date_iso": "2026-10-22",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
         "tag": "GCP"
       },
       {
         "title": "October 21, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_21_2026",
-        "summary": "App Engine flexible environment PHP Feature Patch updates to supported PHP runtimes are available with deployments from source: 8.5.12 , 8.4.27 , 8.3.36 , and 8.2.35 . Take immediate action to…",
+        "summary": "Apigee X Announcement Apigee Emulator Apigee Emulator v2.0.2 On October 21, 2026, we released Apigee Emulator version 2.0.2. This release upgrades the Apigee Emulator runtime to Java 21 (Eclipse…",
         "date": "2026年10月21日",
         "date_iso": "2026-10-21",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "GCP"
       },
       {
         "title": "October 20, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_20_2026",
-        "summary": "Cloud SDK Breaking 590.0.0 (2026-10-20) Breaking Changes (Google Cloud CLI) Removed the gcloud-man-pages component. Use --help for full command documentation. (App Engine) Removed the app-engine-grpc…",
+        "summary": "Apigee X Announcement On October 20th, 2026, we began maintenance updates of Apigee instances configured for maintenance windows . If you set a preferred window for maintenance for your instance, and…",
         "date": "2026年10月20日",
         "date_iso": "2026-10-20",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "GCP"
       },
       {
@@ -609,16 +609,6 @@
     ],
     "oci": [
       {
-        "title": "OCI Kubernetes Engine (OKE) support for GPU maintenance event repair",
-        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng_node-maintenance-event-repair.htm",
-        "summary": "",
-        "date": "2026年10月21日",
-        "date_iso": "2026-10-21",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
         "title": "Add file storage to Generative AI applications",
         "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/hosted-applications-persistent-file-storage.htm",
         "summary": "",
@@ -639,31 +629,21 @@
         "tag": "OCI"
       },
       {
-        "title": "Device Data FHIR resource management and Subscription status enhancements",
-        "link": "https://docs.oracle.com/iaas/releasenotes/device-data-fhir/update-10212026.htm",
+        "title": "OCI Kubernetes Engine (OKE) support for GPU maintenance event repair",
+        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng_node-maintenance-event-repair.htm",
         "summary": "",
         "date": "2026年10月21日",
         "date_iso": "2026-10-21",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Cryptographic Assessment in Oracle Data Safe",
-        "link": "https://docs.oracle.com/iaas/releasenotes/data-safe/crypto-assessment.htm",
-        "summary": "",
-        "date": "2026年10月20日",
-        "date_iso": "2026-10-20",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "OCI"
       },
       {
-        "title": "GoldenGate adds support for new connection types",
-        "link": "https://docs.oracle.com/iaas/releasenotes/goldengate/r12connections.htm",
+        "title": "Device Data FHIR resource management and Subscription status enhancements",
+        "link": "https://docs.oracle.com/iaas/releasenotes/device-data-fhir/update-10212026.htm",
         "summary": "",
-        "date": "2026年10月20日",
-        "date_iso": "2026-10-20",
+        "date": "2026年10月21日",
+        "date_iso": "2026-10-21",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "OCI"
@@ -679,7 +659,7 @@
         "tag": "OCI"
       },
       {
-        "title": "OCI Generative AI expands on-demand model access to 30 commercial regions",
+        "title": "Global Generative AI availability",
         "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/expanded-on-demand-model-access.htm",
         "summary": "",
         "date": "2026年10月20日",
@@ -706,6 +686,26 @@
         "date_iso": "2026-10-20",
         "category": "ai-tag",
         "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Cryptographic Assessment in Oracle Data Safe",
+        "link": "https://docs.oracle.com/iaas/releasenotes/data-safe/crypto-assessment.htm",
+        "summary": "",
+        "date": "2026年10月20日",
+        "date_iso": "2026-10-20",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "GoldenGate adds support for new connection types",
+        "link": "https://docs.oracle.com/iaas/releasenotes/goldengate/r12connections.htm",
+        "summary": "",
+        "date": "2026年10月20日",
+        "date_iso": "2026-10-20",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "OCI"
       },
       {
