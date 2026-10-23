@@ -1,5 +1,5 @@
 {
-  "updated": "2026年10月23日 17:47 JST",
+  "updated": "2026年10月23日 23:27 JST",
   "clouds": {
     "azure": [
       {
@@ -409,11 +409,11 @@
       {
         "title": "October 22, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_22_2026",
-        "summary": "App Engine standard environment PHP Security All supported versions of PHP 8.2 and later are patched. Take immediate protective action by redeploying your resources with updated dependencies. See…",
+        "summary": "Apigee X Announcement On October 22, 2026, we released an updated version of Apigee (1-18-0-apigee-7). Note: Rollouts of this release began today and can take four or more business days to complete…",
         "date": "2026年10月22日",
         "date_iso": "2026-10-22",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "GCP"
       },
       {
@@ -609,6 +609,26 @@
     ],
     "oci": [
       {
+        "title": "Validate GPU cluster health with Cluster Health Checks",
+        "link": "https://docs.oracle.com/iaas/releasenotes/compute/cluster-health-checks.htm",
+        "summary": "",
+        "date": "2026年10月22日",
+        "date_iso": "2026-10-22",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "OCI Kubernetes Engine (OKE) support for GPU maintenance event repair",
+        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng_node-maintenance-event-repair.htm",
+        "summary": "",
+        "date": "2026年10月21日",
+        "date_iso": "2026-10-21",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
         "title": "Add file storage to Generative AI applications",
         "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/hosted-applications-persistent-file-storage.htm",
         "summary": "",
@@ -629,21 +649,31 @@
         "tag": "OCI"
       },
       {
-        "title": "OCI Kubernetes Engine (OKE) support for GPU maintenance event repair",
-        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng_node-maintenance-event-repair.htm",
-        "summary": "",
-        "date": "2026年10月21日",
-        "date_iso": "2026-10-21",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
         "title": "Device Data FHIR resource management and Subscription status enhancements",
         "link": "https://docs.oracle.com/iaas/releasenotes/device-data-fhir/update-10212026.htm",
         "summary": "",
         "date": "2026年10月21日",
         "date_iso": "2026-10-21",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Cryptographic Assessment in Oracle Data Safe",
+        "link": "https://docs.oracle.com/iaas/releasenotes/data-safe/crypto-assessment.htm",
+        "summary": "",
+        "date": "2026年10月20日",
+        "date_iso": "2026-10-20",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "GoldenGate adds support for new connection types",
+        "link": "https://docs.oracle.com/iaas/releasenotes/goldengate/r12connections.htm",
+        "summary": "",
+        "date": "2026年10月20日",
+        "date_iso": "2026-10-20",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "OCI"
@@ -686,26 +716,6 @@
         "date_iso": "2026-10-20",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Cryptographic Assessment in Oracle Data Safe",
-        "link": "https://docs.oracle.com/iaas/releasenotes/data-safe/crypto-assessment.htm",
-        "summary": "",
-        "date": "2026年10月20日",
-        "date_iso": "2026-10-20",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "GoldenGate adds support for new connection types",
-        "link": "https://docs.oracle.com/iaas/releasenotes/goldengate/r12connections.htm",
-        "summary": "",
-        "date": "2026年10月20日",
-        "date_iso": "2026-10-20",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
         "tag": "OCI"
       },
       {
@@ -791,16 +801,6 @@
       {
         "title": "Import Xiaomi MiMo V2.6 Pro RL into OCI Generative AI",
         "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/xiaomi-mimo-v2-6-pro-rl.htm",
-        "summary": "",
-        "date": "2026年10月15日",
-        "date_iso": "2026-10-15",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Import NVIDIA Nemotron 3 Ultra FP8 into OCI Generative AI",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/nvidia-nemotron-3-ultra-fp8.htm",
         "summary": "",
         "date": "2026年10月15日",
         "date_iso": "2026-10-15",
