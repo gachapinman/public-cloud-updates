@@ -1,5 +1,5 @@
 {
-  "updated": "2026年10月24日 17:21 JST",
+  "updated": "2026年10月24日 22:37 JST",
   "clouds": {
     "azure": [
       {
@@ -409,7 +409,7 @@
       {
         "title": "October 23, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_23_2026",
-        "summary": "Cloud Monitoring Fixed Ops Agent version 2.73.0 includes patches for a Go vulnerability involving system root certificates, CVE-2026-111943 . For more information, see Ops Agent 2.73.0 notes .",
+        "summary": "Cloud Monitoring Fixed Ops Agent version 2.73.0 includes patches for a Go vulnerability involving system root certificates, CVE-2026-111943 . For more information, see Ops Agent 2.73.0 notes . Cloud…",
         "date": "2026年10月23日",
         "date_iso": "2026-10-23",
         "category": "compute-tag",
