@@ -1,5 +1,5 @@
 {
-  "updated": "2026年10月24日 22:37 JST",
+  "updated": "2026年10月25日 13:43 JST",
   "clouds": {
     "azure": [
       {
@@ -205,9 +205,9 @@
     ],
     "aws": [
       {
-        "title": "Web Search on AWS Bedrock now supports domain filtering and user location controls",
+        "title": "Web Search on Amazon Bedrock now supports domain filtering and user location controls",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-web-search-domain-user-location/",
-        "summary": "Web Search on AWS Bedrock now supports two new controls that give you more precision over the results that ground a model's response: domain filtering and user location. Both are configured directly…",
+        "summary": "Web Search on&nbsp;Amazon Bedrock now supports two new controls that give you more precision over the results that ground a model's response: domain filtering and user location. Both are configured…",
         "date": "2026年10月24日",
         "date_iso": "2026-10-24",
         "category": "ai-tag",
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "October 24, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_24_2026",
+        "summary": "App Engine flexible environment .NET Security The following runtime language contains important security updates: .NET 6 and later : 6.0.428 , 8.0.415 , 10.0.100 The following stacks and their…",
+        "date": "2026年10月24日",
+        "date_iso": "2026-10-24",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "October 23, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_23_2026",
         "summary": "Cloud Monitoring Fixed Ops Agent version 2.73.0 includes patches for a Go vulnerability involving system root certificates, CVE-2026-111943 . For more information, see Ops Agent 2.73.0 notes . Cloud…",
@@ -592,16 +602,6 @@
         "summary": "Agent Platform Workbench Change 20261004.00_p0 Release Change Installed latest packages from upstream dependencies. Change The BigQuery JupyterLab plugin is now enabled independently of the Dataproc…",
         "date": "2026年10月5日",
         "date_iso": "2026-10-05",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "GCP"
-      },
-      {
-        "title": "October 04, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_04_2026",
-        "summary": "Agent Platform Workbench Change 20261004-2230-rc0 Release Change 20261004-2230-rc0 Release Change Installed latest packages from upstream dependencies. Change Installed latest packages from upstream…",
-        "date": "2026年10月4日",
-        "date_iso": "2026-10-04",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "GCP"
