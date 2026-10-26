@@ -1,5 +1,5 @@
 {
-  "updated": "2026年10月26日 13:49 JST",
+  "updated": "2026年10月26日 18:17 JST",
   "clouds": {
     "azure": [
       {
@@ -659,6 +659,16 @@
         "tag": "OCI"
       },
       {
+        "title": "Full Stack Disaster Recovery introduces support for PostgreSQL DB System and enhancements to moving compute instances",
+        "link": "https://docs.oracle.com/iaas/releasenotes/disaster-recovery/oct-2026.htm",
+        "summary": "",
+        "date": "2026年10月20日",
+        "date_iso": "2026-10-20",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "OCI"
+      },
+      {
         "title": "Cryptographic Assessment in Oracle Data Safe",
         "link": "https://docs.oracle.com/iaas/releasenotes/data-safe/crypto-assessment.htm",
         "summary": "",
@@ -791,16 +801,6 @@
       {
         "title": "Import Alibaba Qwen3.8-Flash-Next into OCI Generative AI",
         "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/alibaba-qwen-3-8-flash-next.htm",
-        "summary": "",
-        "date": "2026年10月15日",
-        "date_iso": "2026-10-15",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Import Xiaomi MiMo V2.6 Pro RL into OCI Generative AI",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/xiaomi-mimo-v2-6-pro-rl.htm",
         "summary": "",
         "date": "2026年10月15日",
         "date_iso": "2026-10-15",
