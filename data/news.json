@@ -1,5 +1,5 @@
 {
-  "updated": "2026年10月25日 22:56 JST",
+  "updated": "2026年10月26日 13:49 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "October 25, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_25_2026",
+        "summary": "Google SecOps Feature Resize inline images in Case Wall comments You can now resize inline images directly in rich-text comments on the Case Wall. To resize an image, switch the comment box to…",
+        "date": "2026年10月25日",
+        "date_iso": "2026-10-25",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "GCP"
+      },
+      {
         "title": "October 24, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_24_2026",
         "summary": "App Engine flexible environment .NET Security The following runtime language contains important security updates: .NET 6 and later : 6.0.428 , 8.0.415 , 10.0.100 The following stacks and their…",
@@ -594,16 +604,6 @@
         "date_iso": "2026-10-06",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "October 05, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_05_2026",
-        "summary": "Agent Platform Workbench Change 20261004.00_p0 Release Change Installed latest packages from upstream dependencies. Change The BigQuery JupyterLab plugin is now enabled independently of the Dataproc…",
-        "date": "2026年10月5日",
-        "date_iso": "2026-10-05",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
         "tag": "GCP"
       }
     ],
