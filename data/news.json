@@ -1,5 +1,5 @@
 {
-  "updated": "2026年10月27日 18:17 JST",
+  "updated": "2026年10月28日 00:33 JST",
   "clouds": {
     "azure": [
       {
@@ -205,6 +205,16 @@
     ],
     "aws": [
       {
+        "title": "Amazon ECR now supports replication backfill for existing container images",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/replication-backfill-amazon-ecr",
+        "summary": "Amazon Elastic Container Registry (Amazon ECR) now supports replication backfill, enabling you to replicate existing images in your private registry to your configured replication registry…",
+        "date": "2026年10月27日",
+        "date_iso": "2026-10-27",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
         "title": "OpenAI GPT-6.1 Terra is now generally available on Amazon Bedrock",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/openai-gpt-6-1-terra-on-amazon-bedrock/",
         "summary": "Today, AWS announces the general availability of OpenAI GPT-6.1 Terra on Amazon Bedrock. GPT-6.1 Terra expands the GPT-6 family with a balance of capability, speed, and cost efficiency for everyday…",
@@ -355,16 +365,6 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon MWAA now available in Mexico (Central) Region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-mwaa-mexico-central/",
-        "summary": "Amazon Managed Workflows for Apache Airflow (Amazon MWAA) Provisioned environments are now available in the Mexico (Central) Region (mx-central-1). Amazon MWAA Serverless was already available in…",
-        "date": "2026年10月23日",
-        "date_iso": "2026-10-23",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
         "title": "Amazon EMR on EKS reduces EMR charge by 30 percent",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/emr-eks-reduces-emr-charge-30-percent/",
         "summary": "Amazon EMR announces a reduction of 30 percent in the EMR charge added to EKS when running EMR on EKS. This price decrease applies to both the per-vCPU-hour charge and the per-GB-hour charge, while…",
@@ -372,6 +372,16 @@
         "date_iso": "2026-10-23",
         "category": "container-tag",
         "cat_label": "コンテナ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon MWAA now available in Mexico (Central) Region",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-mwaa-mexico-central/",
+        "summary": "Amazon Managed Workflows for Apache Airflow (Amazon MWAA) Provisioned environments are now available in the Mexico (Central) Region (mx-central-1). Amazon MWAA Serverless was already available in…",
+        "date": "2026年10月23日",
+        "date_iso": "2026-10-23",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "AWS"
       },
       {
@@ -392,16 +402,6 @@
         "date_iso": "2026-10-23",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon OpenSearch Service introduces intelligent ingestion for logs and documents in Amazon S3",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-opensearch-intelligent-ingestion-logs-documents-s3",
-        "summary": "Amazon OpenSearch Serverless now offers intelligent ingestion, a fully managed feature that turns logs and documents stored in Amazon S3 into searchable content in Amazon OpenSearch Serverless…",
-        "date": "2026年10月23日",
-        "date_iso": "2026-10-23",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
         "tag": "AWS"
       }
     ],
@@ -609,11 +609,21 @@
     ],
     "oci": [
       {
-        "title": "Oracle-Seeded Application Roles Protected from Modification",
-        "link": "https://docs.oracle.com/iaas/releasenotes/identity/identity-protect-oracle-seeded-approles.htm",
+        "title": "Oracle Cost Advisor for AI in Limited Availability",
+        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/cost-advisor-limited-availability.htm",
         "summary": "",
-        "date": "2026年10月23日",
-        "date_iso": "2026-10-23",
+        "date": "2026年10月27日",
+        "date_iso": "2026-10-27",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Manage conversation context with compaction in the OCI Responses API",
+        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/responses-api-compaction.htm",
+        "summary": "",
+        "date": "2026年10月27日",
+        "date_iso": "2026-10-27",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "OCI"
@@ -626,16 +636,6 @@
         "date_iso": "2026-10-22",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "OCI Kubernetes Engine (OKE) support for GPU maintenance event repair",
-        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng_node-maintenance-event-repair.htm",
-        "summary": "",
-        "date": "2026年10月21日",
-        "date_iso": "2026-10-21",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "OCI"
       },
       {
@@ -659,31 +659,21 @@
         "tag": "OCI"
       },
       {
-        "title": "Device Data FHIR resource management and Subscription status enhancements",
-        "link": "https://docs.oracle.com/iaas/releasenotes/device-data-fhir/update-10212026.htm",
+        "title": "OCI Kubernetes Engine (OKE) support for GPU maintenance event repair",
+        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng_node-maintenance-event-repair.htm",
         "summary": "",
         "date": "2026年10月21日",
         "date_iso": "2026-10-21",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Cryptographic Assessment in Oracle Data Safe",
-        "link": "https://docs.oracle.com/iaas/releasenotes/data-safe/crypto-assessment.htm",
-        "summary": "",
-        "date": "2026年10月20日",
-        "date_iso": "2026-10-20",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "OCI"
       },
       {
-        "title": "GoldenGate adds support for new connection types",
-        "link": "https://docs.oracle.com/iaas/releasenotes/goldengate/r12connections.htm",
+        "title": "Device Data FHIR resource management and Subscription status enhancements",
+        "link": "https://docs.oracle.com/iaas/releasenotes/device-data-fhir/update-10212026.htm",
         "summary": "",
-        "date": "2026年10月20日",
-        "date_iso": "2026-10-20",
+        "date": "2026年10月21日",
+        "date_iso": "2026-10-21",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "OCI"
@@ -726,6 +716,26 @@
         "date_iso": "2026-10-20",
         "category": "ai-tag",
         "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Cryptographic Assessment in Oracle Data Safe",
+        "link": "https://docs.oracle.com/iaas/releasenotes/data-safe/crypto-assessment.htm",
+        "summary": "",
+        "date": "2026年10月20日",
+        "date_iso": "2026-10-20",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "GoldenGate adds support for new connection types",
+        "link": "https://docs.oracle.com/iaas/releasenotes/goldengate/r12connections.htm",
+        "summary": "",
+        "date": "2026年10月20日",
+        "date_iso": "2026-10-20",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "OCI"
       },
       {
@@ -791,16 +801,6 @@
       {
         "title": "Log Analytics: Oracle-defined VCN Flow dashboard",
         "link": "https://docs.oracle.com/iaas/releasenotes/log-analytics/oct26-vcn-flow-dashboard.htm",
-        "summary": "",
-        "date": "2026年10月19日",
-        "date_iso": "2026-10-19",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Log Analytics: Oracle-defined ExaWatcher Overview dashboard",
-        "link": "https://docs.oracle.com/iaas/releasenotes/log-analytics/oct26-exawatcher-overview-dashboard.htm",
         "summary": "",
         "date": "2026年10月19日",
         "date_iso": "2026-10-19",
