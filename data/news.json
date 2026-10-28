@@ -1,7 +1,37 @@
 {
-  "updated": "2026年10月28日 00:33 JST",
+  "updated": "2026年10月28日 14:44 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Generally Available: Higher limit of Azure Blob Storage accounts per region per subscription",
+        "link": "https://azure.microsoft.com/updates?id=578358",
+        "summary": "Higher Azure Storage account resource quotas are now generally available, supporting up to 1,000 storage accounts with standard endpoints per region, per subscription, up from the default of 250.…",
+        "date": "2026年10月28日",
+        "date_iso": "2026-10-28",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Cost management and tagging for Claude models in Microsoft Foundry",
+        "link": "https://azure.microsoft.com/updates?id=577260",
+        "summary": "Microsoft Foundry now brings Claude models into Azure Cost Management alongside the rest of your Foundry spend, generally available. Until now, Claude charges appeared under SaaS rather than under…",
+        "date": "2026年10月28日",
+        "date_iso": "2026-10-28",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Azure Front Door profile and route level WAF policies",
+        "link": "https://azure.microsoft.com/updates?id=578153",
+        "summary": "Announcing the general availability of profile and route level policies for Azure Web Application Firewall (WAF) on Azure Front Door Premium. WAF policies are no longer limited to individual domains:…",
+        "date": "2026年10月28日",
+        "date_iso": "2026-10-28",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Generally Available: Network Watcher VNet flow logs filtering",
         "link": "https://azure.microsoft.com/updates?id=577782",
@@ -171,39 +201,69 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Azure Site Recovery Support for Azure ARC-enabled Windows VMWare/Physical servers",
-        "link": "https://azure.microsoft.com/updates?id=576214",
-        "summary": "Azure Site Recovery (ASR) now supports disaster recovery for Azure ARC-enabled Windows VMWare virtual machines and on-premise physical servers. Customers can protect ARC-managed machines with ASR…",
-        "date": "2026年10月15日",
-        "date_iso": "2026-10-15",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Retirement: Azure Key Vault Secrets Provider Extension for Azure Arc enabled Kubernetes clusters",
-        "link": "https://azure.microsoft.com/updates?id=570313",
-        "summary": "The Azure Key Vault Secrets Provider Extension for Azure Arc-enabled Kubernetes will be retired on October 9, 2027.Customers currently using the extension should plan to migrate to the Azure Key…",
-        "date": "2026年10月10日",
-        "date_iso": "2026-10-10",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Managed StandardV2 NAT Gateway for AKS",
-        "link": "https://azure.microsoft.com/updates?id=574430",
-        "summary": "AKS will now provision and manage a StandardV2 NAT Gateway for clusters using an AKS-managed virtual network.StandardV2 is now the default managed NAT Gateway SKU for new clusters in supported…",
-        "date": "2026年10月9日",
-        "date_iso": "2026-10-09",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Amazon ECS now supports GPU sharing with NVIDIA Multi-Process Service (MPS)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ecs-gpu-sharing-nvidia-mps/",
+        "summary": "Amazon Elastic Container Service (Amazon ECS) now supports GPU sharing with NVIDIA Multi-Process Service (MPS), enabling you to run multiple Amazon ECS tasks concurrently on a single NVIDIA GPU. GPU…",
+        "date": "2026年10月28日",
+        "date_iso": "2026-10-28",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "SageMaker MLflow Apps now support MLflow 3.16",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/mflow-version-3-16/",
+        "summary": "Amazon SageMaker AI MLflow Apps now support MLflow 3.16, bringing a redesigned tracing experience and faster experiment tracking to your generative AI and machine learning workflows. MLflow 3.16…",
+        "date": "2026年10月28日",
+        "date_iso": "2026-10-28",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Aurora serverless now supports up to 384 ACUs",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aurora-serverless-supports-384-acu/",
+        "summary": "Amazon Aurora serverless now supports database capacity of up to 384 Aurora Capacity Units (ACUs) for Aurora PostgreSQL-Compatible Edition, a 50% increase from the previous maximum of 256 ACUs. Each…",
+        "date": "2026年10月28日",
+        "date_iso": "2026-10-28",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon ElastiCache for Valkey now supports changing durability on existing clusters",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/elasticache-changing-durability/",
+        "summary": "Amazon ElastiCache for Valkey now lets you enable or disable durability on your existing node-based clusters without creating a new cluster. Previously, you couldn't change the durability…",
+        "date": "2026年10月28日",
+        "date_iso": "2026-10-28",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Corretto October 2026 Patch Updates",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-corretto-oct-2026-patch-updates",
+        "summary": "On October 26, 2026 Amazon announced a patch update for the following Amazon Corretto Long-Term Support (LTS) and Feature Release (FR) versions of OpenJDK. Corretto 27.0.1.0.11, 25.0.5.0.10,…",
+        "date": "2026年10月27日",
+        "date_iso": "2026-10-27",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Neptune now supports online index rebuild to reclaim storage",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/neptune-online-index-rebuild/",
+        "summary": "Amazon Neptune Database now supports online index rebuild, a new capability that helps database administrators and application teams defragment Neptune indexes and reclaim unused storage space…",
+        "date": "2026年10月27日",
+        "date_iso": "2026-10-27",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
       {
         "title": "Amazon ECR now supports replication backfill for existing container images",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/replication-backfill-amazon-ecr",
@@ -232,6 +292,16 @@
         "date_iso": "2026-10-27",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon IVS Low-Latency Streaming now provides a failover slate",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ivs-low-latency-streaming-failover-slate",
+        "summary": "Amazon Interactive Video Service (Amazon IVS) Low-Latency Streaming now provides a failover slate, an animated image that IVS displays to viewers when a broadcaster's stream is unexpectedly…",
+        "date": "2026年10月27日",
+        "date_iso": "2026-10-27",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "AWS"
       },
       {
@@ -305,6 +375,16 @@
         "tag": "AWS"
       },
       {
+        "title": "AWS Elemental MediaConnect Router now supports endpoint connection management",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/mediaconnect-cross-account-endpoints/",
+        "summary": "AWS Elemental MediaConnect Router now supports managing external connections through a new endpoint registry. The registry provides a centralized interface to register and manage both standard…",
+        "date": "2026年10月26日",
+        "date_iso": "2026-10-26",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon RDS now supports the latest Cumulative Update and GDR updates for Microsoft SQL Server",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-rds-supports-latest-cumulative-update-gdr-microsoft-sql-server/",
         "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports the latest Cumulative Updates (CU) and General Distribution Release (GDR) updates for Microsoft SQL Server. This release…",
@@ -323,89 +403,19 @@
         "category": "security-tag",
         "cat_label": "セキュリティ",
         "tag": "AWS"
-      },
-      {
-        "title": "Web Search on Amazon Bedrock now supports domain filtering and user location controls",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-web-search-domain-user-location/",
-        "summary": "Web Search on&nbsp;Amazon Bedrock now supports two new controls that give you more precision over the results that ground a model's response: domain filtering and user location. Both are configured…",
-        "date": "2026年10月24日",
-        "date_iso": "2026-10-24",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Connect Customer Global Resiliency now supports persistent chat across linked AWS Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-connect-global-resiliency-persistent-chat",
-        "summary": "Amazon Connect Customer Global Resiliency now provides customers a mechanism to deliver long, persistent chat experiences across linked AWS Regions. With this capability, end users can resume…",
-        "date": "2026年10月24日",
-        "date_iso": "2026-10-24",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Transit Gateway and AWS Cloud WAN now support 1:1 NAT",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-transit-gateway-cloud-wan-1-1-nat/",
-        "summary": "AWS Transit Gateway and AWS Cloud WAN now provide managed one-to-one network address translation (NAT) directly on their attachments, through integration with Regional Private NAT Gateway. This…",
-        "date": "2026年10月24日",
-        "date_iso": "2026-10-24",
-        "category": "network-tag",
-        "cat_label": "ネットワーク",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Corretto October 2026 Quarterly Updates",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-corretto-october-2026-quarterly-updates",
-        "summary": "On October 22, 2026 Amazon announced quarterly security and critical updates for Amazon Corretto Long-Term Supported (LTS) versions of OpenJDK. Corretto 27.0.1.0.10, 25.0.5.0.9, 21.0.13.0.10,…",
-        "date": "2026年10月23日",
-        "date_iso": "2026-10-23",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EMR on EKS reduces EMR charge by 30 percent",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/emr-eks-reduces-emr-charge-30-percent/",
-        "summary": "Amazon EMR announces a reduction of 30 percent in the EMR charge added to EKS when running EMR on EKS. This price decrease applies to both the per-vCPU-hour charge and the per-GB-hour charge, while…",
-        "date": "2026年10月23日",
-        "date_iso": "2026-10-23",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon MWAA now available in Mexico (Central) Region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-mwaa-mexico-central/",
-        "summary": "Amazon Managed Workflows for Apache Airflow (Amazon MWAA) Provisioned environments are now available in the Mexico (Central) Region (mx-central-1). Amazon MWAA Serverless was already available in…",
-        "date": "2026年10月23日",
-        "date_iso": "2026-10-23",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Connect Customer now supports customizing the Customer Profiles app on the agent workspace",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-customer-customize-cp",
-        "summary": "Amazon Connect Customer Profiles now allows administrators to customize which customer data that agents see in the agent workspace, and how it is displayed, using layouts they build in Profile…",
-        "date": "2026年10月23日",
-        "date_iso": "2026-10-23",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Continuum for code vulnerabilities is now generally available",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-continuum-for-code-vulnerabilities-is-now-generally-available",
-        "summary": "Today, AWS announces the general availability of AWS Continuum for code vulnerabilities. Continuum for code vulnerabilities&nbsp;discovers, validates, prioritizes, and remediates code vulnerabilities…",
-        "date": "2026年10月23日",
-        "date_iso": "2026-10-23",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "October 27, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_27_2026",
+        "summary": "AlloyDB for PostgreSQL Announcement The following AlloyDB AI functions and improvements are available in Preview : The ai.extract function lets you extract structured data from unstructured text…",
+        "date": "2026年10月27日",
+        "date_iso": "2026-10-27",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
       {
         "title": "October 26, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_26_2026",
@@ -595,16 +605,6 @@
         "category": "database-tag",
         "cat_label": "データベース",
         "tag": "GCP"
-      },
-      {
-        "title": "October 07, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_07_2026",
-        "summary": "API Gateway Deprecated Negative backend deadlines are deprecated A negative backend deadline in an OpenAPI 2.0 x-google-backend extension or a gRPC BackendRule uses the default deadline, the same as…",
-        "date": "2026年10月7日",
-        "date_iso": "2026-10-07",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "GCP"
       }
     ],
     "oci": [
@@ -639,6 +639,16 @@
         "tag": "OCI"
       },
       {
+        "title": "OCI Kubernetes Engine (OKE) support for GPU maintenance event repair",
+        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng_node-maintenance-event-repair.htm",
+        "summary": "",
+        "date": "2026年10月21日",
+        "date_iso": "2026-10-21",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
         "title": "Add file storage to Generative AI applications",
         "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/hosted-applications-persistent-file-storage.htm",
         "summary": "",
@@ -659,21 +669,31 @@
         "tag": "OCI"
       },
       {
-        "title": "OCI Kubernetes Engine (OKE) support for GPU maintenance event repair",
-        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng_node-maintenance-event-repair.htm",
-        "summary": "",
-        "date": "2026年10月21日",
-        "date_iso": "2026-10-21",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
         "title": "Device Data FHIR resource management and Subscription status enhancements",
         "link": "https://docs.oracle.com/iaas/releasenotes/device-data-fhir/update-10212026.htm",
         "summary": "",
         "date": "2026年10月21日",
         "date_iso": "2026-10-21",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Cryptographic Assessment in Oracle Data Safe",
+        "link": "https://docs.oracle.com/iaas/releasenotes/data-safe/crypto-assessment.htm",
+        "summary": "",
+        "date": "2026年10月20日",
+        "date_iso": "2026-10-20",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "GoldenGate adds support for new connection types",
+        "link": "https://docs.oracle.com/iaas/releasenotes/goldengate/r12connections.htm",
+        "summary": "",
+        "date": "2026年10月20日",
+        "date_iso": "2026-10-20",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "OCI"
@@ -716,26 +736,6 @@
         "date_iso": "2026-10-20",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Cryptographic Assessment in Oracle Data Safe",
-        "link": "https://docs.oracle.com/iaas/releasenotes/data-safe/crypto-assessment.htm",
-        "summary": "",
-        "date": "2026年10月20日",
-        "date_iso": "2026-10-20",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "GoldenGate adds support for new connection types",
-        "link": "https://docs.oracle.com/iaas/releasenotes/goldengate/r12connections.htm",
-        "summary": "",
-        "date": "2026年10月20日",
-        "date_iso": "2026-10-20",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
         "tag": "OCI"
       },
       {
@@ -789,6 +789,16 @@
         "tag": "OCI"
       },
       {
+        "title": "Self-service continuous consumption discount commitments are now available",
+        "link": "https://docs.oracle.com/iaas/releasenotes/billing/continuous-consumption-discounts.htm",
+        "summary": "",
+        "date": "2026年10月19日",
+        "date_iso": "2026-10-19",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
         "title": "Automatic Target Registration for Exadata Database Service on Cloud@Customer in Oracle Data Safe",
         "link": "https://docs.oracle.com/iaas/releasenotes/data-safe/auto-register-exaCC.htm",
         "summary": "",
@@ -796,16 +806,6 @@
         "date_iso": "2026-10-19",
         "category": "database-tag",
         "cat_label": "データベース",
-        "tag": "OCI"
-      },
-      {
-        "title": "Log Analytics: Oracle-defined VCN Flow dashboard",
-        "link": "https://docs.oracle.com/iaas/releasenotes/log-analytics/oct26-vcn-flow-dashboard.htm",
-        "summary": "",
-        "date": "2026年10月19日",
-        "date_iso": "2026-10-19",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
         "tag": "OCI"
       }
     ]
