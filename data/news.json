@@ -1,5 +1,5 @@
 {
-  "updated": "2026年10月28日 18:58 JST",
+  "updated": "2026年10月29日 01:16 JST",
   "clouds": {
     "azure": [
       {
@@ -377,11 +377,11 @@
       {
         "title": "AWS Elemental MediaConnect Router now supports endpoint connection management",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/mediaconnect-cross-account-endpoints/",
-        "summary": "AWS Elemental MediaConnect Router now supports managing external connections through a new endpoint registry. The registry provides a centralized interface to register and manage both standard…",
+        "summary": "AWS Elemental MediaConnect Router &nbsp;now supports managing connections through a new endpoint registry, which allows you to register devices or software external to MediaConnect and connect those…",
         "date": "2026年10月26日",
         "date_iso": "2026-10-26",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
         "tag": "AWS"
       },
       {
@@ -406,6 +406,16 @@
       }
     ],
     "gcp": [
+      {
+        "title": "October 28, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_28_2026",
+        "summary": "Application Integration Feature Application Integration agent skills Application Integration agent skills are available in the public google/skills repository: application-integration-basics ,…",
+        "date": "2026年10月28日",
+        "date_iso": "2026-10-28",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
       {
         "title": "October 27, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_27_2026",
@@ -594,16 +604,6 @@
         "date_iso": "2026-10-09",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "October 08, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_08_2026",
-        "summary": "Cloud SQL for MySQL Feature Cloud SQL for MySQL now supports the innodb_cloudsql_managed_buffer_pool_tuneup_pct database flag. Managed buffer pool automatically adjusts the InnoDB buffer pool size to…",
-        "date": "2026年10月8日",
-        "date_iso": "2026-10-08",
-        "category": "database-tag",
-        "cat_label": "データベース",
         "tag": "GCP"
       }
     ],
