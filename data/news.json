@@ -1,7 +1,37 @@
 {
-  "updated": "2026年10月29日 01:16 JST",
+  "updated": "2026年10月29日 14:50 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Announcing: Migrate Azure Container Apps logging destination from Log Analytics to Azure Monitor",
+        "link": "https://azure.microsoft.com/updates?id=577689",
+        "summary": "The Log Analytics logging destination for Azure Container Apps is now a legacy logging option. Existing environments configured with the Log Analytics logging destination will continue to function…",
+        "date": "2026年10月29日",
+        "date_iso": "2026-10-29",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Cross Tenant Restore with Azure Backup",
+        "link": "https://azure.microsoft.com/updates?id=577117",
+        "summary": "Cross-Tenant Restore (CTR) helps organizations establish an independent recovery path by enabling Azure VM backups to be restored into a separate Azure tenant. It strengthens cyber resilience while…",
+        "date": "2026年10月29日",
+        "date_iso": "2026-10-29",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Marketplace private offer enhancements",
+        "link": "https://azure.microsoft.com/updates?id=576547",
+        "summary": "Private offers through Microsoft Marketplace help you optimize your spending power with pricing and terms aligned to your organization’s needs, including flexible billing, custom contract lengths,…",
+        "date": "2026年10月29日",
+        "date_iso": "2026-10-29",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Generally Available: Higher limit of Azure Blob Storage accounts per region per subscription",
         "link": "https://azure.microsoft.com/updates?id=578358",
@@ -171,39 +201,129 @@
         "category": "storage-tag",
         "cat_label": "ストレージ",
         "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Standard service endpoint",
-        "link": "https://azure.microsoft.com/updates?id=571025",
-        "summary": "Standard service endpoint, a new capability in the Azure Private Link family, provides a scalable and secure approach for connecting Azure IaaS workloads to Azure PaaS services. Standard service…",
-        "date": "2026年10月16日",
-        "date_iso": "2026-10-16",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Availabile: Automatic zone balance for Virtual Machine Scale Sets",
-        "link": "https://azure.microsoft.com/updates?id=576334",
-        "summary": "Automatic zone balance for Virtual Machine Scale Sets is now generally available. This feature continuously monitors scale sets deployed across availability zones and automatically redistributes VM…",
-        "date": "2026年10月16日",
-        "date_iso": "2026-10-16",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Azure Cloud HSM hardware audit logging",
-        "link": "https://azure.microsoft.com/updates?id=576377",
-        "summary": "Hardware Audit Logging for Azure Cloud HSM provides hardware-generated audit records for supported HSM management operations, helping organizations strengthen security monitoring, compliance…",
-        "date": "2026年10月15日",
-        "date_iso": "2026-10-15",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Amazon RDS for Oracle now supports September 2026 Monthly Recommended Patch",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-rds-oracle-september-mrp",
+        "summary": "Amazon Relational Database Service (Amazon RDS) for Oracle now supports the September 2026 Monthly Recommended Patch (MRP) for Oracle Database version 19c and 26ai. An MRP is a minor engine version…",
+        "date": "2026年10月29日",
+        "date_iso": "2026-10-29",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Bedrock AgentCore CLI version 1.0 is now available",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-agentcore-cli-version-1-0-available/",
+        "summary": "AWS announces the general availability of Amazon Bedrock AgentCore CLI version 1.0 (@aws/agentcore 1.0.0), rebuilt with faster startup, a consistent command structure, and support for more AgentCore…",
+        "date": "2026年10月29日",
+        "date_iso": "2026-10-29",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Lambda supports Seekable OCI (SOCI) lazy loading for Lambda Managed Instances",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-lambda-seekable-oci-soci/",
+        "summary": "AWS Lambda now supports Seekable OCI (SOCI) &nbsp;for lazy loading Event Functions packaged as Open Container Initiative (OCI) images running on Lambda Managed Instances . With SOCI support, Lambda…",
+        "date": "2026年10月29日",
+        "date_iso": "2026-10-29",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Introducing time series collections for the next generation of Amazon OpenSearch Serverless",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/time-series-collection-next-generation-opensearch-serverless/",
+        "summary": "Today, we're announcing support for time series collections on the next generation of Amazon OpenSearch Serverless. With time series collections, you can ingest, store, and analyze logs, metrics,…",
+        "date": "2026年10月29日",
+        "date_iso": "2026-10-29",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Quick now supports smart approvals for agentic actions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/quick-smart-approvals-agentic-actions/",
+        "summary": "Amazon Quick now supports smart approvals, a review layer that reduces unnecessary approval prompts while preserving human oversight of the actions that matter most. As agents take more actions on a…",
+        "date": "2026年10月29日",
+        "date_iso": "2026-10-29",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EKS Dashboard now provides fleet-wide visibility into certificate authority (CA) rotation",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-eks-dashboard-fleet-wide-visibility-certificate-authority-ca-rotation/",
+        "summary": "Today, Amazon Elastic Kubernetes Service (Amazon EKS) announces certificate authority (CA) rotation visibility in the Amazon EKS Dashboard, giving you a consolidated view of CA rotation across your…",
+        "date": "2026年10月29日",
+        "date_iso": "2026-10-29",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon ECS Managed Instances adds cross-instance and Spot consolidation",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/ecs-managed-instances-consolidation/",
+        "summary": "Today, Amazon Elastic Container Service (Amazon ECS) Managed Instances introduces two infrastructure optimization updates: cross-instance and Spot consolidation. Cross-instance consolidation…",
+        "date": "2026年10月29日",
+        "date_iso": "2026-10-29",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Lambda durable functions now exports live telemetry for execution insights",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/lambda-durable-telemetry/",
+        "summary": "AWS Lambda announces the Durable Execution Telemetry Exporter plugin for Lambda durable functions. This new observability plugin captures the step-by-step history of your durable executions and sends…",
+        "date": "2026年10月29日",
+        "date_iso": "2026-10-29",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EKS Auto Mode now supports Kubernetes Gateway API",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-eks-auto-mode-kubernetes-gateway-api/",
+        "summary": "Amazon EKS Auto Mode now supports the Kubernetes Gateway API, giving customers a standard, portable way to define how traffic reaches their applications. Customers can configure application load…",
+        "date": "2026年10月29日",
+        "date_iso": "2026-10-29",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Backup adds restore testing support for Amazon Redshift",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-backup-adds-redshift-restore-testing/",
+        "summary": "AWS Backup restore testing now supports Amazon Redshift. Restore testing helps you automate and periodically run restore tests of your backups, so you can confirm that your Amazon Redshift backups…",
+        "date": "2026年10月28日",
+        "date_iso": "2026-10-28",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Announcing the AWS Marketplace and Amazon Business unified storefront",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/marketplace-business-storefront/",
+        "summary": "Today, AWS Marketplace and Amazon Business announced the unified storefront. Organizations can now give their teams one curated catalog that puts software, data, and AI tools from AWS Marketplace…",
+        "date": "2026年10月28日",
+        "date_iso": "2026-10-28",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS IAM Identity Center's Identity Store now supports change notifications through Amazon EventBridge",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-identity-store-change-notifications/",
+        "summary": "AWS IAM Identity Center's Identity Store now delivers real-time events to Amazon EventBridge when users, groups, or group memberships or the identity store itself is created, updated, or deleted. AWS…",
+        "date": "2026年10月28日",
+        "date_iso": "2026-10-28",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
       {
         "title": "Amazon ECS now supports GPU sharing with NVIDIA Multi-Process Service (MPS)",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ecs-gpu-sharing-nvidia-mps/",
@@ -225,6 +345,16 @@
         "tag": "AWS"
       },
       {
+        "title": "Amazon Connect Customer supports inline attachment previews",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-attachment-previews/",
+        "summary": "Amazon Connect Customer lets agents preview attachments directly in the agent workspace, reducing contact handling time and limiting the need to download sensitive customer information. Agents can…",
+        "date": "2026年10月28日",
+        "date_iso": "2026-10-28",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon Aurora serverless now supports up to 384 ACUs",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aurora-serverless-supports-384-acu/",
         "summary": "Amazon Aurora serverless now supports database capacity of up to 384 Aurora Capacity Units (ACUs) for Aurora PostgreSQL-Compatible Edition, a 50% increase from the previous maximum of 256 ACUs. Each…",
@@ -235,9 +365,19 @@
         "tag": "AWS"
       },
       {
+        "title": "Amazon ElastiCache expands data tiering to R8gd and R7gd nodes in Europe (Spain) and Asia Pacific (Hyderabad)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/elasticache-data-tiering-spain/",
+        "summary": "Amazon ElastiCache for Valkey data tiering is now available on Graviton4-based R8gd nodes in the AWS Europe (Spain) Region, and on Graviton3-based R7gd nodes in the Europe (Spain) and Asia Pacific…",
+        "date": "2026年10月28日",
+        "date_iso": "2026-10-28",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon ElastiCache for Valkey now supports changing durability on existing clusters",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/elasticache-changing-durability/",
-        "summary": "Amazon ElastiCache for Valkey now lets you enable or disable durability on your existing node-based clusters without creating a new cluster. Previously, you couldn't change the durability…",
+        "summary": "Amazon ElastiCache for Valkey now lets you enable or disable durability on your existing node-based clusters. Previously, you couldn't change the durability configuration of an existing cluster in…",
         "date": "2026年10月28日",
         "date_iso": "2026-10-28",
         "category": "compute-tag",
@@ -263,153 +403,13 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon ECR now supports replication backfill for existing container images",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/replication-backfill-amazon-ecr",
-        "summary": "Amazon Elastic Container Registry (Amazon ECR) now supports replication backfill, enabling you to replicate existing images in your private registry to your configured replication registry…",
-        "date": "2026年10月27日",
-        "date_iso": "2026-10-27",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "OpenAI GPT-6.1 Terra is now generally available on Amazon Bedrock",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/openai-gpt-6-1-terra-on-amazon-bedrock/",
-        "summary": "Today, AWS announces the general availability of OpenAI GPT-6.1 Terra on Amazon Bedrock. GPT-6.1 Terra expands the GPT-6 family with a balance of capability, speed, and cost efficiency for everyday…",
-        "date": "2026年10月27日",
-        "date_iso": "2026-10-27",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon WorkSpaces Core Managed Instances now supports ModifyVolume API",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-workspaces-cmi-modifyvolume/",
-        "summary": "Amazon WorkSpaces Core Managed Instances now supports the ModifyVolume API, which lets you change volume size, volume type, IOPS, or throughput in place, without detaching the volume or restarting…",
-        "date": "2026年10月27日",
-        "date_iso": "2026-10-27",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon IVS Low-Latency Streaming now provides a failover slate",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ivs-low-latency-streaming-failover-slate",
-        "summary": "Amazon Interactive Video Service (Amazon IVS) Low-Latency Streaming now provides a failover slate, an animated image that IVS displays to viewers when a broadcaster's stream is unexpectedly…",
-        "date": "2026年10月27日",
-        "date_iso": "2026-10-27",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SageMaker Unified Studio adds light mode support for IDC-based domains",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/smus-light-mode",
-        "summary": "Today, AWS announces light mode support in Amazon SageMaker Unified Studio for Identity Center (IDC) based domains. Customers can now configure the visual interface mode to match their preference,…",
-        "date": "2026年10月27日",
-        "date_iso": "2026-10-27",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Connect Customer expands testing and simulation to validate flow action outcomes",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-customer-validate-flow-actions/",
-        "summary": "Amazon Connect Customer now enables you to validate the outcomes of your customer experience flow actions during testing and simulation. In addition to confirming that an action started, you can now…",
-        "date": "2026年10月27日",
-        "date_iso": "2026-10-27",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Connect Customer now lets you view metrics by customer lifetime value and repeat-caller status",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-customer-boma-segment/",
-        "summary": "Now you can view your metrics across customer segments: customer lifetime value (LTV) and repeat callers. See how any metric differs for repeat callers versus the rest of your contacts, or how…",
-        "date": "2026年10月26日",
-        "date_iso": "2026-10-26",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Connect Customer now measures the outcomes that drive retention and revenue",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-customer-boma-metrics/",
-        "summary": "Amazon Connect Customer now scores the outcome of your customer interactions. It shows whether the customer left satisfied, is at risk of churning, made a purchase, or resolved their need in…",
-        "date": "2026年10月26日",
-        "date_iso": "2026-10-26",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS IAM Identity Center now supports cross-Region trusted identity propagation",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-iam-identity-center-cross-region-tip/",
-        "summary": "Trusted identity propagation carries a user's identity with their request, so AWS services can grant permissions based on who the user is and their underlying group associations, and log that user's…",
-        "date": "2026年10月26日",
-        "date_iso": "2026-10-26",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Key Management Service now supports ML-KEM for post-quantum key encapsulation",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/kms-ml-kem-post-quantum/",
-        "summary": "AWS Key Management Service (KMS) now supports Module-Lattice-Based Key-Encapsulation Mechanism (ML-KEM), a post-quantum cryptography standard under NIST FIPS 203 , which&nbsp;enables two parties to…",
-        "date": "2026年10月26日",
-        "date_iso": "2026-10-26",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS EC2 Auto Scaling now supports Launch Before Terminate at account-level to replace instances",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/ec2-auto-scaling-launch-before-terminate/",
-        "summary": "AWS EC2 Auto Scaling now lets you enable Launch Before Terminate as the default replacement behavior across all Auto Scaling groups in your account. When enabled, Auto Scaling launches a replacement…",
-        "date": "2026年10月26日",
-        "date_iso": "2026-10-26",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Elemental MediaConnect Router now supports endpoint connection management",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/mediaconnect-cross-account-endpoints/",
-        "summary": "AWS Elemental MediaConnect Router &nbsp;now supports managing connections through a new endpoint registry, which allows you to register devices or software external to MediaConnect and connect those…",
-        "date": "2026年10月26日",
-        "date_iso": "2026-10-26",
-        "category": "network-tag",
-        "cat_label": "ネットワーク",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon RDS now supports the latest Cumulative Update and GDR updates for Microsoft SQL Server",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-rds-supports-latest-cumulative-update-gdr-microsoft-sql-server/",
-        "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports the latest Cumulative Updates (CU) and General Distribution Release (GDR) updates for Microsoft SQL Server. This release…",
-        "date": "2026年10月26日",
-        "date_iso": "2026-10-26",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Glue Data Catalog now supports OAuth for Apache Iceberg REST Catalog APIs",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/glue-catalog-oauth-iceberg-rest/",
-        "summary": "AWS Glue Data Catalog now supports OAuth 2.0 bearer token authentication for Apache Iceberg REST Catalog (IRC) APIs using AWS Sign-In. The Apache Iceberg REST Catalog specification defines OAuth 2.0…",
-        "date": "2026年10月26日",
-        "date_iso": "2026-10-26",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
       }
     ],
     "gcp": [
       {
         "title": "October 28, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_28_2026",
-        "summary": "Application Integration Feature Application Integration agent skills Application Integration agent skills are available in the public google/skills repository: application-integration-basics ,…",
+        "summary": "AlloyDB for PostgreSQL Announcement The following AlloyDB AI and vector search features and improvements are generally available ( GA ): The alloydb_scann extension supports four-level tree (4LT)…",
         "date": "2026年10月28日",
         "date_iso": "2026-10-28",
         "category": "ai-tag",
@@ -529,7 +529,7 @@
       {
         "title": "October 16, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_16_2026",
-        "summary": "BigQuery Feature Conversational analytics in BigQuery is now available in the following locations: northamerica-northeast1 (Montréal) northamerica-northeast2 (Toronto) For more information, see…",
+        "summary": "Access Approval Feature Service connectivity automation is generally available ( GA ). Access Transparency Feature Service connectivity automation is generally available ( GA ). BigQuery Feature…",
         "date": "2026年10月16日",
         "date_iso": "2026-10-16",
         "category": "ai-tag",
