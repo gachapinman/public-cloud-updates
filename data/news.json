@@ -1,5 +1,5 @@
 {
-  "updated": "2026年10月29日 19:21 JST",
+  "updated": "2026年10月30日 01:24 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "October 29, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_29_2026",
+        "summary": "Anti Money Laundering AI Announcement New minor engine version released for the retail line of business within the v004.011 version line ( aml-retail.default.v004.011.202610-000 ). This version…",
+        "date": "2026年10月29日",
+        "date_iso": "2026-10-29",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "October 28, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_28_2026",
         "summary": "AlloyDB for PostgreSQL Announcement The following AlloyDB AI and vector search features and improvements are generally available ( GA ): The alloydb_scann extension supports four-level tree (4LT)…",
@@ -594,16 +604,6 @@
         "date_iso": "2026-10-10",
         "category": "database-tag",
         "cat_label": "データベース",
-        "tag": "GCP"
-      },
-      {
-        "title": "October 09, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_09_2026",
-        "summary": "Access Approval Feature Database Migration Service is generally available ( GA ). Access Transparency Feature Database Migration Service is generally available ( GA ). BigQuery Feature The BigQuery…",
-        "date": "2026年10月9日",
-        "date_iso": "2026-10-09",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "GCP"
       }
     ],
