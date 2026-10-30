@@ -1,7 +1,37 @@
 {
-  "updated": "2026年10月30日 01:24 JST",
+  "updated": "2026年10月30日 14:51 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Generally Available: Large OS Disk Encryption for Azure Confidential VM migrations",
+        "link": "https://azure.microsoft.com/updates?id=578850",
+        "summary": "Large OS Disk Encryption (LOSDE) is now generally available for Azure Confidential VM migration scenarios. Organizations can move larger, production-scale workloads into confidential computing with…",
+        "date": "2026年10月30日",
+        "date_iso": "2026-10-30",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: HTTP DDoS ruleset for Azure Front Door Premium WAF",
+        "link": "https://azure.microsoft.com/updates?id=578681",
+        "summary": "Announcing the general availability of the HTTP DDoS ruleset for Azure Web Application Firewall (WAF) on Azure Front Door Premium. HTTP-layer DDoS attacks remain a leading cause of application…",
+        "date": "2026年10月30日",
+        "date_iso": "2026-10-30",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Azure MCP Server 3.0",
+        "link": "https://azure.microsoft.com/updates?id=578662",
+        "summary": "Azure MCP Server 3.0 is now generally available, expanding how AI agents and developer tools interact with Azure through the open Model Context Protocol (MCP).This release introduces new and expanded…",
+        "date": "2026年10月30日",
+        "date_iso": "2026-10-30",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Announcing: Migrate Azure Container Apps logging destination from Log Analytics to Azure Monitor",
         "link": "https://azure.microsoft.com/updates?id=577689",
@@ -171,39 +201,119 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Azure Databricks Private network gateway",
-        "link": "https://azure.microsoft.com/updates?id=576556",
-        "summary": "Private network gateway for Azure Databricks is now in Public Preview, enabling serverless compute to connect to resources in your virtual network (VNet) and transitively connected networks through a…",
-        "date": "2026年10月17日",
-        "date_iso": "2026-10-17",
-        "category": "network-tag",
-        "cat_label": "ネットワーク",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: External key management for Azure Key Vault Managed HSM",
-        "link": "https://azure.microsoft.com/updates?id=574296",
-        "summary": "External key management for Azure Key Vault Managed HSM is now generally available in all Azure public regions. For organizations with regulatory or sovereignty requirements to retain physical…",
-        "date": "2026年10月17日",
-        "date_iso": "2026-10-17",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Azure Files cross-region data copy and synchronization with Azure Storage Mover",
-        "link": "https://azure.microsoft.com/updates?id=576542",
-        "summary": "Azure Files customers can now copy and synchronize file share data across storage accounts, Azure regions, and subscriptions within the same tenant using Azure Storage Mover. Schedule incremental…",
-        "date": "2026年10月16日",
-        "date_iso": "2026-10-16",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "AWS Marketplace now enables partners to list once and sell through multiple subsidiary accounts",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-marketplace-subsidiary-account-authorization",
+        "summary": "Today, AWS announces that AWS partners who operate multiple legal entities can publish a product listing once in their primary account and enable their local subsidiaries to sell it through direct…",
+        "date": "2026年10月30日",
+        "date_iso": "2026-10-30",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon RDS for Oracle and SQL Server now support storage autoscaling on additional storage volumes",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-rds-oracle-sqlserver-autoscaling-additional-storage-volumes",
+        "summary": "Amazon RDS for SQL Server and Amazon RDS for Oracle now support RDS storage autoscaling on additional storage volumes . RDS storage autoscaling automatically scales storage capacity in response to…",
+        "date": "2026年10月30日",
+        "date_iso": "2026-10-30",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Aurora now supports post-quantum TLS key exchange",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aurora-postgresql-post-quantum-tls-key-exchange/",
+        "summary": "Starting today, Amazon Aurora PostgreSQL-Compatible Edition &nbsp;introduces support for post-quantum TLS (PQ-TLS) key exchange, providing you with post-quantum cryptography options for encrypting…",
+        "date": "2026年10月30日",
+        "date_iso": "2026-10-30",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon MSK Connect now supports updating connector plugins and worker configurations",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-msk-connect-update-plugin-worker-configurations",
+        "summary": "Amazon MSK Connect (Amazon Managed Streaming for Apache Kafka Connect) now lets you update the custom plugin and worker configuration of an existing connector. This is useful when you need to update…",
+        "date": "2026年10月30日",
+        "date_iso": "2026-10-30",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Step Functions workflows now available as AI agent tools",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/step-functions-workflows-ai-agent-tools/",
+        "summary": "You can now use your AWS Step Functions workflows as tools for AI agents through Amazon Bedrock AgentCore Gateway. Your agent decides when to run a workflow and what input to pass, and Step Functions…",
+        "date": "2026年10月29日",
+        "date_iso": "2026-10-29",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon DynamoDB Accelerator (DAX) is now available in additional Regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/dax-additional-regions/",
+        "summary": "Amazon DynamoDB Accelerator (DAX) is now available in two additional AWS Regions: Canada (Central) and Africa (Cape Town). DAX is a fully managed, highly available, in-memory cache for Amazon…",
+        "date": "2026年10月29日",
+        "date_iso": "2026-10-29",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Managed Grafana now supports in-place upgrade to Grafana version 13.2",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/managed-grafana-upgrade-version-13-2/",
+        "summary": "Amazon Managed Grafana now supports in-place upgrade from Grafana version 12.4 to 13.2. Upgrading to version 13.2 brings features launched as part of open-source Grafana versions 13.0 to 13.2. These…",
+        "date": "2026年10月29日",
+        "date_iso": "2026-10-29",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS DataSync Enhanced mode now supports Amazon FSx for Windows File Server, FSx for NetApp ONTAP, and Red Hat OpenShift…",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/datasync-enhanced-fsx-openshift/",
+        "summary": "AWS DataSync Enhanced mode now supports Amazon FSx for Windows File Server and Amazon FSx for NetApp ONTAP as source or destination locations. You can now run Windows to Windows transfers, such as…",
+        "date": "2026年10月29日",
+        "date_iso": "2026-10-29",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
+        "tag": "AWS"
+      },
+      {
+        "title": "ACM now supports ACME for public certificates in AWS GovCloud (US)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/acm-acme-support-govcloud-us/",
+        "summary": "AWS Certificate Manager (ACM) ACME protocol support is now available in AWS GovCloud (US-East) and AWS GovCloud (US-West), providing a fully managed ACME server endpoint that issues public TLS…",
+        "date": "2026年10月29日",
+        "date_iso": "2026-10-29",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon SageMaker AI now supports SOCI-indexed images to start training jobs in seconds",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-ai-soci-images-training/",
+        "summary": "Today, Amazon SageMaker AI announces support for Seekable OCI (SOCI)-indexed container images for training and processing jobs, so your jobs start running your code sooner. SOCI-indexed images start…",
+        "date": "2026年10月29日",
+        "date_iso": "2026-10-29",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Backup now supports cross-account management and cross-account backup in the AWS European Sovereign Cloud",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-backup-cross-account-esc/",
+        "summary": "AWS Backup now supports cross-account management, cross-account backup, and delegated administrators in the AWS European Sovereign Cloud (Germany) Region. These capabilities help you centrally…",
+        "date": "2026年10月29日",
+        "date_iso": "2026-10-29",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
       {
         "title": "Amazon RDS for Oracle now supports September 2026 Monthly Recommended Patch",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-rds-oracle-september-mrp",
@@ -222,6 +332,16 @@
         "date_iso": "2026-10-29",
         "category": "ai-tag",
         "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Public endpoints for Amazon ElastiCache Serverless now in AWS GovCloud (US)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-elasticache-serverless-public-endpoints-govcloud/",
+        "summary": "Amazon ElastiCache Serverless for Valkey now supports public endpoints in the AWS GovCloud (US) Regions. A public endpoint lets you connect to your cache from a serverless function or any application…",
+        "date": "2026年10月29日",
+        "date_iso": "2026-10-29",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "AWS"
       },
       {
@@ -283,133 +403,13 @@
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon EKS Auto Mode now supports Kubernetes Gateway API",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-eks-auto-mode-kubernetes-gateway-api/",
-        "summary": "Amazon EKS Auto Mode now supports the Kubernetes Gateway API, giving customers a standard, portable way to define how traffic reaches their applications. Customers can configure application load…",
-        "date": "2026年10月29日",
-        "date_iso": "2026-10-29",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Backup adds restore testing support for Amazon Redshift",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-backup-adds-redshift-restore-testing/",
-        "summary": "AWS Backup restore testing now supports Amazon Redshift. Restore testing helps you automate and periodically run restore tests of your backups, so you can confirm that your Amazon Redshift backups…",
-        "date": "2026年10月28日",
-        "date_iso": "2026-10-28",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Announcing the AWS Marketplace and Amazon Business unified storefront",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/marketplace-business-storefront/",
-        "summary": "Today, AWS Marketplace and Amazon Business announced the unified storefront. Organizations can now give their teams one curated catalog that puts software, data, and AI tools from AWS Marketplace…",
-        "date": "2026年10月28日",
-        "date_iso": "2026-10-28",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS IAM Identity Center's Identity Store now supports change notifications through Amazon EventBridge",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-identity-store-change-notifications/",
-        "summary": "AWS IAM Identity Center's Identity Store now delivers real-time events to Amazon EventBridge when users, groups, or group memberships or the identity store itself is created, updated, or deleted. AWS…",
-        "date": "2026年10月28日",
-        "date_iso": "2026-10-28",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon ECS now supports GPU sharing with NVIDIA Multi-Process Service (MPS)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ecs-gpu-sharing-nvidia-mps/",
-        "summary": "Amazon Elastic Container Service (Amazon ECS) now supports GPU sharing with NVIDIA Multi-Process Service (MPS), enabling you to run multiple Amazon ECS tasks concurrently on a single NVIDIA GPU. GPU…",
-        "date": "2026年10月28日",
-        "date_iso": "2026-10-28",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "SageMaker MLflow Apps now support MLflow 3.16",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/mflow-version-3-16/",
-        "summary": "Amazon SageMaker AI MLflow Apps now support MLflow 3.16, bringing a redesigned tracing experience and faster experiment tracking to your generative AI and machine learning workflows. MLflow 3.16…",
-        "date": "2026年10月28日",
-        "date_iso": "2026-10-28",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Connect Customer supports inline attachment previews",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-attachment-previews/",
-        "summary": "Amazon Connect Customer lets agents preview attachments directly in the agent workspace, reducing contact handling time and limiting the need to download sensitive customer information. Agents can…",
-        "date": "2026年10月28日",
-        "date_iso": "2026-10-28",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Aurora serverless now supports up to 384 ACUs",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aurora-serverless-supports-384-acu/",
-        "summary": "Amazon Aurora serverless now supports database capacity of up to 384 Aurora Capacity Units (ACUs) for Aurora PostgreSQL-Compatible Edition, a 50% increase from the previous maximum of 256 ACUs. Each…",
-        "date": "2026年10月28日",
-        "date_iso": "2026-10-28",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon ElastiCache expands data tiering to R8gd and R7gd nodes in Europe (Spain) and Asia Pacific (Hyderabad)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/elasticache-data-tiering-spain/",
-        "summary": "Amazon ElastiCache for Valkey data tiering is now available on Graviton4-based R8gd nodes in the AWS Europe (Spain) Region, and on Graviton3-based R7gd nodes in the Europe (Spain) and Asia Pacific…",
-        "date": "2026年10月28日",
-        "date_iso": "2026-10-28",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon ElastiCache for Valkey now supports changing durability on existing clusters",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/elasticache-changing-durability/",
-        "summary": "Amazon ElastiCache for Valkey now lets you enable or disable durability on your existing node-based clusters. Previously, you couldn't change the durability configuration of an existing cluster in…",
-        "date": "2026年10月28日",
-        "date_iso": "2026-10-28",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Corretto October 2026 Patch Updates",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-corretto-oct-2026-patch-updates",
-        "summary": "On October 26, 2026 Amazon announced a patch update for the following Amazon Corretto Long-Term Support (LTS) and Feature Release (FR) versions of OpenJDK. Corretto 27.0.1.0.11, 25.0.5.0.10,…",
-        "date": "2026年10月27日",
-        "date_iso": "2026-10-27",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Neptune now supports online index rebuild to reclaim storage",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/neptune-online-index-rebuild/",
-        "summary": "Amazon Neptune Database now supports online index rebuild, a new capability that helps database administrators and application teams defragment Neptune indexes and reclaim unused storage space…",
-        "date": "2026年10月27日",
-        "date_iso": "2026-10-27",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
       }
     ],
     "gcp": [
       {
         "title": "October 29, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_29_2026",
-        "summary": "Anti Money Laundering AI Announcement New minor engine version released for the retail line of business within the v004.011 version line ( aml-retail.default.v004.011.202610-000 ). This version…",
+        "summary": "AlloyDB for PostgreSQL Feature AlloyDB AI adds pre-registered support for the following Gemini models in version 1.6.5 and later of the google_ml_integration extension: gemini-3.1-flash-lite…",
         "date": "2026年10月29日",
         "date_iso": "2026-10-29",
         "category": "ai-tag",
