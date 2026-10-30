@@ -1,5 +1,5 @@
 {
-  "updated": "2026年10月30日 19:23 JST",
+  "updated": "2026年10月31日 01:15 JST",
   "clouds": {
     "azure": [
       {
@@ -205,6 +205,16 @@
     ],
     "aws": [
       {
+        "title": "AWS Glue Data Catalog now supports Apache Iceberg table optimization in the US West (N. California) Region",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/glue-data-catalog-optimizers-us-west-1/",
+        "summary": "AWS Glue Data Catalog now supports automatic table optimization for Apache Iceberg tables in the US West (N. California) Region. Apache Iceberg is an open table format that delivers fast query…",
+        "date": "2026年10月30日",
+        "date_iso": "2026-10-30",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
         "title": "AWS Marketplace now enables partners to list once and sell through multiple subsidiary accounts",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-marketplace-subsidiary-account-authorization",
         "summary": "Today, AWS announces that AWS partners who operate multiple legal entities can publish a product listing once in their primary account and enable their local subsidiaries to sell it through direct…",
@@ -265,13 +275,13 @@
         "tag": "AWS"
       },
       {
-        "title": "ACM now supports ACME for public certificates in AWS GovCloud (US)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/acm-acme-support-govcloud-us/",
-        "summary": "AWS Certificate Manager (ACM) ACME protocol support is now available in AWS GovCloud (US-East) and AWS GovCloud (US-West), providing a fully managed ACME server endpoint that issues public TLS…",
+        "title": "Amazon Managed Grafana now supports in-place upgrade to Grafana version 13.2",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/managed-grafana-upgrade-version-13-2/",
+        "summary": "Amazon Managed Grafana now supports in-place upgrade from Grafana version 12.4 to 13.2. Upgrading to version 13.2 brings features launched as part of open-source Grafana versions 13.0 to 13.2. These…",
         "date": "2026年10月29日",
         "date_iso": "2026-10-29",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "AWS"
       },
       {
@@ -285,9 +295,9 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon SageMaker AI now supports SOCI-indexed images to start training jobs in seconds",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-ai-soci-images-training/",
-        "summary": "Today, Amazon SageMaker AI announces support for Seekable OCI (SOCI)-indexed container images for training and processing jobs, so your jobs start running your code sooner. SOCI-indexed images start…",
+        "title": "ACM now supports ACME for public certificates in AWS GovCloud (US)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/acm-acme-support-govcloud-us/",
+        "summary": "AWS Certificate Manager (ACM) ACME protocol support is now available in AWS GovCloud (US-East) and AWS GovCloud (US-West), providing a fully managed ACME server endpoint that issues public TLS…",
         "date": "2026年10月29日",
         "date_iso": "2026-10-29",
         "category": "ai-tag",
@@ -295,13 +305,13 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon Managed Grafana now supports in-place upgrade to Grafana version 13.2",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/managed-grafana-upgrade-version-13-2/",
-        "summary": "Amazon Managed Grafana now supports in-place upgrade from Grafana version 12.4 to 13.2. Upgrading to version 13.2 brings features launched as part of open-source Grafana versions 13.0 to 13.2. These…",
+        "title": "Amazon SageMaker AI now supports SOCI-indexed images to start training jobs in seconds",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-ai-soci-images-training/",
+        "summary": "Today, Amazon SageMaker AI announces support for Seekable OCI (SOCI)-indexed container images for training and processing jobs, so your jobs start running your code sooner. SOCI-indexed images start…",
         "date": "2026年10月29日",
         "date_iso": "2026-10-29",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "AWS"
       },
       {
@@ -393,19 +403,19 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "AWS Lambda durable functions now exports live telemetry for execution insights",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/lambda-durable-telemetry/",
-        "summary": "AWS Lambda announces the Durable Execution Telemetry Exporter plugin for Lambda durable functions. This new observability plugin captures the step-by-step history of your durable executions and sends…",
-        "date": "2026年10月29日",
-        "date_iso": "2026-10-29",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "October 30, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_30_2026",
+        "summary": "Backup and DR Feature You can now edit existing backup plans for Cloud SQL instances to update settings such as backup rules and maximum custom on-demand retention periods. To learn more, see Back up…",
+        "date": "2026年10月30日",
+        "date_iso": "2026-10-30",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "GCP"
+      },
       {
         "title": "October 29, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_29_2026",
@@ -594,16 +604,6 @@
         "date_iso": "2026-10-11",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "GCP"
-      },
-      {
-        "title": "October 10, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_10_2026",
-        "summary": "Cloud SQL for MySQL Change MySQL 8.0.46 is now the default minor version for Cloud SQL for MySQL 8.0. For more information about minor version support in Cloud SQL for MySQL, see MySQL 8.0 . Google…",
-        "date": "2026年10月10日",
-        "date_iso": "2026-10-10",
-        "category": "database-tag",
-        "cat_label": "データベース",
         "tag": "GCP"
       }
     ],
