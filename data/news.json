@@ -1,7 +1,17 @@
 {
-  "updated": "2026年10月31日 01:15 JST",
+  "updated": "2026年10月31日 14:44 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Public Preview: Support database-level managed identity (including FIC) in Create Database Scoped…",
+        "link": "https://azure.microsoft.com/updates?id=577491",
+        "summary": "With database-level managed identity in Azure SQL Database, you can use a user-assigned managed identity for each database to query files in Azure Blob Storage and Azure Data Lake Storage Gen2…",
+        "date": "2026年10月31日",
+        "date_iso": "2026-10-31",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AZURE"
+      },
       {
         "title": "Generally Available: Large OS Disk Encryption for Azure Confidential VM migrations",
         "link": "https://azure.microsoft.com/updates?id=578850",
@@ -191,19 +201,109 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Azure DNS enables DNS-based load balancing through Traffic Manager linked records",
-        "link": "https://azure.microsoft.com/updates?id=573917",
-        "summary": "Azure DNS now provides DNS based load balancing by seamless integration with Azure Traffic Manager. Customers can directly associate an Azure DNS record set with a Traffic Manager profile,…",
-        "date": "2026年10月20日",
-        "date_iso": "2026-10-20",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Amazon Bedrock expands API support and introduces Cross-Region Inferencing for OpenAI models in AWS GovCloud (US)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-openai-runtime-govcloud/",
+        "summary": "Amazon Bedrock now supports the OpenAI GPT-5.6 models (Terra and Luna) on the bedrock-runtime endpoint, with support for the Responses, Converse, and Chat Completions APIs in AWS GovCloud (US). It…",
+        "date": "2026年10月31日",
+        "date_iso": "2026-10-31",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Web Search now available on Kiro in AWS GovCloud (US)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/kiro-web-search-aws-govcloud-us/",
+        "summary": "Kiro web search gives the agent real-time access to current information on the internet, so its answers draw on up-to-date search results and page content. The agent uses web search automatically…",
+        "date": "2026年10月31日",
+        "date_iso": "2026-10-31",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Connect Customer automatically saves in-progress emails as drafts",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-connect-email-draft-save/",
+        "summary": "Amazon Connect Customer automatically saves in-progress emails as drafts, helping agents resume work without losing progress when connectivity is interrupted or when their browser is accidentally…",
+        "date": "2026年10月31日",
+        "date_iso": "2026-10-31",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Daybreak Red from OpenAI now available to eligible customers on Amazon Bedrock in AWS GovCloud (US-East)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/openai-daybreak-red-govcloud-east/",
+        "summary": "Security teams need powerful tools to find vulnerabilities, test exploits, and build defenses. Daybreak Red from OpenAI is now available to eligible customers on Amazon Bedrock in AWS GovCloud…",
+        "date": "2026年10月31日",
+        "date_iso": "2026-10-31",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon CloudFront now provides viewer ISP and post-quantum TLS details",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/cloudfront-viewer-isp-post-quantum-visbility/",
+        "summary": "Amazon CloudFront can now forward two new optional headers to your origin. The CloudFront-Viewer-ISP header contains the name of the viewer's internet service provider (ISP), so you can see which…",
+        "date": "2026年10月31日",
+        "date_iso": "2026-10-31",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon MSK now supports TLS 1.3 for data in transit",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-msk-tls/",
+        "summary": "Amazon MSK now supports version 1.3 of Transport Layer Security (TLS) protocol for MSK Provisioned clusters through encryption policies. TLS 1.3 delivers faster, more secure encryption for streaming…",
+        "date": "2026年10月31日",
+        "date_iso": "2026-10-31",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon RDS for Oracle no longer requires automatic minor version upgrades for JVM, Spatial, Locator, and OLAP options",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/oracle-jvm-spatial-locator-olap-options-amvu-optional/",
+        "summary": "Amazon Relational Database Service (Amazon RDS) for Oracle now lets you turn off automatic minor version upgrades on new and existing DB instances that use the JVM, Spatial, Locator, or OLAP option.…",
+        "date": "2026年10月31日",
+        "date_iso": "2026-10-31",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS WAF announces automatic SDK integration for Amazon CloudFront distributions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-waf-automatic-sdk-integration-amazon-cloudfront/",
+        "summary": "AWS WAF announces automatic SDK integration for Amazon CloudFront distributions. When you enable it, CloudFront adds the script tag for the AWS WAF JavaScript SDK to the HTML it serves, with no…",
+        "date": "2026年10月31日",
+        "date_iso": "2026-10-31",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Connect Customer now supports versioning and aliasing for flows",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-flows-versioning-aliasing/",
+        "summary": "Amazon Connect Customer now supports versioning and aliasing for flows and flow modules, simplifying how you build, test, and deploy customer experience flows while minimizing impact to live…",
+        "date": "2026年10月31日",
+        "date_iso": "2026-10-31",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Managed Prometheus collectors now support Amazon MSK consumer-group metrics",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/prometheus-collectors-msk-metrics/",
+        "summary": "Managed Prometheus collectors now support Amazon MSK consumer-group metrics for Amazon Managed Service for Prometheus and Amazon CloudWatch . The integration collects Kafka exporter metrics and…",
+        "date": "2026年10月30日",
+        "date_iso": "2026-10-30",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
       {
         "title": "AWS Glue Data Catalog now supports Apache Iceberg table optimization in the US West (N. California) Region",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/glue-data-catalog-optimizers-us-west-1/",
@@ -212,6 +312,16 @@
         "date_iso": "2026-10-30",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon SageMaker AI inference now supports GPU partitioning for real-time endpoints",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-gpu-partitioning/",
+        "summary": "Amazon SageMaker AI inference now supports GPU partitioning, enabling you to run several models on a single GPU instead of dedicating a whole accelerator to each one. Using NVIDIA Multi-Instance GPU…",
+        "date": "2026年10月30日",
+        "date_iso": "2026-10-30",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "AWS"
       },
       {
@@ -293,127 +403,17 @@
         "category": "storage-tag",
         "cat_label": "ストレージ",
         "tag": "AWS"
-      },
-      {
-        "title": "ACM now supports ACME for public certificates in AWS GovCloud (US)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/acm-acme-support-govcloud-us/",
-        "summary": "AWS Certificate Manager (ACM) ACME protocol support is now available in AWS GovCloud (US-East) and AWS GovCloud (US-West), providing a fully managed ACME server endpoint that issues public TLS…",
-        "date": "2026年10月29日",
-        "date_iso": "2026-10-29",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SageMaker AI now supports SOCI-indexed images to start training jobs in seconds",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-ai-soci-images-training/",
-        "summary": "Today, Amazon SageMaker AI announces support for Seekable OCI (SOCI)-indexed container images for training and processing jobs, so your jobs start running your code sooner. SOCI-indexed images start…",
-        "date": "2026年10月29日",
-        "date_iso": "2026-10-29",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Backup now supports cross-account management and cross-account backup in the AWS European Sovereign Cloud",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-backup-cross-account-esc/",
-        "summary": "AWS Backup now supports cross-account management, cross-account backup, and delegated administrators in the AWS European Sovereign Cloud (Germany) Region. These capabilities help you centrally…",
-        "date": "2026年10月29日",
-        "date_iso": "2026-10-29",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon RDS for Oracle now supports September 2026 Monthly Recommended Patch",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-rds-oracle-september-mrp",
-        "summary": "Amazon Relational Database Service (Amazon RDS) for Oracle now supports the September 2026 Monthly Recommended Patch (MRP) for Oracle Database version 19c and 26ai. An MRP is a minor engine version…",
-        "date": "2026年10月29日",
-        "date_iso": "2026-10-29",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Bedrock AgentCore CLI version 1.0 is now available",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-agentcore-cli-version-1-0-available/",
-        "summary": "AWS announces the general availability of Amazon Bedrock AgentCore CLI version 1.0 (@aws/agentcore 1.0.0), rebuilt with faster startup, a consistent command structure, and support for more AgentCore…",
-        "date": "2026年10月29日",
-        "date_iso": "2026-10-29",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Public endpoints for Amazon ElastiCache Serverless now in AWS GovCloud (US)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-elasticache-serverless-public-endpoints-govcloud/",
-        "summary": "Amazon ElastiCache Serverless for Valkey now supports public endpoints in the AWS GovCloud (US) Regions. A public endpoint lets you connect to your cache from a serverless function or any application…",
-        "date": "2026年10月29日",
-        "date_iso": "2026-10-29",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Lambda supports Seekable OCI (SOCI) lazy loading for Lambda Managed Instances",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-lambda-seekable-oci-soci/",
-        "summary": "AWS Lambda now supports Seekable OCI (SOCI) &nbsp;for lazy loading Event Functions packaged as Open Container Initiative (OCI) images running on Lambda Managed Instances . With SOCI support, Lambda…",
-        "date": "2026年10月29日",
-        "date_iso": "2026-10-29",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Introducing time series collections for the next generation of Amazon OpenSearch Serverless",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/time-series-collection-next-generation-opensearch-serverless/",
-        "summary": "Today, we're announcing support for time series collections on the next generation of Amazon OpenSearch Serverless. With time series collections, you can ingest, store, and analyze logs, metrics,…",
-        "date": "2026年10月29日",
-        "date_iso": "2026-10-29",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Quick now supports smart approvals for agentic actions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/quick-smart-approvals-agentic-actions/",
-        "summary": "Amazon Quick now supports smart approvals, a review layer that reduces unnecessary approval prompts while preserving human oversight of the actions that matter most. As agents take more actions on a…",
-        "date": "2026年10月29日",
-        "date_iso": "2026-10-29",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EKS Dashboard now provides fleet-wide visibility into certificate authority (CA) rotation",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-eks-dashboard-fleet-wide-visibility-certificate-authority-ca-rotation/",
-        "summary": "Today, Amazon Elastic Kubernetes Service (Amazon EKS) announces certificate authority (CA) rotation visibility in the Amazon EKS Dashboard, giving you a consolidated view of CA rotation across your…",
-        "date": "2026年10月29日",
-        "date_iso": "2026-10-29",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon ECS Managed Instances adds cross-instance and Spot consolidation",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/ecs-managed-instances-consolidation/",
-        "summary": "Today, Amazon Elastic Container Service (Amazon ECS) Managed Instances introduces two infrastructure optimization updates: cross-instance and Spot consolidation. Cross-instance consolidation…",
-        "date": "2026年10月29日",
-        "date_iso": "2026-10-29",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
       }
     ],
     "gcp": [
       {
         "title": "October 30, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_30_2026",
-        "summary": "Backup and DR Feature You can now edit existing backup plans for Cloud SQL instances to update settings such as backup rules and maximum custom on-demand retention periods. To learn more, see Back up…",
+        "summary": "Agent Registry Feature Agent Registry supports cross-project management boundaries ( Preview ), letting you centrally discover, search, and govern AI agents, Model Context Protocol (MCP) servers, and…",
         "date": "2026年10月30日",
         "date_iso": "2026-10-30",
-        "category": "database-tag",
-        "cat_label": "データベース",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "GCP"
       },
       {
@@ -589,7 +589,7 @@
       {
         "title": "October 12, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_12_2026",
-        "summary": "Agent Platform Workbench Change 20261011.00_p0 Release Change Installed latest packages from upstream dependencies. Fixed Fixed an issue where gcloud and gsutil failed to load with an AttributeError…",
+        "summary": "Agent Assist Feature Gemini transcribe live is generally available. Live transcription converts streaming audio to text in real time to deliver quick, reliable intermediate transcriptions for live…",
         "date": "2026年10月12日",
         "date_iso": "2026-10-12",
         "category": "ai-tag",
@@ -609,6 +609,16 @@
     ],
     "oci": [
       {
+        "title": "Remove Email Suppressions with the UserEmailSuppressionRemover API",
+        "link": "https://docs.oracle.com/iaas/releasenotes/identity/identity-remove-email-suppressions.htm",
+        "summary": "",
+        "date": "2026年10月28日",
+        "date_iso": "2026-10-28",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
         "title": "Oracle Cost Advisor for AI in Limited Availability",
         "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/cost-advisor-limited-availability.htm",
         "summary": "",
@@ -624,6 +634,16 @@
         "summary": "",
         "date": "2026年10月27日",
         "date_iso": "2026-10-27",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Oracle-Seeded Application Roles Protected from Modification",
+        "link": "https://docs.oracle.com/iaas/releasenotes/identity/identity-protect-oracle-seeded-approles.htm",
+        "summary": "",
+        "date": "2026年10月23日",
+        "date_iso": "2026-10-23",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "OCI"
@@ -784,26 +804,6 @@
         "summary": "",
         "date": "2026年10月20日",
         "date_iso": "2026-10-20",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "OCI"
-      },
-      {
-        "title": "Self-service continuous consumption discount commitments are now available",
-        "link": "https://docs.oracle.com/iaas/releasenotes/billing/continuous-consumption-discounts.htm",
-        "summary": "",
-        "date": "2026年10月19日",
-        "date_iso": "2026-10-19",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Automatic Target Registration for Exadata Database Service on Cloud@Customer in Oracle Data Safe",
-        "link": "https://docs.oracle.com/iaas/releasenotes/data-safe/auto-register-exaCC.htm",
-        "summary": "",
-        "date": "2026年10月19日",
-        "date_iso": "2026-10-19",
         "category": "database-tag",
         "cat_label": "データベース",
         "tag": "OCI"
