@@ -1,5 +1,5 @@
 {
-  "updated": "2026年10月31日 18:54 JST",
+  "updated": "2026年11月01日 00:30 JST",
   "clouds": {
     "azure": [
       {
@@ -385,13 +385,13 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon Managed Grafana now supports in-place upgrade to Grafana version 13.2",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/managed-grafana-upgrade-version-13-2/",
-        "summary": "Amazon Managed Grafana now supports in-place upgrade from Grafana version 12.4 to 13.2. Upgrading to version 13.2 brings features launched as part of open-source Grafana versions 13.0 to 13.2. These…",
+        "title": "ACM now supports ACME for public certificates in AWS GovCloud (US)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/acm-acme-support-govcloud-us/",
+        "summary": "AWS Certificate Manager (ACM) ACME protocol support is now available in AWS GovCloud (US-East) and AWS GovCloud (US-West), providing a fully managed ACME server endpoint that issues public TLS…",
         "date": "2026年10月29日",
         "date_iso": "2026-10-29",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "AWS"
       },
       {
@@ -489,17 +489,17 @@
       {
         "title": "October 22, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_22_2026",
-        "summary": "Apigee X Announcement On October 22, 2026, we released an updated version of Apigee (1-18-0-apigee-7). Note: Rollouts of this release began today and can take four or more business days to complete…",
+        "summary": "App Engine flexible environment PHP Security All supported versions of PHP 8.2 and later are patched. Take immediate protective action by redeploying your resources with updated dependencies. See…",
         "date": "2026年10月22日",
         "date_iso": "2026-10-22",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
         "tag": "GCP"
       },
       {
         "title": "October 21, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_21_2026",
-        "summary": "Apigee X Announcement Apigee Emulator Apigee Emulator v2.0.2 On October 21, 2026, we released Apigee Emulator version 2.0.2. This release upgrades the Apigee Emulator runtime to Java 21 (Eclipse…",
+        "summary": "Apigee hybrid Announcement v1.15.9 On October 21, 2026 we released an updated version of the Apigee hybrid software, v1.15.9. For information on upgrading, see Upgrading Apigee hybrid to version…",
         "date": "2026年10月21日",
         "date_iso": "2026-10-21",
         "category": "compute-tag",
