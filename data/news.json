@@ -1,5 +1,5 @@
 {
-  "updated": "2026年11月01日 19:45 JST",
+  "updated": "2026年11月02日 01:26 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "October 31, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#October_31_2026",
+        "summary": "Google SecOps Feature Basic Mode search This feature is in public preview. The SIEM Search page now provides two search-execution modes: Basic Mode and Advanced Mode . Basic Mode (the default option)…",
+        "date": "2026年10月31日",
+        "date_iso": "2026-10-31",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "GCP"
+      },
+      {
         "title": "October 30, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_30_2026",
         "summary": "Agent Registry Feature Agent Registry supports cross-project management boundaries ( Preview ), letting you centrally discover, search, and govern AI agents, Model Context Protocol (MCP) servers, and…",
@@ -594,16 +604,6 @@
         "date_iso": "2026-10-12",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "October 11, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_11_2026",
-        "summary": "Agent Platform Workbench Change 20261011-2230-rc0 Release Change 20261011-2230-rc0 Release Change Installed latest packages from upstream dependencies. Change Installed latest packages from upstream…",
-        "date": "2026年10月11日",
-        "date_iso": "2026-10-11",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
         "tag": "GCP"
       }
     ],
