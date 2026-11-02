@@ -1,7 +1,77 @@
 {
-  "updated": "2026年11月02日 20:36 JST",
+  "updated": "2026年11月03日 04:48 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Generally Available: Azure Storage Actions adds automatic task updates, execution controls, and…",
+        "link": "https://azure.microsoft.com/updates?id=578628",
+        "summary": "Azure Storage Actions is introducing three enhancements to simplify task management and give you more control over automated data operations across Azure Blob and Data Lake Storage:Automatic…",
+        "date": "2026年11月3日",
+        "date_iso": "2026-11-03",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: JWT validation for Application Gateway for Containers",
+        "link": "https://azure.microsoft.com/updates?id=576382",
+        "summary": "Application Gateway for Containers now supports centralized JSON Web Token validation through the AuthPolicy custom resource. Teams can validate a token signature, issuer, lifetime, and configured…",
+        "date": "2026年11月3日",
+        "date_iso": "2026-11-03",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: MCP gateway for Application Gateway for Containers",
+        "link": "https://azure.microsoft.com/updates?id=576388",
+        "summary": "Application Gateway for Containers now supports Model Context Protocol routing through the new MCPRoute custom resource. Platform teams can publish MCP servers behind a stable hostname and path while…",
+        "date": "2026年11月3日",
+        "date_iso": "2026-11-03",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Private ingress for Application Gateway for Containers",
+        "link": "https://azure.microsoft.com/updates?id=576393",
+        "summary": "Application Gateway for Containers now supports private frontends that are reachable only through approved Azure Private Link private endpoints. This enables organizations to keep internal…",
+        "date": "2026年11月3日",
+        "date_iso": "2026-11-03",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Restart databases in Azure SQL DB via the Azure portal",
+        "link": "https://azure.microsoft.com/updates?id=577992",
+        "summary": "You can now restart or fail over databases directly from the Azure portal, including single databases, Hyperscale databases, and databases in elastic pools, without writing scripts against the Rest…",
+        "date": "2026年11月3日",
+        "date_iso": "2026-11-03",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Geo-Replication on partitioned namespaces for Azure Service Bus Premium",
+        "link": "https://azure.microsoft.com/updates?id=579021",
+        "summary": "Geo-Replication on partitioned namespaces for Azure Service Bus Premium is now generally available. You can now combine the throughput benefits of partitioning with the reliability of replicating…",
+        "date": "2026年11月3日",
+        "date_iso": "2026-11-03",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Azure Site Recovery for Azure Local",
+        "link": "https://azure.microsoft.com/updates?id=579111",
+        "summary": "Azure Site Recovery support for Azure Local is now generally available, making enterprise-grade disaster recovery simpler, accessible, easier to setup and secure than ever before. Customers can…",
+        "date": "2026年11月3日",
+        "date_iso": "2026-11-03",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Public Preview: Support database-level managed identity (including FIC) in Create Database Scoped…",
         "link": "https://azure.microsoft.com/updates?id=577491",
@@ -131,79 +201,29 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Announcing: Choose Your Own Telephony (CYOT) for Microsoft Entra",
-        "link": "https://azure.microsoft.com/updates?id=577273",
-        "summary": "What and whyStarting October 30, 2026, Microsoft Entra ID will make the Choose Your Own Telephony Provider experience available. This feature enables organizations to use a supported third-party…",
-        "date": "2026年10月22日",
-        "date_iso": "2026-10-22",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Azure Cosmos DB Safe Key Rotation",
-        "link": "https://azure.microsoft.com/updates?id=576716",
-        "summary": "Safe Key Rotation for Azure Cosmos DB is now generally available. You can view timestamp metadata showing when each account key was last used, helping you identify active keys before rotating or…",
-        "date": "2026年10月22日",
-        "date_iso": "2026-10-22",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Disable VNet peering route",
-        "link": "https://azure.microsoft.com/updates?id=576242",
-        "summary": "Announcing the public preview of disable VNet peering route, a route-table capability that gives you more control over traffic between peered virtual networks. DPR suppresses system-generated peering…",
-        "date": "2026年10月21日",
-        "date_iso": "2026-10-21",
-        "category": "network-tag",
-        "cat_label": "ネットワーク",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Service tag match condition for Azure Front Door Premium WAF",
-        "link": "https://azure.microsoft.com/updates?id=577156",
-        "summary": "Announcing the general availability of the service tag match condition for Azure Web Application Firewall (WAF) custom rules on Azure Front Door Premium. Service tags represent groups of IP address…",
-        "date": "2026年10月21日",
-        "date_iso": "2026-10-21",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Keyless TLS on Application Gateway with Azure Key Vault Managed HSM",
-        "link": "https://azure.microsoft.com/updates?id=577130",
-        "summary": "Azure Application Gateway now supports keyless TLS termination using certificates whose private keys stay in Azure Key Vault Managed HSM. Each TLS handshake signature is performed inside the HSM, and…",
-        "date": "2026年10月21日",
-        "date_iso": "2026-10-21",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Advanced platform metrics for Azure Monitor",
-        "link": "https://azure.microsoft.com/updates?id=575329",
-        "summary": "Advanced platform metrics for Azure Monitor are now generally available. Advanced platform metrics provide finer-grained signals that help customers more quickly and accurately identify changes and…",
-        "date": "2026年10月21日",
-        "date_iso": "2026-10-21",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Metrics usage insights for Azure Monitor workspace",
-        "link": "https://azure.microsoft.com/updates?id=577165",
-        "summary": "Metrics usage insights is now generally available, giving you greater visibility into what’s driving metrics usage across your Azure Monitor workspace. Monitor workspace utilization, identify unused…",
-        "date": "2026年10月20日",
-        "date_iso": "2026-10-20",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Amazon RDS now supports per snapshot billing",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-per-snapshot-billing/",
+        "summary": "Starting today, Amazon RDS supports per snapshot billing for Amazon RDS snapshots. Per snapshot billing allows you to get the cost of each individual snapshot. Previously, RDS snapshot charges were…",
+        "date": "2026年11月3日",
+        "date_iso": "2026-11-03",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Quick on desktop now uses your organization's existing Amazon Quick sign-in",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-quick-desktop-organization-sign-in/",
+        "summary": "For organizations that use Amazon Quick, the desktop application now signs users in with the same sign-in method the organization already uses for Quick on the web. Administrators no longer need to…",
+        "date": "2026年11月3日",
+        "date_iso": "2026-11-03",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
       {
         "title": "Amazon Bedrock expands API support and introduces Cross-Region Inferencing for OpenAI models in AWS GovCloud (US)",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-openai-runtime-govcloud/",
@@ -305,6 +325,16 @@
         "tag": "AWS"
       },
       {
+        "title": "Amazon Quick Introduces Quick Essentials",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-quick-essentials/",
+        "summary": "Amazon Quick introduces Quick Essentials for enterprises. The plan makes it easier for organizations to get started with all the features of Quick such as AI-powered chat, Research, Flows, and Apps,…",
+        "date": "2026年10月30日",
+        "date_iso": "2026-10-30",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
         "title": "AWS Glue Data Catalog now supports Apache Iceberg table optimization in the US West (N. California) Region",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/glue-data-catalog-optimizers-us-west-1/",
         "summary": "AWS Glue Data Catalog now supports automatic table optimization for Apache Iceberg tables in the US West (N. California) Region. Apache Iceberg is an open table format that delivers fast query…",
@@ -373,39 +403,29 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon DynamoDB Accelerator (DAX) is now available in additional Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/dax-additional-regions/",
-        "summary": "Amazon DynamoDB Accelerator (DAX) is now available in two additional AWS Regions: Canada (Central) and Africa (Cape Town). DAX is a fully managed, highly available, in-memory cache for Amazon…",
-        "date": "2026年10月29日",
-        "date_iso": "2026-10-29",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "ACM now supports ACME for public certificates in AWS GovCloud (US)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/acm-acme-support-govcloud-us/",
-        "summary": "AWS Certificate Manager (ACM) ACME protocol support is now available in AWS GovCloud (US-East) and AWS GovCloud (US-West), providing a fully managed ACME server endpoint that issues public TLS…",
-        "date": "2026年10月29日",
-        "date_iso": "2026-10-29",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS DataSync Enhanced mode now supports Amazon FSx for Windows File Server, FSx for NetApp ONTAP, and Red Hat OpenShift…",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/datasync-enhanced-fsx-openshift/",
-        "summary": "AWS DataSync Enhanced mode now supports Amazon FSx for Windows File Server and Amazon FSx for NetApp ONTAP as source or destination locations. You can now run Windows to Windows transfers, such as…",
-        "date": "2026年10月29日",
-        "date_iso": "2026-10-29",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "November 02, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#November_02_2026",
+        "summary": "Apigee X Announcement On November 2, 2026, we released an updated version of Apigee. Note: Rollouts of this release began today and may take four or more business days to be completed across all…",
+        "date": "2026年11月2日",
+        "date_iso": "2026-11-02",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "GCP"
+      },
+      {
+        "title": "November 01, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#November_01_2026",
+        "summary": "Google SecOps SOAR Announcement Release 6.3.105 is being rolled out to the first phase of regions as listed here . This release contains internal and customer bug fixes.",
+        "date": "2026年11月1日",
+        "date_iso": "2026-11-01",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
       {
         "title": "October 31, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_31_2026",
@@ -582,26 +602,6 @@
         "summary": "Anti Money Laundering AI Announcement New minor engine version released for the commercial line of business within the v004.011 version line ( aml-commercial.default.v004.011.202610-000 ). This…",
         "date": "2026年10月14日",
         "date_iso": "2026-10-14",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "October 13, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_13_2026",
-        "summary": "Agent Platform Workbench Change 20261013-2230-rc0 Release Change 20261013-2230-rc0 Release Change Installed latest packages from upstream dependencies. Change Installed latest packages from upstream…",
-        "date": "2026年10月13日",
-        "date_iso": "2026-10-13",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "GCP"
-      },
-      {
-        "title": "October 12, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_12_2026",
-        "summary": "Agent Assist Feature Gemini transcribe live is generally available. Live transcription converts streaming audio to text in real time to deliver quick, reliable intermediate transcriptions for live…",
-        "date": "2026年10月12日",
-        "date_iso": "2026-10-12",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
