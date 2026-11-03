@@ -1,5 +1,5 @@
 {
-  "updated": "2026年11月03日 20:15 JST",
+  "updated": "2026年11月04日 02:21 JST",
   "clouds": {
     "azure": [
       {
@@ -325,16 +325,6 @@
         "tag": "AWS"
       },
       {
-        "title": "Announcing an updated text detection model for Amazon Textract",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/textract-text-detection-model/",
-        "summary": "Amazon Textract now provides an updated text detection model that improves accuracy, expands language support, and enhances multilingual table extraction. The updated model applies to the…",
-        "date": "2026年11月2日",
-        "date_iso": "2026-11-02",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
         "title": "Amazon CloudFront now supports self-service increases in AWS Service Quotas",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudfront-self-service-quotas/",
         "summary": "Amazon CloudFront now supports AWS Service Quotas, so you can view, monitor, and request increases for 28 CloudFront quotas from the Service Quotas console or API. Until now, increasing a quota on…",
@@ -342,6 +332,16 @@
         "date_iso": "2026-11-02",
         "category": "network-tag",
         "cat_label": "ネットワーク",
+        "tag": "AWS"
+      },
+      {
+        "title": "Announcing an updated text detection model for Amazon Textract",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/textract-text-detection-model/",
+        "summary": "Amazon Textract now provides an updated text detection model that improves accuracy, expands language support, and enhances multilingual table extraction. The updated model applies to the…",
+        "date": "2026年11月2日",
+        "date_iso": "2026-11-02",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "AWS"
       },
       {
@@ -406,6 +406,16 @@
       }
     ],
     "gcp": [
+      {
+        "title": "November 03, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#November_03_2026",
+        "summary": "Application Design Center Feature Application Design Center is available in the following regions: Osaka, Japan ( asia-northeast2 ) Mumbai, India ( asia-south1 ) Bangkok, Thailand ( asia-southeast3 )…",
+        "date": "2026年11月3日",
+        "date_iso": "2026-11-03",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
       {
         "title": "November 02, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_02_2026",
@@ -594,16 +604,6 @@
         "date_iso": "2026-10-15",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "GCP"
-      },
-      {
-        "title": "October 14, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_14_2026",
-        "summary": "Anti Money Laundering AI Announcement New minor engine version released for the commercial line of business within the v004.011 version line ( aml-commercial.default.v004.011.202610-000 ). This…",
-        "date": "2026年10月14日",
-        "date_iso": "2026-10-14",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "GCP"
       }
     ],
