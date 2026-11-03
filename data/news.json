@@ -1,41 +1,51 @@
 {
-  "updated": "2026年11月03日 04:48 JST",
+  "updated": "2026年11月03日 15:50 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Public Preview: On-prem NAS share discovery and assessment are now available using Azure Migrate",
+        "link": "https://azure.microsoft.com/updates?id=577975",
+        "summary": "Azure Migrate now supports discovery and assessment for network-attached storage, allowing customers and partners to plan migrations of Dell PowerScale (OneFS) and NetApp ONTAP storage to Azure. The…",
+        "date": "2026年11月3日",
+        "date_iso": "2026-11-03",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Retirement: OT security in Microsoft Defender for IoT",
+        "link": "https://azure.microsoft.com/updates?id=576255",
+        "summary": "This is the formal notice that Microsoft plans to deprecate the operational technology (OT) security component of Microsoft Defender for IoT. The service will be fully deprecated in October 2029,…",
+        "date": "2026年11月3日",
+        "date_iso": "2026-11-03",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Change from virtual network integration to a private endpoint capable network…",
+        "link": "https://azure.microsoft.com/updates?id=574541",
+        "summary": "You now have greater flexibility in network design for Azure Database for PostgreSQL Flexible Server workloads. Now you can change existing VNet-integrated servers from delegated-subnet networking to…",
+        "date": "2026年11月3日",
+        "date_iso": "2026-11-03",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Retirement: Azure Fluid Relay",
+        "link": "https://azure.microsoft.com/updates?id=570498",
+        "summary": "On February 2, 2027, we will retire Azure Fluid Relay. After this date, Azure Fluid Relay will reach end of availability, and workloads that continue to depend on the service may experience…",
+        "date": "2026年11月3日",
+        "date_iso": "2026-11-03",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Generally Available: Azure Storage Actions adds automatic task updates, execution controls, and…",
         "link": "https://azure.microsoft.com/updates?id=578628",
         "summary": "Azure Storage Actions is introducing three enhancements to simplify task management and give you more control over automated data operations across Azure Blob and Data Lake Storage:Automatic…",
-        "date": "2026年11月3日",
-        "date_iso": "2026-11-03",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: JWT validation for Application Gateway for Containers",
-        "link": "https://azure.microsoft.com/updates?id=576382",
-        "summary": "Application Gateway for Containers now supports centralized JSON Web Token validation through the AuthPolicy custom resource. Teams can validate a token signature, issuer, lifetime, and configured…",
-        "date": "2026年11月3日",
-        "date_iso": "2026-11-03",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: MCP gateway for Application Gateway for Containers",
-        "link": "https://azure.microsoft.com/updates?id=576388",
-        "summary": "Application Gateway for Containers now supports Model Context Protocol routing through the new MCPRoute custom resource. Platform teams can publish MCP servers behind a stable hostname and path while…",
-        "date": "2026年11月3日",
-        "date_iso": "2026-11-03",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Private ingress for Application Gateway for Containers",
-        "link": "https://azure.microsoft.com/updates?id=576393",
-        "summary": "Application Gateway for Containers now supports private frontends that are reachable only through approved Azure Private Link private endpoints. This enables organizations to keep internal…",
         "date": "2026年11月3日",
         "date_iso": "2026-11-03",
         "category": "ai-tag",
@@ -191,19 +201,29 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: ABFS Vectored Read for Azure Data Lake Storage",
-        "link": "https://azure.microsoft.com/updates?id=577618",
-        "summary": "ABFS Vectored Read helps compatible analytics engines reduce request overhead for selective reads in Azure Data Lake Storage. By combining nearby file ranges into fewer storage requests and executing…",
-        "date": "2026年10月23日",
-        "date_iso": "2026-10-23",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Amazon RDS for Oracle now supports M8i and R8i instances in additional AWS Regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-oracle-m8i-r8i-instances-new-regions/",
+        "summary": "Amazon Relational Database Service (Amazon RDS) for Oracle &nbsp;now supports M8i and R8i instances in additional AWS Regions. Both M8i and R8i instances are now available in Asia Pacific (New…",
+        "date": "2026年11月3日",
+        "date_iso": "2026-11-03",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Haiku 5.5 now available on Kiro in AWS GovCloud (US)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/kiro-haiku-5-5-aws-govcloud-us/",
+        "summary": "A new Anthropic model is now available in the Kiro IDE and CLI for the AWS GovCloud (US) Regions. With Haiku 5.5, all three Claude 5.5 models are now available in Kiro in AWS GovCloud (US). Claude…",
+        "date": "2026年11月3日",
+        "date_iso": "2026-11-03",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
       {
         "title": "Amazon RDS now supports per snapshot billing",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-per-snapshot-billing/",
@@ -222,6 +242,106 @@
         "date_iso": "2026-11-03",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Aurora MySQL 8.4.10 is now generally available",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-aurora-mysql-8410-available/",
+        "summary": "Starting today, Amazon Aurora MySQL-Compatible Edition 8.4 supports MySQL 8.4.10. We recommend upgrading to the newer minor versions to accept fixes for Common Vulnerabilities and Exposures (CVEs) in…",
+        "date": "2026年11月3日",
+        "date_iso": "2026-11-03",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Lambda now supports queues for Apache Kafka in self-managed Kafka event sources",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-lambda-queue-kafka-esm/",
+        "summary": "AWS Lambda now supports queues for Apache Kafka in self-managed Kafka event source mappings (ESM), for Kafka clusters that customers run themselves and for managed offerings such as Confluent…",
+        "date": "2026年11月3日",
+        "date_iso": "2026-11-03",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Aurora MySQL 3.14 (compatible with MySQL 8.0.46) is generally available",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-aurora-mysql-314-available/",
+        "summary": "Starting today, Amazon Aurora MySQL-Compatible Edition 3 (compatible with MySQL 8.0) supports MySQL 8.0.46, which includes community MySQL fixes and Aurora-specific improvements. In addition to…",
+        "date": "2026年11月3日",
+        "date_iso": "2026-11-03",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Connect Customer now supports Model Context Protocol (MCP) tools in flows",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-flows-mcp-tools/",
+        "summary": "Amazon Connect Customer now enables you to invoke Model Context Protocol (MCP) tools in customer experience flows through the new 'External Tool' block. With this launch, you can connect flows to…",
+        "date": "2026年11月3日",
+        "date_iso": "2026-11-03",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Connect Customer now supports Cases and External Tool events in the Wait block",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-wait-block-cases-tool-events/",
+        "summary": "Amazon Connect Customer now supports Cases and External Tool events in the Wait block, giving you more control over how your customer experience flows react to real-time data changes. In addition to…",
+        "date": "2026年11月3日",
+        "date_iso": "2026-11-03",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "EC2 Amazon Machine Images can now be scanned for vulnerabilities through Amazon Inspector",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/ec2-amis-scanned-through-inspector/",
+        "summary": "Amazon Inspector now extends its vulnerability scanning to EC2 Amazon Machine Images (AMIs), enabling you to identify software vulnerabilities in your AMIs without launching instances or installing…",
+        "date": "2026年11月2日",
+        "date_iso": "2026-11-02",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Textract now available in Asia Pacific (Tokyo) and Europe (Zurich)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/textract-tokyo-zurich/",
+        "summary": "Amazon Textract is now available in the Asia Pacific (Tokyo) and Europe (Zurich) Regions. Amazon Textract is a machine learning service that automatically extracts text, handwriting, and data from…",
+        "date": "2026年11月2日",
+        "date_iso": "2026-11-02",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Announcing AWS for Fluent Bit 3.0.0 based on Fluent Bit 4.1.1",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2025/10/aws-fluent-bit-3-0-0-based-4-1-1",
+        "summary": "AWS for Fluent Bit announces version 3.0.0 , based on Fluent Bit version 4.1.1 and Amazon Linux 2023. Container logging using AWS for Fluent Bit is now more performant and more feature-rich for AWS…",
+        "date": "2026年11月2日",
+        "date_iso": "2026-11-02",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Announcing an updated text detection model for Amazon Textract",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/textract-text-detection-model/",
+        "summary": "Amazon Textract now provides an updated text detection model that improves accuracy, expands language support, and enhances multilingual table extraction. The updated model applies to the…",
+        "date": "2026年11月2日",
+        "date_iso": "2026-11-02",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon CloudFront now supports self-service increases in AWS Service Quotas",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudfront-self-service-quotas/",
+        "summary": "Amazon CloudFront now supports AWS Service Quotas, so you can view, monitor, and request increases for 28 CloudFront quotas from the Service Quotas console or API. Until now, increasing a quota on…",
+        "date": "2026年11月2日",
+        "date_iso": "2026-11-02",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
         "tag": "AWS"
       },
       {
@@ -283,147 +403,27 @@
         "category": "security-tag",
         "cat_label": "セキュリティ",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon RDS for Oracle no longer requires automatic minor version upgrades for JVM, Spatial, Locator, and OLAP options",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/oracle-jvm-spatial-locator-olap-options-amvu-optional/",
-        "summary": "Amazon Relational Database Service (Amazon RDS) for Oracle now lets you turn off automatic minor version upgrades on new and existing DB instances that use the JVM, Spatial, Locator, or OLAP option.…",
-        "date": "2026年10月31日",
-        "date_iso": "2026-10-31",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS WAF announces automatic SDK integration for Amazon CloudFront distributions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-waf-automatic-sdk-integration-amazon-cloudfront/",
-        "summary": "AWS WAF announces automatic SDK integration for Amazon CloudFront distributions. When you enable it, CloudFront adds the script tag for the AWS WAF JavaScript SDK to the HTML it serves, with no…",
-        "date": "2026年10月31日",
-        "date_iso": "2026-10-31",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Connect Customer now supports versioning and aliasing for flows",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-flows-versioning-aliasing/",
-        "summary": "Amazon Connect Customer now supports versioning and aliasing for flows and flow modules, simplifying how you build, test, and deploy customer experience flows while minimizing impact to live…",
-        "date": "2026年10月31日",
-        "date_iso": "2026-10-31",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Managed Prometheus collectors now support Amazon MSK consumer-group metrics",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/prometheus-collectors-msk-metrics/",
-        "summary": "Managed Prometheus collectors now support Amazon MSK consumer-group metrics for Amazon Managed Service for Prometheus and Amazon CloudWatch . The integration collects Kafka exporter metrics and…",
-        "date": "2026年10月30日",
-        "date_iso": "2026-10-30",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Quick Introduces Quick Essentials",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-quick-essentials/",
-        "summary": "Amazon Quick introduces Quick Essentials for enterprises. The plan makes it easier for organizations to get started with all the features of Quick such as AI-powered chat, Research, Flows, and Apps,…",
-        "date": "2026年10月30日",
-        "date_iso": "2026-10-30",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Glue Data Catalog now supports Apache Iceberg table optimization in the US West (N. California) Region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/glue-data-catalog-optimizers-us-west-1/",
-        "summary": "AWS Glue Data Catalog now supports automatic table optimization for Apache Iceberg tables in the US West (N. California) Region. Apache Iceberg is an open table format that delivers fast query…",
-        "date": "2026年10月30日",
-        "date_iso": "2026-10-30",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SageMaker AI inference now supports GPU partitioning for real-time endpoints",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-gpu-partitioning/",
-        "summary": "Amazon SageMaker AI inference now supports GPU partitioning, enabling you to run several models on a single GPU instead of dedicating a whole accelerator to each one. Using NVIDIA Multi-Instance GPU…",
-        "date": "2026年10月30日",
-        "date_iso": "2026-10-30",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Marketplace now enables partners to list once and sell through multiple subsidiary accounts",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-marketplace-subsidiary-account-authorization",
-        "summary": "Today, AWS announces that AWS partners who operate multiple legal entities can publish a product listing once in their primary account and enable their local subsidiaries to sell it through direct…",
-        "date": "2026年10月30日",
-        "date_iso": "2026-10-30",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon RDS for Oracle and SQL Server now support storage autoscaling on additional storage volumes",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-rds-oracle-sqlserver-autoscaling-additional-storage-volumes",
-        "summary": "Amazon RDS for SQL Server and Amazon RDS for Oracle now support RDS storage autoscaling on additional storage volumes . RDS storage autoscaling automatically scales storage capacity in response to…",
-        "date": "2026年10月30日",
-        "date_iso": "2026-10-30",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Aurora now supports post-quantum TLS key exchange",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aurora-postgresql-post-quantum-tls-key-exchange/",
-        "summary": "Starting today, Amazon Aurora PostgreSQL-Compatible Edition &nbsp;introduces support for post-quantum TLS (PQ-TLS) key exchange, providing you with post-quantum cryptography options for encrypting…",
-        "date": "2026年10月30日",
-        "date_iso": "2026-10-30",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon MSK Connect now supports updating connector plugins and worker configurations",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-msk-connect-update-plugin-worker-configurations",
-        "summary": "Amazon MSK Connect (Amazon Managed Streaming for Apache Kafka Connect) now lets you update the custom plugin and worker configuration of an existing connector. This is useful when you need to update…",
-        "date": "2026年10月30日",
-        "date_iso": "2026-10-30",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Step Functions workflows now available as AI agent tools",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/step-functions-workflows-ai-agent-tools/",
-        "summary": "You can now use your AWS Step Functions workflows as tools for AI agents through Amazon Bedrock AgentCore Gateway. Your agent decides when to run a workflow and what input to pass, and Step Functions…",
-        "date": "2026年10月29日",
-        "date_iso": "2026-10-29",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
       }
     ],
     "gcp": [
       {
         "title": "November 02, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_02_2026",
-        "summary": "Apigee X Announcement On November 2, 2026, we released an updated version of Apigee. Note: Rollouts of this release began today and may take four or more business days to be completed across all…",
+        "summary": "Agent Platform Workbench Change 20261101.00_p0 Release Change Installed latest packages from upstream dependencies. Security Upgraded the container host to the latest Container-Optimized OS LTS…",
         "date": "2026年11月2日",
         "date_iso": "2026-11-02",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "GCP"
       },
       {
         "title": "November 01, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_01_2026",
-        "summary": "Google SecOps SOAR Announcement Release 6.3.105 is being rolled out to the first phase of regions as listed here . This release contains internal and customer bug fixes.",
+        "summary": "Agent Platform Workbench Change 20261101-2230-rc0 Release Change 20261101-2230-rc0 Release Change Installed latest packages from upstream dependencies. Change Installed latest packages from upstream…",
         "date": "2026年11月1日",
         "date_iso": "2026-11-01",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "GCP"
       },
       {
