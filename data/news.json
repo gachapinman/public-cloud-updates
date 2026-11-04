@@ -1,7 +1,17 @@
 {
-  "updated": "2026年11月04日 20:28 JST",
+  "updated": "2026年11月05日 02:33 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Public Preview: Multi-disk crash-consistent VM restore points for Premium SSD v2 and Ultra Disks on VMs…",
+        "link": "https://azure.microsoft.com/updates?id=579162",
+        "summary": "Multi-disk crash-consistent restore points for Azure virtual machines with Premium SSD v2 and Ultra data disks are now available in public preview on VMs with SCSI disk controllers. You can use this…",
+        "date": "2026年11月5日",
+        "date_iso": "2026-11-05",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Public Preview: JWT validation for Application Gateway for Containers",
         "link": "https://azure.microsoft.com/updates?id=576382",
@@ -191,16 +201,6 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Cross Tenant Restore with Azure Backup",
-        "link": "https://azure.microsoft.com/updates?id=577117",
-        "summary": "Cross-Tenant Restore (CTR) helps organizations establish an independent recovery path by enabling Azure VM backups to be restored into a separate Azure tenant. It strengthens cyber resilience while…",
-        "date": "2026年10月29日",
-        "date_iso": "2026-10-29",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
-        "tag": "AZURE"
       }
     ],
     "aws": [
@@ -262,6 +262,16 @@
         "date_iso": "2026-11-03",
         "category": "ai-tag",
         "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon CloudWatch now supports API keys for OpenTelemetry traces",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-api-keys-opentelemetry/",
+        "summary": "Amazon CloudWatch now supports bearer token authentication, using API keys (bearer tokens), as an additional option for sending OpenTelemetry traces to the AWS X-Ray OpenTelemetry Protocol (OTLP)…",
+        "date": "2026年11月3日",
+        "date_iso": "2026-11-03",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
         "tag": "AWS"
       },
       {
@@ -392,16 +402,6 @@
         "date_iso": "2026-11-02",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon CloudFront now supports self-service increases in AWS Service Quotas",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudfront-self-service-quotas/",
-        "summary": "Amazon CloudFront now supports AWS Service Quotas, so you can view, monitor, and request increases for 28 CloudFront quotas from the Service Quotas console or API. Until now, increasing a quota on…",
-        "date": "2026年11月2日",
-        "date_iso": "2026-11-02",
-        "category": "network-tag",
-        "cat_label": "ネットワーク",
         "tag": "AWS"
       }
     ],
@@ -609,6 +609,26 @@
     ],
     "oci": [
       {
+        "title": "Improved Role and Privilege Handling During Migration",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-dedicated/adbd-role-migration.htm",
+        "summary": "",
+        "date": "2026年11月3日",
+        "date_iso": "2026-11-03",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Oracle Application Express (APEX) 26.1 is available for new Autonomous Container Databases (ACD)",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-dedicated/adbd-apex-acd.htm",
+        "summary": "",
+        "date": "2026年11月3日",
+        "date_iso": "2026-11-03",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
         "title": "Client ID Metadata Document (CIMD) Support for Database Tools MCP Server",
         "link": "https://docs.oracle.com/iaas/releasenotes/database-tools/cimd.htm",
         "summary": "",
@@ -699,6 +719,16 @@
         "tag": "OCI"
       },
       {
+        "title": "OCI Kubernetes Engine (OKE) support for GPU maintenance event repair",
+        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng_node-maintenance-event-repair.htm",
+        "summary": "",
+        "date": "2026年10月21日",
+        "date_iso": "2026-10-21",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
         "title": "Add file storage to Generative AI applications",
         "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/hosted-applications-persistent-file-storage.htm",
         "summary": "",
@@ -719,21 +749,31 @@
         "tag": "OCI"
       },
       {
-        "title": "OCI Kubernetes Engine (OKE) support for GPU maintenance event repair",
-        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng_node-maintenance-event-repair.htm",
-        "summary": "",
-        "date": "2026年10月21日",
-        "date_iso": "2026-10-21",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
         "title": "Device Data FHIR resource management and Subscription status enhancements",
         "link": "https://docs.oracle.com/iaas/releasenotes/device-data-fhir/update-10212026.htm",
         "summary": "",
         "date": "2026年10月21日",
         "date_iso": "2026-10-21",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Cryptographic Assessment in Oracle Data Safe",
+        "link": "https://docs.oracle.com/iaas/releasenotes/data-safe/crypto-assessment.htm",
+        "summary": "",
+        "date": "2026年10月20日",
+        "date_iso": "2026-10-20",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "GoldenGate adds support for new connection types",
+        "link": "https://docs.oracle.com/iaas/releasenotes/goldengate/r12connections.htm",
+        "summary": "",
+        "date": "2026年10月20日",
+        "date_iso": "2026-10-20",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "OCI"
@@ -766,46 +806,6 @@
         "date_iso": "2026-10-20",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Import NVIDIA Nemotron 3.5 Super VL NVFP4 into OCI Generative AI",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/nvidia-nemotron-3-5-super-vl-120b-a12b-nvfp4.htm",
-        "summary": "",
-        "date": "2026年10月20日",
-        "date_iso": "2026-10-20",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Cryptographic Assessment in Oracle Data Safe",
-        "link": "https://docs.oracle.com/iaas/releasenotes/data-safe/crypto-assessment.htm",
-        "summary": "",
-        "date": "2026年10月20日",
-        "date_iso": "2026-10-20",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "GoldenGate adds support for new connection types",
-        "link": "https://docs.oracle.com/iaas/releasenotes/goldengate/r12connections.htm",
-        "summary": "",
-        "date": "2026年10月20日",
-        "date_iso": "2026-10-20",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Oracle Critical Patch Update (CPU) October 2026 for Oracle Java SE",
-        "link": "https://docs.oracle.com/iaas/releasenotes/java-management/jdk-cpu-october-2026.htm",
-        "summary": "",
-        "date": "2026年10月20日",
-        "date_iso": "2026-10-20",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
         "tag": "OCI"
       }
     ]
