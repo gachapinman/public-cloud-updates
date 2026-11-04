@@ -1,7 +1,67 @@
 {
-  "updated": "2026年11月04日 02:21 JST",
+  "updated": "2026年11月04日 15:25 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Public Preview: JWT validation for Application Gateway for Containers",
+        "link": "https://azure.microsoft.com/updates?id=576382",
+        "summary": "Application Gateway for Containers now supports centralized JSON Web Token validation through the AuthPolicy custom resource. Teams can validate a token signature, issuer, lifetime, and configured…",
+        "date": "2026年11月4日",
+        "date_iso": "2026-11-04",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: MCP gateway for Application Gateway for Containers",
+        "link": "https://azure.microsoft.com/updates?id=576388",
+        "summary": "Application Gateway for Containers now supports Model Context Protocol routing through the new MCPRoute custom resource. Platform teams can publish MCP servers behind a stable hostname and path while…",
+        "date": "2026年11月4日",
+        "date_iso": "2026-11-04",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Private ingress for Application Gateway for Containers",
+        "link": "https://azure.microsoft.com/updates?id=576393",
+        "summary": "Application Gateway for Containers now supports private frontends that are reachable only through approved Azure Private Link private endpoints. This enables organizations to keep internal…",
+        "date": "2026年11月4日",
+        "date_iso": "2026-11-04",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Advanced capacity insights are now available in Azure Storage Discovery",
+        "link": "https://azure.microsoft.com/updates?id=578655",
+        "summary": "Advanced capacity insights are now available for preview in Azure Storage Discovery. Storage Discovery now provides greater visibility into storage usage through insights such as access patterns,…",
+        "date": "2026年11月4日",
+        "date_iso": "2026-11-04",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Extend immutability for PITR backups for Azure SQL Database and Azure SQL Managed Instance",
+        "link": "https://azure.microsoft.com/updates?id=579305",
+        "summary": "With this enhancement, you have the ability to lock your retention to the configured PITR retention, beyond the default 7 days of immutable backups that are already available. This is especially…",
+        "date": "2026年11月4日",
+        "date_iso": "2026-11-04",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Enhanced Azure Site Recovery support for VMSS Flex",
+        "link": "https://azure.microsoft.com/updates?id=578926",
+        "summary": "Azure Site Recovery now offers an enhanced disaster recovery experience for virtual machines in Virtual Machine Scale Sets with flexible orchestration. The update improves target configuration and…",
+        "date": "2026年11月4日",
+        "date_iso": "2026-11-04",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Public Preview: On-prem NAS share discovery and assessment are now available using Azure Migrate",
         "link": "https://azure.microsoft.com/updates?id=577975",
@@ -141,69 +201,69 @@
         "category": "storage-tag",
         "cat_label": "ストレージ",
         "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Marketplace private offer enhancements",
-        "link": "https://azure.microsoft.com/updates?id=576547",
-        "summary": "Private offers through Microsoft Marketplace help you optimize your spending power with pricing and terms aligned to your organization’s needs, including flexible billing, custom contract lengths,…",
-        "date": "2026年10月29日",
-        "date_iso": "2026-10-29",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Higher limit of Azure Blob Storage accounts per region per subscription",
-        "link": "https://azure.microsoft.com/updates?id=578358",
-        "summary": "Higher Azure Storage account resource quotas are now generally available, supporting up to 1,000 storage accounts with standard endpoints per region, per subscription, up from the default of 250.…",
-        "date": "2026年10月28日",
-        "date_iso": "2026-10-28",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Cost management and tagging for Claude models in Microsoft Foundry",
-        "link": "https://azure.microsoft.com/updates?id=577260",
-        "summary": "Microsoft Foundry now brings Claude models into Azure Cost Management alongside the rest of your Foundry spend, generally available. Until now, Claude charges appeared under SaaS rather than under…",
-        "date": "2026年10月28日",
-        "date_iso": "2026-10-28",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Azure Front Door profile and route level WAF policies",
-        "link": "https://azure.microsoft.com/updates?id=578153",
-        "summary": "Announcing the general availability of profile and route level policies for Azure Web Application Firewall (WAF) on Azure Front Door Premium. WAF policies are no longer limited to individual domains:…",
-        "date": "2026年10月28日",
-        "date_iso": "2026-10-28",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Network Watcher VNet flow logs filtering",
-        "link": "https://azure.microsoft.com/updates?id=577782",
-        "summary": "Azure Network Watcher VNet flow logs filtering is now generally available, enabling you to control which network traffic flows are logged based on specific criteria such as IP addresses, ports,…",
-        "date": "2026年10月27日",
-        "date_iso": "2026-10-27",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Item Level Recovery for Azure VMs with Premium SSDv2 and Ultra Disks in Azure Backup",
-        "link": "https://azure.microsoft.com/updates?id=577963",
-        "summary": "Azure Backup now supports Item-Level Recovery (ILR) for Azure virtual machines using Premium SSD v2 and Ultra disks with both 512 byte and 4KB logical sector sizes. You can now recover individual…",
-        "date": "2026年10月24日",
-        "date_iso": "2026-10-24",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Amazon Connect Customer lets agents pause and resume emails",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/connect-pause-resume-email/",
+        "summary": "Amazon Connect Customer lets agents pause emails while waiting for information or approvals, freeing them to handle higher-priority contacts and resume their work later. For example, an agent waiting…",
+        "date": "2026年11月4日",
+        "date_iso": "2026-11-04",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Connect Customer prefills the email address for new threads started from cases",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-connect-cases-email-addresses/",
+        "summary": "Amazon Connect Customer automatically fills in the customer’s email address from the linked customer profile when agents start a new email thread from a case. This saves agents time and reduces…",
+        "date": "2026年11月4日",
+        "date_iso": "2026-11-04",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Config now supports 10 new resource types",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-config-new-resource-types",
+        "summary": "AWS Config now supports 10 additional AWS resource types across key services including Amazon ElastiCache and Amazon QuickSight. This expansion provides greater coverage over your AWS environment,…",
+        "date": "2026年11月4日",
+        "date_iso": "2026-11-04",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon RDS now supports the latest Cumulative Update and GDR updates for Microsoft SQL Server",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-supports-latest-cumulative-update-gdr-microsoft-sql-server/",
+        "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports the latest Cumulative Updates (CU) and General Distribution Release (GDR) updates for Microsoft SQL Server. This release…",
+        "date": "2026年11月3日",
+        "date_iso": "2026-11-03",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Transform for mainframe improves the reimagine modernization workflow",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-transform-mainframe-reimagine/",
+        "summary": "AWS Transform for mainframe now discovers business functions with field-level precision and generates a new requirements coverage report in the assess and reimagine workflow. Previously, business…",
+        "date": "2026年11月3日",
+        "date_iso": "2026-11-03",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EKS Capabilities now supports Argo CD Notifications",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-eks-argo-cd-notifications",
+        "summary": "The Amazon Elastic Kubernetes Service (Amazon EKS) Capability for Argo CD now supports Argo CD Notifications, providing notifications when your applications sync, fail, or change health. You define…",
+        "date": "2026年11月3日",
+        "date_iso": "2026-11-03",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
       {
         "title": "Amazon RDS for Oracle now supports M8i and R8i instances in additional AWS Regions",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-oracle-m8i-r8i-instances-new-regions/",
@@ -343,73 +403,13 @@
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon Bedrock expands API support and introduces Cross-Region Inferencing for OpenAI models in AWS GovCloud (US)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-openai-runtime-govcloud/",
-        "summary": "Amazon Bedrock now supports the OpenAI GPT-5.6 models (Terra and Luna) on the bedrock-runtime endpoint, with support for the Responses, Converse, and Chat Completions APIs in AWS GovCloud (US). It…",
-        "date": "2026年10月31日",
-        "date_iso": "2026-10-31",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Web Search now available on Kiro in AWS GovCloud (US)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/kiro-web-search-aws-govcloud-us/",
-        "summary": "Kiro web search gives the agent real-time access to current information on the internet, so its answers draw on up-to-date search results and page content. The agent uses web search automatically…",
-        "date": "2026年10月31日",
-        "date_iso": "2026-10-31",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Connect Customer automatically saves in-progress emails as drafts",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-connect-email-draft-save/",
-        "summary": "Amazon Connect Customer automatically saves in-progress emails as drafts, helping agents resume work without losing progress when connectivity is interrupted or when their browser is accidentally…",
-        "date": "2026年10月31日",
-        "date_iso": "2026-10-31",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Daybreak Red from OpenAI now available to eligible customers on Amazon Bedrock in AWS GovCloud (US-East)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/openai-daybreak-red-govcloud-east/",
-        "summary": "Security teams need powerful tools to find vulnerabilities, test exploits, and build defenses. Daybreak Red from OpenAI is now available to eligible customers on Amazon Bedrock in AWS GovCloud…",
-        "date": "2026年10月31日",
-        "date_iso": "2026-10-31",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon CloudFront now provides viewer ISP and post-quantum TLS details",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/cloudfront-viewer-isp-post-quantum-visbility/",
-        "summary": "Amazon CloudFront can now forward two new optional headers to your origin. The CloudFront-Viewer-ISP header contains the name of the viewer's internet service provider (ISP), so you can see which…",
-        "date": "2026年10月31日",
-        "date_iso": "2026-10-31",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon MSK now supports TLS 1.3 for data in transit",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-msk-tls/",
-        "summary": "Amazon MSK now supports version 1.3 of Transport Layer Security (TLS) protocol for MSK Provisioned clusters through encryption policies. TLS 1.3 delivers faster, more secure encryption for streaming…",
-        "date": "2026年10月31日",
-        "date_iso": "2026-10-31",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
       }
     ],
     "gcp": [
       {
         "title": "November 03, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_03_2026",
-        "summary": "Application Design Center Feature Application Design Center is available in the following regions: Osaka, Japan ( asia-northeast2 ) Mumbai, India ( asia-south1 ) Bangkok, Thailand ( asia-southeast3 )…",
+        "summary": "API Gateway Feature Call Google Cloud APIs from streaming gateways Streaming gateways can now call Google Cloud APIs such as aiplatform.googleapis.com . A gateway with an effectiveStreamingMode of…",
         "date": "2026年11月3日",
         "date_iso": "2026-11-03",
         "category": "ai-tag",
@@ -609,11 +609,51 @@
     ],
     "oci": [
       {
-        "title": "Remove Email Suppressions with the UserEmailSuppressionRemover API",
-        "link": "https://docs.oracle.com/iaas/releasenotes/identity/identity-remove-email-suppressions.htm",
+        "title": "Client ID Metadata Document (CIMD) Support for Database Tools MCP Server",
+        "link": "https://docs.oracle.com/iaas/releasenotes/database-tools/cimd.htm",
         "summary": "",
-        "date": "2026年10月28日",
-        "date_iso": "2026-10-28",
+        "date": "2026年11月3日",
+        "date_iso": "2026-11-03",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "OCI"
+      },
+      {
+        "title": "New tutorial: Search Documents with Vector Stores and OCI Generative AI API Keys",
+        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/vector-store-api-key-tutorial.htm",
+        "summary": "",
+        "date": "2026年10月30日",
+        "date_iso": "2026-10-30",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "New tutorial: Discover Models with the Python SDK and REST API",
+        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/model-discovery-tutorial.htm",
+        "summary": "",
+        "date": "2026年10月30日",
+        "date_iso": "2026-10-30",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "On-demand model access in Jeddah, Jerusalem, and Marseille",
+        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/expanded-on-demand-model-access-jed-mtz-mrs.htm",
+        "summary": "",
+        "date": "2026年10月30日",
+        "date_iso": "2026-10-30",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "New H100 Unit Shape for OpenAI gpt-oss-120b",
+        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/gpt-oss-120b-h100-x4.htm",
+        "summary": "",
+        "date": "2026年10月30日",
+        "date_iso": "2026-10-30",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "OCI"
@@ -639,11 +679,11 @@
         "tag": "OCI"
       },
       {
-        "title": "Oracle-Seeded Application Roles Protected from Modification",
-        "link": "https://docs.oracle.com/iaas/releasenotes/identity/identity-protect-oracle-seeded-approles.htm",
+        "title": "Import NVIDIA Nemotron 3 Super and Ultra in US Government Cloud and US Defense Cloud",
+        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/nvidia-nemotron-3-government.htm",
         "summary": "",
-        "date": "2026年10月23日",
-        "date_iso": "2026-10-23",
+        "date": "2026年10月26日",
+        "date_iso": "2026-10-26",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "OCI"
@@ -656,16 +696,6 @@
         "date_iso": "2026-10-22",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "OCI Kubernetes Engine (OKE) support for GPU maintenance event repair",
-        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng_node-maintenance-event-repair.htm",
-        "summary": "",
-        "date": "2026年10月21日",
-        "date_iso": "2026-10-21",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "OCI"
       },
       {
@@ -689,31 +719,21 @@
         "tag": "OCI"
       },
       {
-        "title": "Device Data FHIR resource management and Subscription status enhancements",
-        "link": "https://docs.oracle.com/iaas/releasenotes/device-data-fhir/update-10212026.htm",
+        "title": "OCI Kubernetes Engine (OKE) support for GPU maintenance event repair",
+        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng_node-maintenance-event-repair.htm",
         "summary": "",
         "date": "2026年10月21日",
         "date_iso": "2026-10-21",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Cryptographic Assessment in Oracle Data Safe",
-        "link": "https://docs.oracle.com/iaas/releasenotes/data-safe/crypto-assessment.htm",
-        "summary": "",
-        "date": "2026年10月20日",
-        "date_iso": "2026-10-20",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "OCI"
       },
       {
-        "title": "GoldenGate adds support for new connection types",
-        "link": "https://docs.oracle.com/iaas/releasenotes/goldengate/r12connections.htm",
+        "title": "Device Data FHIR resource management and Subscription status enhancements",
+        "link": "https://docs.oracle.com/iaas/releasenotes/device-data-fhir/update-10212026.htm",
         "summary": "",
-        "date": "2026年10月20日",
-        "date_iso": "2026-10-20",
+        "date": "2026年10月21日",
+        "date_iso": "2026-10-21",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "OCI"
@@ -759,8 +779,18 @@
         "tag": "OCI"
       },
       {
-        "title": "Oracle Critical Patch Update (CPU) October 2026 for Oracle Java SE",
-        "link": "https://docs.oracle.com/iaas/releasenotes/java-management/jdk-cpu-october-2026.htm",
+        "title": "Cryptographic Assessment in Oracle Data Safe",
+        "link": "https://docs.oracle.com/iaas/releasenotes/data-safe/crypto-assessment.htm",
+        "summary": "",
+        "date": "2026年10月20日",
+        "date_iso": "2026-10-20",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "GoldenGate adds support for new connection types",
+        "link": "https://docs.oracle.com/iaas/releasenotes/goldengate/r12connections.htm",
         "summary": "",
         "date": "2026年10月20日",
         "date_iso": "2026-10-20",
@@ -769,43 +799,13 @@
         "tag": "OCI"
       },
       {
-        "title": "HeatWave: Support for Versions 26.10.0, 9.7.4, and 8.4.13",
-        "link": "https://docs.oracle.com/iaas/releasenotes/mysql-database/heatwave-2610-974-8413.htm",
+        "title": "Oracle Critical Patch Update (CPU) October 2026 for Oracle Java SE",
+        "link": "https://docs.oracle.com/iaas/releasenotes/java-management/jdk-cpu-october-2026.htm",
         "summary": "",
         "date": "2026年10月20日",
         "date_iso": "2026-10-20",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "OCI"
-      },
-      {
-        "title": "Use in-place upgrades to move database systems to newer PostgreSQL major versions",
-        "link": "https://docs.oracle.com/iaas/releasenotes/postgresql/inplace-upgrade.htm",
-        "summary": "",
-        "date": "2026年10月20日",
-        "date_iso": "2026-10-20",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "OCI"
-      },
-      {
-        "title": "Full Stack Disaster Recovery introduces support for PostgreSQL DB System and enhancements to moving compute instances",
-        "link": "https://docs.oracle.com/iaas/releasenotes/disaster-recovery/oct-2026.htm",
-        "summary": "",
-        "date": "2026年10月20日",
-        "date_iso": "2026-10-20",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "OCI"
-      },
-      {
-        "title": "SQL Tracing for Application Workloads",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-10-sql-tracing.htm",
-        "summary": "",
-        "date": "2026年10月20日",
-        "date_iso": "2026-10-20",
-        "category": "database-tag",
-        "cat_label": "データベース",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "OCI"
       }
     ]
