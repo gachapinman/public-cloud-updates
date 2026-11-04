@@ -1,5 +1,5 @@
 {
-  "updated": "2026年11月04日 15:25 JST",
+  "updated": "2026年11月04日 20:28 JST",
   "clouds": {
     "azure": [
       {
@@ -215,6 +215,16 @@
         "tag": "AWS"
       },
       {
+        "title": "Amazon WorkSpaces for AI agents now supports Linux and Windows 11 cloud desktops",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/workspaces-ai-agents-linux-windows-11",
+        "summary": "WorkSpaces for AI agents now supports Linux and Windows 11 cloud desktops, in addition to Windows Server. You can run each AI agent on the operating system that its workflows and applications…",
+        "date": "2026年11月4日",
+        "date_iso": "2026-11-04",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon Connect Customer prefills the email address for new threads started from cases",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-connect-cases-email-addresses/",
         "summary": "Amazon Connect Customer automatically fills in the customer’s email address from the linked customer profile when agents start a new email thread from a case. This saves agents time and reduces…",
@@ -392,16 +402,6 @@
         "date_iso": "2026-11-02",
         "category": "network-tag",
         "cat_label": "ネットワーク",
-        "tag": "AWS"
-      },
-      {
-        "title": "Announcing an updated text detection model for Amazon Textract",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/textract-text-detection-model/",
-        "summary": "Amazon Textract now provides an updated text detection model that improves accuracy, expands language support, and enhances multilingual table extraction. The updated model applies to the…",
-        "date": "2026年11月2日",
-        "date_iso": "2026-11-02",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
         "tag": "AWS"
       }
     ],
