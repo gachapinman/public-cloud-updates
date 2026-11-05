@@ -1,5 +1,5 @@
 {
-  "updated": "2026年11月05日 20:25 JST",
+  "updated": "2026年11月06日 02:40 JST",
   "clouds": {
     "azure": [
       {
@@ -135,7 +135,7 @@
       {
         "title": "Retirement: Azure Fluid Relay",
         "link": "https://azure.microsoft.com/updates?id=570498",
-        "summary": "On February 2, 2027, we will retire Azure Fluid Relay. After this date, Azure Fluid Relay will reach end of availability, and workloads that continue to depend on the service may experience…",
+        "summary": "On June 2, 2027, we will retire Azure Fluid Relay. After this date, Azure Fluid Relay will reach end of availability, and workloads that continue to depend on the service may experience…",
         "date": "2026年11月3日",
         "date_iso": "2026-11-03",
         "category": "ai-tag",
@@ -407,13 +407,23 @@
     ],
     "gcp": [
       {
+        "title": "November 05, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#November_05_2026",
+        "summary": "Model Armor Feature You can enable or disable the child sexual abuse material (CSAM) filter in Model Armor templates and floor settings, and configure granular confidence levels ( High , Medium and…",
+        "date": "2026年11月5日",
+        "date_iso": "2026-11-05",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "GCP"
+      },
+      {
         "title": "November 04, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_04_2026",
-        "summary": "AlloyDB for PostgreSQL Feature Direct Iceberg access in AlloyDB for PostgreSQL is available for PostgreSQL 18 and later ( in Preview ). This feature lets you query Apache Iceberg tables in Cloud…",
+        "summary": "API Gateway Announcement Negative backend deadlines are no longer deprecated The deprecation of negative backend deadline values announced on October 23, 2026 is withdrawn. In an OpenAPI 2.0…",
         "date": "2026年11月4日",
         "date_iso": "2026-11-04",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "GCP"
       },
       {
@@ -592,16 +602,6 @@
         "summary": "Google SecOps SOAR Announcement Release 6.3.102 is now available for all regions.",
         "date": "2026年10月17日",
         "date_iso": "2026-10-17",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "October 16, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_16_2026",
-        "summary": "Access Approval Feature Service connectivity automation is generally available ( GA ). Access Transparency Feature Service connectivity automation is generally available ( GA ). BigQuery Feature…",
-        "date": "2026年10月16日",
-        "date_iso": "2026-10-16",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
