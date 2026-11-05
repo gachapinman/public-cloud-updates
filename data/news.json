@@ -1,7 +1,37 @@
 {
-  "updated": "2026年11月05日 02:33 JST",
+  "updated": "2026年11月05日 15:49 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Generally Available: Azure Database for PostgreSQL stable REST API version 2026-10-01",
+        "link": "https://azure.microsoft.com/updates?id=579300",
+        "summary": "The Azure Database for PostgreSQL Flexible Server REST API version 2026-10-01 is now generally available. This stable API release introduces expanded capabilities for maintenance management,…",
+        "date": "2026年11月5日",
+        "date_iso": "2026-11-05",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Route maps for Azure Route Server",
+        "link": "https://azure.microsoft.com/updates?id=578966",
+        "summary": "Route maps for Azure Route Server are now generally available in the Azure public cloud. Route maps provide fine-grained control over inbound and outbound routing across hybrid connections. Customers…",
+        "date": "2026年11月5日",
+        "date_iso": "2026-11-05",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Azure Firewall IPv6 now supports application rules",
+        "link": "https://azure.microsoft.com/updates?id=579507",
+        "summary": "Azure Firewall now supports application rules in IPv6 Public Preview, enabling layer 7 filtering for IPv6 HTTP and HTTPS traffic. The enhancement extends application-level controls to IPv6 and…",
+        "date": "2026年11月5日",
+        "date_iso": "2026-11-05",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
+        "tag": "AZURE"
+      },
       {
         "title": "Public Preview: Multi-disk crash-consistent VM restore points for Premium SSD v2 and Ultra Disks on VMs…",
         "link": "https://azure.microsoft.com/updates?id=579162",
@@ -171,39 +201,109 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: HTTP DDoS ruleset for Azure Front Door Premium WAF",
-        "link": "https://azure.microsoft.com/updates?id=578681",
-        "summary": "Announcing the general availability of the HTTP DDoS ruleset for Azure Web Application Firewall (WAF) on Azure Front Door Premium. HTTP-layer DDoS attacks remain a leading cause of application…",
-        "date": "2026年10月30日",
-        "date_iso": "2026-10-30",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Azure MCP Server 3.0",
-        "link": "https://azure.microsoft.com/updates?id=578662",
-        "summary": "Azure MCP Server 3.0 is now generally available, expanding how AI agents and developer tools interact with Azure through the open Model Context Protocol (MCP).This release introduces new and expanded…",
-        "date": "2026年10月30日",
-        "date_iso": "2026-10-30",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Announcing: Migrate Azure Container Apps logging destination from Log Analytics to Azure Monitor",
-        "link": "https://azure.microsoft.com/updates?id=577689",
-        "summary": "The Log Analytics logging destination for Azure Container Apps is now a legacy logging option. Existing environments configured with the Log Analytics logging destination will continue to function…",
-        "date": "2026年10月29日",
-        "date_iso": "2026-10-29",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Amazon ECS Managed Daemons can now collect json-file logs from application containers on Amazon ECS Managed Instances",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ecs-managed-instances-json-file-log-driver/",
+        "summary": "Amazon Elastic Container Service (Amazon ECS) introduces json-file log driver support for Amazon ECS Managed Instances and log driver volumes for Amazon ECS Managed Daemons. Together, these features…",
+        "date": "2026年11月5日",
+        "date_iso": "2026-11-05",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon DocumentDB (with MongoDB compatibility) is now available in the Asia Pacific (Taipei) and Asia Pacific (New…",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-documentdb-mongodb-compatibility-asia-pacific-taipei-new-zealand-regions/",
+        "summary": "Amazon DocumentDB (with MongoDB compatibility) is now available in the Asia Pacific (Taipei) and Asia Pacific (New Zealand) Regions, adding to the list of available Regions where you can use Amazon…",
+        "date": "2026年11月5日",
+        "date_iso": "2026-11-05",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon RDS for Oracle now supports copying option groups during cross-Region snapshot copy",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-oracle-cross-region-snapshot-copy-option-group/",
+        "summary": "Amazon RDS for Oracle now lets you copy the option group associated with a DB snapshot when you copy that snapshot to another AWS Region. Amazon RDS for Oracle uses option groups to enable and…",
+        "date": "2026年11月5日",
+        "date_iso": "2026-11-05",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS announces AWS Interconnect - last mile preview with Equinix",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/interconnect-last-mile-preview-equinix/",
+        "summary": "AWS Interconnect - last mile is now available in preview with Equinix. You can connect your infrastructure across Equinix's global network of 282 data centers worldwide to AWS in a few clicks.…",
+        "date": "2026年11月5日",
+        "date_iso": "2026-11-05",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Connect Customer now shows associated cases in contact records",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-connect-cases-contact-records/",
+        "summary": "Amazon Connect Customer now includes case IDs and reference numbers in contact records, helping supervisors and analysts understand which customer issues drive contact volume. Cases track issues,…",
+        "date": "2026年11月5日",
+        "date_iso": "2026-11-05",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 and VPC now display related resources for all resource types",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/ec2-vpc-related-resources-all-types/",
+        "summary": "Amazon Elastic Compute Cloud (Amazon EC2), Amazon Virtual Private Cloud (Amazon VPC), and AWS Global View now display related resources for all resource types in their consoles. Previously, only…",
+        "date": "2026年11月4日",
+        "date_iso": "2026-11-04",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS DataSync Enhanced mode supports OpenID Connect (OIDC) for Google Cloud and Microsoft Azure",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/datasync-enhanced-oidc-google-azure/",
+        "summary": "AWS DataSync Enhanced mode now supports OpenID Connect (OIDC) authentication for Google Cloud Storage and Microsoft Azure Blob Storage locations. DataSync uses an AWS Identity and Access Management…",
+        "date": "2026年11月4日",
+        "date_iso": "2026-11-04",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon S3 Tables now provide a simple, cost-effective path for data lake modernization",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-s3-tables-managed-migration-hive-to-iceberg/",
+        "summary": "Amazon S3 Tables now offer managed migration of your Apache Hive tables to Apache Iceberg. Iceberg adds ACID transactions, schema evolution, and time travel to your data lake, but moving off Hive…",
+        "date": "2026年11月4日",
+        "date_iso": "2026-11-04",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
+        "tag": "AWS"
+      },
+      {
+        "title": "RHEL 10, Rocky 10 and Ubuntu 26.04 Bundles for WorkSpaces",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/rhel-10-rocky-10-ubuntu-26-04-workspaces/",
+        "summary": "AWS announces new Linux bundles for Amazon WorkSpaces Personal, including Rocky Linux 10, Red Hat Enterprise Linux 10, and Ubuntu 26.04 LTS. With these bundles, you can launch WorkSpaces on the…",
+        "date": "2026年11月4日",
+        "date_iso": "2026-11-04",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "New features for Amazon EC2 Capacity Manager",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/ec2-capacity-manager-supportability-and-fulfillment/",
+        "summary": "Amazon EC2 Capacity Manager now offers real-time supportability checks and capacity fulfillment metrics. Real-time supportability checks help customers find capacity by scoring how well each instance…",
+        "date": "2026年11月4日",
+        "date_iso": "2026-11-04",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
       {
         "title": "Amazon Connect Customer lets agents pause and resume emails",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/connect-pause-resume-email/",
@@ -303,109 +403,19 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon RDS now supports per snapshot billing",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-per-snapshot-billing/",
-        "summary": "Starting today, Amazon RDS supports per snapshot billing for Amazon RDS snapshots. Per snapshot billing allows you to get the cost of each individual snapshot. Previously, RDS snapshot charges were…",
-        "date": "2026年11月3日",
-        "date_iso": "2026-11-03",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Quick on desktop now uses your organization's existing Amazon Quick sign-in",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-quick-desktop-organization-sign-in/",
-        "summary": "For organizations that use Amazon Quick, the desktop application now signs users in with the same sign-in method the organization already uses for Quick on the web. Administrators no longer need to…",
-        "date": "2026年11月3日",
-        "date_iso": "2026-11-03",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Aurora MySQL 8.4.10 is now generally available",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-aurora-mysql-8410-available/",
-        "summary": "Starting today, Amazon Aurora MySQL-Compatible Edition 8.4 supports MySQL 8.4.10. We recommend upgrading to the newer minor versions to accept fixes for Common Vulnerabilities and Exposures (CVEs) in…",
-        "date": "2026年11月3日",
-        "date_iso": "2026-11-03",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Lambda now supports queues for Apache Kafka in self-managed Kafka event sources",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-lambda-queue-kafka-esm/",
-        "summary": "AWS Lambda now supports queues for Apache Kafka in self-managed Kafka event source mappings (ESM), for Kafka clusters that customers run themselves and for managed offerings such as Confluent…",
-        "date": "2026年11月3日",
-        "date_iso": "2026-11-03",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Aurora MySQL 3.14 (compatible with MySQL 8.0.46) is generally available",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-aurora-mysql-314-available/",
-        "summary": "Starting today, Amazon Aurora MySQL-Compatible Edition 3 (compatible with MySQL 8.0) supports MySQL 8.0.46, which includes community MySQL fixes and Aurora-specific improvements. In addition to…",
-        "date": "2026年11月3日",
-        "date_iso": "2026-11-03",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Connect Customer now supports Model Context Protocol (MCP) tools in flows",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-flows-mcp-tools/",
-        "summary": "Amazon Connect Customer now enables you to invoke Model Context Protocol (MCP) tools in customer experience flows through the new 'External Tool' block. With this launch, you can connect flows to…",
-        "date": "2026年11月3日",
-        "date_iso": "2026-11-03",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Connect Customer now supports Cases and External Tool events in the Wait block",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-wait-block-cases-tool-events/",
-        "summary": "Amazon Connect Customer now supports Cases and External Tool events in the Wait block, giving you more control over how your customer experience flows react to real-time data changes. In addition to…",
-        "date": "2026年11月3日",
-        "date_iso": "2026-11-03",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "EC2 Amazon Machine Images can now be scanned for vulnerabilities through Amazon Inspector",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/ec2-amis-scanned-through-inspector/",
-        "summary": "Amazon Inspector now extends its vulnerability scanning to EC2 Amazon Machine Images (AMIs), enabling you to identify software vulnerabilities in your AMIs without launching instances or installing…",
-        "date": "2026年11月2日",
-        "date_iso": "2026-11-02",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Textract now available in Asia Pacific (Tokyo) and Europe (Zurich)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/textract-tokyo-zurich/",
-        "summary": "Amazon Textract is now available in the Asia Pacific (Tokyo) and Europe (Zurich) Regions. Amazon Textract is a machine learning service that automatically extracts text, handwriting, and data from…",
-        "date": "2026年11月2日",
-        "date_iso": "2026-11-02",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Announcing AWS for Fluent Bit 3.0.0 based on Fluent Bit 4.1.1",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2025/10/aws-fluent-bit-3-0-0-based-4-1-1",
-        "summary": "AWS for Fluent Bit announces version 3.0.0 , based on Fluent Bit version 4.1.1 and Amazon Linux 2023. Container logging using AWS for Fluent Bit is now more performant and more feature-rich for AWS…",
-        "date": "2026年11月2日",
-        "date_iso": "2026-11-02",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "November 04, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#November_04_2026",
+        "summary": "AlloyDB for PostgreSQL Feature Direct Iceberg access in AlloyDB for PostgreSQL is available for PostgreSQL 18 and later ( in Preview ). This feature lets you query Apache Iceberg tables in Cloud…",
+        "date": "2026年11月4日",
+        "date_iso": "2026-11-04",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
       {
         "title": "November 03, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_03_2026",
@@ -519,11 +529,11 @@
       {
         "title": "October 23, 2026",
         "link": "https://docs.cloud.google.com/release-notes#October_23_2026",
-        "summary": "Cloud Database Migration Service Security On Saturday, October 17, 2026, Google received a report from a security researcher regarding the compromise of private keys associated with eight eMudhra…",
+        "summary": "API Gateway Deprecated Negative backend deadlines are deprecated A negative backend deadline in an OpenAPI 2.0 x-google-backend extension or a gRPC BackendRule uses the default deadline, the same as…",
         "date": "2026年10月23日",
         "date_iso": "2026-10-23",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "GCP"
       },
       {
@@ -595,19 +605,29 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
-      },
-      {
-        "title": "October 15, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_15_2026",
-        "summary": "Apigee Edge for Private Cloud Announcement Released Apigee Edge for Private Cloud 4.54.00. Designated Apigee Edge for Private Cloud 4.54.00.00 a long-term support (LTS) release: 18 months of full…",
-        "date": "2026年10月15日",
-        "date_iso": "2026-10-15",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "GCP"
       }
     ],
     "oci": [
+      {
+        "title": "Support for pull-through cache repositories and the top-level capability",
+        "link": "https://docs.oracle.com/iaas/releasenotes/registry/OCIR-Top-Level-and-Pull-Through-Repositories.htm",
+        "summary": "",
+        "date": "2026年11月4日",
+        "date_iso": "2026-11-04",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Client ID Metadata Document (CIMD) Support for Database Tools MCP Server",
+        "link": "https://docs.oracle.com/iaas/releasenotes/database-tools/cimd.htm",
+        "summary": "",
+        "date": "2026年11月3日",
+        "date_iso": "2026-11-03",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "OCI"
+      },
       {
         "title": "Improved Role and Privilege Handling During Migration",
         "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-dedicated/adbd-role-migration.htm",
@@ -626,16 +646,6 @@
         "date_iso": "2026-11-03",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Client ID Metadata Document (CIMD) Support for Database Tools MCP Server",
-        "link": "https://docs.oracle.com/iaas/releasenotes/database-tools/cimd.htm",
-        "summary": "",
-        "date": "2026年11月3日",
-        "date_iso": "2026-11-03",
-        "category": "database-tag",
-        "cat_label": "データベース",
         "tag": "OCI"
       },
       {
@@ -791,16 +801,6 @@
       {
         "title": "Global Generative AI availability",
         "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/expanded-on-demand-model-access.htm",
-        "summary": "",
-        "date": "2026年10月20日",
-        "date_iso": "2026-10-20",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Import Alibaba Qwen3.6-35B-A3B-FP8 into OCI Generative AI",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/alibaba-qwen-3-6-35b-a3b-fp8.htm",
         "summary": "",
         "date": "2026年10月20日",
         "date_iso": "2026-10-20",
