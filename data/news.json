@@ -1,5 +1,5 @@
 {
-  "updated": "2026年11月05日 15:49 JST",
+  "updated": "2026年11月05日 20:25 JST",
   "clouds": {
     "azure": [
       {
@@ -609,6 +609,16 @@
     ],
     "oci": [
       {
+        "title": "Realtime Text to Speech",
+        "link": "https://docs.oracle.com/iaas/releasenotes/speech/realtime-tts.htm",
+        "summary": "",
+        "date": "2026年11月4日",
+        "date_iso": "2026-11-04",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
         "title": "Support for pull-through cache repositories and the top-level capability",
         "link": "https://docs.oracle.com/iaas/releasenotes/registry/OCIR-Top-Level-and-Pull-Through-Repositories.htm",
         "summary": "",
@@ -791,16 +801,6 @@
       {
         "title": "Use Sandboxes in OCI Generative AI",
         "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/sandboxes.htm",
-        "summary": "",
-        "date": "2026年10月20日",
-        "date_iso": "2026-10-20",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Global Generative AI availability",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/expanded-on-demand-model-access.htm",
         "summary": "",
         "date": "2026年10月20日",
         "date_iso": "2026-10-20",
