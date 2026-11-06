@@ -1,5 +1,5 @@
 {
-  "updated": "2026年11月06日 15:50 JST",
+  "updated": "2026年11月06日 20:24 JST",
   "clouds": {
     "azure": [
       {
@@ -325,6 +325,16 @@
         "tag": "AWS"
       },
       {
+        "title": "AWS CodeConnections is now available in the AWS GovCloud (US-West) Region",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-codeconnections-govcloud-west/",
+        "summary": "AWS CodeConnections is now available in the AWS GovCloud (US-West) Region, in addition to AWS GovCloud (US-East). CodeConnections lets you connect AWS services such as AWS CodePipeline and AWS…",
+        "date": "2026年11月5日",
+        "date_iso": "2026-11-05",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon SageMaker AI Studio Now Supports IAM Identity Center Multi-Region Replication",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-sagemaker-ai-studio-iam/",
         "summary": "Amazon SageMaker AI now supports IAM Identity Center (IdC) multi-region replication, enabling you to deploy SageMaker AI Studio domains in different regions from your IdC instance's primary region.…",
@@ -392,16 +402,6 @@
         "date_iso": "2026-11-05",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon RDS for Oracle now supports copying option groups during cross-Region snapshot copy",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-oracle-cross-region-snapshot-copy-option-group/",
-        "summary": "Amazon RDS for Oracle now lets you copy the option group associated with a DB snapshot when you copy that snapshot to another AWS Region. Amazon RDS for Oracle uses option groups to enable and…",
-        "date": "2026年11月5日",
-        "date_iso": "2026-11-05",
-        "category": "database-tag",
-        "cat_label": "データベース",
         "tag": "AWS"
       }
     ],
@@ -609,6 +609,76 @@
     ],
     "oci": [
       {
+        "title": "Privilege Analysis in Database Management",
+        "link": "https://docs.oracle.com/iaas/releasenotes/database-management/privilege-analysis.htm",
+        "summary": "",
+        "date": "2026年11月5日",
+        "date_iso": "2026-11-05",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "OCI"
+      },
+      {
+        "title": "Monitor GoldenGate Deployments in Database Management",
+        "link": "https://docs.oracle.com/iaas/releasenotes/database-management/goldengate-monitoring.htm",
+        "summary": "",
+        "date": "2026年11月5日",
+        "date_iso": "2026-11-05",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "OCI"
+      },
+      {
+        "title": "Job Templates in Database Management",
+        "link": "https://docs.oracle.com/iaas/releasenotes/database-management/job-templates.htm",
+        "summary": "",
+        "date": "2026年11月5日",
+        "date_iso": "2026-11-05",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "OCI"
+      },
+      {
+        "title": "Metric Extension Templates in Database Management",
+        "link": "https://docs.oracle.com/iaas/releasenotes/database-management/metric-extensions-v2.htm",
+        "summary": "",
+        "date": "2026年11月5日",
+        "date_iso": "2026-11-05",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "OCI"
+      },
+      {
+        "title": "Unified Onboarding for Database Management and Ops Insights",
+        "link": "https://docs.oracle.com/iaas/releasenotes/operations-insights/unified-onboarding-dbm-opsi.htm",
+        "summary": "",
+        "date": "2026年11月5日",
+        "date_iso": "2026-11-05",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "OCI"
+      },
+      {
+        "title": "AWR Snapshot Collection and Bring Your Own Warehouse",
+        "link": "https://docs.oracle.com/iaas/releasenotes/operations-insights/awr-snapshot-collection-bring-your-own-warehouse.htm",
+        "summary": "",
+        "date": "2026年11月5日",
+        "date_iso": "2026-11-05",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "SQL Monitoring Reports in SQL Insights",
+        "link": "https://docs.oracle.com/iaas/releasenotes/operations-insights/sql-monitoring-reports.htm",
+        "summary": "",
+        "date": "2026年11月5日",
+        "date_iso": "2026-11-05",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "OCI"
+      },
+      {
         "title": "Support for pull-through cache repositories and the top-level capability",
         "link": "https://docs.oracle.com/iaas/releasenotes/registry/OCIR-Top-Level-and-Pull-Through-Repositories.htm",
         "summary": "",
@@ -699,16 +769,6 @@
         "tag": "OCI"
       },
       {
-        "title": "Remove Email Suppressions with the UserEmailSuppressionRemover API",
-        "link": "https://docs.oracle.com/iaas/releasenotes/identity/identity-remove-email-suppressions.htm",
-        "summary": "",
-        "date": "2026年10月28日",
-        "date_iso": "2026-10-28",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
         "title": "Oracle Cost Advisor for AI in Limited Availability",
         "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/cost-advisor-limited-availability.htm",
         "summary": "",
@@ -739,71 +799,11 @@
         "tag": "OCI"
       },
       {
-        "title": "Preserve Customized Oracle Mobile Authenticator Device Names",
-        "link": "https://docs.oracle.com/iaas/releasenotes/identity/preserve_customized_oma_device_names.htm",
-        "summary": "",
-        "date": "2026年10月23日",
-        "date_iso": "2026-10-23",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "OCI"
-      },
-      {
-        "title": "Oracle-Seeded Application Roles Protected from Modification",
-        "link": "https://docs.oracle.com/iaas/releasenotes/identity/identity-protect-oracle-seeded-approles.htm",
-        "summary": "",
-        "date": "2026年10月23日",
-        "date_iso": "2026-10-23",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
         "title": "Validate GPU cluster health with Cluster Health Checks",
         "link": "https://docs.oracle.com/iaas/releasenotes/compute/cluster-health-checks.htm",
         "summary": "",
         "date": "2026年10月22日",
         "date_iso": "2026-10-22",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "OCI Kubernetes Engine (OKE) support for GPU maintenance event repair",
-        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng_node-maintenance-event-repair.htm",
-        "summary": "",
-        "date": "2026年10月21日",
-        "date_iso": "2026-10-21",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Add file storage to Generative AI applications",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/hosted-applications-persistent-file-storage.htm",
-        "summary": "",
-        "date": "2026年10月21日",
-        "date_iso": "2026-10-21",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Create Generative AI applications for public content",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/hosted-applications-no-authentication.htm",
-        "summary": "",
-        "date": "2026年10月21日",
-        "date_iso": "2026-10-21",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Device Data FHIR resource management and Subscription status enhancements",
-        "link": "https://docs.oracle.com/iaas/releasenotes/device-data-fhir/update-10212026.htm",
-        "summary": "",
-        "date": "2026年10月21日",
-        "date_iso": "2026-10-21",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "OCI"
