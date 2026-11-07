@@ -1,5 +1,5 @@
 {
-  "updated": "2026年11月07日 01:56 JST",
+  "updated": "2026年11月07日 15:00 JST",
   "clouds": {
     "azure": [
       {
@@ -205,9 +205,89 @@
     ],
     "aws": [
       {
+        "title": "Kimi K3.1 Pro (Highspeed) now available on Amazon Bedrock",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/moonshot-ai-kimi-k3-1-pro-on-amazon-bedrock",
+        "summary": "Today, Kimi K3.1 Pro from Moonshot AI is available on Amazon Bedrock, expanding our open weight model portfolio with the security and governance that customers rely on. Customers using Amazon Bedrock…",
+        "date": "2026年11月7日",
+        "date_iso": "2026-11-07",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Agent Registry is now generally available in AWS GovCloud (US-West) Region",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-agent-registry-govcloud-us-west/",
+        "summary": "AWS Agent Registry, available through Amazon Bedrock AgentCore, is now available in the AWS GovCloud (US-West) Region. AWS Agent Registry is a fully managed discovery service that gives your…",
+        "date": "2026年11月7日",
+        "date_iso": "2026-11-07",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon MSK Replicator is now available in AWS GovCloud (US-East, US-West) Regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-msk-replicator-additional-aws-regions",
+        "summary": "You can now use Amazon MSK Replicator in the AWS GovCloud (US-East, US-West) Regions to replicate streaming data across Amazon MSK clusters and from external Apache Kafka clusters including…",
+        "date": "2026年11月7日",
+        "date_iso": "2026-11-07",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Redshift expands SUPER data type to store strings up to 16 million bytes",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-redshift-expands-super-to-16-million-bytes/",
+        "summary": "Amazon Redshift now supports individual strings up to 16 million bytes within SUPER data types . Once you opt in through a database parameter, this enhancement applies when ingesting structured or…",
+        "date": "2026年11月7日",
+        "date_iso": "2026-11-07",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS launches support for amortization of EC2 Capacity Blocks for ML",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-ec2-capacity-blocks-ml/",
+        "summary": "AWS Data Exports for Cost and Usage Report (CUR) 2.0 and AWS Cost Explorer now amortize the upfront fee for Amazon EC2 Capacity Blocks for ML across the duration of each reservation. You can see the…",
+        "date": "2026年11月7日",
+        "date_iso": "2026-11-07",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
         "title": "Capacity Reservation Resource Groups now support Amazon EC2 Capacity Blocks and interruptible Capacity Reservations in…",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/capacity-reservation-resource-groups-support-in-aws-govcloud-regions",
         "summary": "Starting today, you can add Amazon EC2 Capacity Blocks for ML and interruptible Capacity Reservations to Capacity Reservation Resource Groups in AWS GovCloud (US) Regions. Amazon EC2 offers different…",
+        "date": "2026年11月6日",
+        "date_iso": "2026-11-06",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Simple Email Service is now available in six new AWS Regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-simple-email-service-new-aws-regions/",
+        "summary": "Amazon Simple Email Service (Amazon SES)&nbsp; is now available in the Asia Pacific (New Zealand, Melbourne, Taipei, Thailand), Mexico (Central), EU (Spain). Customers can now use these new Regions…",
+        "date": "2026年11月6日",
+        "date_iso": "2026-11-06",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Glue Data Catalog now supports catalog-vended credentials with Apache Iceberg REST catalog federation",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/glue-catalog-vended-credentials-iceberg/",
+        "summary": "AWS Glue Data Catalog now supports external catalog's vended credentials in Apache Iceberg REST catalog federation. You can now read external Iceberg tables from Amazon Athena, Amazon EMR, Amazon…",
+        "date": "2026年11月6日",
+        "date_iso": "2026-11-06",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Elemental MediaConvert adds a native integration with AWS Elemental Inference Smart Subtitles",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/mediaconvert-elemental-smart-subtitles/",
+        "summary": "​​AWS Elemental MediaConvert now integrates Smart Subtitles, an AI-powered subtitling solution built on AWS Elemental Inference and the latest speech recognition models. This feature brings automated…",
         "date": "2026年11月6日",
         "date_iso": "2026-11-06",
         "category": "ai-tag",
@@ -323,93 +403,13 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "AWS Lambda durable functions increases default execution and API quotas",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/lambda-durable-functions-default-quotas/",
-        "summary": "AWS Lambda durable functions has increased default quotas for running executions and API request rates. The new quotas below apply in all AWS Regions except US East (N. Virginia), US West (Oregon),…",
-        "date": "2026年11月5日",
-        "date_iso": "2026-11-05",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS CodeConnections is now available in the AWS GovCloud (US-West) Region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-codeconnections-govcloud-west/",
-        "summary": "AWS CodeConnections is now available in the AWS GovCloud (US-West) Region, in addition to AWS GovCloud (US-East). CodeConnections lets you connect AWS services such as AWS CodePipeline and AWS…",
-        "date": "2026年11月5日",
-        "date_iso": "2026-11-05",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SageMaker AI Studio Now Supports IAM Identity Center Multi-Region Replication",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-sagemaker-ai-studio-iam/",
-        "summary": "Amazon SageMaker AI now supports IAM Identity Center (IdC) multi-region replication, enabling you to deploy SageMaker AI Studio domains in different regions from your IdC instance's primary region.…",
-        "date": "2026年11月5日",
-        "date_iso": "2026-11-05",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS WAF AI traffic monetization now supports fiat payouts through Stripe",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-waf-stripe-fiat-payouts/",
-        "summary": "AWS WAF AI traffic monetization now integrates with Stripe. Publishers, content owners, and API providers can collect stablecoin payments from AI bots and agents that settle in local currency…",
-        "date": "2026年11月5日",
-        "date_iso": "2026-11-05",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Q Developer in console is now the AWS assistant",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/q-developer-renamed-aws-assistant/",
-        "summary": "Amazon Q Developer in the AWS Management Console and Console Mobile Apps is now called the AWS assistant. Previously, customers interacted with Amazon Q Developer across these surfaces. Now, the AWS…",
-        "date": "2026年11月5日",
-        "date_iso": "2026-11-05",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "﻿﻿AWS Systems Manager Parameter Store now allows organization and validation with built-in data types",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-ssm-parameter-store-allows-organization-validation-with-new-data-types/",
-        "summary": "AWS Systems Manager Parameter Store now supports 13 new parameter data types that automatically validate parameter values when you create or update a parameter. With built-in validation, you can stop…",
-        "date": "2026年11月5日",
-        "date_iso": "2026-11-05",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon MWAA now supports cost allocation tags",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-mwaa-cost-allocation-tags/",
-        "summary": "Amazon Managed Workflows for Apache Airflow (Amazon MWAA) now supports cost allocation tags . Tags you apply to an Amazon MWAA environment now propagate to the compute that runs it, including…",
-        "date": "2026年11月5日",
-        "date_iso": "2026-11-05",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon ECS Managed Daemons can now collect json-file logs from application containers on Amazon ECS Managed Instances",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ecs-managed-instances-json-file-log-driver/",
-        "summary": "Amazon Elastic Container Service (Amazon ECS) introduces json-file log driver support for Amazon ECS Managed Instances and log driver volumes for Amazon ECS Managed Daemons. Together, these features…",
-        "date": "2026年11月5日",
-        "date_iso": "2026-11-05",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
       }
     ],
     "gcp": [
       {
         "title": "November 06, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_06_2026",
-        "summary": "Bigtable Feature You can configure a Bigtable automated backup policy on SSD instances to create daily hot backups and specify how long the backups remain hot before automatically transitioning to…",
+        "summary": "Agent Registry Feature Skill security scanning and governance in Agent Registry are available. You can automatically scan standalone skill revisions for security issues, review Finding resources,…",
         "date": "2026年11月6日",
         "date_iso": "2026-11-06",
         "category": "ai-tag",
@@ -699,6 +699,16 @@
         "tag": "OCI"
       },
       {
+        "title": "Sign and verify model artifact signatures",
+        "link": "https://docs.oracle.com/iaas/releasenotes/data-science/artifact-signature.htm",
+        "summary": "",
+        "date": "2026年11月3日",
+        "date_iso": "2026-11-03",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
         "title": "Client ID Metadata Document (CIMD) Support for Database Tools MCP Server",
         "link": "https://docs.oracle.com/iaas/releasenotes/database-tools/cimd.htm",
         "summary": "",
@@ -794,16 +804,6 @@
         "summary": "",
         "date": "2026年10月26日",
         "date_iso": "2026-10-26",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Validate GPU cluster health with Cluster Health Checks",
-        "link": "https://docs.oracle.com/iaas/releasenotes/compute/cluster-health-checks.htm",
-        "summary": "",
-        "date": "2026年10月22日",
-        "date_iso": "2026-10-22",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "OCI"
