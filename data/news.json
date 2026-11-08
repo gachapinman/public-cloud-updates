@@ -1,5 +1,5 @@
 {
-  "updated": "2026年11月08日 00:55 JST",
+  "updated": "2026年11月08日 15:03 JST",
   "clouds": {
     "azure": [
       {
@@ -265,9 +265,9 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon Simple Email Service is now available in six new AWS Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-simple-email-service-new-aws-regions/",
-        "summary": "Amazon Simple Email Service (Amazon SES)&nbsp; is now available in the Asia Pacific (New Zealand, Melbourne, Taipei, Thailand), Mexico (Central), EU (Spain). Customers can now use these new Regions…",
+        "title": "AWS Elemental MediaConvert adds a native integration with AWS Elemental Inference Smart Subtitles",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/mediaconvert-elemental-smart-subtitles/",
+        "summary": "​​AWS Elemental MediaConvert now integrates Smart Subtitles, an AI-powered subtitling solution built on AWS Elemental Inference and the latest speech recognition models. This feature brings automated…",
         "date": "2026年11月6日",
         "date_iso": "2026-11-06",
         "category": "ai-tag",
@@ -285,9 +285,9 @@
         "tag": "AWS"
       },
       {
-        "title": "AWS Elemental MediaConvert adds a native integration with AWS Elemental Inference Smart Subtitles",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/mediaconvert-elemental-smart-subtitles/",
-        "summary": "​​AWS Elemental MediaConvert now integrates Smart Subtitles, an AI-powered subtitling solution built on AWS Elemental Inference and the latest speech recognition models. This feature brings automated…",
+        "title": "Amazon Simple Email Service is now available in six new AWS Regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-simple-email-service-new-aws-regions/",
+        "summary": "Amazon Simple Email Service (Amazon SES)&nbsp; is now available in the Asia Pacific (New Zealand, Melbourne, Taipei, Thailand), Mexico (Central), EU (Spain). Customers can now use these new Regions…",
         "date": "2026年11月6日",
         "date_iso": "2026-11-06",
         "category": "ai-tag",
