@@ -1,5 +1,5 @@
 {
-  "updated": "2026年11月08日 19:42 JST",
+  "updated": "2026年11月09日 01:22 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "November 07, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#November_07_2026",
+        "summary": "Google SecOps SOAR Announcement Release 6.3.105 is now available for all regions.",
+        "date": "2026年11月7日",
+        "date_iso": "2026-11-07",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "November 06, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_06_2026",
         "summary": "Agent Registry Feature Skill security scanning and governance in Agent Registry are available. You can automatically scan standalone skill revisions for security issues, review Finding resources,…",
@@ -592,16 +602,6 @@
         "summary": "Agent Platform Workbench Change 20261018.00_p0 Release Change Installed latest packages from upstream dependencies. Fixed Fixed an issue where Jupyter Server terminal configuration could overwrite…",
         "date": "2026年10月19日",
         "date_iso": "2026-10-19",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "GCP"
-      },
-      {
-        "title": "October 18, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_18_2026",
-        "summary": "Google SecOps Feature Specify whether to reopen closed cases when the grouping is by Source Grouping Identifier You can now specify whether Google SecOps reopens closed cases when grouping SOAR…",
-        "date": "2026年10月18日",
-        "date_iso": "2026-10-18",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "GCP"
