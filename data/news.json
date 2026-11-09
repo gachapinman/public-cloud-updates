@@ -1,7 +1,17 @@
 {
-  "updated": "2026年11月09日 20:59 JST",
+  "updated": "2026年11月10日 05:09 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Public Preview: Modernize Arc-enabled Windows Servers with Azure File Sync",
+        "link": "https://azure.microsoft.com/updates?id=579854",
+        "summary": "Azure File Sync provides hybrid access or seamless migration of data from Windows Server to Azure Files while preserving the familiar local file server experience for users and applications. Now in…",
+        "date": "2026年11月10日",
+        "date_iso": "2026-11-10",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Generally Available: Azure Front Door TLS key exchange policy with post-quantum support",
         "link": "https://azure.microsoft.com/updates?id=577668",
@@ -191,19 +201,69 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Azure Site Recovery for Azure Local",
-        "link": "https://azure.microsoft.com/updates?id=579111",
-        "summary": "Azure Site Recovery support for Azure Local is now generally available, making enterprise-grade disaster recovery simpler, accessible, easier to setup and secure than ever before. Customers can…",
-        "date": "2026年11月3日",
-        "date_iso": "2026-11-03",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Amazon Bedrock now offers Claude Mythos 5.2 to Eligible Customers in AWS GovCloud (US)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/bedrock-claude-mythos-5-2-govcloud/",
+        "summary": "Amazon Bedrock, the platform for building generative AI applications and agents at production scale, now offers Claude Mythos 5.2 to eligible customers in AWS GovCloud (US). Claude Mythos 5.2 is…",
+        "date": "2026年11月10日",
+        "date_iso": "2026-11-10",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Claude Fable 5.2 is now available on AWS GovCloud (US)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/claude-fable-5-2-aws-govcloud/",
+        "summary": "Claude Fable 5.2 is now available on AWS GovCloud (US) and brings Anthropic's most capable generally available model for technical work&nbsp;to regulated customers. Fable 5.2 sets a new standard on…",
+        "date": "2026年11月10日",
+        "date_iso": "2026-11-10",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Athena introduces system tables for observability, auditing, and usage analytics",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/athena-system-tables/",
+        "summary": "Amazon Athena now offers system tables which automatically capture your usage data and make it available for observability, usage analysis, and audit use cases. When you enable system tables, usage…",
+        "date": "2026年11月10日",
+        "date_iso": "2026-11-10",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Introducing AWS Nitro Sandboxes on Amazon EKS, ECS and EC2 for hardware isolated pods, tasks and VMs",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/nitro-sandboxes-eks-ecs-ec2/",
+        "summary": "AWS Nitro Sandboxes are now available as lightweight VMs managed by the Nitro Hypervisor. You can use Nitro Sandboxes for an Amazon EKS pod, or Amazon ECS task, or lightweight Virtual Machines (VMs),…",
+        "date": "2026年11月9日",
+        "date_iso": "2026-11-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon S3 Access Points for Amazon FSx are now available in additional AWS Regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/s3-access-points-fsx-regions/",
+        "summary": "You can now attach Amazon S3 Access Points to your Amazon FSx for NetApp ONTAP file systems in 4 additional AWS Regions, and to your Amazon FSx for OpenZFS file systems in 20 additional AWS Regions.…",
+        "date": "2026年11月9日",
+        "date_iso": "2026-11-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EKS Auto Mode and Karpenter now support Dynamic Resource Allocation",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-eks-auto-mode-karpenter-dra/",
+        "summary": "Amazon Elastic Kubernetes Service (Amazon EKS) now supports Dynamic Resource Allocation (DRA) for NVIDIA GPUs and Elastic Fabric Adapter (EFA) network devices when using Amazon EKS Auto Mode and…",
+        "date": "2026年11月9日",
+        "date_iso": "2026-11-09",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "AWS"
+      },
       {
         "title": "Kimi K3.1 Pro (Highspeed) now available on Amazon Bedrock",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/moonshot-ai-kimi-k3-1-pro-on-amazon-bedrock",
@@ -218,6 +278,26 @@
         "title": "Agent Registry is now generally available in AWS GovCloud (US-West) Region",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-agent-registry-govcloud-us-west/",
         "summary": "AWS Agent Registry, available through Amazon Bedrock AgentCore, is now available in the AWS GovCloud (US-West) Region. AWS Agent Registry is a fully managed discovery service that gives your…",
+        "date": "2026年11月7日",
+        "date_iso": "2026-11-07",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon MWAA Serverless supports Apache Airflow connections and variables",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/mwaa-serverless-connections-variables/",
+        "summary": "Amazon Managed Workflows for Apache Airflow (Amazon MWAA) Serverless now supports Apache Airflow connections and variables, so your workflows can reach databases, APIs, and other external systems.…",
+        "date": "2026年11月7日",
+        "date_iso": "2026-11-07",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon MWAA Serverless now supports custom and provider package operators",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/mwaa-serverless-custom-operators/",
+        "summary": "Amazon MWAA Serverless now supports operators from Apache Airflow provider packages, such as HTTP, Snowflake, or dbt, and custom operators that you write. This gives data engineers the flexibility to…",
         "date": "2026年11月7日",
         "date_iso": "2026-11-07",
         "category": "ai-tag",
@@ -265,9 +345,9 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon Simple Email Service is now available in six new AWS Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-simple-email-service-new-aws-regions/",
-        "summary": "Amazon Simple Email Service (Amazon SES)&nbsp; is now available in the Asia Pacific (New Zealand, Melbourne, Taipei, Thailand), Mexico (Central), EU (Spain). Customers can now use these new Regions…",
+        "title": "AWS Elemental MediaConvert adds a native integration with AWS Elemental Inference Smart Subtitles",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/mediaconvert-elemental-smart-subtitles/",
+        "summary": "​​AWS Elemental MediaConvert now integrates Smart Subtitles, an AI-powered subtitling solution built on AWS Elemental Inference and the latest speech recognition models. This feature brings automated…",
         "date": "2026年11月6日",
         "date_iso": "2026-11-06",
         "category": "ai-tag",
@@ -285,9 +365,9 @@
         "tag": "AWS"
       },
       {
-        "title": "AWS Elemental MediaConvert adds a native integration with AWS Elemental Inference Smart Subtitles",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/mediaconvert-elemental-smart-subtitles/",
-        "summary": "​​AWS Elemental MediaConvert now integrates Smart Subtitles, an AI-powered subtitling solution built on AWS Elemental Inference and the latest speech recognition models. This feature brings automated…",
+        "title": "Amazon Simple Email Service is now available in six new AWS Regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-simple-email-service-new-aws-regions/",
+        "summary": "Amazon Simple Email Service (Amazon SES)&nbsp; is now available in the Asia Pacific (New Zealand, Melbourne, Taipei, Thailand), Mexico (Central), EU (Spain). Customers can now use these new Regions…",
         "date": "2026年11月6日",
         "date_iso": "2026-11-06",
         "category": "ai-tag",
@@ -323,89 +403,19 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "AWS Network Load Balancer is now available in the AWS Phoenix Local Zone",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-nlb-available-phx-local-zone/",
-        "summary": "AWS Network Load Balancer is now available in the Phoenix Local Zone (us-west-2-phx-2a). AWS Local Zones is a type of AWS infrastructure deployment that places AWS compute, storage, database, and…",
-        "date": "2026年11月6日",
-        "date_iso": "2026-11-06",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon DynamoDB now supports bulk put items",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-dynamodb-now-supports-bulk-put-items/",
-        "summary": "Today, AWS announces the general availability of bulk put items for Amazon DynamoDB, a fully managed feature that writes data from Amazon S3 into your existing DynamoDB tables. Many DynamoDB…",
-        "date": "2026年11月6日",
-        "date_iso": "2026-11-06",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Cognito announces 99.99% Service Level Agreement for the Plus feature plan",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cognito-sla-update/",
-        "summary": "Starting November 1, 2026, the Amazon Cognito Service Level Agreement (SLA) commits to a Monthly Uptime Percentage of 99.99% for user pools on the Plus feature plan, up from 99.9%. User pools already…",
-        "date": "2026年11月6日",
-        "date_iso": "2026-11-06",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "IAM Roles Anywhere now supports automatic certificate revocation checking",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/iam-roles-anywhere-cdp/",
-        "summary": "AWS Identity and Access Management (IAM) Roles Anywhere now supports automatic revocation checking using certificate revocation list (CRL) distribution points (CDPs). This helps keep revocation…",
-        "date": "2026年11月6日",
-        "date_iso": "2026-11-06",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon OpenSearch Service optimized engine now supports agent traces",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-service-support-traces",
-        "summary": "Today, the Amazon OpenSearch Service optimized engine adds support for agent traces, including OpenTelemetry traces. Your traces and logs now live in the same place. You can follow a request or an…",
-        "date": "2026年11月6日",
-        "date_iso": "2026-11-06",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon FSx for Lustre delivers 16x higher metadata IOPS on Intelligent-Tiering file systems",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-fsx-for-lustre-intelligent-tiering-16x-higher-metadata-iops",
-        "summary": "Amazon FSx for Lustre now supports up to 192,000 metadata I/O operations per second (IOPS) on file systems that use the Intelligent-Tiering storage class, 16x higher than the previous maximum of…",
-        "date": "2026年11月6日",
-        "date_iso": "2026-11-06",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon RDS for Oracle now supports Kerberos authentication with self-managed Active Directory",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-oracle-kerberos-self-managed-ad/",
-        "summary": "Amazon Relational Database Service (Amazon RDS) for Oracle ( Amazon Relational Database Service (Amazon RDS) for Oracle ) now allows customers to join their RDS for Oracle DB instances directly to…",
-        "date": "2026年11月5日",
-        "date_iso": "2026-11-05",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Security Hub Network Scanning now available in AWS GovCloud (US)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/security-hub-network-scanning-govcloud/",
-        "summary": "AWS Security Hub Network Scanning feature is now supported in AWS GovCloud (US). Network Scanning probes your resources from the internet to detect actual reachability, not just what could be…",
-        "date": "2026年11月5日",
-        "date_iso": "2026-11-05",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "November 09, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#November_09_2026",
+        "summary": "AI Hypercomputer Feature Generally available : Pathways on Cloud is now generally available on Google Kubernetes Engine (GKE). Major features include the following: Single-controller execution model…",
+        "date": "2026年11月9日",
+        "date_iso": "2026-11-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
       {
         "title": "November 08, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_08_2026",
@@ -594,16 +604,6 @@
         "date_iso": "2026-10-21",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "GCP"
-      },
-      {
-        "title": "October 20, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_20_2026",
-        "summary": "Agent Platform Workbench Change M154 Release Change Installed latest packages from upstream dependencies. Fixed Fixed dataset and table search in the BigQuery panel, which sometimes failed to return…",
-        "date": "2026年10月20日",
-        "date_iso": "2026-10-20",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "GCP"
       }
     ],
