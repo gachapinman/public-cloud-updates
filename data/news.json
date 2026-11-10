@@ -1,5 +1,5 @@
 {
-  "updated": "2026年11月10日 16:20 JST",
+  "updated": "2026年11月10日 20:38 JST",
   "clouds": {
     "azure": [
       {
@@ -355,16 +355,6 @@
         "tag": "AWS"
       },
       {
-        "title": "Introducing AWS Nitro Sandboxes on Amazon EKS, ECS and EC2 for hardware isolated pods, tasks and VMs",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/nitro-sandboxes-eks-ecs-ec2/",
-        "summary": "AWS Nitro Sandboxes are now available as lightweight VMs managed by the Nitro Hypervisor. You can use Nitro Sandboxes for an Amazon EKS pod, or Amazon ECS task, or lightweight Virtual Machines (VMs),…",
-        "date": "2026年11月9日",
-        "date_iso": "2026-11-09",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
         "title": "Amazon Route 53 Profiles now supports multiple Profiles per VPC",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/route-53-profiles-multiple-per-vpc/",
         "summary": "Amazon Route 53 Profiles now lets you associate more than one Profile with a VPC. Previously, a VPC could have only one Profile, so teams that managed Route 53 configurations separately (for example,…",
@@ -372,6 +362,16 @@
         "date_iso": "2026-11-09",
         "category": "network-tag",
         "cat_label": "ネットワーク",
+        "tag": "AWS"
+      },
+      {
+        "title": "Introducing AWS Nitro Sandboxes on Amazon EKS, ECS and EC2 for hardware isolated pods, tasks and VMs",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/nitro-sandboxes-eks-ecs-ec2/",
+        "summary": "AWS Nitro Sandboxes are now available as lightweight VMs managed by the Nitro Hypervisor. You can use Nitro Sandboxes for an Amazon EKS pod, or Amazon ECS task, or lightweight Virtual Machines (VMs),…",
+        "date": "2026年11月9日",
+        "date_iso": "2026-11-09",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "AWS"
       },
       {
