@@ -1,7 +1,57 @@
 {
-  "updated": "2026年11月11日 02:18 JST",
+  "updated": "2026年11月11日 15:25 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Public Preview: Distributed accelerator for cloud storage on AKS",
+        "link": "https://azure.microsoft.com/updates?id=578454",
+        "summary": "Distributed accelerator for cloud storage (DACS) is now in public preview for AI workloads running on Azure Kubernetes Service (AKS). DACS is a distributed read-through cache that runs within your…",
+        "date": "2026年11月11日",
+        "date_iso": "2026-11-11",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Azure Functions support for .NET 11",
+        "link": "https://azure.microsoft.com/updates?id=578773",
+        "summary": "Azure Functions support for .NET 11 is now generally available.You can now build Azure Functions apps targeting .NET 11 using the isolated worker model, while continuing to use the Azure Functions…",
+        "date": "2026年11月11日",
+        "date_iso": "2026-11-11",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Azure Front Door adds native gRPC support",
+        "link": "https://azure.microsoft.com/updates?id=579383",
+        "summary": "Announcing the public preview of gRPC support in Azure Front Door. Build and deliver gRPC applications through Azure Front Door Standard and Premium. Now in preview, gRPC support lets you route calls…",
+        "date": "2026年11月11日",
+        "date_iso": "2026-11-11",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Azure Front Door edge actions",
+        "link": "https://azure.microsoft.com/updates?id=579310",
+        "summary": "Announcing the general availability of Azure Front Door edge actions (serverless compute at the edge). With edge actions, customers can execute lightweight JavaScript functions during Azure Front…",
+        "date": "2026年11月11日",
+        "date_iso": "2026-11-11",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Azure Route Server dual-stack IPv4/IPv6 support",
+        "link": "https://azure.microsoft.com/updates?id=579746",
+        "summary": "Azure Route Server now supports IPv4/IPv6 dual-stack mode in public preview, enabling route exchange for both address families across supported hybrid networking connections. Existing IPv4…",
+        "date": "2026年11月11日",
+        "date_iso": "2026-11-11",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
+        "tag": "AZURE"
+      },
       {
         "title": "Retirement: Support for .NET 8 and .NET 9 on Static Web Apps is ending November 10, 2026",
         "link": "https://azure.microsoft.com/updates?id=575106",
@@ -151,59 +201,139 @@
         "category": "security-tag",
         "cat_label": "セキュリティ",
         "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Change from virtual network integration to a private endpoint capable network…",
-        "link": "https://azure.microsoft.com/updates?id=574541",
-        "summary": "You now have greater flexibility in network design for Azure Database for PostgreSQL Flexible Server workloads. Now you can change existing VNet-integrated servers from delegated-subnet networking to…",
-        "date": "2026年11月3日",
-        "date_iso": "2026-11-03",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Retirement: Azure Fluid Relay",
-        "link": "https://azure.microsoft.com/updates?id=570498",
-        "summary": "On June 2, 2027, we will retire Azure Fluid Relay. After this date, Azure Fluid Relay will reach end of availability, and workloads that continue to depend on the service may experience…",
-        "date": "2026年11月3日",
-        "date_iso": "2026-11-03",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Azure Storage Actions adds automatic task updates, execution controls, and…",
-        "link": "https://azure.microsoft.com/updates?id=578628",
-        "summary": "Azure Storage Actions is introducing three enhancements to simplify task management and give you more control over automated data operations across Azure Blob and Data Lake Storage:Automatic…",
-        "date": "2026年11月3日",
-        "date_iso": "2026-11-03",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Restart databases in Azure SQL DB via the Azure portal",
-        "link": "https://azure.microsoft.com/updates?id=577992",
-        "summary": "You can now restart or fail over databases directly from the Azure portal, including single databases, Hyperscale databases, and databases in elastic pools, without writing scripts against the Rest…",
-        "date": "2026年11月3日",
-        "date_iso": "2026-11-03",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Geo-Replication on partitioned namespaces for Azure Service Bus Premium",
-        "link": "https://azure.microsoft.com/updates?id=579021",
-        "summary": "Geo-Replication on partitioned namespaces for Azure Service Bus Premium is now generally available. You can now combine the throughput benefits of partitioning with the reliability of replicating…",
-        "date": "2026年11月3日",
-        "date_iso": "2026-11-03",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "AWS Billing and Cost Management now supports AWS Billing Conductor and AWS Billing Transfer views as source views for…",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-billing-and-cost-management-multi-source-custom-billing-views",
+        "summary": "Custom billing views now support AWS Billing Conductor and AWS Billing Transfer views as source views. These are the views AWS maintains per billing group and per billing transfer relationship. You…",
+        "date": "2026年11月11日",
+        "date_iso": "2026-11-11",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 G7 instances now available in additional regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-g7-additional-regions/",
+        "summary": "Amazon Elastic Compute Cloud (Amazon EC2) G7 instances powered by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs are now available in Europe (London), Asia Pacific (Mumbai, Sydney) and South…",
+        "date": "2026年11月11日",
+        "date_iso": "2026-11-11",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon OpenSearch Service announces managed cross-Region disaster recovery",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-service-managed-cross-region-disaster-recovery/",
+        "summary": "Amazon OpenSearch Service now offers managed cross-Region disaster recovery, so you can meet strict availability and business continuity requirements for mission-critical search, AI, and analytics…",
+        "date": "2026年11月11日",
+        "date_iso": "2026-11-11",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon RDS for MySQL 26.10 is now available in Amazon RDS Database Preview Environment",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-mysql-26-10-preview-environment/",
+        "summary": "Starting today, Amazon RDS for MySQL 26.10 is available in the Amazon RDS Database Preview Environment , allowing you to evaluate the pre-release of MySQL 26.10 on Amazon RDS for MySQL. MySQL 26.10…",
+        "date": "2026年11月11日",
+        "date_iso": "2026-11-11",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon RDS for PostgreSQL announces Extended Support minor versions 13.23-rds.20260819, 12.22-rds.20260820 and…",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-postgresql-extended-support/",
+        "summary": "Amazon Relational Database Service (RDS) for PostgreSQL announces Amazon RDS Extended Support minor versions 13.23-rds.20260819, 12.22-rds.20260820 and 11.22-rds.20260822. Amazon RDS Extended Support…",
+        "date": "2026年11月11日",
+        "date_iso": "2026-11-11",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Partner Central now provides an improved business planning experience",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/partner-central-business-planning/",
+        "summary": "AWS Partner Central now offers a new business planning experience in the AWS Console. AWS Partners can initiate plans for growing their AWS business or collaborate on plans initiated by AWS teams.…",
+        "date": "2026年11月11日",
+        "date_iso": "2026-11-11",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon S3 Access Grants now support listing grants across multiple AWS accounts",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-s3-access-grants-list-across-regions/",
+        "summary": "Amazon S3 Access Grants can now discover and list all your grants across multiple AWS accounts with a single API call, eliminating the need to query each account separately. A single…",
+        "date": "2026年11月10日",
+        "date_iso": "2026-11-10",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Bedrock adds bedrock-runtime endpoint support for Daybreak models",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/openai-gpt-daybreak-on-amazon-bedrock-runtime/",
+        "summary": "Eligible customers can now access OpenAI’s specialized cybersecurity models Daybreak Red: GPT-5.6 Cyber and Daybreak Blue: GPT-5.6 Sol through the bedrock-runtime endpoint on Amazon Bedrock. Daybreak…",
+        "date": "2026年11月10日",
+        "date_iso": "2026-11-10",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon S3 Tables now support S3 server access logging",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-s3-tables-server-access-logging/",
+        "summary": "Amazon S3 Tables now support server access logging, providing you detailed records of the requests made to your table buckets. You can now track table operations, namespace management, and data…",
+        "date": "2026年11月10日",
+        "date_iso": "2026-11-10",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Marketplace SaaS free trials now convert automatically to paid subscriptions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-marketplace-free-trial-conversion/",
+        "summary": "Today,&nbsp; AWS Marketplace announces that free trials of usage-based software as a service (SaaS) products can now convert automatically to paid subscriptions. When a free trial ends, the buyer's…",
+        "date": "2026年11月10日",
+        "date_iso": "2026-11-10",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Network Firewall launches next-generation firewall policy",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/network-firewall-launches-ngfw-policy/",
+        "summary": "Today, AWS announces next-generation firewall (NGFW) policy for AWS Network Firewall, a new policy model that provides security teams with a simpler policy structure and increased rule capacity. AWS…",
+        "date": "2026年11月10日",
+        "date_iso": "2026-11-10",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon ElastiCache Serverless now supports vector, full-text and hybrid searches plus aggregations",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-elasticache-serverless-search-aggregations/",
+        "summary": "Amazon ElastiCache Serverless for Valkey now supports vector, full-text, and hybrid search, along with aggregations. Applications searching live data often face a hard trade-off between latency and…",
+        "date": "2026年11月10日",
+        "date_iso": "2026-11-10",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon GameLift Servers now supports Game Session Placement Insights",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/gamelift-game-session-insights/",
+        "summary": "Amazon GameLift Servers now offers Game Session Placement Insights, delivering detailed, per-placement diagnostic logs for game session queue routing. Amazon GameLift Servers routes game session…",
+        "date": "2026年11月10日",
+        "date_iso": "2026-11-10",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
       {
         "title": "CloudWatch PromQL alarms now support EC2 and Application Auto Scaling",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-alarms-autoscaling-group-actions",
@@ -222,6 +352,16 @@
         "date_iso": "2026-11-10",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon DocumentDB (with MongoDB compatibility) now supports post-quantum TLS, wildcard indexes, and $unionWith in…",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-documentdb-8-0-3/",
+        "summary": "Amazon DocumentDB (with MongoDB compatibility) 8.0.3 adds hybrid post-quantum key exchange for TLS, wildcard indexes, the $unionWith aggregation stage, and new change stream events. Post-quantum TLS…",
+        "date": "2026年11月10日",
+        "date_iso": "2026-11-10",
+        "category": "database-tag",
+        "cat_label": "データベース",
         "tag": "AWS"
       },
       {
@@ -263,153 +403,13 @@
         "category": "security-tag",
         "cat_label": "セキュリティ",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon Quick is now AWS Quick",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-quick-aws-quick/",
-        "summary": "Amazon Quick, the AI workspace built only for work, is now AWS Quick, a name that reflects the enterprise security and governance built into Quick from the start as an AWS service. The new name now…",
-        "date": "2026年11月10日",
-        "date_iso": "2026-11-10",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Claude Fable 5.2 is now available on AWS GovCloud (US)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/claude-fable-5-2-aws-govcloud/",
-        "summary": "Claude Fable 5.2 is now available on AWS GovCloud (US) and brings Anthropic's most capable generally available model for technical work&nbsp;to regulated customers. Fable 5.2 sets a new standard on…",
-        "date": "2026年11月10日",
-        "date_iso": "2026-11-10",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Bedrock now offers Claude Mythos 5.2 to Eligible Customers in AWS GovCloud (US)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/bedrock-claude-mythos-5-2-govcloud/",
-        "summary": "Amazon Bedrock, the platform for building generative AI applications and agents at production scale, now offers Claude Mythos 5.2 to eligible customers in AWS GovCloud (US). Claude Mythos 5.2 is…",
-        "date": "2026年11月10日",
-        "date_iso": "2026-11-10",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Connect Customer launches evaluation form templates",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-connect-customer-evaluation-form-templates/",
-        "summary": "Amazon Connect Customer now provides evaluation form templates so managers don't have to build forms from scratch, reducing the time to deploy automated evaluations of human and AI agent performance.…",
-        "date": "2026年11月10日",
-        "date_iso": "2026-11-10",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon MWAA now supports DuckDB operators",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-mwaa-supports-duckdb-operators/",
-        "summary": "Amazon Managed Workflows for Apache Airflow (Amazon MWAA) now supports DuckDB operators. DuckDB is an embedded analytical database that lets customers perform data quality checks, summaries, and…",
-        "date": "2026年11月10日",
-        "date_iso": "2026-11-10",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Introducing an open-source UI for graph analytics over data lakes with Amazon Neptune Analytics",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-graphover-datalakes-generally-available",
-        "summary": "Today, AWS is introducing an open-source solution with a local web UI that helps customers turn data lake records into graphs for analysis with Amazon Neptune Analytics. By projecting selected…",
-        "date": "2026年11月10日",
-        "date_iso": "2026-11-10",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon DocumentDB Serverless now provides up to 35% higher throughput",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/documentdb-serverless-platform-version-4/",
-        "summary": "Amazon DocumentDB Serverless now provides up to 35% higher throughput with the launch of platform version 4. Platform versions represent improvements in performance, scaling capabilities, or…",
-        "date": "2026年11月10日",
-        "date_iso": "2026-11-10",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Athena introduces system tables for observability, auditing, and usage analytics",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/athena-system-tables/",
-        "summary": "Amazon Athena now offers system tables which automatically capture your usage data and make it available for observability, usage analysis, and audit use cases. When you enable system tables, usage…",
-        "date": "2026年11月10日",
-        "date_iso": "2026-11-10",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Claude Fable 5.2 is now available on AWS",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/claude-fable-5-2-aws/",
-        "summary": "Claude Fable 5.2 is now available on AWS and brings Anthropic's most capable generally available model for technical work&nbsp;to all customers. Fable 5.2 sets a new standard on the hardest projects…",
-        "date": "2026年11月10日",
-        "date_iso": "2026-11-10",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Analytics services now support Workday Data Cloud integration",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-analytics-workday-data-cloud/",
-        "summary": "Today, AWS announces a new bi-directional, zero-copy integration between AWS Analytics services and Workday Data Cloud. Instead of building and maintaining ETL pipelines to replicate data between…",
-        "date": "2026年11月9日",
-        "date_iso": "2026-11-09",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon S3 Access Points for Amazon FSx are now available in additional AWS Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/s3-access-points-fsx-regions/",
-        "summary": "You can now attach Amazon S3 Access Points to your Amazon FSx for NetApp ONTAP file systems in 4 additional AWS Regions, and to your Amazon FSx for OpenZFS file systems in 20 additional AWS Regions.…",
-        "date": "2026年11月9日",
-        "date_iso": "2026-11-09",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Introducing AWS Nitro Sandboxes on Amazon EKS, ECS and EC2 for hardware isolated pods, tasks and VMs",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/nitro-sandboxes-eks-ecs-ec2/",
-        "summary": "AWS Nitro Sandboxes are now available as lightweight VMs managed by the Nitro Hypervisor. You can use Nitro Sandboxes for an Amazon EKS pod, or Amazon ECS task, or lightweight Virtual Machines (VMs),…",
-        "date": "2026年11月9日",
-        "date_iso": "2026-11-09",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Route 53 Profiles now supports multiple Profiles per VPC",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/route-53-profiles-multiple-per-vpc/",
-        "summary": "Amazon Route 53 Profiles now lets you associate more than one Profile with a VPC. Previously, a VPC could have only one Profile, so teams that managed Route 53 configurations separately (for example,…",
-        "date": "2026年11月9日",
-        "date_iso": "2026-11-09",
-        "category": "network-tag",
-        "cat_label": "ネットワーク",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EKS Auto Mode and Karpenter now support Dynamic Resource Allocation",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-eks-auto-mode-karpenter-dra/",
-        "summary": "Amazon Elastic Kubernetes Service (Amazon EKS) now supports Dynamic Resource Allocation (DRA) for NVIDIA GPUs and Elastic Fabric Adapter (EFA) network devices when using Amazon EKS Auto Mode and…",
-        "date": "2026年11月9日",
-        "date_iso": "2026-11-09",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "AWS"
       }
     ],
     "gcp": [
       {
         "title": "November 10, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_10_2026",
-        "summary": "Model Armor Feature Model Armor image screening is generally available (GA) . You can extract and screen images embedded within supported rich text documents (PDF, Word, Excel, and PowerPoint).…",
+        "summary": "Agent Platform Workbench Feature Antigravity CLI in Agent Platform Workbench instances Preview : The Antigravity CLI is available in Agent Platform Workbench instances that use a Debian 12 (…",
         "date": "2026年11月10日",
         "date_iso": "2026-11-10",
         "category": "ai-tag",
