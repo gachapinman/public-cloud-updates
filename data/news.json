@@ -1,7 +1,47 @@
 {
-  "updated": "2026年11月13日 02:44 JST",
+  "updated": "2026年11月13日 15:47 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Public Preview: JWT validation with Azure Front Door Auth Policy",
+        "link": "https://azure.microsoft.com/updates?id=577673",
+        "summary": "JSON Web Token (JWT) validation through Azure Front Door Auth Policy is now in public preview on Azure Front Door Premium. Validate bearer tokens issued by Microsoft Entra ID at the edge before…",
+        "date": "2026年11月13日",
+        "date_iso": "2026-11-13",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Azure Front Door mutual TLS authentication",
+        "link": "https://azure.microsoft.com/updates?id=577678",
+        "summary": "Mutual TLS (mTLS), also known as client certificate authentication, is now generally available on Azure Front Door Premium. Use X.509 client certificates to help protect sensitive applications and…",
+        "date": "2026年11月13日",
+        "date_iso": "2026-11-13",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Auto scaling of ingestion limits in Azure Monitor workspace",
+        "link": "https://azure.microsoft.com/updates?id=578207",
+        "summary": "Auto scaling introduces a per-workspace capability in Azure Monitor Workspace (AMW) to automatically scale ingestion limits based on observed usage patterns. When enabled, the system dynamically…",
+        "date": "2026年11月13日",
+        "date_iso": "2026-11-13",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: SQL performance monitoring for Azure SQL Managed Instance",
+        "link": "https://azure.microsoft.com/updates?id=574158",
+        "summary": "The public preview of Microsoft-managed performance monitoring for Azure SQL Managed Instance is now available. Customers monitoring business-critical SQL Managed Instance workloads often rely on…",
+        "date": "2026年11月13日",
+        "date_iso": "2026-11-13",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Public Preview: Rate limit grouping for Azure Front Door Premium WAF",
         "link": "https://azure.microsoft.com/updates?id=580155",
@@ -161,49 +201,169 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Advanced capacity insights are now available in Azure Storage Discovery",
-        "link": "https://azure.microsoft.com/updates?id=578655",
-        "summary": "Advanced capacity insights are now available for preview in Azure Storage Discovery. Storage Discovery now provides greater visibility into storage usage through insights such as access patterns,…",
-        "date": "2026年11月4日",
-        "date_iso": "2026-11-04",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Extend immutability for PITR backups for Azure SQL Database and Azure SQL Managed Instance",
-        "link": "https://azure.microsoft.com/updates?id=579305",
-        "summary": "With this enhancement, you have the ability to lock your retention to the configured PITR retention, beyond the default 7 days of immutable backups that are already available. This is especially…",
-        "date": "2026年11月4日",
-        "date_iso": "2026-11-04",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Enhanced Azure Site Recovery support for VMSS Flex",
-        "link": "https://azure.microsoft.com/updates?id=578926",
-        "summary": "Azure Site Recovery now offers an enhanced disaster recovery experience for virtual machines in Virtual Machine Scale Sets with flexible orchestration. The update improves target configuration and…",
-        "date": "2026年11月4日",
-        "date_iso": "2026-11-04",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: On-prem NAS share discovery and assessment are now available using Azure Migrate",
-        "link": "https://azure.microsoft.com/updates?id=577975",
-        "summary": "Azure Migrate now supports discovery and assessment for network-attached storage, allowing customers and partners to plan migrations of Dell PowerScale (OneFS) and NetApp ONTAP storage to Azure. The…",
-        "date": "2026年11月3日",
-        "date_iso": "2026-11-03",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Amazon Cognito now supports OAuth 2.0 token exchange",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/cognito-token-exchange/",
+        "summary": "Amazon Cognito now supports OAuth 2.0 token exchange (RFC 8693). Amazon Cognito helps you add sign-up, sign-in, and access control to your web applications, mobile applications, and AI agents. With…",
+        "date": "2026年11月13日",
+        "date_iso": "2026-11-13",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Aurora and RDS now support Graviton5-based R9g database instances",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-aurora-rds-postgresql-mysql-mariadb-r9g-instances/",
+        "summary": "AWS Graviton5-based R9g database instances are now generally available for Amazon Aurora with PostgreSQL compatibility and MySQL compatibility, and for Amazon RDS for PostgreSQL, MySQL, and MariaDB.…",
+        "date": "2026年11月13日",
+        "date_iso": "2026-11-13",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon MWAA now supports fine-grained access control with IAM Identity Center and multi-team environments",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/mwaa-fine-grained-access-control/",
+        "summary": "Amazon Managed Workflows for Apache Airflow (Amazon MWAA) now supports fine-grained access control, giving administrators precise control over who can access which workflows and resources in an…",
+        "date": "2026年11月13日",
+        "date_iso": "2026-11-13",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Connect Customer supports merging and linking related cases in the agent workspace",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-connect-cases-merge-link/",
+        "summary": "Amazon Connect Customer now lets agents merge and link related cases in the agent workspace, so they can resolve customer issues faster and respond consistently. When a customer contacts a business…",
+        "date": "2026年11月13日",
+        "date_iso": "2026-11-13",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon SNS now supports push notifications in four additional AWS Regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-sns-push-four-regions/",
+        "summary": "Amazon Simple Notification Service (Amazon SNS) now supports sending push notifications in the Asia Pacific (Hyderabad), Asia Pacific (Melbourne), Europe (Zurich), and AWS GovCloud (US-East) Regions.…",
+        "date": "2026年11月13日",
+        "date_iso": "2026-11-13",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Quick enhances granular governance with the ability to restrict structured data sources",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-structured-data-source-restrictions/",
+        "summary": "Today, AWS Quick is announcing the general availability of structured data connector restrictions through custom permissions. This capability gives administrators granular control over which types of…",
+        "date": "2026年11月12日",
+        "date_iso": "2026-11-12",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Route 53 Domains now supports self-service restore for expired and deleted domains",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/route-53-domains-self-service-restore/",
+        "summary": "Amazon Route 53 Domains now lets you restore an expired or recently deleted domain yourself, using the Amazon Route 53 console, AWS CLI, or AWS SDKs. Previously, restoring a domain required a request…",
+        "date": "2026年11月12日",
+        "date_iso": "2026-11-12",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "EC2 Image Builder console now integrates with the DevOps Agent for troubleshooting and resource creation",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/ec2-image-builder-devops-agent-integration",
+        "summary": "EC2 Image Builder now integrates with the AWS DevOps Agent directly in the Image Builder console, enabling you to troubleshoot failed image pipelines and create resources directly from the console…",
+        "date": "2026年11月12日",
+        "date_iso": "2026-11-12",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon FSx for Lustre lowers the entry cost of Intelligent-Tiering file systems by 75%",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/fsx-lustre-intelligent-tiering-lower-throughput/",
+        "summary": "Amazon FSx for Lustre is reducing the minimum provisioned throughput capacity and metadata IOPS on Intelligent-Tiering file systems by 75%, allowing you to use Intelligent-Tiering even more…",
+        "date": "2026年11月12日",
+        "date_iso": "2026-11-12",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Backup adds logically air-gapped vault support for Amazon EBS Snapshots Archive",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-backup-lag-vault-ebs-archive/",
+        "summary": "AWS Backup logically air-gapped vault now supports Amazon EBS Snapshots Archive. Logically air-gapped vaults are a type of AWS Backup vault that allows secure sharing of backups across accounts and…",
+        "date": "2026年11月12日",
+        "date_iso": "2026-11-12",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Glue announces automatic version upgrades for Apache Spark jobs",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/glue-spark-auto-upgrades/",
+        "summary": "AWS Glue introduces automatic version upgrades, a capability that keeps your Apache Spark jobs current on the latest AWS Glue runtime without manual coordination. Staying current on supported…",
+        "date": "2026年11月12日",
+        "date_iso": "2026-11-12",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Backup now supports resource modifiers for Amazon EKS restores",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-backup-resource-modifiers-eks/",
+        "summary": "Today, AWS Backup announces support for resource modifiers when restoring Amazon Elastic Kubernetes Service (Amazon EKS) backups. Resource modifiers let you transform Kubernetes resources during a…",
+        "date": "2026年11月12日",
+        "date_iso": "2026-11-12",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Cloud WAN now supports BGP communities on Direct Connect attachments for routing policy",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloud-wan-bgp-community-directconnect/",
+        "summary": "AWS Cloud WAN now supports BGP communities on Direct Connect attachments, enabling advanced routing controls for enterprise hybrid networks. Previously, Cloud WAN Routing Policy evaluated BGP…",
+        "date": "2026年11月12日",
+        "date_iso": "2026-11-12",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Managed Service for Apache Flink introduces enhanced snapshots",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/managed-flink-enhanced-snapshots/",
+        "summary": "Amazon Managed Service for Apache Flink now supports enhanced snapshots, a capability that lets you capture, export, and restore application state across Apache Flink applications and AWS Regions, so…",
+        "date": "2026年11月12日",
+        "date_iso": "2026-11-12",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon RDS for SQL Server now supports M8id and R8id instances",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-sqlserver-supports-m8id-r8id-instances",
+        "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports M8id and R8id instances. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, and include…",
+        "date": "2026年11月12日",
+        "date_iso": "2026-11-12",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "The next generation AgentCore runtime is now the default",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/new-agentcore-runtime-default/",
+        "summary": "Starting today, new runtimes in Amazon Bedrock AgentCore use the next generation of AgentCore runtime by default. The new runtime restores each session from a snapshot of your initialized agent,…",
+        "date": "2026年11月12日",
+        "date_iso": "2026-11-12",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
       {
         "title": "Ornith-1.0-9B and Ornith-1.0-35B models now available on Amazon SageMaker JumpStart",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/ornith-1-0-9b-ornith-1-0-35b-on-sagemaker-jumpstart/",
@@ -243,173 +403,13 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon EKS Provisioned Control Plane now offers a 24 GB etcd database on 4XL and 8XL tiers",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-eks-provisioned-control-plane-larger-etcd-database/",
-        "summary": "Amazon Elastic Kubernetes Service (Amazon EKS) now offers a larger 24 GB etcd database, up from 16 GB, for 4XL and 8XL Provisioned Control Plane clusters. etcd is the key-value store in the…",
-        "date": "2026年11月12日",
-        "date_iso": "2026-11-12",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Cognito now supports user pool session management",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cognito-session-management/",
-        "summary": "Amazon Cognito now supports session management for user pools, giving you visibility into and control over the sessions your users establish when they sign in to your applications. Single sign-on…",
-        "date": "2026年11月12日",
-        "date_iso": "2026-11-12",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Lambda MicroVMs now supports the x86 CPU architecture",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-lambda-microvms-x86-architecture/",
-        "summary": "AWS Lambda MicroVMs now supports the x86 CPU architecture, so you can run your existing x86 applications, tools, and software dependencies without recompiling or porting them. When you create a…",
-        "date": "2026年11月12日",
-        "date_iso": "2026-11-12",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EKS Auto Mode now supports security groups for Pods",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-eks-auto-mode-security-groups-for-pods/",
-        "summary": "Amazon EKS Auto Mode now supports security groups for Pods, letting you apply dedicated Amazon EC2 security group rules to individual Pods. Different workloads on the same node can carry different…",
-        "date": "2026年11月12日",
-        "date_iso": "2026-11-12",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Emulator is now available for building and testing AWS applications locally",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-emulator-now-available/",
-        "summary": "AWS Emulator is now available for building and testing AWS applications locally. Starting today, you can use AWS Emulator to build and test AWS applications on your computer or in your continuous…",
-        "date": "2026年11月12日",
-        "date_iso": "2026-11-12",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Quick apps are now available in Asia Pacific (Singapore)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-apps-available-in-asia-pacific-singapore/",
-        "summary": "The AWS Quick desktop app for macOS and Windows and the Quick mobile app for iOS and Android are now available in the Asia Pacific (Singapore) Region. This launch builds on the recent availability of…",
-        "date": "2026年11月12日",
-        "date_iso": "2026-11-12",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SES now supports higher limits for email identities, tenants, and configuration sets",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ses-higher-resource-limits/",
-        "summary": "Amazon Simple Email Service (Amazon SES) now supports higher limits for email identities, tenants, and configuration sets. You can view your current usage against each limit and request increases in…",
-        "date": "2026年11月11日",
-        "date_iso": "2026-11-11",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Billing and Cost Management now supports AWS Billing Conductor and AWS Billing Transfer views as source views for…",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-billing-and-cost-management-multi-source-custom-billing-views",
-        "summary": "Custom billing views now support AWS Billing Conductor and AWS Billing Transfer views as source views. These are the views AWS maintains per billing group and per billing transfer relationship. You…",
-        "date": "2026年11月11日",
-        "date_iso": "2026-11-11",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 G7 instances now available in additional regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-g7-additional-regions/",
-        "summary": "Amazon Elastic Compute Cloud (Amazon EC2) G7 instances powered by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs are now available in Europe (London), Asia Pacific (Mumbai, Sydney) and South…",
-        "date": "2026年11月11日",
-        "date_iso": "2026-11-11",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon OpenSearch Service announces managed cross-Region disaster recovery",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-service-managed-cross-region-disaster-recovery/",
-        "summary": "Amazon OpenSearch Service now offers managed cross-Region disaster recovery, so you can meet strict availability and business continuity requirements for mission-critical search, AI, and analytics…",
-        "date": "2026年11月11日",
-        "date_iso": "2026-11-11",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon RDS for PostgreSQL announces Extended Support minor versions 13.23-rds.20260819, 12.22-rds.20260820 and…",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-postgresql-extended-support/",
-        "summary": "Amazon Relational Database Service (RDS) for PostgreSQL announces Amazon RDS Extended Support minor versions 13.23-rds.20260819, 12.22-rds.20260820 and 11.22-rds.20260822. Amazon RDS Extended Support…",
-        "date": "2026年11月11日",
-        "date_iso": "2026-11-11",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon RDS for MySQL 26.10 is now available in Amazon RDS Database Preview Environment",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-mysql-26-10-preview-environment/",
-        "summary": "Starting today, Amazon RDS for MySQL 26.10 is available in the Amazon RDS Database Preview Environment , allowing you to evaluate the pre-release of MySQL 26.10 on Amazon RDS for MySQL. MySQL 26.10…",
-        "date": "2026年11月11日",
-        "date_iso": "2026-11-11",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Partner Central now provides an improved business planning experience",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/partner-central-business-planning/",
-        "summary": "AWS Partner Central now offers a new business planning experience in the AWS Console. AWS Partners can initiate plans for growing their AWS business or collaborate on plans initiated by AWS teams.…",
-        "date": "2026年11月11日",
-        "date_iso": "2026-11-11",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon S3 Access Grants now support listing grants across multiple AWS accounts",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-s3-access-grants-list-across-regions/",
-        "summary": "Amazon S3 Access Grants can now discover and list all your grants across multiple AWS accounts with a single API call, eliminating the need to query each account separately. A single…",
-        "date": "2026年11月10日",
-        "date_iso": "2026-11-10",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Bedrock adds bedrock-runtime endpoint support for Daybreak models",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/openai-gpt-daybreak-on-amazon-bedrock-runtime/",
-        "summary": "Eligible customers can now access OpenAI’s specialized cybersecurity models Daybreak Red: GPT-5.6 Cyber and Daybreak Blue: GPT-5.6 Sol through the bedrock-runtime endpoint on Amazon Bedrock. Daybreak…",
-        "date": "2026年11月10日",
-        "date_iso": "2026-11-10",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon S3 Tables now support S3 server access logging",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-s3-tables-server-access-logging/",
-        "summary": "Amazon S3 Tables now support server access logging, providing you detailed records of the requests made to your table buckets. You can now track table operations, namespace management, and data…",
-        "date": "2026年11月10日",
-        "date_iso": "2026-11-10",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
       }
     ],
     "gcp": [
       {
         "title": "November 12, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_12_2026",
-        "summary": "BigQuery Feature You can track table-level data lineage in Knowledge Catalog for BigQuery pipelines. For more information, see Track data lineage . This feature is generally available (GA). Cloud…",
+        "summary": "API Keys API Feature The API Keys remote Model Context Protocol (MCP) server is generally available (GA) . You can use the API Keys remote MCP server in your AI applications to create, inspect,…",
         "date": "2026年11月12日",
         "date_iso": "2026-11-12",
         "category": "ai-tag",
@@ -609,6 +609,16 @@
     ],
     "oci": [
       {
+        "title": "Customize egress and add mounts in jobs running on compute targets",
+        "link": "https://docs.oracle.com/iaas/releasenotes/data-science/egress-mounts-jobs-compute-targets.htm",
+        "summary": "",
+        "date": "2026年11月11日",
+        "date_iso": "2026-11-11",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
         "title": "Device Data FHIR Service adds eleven FHIR R4 resource types",
         "link": "https://docs.oracle.com/iaas/releasenotes/device-data-fhir/additional-fhir-r4-resources.htm",
         "summary": "",
@@ -794,16 +804,6 @@
         "summary": "",
         "date": "2026年10月30日",
         "date_iso": "2026-10-30",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Oracle Cost Advisor for AI in Limited Availability",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/cost-advisor-limited-availability.htm",
-        "summary": "",
-        "date": "2026年10月27日",
-        "date_iso": "2026-10-27",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "OCI"
