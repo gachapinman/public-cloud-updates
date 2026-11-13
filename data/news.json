@@ -1,5 +1,5 @@
 {
-  "updated": "2026年11月13日 15:47 JST",
+  "updated": "2026年11月13日 20:27 JST",
   "clouds": {
     "azure": [
       {
@@ -295,16 +295,6 @@
         "tag": "AWS"
       },
       {
-        "title": "AWS Backup adds logically air-gapped vault support for Amazon EBS Snapshots Archive",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-backup-lag-vault-ebs-archive/",
-        "summary": "AWS Backup logically air-gapped vault now supports Amazon EBS Snapshots Archive. Logically air-gapped vaults are a type of AWS Backup vault that allows secure sharing of backups across accounts and…",
-        "date": "2026年11月12日",
-        "date_iso": "2026-11-12",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
         "title": "AWS Glue announces automatic version upgrades for Apache Spark jobs",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/glue-spark-auto-upgrades/",
         "summary": "AWS Glue introduces automatic version upgrades, a capability that keeps your Apache Spark jobs current on the latest AWS Glue runtime without manual coordination. Staying current on supported…",
@@ -312,6 +302,16 @@
         "date_iso": "2026-11-12",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Backup adds logically air-gapped vault support for Amazon EBS Snapshots Archive",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-backup-lag-vault-ebs-archive/",
+        "summary": "AWS Backup logically air-gapped vault now supports Amazon EBS Snapshots Archive. Logically air-gapped vaults are a type of AWS Backup vault that allows secure sharing of backups across accounts and…",
+        "date": "2026年11月12日",
+        "date_iso": "2026-11-12",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "AWS"
       },
       {
@@ -619,6 +619,46 @@
         "tag": "OCI"
       },
       {
+        "title": "Oracle Cloud Migrations supports ARM migrations for AWS EC2 instances",
+        "link": "https://docs.oracle.com/iaas/releasenotes/cloud-migration/ocm_aws_arm_migration.htm",
+        "summary": "",
+        "date": "2026年11月10日",
+        "date_iso": "2026-11-10",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "AI-Assisted Queries for Table Hyperlinks",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-11-ai-table-hyperlink.htm",
+        "summary": "",
+        "date": "2026年11月10日",
+        "date_iso": "2026-11-10",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Support Agent-to-Agent (A2A) and MCP Server as Built-in Tools",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-11-support-mcp-server.htm",
+        "summary": "",
+        "date": "2026年11月10日",
+        "date_iso": "2026-11-10",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Estimated concurrent sessions for Graph Studio and Oracle Machine Learning",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-11-estimated-sessions.htm",
+        "summary": "",
+        "date": "2026年11月10日",
+        "date_iso": "2026-11-10",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
         "title": "Device Data FHIR Service adds eleven FHIR R4 resource types",
         "link": "https://docs.oracle.com/iaas/releasenotes/device-data-fhir/additional-fhir-r4-resources.htm",
         "summary": "",
@@ -764,46 +804,6 @@
         "summary": "",
         "date": "2026年11月3日",
         "date_iso": "2026-11-03",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "New tutorial: Search Documents with Vector Stores and OCI Generative AI API Keys",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/vector-store-api-key-tutorial.htm",
-        "summary": "",
-        "date": "2026年10月30日",
-        "date_iso": "2026-10-30",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "New tutorial: Discover Models with the Python SDK and REST API",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/model-discovery-tutorial.htm",
-        "summary": "",
-        "date": "2026年10月30日",
-        "date_iso": "2026-10-30",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "On-demand model access in Jeddah, Jerusalem, and Marseille",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/expanded-on-demand-model-access-jed-mtz-mrs.htm",
-        "summary": "",
-        "date": "2026年10月30日",
-        "date_iso": "2026-10-30",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "New H100 Unit Shape for OpenAI gpt-oss-120b",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/gpt-oss-120b-h100-x4.htm",
-        "summary": "",
-        "date": "2026年10月30日",
-        "date_iso": "2026-10-30",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "OCI"
