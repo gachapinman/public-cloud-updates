@@ -1,5 +1,5 @@
 {
-  "updated": "2026年11月13日 20:27 JST",
+  "updated": "2026年11月14日 02:23 JST",
   "clouds": {
     "azure": [
       {
@@ -205,6 +205,16 @@
     ],
     "aws": [
       {
+        "title": "Grok 4.7 now available on Kiro in AWS GovCloud (US)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/kiro-grok-4-7-aws-govcloud-us/",
+        "summary": "A new model is now available in the Kiro IDE and CLI for the AWS GovCloud (US) Regions. Grok 4.7 is SpaceXSI's most capable model for coding and knowledge work. It's built to stay focused through…",
+        "date": "2026年11月13日",
+        "date_iso": "2026-11-13",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon Cognito now supports OAuth 2.0 token exchange",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/cognito-token-exchange/",
         "summary": "Amazon Cognito now supports OAuth 2.0 token exchange (RFC 8693). Amazon Cognito helps you add sign-up, sign-in, and access control to your web applications, mobile applications, and AI agents. With…",
@@ -295,6 +305,16 @@
         "tag": "AWS"
       },
       {
+        "title": "AWS Backup adds logically air-gapped vault support for Amazon EBS Snapshots Archive",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-backup-lag-vault-ebs-archive/",
+        "summary": "AWS Backup logically air-gapped vault now supports Amazon EBS Snapshots Archive. Logically air-gapped vaults are a type of AWS Backup vault that allows secure sharing of backups across accounts and…",
+        "date": "2026年11月12日",
+        "date_iso": "2026-11-12",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
         "title": "AWS Glue announces automatic version upgrades for Apache Spark jobs",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/glue-spark-auto-upgrades/",
         "summary": "AWS Glue introduces automatic version upgrades, a capability that keeps your Apache Spark jobs current on the latest AWS Glue runtime without manual coordination. Staying current on supported…",
@@ -305,13 +325,23 @@
         "tag": "AWS"
       },
       {
-        "title": "AWS Backup adds logically air-gapped vault support for Amazon EBS Snapshots Archive",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-backup-lag-vault-ebs-archive/",
-        "summary": "AWS Backup logically air-gapped vault now supports Amazon EBS Snapshots Archive. Logically air-gapped vaults are a type of AWS Backup vault that allows secure sharing of backups across accounts and…",
+        "title": "Amazon RDS for SQL Server now supports M8id and R8id instances",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-sqlserver-supports-m8id-r8id-instances",
+        "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports M8id and R8id instances. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, and include…",
         "date": "2026年11月12日",
         "date_iso": "2026-11-12",
         "category": "ai-tag",
         "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Managed Service for Apache Flink introduces enhanced snapshots",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/managed-flink-enhanced-snapshots/",
+        "summary": "Amazon Managed Service for Apache Flink now supports enhanced snapshots, a capability that lets you capture, export, and restore application state across Apache Flink applications and AWS Regions, so…",
+        "date": "2026年11月12日",
+        "date_iso": "2026-11-12",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "AWS"
       },
       {
@@ -335,23 +365,13 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon Managed Service for Apache Flink introduces enhanced snapshots",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/managed-flink-enhanced-snapshots/",
-        "summary": "Amazon Managed Service for Apache Flink now supports enhanced snapshots, a capability that lets you capture, export, and restore application state across Apache Flink applications and AWS Regions, so…",
+        "title": "Amazon Connect Customer now supports batch actions on up to 100 cases at once",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/connect-batch-actions-100-cases/",
+        "summary": "Cases in Amazon Connect Customer now lets agents and supervisors assign, comment on, and update the status of up to 100 cases at once, so teams spend less time on repetitive case updates. When one…",
         "date": "2026年11月12日",
         "date_iso": "2026-11-12",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon RDS for SQL Server now supports M8id and R8id instances",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-sqlserver-supports-m8id-r8id-instances",
-        "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports M8id and R8id instances. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, and include…",
-        "date": "2026年11月12日",
-        "date_iso": "2026-11-12",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "AWS"
       },
       {
@@ -378,26 +398,6 @@
         "title": "DeepSeek-V4-Pro, DeepSeek-V4-Flash, and DeepSeek-V4.1-Flash models now available on Amazon SageMaker JumpStart",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/deepseek-v4-pro-v4-flash-v4.1-flash-on-sagemaker-jumpstart/",
         "summary": "DeepSeek's DeepSeek-V4-Pro, DeepSeek-V4-Flash, and DeepSeek-V4.1-Flash models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers.…",
-        "date": "2026年11月12日",
-        "date_iso": "2026-11-12",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Network Security Manager now available in AWS European Sovereign Cloud and Additional New Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/network-security-mgr-eu-sovereign-cloud/",
-        "summary": "AWS Network Security Manager is now available in AWS European Sovereign Cloud Region and Thirty-One new Regions Today, AWS announces the general availability of AWS Network Security Manager in the…",
-        "date": "2026年11月12日",
-        "date_iso": "2026-11-12",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Cloud WAN now supports Flow Logs",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-cloud-wan-flow-logs/",
-        "summary": "AWS Cloud WAN now supports VPC Flow Logs, giving you central visibility into IP traffic across your global network. Flow Logs capture detailed information for each flow, so you can understand how…",
         "date": "2026年11月12日",
         "date_iso": "2026-11-12",
         "category": "ai-tag",
@@ -609,6 +609,16 @@
     ],
     "oci": [
       {
+        "title": "SSF Transmitter Support for Identity Security Events",
+        "link": "https://docs.oracle.com/iaas/releasenotes/identity/ssf-transmitter-support-identity-security-events.htm",
+        "summary": "",
+        "date": "2026年11月12日",
+        "date_iso": "2026-11-12",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "OCI"
+      },
+      {
         "title": "Customize egress and add mounts in jobs running on compute targets",
         "link": "https://docs.oracle.com/iaas/releasenotes/data-science/egress-mounts-jobs-compute-targets.htm",
         "summary": "",
@@ -796,16 +806,6 @@
         "date_iso": "2026-11-03",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Oracle Application Express (APEX) 26.1 is available for new Autonomous Container Databases (ACD)",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-dedicated/adbd-apex-acd.htm",
-        "summary": "",
-        "date": "2026年11月3日",
-        "date_iso": "2026-11-03",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "OCI"
       }
     ]
