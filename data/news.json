@@ -1,5 +1,5 @@
 {
-  "updated": "2026年11月14日 15:26 JST",
+  "updated": "2026年11月14日 19:50 JST",
   "clouds": {
     "azure": [
       {
@@ -395,13 +395,13 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon FSx for Lustre lowers the entry cost of Intelligent-Tiering file systems by 75%",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/fsx-lustre-intelligent-tiering-lower-throughput/",
-        "summary": "Amazon FSx for Lustre is reducing the minimum provisioned throughput capacity and metadata IOPS on Intelligent-Tiering file systems by 75%, allowing you to use Intelligent-Tiering even more…",
+        "title": "AWS Backup adds logically air-gapped vault support for Amazon EBS Snapshots Archive",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-backup-lag-vault-ebs-archive/",
+        "summary": "AWS Backup logically air-gapped vault now supports Amazon EBS Snapshots Archive. Logically air-gapped vaults are a type of AWS Backup vault that allows secure sharing of backups across accounts and…",
         "date": "2026年11月12日",
         "date_iso": "2026-11-12",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "AWS"
       }
     ],
