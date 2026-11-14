@@ -1,7 +1,17 @@
 {
-  "updated": "2026年11月14日 02:23 JST",
+  "updated": "2026年11月14日 15:26 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Retirement: Azure Data Share will be retired on November 12, 2029",
+        "link": "https://azure.microsoft.com/updates?id=578818",
+        "summary": "Azure Data Share will retire on November 12, 2029. Before that date, transition your data sharing workloads to Microsoft Fabric, which offers External data sharing, Cross tenant delegated shortcuts…",
+        "date": "2026年11月14日",
+        "date_iso": "2026-11-14",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AZURE"
+      },
       {
         "title": "Public Preview: JWT validation with Azure Front Door Auth Policy",
         "link": "https://azure.microsoft.com/updates?id=577673",
@@ -191,19 +201,19 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Private ingress for Application Gateway for Containers",
-        "link": "https://azure.microsoft.com/updates?id=576393",
-        "summary": "Application Gateway for Containers now supports private frontends that are reachable only through approved Azure Private Link private endpoints. This enables organizations to keep internal…",
-        "date": "2026年11月4日",
-        "date_iso": "2026-11-04",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Aurora PostgreSQL with express configuration now supported in CloudFormation",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aurora-postgresql-cloudformation/",
+        "summary": "Aurora PostgreSQL now supports express configuration in AWS CloudFormation for infrastructure as code deployment. This launch enables you to automate the infrastructure deployment of your Aurora…",
+        "date": "2026年11月14日",
+        "date_iso": "2026-11-14",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
       {
         "title": "Grok 4.7 now available on Kiro in AWS GovCloud (US)",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/kiro-grok-4-7-aws-govcloud-us/",
@@ -212,6 +222,86 @@
         "date_iso": "2026-11-13",
         "category": "ai-tag",
         "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon RDS for Oracle reduces downtime for automatic minor version upgrades and scheduled maintenance",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-oracle-reduces-maintenance-downtime-for-amvu-scheduled-upgrades/",
+        "summary": "Amazon Relational Database Service (Amazon RDS) for Oracle now reduces downtime for automatic minor version upgrades, as well as minor version upgrades and operating system updates scheduled for your…",
+        "date": "2026年11月13日",
+        "date_iso": "2026-11-13",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Security Hub CSPM now supports centralized configuration with AWS Organizations declarative policies",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/security-hub-cspm-org-policies/",
+        "summary": "AWS Security Hub CSPM now supports AWS Organizations declarative policies. You can use them to enable Security Hub CSPM across all accounts and Regions in your organization and to define which…",
+        "date": "2026年11月13日",
+        "date_iso": "2026-11-13",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Bedrock AgentCore Identity now supports OAuth 2.0 discovery URLs",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/bedrock-agentcore-oauth2-discovery/",
+        "summary": "Amazon Bedrock AgentCore Identity now supports OAuth 2.0 authorization server discovery URLs for both inbound JWT authorization and outbound OAuth credential providers. This update enables developers…",
+        "date": "2026年11月13日",
+        "date_iso": "2026-11-13",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Batch on Amazon EKS adds Linux capabilities, seccomp, and pod-level settings",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-batch-eks-security-context/",
+        "summary": "AWS Batch now supports additional Kubernetes security context settings in Amazon EKS job definitions, including Linux capabilities, seccomp profiles, and pod-level settings.&nbsp;For EKS clusters…",
+        "date": "2026年11月13日",
+        "date_iso": "2026-11-13",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Secrets Manager now supports cross-account replication",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/secrets-manager-cross-account/",
+        "summary": "AWS Secrets Manager now supports cross-account replication, enabling you to maintain a synchronized copy of a primary secret in a secondary AWS account for cross-account access, backup, and disaster…",
+        "date": "2026年11月13日",
+        "date_iso": "2026-11-13",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon SageMaker Unified Studio now supports layout customization for designations",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-studio-layout-customization/",
+        "summary": "Amazon SageMaker Unified Studio now supports layout customization, a new capability that gives domain administrators control over which tools and left navigation items project members see based on…",
+        "date": "2026年11月13日",
+        "date_iso": "2026-11-13",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Marketplace now supports VAT credit notes for deemed supply refunds",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-marketplace-vat-credit-notes/",
+        "summary": "AWS Marketplace sellers can now submit Value Added Tax (VAT) credit notes for refunded deemed supply transactions through a self-service experience in AWS Partner Central. Previously, VAT was…",
+        "date": "2026年11月13日",
+        "date_iso": "2026-11-13",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Systems Manager simplifies onboarding of Google Cloud VMs for centralized management",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/systems-manager-google-cloud-support/",
+        "summary": "AWS Systems Manager Cloud Connector now extends simplified multicloud onboarding support to Google Cloud, making it easy to connect your existing Google Cloud VMs to Systems Manager for centralized…",
+        "date": "2026年11月13日",
+        "date_iso": "2026-11-13",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
         "tag": "AWS"
       },
       {
@@ -238,6 +328,16 @@
         "title": "Amazon MWAA now supports fine-grained access control with IAM Identity Center and multi-team environments",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/mwaa-fine-grained-access-control/",
         "summary": "Amazon Managed Workflows for Apache Airflow (Amazon MWAA) now supports fine-grained access control, giving administrators precise control over who can access which workflows and resources in an…",
+        "date": "2026年11月13日",
+        "date_iso": "2026-11-13",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Apache Airflow UI available in Amazon MWAA Serverless",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/airflow-ui-for-mwaa-serverless/",
+        "summary": "Amazon MWAA Serverless provides the native Apache Airflow UI for your workflows. You can browse workflows, inspect workflow runs and task instances, read task logs, view a workflow's source and…",
         "date": "2026年11月13日",
         "date_iso": "2026-11-13",
         "category": "ai-tag",
@@ -303,109 +403,19 @@
         "category": "storage-tag",
         "cat_label": "ストレージ",
         "tag": "AWS"
-      },
-      {
-        "title": "AWS Backup adds logically air-gapped vault support for Amazon EBS Snapshots Archive",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-backup-lag-vault-ebs-archive/",
-        "summary": "AWS Backup logically air-gapped vault now supports Amazon EBS Snapshots Archive. Logically air-gapped vaults are a type of AWS Backup vault that allows secure sharing of backups across accounts and…",
-        "date": "2026年11月12日",
-        "date_iso": "2026-11-12",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Glue announces automatic version upgrades for Apache Spark jobs",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/glue-spark-auto-upgrades/",
-        "summary": "AWS Glue introduces automatic version upgrades, a capability that keeps your Apache Spark jobs current on the latest AWS Glue runtime without manual coordination. Staying current on supported…",
-        "date": "2026年11月12日",
-        "date_iso": "2026-11-12",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon RDS for SQL Server now supports M8id and R8id instances",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-sqlserver-supports-m8id-r8id-instances",
-        "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports M8id and R8id instances. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, and include…",
-        "date": "2026年11月12日",
-        "date_iso": "2026-11-12",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Managed Service for Apache Flink introduces enhanced snapshots",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/managed-flink-enhanced-snapshots/",
-        "summary": "Amazon Managed Service for Apache Flink now supports enhanced snapshots, a capability that lets you capture, export, and restore application state across Apache Flink applications and AWS Regions, so…",
-        "date": "2026年11月12日",
-        "date_iso": "2026-11-12",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Backup now supports resource modifiers for Amazon EKS restores",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-backup-resource-modifiers-eks/",
-        "summary": "Today, AWS Backup announces support for resource modifiers when restoring Amazon Elastic Kubernetes Service (Amazon EKS) backups. Resource modifiers let you transform Kubernetes resources during a…",
-        "date": "2026年11月12日",
-        "date_iso": "2026-11-12",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Cloud WAN now supports BGP communities on Direct Connect attachments for routing policy",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloud-wan-bgp-community-directconnect/",
-        "summary": "AWS Cloud WAN now supports BGP communities on Direct Connect attachments, enabling advanced routing controls for enterprise hybrid networks. Previously, Cloud WAN Routing Policy evaluated BGP…",
-        "date": "2026年11月12日",
-        "date_iso": "2026-11-12",
-        "category": "network-tag",
-        "cat_label": "ネットワーク",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Connect Customer now supports batch actions on up to 100 cases at once",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/connect-batch-actions-100-cases/",
-        "summary": "Cases in Amazon Connect Customer now lets agents and supervisors assign, comment on, and update the status of up to 100 cases at once, so teams spend less time on repetitive case updates. When one…",
-        "date": "2026年11月12日",
-        "date_iso": "2026-11-12",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "The next generation AgentCore runtime is now the default",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/new-agentcore-runtime-default/",
-        "summary": "Starting today, new runtimes in Amazon Bedrock AgentCore use the next generation of AgentCore runtime by default. The new runtime restores each session from a snapshot of your initialized agent,…",
-        "date": "2026年11月12日",
-        "date_iso": "2026-11-12",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Ornith-1.0-9B and Ornith-1.0-35B models now available on Amazon SageMaker JumpStart",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/ornith-1-0-9b-ornith-1-0-35b-on-sagemaker-jumpstart/",
-        "summary": "DeepReinforce AI's Ornith-1.0-9B and Ornith-1.0-35B models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These two models…",
-        "date": "2026年11月12日",
-        "date_iso": "2026-11-12",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "DeepSeek-V4-Pro, DeepSeek-V4-Flash, and DeepSeek-V4.1-Flash models now available on Amazon SageMaker JumpStart",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/deepseek-v4-pro-v4-flash-v4.1-flash-on-sagemaker-jumpstart/",
-        "summary": "DeepSeek's DeepSeek-V4-Pro, DeepSeek-V4-Flash, and DeepSeek-V4.1-Flash models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers.…",
-        "date": "2026年11月12日",
-        "date_iso": "2026-11-12",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "November 13, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#November_13_2026",
+        "summary": "Access Approval Feature Cloud Quotas is generally available ( GA ). Access Transparency Feature Cloud Quotas is generally available ( GA ). Apigee X Announcement On November 13, 2026, we released an…",
+        "date": "2026年11月13日",
+        "date_iso": "2026-11-13",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
       {
         "title": "November 12, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_12_2026",
@@ -595,35 +605,25 @@
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "GCP"
-      },
-      {
-        "title": "October 24, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_24_2026",
-        "summary": "App Engine flexible environment .NET Security The following runtime language contains important security updates: .NET 6 and later : 6.0.428 , 8.0.415 , 10.0.100 The following stacks and their…",
-        "date": "2026年10月24日",
-        "date_iso": "2026-10-24",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
       }
     ],
     "oci": [
-      {
-        "title": "SSF Transmitter Support for Identity Security Events",
-        "link": "https://docs.oracle.com/iaas/releasenotes/identity/ssf-transmitter-support-identity-security-events.htm",
-        "summary": "",
-        "date": "2026年11月12日",
-        "date_iso": "2026-11-12",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "OCI"
-      },
       {
         "title": "Customize egress and add mounts in jobs running on compute targets",
         "link": "https://docs.oracle.com/iaas/releasenotes/data-science/egress-mounts-jobs-compute-targets.htm",
         "summary": "",
         "date": "2026年11月11日",
         "date_iso": "2026-11-11",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "Enhanced Flow Runtime nodes and resource limits",
+        "link": "https://docs.oracle.com/iaas/releasenotes/internet-of-things/update-11102026.htm",
+        "summary": "",
+        "date": "2026年11月10日",
+        "date_iso": "2026-11-10",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "OCI"
