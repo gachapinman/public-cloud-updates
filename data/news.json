@@ -1,5 +1,5 @@
 {
-  "updated": "2026年11月15日 01:07 JST",
+  "updated": "2026年11月15日 15:35 JST",
   "clouds": {
     "azure": [
       {
@@ -255,16 +255,6 @@
         "tag": "AWS"
       },
       {
-        "title": "AWS Batch on Amazon EKS adds Linux capabilities, seccomp, and pod-level settings",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-batch-eks-security-context/",
-        "summary": "AWS Batch now supports additional Kubernetes security context settings in Amazon EKS job definitions, including Linux capabilities, seccomp profiles, and pod-level settings.&nbsp;For EKS clusters…",
-        "date": "2026年11月13日",
-        "date_iso": "2026-11-13",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
         "title": "AWS Secrets Manager now supports cross-account replication",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/secrets-manager-cross-account/",
         "summary": "AWS Secrets Manager now supports cross-account replication, enabling you to maintain a synchronized copy of a primary secret in a secondary AWS account for cross-account access, backup, and disaster…",
@@ -282,6 +272,16 @@
         "date_iso": "2026-11-13",
         "category": "ai-tag",
         "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Batch on Amazon EKS adds Linux capabilities, seccomp, and pod-level settings",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-batch-eks-security-context/",
+        "summary": "AWS Batch now supports additional Kubernetes security context settings in Amazon EKS job definitions, including Linux capabilities, seccomp profiles, and pod-level settings.&nbsp;For EKS clusters…",
+        "date": "2026年11月13日",
+        "date_iso": "2026-11-13",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
         "tag": "AWS"
       },
       {
@@ -395,13 +395,13 @@
         "tag": "AWS"
       },
       {
-        "title": "AWS Backup adds logically air-gapped vault support for Amazon EBS Snapshots Archive",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-backup-lag-vault-ebs-archive/",
-        "summary": "AWS Backup logically air-gapped vault now supports Amazon EBS Snapshots Archive. Logically air-gapped vaults are a type of AWS Backup vault that allows secure sharing of backups across accounts and…",
+        "title": "Amazon FSx for Lustre lowers the entry cost of Intelligent-Tiering file systems by 75%",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/fsx-lustre-intelligent-tiering-lower-throughput/",
+        "summary": "Amazon FSx for Lustre is reducing the minimum provisioned throughput capacity and metadata IOPS on Intelligent-Tiering file systems by 75%, allowing you to use Intelligent-Tiering even more…",
         "date": "2026年11月12日",
         "date_iso": "2026-11-12",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
         "tag": "AWS"
       }
     ],
