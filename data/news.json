@@ -1,5 +1,5 @@
 {
-  "updated": "2026年11月16日 01:37 JST",
+  "updated": "2026年11月16日 15:32 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,26 @@
     ],
     "gcp": [
       {
+        "title": "November 15, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#November_15_2026",
+        "summary": "Google SecOps Feature Publisher Agent Version 2.7.2 Publisher Agent Version 2.7.2 is now available. This release includes the following updates and fixes for the Publisher and remote agent: Alert…",
+        "date": "2026年11月15日",
+        "date_iso": "2026-11-15",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
+        "title": "November 14, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#November_14_2026",
+        "summary": "Google SecOps SOAR Announcement Release 6.3.106 is now available for all regions.",
+        "date": "2026年11月14日",
+        "date_iso": "2026-11-14",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "November 13, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_13_2026",
         "summary": "Access Approval Feature Cloud Quotas is generally available ( GA ). Access Transparency Feature Cloud Quotas is generally available ( GA ). Apigee X Announcement On November 13, 2026, we released an…",
@@ -584,26 +604,6 @@
         "date_iso": "2026-10-27",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "October 26, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_26_2026",
-        "summary": "Agent Platform Workbench Change 20261025.00_p0 Release Change Installed latest packages from upstream dependencies. Security Updated certifi, pip, and conda ca-certificates to the latest versions.…",
-        "date": "2026年10月26日",
-        "date_iso": "2026-10-26",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "GCP"
-      },
-      {
-        "title": "October 25, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_25_2026",
-        "summary": "Agent Platform Workbench Change 20261025-2230-rc0 Release Change 20261025-2230-rc0 Release Change Installed latest packages from upstream dependencies. Change Installed latest packages from upstream…",
-        "date": "2026年10月25日",
-        "date_iso": "2026-10-25",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
         "tag": "GCP"
       }
     ],
