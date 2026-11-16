@@ -1,5 +1,5 @@
 {
-  "updated": "2026年11月16日 20:57 JST",
+  "updated": "2026年11月17日 04:52 JST",
   "clouds": {
     "azure": [
       {
@@ -205,6 +205,26 @@
     ],
     "aws": [
       {
+        "title": "AWS WAF advanced rate-based rules are now available in AWS GovCloud (US), Thailand, and Mexico",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/waf-advanced-rate-rules-available/",
+        "summary": "AWS WAF advanced rate-based rules are now available in the Asia Pacific (Thailand), Mexico (Central), AWS GovCloud (US-East), and AWS GovCloud (US-West) Regions. Customers in these Regions can now…",
+        "date": "2026年11月16日",
+        "date_iso": "2026-11-16",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AgentCore runtime instances are now available in six more AWS Regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/agentcore-aws-regions/",
+        "summary": "Amazon Bedrock AgentCore runtime instances are now available in six additional AWS Regions: US West (N. California), Canada (Central), Europe (London), Europe (Paris), Europe (Stockholm), and Asia…",
+        "date": "2026年11月16日",
+        "date_iso": "2026-11-16",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
         "title": "Aurora PostgreSQL with express configuration now supported in CloudFormation",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aurora-postgresql-cloudformation/",
         "summary": "Aurora PostgreSQL now supports express configuration in AWS CloudFormation for infrastructure as code deployment. This launch enables you to automate the infrastructure deployment of your Aurora…",
@@ -383,29 +403,19 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "EC2 Image Builder console now integrates with the DevOps Agent for troubleshooting and resource creation",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/ec2-image-builder-devops-agent-integration",
-        "summary": "EC2 Image Builder now integrates with the AWS DevOps Agent directly in the Image Builder console, enabling you to troubleshoot failed image pipelines and create resources directly from the console…",
-        "date": "2026年11月12日",
-        "date_iso": "2026-11-12",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon FSx for Lustre lowers the entry cost of Intelligent-Tiering file systems by 75%",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/fsx-lustre-intelligent-tiering-lower-throughput/",
-        "summary": "Amazon FSx for Lustre is reducing the minimum provisioned throughput capacity and metadata IOPS on Intelligent-Tiering file systems by 75%, allowing you to use Intelligent-Tiering even more…",
-        "date": "2026年11月12日",
-        "date_iso": "2026-11-12",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "November 16, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#November_16_2026",
+        "summary": "Google Cloud Armor Feature Cloud Armor supports Autonomous System Numbers (ASNs), Network Threat Intelligence (NTI), and HTTP filtering in globally scoped edge security policies for Cloud CDN edge…",
+        "date": "2026年11月16日",
+        "date_iso": "2026-11-16",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "GCP"
+      },
       {
         "title": "November 15, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_15_2026",
@@ -419,7 +429,7 @@
       {
         "title": "November 14, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_14_2026",
-        "summary": "Google SecOps SOAR Announcement Release 6.3.106 is now available for all regions.",
+        "summary": "Access Approval Feature Service Usage is generally available ( GA ). Access Transparency Feature Service Usage is generally available ( GA ). Google SecOps SOAR Announcement Release 6.3.106 is now…",
         "date": "2026年11月14日",
         "date_iso": "2026-11-14",
         "category": "ai-tag",
@@ -592,16 +602,6 @@
         "summary": "AlloyDB for PostgreSQL Announcement The following AlloyDB AI and vector search features and improvements are generally available ( GA ): The alloydb_scann extension supports four-level tree (4LT)…",
         "date": "2026年10月28日",
         "date_iso": "2026-10-28",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "October 27, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_27_2026",
-        "summary": "AlloyDB for PostgreSQL Announcement The following AlloyDB AI functions and improvements are available in Preview : The ai.extract function lets you extract structured data from unstructured text…",
-        "date": "2026年10月27日",
-        "date_iso": "2026-10-27",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
