@@ -1,5 +1,5 @@
 {
-  "updated": "2026年11月16日 15:32 JST",
+  "updated": "2026年11月16日 20:57 JST",
   "clouds": {
     "azure": [
       {
@@ -619,13 +619,13 @@
         "tag": "OCI"
       },
       {
-        "title": "Enhanced Flow Runtime nodes and resource limits",
-        "link": "https://docs.oracle.com/iaas/releasenotes/internet-of-things/update-11102026.htm",
+        "title": "HeatWave: Dedicated MySQL Studio Tab Added and Telemetry Tab Renamed to Logs",
+        "link": "https://docs.oracle.com/iaas/releasenotes/mysql-database/heatwave-mysqlstudio-logs-nav-update.htm",
         "summary": "",
         "date": "2026年11月10日",
         "date_iso": "2026-11-10",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
+        "category": "database-tag",
+        "cat_label": "データベース",
         "tag": "OCI"
       },
       {
@@ -666,6 +666,16 @@
         "date_iso": "2026-11-10",
         "category": "ai-tag",
         "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Enhanced Flow Runtime nodes and resource limits",
+        "link": "https://docs.oracle.com/iaas/releasenotes/internet-of-things/update-11102026.htm",
+        "summary": "",
+        "date": "2026年11月10日",
+        "date_iso": "2026-11-10",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "OCI"
       },
       {
@@ -791,16 +801,6 @@
       {
         "title": "Sign and verify model artifact signatures",
         "link": "https://docs.oracle.com/iaas/releasenotes/data-science/artifact-signature.htm",
-        "summary": "",
-        "date": "2026年11月3日",
-        "date_iso": "2026-11-03",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Improved Role and Privilege Handling During Migration",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-dedicated/adbd-role-migration.htm",
         "summary": "",
         "date": "2026年11月3日",
         "date_iso": "2026-11-03",
