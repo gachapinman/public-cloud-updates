@@ -1,5 +1,5 @@
 {
-  "updated": "2026年11月17日 21:21 JST",
+  "updated": "2026年11月18日 03:45 JST",
   "clouds": {
     "azure": [
       {
@@ -205,6 +205,26 @@
     ],
     "aws": [
       {
+        "title": "AWS Security Hub extends unified security management to Google Cloud Platform",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/security-hub-gcp/",
+        "summary": "Today, AWS announces that AWS Security Hub now monitors Google Cloud Platform (GCP) resources, extending risk analytics, cloud security posture management, vulnerability management, and security…",
+        "date": "2026年11月17日",
+        "date_iso": "2026-11-17",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS IAM announces Access Troubleshooter to debug access denied errors",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/iam-access-troubleshooter/",
+        "summary": "AWS Identity and Access Management (IAM) introduces Access Troubleshooter , a new capability that gives you visibility into the full authorization context behind access denied errors so you can…",
+        "date": "2026年11月17日",
+        "date_iso": "2026-11-17",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon ECR now replicates image deletions across regions and accounts",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/replication-deletes-amazon-ecr",
         "summary": "Amazon Elastic Container Registry (Amazon ECR) now supports replicating image deletions and tag removals to your replication destinations. Previously, ECR replication copied images to destination…",
@@ -383,29 +403,19 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "Aurora PostgreSQL with express configuration now supported in CloudFormation",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aurora-postgresql-cloudformation/",
-        "summary": "Aurora PostgreSQL now supports express configuration in AWS CloudFormation for infrastructure as code deployment. This launch enables you to automate the infrastructure deployment of your Aurora…",
-        "date": "2026年11月14日",
-        "date_iso": "2026-11-14",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "Grok 4.7 now available on Kiro in AWS GovCloud (US)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/kiro-grok-4-7-aws-govcloud-us/",
-        "summary": "A new model is now available in the Kiro IDE and CLI for the AWS GovCloud (US) Regions. Grok 4.7 is SpaceXSI's most capable model for coding and knowledge work. It's built to stay focused through…",
-        "date": "2026年11月13日",
-        "date_iso": "2026-11-13",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "November 17, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#November_17_2026",
+        "summary": "Model Armor Feature You can use custom organization policies to ensure that updated Model Armor FloorSetting resources enforce required filters, such as responsible AI or prompt injection and…",
+        "date": "2026年11月17日",
+        "date_iso": "2026-11-17",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
       {
         "title": "November 16, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_16_2026",
@@ -595,19 +605,19 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
-      },
-      {
-        "title": "October 28, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_28_2026",
-        "summary": "AlloyDB for PostgreSQL Announcement The following AlloyDB AI and vector search features and improvements are generally available ( GA ): The alloydb_scann extension supports four-level tree (4LT)…",
-        "date": "2026年10月28日",
-        "date_iso": "2026-10-28",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
       }
     ],
     "oci": [
+      {
+        "title": "Updates to OCI Kubernetes Engine (OKE) cluster add-ons",
+        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-Add-on-release-notes-Oct-2026-Release-Note.htm",
+        "summary": "",
+        "date": "2026年11月17日",
+        "date_iso": "2026-11-17",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "OCI"
+      },
       {
         "title": "Support for Kubernetes version 1.37.1",
         "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-K8s-1-37-1-support.htm",
@@ -796,16 +806,6 @@
         "date_iso": "2026-11-04",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Client ID Metadata Document (CIMD) Support for Database Tools MCP Server",
-        "link": "https://docs.oracle.com/iaas/releasenotes/database-tools/cimd.htm",
-        "summary": "",
-        "date": "2026年11月3日",
-        "date_iso": "2026-11-03",
-        "category": "database-tag",
-        "cat_label": "データベース",
         "tag": "OCI"
       }
     ]
