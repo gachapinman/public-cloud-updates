@@ -1,5 +1,5 @@
 {
-  "updated": "2026年11月17日 04:52 JST",
+  "updated": "2026年11月17日 16:56 JST",
   "clouds": {
     "azure": [
       {
@@ -205,9 +205,169 @@
     ],
     "aws": [
       {
+        "title": "Amazon ECR now replicates image deletions across regions and accounts",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/replication-deletes-amazon-ecr",
+        "summary": "Amazon Elastic Container Registry (Amazon ECR) now supports replicating image deletions and tag removals to your replication destinations. Previously, ECR replication copied images to destination…",
+        "date": "2026年11月17日",
+        "date_iso": "2026-11-17",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EBS now supports associating additional KMS keys with snapshots",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/ebs-snapshots-associate-kms-keys/",
+        "summary": "Amazon Elastic Block Store (EBS) now supports associating additional AWS Key Management Service (KMS) keys with EBS snapshots. This new capability enables you to share and copy encrypted snapshots…",
+        "date": "2026年11月17日",
+        "date_iso": "2026-11-17",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon S3 Vectors now supports hybrid search combining vector and full text for more relevant search results",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/s3-vectors-hybrid-search/",
+        "summary": "Amazon S3 Vectors now supports hybrid search that combines vector similarity search with full-text search within a single query.&nbsp;By combining semantic meaning and exact term matching into a…",
+        "date": "2026年11月17日",
+        "date_iso": "2026-11-17",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Redshift now supports multi-statement transactions, conflict resolution, and time travel for Apache Iceberg",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/redshift-time-travel-multi-statement",
+        "summary": "Amazon Redshift now supports multi-statement transactions, automatic write-conflict resolution, and time travel for Apache Iceberg tables. You can run multi-step, concurrent transformation pipelines…",
+        "date": "2026年11月17日",
+        "date_iso": "2026-11-17",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS DevOps Agent is now available in AWS GovCloud (US-West)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-devops-agent-govcloud-west/",
+        "summary": "Now available in AWS GovCloud (US-West), AWS DevOps Agent is your always-available operations teammate that resolves and proactively prevents incidents, optimizes application reliability and…",
+        "date": "2026年11月17日",
+        "date_iso": "2026-11-17",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Connect Health medical coding is now available in public preview",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-connect-health-medical-coding/",
+        "summary": "Today, AWS announces the public preview of medical coding in Amazon Connect Health , a HIPAA-eligible AI service that works alongside healthcare teams across patient engagement and point-of-care…",
+        "date": "2026年11月17日",
+        "date_iso": "2026-11-17",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Connect Customer agent assist now supports interactive responses",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/Connect-Custom-agent-interactive-responses",
+        "summary": "Amazon Connect Customer agent assist now supports interactive components, including cards, carousels, buttons, and input fields. The AI agent analyzes conversation context in real time, recommends…",
+        "date": "2026年11月17日",
+        "date_iso": "2026-11-17",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS KMS now supports key sharing with AWS Resource Access Manager",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/kms-key-sharing-resource-access-manager/",
+        "summary": "AWS Key Management Service (KMS) now integrates with AWS Resource Access Manager (RAM), giving you a simpler and more consistent way to share KMS keys across your AWS accounts, within your…",
+        "date": "2026年11月17日",
+        "date_iso": "2026-11-17",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Set up, connect, and govern AI agents faster with Amazon WorkSpaces",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-workspaces-AI-agents-connect-govern",
+        "summary": "Building AI agents has become essential. Across your organization, teams want agents to handle ERP transactions, work through a claims queue, and operate the same applications your people use every…",
+        "date": "2026年11月17日",
+        "date_iso": "2026-11-17",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Marketplace Metering Service now supports decimal usage quantities",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-marketplace-metering-service-decimal-usage-quantities/",
+        "summary": "AWS Marketplace Metering Service now supports decimal usage quantities in the MeterUsage and BatchMeterUsage APIs. Previously, AWS Marketplace sellers reported usage to both APIs in whole numbers,…",
+        "date": "2026年11月17日",
+        "date_iso": "2026-11-17",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Secrets Manager adds managed external secrets support for Auth0, Okta, and Palo Alto Networks",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/secrets-manager-managed-external-secrets-auth0-okta-palo-alto/",
+        "summary": "AWS Secrets Manager now supports managed external secrets for Auth0, Okta, and Palo Alto Networks. Long-lived credentials that are not rotated increase the risk of unauthorized access if exposed.…",
+        "date": "2026年11月16日",
+        "date_iso": "2026-11-16",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "IAM Identity Center now supports VPC endpoints and network access controls",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/iam-identity-center-vpc-endpoints/",
+        "summary": "AWS IAM Identity Center now supports interface VPC endpoints powered by AWS PrivateLink and network access controls, enabling you to keep IAM Identity Center traffic private and restrict which…",
+        "date": "2026年11月16日",
+        "date_iso": "2026-11-16",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon SageMaker AI now supports KV cache-aware routing for real-time inference endpoints",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-kv-cache-routing/",
+        "summary": "Amazon SageMaker AI now supports KV cache-aware routing for real-time inference endpoints, enabling you to reduce time to first token for LLM workloads with long or repeated prompts. Serving engines…",
+        "date": "2026年11月16日",
+        "date_iso": "2026-11-16",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Backup adds logically air-gapped vault support for Amazon RDS",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-backup-air-gapped-vault-rds/",
+        "summary": "AWS Backup logically air-gapped vault now supports Amazon Relational Database Service (Amazon RDS) DB instances. Logically air-gapped vaults are a type of AWS Backup vault that stores immutable,…",
+        "date": "2026年11月16日",
+        "date_iso": "2026-11-16",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
         "title": "AWS WAF advanced rate-based rules are now available in AWS GovCloud (US), Thailand, and Mexico",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/waf-advanced-rate-rules-available/",
         "summary": "AWS WAF advanced rate-based rules are now available in the Asia Pacific (Thailand), Mexico (Central), AWS GovCloud (US-East), and AWS GovCloud (US-West) Regions. Customers in these Regions can now…",
+        "date": "2026年11月16日",
+        "date_iso": "2026-11-16",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS announces Networking Flexible Cost Allocation for Amazon VPC",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/networking-flexible-cost-allocation/",
+        "summary": "Amazon Virtual Private Cloud (VPC) now supports Networking Flexible Cost Allocation (FCA), which splits shared networking costs by the resources that actually drive them, so you can see what each…",
+        "date": "2026年11月16日",
+        "date_iso": "2026-11-16",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS IAM Identity Center now supports ForceAuthn in SAML requests",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/iam-identity-center-reauth/",
+        "summary": "AWS IAM Identity Center now gives you the option to require workforce users to re-authenticate with your external identity provider (IdP) each time their user interactive session expires. By default,…",
         "date": "2026年11月16日",
         "date_iso": "2026-11-16",
         "category": "ai-tag",
@@ -243,177 +403,17 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon RDS for Oracle reduces downtime for automatic minor version upgrades and scheduled maintenance",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-oracle-reduces-maintenance-downtime-for-amvu-scheduled-upgrades/",
-        "summary": "Amazon Relational Database Service (Amazon RDS) for Oracle now reduces downtime for automatic minor version upgrades, as well as minor version upgrades and operating system updates scheduled for your…",
-        "date": "2026年11月13日",
-        "date_iso": "2026-11-13",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Security Hub CSPM now supports centralized configuration with AWS Organizations declarative policies",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/security-hub-cspm-org-policies/",
-        "summary": "AWS Security Hub CSPM now supports AWS Organizations declarative policies. You can use them to enable Security Hub CSPM across all accounts and Regions in your organization and to define which…",
-        "date": "2026年11月13日",
-        "date_iso": "2026-11-13",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Bedrock AgentCore Identity now supports OAuth 2.0 discovery URLs",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/bedrock-agentcore-oauth2-discovery/",
-        "summary": "Amazon Bedrock AgentCore Identity now supports OAuth 2.0 authorization server discovery URLs for both inbound JWT authorization and outbound OAuth credential providers. This update enables developers…",
-        "date": "2026年11月13日",
-        "date_iso": "2026-11-13",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Secrets Manager now supports cross-account replication",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/secrets-manager-cross-account/",
-        "summary": "AWS Secrets Manager now supports cross-account replication, enabling you to maintain a synchronized copy of a primary secret in a secondary AWS account for cross-account access, backup, and disaster…",
-        "date": "2026年11月13日",
-        "date_iso": "2026-11-13",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SageMaker Unified Studio now supports layout customization for designations",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-studio-layout-customization/",
-        "summary": "Amazon SageMaker Unified Studio now supports layout customization, a new capability that gives domain administrators control over which tools and left navigation items project members see based on…",
-        "date": "2026年11月13日",
-        "date_iso": "2026-11-13",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Batch on Amazon EKS adds Linux capabilities, seccomp, and pod-level settings",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-batch-eks-security-context/",
-        "summary": "AWS Batch now supports additional Kubernetes security context settings in Amazon EKS job definitions, including Linux capabilities, seccomp profiles, and pod-level settings.&nbsp;For EKS clusters…",
-        "date": "2026年11月13日",
-        "date_iso": "2026-11-13",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Marketplace now supports VAT credit notes for deemed supply refunds",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-marketplace-vat-credit-notes/",
-        "summary": "AWS Marketplace sellers can now submit Value Added Tax (VAT) credit notes for refunded deemed supply transactions through a self-service experience in AWS Partner Central. Previously, VAT was…",
-        "date": "2026年11月13日",
-        "date_iso": "2026-11-13",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Systems Manager simplifies onboarding of Google Cloud VMs for centralized management",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/systems-manager-google-cloud-support/",
-        "summary": "AWS Systems Manager Cloud Connector now extends simplified multicloud onboarding support to Google Cloud, making it easy to connect your existing Google Cloud VMs to Systems Manager for centralized…",
-        "date": "2026年11月13日",
-        "date_iso": "2026-11-13",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Cognito now supports OAuth 2.0 token exchange",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/cognito-token-exchange/",
-        "summary": "Amazon Cognito now supports OAuth 2.0 token exchange (RFC 8693). Amazon Cognito helps you add sign-up, sign-in, and access control to your web applications, mobile applications, and AI agents. With…",
-        "date": "2026年11月13日",
-        "date_iso": "2026-11-13",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Aurora and RDS now support Graviton5-based R9g database instances",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-aurora-rds-postgresql-mysql-mariadb-r9g-instances/",
-        "summary": "AWS Graviton5-based R9g database instances are now generally available for Amazon Aurora with PostgreSQL compatibility and MySQL compatibility, and for Amazon RDS for PostgreSQL, MySQL, and MariaDB.…",
-        "date": "2026年11月13日",
-        "date_iso": "2026-11-13",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon MWAA now supports fine-grained access control with IAM Identity Center and multi-team environments",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/mwaa-fine-grained-access-control/",
-        "summary": "Amazon Managed Workflows for Apache Airflow (Amazon MWAA) now supports fine-grained access control, giving administrators precise control over who can access which workflows and resources in an…",
-        "date": "2026年11月13日",
-        "date_iso": "2026-11-13",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Apache Airflow UI available in Amazon MWAA Serverless",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/airflow-ui-for-mwaa-serverless/",
-        "summary": "Amazon MWAA Serverless provides the native Apache Airflow UI for your workflows. You can browse workflows, inspect workflow runs and task instances, read task logs, view a workflow's source and…",
-        "date": "2026年11月13日",
-        "date_iso": "2026-11-13",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Connect Customer supports merging and linking related cases in the agent workspace",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-connect-cases-merge-link/",
-        "summary": "Amazon Connect Customer now lets agents merge and link related cases in the agent workspace, so they can resolve customer issues faster and respond consistently. When a customer contacts a business…",
-        "date": "2026年11月13日",
-        "date_iso": "2026-11-13",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SNS now supports push notifications in four additional AWS Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-sns-push-four-regions/",
-        "summary": "Amazon Simple Notification Service (Amazon SNS) now supports sending push notifications in the Asia Pacific (Hyderabad), Asia Pacific (Melbourne), Europe (Zurich), and AWS GovCloud (US-East) Regions.…",
-        "date": "2026年11月13日",
-        "date_iso": "2026-11-13",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Quick enhances granular governance with the ability to restrict structured data sources",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-structured-data-source-restrictions/",
-        "summary": "Today, AWS Quick is announcing the general availability of structured data connector restrictions through custom permissions. This capability gives administrators granular control over which types of…",
-        "date": "2026年11月12日",
-        "date_iso": "2026-11-12",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Route 53 Domains now supports self-service restore for expired and deleted domains",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/route-53-domains-self-service-restore/",
-        "summary": "Amazon Route 53 Domains now lets you restore an expired or recently deleted domain yourself, using the Amazon Route 53 console, AWS CLI, or AWS SDKs. Previously, restoring a domain required a request…",
-        "date": "2026年11月12日",
-        "date_iso": "2026-11-12",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
       }
     ],
     "gcp": [
       {
         "title": "November 16, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_16_2026",
-        "summary": "Google Cloud Armor Feature Cloud Armor supports Autonomous System Numbers (ASNs), Network Threat Intelligence (NTI), and HTTP filtering in globally scoped edge security policies for Cloud CDN edge…",
+        "summary": "App Hub Feature App Hub now supports multi-regional applications in the us and eu multi-regions, letting you group multi-regional and regional resources across regions within a single geographic…",
         "date": "2026年11月16日",
         "date_iso": "2026-11-16",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "GCP"
       },
       {
@@ -469,7 +469,7 @@
       {
         "title": "November 10, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_10_2026",
-        "summary": "API Gateway Feature TLS 1.3 for connections to backends API Gateway is rolling out support for TLS 1.3 on connections to backend services. Once the rollout reaches a gateway, it uses TLS 1.3 with…",
+        "summary": "API Gateway Feature MCP method and tool name in request logs API Gateway request logs now include the Model Context Protocol (MCP) method of each MCP request, and the tool name of each tools/call…",
         "date": "2026年11月10日",
         "date_iso": "2026-11-10",
         "category": "compute-tag",
