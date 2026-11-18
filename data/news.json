@@ -1,5 +1,5 @@
 {
-  "updated": "2026年11月18日 21:07 JST",
+  "updated": "2026年11月19日 03:24 JST",
   "clouds": {
     "azure": [
       {
@@ -205,6 +205,46 @@
     ],
     "aws": [
       {
+        "title": "Amazon RDS for MySQL supports MySQL minor version 8.4.13",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-mysql-8413-available/",
+        "summary": "Starting today, Amazon Relational Database Service (Amazon RDS) for MySQL supports MySQL minor version 8.4.13, the latest minor released by community MySQL. We recommend upgrading to the newer minor…",
+        "date": "2026年11月19日",
+        "date_iso": "2026-11-19",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Cognito now supports point-in-time recovery",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/cognito-point-in-time-recovery/",
+        "summary": "Amazon Cognito now supports point-in-time recovery (PITR), so you can restore the user data in a user pool to an earlier time. Amazon Cognito helps you implement secure sign-in and access control for…",
+        "date": "2026年11月19日",
+        "date_iso": "2026-11-19",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon RDS now supports fast storage volume initialization",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-fast-storage-volume-initialization/",
+        "summary": "Amazon RDS now initializes storage volumes faster when you perform a point-in-time restore (PITR), create a read replica, or convert a Single-AZ instance to Multi-AZ. Each of these operations creates…",
+        "date": "2026年11月19日",
+        "date_iso": "2026-11-19",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Control Tower now supports existing Amazon S3 bucket for log delivery",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/control-tower-existing-s3-log-bucket/",
+        "summary": "AWS Control Tower now lets you use an existing Amazon S3 bucket in your landing zone to store AWS Config and AWS CloudTrail logs. Previously, AWS Control Tower required you to use the Amazon S3…",
+        "date": "2026年11月18日",
+        "date_iso": "2026-11-18",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon WorkSpaces Applications adds support for smart card redirection",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-workspaces-applications-smart-card-redirection/",
         "summary": "Amazon WorkSpaces Applications now supports smart card redirection on single-session and multi-session fleets, so users can access the smart card connected to their local device from applications…",
@@ -355,57 +395,27 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon OpenSearch UI is now available in the Africa (Cape Town) Region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/opensearch-ui-available-africa-cape-town-region",
-        "summary": "Amazon OpenSearch UI has expanded to the AWS Africa (Cape Town) Region, bringing availability to 25 AWS Regions. OpenSearch UI provides a single endpoint to query, visualize, and analyze data across…",
+        "title": "Amazon OpenSearch Serverless now supports ingest pipelines",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/opensearch-serverless-support-ingest-pipelines",
+        "summary": "Amazon OpenSearch Serverless now supports ingest pipelines, so you can clean, enrich, and vectorize documents inside your collection as they are indexed, without running separate preprocessing…",
         "date": "2026年11月18日",
         "date_iso": "2026-11-18",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Bedrock AgentCore now offers free monthly web search queries",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/bedrock-agentcore-free-web-search-queries/",
-        "summary": "Amazon Bedrock AgentCore now offers 5,000 free web search queries per month through the Web Search Tool in AgentCore gateway and the Web Search API. AgentCore helps developers build, deploy, and…",
-        "date": "2026年11月18日",
-        "date_iso": "2026-11-18",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Config announces managed conformance packs",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-config-managed-conformance-packs",
-        "summary": "AWS Config now offers managed conformance packs. AWS builds and maintains these packs for specific compliance and governance frameworks. When you deploy one, you choose a framework, and AWS Config…",
-        "date": "2026年11月18日",
-        "date_iso": "2026-11-18",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Aurora DSQL now offers SQL statement statistics in Database Insights",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aurora-dsql-statement-statistics/",
-        "summary": "Amazon Aurora DSQL now records statistics for each SQL statement your cluster runs and publishes them as Amazon CloudWatch OpenTelemetry (OTel) metrics. You can view them in Amazon CloudWatch…",
-        "date": "2026年11月18日",
-        "date_iso": "2026-11-18",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EVS launches support for r7i.metal instances, external principal storage, and an Agent Skill",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-evs-r7i-agent-skill-support/",
-        "summary": "Today, we are announcing that Amazon Elastic VMware Service (Amazon EVS) now supports the r7i.metal-24xl and r7i.metal-48xl Amazon Elastic&nbsp;Compute Cloud (EC2) bare metal instance types for…",
-        "date": "2026年11月18日",
-        "date_iso": "2026-11-18",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "AWS"
       }
     ],
     "gcp": [
+      {
+        "title": "November 18, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#November_18_2026",
+        "summary": "Apigee Edge for Private Cloud Fixed Resolved the following issues in Apigee Edge for Private Cloud 4.53.01.03: Fixed an issue where API proxy deployments that use the OASValidation policy failed with…",
+        "date": "2026年11月18日",
+        "date_iso": "2026-11-18",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
       {
         "title": "November 17, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_17_2026",
@@ -592,16 +602,6 @@
         "summary": "Agent Registry Feature Agent Registry supports cross-project management boundaries ( Preview ), letting you centrally discover, search, and govern AI agents, Model Context Protocol (MCP) servers, and…",
         "date": "2026年10月30日",
         "date_iso": "2026-10-30",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "October 29, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_29_2026",
-        "summary": "AlloyDB for PostgreSQL Feature AlloyDB AI adds pre-registered support for the following Gemini models in version 1.6.5 and later of the google_ml_integration extension: gemini-3.1-flash-lite…",
-        "date": "2026年10月29日",
-        "date_iso": "2026-10-29",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
