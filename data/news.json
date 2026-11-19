@@ -1,7 +1,17 @@
 {
-  "updated": "2026年11月19日 21:01 JST",
+  "updated": "2026年11月20日 03:41 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Public Preview: Database Agent for Azure Database for PostgreSQL",
+        "link": "https://azure.microsoft.com/updates?id=579579",
+        "summary": "Database Agent helps you detect, understand, and respond to database health and performance issues more quickly in Azure Database for PostgreSQL. It proactively monitors database health to identify…",
+        "date": "2026年11月20日",
+        "date_iso": "2026-11-20",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AZURE"
+      },
       {
         "title": "Public Preview: AI bot ruleset for Azure Front Door Premium WAF",
         "link": "https://azure.microsoft.com/updates?id=581604",
@@ -191,19 +201,69 @@
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Database Agent for SQL with contextual Copilot",
-        "link": "https://azure.microsoft.com/updates?id=580091",
-        "summary": "Database Agent now gives you AI-generated, evidence-grounded recommendations for detected database issues, including why the issue matters, the likely cause, and the recommended next step.…",
-        "date": "2026年11月18日",
-        "date_iso": "2026-11-18",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Amazon Aurora DSQL now supports multi-Region peering across continents",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aurora-dsql-intercontinental-multi-region-clusters/",
+        "summary": "Amazon Aurora DSQL now lets you create multi-Region clusters whose Regions are on different continents, such as US East (N. Virginia) and Europe (Ireland). Until now, the Regions in a multi-Region…",
+        "date": "2026年11月20日",
+        "date_iso": "2026-11-20",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Marketplace now supports buyer contact sharing at subscription",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/marketplace-buyer-contact-sharing/",
+        "summary": "AWS Marketplace now supports buyer contact sharing. When customers subscribe to a third-party product, they can share their contact information with the seller. This helps sellers onboard new…",
+        "date": "2026年11月19日",
+        "date_iso": "2026-11-19",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Systems Manager Parameter Store raises API throughput limits",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/parameter-store-raises-api-throughput-limits/",
+        "summary": "AWS Systems Manager Parameter Store &nbsp;has increased the default throughput limits for five API operations. For accounts that have turned on the higher throughput setting, the quotas have changed…",
+        "date": "2026年11月19日",
+        "date_iso": "2026-11-19",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Transform supports optimized storage for server migration",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-transform-optimized-storage/",
+        "summary": "AWS Transform for migrations now recommends the optimized storage type and configuration for every server you migrate, so you no longer do it server by server. Building on recent storage assessment…",
+        "date": "2026年11月19日",
+        "date_iso": "2026-11-19",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Marketplace now supports buyer approval workflows",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/marketplace-buyer-approvals/",
+        "summary": "Today, AWS Marketplace announces the general availability of buyer approvals. This lets you decide which AWS Marketplace purchases need sign-off, who approves them, and where approval happens. You…",
+        "date": "2026年11月19日",
+        "date_iso": "2026-11-19",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Connect Customer enables Cases by default for new instances",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/connect-cases-enabled-by-default/",
+        "summary": "Amazon Connect Customer enables Cases by default for new instances, so operations teams can start tracking and resolving customer issues on day one without any setup work. New instances come with…",
+        "date": "2026年11月19日",
+        "date_iso": "2026-11-19",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
       {
         "title": "AWS Transform automates source and migration target actions to accelerate cutover",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-transform-automates-source-actions/",
@@ -305,16 +365,6 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon Cognito now supports point-in-time recovery",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/cognito-point-in-time-recovery/",
-        "summary": "Amazon Cognito now supports point-in-time recovery (PITR), so you can restore the user data in a user pool to an earlier time. Amazon Cognito helps you implement secure sign-in and access control for…",
-        "date": "2026年11月19日",
-        "date_iso": "2026-11-19",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
         "title": "Amazon RDS for MySQL now supports MySQL major version 9.7",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-mysql-974-available/",
         "summary": "Starting today, Amazon RDS for MySQL supports MySQL major version 9.7, the latest Long-Term Support release from MySQL community. Amazon RDS for MySQL 9.7 launches with community MySQL 9.7.4. This…",
@@ -335,6 +385,16 @@
         "tag": "AWS"
       },
       {
+        "title": "Amazon Cognito now supports point-in-time recovery",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/cognito-point-in-time-recovery/",
+        "summary": "Amazon Cognito now supports point-in-time recovery (PITR), so you can restore the user data in a user pool to an earlier time. Amazon Cognito helps you implement secure sign-in and access control for…",
+        "date": "2026年11月19日",
+        "date_iso": "2026-11-19",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon CloudFront Functions now supports network calls",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudfront-functions-network-calls/",
         "summary": "Amazon CloudFront Functions can now make network calls and act on the response during a request. CloudFront Functions runs lightweight JavaScript at CloudFront edge locations to customize requests…",
@@ -343,77 +403,27 @@
         "category": "network-tag",
         "cat_label": "ネットワーク",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon RDS now supports fast storage volume initialization",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-fast-storage-volume-initialization/",
-        "summary": "Amazon RDS now initializes storage volumes faster when you perform a point-in-time restore (PITR), create a read replica, or convert a Single-AZ instance to Multi-AZ. Each of these operations creates…",
-        "date": "2026年11月19日",
-        "date_iso": "2026-11-19",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Clean Rooms supports writing PySpark job results to intermediate tables",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-clean-rooms-pyspark-intermediate-table",
-        "summary": "AWS Clean Rooms now supports intermediate tables for PySpark jobs , offering increased flexibility for organizations running complex, multi-step analytical workflows with their partners. With this…",
-        "date": "2026年11月19日",
-        "date_iso": "2026-11-19",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Lambda now supports customer-managed runtimes, giving platform teams centralized control over runtime contents and…",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-lambda-customer-managed-runtimes/",
-        "summary": "AWS Lambda now supports customer-managed runtimes for Lambda Event Functions (formerly Lambda functions). Customer-managed runtimes are a standalone resource type that fully decouples runtime…",
-        "date": "2026年11月19日",
-        "date_iso": "2026-11-19",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Aurora DSQL now supports audit logging",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-aurora-dsql-audit-logging/",
-        "summary": "Amazon Aurora DSQL now supports database-internal audit logging, a fully managed capability that captures SQL statements executed on your cluster. Previously, AWS CloudTrail recorded who connected to…",
-        "date": "2026年11月18日",
-        "date_iso": "2026-11-18",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon ElastiCache now supports distributed KV caching for self-hosted LLM inference",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/announcing-distributed-kv-caching-for-self-hosted-llms-with-amazon-elasticache/",
-        "summary": "Amazon ElastiCache for Valkey now offers fully managed distributed KV caching, a new capability that reduces self-hosted large language model (LLM) inference costs by up to 40% and time to first…",
-        "date": "2026年11月18日",
-        "date_iso": "2026-11-18",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon CloudWatch simplifies network performance monitoring for your Amazon Virtual Private Cloud (VPC)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudwatch-network-path-monitoring/",
-        "summary": "Amazon CloudWatch Network Monitoring now allows you to monitor the health of the AWS network paths that your workloads take by using performance monitors. Performance monitors provide near real-time…",
-        "date": "2026年11月18日",
-        "date_iso": "2026-11-18",
-        "category": "network-tag",
-        "cat_label": "ネットワーク",
-        "tag": "AWS"
       }
     ],
     "gcp": [
       {
+        "title": "November 19, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#November_19_2026",
+        "summary": "Cloud Load Balancing Feature The DENY_BY_DEFAULT action for authorization policies is generally available (GA) for regional external Application Load Balancers, regional internal Application Load…",
+        "date": "2026年11月19日",
+        "date_iso": "2026-11-19",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "November 18, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_18_2026",
-        "summary": "Apigee Edge for Private Cloud Announcement Released Apigee Edge for Private Cloud 4.53.01.03. For the list of updated RPM packages and the patch update procedure, see 4.53.01.03 - Edge for Private…",
+        "summary": "API Gateway Feature Model routers can route to Google API endpoints on different hosts A model router can now reference Google API backends on different hosts, for example the global…",
         "date": "2026年11月18日",
         "date_iso": "2026-11-18",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
         "tag": "GCP"
       },
       {
@@ -595,29 +605,9 @@
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "GCP"
-      },
-      {
-        "title": "October 30, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_30_2026",
-        "summary": "Agent Registry Feature Agent Registry supports cross-project management boundaries ( Preview ), letting you centrally discover, search, and govern AI agents, Model Context Protocol (MCP) servers, and…",
-        "date": "2026年10月30日",
-        "date_iso": "2026-10-30",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
       }
     ],
     "oci": [
-      {
-        "title": "Policy-based file system tiering with Object Storage",
-        "link": "https://docs.oracle.com/iaas/releasenotes/lustre/object-tiering.htm",
-        "summary": "",
-        "date": "2026年11月18日",
-        "date_iso": "2026-11-18",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
-        "tag": "OCI"
-      },
       {
         "title": "OCI Kubernetes Engine (OKE) support for provisioning block volumes in cluster placement groups",
         "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng_CPG-based-block-volume-provisioning.htm",
@@ -634,6 +624,36 @@
         "summary": "",
         "date": "2026年11月18日",
         "date_iso": "2026-11-18",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "OCI"
+      },
+      {
+        "title": "Policy-based file system tiering with Object Storage",
+        "link": "https://docs.oracle.com/iaas/releasenotes/lustre/object-tiering.htm",
+        "summary": "",
+        "date": "2026年11月18日",
+        "date_iso": "2026-11-18",
+        "category": "storage-tag",
+        "cat_label": "ストレージ",
+        "tag": "OCI"
+      },
+      {
+        "title": "Oracle Autonomous AI Vector Databases",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-11-vec-db.htm",
+        "summary": "",
+        "date": "2026年11月17日",
+        "date_iso": "2026-11-17",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Update for Oracle-Managed Heterogeneous Connectivity Database Links",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-11-update-db-link.htm",
+        "summary": "",
+        "date": "2026年11月17日",
+        "date_iso": "2026-11-17",
         "category": "database-tag",
         "cat_label": "データベース",
         "tag": "OCI"
@@ -679,26 +699,6 @@
         "tag": "OCI"
       },
       {
-        "title": "HeatWave: Dedicated MySQL Studio Tab Added and Telemetry Tab Renamed to Logs",
-        "link": "https://docs.oracle.com/iaas/releasenotes/mysql-database/heatwave-mysqlstudio-logs-nav-update.htm",
-        "summary": "",
-        "date": "2026年11月10日",
-        "date_iso": "2026-11-10",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "OCI"
-      },
-      {
-        "title": "Oracle Cloud Migrations supports ARM migrations for AWS EC2 instances",
-        "link": "https://docs.oracle.com/iaas/releasenotes/cloud-migration/ocm_aws_arm_migration.htm",
-        "summary": "",
-        "date": "2026年11月10日",
-        "date_iso": "2026-11-10",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
         "title": "AI-Assisted Queries for Table Hyperlinks",
         "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-11-ai-table-hyperlink.htm",
         "summary": "",
@@ -726,6 +726,26 @@
         "date_iso": "2026-11-10",
         "category": "ai-tag",
         "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "HeatWave: Dedicated MySQL Studio Tab Added and Telemetry Tab Renamed to Logs",
+        "link": "https://docs.oracle.com/iaas/releasenotes/mysql-database/heatwave-mysqlstudio-logs-nav-update.htm",
+        "summary": "",
+        "date": "2026年11月10日",
+        "date_iso": "2026-11-10",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "OCI"
+      },
+      {
+        "title": "Oracle Cloud Migrations supports ARM migrations for AWS EC2 instances",
+        "link": "https://docs.oracle.com/iaas/releasenotes/cloud-migration/ocm_aws_arm_migration.htm",
+        "summary": "",
+        "date": "2026年11月10日",
+        "date_iso": "2026-11-10",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "OCI"
       },
       {
@@ -786,26 +806,6 @@
         "date_iso": "2026-11-05",
         "category": "database-tag",
         "cat_label": "データベース",
-        "tag": "OCI"
-      },
-      {
-        "title": "Unified Onboarding for Database Management and Ops Insights",
-        "link": "https://docs.oracle.com/iaas/releasenotes/operations-insights/unified-onboarding-dbm-opsi.htm",
-        "summary": "",
-        "date": "2026年11月5日",
-        "date_iso": "2026-11-05",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "OCI"
-      },
-      {
-        "title": "Import DeepSeek V4.1 Flash 1017 into OCI Generative AI",
-        "link": "https://docs.oracle.com/iaas/releasenotes/generative-ai/deepseek-v4-1-flash-1017.htm",
-        "summary": "",
-        "date": "2026年11月5日",
-        "date_iso": "2026-11-05",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "OCI"
       }
     ]
