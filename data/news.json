@@ -1,5 +1,5 @@
 {
-  "updated": "2026年11月20日 21:04 JST",
+  "updated": "2026年11月21日 03:01 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "November 20, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#November_20_2026",
+        "summary": "App Engine flexible environment Java Security The following runtime language contains important security updates: Java 17 and later : 17.0.21.1+2 , 21.0.13.1+2 , 25.0.5.1+2 Take immediate action by…",
+        "date": "2026年11月20日",
+        "date_iso": "2026-11-20",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "November 19, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_19_2026",
         "summary": "Agent Registry Feature Agent Registry supports Model Context Protocol (MCP) tool protocol-level metadata, including Identity-Aware Proxy (IAP) policy hints for tool enablement and human-in-the-loop…",
@@ -592,16 +602,6 @@
         "summary": "Agent Platform Workbench Change 20261101-2230-rc0 Release Change 20261101-2230-rc0 Release Change Installed latest packages from upstream dependencies. Change Installed latest packages from upstream…",
         "date": "2026年11月1日",
         "date_iso": "2026-11-01",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "GCP"
-      },
-      {
-        "title": "October 31, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#October_31_2026",
-        "summary": "Google SecOps Feature Basic Mode search This feature is in public preview. The SIEM Search page now provides two search-execution modes: Basic Mode and Advanced Mode . Basic Mode (the default option)…",
-        "date": "2026年10月31日",
-        "date_iso": "2026-10-31",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "GCP"
