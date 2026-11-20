@@ -1,5 +1,5 @@
 {
-  "updated": "2026年11月20日 16:18 JST",
+  "updated": "2026年11月20日 21:04 JST",
   "clouds": {
     "azure": [
       {
@@ -205,6 +205,26 @@
     ],
     "aws": [
       {
+        "title": "Announcing the general availability of a new AWS Local Zone in Bogotá, Colombia",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-local-zone-bogota-colombia/",
+        "summary": "Today, AWS announces the general availability of a new Local Zone in Bogotá, Colombia, bringing AWS infrastructure closer to end users for applications that require single-digit millisecond latency.…",
+        "date": "2026年11月20日",
+        "date_iso": "2026-11-20",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS DevOps Agent now supports Slack code channels and Microsoft Teams two-way conversations",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-devops-agent-slack-code-channels-teams-two-way/",
+        "summary": "AWS DevOps Agent now supports dedicated Slack code channels and two-way conversations in Microsoft Teams, so on-call engineers and DevOps teams can investigate and resolve incidents where they…",
+        "date": "2026年11月20日",
+        "date_iso": "2026-11-20",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
         "title": "AWS Marketplace now supports agentic payments with AgentCore",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/marketplace-agentic-payments-agentcore/",
         "summary": "AWS Marketplace now supports agentic payments over the x402 protocol, so AI agents can discover and buy select products and pay per request in US dollars through AgentCore payments, part of Amazon…",
@@ -382,26 +402,6 @@
         "date_iso": "2026-11-20",
         "category": "security-tag",
         "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Partner Central now supports AI-assisted listing experience for product, services, and solutions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/partner-central-ai-listing/",
-        "summary": "AWS Marketplace search, Agent Mode, and AWS sales teams use listings to recommend partner offerings to AWS customers. Partners who sell software and services can now create and improve their listings…",
-        "date": "2026年11月20日",
-        "date_iso": "2026-11-20",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Aurora PostgreSQL with express configuration now supports Amazon VPC",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aurora-postgresql-express-vpc/",
-        "summary": "Aurora PostgreSQL databases created with express configuration can now move into an Amazon Virtual Private Cloud (VPC) with a single API call or a modify action in the Amazon RDS console. This helps…",
-        "date": "2026年11月20日",
-        "date_iso": "2026-11-20",
-        "category": "database-tag",
-        "cat_label": "データベース",
         "tag": "AWS"
       }
     ],
