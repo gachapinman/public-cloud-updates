@@ -1,7 +1,67 @@
 {
-  "updated": "2026年11月21日 03:01 JST",
+  "updated": "2026年11月21日 16:11 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Generally Available: Governance policy guidance in Foundry Canvas and VS Code",
+        "link": "https://azure.microsoft.com/updates?id=581463",
+        "summary": "Microsoft Foundry governance guidance is now available in Foundry Canvas and the Foundry Toolkit for Visual Studio Code. As developers build agents, both experiences surface relevant policies for…",
+        "date": "2026年11月21日",
+        "date_iso": "2026-11-21",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Microsoft Copilot harness support in Foundry Toolkit for VS Code",
+        "link": "https://azure.microsoft.com/updates?id=581468",
+        "summary": "Agent Builder in Microsoft Foundry Toolkit for Visual Studio Code supports prompt agents that use the Microsoft Copilot harness in public preview. Developers can configure tools and skills, edit…",
+        "date": "2026年11月21日",
+        "date_iso": "2026-11-21",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Retirement: Support for Azure Functions OpenAI Extension ends on April 20, 2027",
+        "link": "https://azure.microsoft.com/updates?id=579952",
+        "summary": "Support for Azure Functions OpenAI extension will end on April 20, 2027. Please migrate to OpenAI, Microsoft Foundry, or Azure AI Search SDKs directly, depending on your scenario, by that date. Until…",
+        "date": "2026年11月21日",
+        "date_iso": "2026-11-21",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Programmed Training in Microsoft Foundry",
+        "link": "https://azure.microsoft.com/updates?id=581713",
+        "summary": "Programmed Training, an API for building your own post-training loop over open-weight models, is available in public preview in Microsoft Foundry. Access is available by request through the preview…",
+        "date": "2026年11月21日",
+        "date_iso": "2026-11-21",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Multi-turn evaluation in Microsoft Foundry",
+        "link": "https://azure.microsoft.com/updates?id=581746",
+        "summary": "Multi-turn evaluation is now in public preview in Microsoft Foundry. You can assess complete agent conversations against your quality standards, not only individual responses.A response can look…",
+        "date": "2026年11月21日",
+        "date_iso": "2026-11-21",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Azure Firewall for Containers",
+        "link": "https://azure.microsoft.com/updates?id=581963",
+        "summary": "Azure Firewall for Containers extends Azure Firewall protection to containerized workloads, providing a centralized approach to securing network traffic for container environments. Customers can use…",
+        "date": "2026年11月21日",
+        "date_iso": "2026-11-21",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Announcing: Multiparty private offers in Microsoft Marketplace expands to Malaysia and Saudi Arabia",
         "link": "https://azure.microsoft.com/updates?id=580700",
@@ -113,16 +173,6 @@
         "tag": "AZURE"
       },
       {
-        "title": "Generally Available: Cobalt 200 Arm-based Dplsv7, Dpsv7, Epsv7, Mpsv4, and Lpsv5-series Virtual Machines",
-        "link": "https://azure.microsoft.com/updates?id=581298",
-        "summary": "The general purpose Dpsv7 and Dplsv7, memory-optimized Epsv7, high-memory Mpsv4, and dense storage Lpsv5 VMs are now generally available. These virtual machines deliver significant enhancements over…",
-        "date": "2026年11月18日",
-        "date_iso": "2026-11-18",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
         "title": "Generally Available: Intel and AMD v6 with temp disk for Azure Database for PostgreSQL",
         "link": "https://azure.microsoft.com/updates?id=579590",
         "summary": "Azure Database for PostgreSQL Flexible Server is announcing the general availability of Intel and AMD v6 compute tiers with local temporary disk. The new v6 generation expands the Flexible Server…",
@@ -151,257 +201,207 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Geo-redundant backup and restore for Azure HorizonDB",
-        "link": "https://azure.microsoft.com/updates?id=574168",
-        "summary": "Geo-redundant backup and restore for Azure HorizonDB is now available. You can use geo-redundant backups to strengthen data protection and restore your HorizonDB deployment in another Azure region…",
-        "date": "2026年11月18日",
-        "date_iso": "2026-11-18",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Customize backup retention from 1 to 35 days in Azure HorizonDB",
-        "link": "https://azure.microsoft.com/updates?id=574163",
-        "summary": "You can now configure backup retention for your Azure HorizonDB deployments from 1 to 35 days, giving you greater flexibility to align backup retention with your application and data protection…",
-        "date": "2026年11月18日",
-        "date_iso": "2026-11-18",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Throughput buckets in Azure Cosmos DB",
-        "link": "https://azure.microsoft.com/updates?id=571488",
-        "summary": "We're excited to announce the general availability of throughput buckets in Azure Cosmos DB. You can manage the resource consumption of multiple workloads using the same container by limiting the…",
-        "date": "2026年11月18日",
-        "date_iso": "2026-11-18",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Limited Preview: AI model management in Azure HorizonDB",
-        "link": "https://azure.microsoft.com/updates?id=563097",
-        "summary": "AI model management in Azure HorizonDB is now in limited preview, designed to simplify how you bring AI into your database. With just a single step, you can provision fully managed AI models for…",
-        "date": "2026年11月18日",
-        "date_iso": "2026-11-18",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Semantic Reranker in Azure Cosmos DB",
-        "link": "https://azure.microsoft.com/updates?id=577520",
-        "summary": "Semantic Reranker in Azure Cosmos DB improves search relevance by reordering candidate results based on the meaning of the search text and surrounding context. It uses an AI model to evaluate…",
-        "date": "2026年11月18日",
-        "date_iso": "2026-11-18",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
       {
-        "title": "Announcing the general availability of a new AWS Local Zone in Bogotá, Colombia",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-local-zone-bogota-colombia/",
-        "summary": "Today, AWS announces the general availability of a new Local Zone in Bogotá, Colombia, bringing AWS infrastructure closer to end users for applications that require single-digit millisecond latency.…",
-        "date": "2026年11月20日",
-        "date_iso": "2026-11-20",
+        "title": "Amazon CloudWatch Omni now supports Microsoft Azure platform logs, metrics and traces",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-omni-microsoft-azure",
+        "summary": "Amazon CloudWatch Omni now supports collecting Azure resource logs, Azure Monitor platform metrics, virtual network (VNet) flow logs, and traces from Application Insights. Teams that run workloads on…",
+        "date": "2026年11月21日",
+        "date_iso": "2026-11-21",
+        "category": "network-tag",
+        "cat_label": "ネットワーク",
+        "tag": "AWS"
+      },
+      {
+        "title": "Web Search on Amazon Bedrock expands language support and country-aware search",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/web-search-amazon-bedrock/",
+        "summary": "Web Search on Amazon Bedrock, the tool that grounds AI agents and applications in cited, current web information, now supports five new languages, plus non-US English, on Amazon Bedrock AgentCore and…",
+        "date": "2026年11月21日",
+        "date_iso": "2026-11-21",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
       },
       {
-        "title": "AWS DevOps Agent now supports Slack code channels and Microsoft Teams two-way conversations",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-devops-agent-slack-code-channels-teams-two-way/",
-        "summary": "AWS DevOps Agent now supports dedicated Slack code channels and two-way conversations in Microsoft Teams, so on-call engineers and DevOps teams can investigate and resolve incidents where they…",
-        "date": "2026年11月20日",
-        "date_iso": "2026-11-20",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Marketplace now supports agentic payments with AgentCore",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/marketplace-agentic-payments-agentcore/",
-        "summary": "AWS Marketplace now supports agentic payments over the x402 protocol, so AI agents can discover and buy select products and pay per request in US dollars through AgentCore payments, part of Amazon…",
-        "date": "2026年11月20日",
-        "date_iso": "2026-11-20",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Cognito now supports client ID metadata documents",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/cognito-client-id-metadata-documents/",
-        "summary": "Amazon Cognito now supports OAuth client ID metadata documents (CIMD). Amazon Cognito helps you implement secure sign-in and access control for users, AI agents, and microservices in minutes. With…",
-        "date": "2026年11月20日",
-        "date_iso": "2026-11-20",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Aurora DSQL now delivers up to 50% higher write throughput",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aurora-dsql-higher-write-throughput/",
-        "summary": "With upgrades to its storage layer, Amazon Aurora DSQL now delivers up to 50% higher write throughput for many transactional workloads. Data loads finish sooner, and tables whose primary key always…",
-        "date": "2026年11月20日",
-        "date_iso": "2026-11-20",
+        "title": "Amazon RDS for Oracle now supports Primary Endpoint",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-oracle-primary-endpoint-v2/",
+        "summary": "Amazon Relational Database Service (Amazon RDS) for Oracle now provides a Primary Endpoint, a DNS name that always resolves to the current primary DB instance in a replica configuration. When you…",
+        "date": "2026年11月21日",
+        "date_iso": "2026-11-21",
         "category": "database-tag",
         "cat_label": "データベース",
         "tag": "AWS"
       },
       {
-        "title": "Amazon CloudFront adds IP based routing and connection logs to SaaS Manager",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudfront-ip-based-routing-connection-logging",
-        "summary": "Amazon CloudFront now allows web development and SaaS platforms to serve different tiers of customers on the same wildcard domain by using IP addresses to route them to the right configuration. For…",
-        "date": "2026年11月20日",
-        "date_iso": "2026-11-20",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon CloudFront simplifies domain moves and onboarding for SaaS Manager",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudfront-domain-moves-distribution-tenants",
-        "summary": "Amazon CloudFront now lets web development platforms and SaaS providers move a customer's domain to their platform in a single request with no downtime, and serve requests to the domain while the TLS…",
-        "date": "2026年11月20日",
-        "date_iso": "2026-11-20",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Connect launches Resolutions, an agentic solution for high-volume operational work",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-connect-resolutions/",
-        "summary": "Amazon Connect Customer announces the general availability of Resolutions, an agentic operations solution that resolves high-volume work end-to-end, including refund requests, transaction disputes,…",
-        "date": "2026年11月20日",
-        "date_iso": "2026-11-20",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Lambda durable functions now supports OpenTelemetry tracing",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/lambda-durable-otel/",
-        "summary": "AWS Lambda announces OpenTelemetry (OTel) support for Lambda durable functions. You can now trace your durable executions and emit traces to Amazon CloudWatch and other industry-standard…",
-        "date": "2026年11月20日",
-        "date_iso": "2026-11-20",
+        "title": "AWS Lambda now publishes Event Function state change events to Amazon EventBridge",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-lambda-function-state-events/",
+        "summary": "AWS Lambda &nbsp;now publishes Event Function state change events to Amazon EventBridge . Lambda emits an event each time an Event Function version changes state because of a customer action, such as…",
+        "date": "2026年11月21日",
+        "date_iso": "2026-11-21",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "AWS"
       },
       {
-        "title": "AWS Marketplace agent mode now helps you assess, buy, and deploy solutions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-marketplace/aws-marketplace-agent-mode-expansion",
-        "summary": "You can now assess a seller's security, buy, and deploy supported products in one conversation with AWS Marketplace agent mode, the conversational AI experience for procuring cloud solutions. You…",
-        "date": "2026年11月20日",
-        "date_iso": "2026-11-20",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon WorkSpaces Applications now supports WebAuthn redirection",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-workspaces-applications-webauthn-redirection/",
-        "summary": "Amazon WorkSpaces Applications now supports WebAuthn redirection, so users can sign in to websites and applications in their streaming session with a FIDO2 authenticator on their local device, such…",
-        "date": "2026年11月20日",
-        "date_iso": "2026-11-20",
+        "title": "AWS Network Firewall introduces automated Internet firewall in public preview",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/network-firewall-automated-internet/",
+        "summary": "AWS Network Firewall announces the public preview of automated Internet firewall, a new centralized control that allows you to configure Network Firewall, with native network address translation…",
+        "date": "2026年11月21日",
+        "date_iso": "2026-11-21",
         "category": "security-tag",
         "cat_label": "セキュリティ",
         "tag": "AWS"
       },
       {
-        "title": "Amazon Route 53 now supports health checks for private endpoints",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/route-53-private-endpoint-health-checks/",
-        "summary": "Amazon Route 53 now offers Private Endpoint Health Checks, enabling business-critical workloads that never touch the public internet, such as internal APIs, databases, and self-hosted nodes behind…",
-        "date": "2026年11月20日",
-        "date_iso": "2026-11-20",
+        "title": "Amazon RDS for Oracle now supports Replica First Patching for reduced downtime",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-oracle-replica-first-patching/",
+        "summary": "Amazon Relational Database Service (Amazon RDS) for Oracle now supports Replica First Patching, which reduces downtime during minor version upgrades. Replica First Patching is available for…",
+        "date": "2026年11月21日",
+        "date_iso": "2026-11-21",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Cognito extends multi-Region replication to additional AWS Regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/cognito-mrr-opt-in-regions/",
+        "summary": "Amazon Cognito multi-Region replication (MRR) now supports additional AWS Regions, extending the resilience benefits of MRR to more workloads. Amazon Cognito helps you implement secure sign-in and…",
+        "date": "2026年11月21日",
+        "date_iso": "2026-11-21",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Neptune Serverless now delivers up to 30% better performance and smarter scaling",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-neptune-serverless-r8g-generally-available",
+        "summary": "Amazon Neptune Serverless now delivers up to 30% better performance at the same price per Neptune Capacity Unit, running on AWS Graviton4 processors. The new Graviton4-based platform also brings an…",
+        "date": "2026年11月21日",
+        "date_iso": "2026-11-21",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon CloudWatch extends the PromQL query window to 30 days",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudwatch-promql-query-30days/",
+        "summary": "Amazon CloudWatch now supports a 30-day query window for PromQL queries against OpenTelemetry metrics, up from 7 days. You can query a month of data in a single request, chart month-over-month and…",
+        "date": "2026年11月21日",
+        "date_iso": "2026-11-21",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Account Mapping and Planning now available in AWS Partner Central",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/account-mapping-and-planning/",
+        "summary": "AWS Partners can now map their target accounts against AWS records and find where to collaborate with AWS on joint go-to-market before an opportunity exists. Account Mapping and Planning in AWS…",
+        "date": "2026年11月21日",
+        "date_iso": "2026-11-21",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Demand Center now available in AWS Partner Central",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/demand-center-partner-central/",
+        "summary": "AWS Partners can now plan, launch, fund, and measure demand generation campaigns in one AI-powered experience. Demand Center in AWS Partner Central succeeds Marketing Central and brings together…",
+        "date": "2026年11月21日",
+        "date_iso": "2026-11-21",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Lead groups and channel recommendations now available in AWS Partner Central",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/partner-central-lead-groups/",
+        "summary": "AWS Partners can now organize enriched leads and plan outreach with lead groups and channel recommendations in AWS Partner Central. Enriched leads are automatically grouped by solution area and…",
+        "date": "2026年11月21日",
+        "date_iso": "2026-11-21",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon CloudWatch EKS Container Insights now offers built-in monitoring for open source Kubernetes tools",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudwatch-eks-kubernetes-tools/",
+        "summary": "Today, Amazon CloudWatch announces built-in monitoring for open source tools running on your Amazon EKS clusters, including Karpenter, KEDA, vLLM, KServe, SGLang, Ray and Knative Serving. You get…",
+        "date": "2026年11月21日",
+        "date_iso": "2026-11-21",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Quick now supports group assignments for custom permissions and limit profiles",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-group-assignments-custom-permissions-limit-profiles/",
+        "summary": "AWS Quick now supports assignments for custom permissions and limit profiles to groups from your enterprise identity provider (IdP).&nbsp;Administrators can now apply feature restrictions and…",
+        "date": "2026年11月21日",
+        "date_iso": "2026-11-21",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Quick introduces enterprise guardrails (preview)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-enterprise-guardrails-preview/",
+        "summary": "AWS Quick now includes enterprise guardrails, giving administrators configurable content safety and sensitive-information controls for user prompts. Administrators can apply guardrail policies to…",
+        "date": "2026年11月21日",
+        "date_iso": "2026-11-21",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS announces Data Hub in AWS Billing and Cost Management (preview)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/data-hub-billing-cost-management-preview/",
+        "summary": "Today, AWS announces the preview of Data Hub in AWS Billing and Cost Management, a managed data layer that enables AWS FinOps Agent to query cost and usage data with SQL. In preview, Data Hub is…",
+        "date": "2026年11月21日",
+        "date_iso": "2026-11-21",
         "category": "database-tag",
         "cat_label": "データベース",
         "tag": "AWS"
       },
       {
-        "title": "AWS Revenue Measurement now supports deal-level revenue attribution for AWS Marketplace offers and opportunities",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-revenue-measurement-deal-attribution/",
-        "summary": "Today, AWS announces deal-level revenue attribution for AWS Revenue Measurement (previously Partner Revenue Measurement) capabilities. AWS Partners can now see how the AWS revenue measured for their…",
-        "date": "2026年11月20日",
-        "date_iso": "2026-11-20",
+        "title": "Amazon CloudWatch Observability EKS add-on now supports custom OpenTelemetry and Prometheus telemetry",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudwatch-eks-addon-custom-telemetry/",
+        "summary": "Today, Amazon CloudWatch announces support for your own application telemetry in the CloudWatch Observability EKS add-on. The CloudWatch agent you already run now accepts metrics, traces, and logs…",
+        "date": "2026年11月21日",
+        "date_iso": "2026-11-21",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon DynamoDB vector search now supports new inline filter operators",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/dynamodb-vector-filters/",
+        "summary": "Amazon DynamoDB vector search inline filters now support range comparisons, value lists, and logical operators in addition to the equality operator, so you can narrow a vector search to exactly the…",
+        "date": "2026年11月21日",
+        "date_iso": "2026-11-21",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Transcribe announces a synchronous transcription API",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-transcribe-sync-api/",
+        "summary": "Amazon Transcribe now offers a synchronous transcription API, TranscribeAudio . Send a complete audio file in a single request and get the full transcript back in the same response. There is no job…",
+        "date": "2026年11月21日",
+        "date_iso": "2026-11-21",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "AWS"
       },
       {
-        "title": "AWS Lambda now supports a 30-minute timeout for on-demand Event Functions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-lambda-30-minute-ondemand-event-functions/",
-        "summary": "AWS Lambda now supports a 30-minute function timeout for Event Functions that run on demand, doubling the 15-minute limit for synchronous , asynchronous , and event source mapping (ESM) invocations.…",
-        "date": "2026年11月20日",
-        "date_iso": "2026-11-20",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Transform combines migration assessment and planning in one experience",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-transform-assessment-and-planning",
-        "summary": "AWS Transform for migrations now combines migration assessment and migration planning into a single migration job. Previously, you ran separate jobs to build a total cost of ownership (TCO) business…",
-        "date": "2026年11月20日",
-        "date_iso": "2026-11-20",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Transform extends application-centric migration across the lifecycle",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-transform-application-centric-migration",
-        "summary": "AWS Transform now puts applications at the center of every stage of the migration journey, so you can discover, plan, migrate, validate, and track the applications your business runs on rather than…",
-        "date": "2026年11月20日",
-        "date_iso": "2026-11-20",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon IVS Real-Time Streaming now provides a Linux broadcast SDK",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ivs-real-time-streaming-linux-broadcast-sdk",
-        "summary": "The Amazon Interactive Video Service (Amazon IVS) Linux broadcast SDK is now available for IVS Real-Time Streaming. Applications running on Linux can join an IVS stage, receive audio from…",
-        "date": "2026年11月20日",
-        "date_iso": "2026-11-20",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Elemental MediaTailor adds Dynamic Avail Sizing for live HLS",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-elemental-mediatailor-dynamic-avail-sizing-live-hls",
-        "summary": "AWS Elemental MediaTailor now supports Dynamic Avail Sizing, which reduces the slate viewers see when ad breaks, also called avails, in live HLS streams go unfilled. MediaTailor is a server-side ad…",
-        "date": "2026年11月20日",
-        "date_iso": "2026-11-20",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Cognito now supports AWS Secrets Manager for app client secrets",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/cognito-secrets-manager-integration/",
-        "summary": "Amazon Cognito now integrates with AWS Secrets Manager , so you can store and manage your user pool app client secrets in Secrets Manager. Amazon Cognito helps you implement secure sign-in and access…",
-        "date": "2026年11月20日",
-        "date_iso": "2026-11-20",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS WAF launches new Security Analytics Dashboard for real-time investigations",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-waf-security-analytics-dashboard/",
-        "summary": "AWS WAF now gives you one place to find and stop unwanted traffic across every application in your account. The new AWS WAF security analytics dashboard brings together traffic from all of your…",
-        "date": "2026年11月20日",
-        "date_iso": "2026-11-20",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
+        "title": "Amazon CloudWatch Observability EKS add-on now supports telemetry filtering",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudwatch-eks-otel-addon-filtering/",
+        "summary": "Today, Amazon CloudWatch announces telemetry filtering for the CloudWatch Observability EKS add-on, so you can stop paying to ingest telemetry you don't use. You can now set cluster-wide include and…",
+        "date": "2026年11月21日",
+        "date_iso": "2026-11-21",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
         "tag": "AWS"
       }
     ],
