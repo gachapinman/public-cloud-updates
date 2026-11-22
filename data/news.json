@@ -1,5 +1,5 @@
 {
-  "updated": "2026年11月22日 01:57 JST",
+  "updated": "2026年11月22日 15:51 JST",
   "clouds": {
     "azure": [
       {
@@ -205,6 +205,16 @@
     ],
     "aws": [
       {
+        "title": "AWS Quick now supports plugins to bundle agents, skills, connectors and flows",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-plugins-bundle-agents-skills-connectors-flows/",
+        "summary": "AWS Quick now supports plugins, agents, skills, connectors, and flows built for a specific task, role, or use case. Most work draws on several of these at once: connectors to reach your systems,…",
+        "date": "2026年11月21日",
+        "date_iso": "2026-11-21",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon CloudWatch Omni now supports Microsoft Azure platform logs, metrics and traces",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-omni-microsoft-azure",
         "summary": "Amazon CloudWatch Omni now supports collecting Azure resource logs, Azure Monitor platform metrics, virtual network (VNet) flow logs, and traces from Application Insights. Teams that run workloads on…",
@@ -215,6 +225,16 @@
         "tag": "AWS"
       },
       {
+        "title": "AWS Quick launches a new web experience with updated browser extension and Microsoft 365 add-ins",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-launches-new-web-experience-updated-browser-extension-microsoft-365-add-ins/",
+        "summary": "The AWS Quick web app now brings the Quick desktop experience to your browser. Create, share, and use the same agents and skills as on desktop, with the same connectors. Start each day with a daily…",
+        "date": "2026年11月21日",
+        "date_iso": "2026-11-21",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
         "title": "Web Search on Amazon Bedrock expands language support and country-aware search",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/web-search-amazon-bedrock/",
         "summary": "Web Search on Amazon Bedrock, the tool that grounds AI agents and applications in cited, current web information, now supports five new languages, plus non-US English, on Amazon Bedrock AgentCore and…",
@@ -222,6 +242,16 @@
         "date_iso": "2026-11-21",
         "category": "ai-tag",
         "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Build more capable automations through chat with Flows in AWS Quick",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-flows-automations-chat/",
+        "summary": "Flows in AWS Quick now lets users build, run, and refine automations for themselves and their teams, all through conversation. Users describe a process in chat, and Quick builds the flow, with no…",
+        "date": "2026年11月21日",
+        "date_iso": "2026-11-21",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "AWS"
       },
       {
@@ -252,6 +282,16 @@
         "date_iso": "2026-11-21",
         "category": "security-tag",
         "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Quick now supports Japanese, German, Vietnamese, and Chinese",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-japanese-german-chinese-vietnamese/",
+        "summary": "Today, AWS announces that AWS Quick, the AI workspace for business users, now supports Japanese, German, Vietnamese, and Chinese (Simplified and Traditional). AWS Quick now displays its interface in…",
+        "date": "2026年11月21日",
+        "date_iso": "2026-11-21",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
         "tag": "AWS"
       },
       {
@@ -295,9 +335,9 @@
         "tag": "AWS"
       },
       {
-        "title": "Account Mapping and Planning now available in AWS Partner Central",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/account-mapping-and-planning/",
-        "summary": "AWS Partners can now map their target accounts against AWS records and find where to collaborate with AWS on joint go-to-market before an opportunity exists. Account Mapping and Planning in AWS…",
+        "title": "Demand Center now available in AWS Partner Central",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/demand-center-partner-central/",
+        "summary": "AWS Partners can now plan, launch, fund, and measure demand generation campaigns in one AI-powered experience. Demand Center in AWS Partner Central succeeds Marketing Central and brings together…",
         "date": "2026年11月21日",
         "date_iso": "2026-11-21",
         "category": "ai-tag",
@@ -305,9 +345,9 @@
         "tag": "AWS"
       },
       {
-        "title": "Demand Center now available in AWS Partner Central",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/demand-center-partner-central/",
-        "summary": "AWS Partners can now plan, launch, fund, and measure demand generation campaigns in one AI-powered experience. Demand Center in AWS Partner Central succeeds Marketing Central and brings together…",
+        "title": "Account Mapping and Planning now available in AWS Partner Central",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/account-mapping-and-planning/",
+        "summary": "AWS Partners can now map their target accounts against AWS records and find where to collaborate with AWS on joint go-to-market before an opportunity exists. Account Mapping and Planning in AWS…",
         "date": "2026年11月21日",
         "date_iso": "2026-11-21",
         "category": "ai-tag",
@@ -363,57 +403,27 @@
         "category": "database-tag",
         "cat_label": "データベース",
         "tag": "AWS"
-      },
-      {
-        "title": "Amazon CloudWatch Observability EKS add-on now supports custom OpenTelemetry and Prometheus telemetry",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudwatch-eks-addon-custom-telemetry/",
-        "summary": "Today, Amazon CloudWatch announces support for your own application telemetry in the CloudWatch Observability EKS add-on. The CloudWatch agent you already run now accepts metrics, traces, and logs…",
-        "date": "2026年11月21日",
-        "date_iso": "2026-11-21",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon DynamoDB vector search now supports new inline filter operators",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/dynamodb-vector-filters/",
-        "summary": "Amazon DynamoDB vector search inline filters now support range comparisons, value lists, and logical operators in addition to the equality operator, so you can narrow a vector search to exactly the…",
-        "date": "2026年11月21日",
-        "date_iso": "2026-11-21",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Transcribe announces a synchronous transcription API",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-transcribe-sync-api/",
-        "summary": "Amazon Transcribe now offers a synchronous transcription API, TranscribeAudio . Send a complete audio file in a single request and get the full transcript back in the same response. There is no job…",
-        "date": "2026年11月21日",
-        "date_iso": "2026-11-21",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon CloudWatch Observability EKS add-on now supports telemetry filtering",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudwatch-eks-otel-addon-filtering/",
-        "summary": "Today, Amazon CloudWatch announces telemetry filtering for the CloudWatch Observability EKS add-on, so you can stop paying to ingest telemetry you don't use. You can now set cluster-wide include and…",
-        "date": "2026年11月21日",
-        "date_iso": "2026-11-21",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
-        "tag": "AWS"
       }
     ],
     "gcp": [
       {
+        "title": "November 21, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#November_21_2026",
+        "summary": "Cloud SDK Change 594.0.1 (2026-11-21) Google Cloud CLI General bug fixes. Subscribe to these release notes at https://groups.google.com/forum/#!forum/google-cloud-sdk-announce .",
+        "date": "2026年11月21日",
+        "date_iso": "2026-11-21",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "GCP"
+      },
+      {
         "title": "November 20, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_20_2026",
-        "summary": "App Engine flexible environment Java Security The following runtime language contains important security updates: Java 17 and later : 17.0.21.1+2 , 21.0.13.1+2 , 25.0.5.1+2 Take immediate action by…",
+        "summary": "Apigee hybrid Announcement v1.17.5 On November 20, 2026 we released an updated version of the Apigee hybrid software, v1.17.5. For information about upgrading, see Upgrading Apigee hybrid to v1.17.5…",
         "date": "2026年11月20日",
         "date_iso": "2026-11-20",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "GCP"
       },
       {
@@ -594,16 +604,6 @@
         "date_iso": "2026-11-02",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "November 01, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#November_01_2026",
-        "summary": "Agent Platform Workbench Change 20261101-2230-rc0 Release Change 20261101-2230-rc0 Release Change Installed latest packages from upstream dependencies. Change Installed latest packages from upstream…",
-        "date": "2026年11月1日",
-        "date_iso": "2026-11-01",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
         "tag": "GCP"
       }
     ],
