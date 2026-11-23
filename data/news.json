@@ -1,5 +1,5 @@
 {
-  "updated": "2026年11月23日 16:41 JST",
+  "updated": "2026年11月23日 22:32 JST",
   "clouds": {
     "azure": [
       {
@@ -205,6 +205,16 @@
     ],
     "aws": [
       {
+        "title": "Amazon CloudWatch Query Studio now supports saved queries",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-query-studio-saved-queries",
+        "summary": "Amazon CloudWatch Query Studio now lets you save your PromQL and SQL metrics queries and reuse them. You no longer need to rewrite or search for queries you run often, such as a latency query you…",
+        "date": "2026年11月21日",
+        "date_iso": "2026-11-21",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
         "title": "AWS Quick now supports plugins to bundle agents, skills, connectors and flows",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-plugins-bundle-agents-skills-connectors-flows/",
         "summary": "AWS Quick now supports plugins, agents, skills, connectors, and flows built for a specific task, role, or use case. Most work draws on several of these at once: connectors to reach your systems,…",
@@ -392,16 +402,6 @@
         "date_iso": "2026-11-21",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS announces Data Hub in AWS Billing and Cost Management (preview)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/data-hub-billing-cost-management-preview/",
-        "summary": "Today, AWS announces the preview of Data Hub in AWS Billing and Cost Management, a managed data layer that enables AWS FinOps Agent to query cost and usage data with SQL. In preview, Data Hub is…",
-        "date": "2026年11月21日",
-        "date_iso": "2026-11-21",
-        "category": "database-tag",
-        "cat_label": "データベース",
         "tag": "AWS"
       }
     ],
