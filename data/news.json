@@ -1,5 +1,5 @@
 {
-  "updated": "2026年11月23日 02:25 JST",
+  "updated": "2026年11月23日 16:41 JST",
   "clouds": {
     "azure": [
       {
@@ -335,9 +335,9 @@
         "tag": "AWS"
       },
       {
-        "title": "Demand Center now available in AWS Partner Central",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/demand-center-partner-central/",
-        "summary": "AWS Partners can now plan, launch, fund, and measure demand generation campaigns in one AI-powered experience. Demand Center in AWS Partner Central succeeds Marketing Central and brings together…",
+        "title": "Account Mapping and Planning now available in AWS Partner Central",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/account-mapping-and-planning/",
+        "summary": "AWS Partners can now map their target accounts against AWS records and find where to collaborate with AWS on joint go-to-market before an opportunity exists. Account Mapping and Planning in AWS…",
         "date": "2026年11月21日",
         "date_iso": "2026-11-21",
         "category": "ai-tag",
@@ -345,9 +345,9 @@
         "tag": "AWS"
       },
       {
-        "title": "Account Mapping and Planning now available in AWS Partner Central",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/account-mapping-and-planning/",
-        "summary": "AWS Partners can now map their target accounts against AWS records and find where to collaborate with AWS on joint go-to-market before an opportunity exists. Account Mapping and Planning in AWS…",
+        "title": "Demand Center now available in AWS Partner Central",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/demand-center-partner-central/",
+        "summary": "AWS Partners can now plan, launch, fund, and measure demand generation campaigns in one AI-powered experience. Demand Center in AWS Partner Central succeeds Marketing Central and brings together…",
         "date": "2026年11月21日",
         "date_iso": "2026-11-21",
         "category": "ai-tag",
