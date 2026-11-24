@@ -1,5 +1,5 @@
 {
-  "updated": "2026年11月24日 18:56 JST",
+  "updated": "2026年11月24日 23:10 JST",
   "clouds": {
     "azure": [
       {
@@ -235,6 +235,16 @@
         "tag": "AWS"
       },
       {
+        "title": "Amazon OpenSearch Service now supports OpenSearch version 3.9",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-opensearch-3-9",
+        "summary": "You can now run OpenSearch version 3.9 on Amazon OpenSearch Service. OpenSearch 3.9 helps you reduce vector memory and storage, evaluate search quality with more large language model (LLM) providers,…",
+        "date": "2026年11月24日",
+        "date_iso": "2026-11-24",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
         "title": "AWS WAF introduces simplified pricing",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-waf-introduces-simplified-pricing/",
         "summary": "AWS WAF now offers simplified pricing that follows what you protect instead of how you configure it. Previously, you paid separate charges for each web ACL, rule, rule group subscription, and…",
@@ -392,16 +402,6 @@
         "date_iso": "2026-11-23",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "API security with WAF",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/api-security-with-waf/",
-        "summary": "Automated API discovery and protection are now generally available, enabling you to discover every API behind Amazon API Gateway, Application Load Balancers, and Amazon CloudFront across your AWS…",
-        "date": "2026年11月23日",
-        "date_iso": "2026-11-23",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "AWS"
       }
     ],
