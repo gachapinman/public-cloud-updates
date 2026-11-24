@@ -1,7 +1,87 @@
 {
-  "updated": "2026年11月24日 23:10 JST",
+  "updated": "2026年11月25日 05:21 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Generally Available: Azure Site Recovery support for zonal disaster recovery for Ultra disks",
+        "link": "https://azure.microsoft.com/updates?id=582171",
+        "summary": "Azure Site Recovery now supports Zone-to-Zone Disaster Recovery (Zonal DR) for Azure Ultra disks. Customers can protect performance-intensive virtual machines across Availability Zones against zonal…",
+        "date": "2026年11月25日",
+        "date_iso": "2026-11-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Optimize agents from insights in Foundry Agent Service",
+        "link": "https://azure.microsoft.com/updates?id=581483",
+        "summary": "Optimization from insights is in public preview in Foundry Agent Service. In the Foundry portal, start from an eligible insight in a prompt-agent trace to generate and evaluate candidate changes to…",
+        "date": "2026年11月25日",
+        "date_iso": "2026-11-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Govern MCP tools with your own gateway in Microsoft Foundry Agent Service",
+        "link": "https://azure.microsoft.com/updates?id=581498",
+        "summary": "In public preview, Microsoft Foundry Agent Service lets you route MCP tool traffic through existing AI Gateway or Azure API Management endpoints that your organization manages. Configure the MCP…",
+        "date": "2026年11月25日",
+        "date_iso": "2026-11-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Generally Available: Use Azure Storage permissions in Azure AI Search and Foundry IQ",
+        "link": "https://azure.microsoft.com/updates?id=581303",
+        "summary": "Azure AI Search and Foundry IQ in Microsoft Foundry can use supported Azure Storage permissions to control access to search results.Once configured, search applications and AI agents return content…",
+        "date": "2026年11月25日",
+        "date_iso": "2026-11-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Native A2A passthrough for hosted agents in Foundry Agent Service",
+        "link": "https://azure.microsoft.com/updates?id=581313",
+        "summary": "Bring your existing Agent2Agent (A2A) agents to Agent Service without a protocol conversion layer.Previously, Agent Service converted incoming A2A requests to the Responses protocol. With A2A…",
+        "date": "2026年11月25日",
+        "date_iso": "2026-11-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Azure Developer CLI extension for Azure Document Intelligence and Content Understanding in…",
+        "link": "https://azure.microsoft.com/updates?id=581318",
+        "summary": "Within Microsoft Foundry, use azd ai cu commands to analyze documents with Azure Document Intelligence and Content Understanding in Foundry Tools. The extension for Azure Developer CLI (azd) can save…",
+        "date": "2026年11月25日",
+        "date_iso": "2026-11-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Cost controls for model and agent spending in Microsoft Foundry",
+        "link": "https://azure.microsoft.com/updates?id=581323",
+        "summary": "Within Microsoft Foundry, cost controls set a spending or token budget for a Foundry resource or project. When usage reaches a threshold that you set, a cost control sends an alert through Azure…",
+        "date": "2026年11月25日",
+        "date_iso": "2026-11-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
+      {
+        "title": "Public Preview: Central governance of hosted-agent outbound domains in Foundry Agent Service",
+        "link": "https://azure.microsoft.com/updates?id=581328",
+        "summary": "Administrators can use Azure Policy to govern outbound destinations for hosted agents in Foundry Agent Service. Agent authors configure and attach a compliant egress policy before creating an agent…",
+        "date": "2026年11月25日",
+        "date_iso": "2026-11-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Public Preview: Enterprise Knowledge Graph in Foundry IQ",
         "link": "https://azure.microsoft.com/updates?id=581333",
@@ -121,86 +201,6 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Deploy hosted agents from your own container registry in Foundry Toolkit for VS Code",
-        "link": "https://azure.microsoft.com/updates?id=581478",
-        "summary": "Foundry Toolkit for Visual Studio Code now deploys hosted agents from prebuilt images in customer-managed container registries, including registries other than Azure Container Registry. Choose the…",
-        "date": "2026年11月24日",
-        "date_iso": "2026-11-24",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Wildcard domain support in Azure Firewall network rules",
-        "link": "https://azure.microsoft.com/updates?id=582030",
-        "summary": "Wildcard domain support in Azure Firewall network rules is now generally available. This capability enables customers to use wildcard patterns, such as *.contoso.com, when defining FQDN-based network…",
-        "date": "2026年11月24日",
-        "date_iso": "2026-11-24",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Retirement: Azure AI Content Safety selected features will be retired on April 30, 2027",
-        "link": "https://azure.microsoft.com/updates?id=577474",
-        "summary": "The following Azure AI Content Safety preview capabilities will retire on April 30, 2027:Analyze MultimodalCustom categories (rapid), including text and imageConnected containers for Text, Image, and…",
-        "date": "2026年11月24日",
-        "date_iso": "2026-11-24",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Azure Database for PostgreSQL enhanced Burstable tier (Basv2)",
-        "link": "https://azure.microsoft.com/updates?id=574535",
-        "summary": "Enhanced Burstable tier (Basv2) builds on the existing burstable model with improved performance predictability and more efficient burst utilization, delivering a better cost-performance balance. Now…",
-        "date": "2026年11月24日",
-        "date_iso": "2026-11-24",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: WAF Insights for Azure Application Gateway",
-        "link": "https://azure.microsoft.com/updates?id=579280",
-        "summary": "WAF Insights for Azure Application Gateway Web Application Firewall (WAF) is now generally available. WAF Insights is a built-in experience in the WAF policy that brings WAF logs and metrics together…",
-        "date": "2026年11月24日",
-        "date_iso": "2026-11-24",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: WAF Insights for Azure Front Door",
-        "link": "https://azure.microsoft.com/updates?id=579285",
-        "summary": "WAF Insights is now generally available for Azure Front Door Web Application Firewall (WAF). WAF Insights is a built-in experience in the WAF policy that brings WAF logs and metrics together in…",
-        "date": "2026年11月24日",
-        "date_iso": "2026-11-24",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Generally Available: Governance policy guidance in Foundry Canvas and VS Code",
-        "link": "https://azure.microsoft.com/updates?id=581463",
-        "summary": "Microsoft Foundry governance guidance is now available in Foundry Canvas and the Foundry Toolkit for Visual Studio Code. As developers build agents, both experiences surface relevant policies for…",
-        "date": "2026年11月21日",
-        "date_iso": "2026-11-21",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
-      },
-      {
-        "title": "Public Preview: Microsoft Copilot harness support in Foundry Toolkit for VS Code",
-        "link": "https://azure.microsoft.com/updates?id=581468",
-        "summary": "Agent Builder in Microsoft Foundry Toolkit for Visual Studio Code supports prompt agents that use the Microsoft Copilot harness in public preview. Developers can configure tools and skills, edit…",
-        "date": "2026年11月21日",
-        "date_iso": "2026-11-21",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
@@ -228,6 +228,16 @@
         "title": "Amazon SageMaker HyperPod now supports managed observability and user management extensions for Slurm clusters",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-hyperpod-extensions/",
         "summary": "Amazon SageMaker HyperPod now supports managed cluster extensions for Slurm clusters. You can install, configure, update, and remove managed features through the SageMaker AI console or API. The…",
+        "date": "2026年11月24日",
+        "date_iso": "2026-11-24",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon API Gateway announces API Portal",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-api-gateway-announces-api-portal/",
+        "summary": "Today, Amazon API Gateway announces API Portal , a new feature that discovers, governs, and documents the APIs and AI endpoints behind Amazon API Gateway, Application Load Balancer, and Amazon…",
         "date": "2026年11月24日",
         "date_iso": "2026-11-24",
         "category": "ai-tag",
@@ -335,6 +345,16 @@
         "tag": "AWS"
       },
       {
+        "title": "RDS PostgreSQL now supports PostgreSQL 19.0 in the Amazon RDS Database Preview Environment",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/postgresql-19-amazon-rds-database-preview-environment/",
+        "summary": "Starting today, Amazon RDS for PostgreSQL 19.0 is available in the Amazon RDS Database Preview Environment , allowing you to evaluate PostgreSQL 19.0 on Amazon RDS PostgreSQL. PostgreSQL 19.0…",
+        "date": "2026年11月24日",
+        "date_iso": "2026-11-24",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
         "title": "AWS Global Accelerator now preserves client IPs for NLBs with TLS listeners",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/global-accelerator-client-ip-nlb-tls/",
         "summary": "AWS Global Accelerator now preserves the client IP address for traffic sent to Network Load Balancer (NLB) endpoints with TLS listeners. You can terminate TLS at your NLB and still see the original…",
@@ -382,26 +402,6 @@
         "date_iso": "2026-11-23",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Inspector expands runtime reachability analysis for ECR and EC2 findings",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/inspector-runtime-reachability/",
-        "summary": "Amazon Inspector has expanded its vulnerability management capabilities with runtime reachability analysis for findings originating from Amazon Elastic Container Registry (Amazon ECR) and Amazon…",
-        "date": "2026年11月23日",
-        "date_iso": "2026-11-23",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS CodeDeploy now supports suspending Amazon EC2 Auto Scaling processes",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-codedeploy-suspend-asg-processes/",
-        "summary": "AWS CodeDeploy can now suspend Amazon EC2 Auto Scaling processes during EC2 in-place deployments to Auto Scaling groups. CodeDeploy is a fully managed service that automates application deployments…",
-        "date": "2026年11月23日",
-        "date_iso": "2026-11-23",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
         "tag": "AWS"
       }
     ],
