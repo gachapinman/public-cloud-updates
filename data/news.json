@@ -1,7 +1,17 @@
 {
-  "updated": "2026年11月24日 06:41 JST",
+  "updated": "2026年11月24日 18:56 JST",
   "clouds": {
     "azure": [
+      {
+        "title": "Public Preview: Enterprise Knowledge Graph in Foundry IQ",
+        "link": "https://azure.microsoft.com/updates?id=581333",
+        "summary": "Foundry IQ adds Enterprise Knowledge Graph as a knowledge source for questions that depend on relationships across your content.During indexing, it extracts entities and relationships from…",
+        "date": "2026年11月24日",
+        "date_iso": "2026-11-24",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AZURE"
+      },
       {
         "title": "Public Preview: Updated Guardrails experience in Microsoft Foundry",
         "link": "https://azure.microsoft.com/updates?id=581338",
@@ -191,19 +201,59 @@
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AZURE"
-      },
-      {
-        "title": "Retirement: Support for Azure Functions OpenAI Extension ends on April 20, 2027",
-        "link": "https://azure.microsoft.com/updates?id=579952",
-        "summary": "Support for Azure Functions OpenAI extension will end on April 20, 2027. Please migrate to OpenAI, Microsoft Foundry, or Azure AI Search SDKs directly, depending on your scenario, by that date. Until…",
-        "date": "2026年11月21日",
-        "date_iso": "2026-11-21",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AZURE"
       }
     ],
     "aws": [
+      {
+        "title": "Amazon EC2 X8i instances are now available in the Asia Pacific (New Zealand) Region",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ec2-x8i-new-zealand/",
+        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) X8i instances are available in the Asia Pacific (New Zealand) Region. These instances are powered by custom Intel Xeon 6 processors available…",
+        "date": "2026年11月24日",
+        "date_iso": "2026-11-24",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS Sign-In introduces configurable Sign-in duration of up to 90 days",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/configurable-aws-sign-in-duration/",
+        "summary": "AWS Sign-In now enables developers and AI agents to stay authenticated for up to 90 days without frequent sign-ins or consent prompts. With this launch, administrators can configure Sign-in duration…",
+        "date": "2026年11月24日",
+        "date_iso": "2026-11-24",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon SageMaker HyperPod now supports managed observability and user management extensions for Slurm clusters",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-hyperpod-extensions/",
+        "summary": "Amazon SageMaker HyperPod now supports managed cluster extensions for Slurm clusters. You can install, configure, update, and remove managed features through the SageMaker AI console or API. The…",
+        "date": "2026年11月24日",
+        "date_iso": "2026-11-24",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS WAF introduces simplified pricing",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-waf-introduces-simplified-pricing/",
+        "summary": "AWS WAF now offers simplified pricing that follows what you protect instead of how you configure it. Previously, you paid separate charges for each web ACL, rule, rule group subscription, and…",
+        "date": "2026年11月24日",
+        "date_iso": "2026-11-24",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS WAF announces automated discovery and protection for LLM, MCP, and A2A endpoints using Amazon Bedrock Guardrails",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/waf-ai-endpoint-discovery-protection/",
+        "summary": "Automated AI endpoint discovery and protection are now generally available, enabling you to discover language model (LLM), Model Context Protocol (MCP), and Agent2Agent (A2A) endpoints behind Amazon…",
+        "date": "2026年11月24日",
+        "date_iso": "2026-11-24",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
       {
         "title": "Amazon Connect Customer launches the ability to force logout agents directly from the analytics dashboard",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-connect-force-logout/",
@@ -215,9 +265,29 @@
         "tag": "AWS"
       },
       {
+        "title": "Amazon Connect Customer now lets you test AI model version upgrades for automated evaluations",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-connect-customer-test-ai-model-version-upgrades-automated-evaluations",
+        "summary": "Amazon Connect Customer now enables managers to test new AI model versions for automated evaluations before switching, so evaluation scores remain consistent through model upgrades. When a new…",
+        "date": "2026年11月24日",
+        "date_iso": "2026-11-24",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon Connect Customer expands automated performance evaluations to 45 new languages",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-connect-customer-expands-automated-performance-evaluations-new-languages/",
         "summary": "Amazon Connect Customer now uses generative AI to automate evaluations of human and AI agent performance in 45 additional languages, such as Arabic, Dutch, Indonesian, and Polish.&nbsp;Managers…",
+        "date": "2026年11月24日",
+        "date_iso": "2026-11-24",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon CloudFront is now available in the AWS European Sovereign Cloud",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudfront-european-sovereign-cloud",
+        "summary": "Amazon CloudFront is now available in the AWS European Sovereign Cloud. Organizations with strict EU sovereignty requirements can now deliver websites, applications, and APIs with the performance,…",
         "date": "2026年11月24日",
         "date_iso": "2026-11-24",
         "category": "ai-tag",
@@ -305,16 +375,6 @@
         "tag": "AWS"
       },
       {
-        "title": "AWS CodeDeploy now supports suspending Amazon EC2 Auto Scaling processes",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-codedeploy-suspend-asg-processes/",
-        "summary": "AWS CodeDeploy can now suspend Amazon EC2 Auto Scaling processes during EC2 in-place deployments to Auto Scaling groups. CodeDeploy is a fully managed service that automates application deployments…",
-        "date": "2026年11月23日",
-        "date_iso": "2026-11-23",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
         "title": "Amazon Inspector expands runtime reachability analysis for ECR and EC2 findings",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/inspector-runtime-reachability/",
         "summary": "Amazon Inspector has expanded its vulnerability management capabilities with runtime reachability analysis for findings originating from Amazon Elastic Container Registry (Amazon ECR) and Amazon…",
@@ -325,9 +385,9 @@
         "tag": "AWS"
       },
       {
-        "title": "AWS Systems Manager Automation now automates operational tasks in Azure and Google Cloud",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/systems-manager-multicloud-automation/",
-        "summary": "AWS Systems Manager Automation now lets you create custom workflows (runbooks) that can automate operational tasks across Microsoft Azure, Google Cloud, and AWS resources. Automation helps you make…",
+        "title": "AWS CodeDeploy now supports suspending Amazon EC2 Auto Scaling processes",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-codedeploy-suspend-asg-processes/",
+        "summary": "AWS CodeDeploy can now suspend Amazon EC2 Auto Scaling processes during EC2 in-place deployments to Auto Scaling groups. CodeDeploy is a fully managed service that automates application deployments…",
         "date": "2026年11月23日",
         "date_iso": "2026-11-23",
         "category": "compute-tag",
@@ -335,71 +395,11 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon EC2 Capacity Blocks for ML now supports search across multiple instance types and AWS Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/ec2-capacity-blocks-ml-flex-search/",
-        "summary": "Amazon EC2 Capacity Blocks for ML now lets customers search across multiple instance types and AWS Regions in a single search, making it easier to find and reserve the capacity their ML workloads…",
+        "title": "API security with WAF",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/api-security-with-waf/",
+        "summary": "Automated API discovery and protection are now generally available, enabling you to discover every API behind Amazon API Gateway, Application Load Balancers, and Amazon CloudFront across your AWS…",
         "date": "2026年11月23日",
         "date_iso": "2026-11-23",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "You can now copy data server-side between Amazon S3 buckets and Amazon FSx file systems with S3 Access Points",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/s3-access-points-server-side-copy-fsx/",
-        "summary": "You can now use Amazon S3 Access Points to copy or move data server-side between Amazon S3 general purpose buckets and Amazon FSx file systems within the same AWS Region, making it faster,…",
-        "date": "2026年11月22日",
-        "date_iso": "2026-11-22",
-        "category": "storage-tag",
-        "cat_label": "ストレージ",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Certificate Manager now supports Amazon N2 certificates for mTLS",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/acm-amazon-n2-certificates/",
-        "summary": "AWS Certificate Manager (ACM) now issues Amazon N2 certificates for mutual TLS (mTLS) and other authentication outside web browsers. ACM public certificates no longer include client authentication,…",
-        "date": "2026年11月21日",
-        "date_iso": "2026-11-21",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon CloudWatch Query Studio now supports saved queries",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-query-studio-saved-queries",
-        "summary": "Amazon CloudWatch Query Studio now lets you save your PromQL and SQL metrics queries and reuse them. You no longer need to rewrite or search for queries you run often, such as a latency query you…",
-        "date": "2026年11月21日",
-        "date_iso": "2026-11-21",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Quick now supports plugins to bundle agents, skills, connectors and flows",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-plugins-bundle-agents-skills-connectors-flows/",
-        "summary": "AWS Quick now supports plugins, agents, skills, connectors, and flows built for a specific task, role, or use case. Most work draws on several of these at once: connectors to reach your systems,…",
-        "date": "2026年11月21日",
-        "date_iso": "2026-11-21",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon CloudWatch Omni now supports Microsoft Azure platform logs, metrics and traces",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-omni-microsoft-azure",
-        "summary": "Amazon CloudWatch Omni now supports collecting Azure resource logs, Azure Monitor platform metrics, virtual network (VNet) flow logs, and traces from Application Insights. Teams that run workloads on…",
-        "date": "2026年11月21日",
-        "date_iso": "2026-11-21",
-        "category": "network-tag",
-        "cat_label": "ネットワーク",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Quick launches a new web experience with updated browser extension and Microsoft 365 add-ins",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-launches-new-web-experience-updated-browser-extension-microsoft-365-add-ins/",
-        "summary": "The AWS Quick web app now brings the Quick desktop experience to your browser. Create, share, and use the same agents and skills as on desktop, with the same connectors. Start each day with a daily…",
-        "date": "2026年11月21日",
-        "date_iso": "2026-11-21",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "AWS"
