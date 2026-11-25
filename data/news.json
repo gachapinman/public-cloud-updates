@@ -1,5 +1,5 @@
 {
-  "updated": "2026年11月25日 17:37 JST",
+  "updated": "2026年11月25日 22:23 JST",
   "clouds": {
     "azure": [
       {
@@ -409,11 +409,11 @@
       {
         "title": "November 24, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_24_2026",
-        "summary": "BigQuery Feature The following table-valued functions are now generally available (GA) in the query editor and as part of conversational analytics to help you analyze your data: ML.TREND : identify…",
+        "summary": "Apigee hybrid Announcement v1.15.11 On November 24, 2026, we released an updated version of the Apigee hybrid software, v1.15.11. For information about upgrading, see Upgrading Apigee hybrid to…",
         "date": "2026年11月24日",
         "date_iso": "2026-11-24",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
         "tag": "GCP"
       },
       {
