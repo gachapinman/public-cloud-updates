@@ -1,5 +1,5 @@
 {
-  "updated": "2026年11月25日 05:21 JST",
+  "updated": "2026年11月25日 17:37 JST",
   "clouds": {
     "azure": [
       {
@@ -205,6 +205,56 @@
     ],
     "aws": [
       {
+        "title": "Amazon Bedrock adds bedrock-runtime endpoint support for OpenAI Daybreak Red in AWS GovCloud (US)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/gpt-daybreak-red-runtime-govcloud/",
+        "summary": "Eligible customers can now access OpenAI’s specialized cybersecurity models Daybreak Red: GPT-5.6 Cyber through the bedrock-runtime endpoint on Amazon Bedrock in AWS GovCloud (US). Daybreak Red is…",
+        "date": "2026年11月25日",
+        "date_iso": "2026-11-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon OpenSearch Serverless is now available in the Africa (Cape Town) Region",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-serverless-available-cape-town-region/",
+        "summary": "Starting today, the next generation of Amazon OpenSearch Serverless is available in the AWS Africa (Cape Town) Region. Customers can now use a fully managed search, vector and analytics engine that…",
+        "date": "2026年11月25日",
+        "date_iso": "2026-11-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS CloudFormation makes resource coverage comprehensive with 206 new types",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudformation-coverage-expansion/",
+        "summary": "AWS CloudFormation now supports 206 additional resource types across 88 services, including Amazon SageMaker Hub, Amazon Bedrock AgentCore PolicyEngine, and Amazon EC2 Snapshot. This closes key gaps…",
+        "date": "2026年11月25日",
+        "date_iso": "2026-11-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon Connect Customer dashboards now support grouping historical metrics by time interval",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-connect-time-interval/",
+        "summary": "Amazon Connect Customer analytics dashboards now support grouping historical metrics by time interval on trailing widgets, giving contact center managers granular control over how performance data is…",
+        "date": "2026年11月25日",
+        "date_iso": "2026-11-25",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon RDS for SQL Server now supports up to 500 databases per instance",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-sqlserver-supports-500-databases-per-instance",
+        "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports up to 500 databases per DB instance, up from the previous limit of 100. This higher density helps software as a service…",
+        "date": "2026年11月24日",
+        "date_iso": "2026-11-24",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon EC2 X8i instances are now available in the Asia Pacific (New Zealand) Region",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ec2-x8i-new-zealand/",
         "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) X8i instances are available in the Asia Pacific (New Zealand) Region. These instances are powered by custom Intel Xeon 6 processors available…",
@@ -345,75 +395,35 @@
         "tag": "AWS"
       },
       {
-        "title": "RDS PostgreSQL now supports PostgreSQL 19.0 in the Amazon RDS Database Preview Environment",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/postgresql-19-amazon-rds-database-preview-environment/",
-        "summary": "Starting today, Amazon RDS for PostgreSQL 19.0 is available in the Amazon RDS Database Preview Environment , allowing you to evaluate PostgreSQL 19.0 on Amazon RDS PostgreSQL. PostgreSQL 19.0…",
+        "title": "AWS Quick adds identity-aware access via 3LO for Snowflake and Databricks structured data sources",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-snowflake-databricks-3lo-end-user-permissions/",
+        "summary": "AWS Quick now supports three-legged OAuth (3LO) with end-user permissions for Snowflake and Databricks.&nbsp;When end users in AWS Quick consume Chat, interactive dashboards, or Apps, queries run…",
         "date": "2026年11月24日",
         "date_iso": "2026-11-24",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Global Accelerator now preserves client IPs for NLBs with TLS listeners",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/global-accelerator-client-ip-nlb-tls/",
-        "summary": "AWS Global Accelerator now preserves the client IP address for traffic sent to Network Load Balancer (NLB) endpoints with TLS listeners. You can terminate TLS at your NLB and still see the original…",
-        "date": "2026年11月24日",
-        "date_iso": "2026-11-24",
-        "category": "network-tag",
-        "cat_label": "ネットワーク",
-        "tag": "AWS"
-      },
-      {
-        "title": "Announcing metal size for Amazon EC2 G7 instances",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-g7-metal-size/",
-        "summary": "Today, AWS announces the general availability of the metal size for Amazon Elastic Compute Cloud (Amazon EC2) G7 instances, accelerated by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs. G7…",
-        "date": "2026年11月24日",
-        "date_iso": "2026-11-24",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Aurora serverless for MySQL now supports up to 384 ACUs",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aurora-serverless-mysql-supports-384-acu/",
-        "summary": "Amazon Aurora serverless now supports database capacity of up to 384 Aurora Capacity Units (ACUs) for Aurora MySQL-Compatible Edition, a 50% increase from the previous maximum of 256 ACUs. Each ACU…",
-        "date": "2026年11月24日",
-        "date_iso": "2026-11-24",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon SageMaker Studio now supports training job submission and model deployment for SageMaker HyperPod clusters",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-studio-hyperpod/",
-        "summary": "Amazon SageMaker Studio now provides a native developer experience for Amazon SageMaker HyperPod, enabling data scientists to submit distributed training jobs, deploy models, and monitor workloads…",
-        "date": "2026年11月23日",
-        "date_iso": "2026-11-23",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Connect Customer AI agents now fill in step-by-step guides",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/connect-ai-agents-fill-guides/",
-        "summary": "AI agents in Amazon Connect Customer can now populate fields of a step-by-step guide for contact center agents during live customer interactions. With step-by-step guides, managers can design forms…",
-        "date": "2026年11月23日",
-        "date_iso": "2026-11-23",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
         "tag": "AWS"
       }
     ],
     "gcp": [
       {
-        "title": "November 23, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#November_23_2026",
-        "summary": "App Engine flexible environment Node.js Feature Support for the Node.js 26 runtime is in General Availability (GA) . App Engine flexible environment Python Feature Support for the Python 3.15 runtime…",
-        "date": "2026年11月23日",
-        "date_iso": "2026-11-23",
+        "title": "November 24, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#November_24_2026",
+        "summary": "BigQuery Feature The following table-valued functions are now generally available (GA) in the query editor and as part of conversational analytics to help you analyze your data: ML.TREND : identify…",
+        "date": "2026年11月24日",
+        "date_iso": "2026-11-24",
         "category": "ai-tag",
         "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
+        "title": "November 23, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#November_23_2026",
+        "summary": "Apigee Edge for Public Cloud Announcement Released Edge Microgateway 3.3.13. Component Version microgateway 3.3.13 plugins 3.3.9 edgeauth 3.2.2 To upgrade, install edgemicro@3.3.13 from npm or pull…",
+        "date": "2026年11月23日",
+        "date_iso": "2026-11-23",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
         "tag": "GCP"
       },
       {
@@ -595,19 +605,29 @@
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "GCP"
-      },
-      {
-        "title": "November 03, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#November_03_2026",
-        "summary": "API Gateway Feature Call Google Cloud APIs from streaming gateways Streaming gateways can now call Google Cloud APIs such as aiplatform.googleapis.com . A gateway with an effectiveStreamingMode of…",
-        "date": "2026年11月3日",
-        "date_iso": "2026-11-03",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
       }
     ],
     "oci": [
+      {
+        "title": "Manage Kafka cluster configurations in the Console",
+        "link": "https://docs.oracle.com/iaas/releasenotes/kafka/cluster-configurations-console.htm",
+        "summary": "",
+        "date": "2026年11月24日",
+        "date_iso": "2026-11-24",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
+        "title": "OCI Kubernetes Engine (OKE) support for provisioning block volumes in cluster placement groups",
+        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng_CPG-based-block-volume-provisioning.htm",
+        "summary": "",
+        "date": "2026年11月18日",
+        "date_iso": "2026-11-18",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "OCI"
+      },
       {
         "title": "HeatWave: New Shape, MySQL.384",
         "link": "https://docs.oracle.com/iaas/releasenotes/mysql-database/heatwave-mysql384-new-shape.htm",
@@ -626,16 +646,6 @@
         "date_iso": "2026-11-18",
         "category": "database-tag",
         "cat_label": "データベース",
-        "tag": "OCI"
-      },
-      {
-        "title": "OCI Kubernetes Engine (OKE) support for provisioning block volumes in cluster placement groups",
-        "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng_CPG-based-block-volume-provisioning.htm",
-        "summary": "",
-        "date": "2026年11月18日",
-        "date_iso": "2026-11-18",
-        "category": "container-tag",
-        "cat_label": "コンテナ",
         "tag": "OCI"
       },
       {
@@ -791,16 +801,6 @@
       {
         "title": "Monitor GoldenGate Deployments in Database Management",
         "link": "https://docs.oracle.com/iaas/releasenotes/database-management/goldengate-monitoring.htm",
-        "summary": "",
-        "date": "2026年11月5日",
-        "date_iso": "2026-11-05",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "OCI"
-      },
-      {
-        "title": "Job Templates in Database Management",
-        "link": "https://docs.oracle.com/iaas/releasenotes/database-management/job-templates.htm",
         "summary": "",
         "date": "2026年11月5日",
         "date_iso": "2026-11-05",
