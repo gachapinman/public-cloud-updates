@@ -1,5 +1,5 @@
 {
-  "updated": "2026年11月25日 22:23 JST",
+  "updated": "2026年11月26日 04:36 JST",
   "clouds": {
     "azure": [
       {
@@ -205,6 +205,66 @@
     ],
     "aws": [
       {
+        "title": "Amazon EC2 M8g instances are now available in Israel (Tel Aviv)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ec2-m8g-instances-telaviv-region/",
+        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) M8g instances are available in the Israel (Tel Aviv) region. These instances are powered by AWS Graviton4 processors and deliver up to 30%…",
+        "date": "2026年11月26日",
+        "date_iso": "2026-11-26",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 M9gd instances are now available in Asia Pacific (Seoul)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ec2-m9gd-asiapacific-seoul/",
+        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) M9gd instances are available in the Asia Pacific (Seoul) region. These instances are powered by AWS Graviton5 processors, the fifth…",
+        "date": "2026年11月26日",
+        "date_iso": "2026-11-26",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 C9gd instances now available in additional regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ec2-c9gd-instances-additional-regions/",
+        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C9gd instances are available in the Europe (Ireland, Spain) regions. These instances are powered by AWS Graviton5 processors, the fifth…",
+        "date": "2026年11月26日",
+        "date_iso": "2026-11-26",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 C9g instances are now available in additional regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ec2-c9g-instances-additional-regions/",
+        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C9g instances are available in the Asia Pacific (Sydney), Europe (Ireland, Spain), and South America (São Paulo) regions. These instances are…",
+        "date": "2026年11月26日",
+        "date_iso": "2026-11-26",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "Amazon EC2 M9g instances now available in additional regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ec2-m9g-instances-additional-regions/",
+        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) M9g instances, powered by AWS Graviton5 processors, are available in US West (N. California), Canada (Central), South America (São Paulo),…",
+        "date": "2026年11月26日",
+        "date_iso": "2026-11-26",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "AWS"
+      },
+      {
+        "title": "AWS IAM extends trusted identity propagation to IAM federation and IAM Roles Anywhere, and simplifies it in IAM…",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-iam/",
+        "summary": "Trusted identity propagation (TIP) carries the identity of a human user or workload with requests to supported AWS Services. Customers can use that identity in IAM policy conditions for access…",
+        "date": "2026年11月25日",
+        "date_iso": "2026-11-25",
+        "category": "security-tag",
+        "cat_label": "セキュリティ",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon Bedrock adds bedrock-runtime endpoint support for OpenAI Daybreak Red in AWS GovCloud (US)",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/gpt-daybreak-red-runtime-govcloud/",
         "summary": "Eligible customers can now access OpenAI’s specialized cybersecurity models Daybreak Red: GPT-5.6 Cyber through the bedrock-runtime endpoint on Amazon Bedrock in AWS GovCloud (US). Daybreak Red is…",
@@ -342,66 +402,6 @@
         "date_iso": "2026-11-24",
         "category": "ai-tag",
         "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon Connect Customer expands automated performance evaluations to 45 new languages",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-connect-customer-expands-automated-performance-evaluations-new-languages/",
-        "summary": "Amazon Connect Customer now uses generative AI to automate evaluations of human and AI agent performance in 45 additional languages, such as Arabic, Dutch, Indonesian, and Polish.&nbsp;Managers…",
-        "date": "2026年11月24日",
-        "date_iso": "2026-11-24",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon CloudFront is now available in the AWS European Sovereign Cloud",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudfront-european-sovereign-cloud",
-        "summary": "Amazon CloudFront is now available in the AWS European Sovereign Cloud. Organizations with strict EU sovereignty requirements can now deliver websites, applications, and APIs with the performance,…",
-        "date": "2026年11月24日",
-        "date_iso": "2026-11-24",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Partner Central expands analytics access with Partner Central Agents and Data Subscriptions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/partner-analytics-agent-s3/",
-        "summary": "AWS Partners and AWS Marketplace sellers now have two new ways to access their analytics data in AWS Partner Central. Partner Central Agents answer questions in plain language, and Data Subscriptions…",
-        "date": "2026年11月24日",
-        "date_iso": "2026-11-24",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AgentCore runtime instances are now generally available in the AWS GovCloud (US-West) Region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/agentcore-runtime-instances-govcloud",
-        "summary": "Amazon Bedrock AgentCore runtime instances are now available in the AWS GovCloud (US-West) Region. Runtime instances run your agents on Amazon EC2 instances in your own account, while AgentCore…",
-        "date": "2026年11月24日",
-        "date_iso": "2026-11-24",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon CloudFront Announces HTTP/2 Support for Connections to Origins",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-cloudfront-http2-origins/",
-        "summary": "Amazon CloudFront now supports HTTP/2 connections to custom origins and VPC origins. HTTP/2 lets CloudFront send many requests over fewer connections to your origin. This means fewer connections and…",
-        "date": "2026年11月24日",
-        "date_iso": "2026-11-24",
-        "category": "network-tag",
-        "cat_label": "ネットワーク",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Quick adds identity-aware access via 3LO for Snowflake and Databricks structured data sources",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-snowflake-databricks-3lo-end-user-permissions/",
-        "summary": "AWS Quick now supports three-legged OAuth (3LO) with end-user permissions for Snowflake and Databricks.&nbsp;When end users in AWS Quick consume Chat, interactive dashboards, or Apps, queries run…",
-        "date": "2026年11月24日",
-        "date_iso": "2026-11-24",
-        "category": "security-tag",
-        "cat_label": "セキュリティ",
         "tag": "AWS"
       }
     ],
@@ -609,6 +609,26 @@
     ],
     "oci": [
       {
+        "title": "Retain backups after database termination",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-11-retain-backup.htm",
+        "summary": "",
+        "date": "2026年11月24日",
+        "date_iso": "2026-11-24",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Semantic Context for Select AI",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-11-semantic-select-ai.htm",
+        "summary": "",
+        "date": "2026年11月24日",
+        "date_iso": "2026-11-24",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
         "title": "Manage Kafka cluster configurations in the Console",
         "link": "https://docs.oracle.com/iaas/releasenotes/kafka/cluster-configurations-console.htm",
         "summary": "",
@@ -659,6 +679,26 @@
         "tag": "OCI"
       },
       {
+        "title": "Oracle Autonomous AI Vector Databases",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-11-vec-db.htm",
+        "summary": "",
+        "date": "2026年11月17日",
+        "date_iso": "2026-11-17",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "OCI"
+      },
+      {
+        "title": "Update for Oracle-Managed Heterogeneous Connectivity Database Links",
+        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-11-update-db-link.htm",
+        "summary": "",
+        "date": "2026年11月17日",
+        "date_iso": "2026-11-17",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "OCI"
+      },
+      {
         "title": "Updates to OCI Kubernetes Engine (OKE) cluster add-ons",
         "link": "https://docs.oracle.com/iaas/releasenotes/conteng/conteng-Add-on-release-notes-Oct-2026-Release-Note.htm",
         "summary": "",
@@ -689,51 +729,11 @@
         "tag": "OCI"
       },
       {
-        "title": "Oracle Autonomous AI Vector Databases",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-11-vec-db.htm",
-        "summary": "",
-        "date": "2026年11月17日",
-        "date_iso": "2026-11-17",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "OCI"
-      },
-      {
-        "title": "Update for Oracle-Managed Heterogeneous Connectivity Database Links",
-        "link": "https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-11-update-db-link.htm",
-        "summary": "",
-        "date": "2026年11月17日",
-        "date_iso": "2026-11-17",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "OCI"
-      },
-      {
         "title": "Customize egress and add mounts in jobs running on compute targets",
         "link": "https://docs.oracle.com/iaas/releasenotes/data-science/egress-mounts-jobs-compute-targets.htm",
         "summary": "",
         "date": "2026年11月11日",
         "date_iso": "2026-11-11",
-        "category": "compute-tag",
-        "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "HeatWave: Dedicated MySQL Studio Tab Added and Telemetry Tab Renamed to Logs",
-        "link": "https://docs.oracle.com/iaas/releasenotes/mysql-database/heatwave-mysqlstudio-logs-nav-update.htm",
-        "summary": "",
-        "date": "2026年11月10日",
-        "date_iso": "2026-11-10",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "OCI"
-      },
-      {
-        "title": "Oracle Cloud Migrations supports ARM migrations for AWS EC2 instances",
-        "link": "https://docs.oracle.com/iaas/releasenotes/cloud-migration/ocm_aws_arm_migration.htm",
-        "summary": "",
-        "date": "2026年11月10日",
-        "date_iso": "2026-11-10",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
         "tag": "OCI"
@@ -769,6 +769,26 @@
         "tag": "OCI"
       },
       {
+        "title": "HeatWave: Dedicated MySQL Studio Tab Added and Telemetry Tab Renamed to Logs",
+        "link": "https://docs.oracle.com/iaas/releasenotes/mysql-database/heatwave-mysqlstudio-logs-nav-update.htm",
+        "summary": "",
+        "date": "2026年11月10日",
+        "date_iso": "2026-11-10",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "OCI"
+      },
+      {
+        "title": "Oracle Cloud Migrations supports ARM migrations for AWS EC2 instances",
+        "link": "https://docs.oracle.com/iaas/releasenotes/cloud-migration/ocm_aws_arm_migration.htm",
+        "summary": "",
+        "date": "2026年11月10日",
+        "date_iso": "2026-11-10",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "OCI"
+      },
+      {
         "title": "Enhanced Flow Runtime nodes and resource limits",
         "link": "https://docs.oracle.com/iaas/releasenotes/internet-of-things/update-11102026.htm",
         "summary": "",
@@ -786,26 +806,6 @@
         "date_iso": "2026-11-06",
         "category": "compute-tag",
         "cat_label": "コンピューティング",
-        "tag": "OCI"
-      },
-      {
-        "title": "Privilege Analysis in Database Management",
-        "link": "https://docs.oracle.com/iaas/releasenotes/database-management/privilege-analysis.htm",
-        "summary": "",
-        "date": "2026年11月5日",
-        "date_iso": "2026-11-05",
-        "category": "database-tag",
-        "cat_label": "データベース",
-        "tag": "OCI"
-      },
-      {
-        "title": "Monitor GoldenGate Deployments in Database Management",
-        "link": "https://docs.oracle.com/iaas/releasenotes/database-management/goldengate-monitoring.htm",
-        "summary": "",
-        "date": "2026年11月5日",
-        "date_iso": "2026-11-05",
-        "category": "database-tag",
-        "cat_label": "データベース",
         "tag": "OCI"
       }
     ]
