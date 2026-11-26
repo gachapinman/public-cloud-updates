@@ -1,5 +1,5 @@
 {
-  "updated": "2026年11月26日 22:02 JST",
+  "updated": "2026年11月27日 04:17 JST",
   "clouds": {
     "azure": [
       {
@@ -407,6 +407,16 @@
     ],
     "gcp": [
       {
+        "title": "November 26, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#November_26_2026",
+        "summary": "Managed Service for Apache Airflow Feature Agentic upgrade check is available in Managed Airflow. Before upgrading your environment, you can run an upgrade check in the Google Cloud console to ask…",
+        "date": "2026年11月26日",
+        "date_iso": "2026-11-26",
+        "category": "ai-tag",
+        "cat_label": "AI / ML",
+        "tag": "GCP"
+      },
+      {
         "title": "November 25, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_25_2026",
         "summary": "BigQuery Feature You can use cross-cloud connections to query data in AWS, Azure, and Salesforce Data 360 from all BigQuery regions with more feature availability than standard connections that use…",
@@ -592,16 +602,6 @@
         "summary": "Agent Registry Feature Skill security scanning and governance in Agent Registry are available. You can automatically scan standalone skill revisions for security issues, review Finding resources,…",
         "date": "2026年11月6日",
         "date_iso": "2026-11-06",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "November 05, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#November_05_2026",
-        "summary": "Apigee Edge for Public Cloud Announcement Scheduled maintenance of Management/Control Plane for the Apigee Edge for Public Cloud on November 6, 2026. Scheduled maintenance of Management/Control Plane…",
-        "date": "2026年11月5日",
-        "date_iso": "2026-11-05",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
