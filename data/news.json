@@ -1,5 +1,5 @@
 {
-  "updated": "2026年11月27日 22:00 JST",
+  "updated": "2026年11月28日 04:11 JST",
   "clouds": {
     "azure": [
       {
@@ -385,9 +385,9 @@
         "tag": "AWS"
       },
       {
-        "title": "Amazon OpenSearch Service new engine now joins logs, traces, and metadata",
+        "title": "Amazon OpenSearch Service optimized engine supports high-cardinality query and DSL",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-service-distributed-joins",
-        "summary": "Amazon OpenSearch Service now supports distributed joins, high-cardinality aggregations, and OpenSearch query DSL on the new engine. Observability data often spans logs, traces, service metadata,…",
+        "summary": "Amazon OpenSearch Service now supports distributed joins, high-cardinality aggregations, and OpenSearch query DSL on the new engine. Observability data often spans logs, traces, and agent traces.…",
         "date": "2026年11月25日",
         "date_iso": "2026-11-25",
         "category": "compute-tag",
@@ -406,6 +406,16 @@
       }
     ],
     "gcp": [
+      {
+        "title": "November 27, 2026",
+        "link": "https://docs.cloud.google.com/release-notes#November_27_2026",
+        "summary": "Managed Service for Apache Spark Feature Private Preview: Managed Service for Apache Spark on GKE v2 Run fully managed Apache Spark workloads natively on your Standard GKE clusters with the…",
+        "date": "2026年11月27日",
+        "date_iso": "2026-11-27",
+        "category": "container-tag",
+        "cat_label": "コンテナ",
+        "tag": "GCP"
+      },
       {
         "title": "November 26, 2026",
         "link": "https://docs.cloud.google.com/release-notes#November_26_2026",
@@ -592,16 +602,6 @@
         "summary": "Google SecOps SOAR Announcement Release 6.3.105 is now available for all regions.",
         "date": "2026年11月7日",
         "date_iso": "2026-11-07",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "GCP"
-      },
-      {
-        "title": "November 06, 2026",
-        "link": "https://docs.cloud.google.com/release-notes#November_06_2026",
-        "summary": "Agent Registry Feature Skill security scanning and governance in Agent Registry are available. You can automatically scan standalone skill revisions for security issues, review Finding resources,…",
-        "date": "2026年11月6日",
-        "date_iso": "2026-11-06",
         "category": "ai-tag",
         "cat_label": "AI / ML",
         "tag": "GCP"
