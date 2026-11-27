@@ -1,5 +1,5 @@
 {
-  "updated": "2026年11月27日 04:17 JST",
+  "updated": "2026年11月27日 17:36 JST",
   "clouds": {
     "azure": [
       {
@@ -205,6 +205,16 @@
     ],
     "aws": [
       {
+        "title": "Amazon RDS for PostgreSQL supports minor versions 18.7, 17.12, 16.16, 15.20, and 14.25",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-postgresql-18-7-17-12-16-16-15-20-14-25/",
+        "summary": "Amazon Relational Database Service (RDS) for PostgreSQL now supports the latest minor versions 18.7, 17.12, 16.16, 15.20, and 14.25. We recommend that you upgrade to the latest minor versions to…",
+        "date": "2026年11月27日",
+        "date_iso": "2026-11-27",
+        "category": "database-tag",
+        "cat_label": "データベース",
+        "tag": "AWS"
+      },
+      {
         "title": "AWS Lambda now supports orchestrating MicroVMs with Lambda durable functions",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/lambda-durable-microvm/",
         "summary": "Today, AWS announces a developer preview of a new extension for orchestrating Lambda MicroVMs with Lambda durable functions . The extension adds durable operations for running work on MicroVMs and…",
@@ -375,6 +385,16 @@
         "tag": "AWS"
       },
       {
+        "title": "Amazon OpenSearch Service new engine now joins logs, traces, and metadata",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-service-distributed-joins",
+        "summary": "Amazon OpenSearch Service now supports distributed joins, high-cardinality aggregations, and OpenSearch query DSL on the new engine. Observability data often spans logs, traces, service metadata,…",
+        "date": "2026年11月25日",
+        "date_iso": "2026-11-25",
+        "category": "compute-tag",
+        "cat_label": "コンピューティング",
+        "tag": "AWS"
+      },
+      {
         "title": "Amazon RDS for SQL Server now supports up to 500 databases per instance",
         "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-sqlserver-supports-500-databases-per-instance",
         "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports up to 500 databases per DB instance, up from the previous limit of 100. This higher density helps software as a service…",
@@ -382,26 +402,6 @@
         "date_iso": "2026-11-24",
         "category": "database-tag",
         "cat_label": "データベース",
-        "tag": "AWS"
-      },
-      {
-        "title": "Amazon EC2 X8i instances are now available in the Asia Pacific (New Zealand) Region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ec2-x8i-new-zealand/",
-        "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) X8i instances are available in the Asia Pacific (New Zealand) Region. These instances are powered by custom Intel Xeon 6 processors available…",
-        "date": "2026年11月24日",
-        "date_iso": "2026-11-24",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
-        "tag": "AWS"
-      },
-      {
-        "title": "AWS Sign-In introduces configurable Sign-in duration of up to 90 days",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/configurable-aws-sign-in-duration/",
-        "summary": "AWS Sign-In now enables developers and AI agents to stay authenticated for up to 90 days without frequent sign-ins or consent prompts. With this launch, administrators can configure Sign-in duration…",
-        "date": "2026年11月24日",
-        "date_iso": "2026-11-24",
-        "category": "ai-tag",
-        "cat_label": "AI / ML",
         "tag": "AWS"
       }
     ],
